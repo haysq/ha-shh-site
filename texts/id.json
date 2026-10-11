@@ -504,6 +504,10 @@
         "body": "<p>Aplikasi ini tidak memiliki izin internet. Tidak ada server, akun, iklan, analitik, atau alat pelaporan kerusakan. Tidak ada data dari aplikasi yang sampai ke pengembang atau pihak mana pun.</p>"
       },
       {
+        "h": "Pembayaran",
+        "body": "<p>Jika Anda membeli langganan, pembayaran dan langganan akan ditangani oleh Google Play, dan Google memproses informasi pembelian berdasarkan kebijakan privasinya sendiri. Aplikasi ini hanya mengetahui dari aplikasi Play Store di ponsel Anda apakah Anda memiliki langganan aktif; aplikasi tidak menggunakan koneksi internetnya sendiri untuk hal ini dan tidak melihat detail pembayaran Anda.</p>"
+      },
+      {
         "h": "Masukan melalui email",
         "body": "<p>Jika Anda menggunakan <b>Kirim masukan</b> di Pengaturan, aplikasi email Anda sendiri akan terbuka dengan pesan yang sudah disiapkan. Anda menulis dan mengirimkannya sendiri. Informasi perangkat (produsen, model, versi Android, versi aplikasi) hanya ditambahkan jika Anda mencentang opsi tersebut. Email terkirim melalui penyedia email Anda. Konten notifikasi dan aturan Anda tidak pernah ditambahkan. Jika Anda mengirim pesan, pengembang melihat alamat email Anda dan hanya menggunakannya untuk membalas Anda. Pesan yang diterima di {email} hanya digunakan untuk membalas Anda dan meningkatkan kualitas aplikasi, serta tidak dibagikan kepada pihak ketiga.</p>"
       },

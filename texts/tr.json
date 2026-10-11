@@ -504,6 +504,10 @@
         "body": "<p>Uygulamanın internet izni yoktur. Sunucu, hesap, reklam, analiz ya da çökme raporu aracı yoktur. Uygulamadaki hiçbir veri geliştiriciye ya da başka birine ulaşmaz.</p>"
       },
       {
+        "h": "Ödeme",
+        "body": "<p>Abonelik satın alırsan ödemeyi ve aboneliği Google Play yürütür; satın alma bilgisini Google kendi gizlilik politikasına göre işler. Uygulama yalnız telefonundaki Play Store uygulamasından etkin bir aboneliğin olup olmadığını öğrenir; bunun için kendi internet bağlantısını kullanmaz ve ödeme bilgilerini görmez.</p>"
+      },
+      {
         "h": "E-postayla geri bildirim",
         "body": "<p>Ayarlar'daki <b>Geri bildirim gönder</b> seçeneğini kullanırsan kendi e-posta uygulaman hazır bir mesajla açılır. Mesajı sen yazar ve sen gönderirsin. Cihaz bilgisi (üretici, model, Android sürümü, uygulama sürümü) yalnız bu seçeneği işaretlersen eklenir. E-posta, senin e-posta sağlayıcın üzerinden gider. Bildirim içeriği ve kuralların asla eklenmez. Mesajı gönderirsen geliştirici e-posta adresini görür ve onu yalnız sana yanıt vermek için kullanır. {email} adresine gelen mesajlar yalnız sana yanıt vermek ve uygulamayı geliştirmek için kullanılır, üçüncü kişilerle paylaşılmaz.</p>"
       },

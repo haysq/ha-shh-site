@@ -504,6 +504,10 @@
         "body": "<p>The app has no internet permission. There are no servers, accounts, ads, analytics or crash reporting tools. No data from the app reaches the developer or anyone else.</p>"
       },
       {
+        "h": "Payments",
+        "body": "<p>If you buy a subscription, the payment and the subscription are handled by Google Play, and Google processes the purchase information under its own privacy policy. The app only learns from the Play Store app on your phone whether you have an active subscription; it does not use its own internet connection for this and does not see your payment details.</p>"
+      },
+      {
         "h": "Feedback by email",
         "body": "<p>If you use <b>Send feedback</b> in Settings, your own email app opens with a prepared message. You write and send it yourself. Device information (manufacturer, model, Android version, app version) is added only if you tick that option. The email travels through your email provider. Notification content and your rules are never added. If you send the message, the developer sees your email address and uses it only to reply to you. Messages received at {email} are used only to reply to you and improve the app, and are not shared with third parties.</p>"
       },

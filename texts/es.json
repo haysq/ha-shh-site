@@ -504,6 +504,10 @@
         "body": "<p>La app no tiene permiso de internet. No hay servidores, cuentas, anuncios, analíticas ni herramientas de informes de fallos. Ningún dato de la app llega al desarrollador ni a terceros.</p>"
       },
       {
+        "h": "Pagos",
+        "body": "<p>Si compras una suscripción, el pago y la suscripción son gestionados por Google Play, y Google procesa la información de la compra según su propia política de privacidad. La aplicación solo se entera a través de la app de Play Store en tu teléfono si tienes una suscripción activa; no utiliza su propia conexión a internet para esto y no ve tus datos de pago.</p>"
+      },
+      {
         "h": "Comentarios por correo electrónico",
         "body": "<p>Si utilizas <b>Enviar comentarios</b> en Ajustes, se abrirá tu app de correo con un mensaje preparado. Tú mismo lo redactas y lo envías. La información sobre el dispositivo (fabricante, modelo, versión de Android, versión de la app) solo se incluye si marcas esa casilla. El correo viaja a través de tu proveedor de correo electrónico. El contenido de las notificaciones y tus reglas nunca se añaden. Si envías el mensaje, el desarrollador ve tu dirección de correo electrónico y la usa solo para responderte. Los mensajes recibidos en {email} se utilizan únicamente para responderte y mejorar la app, y no se comparten con terceros.</p>"
       },

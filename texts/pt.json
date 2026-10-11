@@ -504,6 +504,10 @@
         "body": "<p>O app não tem permissão de internet. Não há servidores, contas, anúncios, ferramentas de análise nem relatórios de falhas. Nenhum dado do app chega ao desenvolvedor ou a terceiros.</p>"
       },
       {
+        "h": "Pagamentos",
+        "body": "<p>Se você comprar uma assinatura, o pagamento e a assinatura são gerenciados pelo Google Play, e o Google processa as informações de compra de acordo com sua própria política de privacidade. O aplicativo apenas sabe, por meio do app Play Store no seu celular, se você tem uma assinatura ativa; ele não usa sua própria conexão com a internet para isso e não vê seus dados de pagamento.</p>"
+      },
+      {
         "h": "Feedback por e-mail",
         "body": "<p>Se você usar <b>Enviar feedback</b> nas Configurações, o seu app de e-mail abre com uma mensagem preparada. Você mesmo escreve e envia. Informações do dispositivo (fabricante, modelo, versão do Android, versão do app) só são incluídas se você marcar essa opção. O e-mail viaja através do seu provedor de e-mail. O conteúdo das notificações e suas regras nunca são adicionados. Se você enviar a mensagem, o desenvolvedor vê seu endereço de e-mail e o usa apenas para responder a você. Mensagens recebidas em {email} são usadas apenas para responder a você e melhorar o app, e não são compartilhadas com terceiros.</p>"
       },

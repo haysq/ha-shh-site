@@ -504,6 +504,10 @@
         "body": "<p>Die App besitzt keine Internetberechtigung. Es gibt keine Server, Konten, Werbung, Analyse- oder Absturzmelde-Tools. Keine Daten aus der App gelangen an den Entwickler oder Dritte.</p>"
       },
       {
+        "h": "Zahlungen",
+        "body": "<p>Wenn du ein Abonnement kaufst, werden die Zahlung und das Abonnement über Google Play abgewickelt, und Google verarbeitet die Kaufinformationen gemäß seiner eigenen Datenschutzerklärung. Die App erfährt lediglich über die Play Store App auf deinem Smartphone, ob du ein aktives Abonnement hast; sie nutzt dafür keine eigene Internetverbindung und sieht deine Zahlungsdaten nicht.</p>"
+      },
+      {
         "h": "Feedback per E-Mail",
         "body": "<p>Wenn du in den Einstellungen <b>Feedback senden</b> wählst, öffnet sich deine eigene E-Mail-App mit einer vorbereiteten Nachricht. Du verfasst und versendest sie selbst. Geräteinformationen (Hersteller, Modell, Android-Version, App-Version) werden nur hinzugefügt, wenn du das Häkchen setzt. Die E-Mail wird über deinen eigenen E-Mail-Anbieter übertragen. Benachrichtigungsinhalte und deine Regeln werden niemals hinzugefügt. Wenn du die Nachricht sendest, sieht der Entwickler deine E-Mail-Adresse und verwendet sie nur, um dir zu antworten. Nachrichten an {email} werden ausschließlich genutzt, um dir zu antworten und die App zu verbessern, und werden nicht an Dritte weitergegeben.</p>"
       },

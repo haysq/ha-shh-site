@@ -504,6 +504,10 @@
         "body": "<p>L'application ne dispose d'aucune autorisation Internet. Il n'y a ni serveurs, ni comptes, ni publicités, ni outils d'analyse ou de rapport de plantage. Aucune donnée issue de l'application ne parvient au développeur ni à qui que ce soit d'autre.</p>"
       },
       {
+        "h": "Paiements",
+        "body": "<p>Si vous souscrivez un abonnement, le paiement et l'abonnement sont gérés par Google Play, et Google traite les informations d'achat conformément à sa propre politique de confidentialité. L'application apprend uniquement via l'application Play Store sur votre téléphone si vous disposez d'un abonnement actif ; elle n'utilise pas sa propre connexion Internet pour cela et ne voit pas vos informations de paiement.</p>"
+      },
+      {
         "h": "Retour par e-mail",
         "body": "<p>Si vous utilisez <b>Envoyer un retour</b> dans les Paramètres, votre propre application de messagerie s'ouvre avec un message préparé. Vous le rédigez et l'envoyez vous-même. Les informations sur l'appareil (fabricant, modèle, version d'Android, version de l'application) ne sont ajoutées que si vous cochez cette case. L'e-mail transite par votre fournisseur de messagerie. Le contenu des notifications et vos règles ne sont jamais ajoutés. Si vous envoyez le message, le développeur voit votre adresse e-mail et l'utilise uniquement pour vous répondre. Les messages reçus à l'adresse {email} ne servent qu'à vous répondre et à améliorer l'application, et ne sont pas partagés avec des tiers.</p>"
       },
