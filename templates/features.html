@@ -1,0 +1,26 @@
+<section class="page-head">
+  <div class="wrap">
+    <span class="eyebrow">{{common.nav_features}}</span>
+    <h1>{{page.h1}}</h1>
+    <p class="lead">{{page.lead}}</p>
+  </div>
+</section>
+
+{{#each page.groups}}<section class="feat-group">
+  <div class="wrap">
+    <h2 class="h2">{{.h}}</h2>
+    <div class="grid g2">{{.items_html}}</div>
+  </div>
+</section>
+{{/each}}
+
+<section class="alt" id="tech">
+  <div class="wrap narrow">
+    <span class="eyebrow">{{page.tech_eyebrow}}</span>
+    <h2 class="h2">{{page.tech_h}}</h2>
+    <p>{{page.tech_p}}</p>
+    <dl class="specs">
+      {{#each page.tech}}<div><dt>{{.k}}</dt><dd>{{.v}}</dd></div>{{/each}}
+    </dl>
+  </div>
+</section>

@@ -1,0 +1,9 @@
+# build output
+public_html/
+# local working files (not part of the public repo)
+texts/raw/
+YAYIN_NOTU.md
+YAYIN_RAPORU.md
+translate.sh
+.DS_Store
+__pycache__/

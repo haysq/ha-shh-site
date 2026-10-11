@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ha-shh.com/sitemap.xml

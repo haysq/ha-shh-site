@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "name": "English",
+    "dir": "ltr",
+    "locale": "en_US"
+  },
+  "common": {
+    "brand": "ha!shh",
+    "skip": "Skip to content",
+    "nav_label": "Main menu",
+    "nav_demo": "Live demo",
+    "nav_features": "Features",
+    "nav_privacy": "Privacy",
+    "nav_faq": "FAQ",
+    "lang_label": "Language",
+    "theme_label": "Theme",
+    "theme_auto": "Theme: follow device",
+    "theme_light": "Theme: light",
+    "theme_dark": "Theme: dark",
+    "menu": "Menu",
+    "soon_small": "Coming soon",
+    "soon_big": "on Google Play",
+    "soon_aria": "Coming soon on Google Play",
+    "chips": [
+      {
+        "t": "No internet permission"
+      },
+      {
+        "t": "Everything stays on your phone, encrypted"
+      },
+      {
+        "t": "No ads, no analytics"
+      }
+    ],
+    "dev_role": "Developer · Karabük, Türkiye",
+    "footer_by": "Developed by Seçkin Çelik · Karabük, Türkiye",
+    "footer_label": "Footer menu",
+    "footer_privacy": "Privacy policy",
+    "footer_faq": "FAQ and support",
+    "mt_note": ""
+  },
+  "home": {
+    "title": "{brand} · Notifications that fit your day",
+    "desc": "An Android app that holds the notifications you choose and delivers them together at the times you set. No internet permission; everything stays on your phone. In development, coming soon on Google Play.",
+    "eyebrow": "Android · in development",
+    "h1a": "Notifications that",
+    "h1b": "fit your day.",
+    "lead": "It holds the notifications you choose and delivers them together at times you set, such as 12:30, 18:00 and 21:00. Calls, alarms and the apps you mark as important always come through right away.",
+    "btn_demo": "Watch a day ↓",
+    "demo_h": "Watch one day pass in a minute.",
+    "demo_p": "The ring is a 24-hour plan, just like in the app. As the clock moves, the active mode changes, and each incoming notification is shown right away, held until the next delivery time, or blocked. At each delivery time, everything waiting arrives together.",
+    "dial_aria": "24-hour plan dial",
+    "fast": "Speed ×3",
+    "restart": "Restart the day",
+    "st_arr": "notifications arrived",
+    "st_now": "shown right away",
+    "st_held": "delivered together",
+    "st_quiet": "interruptions avoided",
+    "lane_now": "Arriving now",
+    "lane_now_s": "important or allowed",
+    "lane_wait": "Waiting",
+    "empty": "Nothing is waiting.",
+    "demo_fine": "An animation with example rules and example app types. Everything is generated in your browser; it is not real usage data.",
+    "how_eyebrow": "How it works",
+    "how_h": "One choice per app. The app does the rest.",
+    "how_p": "Pick one of four options for each app. Set delivery times that fit your day, then choose a mode or let the weekly plan switch modes for you.",
+    "actions": [
+      {
+        "t": "Immediately",
+        "p": "The notification arrives as usual."
+      },
+      {
+        "t": "Hold",
+        "p": "The notification waits quietly while the chosen mode is on."
+      },
+      {
+        "t": "At delivery time",
+        "p": "Collected and delivered together at the times you choose (for example 12:30, 18:00, 21:00)."
+      },
+      {
+        "t": "Block",
+        "p": "Notifications from this app are not shown."
+      }
+    ],
+    "never_eyebrow": "What matters gets through",
+    "never_h": "Some things are never held.",
+    "never_p": "Calls, alarms, reminders, calendar and navigation notifications always come through. You can add apps such as your bank or hospital app to the <b>Never hold</b> list; they come through in every mode. If you like, you get one more reminder when one of their notifications is not opened within five minutes.",
+    "never_list": [
+      {
+        "t": "Calls and missed calls"
+      },
+      {
+        "t": "Alarms and reminders"
+      },
+      {
+        "t": "Calendar events"
+      },
+      {
+        "t": "Navigation"
+      },
+      {
+        "t": "Apps on your Never hold list"
+      }
+    ],
+    "modes_eyebrow": "Modes",
+    "modes_h": "Four calm modes. Make your own if you like.",
+    "modes": [
+      {
+        "t": "Normal",
+        "p": "Notifications without a rule arrive right away. Your per-app choices still apply."
+      },
+      {
+        "t": "Focus",
+        "p": "Holds the apps that pull you away while you study or work."
+      },
+      {
+        "t": "Sleep",
+        "p": "A quiet night. What matters still comes through."
+      },
+      {
+        "t": "Sports",
+        "p": "Holds only the sports apps you choose, so you don't learn the score before you watch the match."
+      }
+    ],
+    "hl_eyebrow": "Highlights",
+    "hl_h": "Built around real days.",
+    "highlights": [
+      {
+        "t": "Weekly plan",
+        "p": "Modes switch on their own by day and time. You can also set a plan for one specific date.",
+        "new": ""
+      },
+      {
+        "t": "Shift schedule",
+        "p": "A repeating cycle of morning, evening and night shifts and days off, with breaks inside a shift.",
+        "new": ""
+      },
+      {
+        "t": "Notification archive",
+        "p": "Save a coupon, bill or expense notification to a folder when you choose to. You get one reminder on the morning of the due date.",
+        "new": "New"
+      },
+      {
+        "t": "Fingerprint lock",
+        "p": "Protect the whole app, or only the archive and notification contents, with Android's own lock screen prompt.",
+        "new": "New"
+      },
+      {
+        "t": "24-hour dial",
+        "p": "The whole day in one ring on the Today screen. A waiting notification shows the app and the reason, not the message.",
+        "new": ""
+      },
+      {
+        "t": "Who comes through, who waits",
+        "p": "For each mode, see which apps arrive right away and which wait, and why. Change it with one tap.",
+        "new": "New"
+      }
+    ],
+    "more_features": "All features →",
+    "priv_h": "Your notifications stay on your phone.",
+    "priv_p": "The app has no internet permission. Nothing is sent over a network, and there are no ads or analytics tools.",
+    "facts": [
+      {
+        "b": "0",
+        "p": "Network connections. The app does not ask for internet permission."
+      },
+      {
+        "b": "3",
+        "p": "Things used to decide: the app, the notification type and the time. Titles and message text are not read for this decision."
+      },
+      {
+        "b": "Opt-in",
+        "p": "Notification content is not read by default. If you want to see what is waiting, you turn it on in Settings."
+      }
+    ],
+    "priv_more_p": "Settings and records are stored encrypted on the phone. The archive keeps only the notifications you choose, also encrypted and on the phone. Uninstalling the app deletes its data.",
+    "priv_more": "Read the full privacy policy →",
+    "status_eyebrow": "Status",
+    "status_h": "In development, coming soon on Google Play.",
+    "status_p": "The app runs on Android 8 and later. Its name is not final yet; for now we use the working title “ha!shh”. This page will be updated when the app is on Google Play."
+  },
+  "sim": {
+    "mode": {
+      "normal": "Normal",
+      "focus": "Focus",
+      "sleep": "Sleep",
+      "sports": "Sports"
+    },
+    "apps": [
+      [
+        "Messages",
+        "M",
+        [
+          "New message",
+          "2 new messages",
+          "Group chat"
+        ]
+      ],
+      [
+        "Social",
+        "S",
+        [
+          "Someone liked your post",
+          "New follower",
+          "You were mentioned"
+        ]
+      ],
+      [
+        "News",
+        "N",
+        [
+          "Morning headlines",
+          "Breaking story",
+          "Daily digest"
+        ]
+      ],
+      [
+        "Shopping",
+        "T",
+        [
+          "Flash sale!",
+          "Your cart is waiting",
+          "Discount ends soon"
+        ]
+      ],
+      [
+        "Sports",
+        "F",
+        [
+          "Match update",
+          "Goal!",
+          "Full-time result"
+        ]
+      ],
+      [
+        "Bank",
+        "B",
+        [
+          "Card payment",
+          "Transfer received"
+        ]
+      ],
+      [
+        "Calendar",
+        "C",
+        [
+          "Meeting in 15 min",
+          "Event reminder"
+        ]
+      ]
+    ],
+    "system": "Always",
+    "never": "Never hold",
+    "block": "Blocked",
+    "spoiler": "No spoilers",
+    "now": "Immediately",
+    "delivery": "At delivery time",
+    "modeFmt": "{m} mode",
+    "waitingFmt": "{n} waiting",
+    "morning": "Morning",
+    "batch": "Together ",
+    "next": "Next delivery ",
+    "untilMorning": "Held until morning",
+    "nextLow": "next delivery ",
+    "untilLow": "until morning",
+    "play": "Play",
+    "pause": "Pause",
+    "again": "Play again"
+  },
+  "features": {
+    "title": "Features · {brand}",
+    "desc": "Everything the app can do today: per-app rules, delivery times, modes, weekly plan, shift schedule, notification archive and fingerprint lock. No internet permission.",
+    "h1": "Everything the app does today.",
+    "lead": "This page lists only what is in the current development build. New items from the latest update are marked.",
+    "groups": [
+      {
+        "h": "The basics",
+        "items": [
+          {
+            "t": "One choice per app",
+            "p": "Immediately, hold, at delivery time or block. Rules can also apply to an app group or a category."
+          },
+          {
+            "t": "Delivery times",
+            "p": "Set several delivery times a day, such as 12:30, 18:00 and 21:00. Everything waiting arrives together."
+          },
+          {
+            "t": "Never hold list",
+            "p": "Apps you add here come through in every mode. Optionally, get one more reminder if a notification is not opened within five minutes."
+          },
+          {
+            "t": "Always delivered",
+            "p": "Calls, missed calls, alarms, reminders, calendar and navigation notifications are never held."
+          },
+          {
+            "t": "Quiet summary",
+            "p": "One silent line in the notification bar, with no sound or vibration, shows who has how many notifications waiting and when the first one will arrive. Content is not shown. Turn it on for the apps you choose or for everything that waits. A “Deliver now” button gives you everything waiting at once, without opening the app.",
+            "new": "New"
+          }
+        ]
+      },
+      {
+        "h": "Modes and plans",
+        "items": [
+          {
+            "t": "Four modes, plus your own",
+            "p": "Normal, Focus, Sleep and Sports. Rename them, hide the ones you don't use, or create your own modes."
+          },
+          {
+            "t": "Who comes through, who waits",
+            "p": "For each mode, see which apps arrive right away and which wait, with the reason. Add an app, group or category to say “this one comes through in this mode”.",
+            "new": "New"
+          },
+          {
+            "t": "Weekly plan and calendar",
+            "p": "Modes switch by day and time. Browse months and years, see how many notifications arrived, waited and were delivered on a past day (counts only), and set a plan for a future date. Date-specific plans are listed with their dates. While editing a plan, pick weekdays or the weekend with one tap.",
+            "new": "New"
+          },
+          {
+            "t": "24-hour dial",
+            "p": "The Today screen shows the whole day on one ring with the waiting notifications. A countdown shows when the next delivery comes, for example “5 notifications in 38 min”."
+          },
+          {
+            "t": "Shift schedule",
+            "p": "A repeating cycle of morning, evening and night shifts and days off. Breaks inside a shift are applied too."
+          },
+          {
+            "t": "Ready-made profiles",
+            "p": "Preview what a profile changes before you apply it, and edit it. A profile lasts as long as its name says (for example “Deep work · 2 hours”) and then returns to the previous mode."
+          },
+          {
+            "t": "Focus session",
+            "p": "Tap “Focus for 25 min” on the Today screen. When time is up, you go back to your previous mode and see a short “well done” summary (counts only).",
+            "new": "New"
+          }
+        ]
+      },
+      {
+        "h": "Staying in control",
+        "items": [
+          {
+            "t": "Rule scope",
+            "p": "See which apps a rule such as “Shopping” covers. Remove an app that was guessed wrong, or add a new one.",
+            "new": "New"
+          },
+          {
+            "t": "App groups",
+            "p": "Put apps into groups and manage them with one rule. Rename a group or change its apps at any time."
+          },
+          {
+            "t": "All your apps",
+            "p": "The Rules screen lists every app on your phone, not only the ones that have already sent a notification."
+          },
+          {
+            "t": "Optional automations",
+            "p": "With your permission, the app can switch modes during calendar meetings or when your phone connects to your car over Bluetooth."
+          },
+          {
+            "t": "Back up your rules",
+            "p": "Save your rules to a file and restore them later. The backup also keeps mode names, hidden modes and each mode's list of apps that come through right away.",
+            "new": "New"
+          },
+          {
+            "t": "Smart setup",
+            "p": "Setup starts by getting to know your phone: your apps are sorted into groups, and you fix any that land in the wrong one. You are only asked about groups you actually have, and at the end you see a preview of who comes through and who waits. Choose “Start simple” and setup ends in 3 steps with the simple view turned on.",
+            "new": "New"
+          },
+          {
+            "t": "Weekly clean-up suggestion",
+            "p": "The Today screen lists the apps without a rule that interrupted you most this week. Move one to delivery time with a single tap, or choose “Not now”. Only counts are used.",
+            "new": "New"
+          },
+          {
+            "t": "Simple view",
+            "p": "Turn it on in Settings: the Today screen keeps only the dial, a single “Focus / Back to normal” button and the waiting notifications. The Rules and Plan tabs are hidden, and your rules keep working in the background. For people who want to use the app with as few settings as possible.",
+            "new": "New"
+          },
+          {
+            "t": "Why did it wait?",
+            "p": "In History, every held notification shows which mode or rule held it. From there you can also move that app to delivery time without opening the rules screen.",
+            "new": "New"
+          },
+          {
+            "t": "Question of the day",
+            "p": "Once in the morning, the app asks about the app without a rule that interrupted you most yesterday. Hold it with a single tap.",
+            "new": "New"
+          },
+          {
+            "t": "Mode by Wi-Fi",
+            "p": "Normal when you get home, Focus when you arrive at work. You set it up with your phone's routines app (on Samsung, “Modes and Routines”); ha!shh does not ask for location permission. Settings → Mode by Wi-Fi shows the steps. Home screen shortcuts and routines switch the mode without opening the app; only a short message appears.",
+            "new": "New"
+          }
+        ]
+      },
+      {
+        "h": "Archive and security",
+        "items": [
+          {
+            "t": "Notification archive",
+            "p": "Save the notifications you want into folders such as Coupons, Bills and Expenses, or your own folder. The app suggests the amount and you confirm it; a monthly total is shown. Add a due date and you get a reminder that morning. You can also archive a notification straight from History if its content was kept there. Nothing enters the archive on its own. An item with a due date can be added to your phone's calendar (no calendar permission needed).",
+            "new": "New"
+          },
+          {
+            "t": "Fingerprint lock",
+            "p": "Protect the whole app, or only the archive and notification contents, with your fingerprint, face or phone PIN. Android's own prompt is used, so your fingerprint data never reaches the app. In the “archive and contents” setting, content previews in History also stay hidden until you unlock.",
+            "new": "New"
+          },
+          {
+            "t": "See content, only if you allow it",
+            "p": "Notification content is not read by default. Turn on content display in Settings to see what is waiting."
+          },
+          {
+            "t": "Themes and app icon",
+            "p": "Choose Paper (warm cream, the default), Light (white), Dark or System, which uses Paper in light mode and Dark in dark mode. When you change the theme, the app asks whether to match the home screen icon too. On Android 13 and later, themed icons take your wallpaper color.",
+            "new": "New"
+          },
+          {
+            "t": "Send feedback",
+            "p": "From Settings, your email app opens with a ready message. Adding device information is optional.",
+            "new": "New"
+          }
+        ]
+      }
+    ],
+    "tech_eyebrow": "Fact sheet",
+    "tech_h": "The technical details.",
+    "tech_p": "These describe the current development build (0.89). Numbers come from the source code.",
+    "tech": [
+      {
+        "k": "Platform",
+        "v": "Android 8.0 and later (API 26); targets Android 15 (API 35)"
+      },
+      {
+        "k": "Built with",
+        "v": "Java 17 and the Android SDK only; no third-party libraries"
+      },
+      {
+        "k": "Code",
+        "v": "About 20,600 lines in 91 source files"
+      },
+      {
+        "k": "Tests",
+        "v": "31 core logic test files; the build stops if any test fails"
+      },
+      {
+        "k": "How it works",
+        "v": "A notification listener and Android's own snooze, so the original notification comes back on time instead of being copied"
+      },
+      {
+        "k": "Network",
+        "v": "No internet permission; no servers, accounts, ads or analytics"
+      },
+      {
+        "k": "Storage",
+        "v": "Encrypted on the phone with a key kept in the Android Keystore"
+      },
+      {
+        "k": "Status",
+        "v": "Tested on a Samsung Galaxy S24 and an Android 15 emulator; not yet on Google Play"
+      },
+      {
+        "k": "Development",
+        "v": "Claude Code is the main development tool. The app itself contains no AI service."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy policy · {brand}",
+    "desc": "How the notification app handles data: no internet permission, everything stays encrypted on your phone, notification content only with your permission.",
+    "h1": "Privacy policy",
+    "updated": "Last updated: 11 October 2026",
+    "intro": "In short: the app has no internet permission and sends nothing anywhere. Everything it stores stays encrypted on your phone. Notification content is not read unless you turn that on, and the archive holds only the notifications you choose to save.",
+    "sections": [
+      {
+        "h": "Who we are",
+        "body": "<p>The app is developed by Seçkin Çelik in Karabük, Türkiye. Contact: <a href=\"mailto:{email}\">{email}</a>.</p>"
+      },
+      {
+        "h": "Notification access (required)",
+        "body": "<p>The app needs notification access, which you grant in Android settings. To decide what happens to a notification, it uses the app that sent it, the notification type (for example call, alarm or message category) and the time. Titles and message text are not used for this decision.</p>"
+      },
+      {
+        "h": "Notification content (optional)",
+        "body": "<ul><li>If you turn on <b>Show notification content</b> in Settings, the content of waiting notifications is read only at the moment it is shown to you.</li><li>If you also turn on keeping content in History, that content is stored encrypted on the phone for one or seven days, as you choose. It is deleted when the period ends or when notification access is turned off.</li></ul>"
+      },
+      {
+        "h": "Notification archive",
+        "body": "<ul><li>Only the notifications you choose to archive are saved: the app name, title, text and date, plus the folder, amount and due date you add.</li><li>Nothing enters the archive on its own. Archived items stay encrypted on the phone until you delete them.</li><li>The suggested amount is calculated on the phone. A due-date reminder uses the phone's own alarm.</li><li>Adding an archive item to your calendar opens your own calendar app with an event filled in: the notification title (or the app name if there is no title) as the event name and the due date as an all-day date. You see it there, can change it and choose whether to save it. The app does not need calendar permission for this. If your calendar syncs with an account (for example Google), the saved event goes to that account; that is done by your calendar app, and ha!shh sends nothing.</li></ul>"
+      },
+      {
+        "h": "Fingerprint lock",
+        "body": "<p>The lock uses Android's own biometric prompt. Your fingerprint or face data never reaches the app; the app only learns whether unlocking succeeded.</p>"
+      },
+      {
+        "h": "Other permissions",
+        "body": "<ul><li><b>Posting notifications:</b> to deliver held notifications and reminders.</li><li><b>Starting after reboot:</b> to restore your rules and reminders after the phone restarts.</li><li><b>Calendar (optional):</b> only the start and end times and busy status of events are read, to switch modes during meetings. Event titles are not read.</li><li><b>Bluetooth (optional):</b> to switch modes when the phone connects to your car. The raw device address is not stored; only a one-way fingerprint and the device name you see are kept, encrypted.</li></ul>"
+      },
+      {
+        "h": "Your installed apps",
+        "body": "<p>To sort your apps into groups and show them in the rule lists, the app reads the list of installed apps that appear on your home screen (app name, package name and the type Android reports). This happens only on the phone and uses no extra permission. The quiet summary is the app's own silent notification; it shows only app names and counts, never notification content.</p>"
+      },
+      {
+        "h": "No network, no tracking",
+        "body": "<p>The app has no internet permission. There are no servers, accounts, ads, analytics or crash reporting tools. No data from the app reaches the developer or anyone else.</p>"
+      },
+      {
+        "h": "Feedback by email",
+        "body": "<p>If you use <b>Send feedback</b> in Settings, your own email app opens with a prepared message. You write and send it yourself. Device information (manufacturer, model, Android version, app version) is added only if you tick that option. The email travels through your email provider. Notification content and your rules are never added. If you send the message, the developer sees your email address and uses it only to reply to you. Messages received at {email} are used only to reply to you and improve the app, and are not shared with third parties.</p>"
+      },
+      {
+        "h": "Export and backup",
+        "body": "<p>You can save a backup of your rules and modes as a file. It includes mode names, hidden built-in modes and, for each mode, the apps, groups and categories that come through right away. You can also export your notification records (app, time and what was done). Neither file contains notification content, and the archive is not included. The file goes only to the app or folder you select. Android cloud backup is turned off for this app.</p>"
+      },
+      {
+        "h": "Deleting your data",
+        "body": "<p>Uninstalling the app deletes all of its data from the phone. You can also delete archive items and clear history inside the app.</p>"
+      },
+      {
+        "h": "Changes to this policy",
+        "body": "<p>If the app changes how it handles data, this page will be updated and the date at the top will change.</p>"
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ and support · {brand}",
+    "desc": "Answers to common questions about the notification app: privacy, battery, supported phones, the archive and how to send feedback.",
+    "h1": "Questions and support",
+    "lead": "Short answers to the questions we hear most. If yours is not here, send an email.",
+    "items": [
+      {
+        "q": "When will the app be available?",
+        "a": "It is in development. It will be released on Google Play, starting with a closed test. There is no date yet; this site will be updated."
+      },
+      {
+        "q": "Will it cost money?",
+        "a": "The plan is a free offline core. If there is ever a paid option, it is meant to be a fair one-time unlock rather than a forced subscription. There will be no ads and no data sales. This plan is not final."
+      },
+      {
+        "q": "Does the app read my notifications?",
+        "a": "Not by default. Decisions use only the app, the notification type and the time. Content is read only if you turn on content display, and only at the moment it is shown to you."
+      },
+      {
+        "q": "Could I miss an important call or message?",
+        "a": "Calls, alarms, reminders, calendar and navigation notifications are never held. Apps on your Never hold list come through in every mode, and the app can remind you once more if such a notification is not opened within five minutes."
+      },
+      {
+        "q": "Why does it have no internet permission?",
+        "a": "It does not need one. Everything happens on your phone, so your notifications cannot be sent anywhere."
+      },
+      {
+        "q": "Does it drain the battery?",
+        "a": "It does not run a constant background service or keep checking in a loop. It reacts to notifications through Android's notification listener and uses the phone's alarms for delivery times. Some manufacturers limit background apps; the setup screens show how to allow it on your phone."
+      },
+      {
+        "q": "Which phones does it work on?",
+        "a": "Android 8 and later. The fingerprint lock needs Android 9 or later and a screen lock (fingerprint, PIN or pattern) set up on the phone."
+      },
+      {
+        "q": "Do notifications go into the archive on their own?",
+        "a": "No. Only notifications you choose to archive are saved, encrypted and on your phone. You can add a folder, an amount and a due date, and delete items at any time."
+      },
+      {
+        "q": "What happens if I uninstall the app?",
+        "a": "All of its data is deleted from the phone. Android cloud backup is off, so if you want to keep your rules, export them to a file first."
+      },
+      {
+        "q": "Which languages are supported?",
+        "a": "The app is being prepared in English, Turkish, Arabic, German, Spanish, French, Hindi, Indonesian, Portuguese and Russian. During development, some new screens appear in Turkish first."
+      },
+      {
+        "q": "How do I report a problem or suggest an idea?",
+        "a": "In the app, open Settings and choose Send feedback; your email app opens with a ready message. You can also write directly to {email}."
+      }
+    ],
+    "contact_h": "Still have a question?",
+    "contact_p": "Write to us by email."
+  }
+}

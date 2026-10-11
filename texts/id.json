@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "name": "Bahasa Indonesia",
+    "dir": "ltr",
+    "locale": "id_ID"
+  },
+  "common": {
+    "brand": "ha!shh",
+    "skip": "Lewati ke konten",
+    "nav_label": "Menu utama",
+    "nav_demo": "Demo langsung",
+    "nav_features": "Fitur",
+    "nav_privacy": "Privasi",
+    "nav_faq": "FAQ",
+    "lang_label": "Bahasa",
+    "theme_label": "Tema",
+    "theme_auto": "Tema: ikuti perangkat",
+    "theme_light": "Tema: terang",
+    "theme_dark": "Tema: gelap",
+    "menu": "Menu",
+    "soon_small": "Segera hadir",
+    "soon_big": "di Google Play",
+    "soon_aria": "Segera hadir di Google Play",
+    "chips": [
+      {
+        "t": "Tanpa izin internet"
+      },
+      {
+        "t": "Semua tetap di ponsel Anda, terenkripsi"
+      },
+      {
+        "t": "Tanpa iklan, tanpa analitik"
+      }
+    ],
+    "dev_role": "Pengembang · Karabük, Türkiye",
+    "footer_by": "Dikembangkan oleh Seçkin Çelik · Karabük, Türkiye",
+    "footer_label": "Menu footer",
+    "footer_privacy": "Kebijakan privasi",
+    "footer_faq": "FAQ dan bantuan",
+    "mt_note": "Halaman ini diterjemahkan dengan bantuan AI. Jika ada yang kurang jelas, versi bahasa Inggris yang berlaku."
+  },
+  "home": {
+    "title": "{brand} · Notifikasi yang sesuai dengan hari Anda",
+    "desc": "Aplikasi Android yang menahan notifikasi pilihan Anda dan mengirimkannya bersamaan pada waktu yang ditentukan. Tanpa izin internet; semua tetap berada di ponsel Anda. Sedang dikembangkan, segera hadir di Google Play.",
+    "eyebrow": "Android · dalam pengembangan",
+    "h1a": "Notifikasi yang",
+    "h1b": "sesuai dengan hari Anda.",
+    "lead": "Aplikasi ini menahan notifikasi pilihan Anda dan mengirimkannya bersamaan pada waktu yang Anda atur, seperti 12:30, 18:00, dan 21:00. Panggilan, alarm, serta aplikasi yang Anda tandai penting akan selalu masuk langsung.",
+    "btn_demo": "Lihat alur sehari ↓",
+    "demo_h": "Lihat satu hari berlalu dalam semenit.",
+    "demo_p": "Lingkaran ini adalah rencana 24 jam, persis seperti di aplikasi. Seiring berjalannya waktu, mode aktif akan berganti, dan setiap notifikasi yang masuk akan langsung ditampilkan, ditahan hingga jadwal pengiriman berikutnya, atau diblokir. Pada setiap jadwal pengiriman, semua yang menunggu akan tiba bersamaan.",
+    "dial_aria": "Piringan rencana 24 jam",
+    "fast": "Kecepatan ×3",
+    "restart": "Ulangi hari",
+    "st_arr": "notifikasi masuk",
+    "st_now": "langsung ditampilkan",
+    "st_held": "dikirim bersamaan",
+    "st_quiet": "gangguan terhindarkan",
+    "lane_now": "Masuk sekarang",
+    "lane_now_s": "penting atau diizinkan",
+    "lane_wait": "Menunggu",
+    "empty": "Tidak ada yang menunggu.",
+    "demo_fine": "Animasi dengan contoh aturan dan contoh jenis aplikasi. Semuanya dibuat di browser Anda; ini bukan data penggunaan nyata.",
+    "how_eyebrow": "Cara kerja",
+    "how_h": "Satu pilihan per aplikasi. Sisanya diurus aplikasi ini.",
+    "how_p": "Pilih satu dari empat opsi untuk setiap aplikasi. Atur waktu pengiriman yang sesuai dengan hari Anda, lalu pilih mode atau biarkan rencana mingguan yang mengganti mode secara otomatis.",
+    "actions": [
+      {
+        "t": "Langsung",
+        "p": "Notifikasi masuk seperti biasa."
+      },
+      {
+        "t": "Tahan",
+        "p": "Notifikasi menunggu tanpa suara selama mode yang dipilih aktif."
+      },
+      {
+        "t": "Saat waktu pengiriman",
+        "p": "Dikumpulkan dan dikirim bersamaan pada waktu yang Anda tentukan (misalnya 12:30, 18:00, 21:00)."
+      },
+      {
+        "t": "Blokir",
+        "p": "Notifikasi dari aplikasi ini tidak ditampilkan."
+      }
+    ],
+    "never_eyebrow": "Yang penting tetap masuk",
+    "never_h": "Sebagian hal tidak pernah ditahan.",
+    "never_p": "Panggilan, alarm, pengingat, kalender, dan notifikasi navigasi selalu masuk. Anda dapat menambahkan aplikasi seperti bank atau rumah sakit ke daftar <b>Jangan pernah tahan</b>; aplikasi tersebut akan selalu masuk di setiap mode. Jika mau, Anda akan menerima satu pengingat lagi jika salah satu notifikasinya belum dibuka dalam lima menit.",
+    "never_list": [
+      {
+        "t": "Panggilan dan panggilan tak terjawab"
+      },
+      {
+        "t": "Alarm dan pengingat"
+      },
+      {
+        "t": "Acara kalender"
+      },
+      {
+        "t": "Navigasi"
+      },
+      {
+        "t": "Aplikasi di daftar Jangan pernah tahan"
+      }
+    ],
+    "modes_eyebrow": "Mode",
+    "modes_h": "Empat mode yang tenang. Buat mode Anda sendiri jika mau.",
+    "modes": [
+      {
+        "t": "Normal",
+        "p": "Notifikasi tanpa aturan akan langsung masuk. Pilihan khusus per aplikasi Anda tetap berlaku."
+      },
+      {
+        "t": "Fokus",
+        "p": "Menahan aplikasi yang mengganggu saat Anda belajar atau bekerja."
+      },
+      {
+        "t": "Tidur",
+        "p": "Malam yang tenang. Hal yang penting tetap akan masuk."
+      },
+      {
+        "t": "Olahraga",
+        "p": "Hanya menahan aplikasi olahraga pilihan Anda, agar Anda tidak mengetahui skor sebelum menonton pertandingannya."
+      }
+    ],
+    "hl_eyebrow": "Sorotan",
+    "hl_h": "Dirancang untuk hari-hari nyata.",
+    "highlights": [
+      {
+        "t": "Rencana mingguan",
+        "p": "Mode berganti otomatis berdasarkan hari dan waktu. Anda juga dapat mengatur rencana untuk tanggal tertentu.",
+        "new": ""
+      },
+      {
+        "t": "Jadwal shift",
+        "p": "Siklus berulang untuk shift pagi, sore, dan malam serta hari libur, dengan waktu istirahat di dalam shift.",
+        "new": ""
+      },
+      {
+        "t": "Arsip notifikasi",
+        "p": "Simpan notifikasi kupon, tagihan, atau pengeluaran ke folder kapan pun Anda mau. Anda mendapatkan satu pengingat di pagi hari saat tanggal jatuh tempo.",
+        "new": "Baru"
+      },
+      {
+        "t": "Kunci sidik jari",
+        "p": "Lindungi seluruh aplikasi, atau hanya arsip dan isi notifikasi, dengan perintah kunci layar bawaan Android.",
+        "new": "Baru"
+      },
+      {
+        "t": "Piringan 24 jam",
+        "p": "Seluruh hari dalam satu lingkaran di layar Hari Ini. Notifikasi yang menunggu menampilkan aplikasi dan alasannya, bukan pesannya.",
+        "new": ""
+      },
+      {
+        "t": "Siapa yang masuk, siapa yang menunggu",
+        "p": "Untuk setiap mode, lihat aplikasi mana yang langsung masuk dan mana yang menunggu, beserta alasannya. Ubah cukup dengan satu ketukan.",
+        "new": "Baru"
+      }
+    ],
+    "more_features": "Semua fitur →",
+    "priv_h": "Notifikasi Anda tetap di ponsel Anda.",
+    "priv_p": "Aplikasi ini tidak memiliki izin internet. Tidak ada yang dikirim melalui jaringan, dan tidak ada iklan atau alat analitik.",
+    "facts": [
+      {
+        "b": "0",
+        "p": "Koneksi jaringan. Aplikasi tidak meminta izin internet."
+      },
+      {
+        "b": "3",
+        "p": "Hal yang digunakan untuk menentukan: aplikasi, jenis notifikasi, dan waktu. Judul dan teks pesan tidak dibaca untuk penentuan ini."
+      },
+      {
+        "b": "Opsional",
+        "p": "Konten notifikasi tidak dibaca secara default. Jika Anda ingin melihat apa yang sedang menunggu, aktifkan di Pengaturan."
+      }
+    ],
+    "priv_more_p": "Pengaturan dan catatan disimpan secara terenkripsi di ponsel. Arsip hanya menyimpan notifikasi yang Anda pilih, juga terenkripsi dan di ponsel. Menghapus instalan aplikasi akan menghapus seluruh datanya.",
+    "priv_more": "Baca kebijakan privasi selengkapnya →",
+    "status_eyebrow": "Status",
+    "status_h": "Sedang dikembangkan, segera hadir di Google Play.",
+    "status_p": "Aplikasi ini berjalan di Android 8 ke atas. Namanya belum final; untuk saat ini kami menggunakan nama kerja “ha!shh”. Halaman ini akan diperbarui ketika aplikasi sudah tersedia di Google Play."
+  },
+  "sim": {
+    "mode": {
+      "normal": "Normal",
+      "focus": "Fokus",
+      "sleep": "Tidur",
+      "sports": "Olahraga"
+    },
+    "apps": [
+      [
+        "Pesan",
+        "P",
+        [
+          "Pesan baru",
+          "2 pesan baru",
+          "Obrolan grup"
+        ]
+      ],
+      [
+        "Sosial",
+        "S",
+        [
+          "Seseorang menyukai postingan Anda",
+          "Pengikut baru",
+          "Anda disebut"
+        ]
+      ],
+      [
+        "Berita",
+        "B",
+        [
+          "Berita utama pagi",
+          "Berita terkini",
+          "Rangkuman harian"
+        ]
+      ],
+      [
+        "Belanja",
+        "B",
+        [
+          "Flash sale!",
+          "Keranjang Anda menunggu",
+          "Diskon segera berakhir"
+        ]
+      ],
+      [
+        "Olahraga",
+        "O",
+        [
+          "Pembaruan pertandingan",
+          "Gol!",
+          "Hasil akhir"
+        ]
+      ],
+      [
+        "Bank",
+        "B",
+        [
+          "Pembayaran kartu",
+          "Transfer diterima"
+        ]
+      ],
+      [
+        "Kalender",
+        "K",
+        [
+          "Rapat dalam 15 mnt",
+          "Pengingat acara"
+        ]
+      ]
+    ],
+    "system": "Selalu",
+    "never": "Jangan pernah tahan",
+    "block": "Diblokir",
+    "spoiler": "Tanpa bocoran",
+    "now": "Langsung",
+    "delivery": "Saat waktu pengiriman",
+    "modeFmt": "Mode {m}",
+    "waitingFmt": "{n} menunggu",
+    "morning": "Pagi",
+    "batch": "Bersamaan ",
+    "next": "Pengiriman berikutnya ",
+    "untilMorning": "Ditahan sampai pagi",
+    "nextLow": "pengiriman berikutnya ",
+    "untilLow": "sampai pagi",
+    "play": "Putar",
+    "pause": "Jeda",
+    "again": "Putar lagi"
+  },
+  "features": {
+    "title": "Fitur · {brand}",
+    "desc": "Semua yang dapat dilakukan aplikasi saat ini: aturan per aplikasi, waktu pengiriman, mode, rencana mingguan, jadwal shift, arsip notifikasi, dan kunci sidik jari. Tanpa izin internet.",
+    "h1": "Semua kemampuan aplikasi saat ini.",
+    "lead": "Halaman ini hanya mencantumkan fitur yang ada dalam build pengembangan saat ini. Fitur baru dari pembaruan terkini telah ditandai.",
+    "groups": [
+      {
+        "h": "Dasar-dasar",
+        "items": [
+          {
+            "t": "Satu pilihan per aplikasi",
+            "p": "Langsung, tahan, saat waktu pengiriman, atau blokir. Aturan juga dapat diterapkan ke grup aplikasi atau kategori."
+          },
+          {
+            "t": "Waktu pengiriman",
+            "p": "Atur beberapa waktu pengiriman dalam sehari, seperti 12:30, 18:00, dan 21:00. Semua yang menunggu tiba bersamaan."
+          },
+          {
+            "t": "Daftar Jangan pernah tahan",
+            "p": "Aplikasi yang Anda tambahkan di sini akan masuk di setiap mode. Secara opsional, dapatkan satu pengingat lagi jika notifikasi tidak dibuka dalam lima menit."
+          },
+          {
+            "t": "Selalu dikirimkan",
+            "p": "Panggilan, panggilan tak terjawab, alarm, pengingat, kalender, dan notifikasi navigasi tidak pernah ditahan."
+          },
+          {
+            "t": "Ringkasan senyap",
+            "p": "Satu baris senyap di bilah notifikasi, tanpa suara atau getaran, menunjukkan siapa yang memiliki berapa banyak notifikasi yang menunggu dan kapan notifikasi pertama akan tiba. Konten tidak ditampilkan. Aktifkan untuk aplikasi yang Anda pilih atau untuk semua yang menunggu. Tombol “Kirim sekarang” memberikan semua yang sedang menunggu sekaligus, tanpa membuka aplikasi.",
+            "new": "Baru"
+          }
+        ]
+      },
+      {
+        "h": "Mode dan rencana",
+        "items": [
+          {
+            "t": "Empat mode, plus buatan Anda sendiri",
+            "p": "Normal, Fokus, Tidur, dan Olahraga. Ubah namanya, sembunyikan yang tidak Anda gunakan, atau buat mode Anda sendiri."
+          },
+          {
+            "t": "Siapa yang masuk, siapa yang menunggu",
+            "p": "Untuk setiap mode, lihat aplikasi mana yang langsung masuk dan mana yang menunggu, beserta alasannya. Tambahkan aplikasi, grup, atau kategori untuk menyatakan “yang ini masuk dalam mode ini”.",
+            "new": "Baru"
+          },
+          {
+            "t": "Rencana mingguan dan kalender",
+            "p": "Mode beralih berdasarkan hari dan waktu. Jelajahi bulan dan tahun, lihat berapa banyak notifikasi yang masuk, menunggu, dan terkirim pada hari sebelumnya (hanya jumlahnya), serta buat rencana untuk tanggal mendatang. Rencana khusus tanggal dicantumkan bersama tanggalnya. Saat mengedit rencana, pilih hari kerja atau akhir pekan hanya dengan sekali ketuk.",
+            "new": "Baru"
+          },
+          {
+            "t": "Piringan 24 jam",
+            "p": "Layar Hari Ini menampilkan seluruh hari dalam satu lingkaran bersama notifikasi yang menunggu. Hitung mundur menunjukkan kapan pengiriman berikutnya tiba, misalnya “5 notifikasi dalam 38 mnt”."
+          },
+          {
+            "t": "Jadwal shift",
+            "p": "Siklus berulang untuk shift pagi, sore, dan malam serta hari libur. Istirahat di dalam shift juga diterapkan."
+          },
+          {
+            "t": "Profil siap pakai",
+            "p": "Pratinjau perubahan profil sebelum menerapkannya, dan edit profil tersebut. Profil aktif selama yang dinyatakan namanya (misalnya “Kerja fokus · 2 jam”) lalu kembali ke mode sebelumnya."
+          },
+          {
+            "t": "Sesi fokus",
+            "p": "Ketuk “Fokus 25 mnt” di layar Hari Ini. Saat waktu habis, Anda kembali ke mode sebelumnya dan melihat ringkasan singkat “kerja bagus” (hanya jumlah).",
+            "new": "Baru"
+          }
+        ]
+      },
+      {
+        "h": "Tetap memegang kendali",
+        "items": [
+          {
+            "t": "Cakupan aturan",
+            "p": "Lihat aplikasi mana saja yang dicakup oleh aturan seperti “Belanja”. Hapus aplikasi yang salah ditebak, atau tambahkan aplikasi baru.",
+            "new": "Baru"
+          },
+          {
+            "t": "Grup aplikasi",
+            "p": "Satukan aplikasi ke dalam grup dan kelola dengan satu aturan. Ubah nama grup atau ganti aplikasinya kapan saja."
+          },
+          {
+            "t": "Semua aplikasi Anda",
+            "p": "Layar Aturan mencantumkan setiap aplikasi di ponsel Anda, bukan hanya aplikasi yang sudah pernah mengirim notifikasi."
+          },
+          {
+            "t": "Otomatisasi opsional",
+            "p": "Dengan izin Anda, aplikasi dapat berganti mode selama rapat kalender atau saat ponsel terhubung ke mobil Anda melalui Bluetooth."
+          },
+          {
+            "t": "Cadangkan aturan Anda",
+            "p": "Simpan aturan Anda ke dalam file dan pulihkan nanti. Cadangan ini juga menyimpan nama mode, mode tersembunyi, dan daftar aplikasi untuk setiap mode yang langsung lolos.",
+            "new": "Baru"
+          },
+          {
+            "t": "Penyiapan pintar",
+            "p": "Penyiapan dimulai dengan mengenali ponsel Anda: aplikasi Anda disortir ke dalam grup, dan Anda memperbaiki aplikasi yang masuk ke grup yang salah. Anda hanya ditanya tentang grup yang benar-benar Anda miliki, dan pada akhirnya Anda melihat pratinjau tentang siapa yang lolos dan siapa yang menunggu. Pilih “Mulai sederhana” dan penyiapan selesai dalam 3 langkah dengan tampilan sederhana diaktifkan.",
+            "new": "Baru"
+          },
+          {
+            "t": "Saran pembersihan mingguan",
+            "p": "Layar Hari Ini menampilkan daftar aplikasi tanpa aturan yang paling sering mengganggu Anda minggu ini. Pindahkan salah satu ke waktu pengiriman dengan satu ketukan, atau pilih “Nanti saja”. Hanya jumlah yang digunakan.",
+            "new": "Baru"
+          },
+          {
+            "t": "Tampilan sederhana",
+            "p": "Aktifkan di Pengaturan: layar Hari Ini hanya menampilkan tombol putar, satu tombol “Fokus / Kembali normal”, dan notifikasi yang tertunda. Tab Aturan dan Rencana disembunyikan, dan aturan Anda tetap berjalan di latar belakang. Cocok bagi Anda yang ingin menggunakan aplikasi dengan sesedikit mungkin pengaturan.",
+            "new": "Baru"
+          },
+          {
+            "t": "Mengapa menunggu?",
+            "p": "Di Riwayat, setiap notifikasi yang ditahan menampilkan mode atau aturan mana yang menahannya. Dari sana Anda juga dapat memindahkan aplikasi tersebut ke waktu pengiriman tanpa membuka layar aturan.",
+            "new": "Baru"
+          },
+          {
+            "t": "Pertanyaan hari ini",
+            "p": "Sekali di pagi hari, aplikasi akan menanyakan aplikasi tanpa aturan yang paling sering mengganggu Anda kemarin. Tahan dengan sekali ketuk.",
+            "new": "Baru"
+          },
+          {
+            "t": "Mode berdasarkan Wi-Fi",
+            "p": "Normal saat Anda tiba di rumah, Fokus saat Anda tiba di tempat kerja. Anda mengaturnya dengan aplikasi rutinitas ponsel Anda (di Samsung, “Mode dan Rutinitas”); ha!shh tidak meminta izin lokasi. Pengaturan → Mode berdasarkan Wi-Fi menampilkan langkah-langkahnya. Pintasan layar beranda dan rutinitas beralih mode tanpa membuka aplikasi; hanya pesan singkat yang muncul.",
+            "new": "Baru"
+          }
+        ]
+      },
+      {
+        "h": "Arsip dan keamanan",
+        "items": [
+          {
+            "t": "Arsip notifikasi",
+            "p": "Simpan notifikasi yang Anda inginkan ke dalam folder seperti Kupon, Tagihan dan Pengeluaran, atau folder Anda sendiri. Aplikasi menyarankan jumlahnya dan Anda mengonfirmasinya; total bulanan akan ditampilkan. Tambahkan tanggal jatuh tempo dan Anda akan mendapatkan pengingat di pagi harinya. Anda juga bisa mengarsipkan notifikasi langsung dari Riwayat jika isinya tersimpan di sana. Tidak ada yang masuk ke arsip dengan sendirinya. Item dengan tenggat waktu dapat ditambahkan ke kalender ponsel Anda (tidak memerlukan izin kalender).",
+            "new": "Baru"
+          },
+          {
+            "t": "Kunci sidik jari",
+            "p": "Lindungi seluruh aplikasi, atau hanya arsip dan isi notifikasi, dengan sidik jari, wajah, atau PIN ponsel Anda. Menggunakan perintah bawaan Android, jadi data sidik jari Anda tidak pernah sampai ke aplikasi. Dalam setelan “arsip dan isi”, pratinjau konten di Riwayat juga tetap tersembunyi sampai Anda membukanya.",
+            "new": "Baru"
+          },
+          {
+            "t": "Lihat konten, hanya jika Anda mengizinkannya",
+            "p": "Konten notifikasi tidak dibaca secara default. Aktifkan tampilan konten di Pengaturan untuk melihat apa yang sedang menunggu."
+          },
+          {
+            "t": "Tema dan ikon aplikasi",
+            "p": "Pilih Kertas (krem hangat, default), Terang (putih), Gelap, atau Sistem, yang menggunakan Kertas dalam mode terang dan Gelap dalam mode gelap. Saat Anda mengubah tema, aplikasi akan menanyakan apakah ingin menyesuaikan ikon layar utama juga. Di Android 13 dan versi lebih baru, ikon bertema akan mengikuti warna wallpaper Anda.",
+            "new": "Baru"
+          },
+          {
+            "t": "Kirim masukan",
+            "p": "Dari Pengaturan, aplikasi email Anda terbuka dengan pesan yang sudah siap. Menambahkan informasi perangkat bersifat opsional.",
+            "new": "Baru"
+          }
+        ]
+      }
+    ],
+    "tech_eyebrow": "Lembar fakta",
+    "tech_h": "Detail teknis.",
+    "tech_p": "Bagian ini menjelaskan build pengembangan saat ini (0.89). Angka-angka ini berasal dari kode sumber.",
+    "tech": [
+      {
+        "k": "Platform",
+        "v": "Android 8.0 ke atas (API 26); menargetkan Android 15 (API 35)"
+      },
+      {
+        "k": "Dibuat dengan",
+        "v": "Hanya Java 17 dan Android SDK; tanpa pustaka pihak ketiga"
+      },
+      {
+        "k": "Kode",
+        "v": "Sekitar 20.600 baris dalam 91 file sumber"
+      },
+      {
+        "k": "Pengujian",
+        "v": "31 file pengujian logika inti; build berhenti jika ada pengujian yang gagal"
+      },
+      {
+        "k": "Cara kerja",
+        "v": "Pendengar notifikasi dan fitur snooze bawaan Android, sehingga notifikasi asli muncul kembali tepat waktu alih-alih diduplikasi"
+      },
+      {
+        "k": "Jaringan",
+        "v": "Tanpa izin internet; tanpa server, akun, iklan, atau analitik"
+      },
+      {
+        "k": "Penyimpanan",
+        "v": "Terenkripsi di ponsel dengan kunci yang disimpan di Android Keystore"
+      },
+      {
+        "k": "Status",
+        "v": "Diuji pada Samsung Galaxy S24 dan emulator Android 15; belum ada di Google Play"
+      },
+      {
+        "k": "Pengembangan",
+        "v": "Claude Code adalah alat pengembangan utama. Aplikasi itu sendiri tidak memuat layanan AI apa pun."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Kebijakan privasi · {brand}",
+    "desc": "Cara aplikasi notifikasi menangani data: tanpa izin internet, semua tetap terenkripsi di ponsel Anda, konten notifikasi hanya dengan izin Anda.",
+    "h1": "Kebijakan privasi",
+    "updated": "Terakhir diperbarui: 11 Oktober 2026",
+    "intro": "Singkatnya: aplikasi ini tidak memiliki izin internet dan tidak mengirim apa pun ke mana pun. Semua yang disimpannya tetap terenkripsi di ponsel Anda. Konten notifikasi tidak dibaca kecuali Anda mengaktifkannya, dan arsip hanya menyimpan notifikasi yang Anda pilih untuk disimpan.",
+    "sections": [
+      {
+        "h": "Tentang kami",
+        "body": "<p>Aplikasi ini dikembangkan oleh Seçkin Çelik di Karabük, Türkiye. Kontak: <a href=\"mailto:{email}\">{email}</a>.</p>"
+      },
+      {
+        "h": "Akses notifikasi (diperlukan)",
+        "body": "<p>Aplikasi memerlukan akses notifikasi, yang Anda berikan di pengaturan Android. Untuk menentukan apa yang terjadi pada notifikasi, aplikasi menggunakan aplikasi yang mengirimkannya, jenis notifikasi (misalnya kategori panggilan, alarm, atau pesan), dan waktu. Judul dan teks pesan tidak digunakan untuk penentuan ini.</p>"
+      },
+      {
+        "h": "Konten notifikasi (opsional)",
+        "body": "<ul><li>Jika Anda mengaktifkan <b>Tampilkan konten notifikasi</b> di Pengaturan, konten notifikasi yang sedang menunggu hanya dibaca pada saat ditampilkan kepada Anda.</li><li>Jika Anda juga mengaktifkan penyimpanan konten di Riwayat, konten tersebut disimpan secara terenkripsi di ponsel selama satu atau tujuh hari, sesuai pilihan Anda. Konten akan dihapus saat periode tersebut berakhir atau saat akses notifikasi dinonaktifkan.</li></ul>"
+      },
+      {
+        "h": "Arsip notifikasi",
+        "body": "<ul><li>Hanya notifikasi yang Anda pilih untuk diarsipkan yang disimpan: nama aplikasi, judul, teks, dan tanggal, ditambah folder, jumlah, dan tanggal jatuh tempo yang Anda tambahkan.</li><li>Tidak ada yang masuk ke arsip secara otomatis. Item yang diarsipkan tetap terenkripsi di ponsel sampai Anda menghapusnya.</li><li>Saran jumlah dihitung di ponsel. Pengingat tanggal jatuh tempo menggunakan alarm ponsel itu sendiri.</li><li>Menambahkan item arsip ke kalender Anda akan membuka aplikasi kalender Anda sendiri dengan acara yang telah terisi: judul notifikasi (atau nama aplikasi jika tidak ada judul) sebagai nama acara dan tanggal jatuh tempo sebagai tanggal sepanjang hari. Anda melihatnya di sana, dapat mengubahnya, dan memilih apakah akan menyimpannya. Aplikasi tidak memerlukan izin kalender untuk hal ini. Jika kalender Anda disinkronkan dengan akun (misalnya Google), acara yang disimpan akan masuk ke akun tersebut; itu dilakukan oleh aplikasi kalender Anda, dan ha!shh tidak mengirimkan apa pun.</li></ul>"
+      },
+      {
+        "h": "Kunci sidik jari",
+        "body": "<p>Kunci ini menggunakan dialog biometrik bawaan Android. Data sidik jari atau wajah Anda tidak pernah sampai ke aplikasi; aplikasi hanya mengetahui apakah pembukaan kunci berhasil.</p>"
+      },
+      {
+        "h": "Izin lainnya",
+        "body": "<ul><li><b>Mengirim notifikasi:</b> untuk mengirimkan notifikasi yang ditahan dan pengingat.</li><li><b>Memulai setelah boot ulang:</b> untuk memulihkan aturan dan pengingat Anda setelah ponsel dimulai ulang.</li><li><b>Kalender (opsional):</b> hanya waktu mulai dan selesai serta status sibuk dari acara yang dibaca, untuk beralih mode selama rapat. Judul acara tidak dibaca.</li><li><b>Bluetooth (opsional):</b> untuk beralih mode saat ponsel terhubung ke mobil Anda. Alamat perangkat mentah tidak disimpan; hanya sidik jari satu arah dan nama perangkat yang Anda lihat yang disimpan secara terenkripsi.</li></ul>"
+      },
+      {
+        "h": "Aplikasi terinstal Anda",
+        "body": "<p>Untuk menyortir aplikasi Anda ke dalam grup dan menampilkannya di daftar aturan, aplikasi membaca daftar aplikasi terinstal yang muncul di layar beranda Anda (nama aplikasi, nama paket, dan jenis yang dilaporkan Android). Ini hanya terjadi di ponsel dan tidak menggunakan izin tambahan. Ringkasan senyap adalah notifikasi senyap milik aplikasi itu sendiri; ini hanya menampilkan nama aplikasi dan jumlahnya, tidak pernah konten notifikasi.</p>"
+      },
+      {
+        "h": "Tanpa jaringan, tanpa pelacakan",
+        "body": "<p>Aplikasi ini tidak memiliki izin internet. Tidak ada server, akun, iklan, analitik, atau alat pelaporan kerusakan. Tidak ada data dari aplikasi yang sampai ke pengembang atau pihak mana pun.</p>"
+      },
+      {
+        "h": "Masukan melalui email",
+        "body": "<p>Jika Anda menggunakan <b>Kirim masukan</b> di Pengaturan, aplikasi email Anda sendiri akan terbuka dengan pesan yang sudah disiapkan. Anda menulis dan mengirimkannya sendiri. Informasi perangkat (produsen, model, versi Android, versi aplikasi) hanya ditambahkan jika Anda mencentang opsi tersebut. Email terkirim melalui penyedia email Anda. Konten notifikasi dan aturan Anda tidak pernah ditambahkan. Jika Anda mengirim pesan, pengembang melihat alamat email Anda dan hanya menggunakannya untuk membalas Anda. Pesan yang diterima di {email} hanya digunakan untuk membalas Anda dan meningkatkan kualitas aplikasi, serta tidak dibagikan kepada pihak ketiga.</p>"
+      },
+      {
+        "h": "Ekspor dan pencadangan",
+        "body": "<p>Anda bisa menyimpan cadangan aturan dan mode Anda sebagai file. Ini mencakup nama mode, mode bawaan yang tersembunyi, dan untuk setiap mode, aplikasi, grup, serta kategori yang langsung lolos. Anda juga bisa mengekspor rekaman notifikasi Anda (aplikasi, waktu, dan apa yang dilakukan). Kedua file tersebut tidak berisi konten notifikasi, dan arsip tidak disertakan. File hanya dikirim ke aplikasi atau folder yang Anda pilih. Pencadangan cloud Android dinonaktifkan untuk aplikasi ini.</p>"
+      },
+      {
+        "h": "Menghapus data Anda",
+        "body": "<p>Menghapus instalan aplikasi akan menghapus semua datanya dari ponsel. Anda juga dapat menghapus item arsip dan membersihkan riwayat di dalam aplikasi.</p>"
+      },
+      {
+        "h": "Perubahan pada kebijakan ini",
+        "body": "<p>Jika aplikasi mengubah cara menangani data, halaman ini akan diperbarui dan tanggal di bagian atas akan berubah.</p>"
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ dan bantuan · {brand}",
+    "desc": "Jawaban atas pertanyaan umum tentang aplikasi notifikasi: privasi, baterai, ponsel yang didukung, arsip, dan cara mengirim masukan.",
+    "h1": "Pertanyaan dan bantuan",
+    "lead": "Jawaban singkat atas pertanyaan yang paling sering kami dengar. Jika pertanyaan Anda tidak ada di sini, kirimkan email.",
+    "items": [
+      {
+        "q": "Kapan aplikasi ini akan tersedia?",
+        "a": "Aplikasi sedang dalam pengembangan. Aplikasi akan dirilis di Google Play, dimulai dengan pengujian tertutup. Belum ada tanggal pasti; situs ini akan diperbarui."
+      },
+      {
+        "q": "Apakah aplikasi ini berbayar?",
+        "a": "Rencananya adalah fungsi inti luring gratis. Jika kelak ada opsi berbayar, itu dimaksudkan sebagai pembelian sekali buka yang wajar daripada langganan paksa. Tidak akan ada iklan dan tidak ada penjualan data. Rencana ini belum final."
+      },
+      {
+        "q": "Apakah aplikasi membaca notifikasi saya?",
+        "a": "Tidak secara default. Keputusan hanya menggunakan aplikasi, jenis notifikasi, dan waktu. Konten hanya dibaca jika Anda mengaktifkan tampilan konten, dan hanya pada saat ditampilkan kepada Anda."
+      },
+      {
+        "q": "Mungkinkah saya melewatkan panggilan atau pesan penting?",
+        "a": "Panggilan, alarm, pengingat, kalender, dan notifikasi navigasi tidak pernah ditahan. Aplikasi di daftar Jangan pernah tahan selalu masuk di setiap mode, dan aplikasi dapat mengingatkan Anda sekali lagi jika notifikasi tersebut tidak dibuka dalam lima menit."
+      },
+      {
+        "q": "Mengapa aplikasi tidak memiliki izin internet?",
+        "a": "Aplikasi tidak membutuhkannya. Semuanya berjalan di ponsel Anda, sehingga notifikasi Anda tidak dapat dikirim ke mana pun."
+      },
+      {
+        "q": "Apakah aplikasi ini menguras baterai?",
+        "a": "Aplikasi tidak menjalankan layanan latar belakang yang konstan atau terus memeriksa dalam putaran. Aplikasi bereaksi terhadap notifikasi melalui pendengar notifikasi Android dan menggunakan alarm ponsel untuk waktu pengiriman. Sebagian produsen membatasi aplikasi latar belakang; layar penyiapan menunjukkan cara mengizinkannya di ponsel Anda."
+      },
+      {
+        "q": "Di ponsel apa saja aplikasi ini berfungsi?",
+        "a": "Android 8 ke atas. Kunci sidik jari membutuhkan Android 9 ke atas dan kunci layar (sidik jari, PIN, atau pola) yang telah diatur di ponsel."
+      },
+      {
+        "q": "Apakah notifikasi masuk ke arsip secara otomatis?",
+        "a": "Tidak. Hanya notifikasi yang Anda pilih untuk diarsipkan yang disimpan, terenkripsi dan di ponsel Anda. Anda dapat menambahkan folder, jumlah, dan tanggal jatuh tempo, serta menghapus item kapan saja."
+      },
+      {
+        "q": "Apa yang terjadi jika saya menghapus instalan aplikasi?",
+        "a": "Semua datanya akan dihapus dari ponsel. Pencadangan cloud Android nonaktif, jadi jika Anda ingin menyimpan aturan Anda, ekspor terlebih dahulu ke file."
+      },
+      {
+        "q": "Bahasa apa saja yang didukung?",
+        "a": "Aplikasi sedang disiapkan dalam bahasa Inggris, Turki, Arab, Jerman, Spanyol, Prancis, Hindi, Indonesia, Portugis, dan Rusia. Selama pengembangan, beberapa layar baru muncul dalam bahasa Turki terlebih dahulu."
+      },
+      {
+        "q": "Bagaimana cara melaporkan masalah atau menyarankan ide?",
+        "a": "Di dalam aplikasi, buka Pengaturan dan pilih Kirim masukan; aplikasi email Anda akan terbuka dengan pesan yang sudah siap. Anda juga dapat menulis langsung ke {email}."
+      }
+    ],
+    "contact_h": "Masih memiliki pertanyaan?",
+    "contact_p": "Hubungi kami melalui email."
+  }
+}

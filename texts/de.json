@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "name": "Deutsch",
+    "dir": "ltr",
+    "locale": "de_DE"
+  },
+  "common": {
+    "brand": "ha!shh",
+    "skip": "Zum Inhalt springen",
+    "nav_label": "Hauptmenü",
+    "nav_demo": "Live-Demo",
+    "nav_features": "Funktionen",
+    "nav_privacy": "Datenschutz",
+    "nav_faq": "FAQ",
+    "lang_label": "Sprache",
+    "theme_label": "Design",
+    "theme_auto": "Design: Systemeinstellung",
+    "theme_light": "Design: Hell",
+    "theme_dark": "Design: Dunkel",
+    "menu": "Menü",
+    "soon_small": "Demnächst",
+    "soon_big": "auf Google Play",
+    "soon_aria": "Demnächst auf Google Play",
+    "chips": [
+      {
+        "t": "Keine Internetberechtigung"
+      },
+      {
+        "t": "Alles bleibt verschlüsselt auf deinem Smartphone"
+      },
+      {
+        "t": "Keine Werbung, keine Analysen"
+      }
+    ],
+    "dev_role": "Entwickler · Karabük, Türkei",
+    "footer_by": "Entwickelt von Seçkin Çelik · Karabük, Türkei",
+    "footer_label": "Fußzeilenmenü",
+    "footer_privacy": "Datenschutzerklärung",
+    "footer_faq": "FAQ und Support",
+    "mt_note": "Diese Seite wurde mithilfe von KI übersetzt. Bei Unklarheiten gilt die englische Version."
+  },
+  "home": {
+    "title": "{brand} · Benachrichtigungen, die zu deinem Tag passen",
+    "desc": "Eine Android-App, die ausgewählte Benachrichtigungen sammelt und gebündelt zu deinen Wunschzeiten zustellt. Keine Internetberechtigung – alles bleibt auf deinem Smartphone. In Entwicklung, demnächst auf Google Play.",
+    "eyebrow": "Android · in Entwicklung",
+    "h1a": "Benachrichtigungen, die zu",
+    "h1b": "deinem Tag passen.",
+    "lead": "Sie hält ausgewählte Benachrichtigungen zurück und stellt sie gebündelt zu Zeiten zu, die du festlegst – etwa um 12:30, 18:00 und 21:00 Uhr. Anrufe, Wecker und Apps, die du als wichtig markierst, kommen immer sofort durch.",
+    "btn_demo": "Einen Tag ansehen ↓",
+    "demo_h": "Erlebe einen ganzen Tag in einer Minute.",
+    "demo_p": "Der Ring ist ein 24-Stunden-Plan, genau wie in der App. Im Zeitverlauf wechselt der aktive Modus, und eingehende Benachrichtigungen werden entweder sofort angezeigt, bis zur nächsten Zustellzeit zurückgehalten oder blockiert. Zu jeder Zustellzeit kommt alles Wartende gebündelt an.",
+    "dial_aria": "24-Stunden-Tagesplaner",
+    "fast": "Geschwindigkeit ×3",
+    "restart": "Tag neu starten",
+    "st_arr": "Benachrichtigungen eingetroffen",
+    "st_now": "sofort angezeigt",
+    "st_held": "gebündelt zugestellt",
+    "st_quiet": "Unterbrechungen vermieden",
+    "lane_now": "Kommt jetzt an",
+    "lane_now_s": "wichtig oder erlaubt",
+    "lane_wait": "Wartend",
+    "empty": "Nichts wartet.",
+    "demo_fine": "Eine Animation mit Beispielregeln und beispielhaften App-Kategorien. Alles wird in deinem Browser generiert – keine echten Nutzungsdaten.",
+    "how_eyebrow": "So funktioniert es",
+    "how_h": "Eine Entscheidung pro App. Den Rest erledigt die App.",
+    "how_p": "Wähle eine von vier Optionen für jede App. Lege Zustellzeiten fest, die zu deinem Tag passen, und wähle einen Modus – oder überlass den Moduswechsel dem Wochenplan.",
+    "actions": [
+      {
+        "t": "Sofort",
+        "p": "Die Benachrichtigung kommt wie gewohnt an."
+      },
+      {
+        "t": "Zurückhalten",
+        "p": "Die Benachrichtigung wartet lautlos, solange der gewählte Modus aktiv ist."
+      },
+      {
+        "t": "Zur Zustellzeit",
+        "p": "Gesammelt und gebündelt zugestellt zu deinen Wunschzeiten (z. B. 12:30, 18:00, 21:00 Uhr)."
+      },
+      {
+        "t": "Blockieren",
+        "p": "Benachrichtigungen dieser App werden nicht angezeigt."
+      }
+    ],
+    "never_eyebrow": "Wichtiges kommt durch",
+    "never_h": "Manches wird niemals zurückgehalten.",
+    "never_p": "Anrufe, Wecker, Erinnerungen, Kalender- und Navigationshinweise kommen immer sofort durch. Du kannst Apps wie deine Bank oder dein Krankenhaus auf die Liste <b>Niemals zurückhalten</b> setzen – sie erreichen dich in jedem Modus. Auf Wunsch wirst du noch einmal erinnert, wenn eine Benachrichtigung nach fünf Minuten nicht geöffnet wurde.",
+    "never_list": [
+      {
+        "t": "Anrufe und verpasste Anrufe"
+      },
+      {
+        "t": "Wecker und Erinnerungen"
+      },
+      {
+        "t": "Kalendertermine"
+      },
+      {
+        "t": "Navigation"
+      },
+      {
+        "t": "Apps auf deiner Liste „Niemals zurückhalten“"
+      }
+    ],
+    "modes_eyebrow": "Modi",
+    "modes_h": "Vier ruhige Modi. Erstelle eigene, wenn du möchtest.",
+    "modes": [
+      {
+        "t": "Normal",
+        "p": "Benachrichtigungen ohne Regel kommen sofort an. Deine Einstellungen pro App gelten weiterhin."
+      },
+      {
+        "t": "Fokus",
+        "p": "Hält Apps zurück, die dich beim Lernen oder Arbeiten ablenken."
+      },
+      {
+        "t": "Schlaf",
+        "p": "Eine ruhige Nacht. Wichtiges kommt trotzdem durch."
+      },
+      {
+        "t": "Sport",
+        "p": "Hält nur ausgewählte Sport-Apps zurück, damit du das Ergebnis nicht vor dem Spiel erfährst."
+      }
+    ],
+    "hl_eyebrow": "Highlights",
+    "hl_h": "Für echte Tage gemacht.",
+    "highlights": [
+      {
+        "t": "Wochenplan",
+        "p": "Modi wechseln automatisch nach Tag und Uhrzeit. Du kannst auch einen Plan für ein bestimmtes Datum festlegen.",
+        "new": ""
+      },
+      {
+        "t": "Schichtplan",
+        "p": "Ein wiederkehrender Zyklus aus Früh-, Spät- und Nachtschichten sowie freien Tagen, inklusive Pausen während einer Schicht.",
+        "new": ""
+      },
+      {
+        "t": "Benachrichtigungsarchiv",
+        "p": "Speichere Gutscheine, Rechnungen oder Ausgaben in Ordnern, wann immer du möchtest. Am Morgen des Fälligkeitsdatums erhältst du eine Erinnerung.",
+        "new": "Neu"
+      },
+      {
+        "t": "Fingerabdruck-Sperre",
+        "p": "Schütze die gesamte App oder nur das Archiv und die Inhalte mit der Android-eigenen Bildschirmsperre.",
+        "new": "Neu"
+      },
+      {
+        "t": "24-Stunden-Zifferblatt",
+        "p": "Der ganze Tag auf einem Ring in der Heute-Ansicht. Bei wartenden Benachrichtigungen siehst du die App und den Grund, nicht die Nachricht.",
+        "new": ""
+      },
+      {
+        "t": "Wer durchkommt, wer wartet",
+        "p": "Sieh für jeden Modus, welche Apps sofort ankommen, welche warten und warum. Mit einem Fingertipp anpassbar.",
+        "new": "Neu"
+      }
+    ],
+    "more_features": "Alle Funktionen →",
+    "priv_h": "Deine Benachrichtigungen bleiben auf deinem Smartphone.",
+    "priv_p": "Die App hat keine Internetberechtigung. Nichts wird über ein Netzwerk gesendet, und es gibt weder Werbung noch Analyse-Tools.",
+    "facts": [
+      {
+        "b": "0",
+        "p": "Netzwerkverbindungen. Die App fordert keine Internetberechtigung an."
+      },
+      {
+        "b": "3",
+        "p": "Kriterien für Entscheidungen: die App, der Benachrichtigungstyp und die Uhrzeit. Titel und Nachrichtentexte werden dafür nicht gelesen."
+      },
+      {
+        "b": "Opt-in",
+        "p": "Benachrichtigungsinhalte werden standardmäßig nicht gelesen. Wenn du sehen möchtest, was wartet, schaltest du das in den Einstellungen ein."
+      }
+    ],
+    "priv_more_p": "Einstellungen und Protokolle werden verschlüsselt auf dem Telefon gespeichert. Das Archiv behält nur die von dir ausgewählten Benachrichtigungen – ebenfalls verschlüsselt und lokal. Bei der Deinstallation der App werden alle Daten gelöscht.",
+    "priv_more": "Vollständige Datenschutzerklärung lesen →",
+    "status_eyebrow": "Status",
+    "status_h": "In Entwicklung, demnächst auf Google Play.",
+    "status_p": "Die App läuft auf Android 8 und neuer. Ihr endgültiger Name steht noch nicht fest; vorerst nutzen wir den Arbeitstitel „ha!shh“. Diese Seite wird aktualisiert, sobald die App auf Google Play verfügbar ist."
+  },
+  "sim": {
+    "mode": {
+      "normal": "Normal",
+      "focus": "Fokus",
+      "sleep": "Schlaf",
+      "sports": "Sport"
+    },
+    "apps": [
+      [
+        "Nachrichten",
+        "N",
+        [
+          "Neue Nachricht",
+          "2 neue Nachrichten",
+          "Gruppenchat"
+        ]
+      ],
+      [
+        "Social Media",
+        "S",
+        [
+          "Jemandem gefällt dein Beitrag",
+          "Neuer Follower",
+          "Du wurdest erwähnt"
+        ]
+      ],
+      [
+        "News",
+        "N",
+        [
+          "Schlagzeilen am Morgen",
+          "Eilmeldung",
+          "Tagesüberblick"
+        ]
+      ],
+      [
+        "Shopping",
+        "S",
+        [
+          "Blitzangebot!",
+          "Dein Warenkorb wartet",
+          "Rabatt endet bald"
+        ]
+      ],
+      [
+        "Sport",
+        "S",
+        [
+          "Spiel-Update",
+          "Tor!",
+          "Endergebnis"
+        ]
+      ],
+      [
+        "Bank",
+        "B",
+        [
+          "Kartenzahlung",
+          "Überweisung erhalten"
+        ]
+      ],
+      [
+        "Kalender",
+        "K",
+        [
+          "Termin in 15 Min.",
+          "Terminerinnerung"
+        ]
+      ]
+    ],
+    "system": "Immer",
+    "never": "Niemals zurückhalten",
+    "block": "Blockiert",
+    "spoiler": "Keine Spoiler",
+    "now": "Sofort",
+    "delivery": "Zur Zustellzeit",
+    "modeFmt": "{m}-Modus",
+    "waitingFmt": "{n} wartend",
+    "morning": "Morgen",
+    "batch": "Gebündelt ",
+    "next": "Nächste Zustellung ",
+    "untilMorning": "Bis zum Morgen zurückgehalten",
+    "nextLow": "nächste Zustellung ",
+    "untilLow": "bis zum Morgen",
+    "play": "Abspielen",
+    "pause": "Pause",
+    "again": "Erneut abspielen"
+  },
+  "features": {
+    "title": "Funktionen · {brand}",
+    "desc": "Alles, was die App heute kann: Regeln pro App, Zustellzeiten, Modi, Wochenplan, Schichtplan, Benachrichtigungsarchiv und Fingerabdruck-Sperre. Keine Internetberechtigung.",
+    "h1": "Alles, was die App heute kann.",
+    "lead": "Diese Seite listet nur auf, was im aktuellen Entwicklungs-Build enthalten ist. Neuerungen aus dem letzten Update sind gekennzeichnet.",
+    "groups": [
+      {
+        "h": "Die Grundlagen",
+        "items": [
+          {
+            "t": "Eine Entscheidung pro App",
+            "p": "Sofort, zurückhalten, zur Zustellzeit oder blockieren. Regeln können auch für eine App-Gruppe oder Kategorie gelten."
+          },
+          {
+            "t": "Zustellzeiten",
+            "p": "Lege mehrere Zustellzeiten am Tag fest, etwa um 12:30, 18:00 und 21:00 Uhr. Alles Wartende kommt gebündelt an."
+          },
+          {
+            "t": "Liste „Niemals zurückhalten“",
+            "p": "Apps auf dieser Liste kommen in jedem Modus durch. Optional wirst du noch einmal erinnert, wenn eine Benachrichtigung nach fünf Minuten noch nicht geöffnet wurde."
+          },
+          {
+            "t": "Immer zugestellt",
+            "p": "Anrufe, verpasste Anrufe, Wecker, Erinnerungen, Kalender- und Navigationshinweise werden niemals zurückgehalten."
+          },
+          {
+            "t": "Stille Zusammenfassung",
+            "p": "Eine einzige stille Zeile in der Benachrichtigungsleiste – ganz ohne Ton oder Vibration – zeigt dir, von wem wie viele Benachrichtigungen warten und wann die erste eintrifft. Inhalte werden nicht angezeigt. Schalte es für ausgewählte Apps ein oder für alles, was wartet. Eine Schaltfläche „Jetzt zustellen“ gibt dir alle wartenden Mitteilungen auf einmal, ohne die App zu öffnen.",
+            "new": "Neu"
+          }
+        ]
+      },
+      {
+        "h": "Modi und Pläne",
+        "items": [
+          {
+            "t": "Vier Modi plus eigene",
+            "p": "Normal, Fokus, Schlaf und Sport. Benenne sie um, blende ungenutzte aus oder erstelle deine eigenen Modi."
+          },
+          {
+            "t": "Wer durchkommt, wer wartet",
+            "p": "Sieh für jeden Modus, welche Apps sofort ankommen und welche warten – inklusive Begründung. Lege für Apps, Gruppen oder Kategorien fest: „Diese kommt in diesem Modus durch“.",
+            "new": "Neu"
+          },
+          {
+            "t": "Wochenplan und Kalender",
+            "p": "Modi wechseln nach Tag und Uhrzeit. Durchstöbere Monate und Jahre, sieh dir an, wie viele Benachrichtigungen an einem vergangenen Tag ankamen, gewartet haben und zugestellt wurden (nur Anzahlen), und erstelle einen Plan für ein zukünftiges Datum. Pläne für ein bestimmtes Datum werden mit ihrem Datum aufgelistet. Wähle beim Bearbeiten eines Plans Wochentage oder das Wochenende mit einem Fingertipp aus.",
+            "new": "Neu"
+          },
+          {
+            "t": "24-Stunden-Zifferblatt",
+            "p": "Die Heute-Ansicht zeigt den gesamten Tag auf einem Ring mit den wartenden Benachrichtigungen. Ein Countdown zeigt, wann die nächste Zustellung erfolgt, zum Beispiel „5 Benachrichtigungen in 38 Min.“"
+          },
+          {
+            "t": "Schichtplan",
+            "p": "Ein wiederkehrender Rhythmus aus Früh-, Spät- und Nachtschichten sowie freien Tagen. Auch Pausen innerhalb einer Schicht werden berücksichtigt."
+          },
+          {
+            "t": "Fertige Profile",
+            "p": "Sieh vorab, was ein Profil ändert, und passe es nach Bedarf an. Ein Profil bleibt so lange aktiv, wie sein Name angibt (z. B. „Konzentriertes Arbeiten · 2 Stunden“), und kehrt danach zum vorherigen Modus zurück."
+          },
+          {
+            "t": "Fokus-Sitzung",
+            "p": "Tippe im Bildschirm „Heute“ auf „25 Min. Fokus“. Wenn die Zeit abgelaufen ist, kehrst du zu deinem vorherigen Modus zurück und siehst eine kurze „Gut gemacht“-Zusammenfassung (nur Anzahlen).",
+            "new": "Neu"
+          }
+        ]
+      },
+      {
+        "h": "Volle Kontrolle",
+        "items": [
+          {
+            "t": "Regelumfang",
+            "p": "Sieh nach, welche Apps eine Regel wie „Shopping“ abdeckt. Entferne eine falsch zugeordnete App oder füge eine neue hinzu.",
+            "new": "Neu"
+          },
+          {
+            "t": "App-Gruppen",
+            "p": "Fasse Apps in Gruppen zusammen und steuere sie mit einer einzigen Regel. Du kannst Gruppen jederzeit umbenennen oder Apps anpassen."
+          },
+          {
+            "t": "Alle deine Apps",
+            "p": "Die Regel-Übersicht listet jede App auf deinem Smartphone auf – nicht nur diejenigen, die bereits eine Benachrichtigung gesendet haben."
+          },
+          {
+            "t": "Optionale Automationen",
+            "p": "Mit deiner Erlaubnis kann die App bei Kalenderterminen oder bei Bluetooth-Verbindung mit deinem Auto automatisch den Modus wechseln."
+          },
+          {
+            "t": "Sichere deine Regeln",
+            "p": "Speichere deine Regeln in einer Datei und stelle sie später wieder her. Das Backup behält auch Modusnamen, ausgeblendete Modi und für jeden Modus die Liste der Apps, die sofort durchkommen.",
+            "new": "Neu"
+          },
+          {
+            "t": "Smarte Einrichtung",
+            "p": "Die Einrichtung beginnt damit, dein Smartphone kennenzulernen: Deine Apps werden in Gruppen sortiert, und du korrigierst alle, die in der falschen gelandet sind. Du wirst nur nach Gruppen gefragt, die du tatsächlich hast, und am Ende siehst du eine Vorschau, wer durchkommt und wer wartet. Wähle „Einfach starten“ und die Einrichtung endet in 3 Schritten mit aktivierter einfacher Ansicht.",
+            "new": "Neu"
+          },
+          {
+            "t": "Wöchentlicher Aufräumvorschlag",
+            "p": "Auf dem Bildschirm „Heute“ werden die Apps ohne Regel aufgelistet, die dich diese Woche am meisten unterbrochen haben. Verschiebe eine mit einem Fingertipp auf eine Zustellzeit oder wähle „Jetzt nicht“. Es werden nur Anzahlen verwendet.",
+            "new": "Neu"
+          },
+          {
+            "t": "Einfache Ansicht",
+            "p": "Aktiviere sie in den Einstellungen: Der Heute-Bildschirm behält nur das Zifferblatt, eine einzelne Taste „Fokus / Zurück zum Normalzustand“ und die wartenden Mitteilungen. Die Tabs „Regeln“ und „Plan“ werden ausgeblendet, und deine Regeln laufen im Hintergrund weiter. Für alle, die die App mit so wenigen Einstellungen wie möglich nutzen möchten.",
+            "new": "Neu"
+          },
+          {
+            "t": "Warum hat es gewartet?",
+            "p": "Im Verlauf zeigt jede zurückgehaltene Benachrichtigung, welcher Modus oder welche Regel sie zurückgehalten hat. Von dort aus kannst du diese App auch auf die Zustellzeit verschieben, ohne den Regel-Bildschirm zu öffnen.",
+            "new": "Neu"
+          },
+          {
+            "t": "Frage des Tages",
+            "p": "Einmal am Morgen fragt die App nach der App ohne Regel, die dich gestern am meisten unterbrochen hat. Halte sie mit einem einzigen Fingertipp zurück.",
+            "new": "Neu"
+          },
+          {
+            "t": "Modus per Wi-Fi",
+            "p": "Normal, wenn du nach Hause kommst, Fokus, wenn du bei der Arbeit ankommst. Du richtest es mit der Routinen-App deines Telefons ein (bei Samsung „Modi und Routinen“); ha!shh fragt nicht nach der Standortberechtigung. Einstellungen → Modus per Wi-Fi zeigt die Schritte. Startbildschirm-Verknüpfungen und Routinen wechseln den Modus, ohne die App zu öffnen; es erscheint nur eine kurze Nachricht.",
+            "new": "Neu"
+          }
+        ]
+      },
+      {
+        "h": "Archiv und Sicherheit",
+        "items": [
+          {
+            "t": "Benachrichtigungsarchiv",
+            "p": "Speichere gewünschte Benachrichtigungen in Ordnern wie Gutscheine, Rechnungen und Ausgaben oder deinem eigenen Ordner. Die App schlägt den Betrag vor und du bestätigst ihn; eine Monatssumme wird angezeigt. Füge ein Fälligkeitsdatum hinzu und du erhältst an diesem Morgen eine Erinnerung. Du kannst eine Benachrichtigung auch direkt aus dem Verlauf archivieren, wenn ihr Inhalt dort gespeichert wurde. Nichts landet von selbst im Archiv. Ein Eintrag mit Fälligkeitsdatum kann zum Kalender deines Telefons hinzugefügt werden (keine Kalenderberechtigung erforderlich).",
+            "new": "Neu"
+          },
+          {
+            "t": "Fingerabdruck-Sperre",
+            "p": "Schütze die gesamte App oder nur das Archiv und die Benachrichtigungsinhalte mit deinem Fingerabdruck, Gesicht oder deiner Geräte-PIN. Es wird die Android-eigene Abfrage verwendet, sodass deine Fingerabdruckdaten die App niemals erreichen. In der Einstellung „Archiv und Inhalte“ bleiben auch Inhaltsvorschauen im Verlauf ausgeblendet, bis du entsperrst.",
+            "new": "Neu"
+          },
+          {
+            "t": "Inhalte nur anzeigen, wenn du es erlaubst",
+            "p": "Benachrichtigungsinhalte werden standardmäßig nicht gelesen. Aktiviere die Inhaltsanzeige in den Einstellungen, um zu sehen, was wartet."
+          },
+          {
+            "t": "Designs und App-Symbol",
+            "p": "Wähle Papier (warmes Creme, die Standardeinstellung), Hell (Weiß), Dunkel oder System, das im hellen Modus Papier und im dunklen Modus Dunkel verwendet. Wenn du das Design änderst, fragt die App, ob auch das Startbildschirmsymbol angepasst werden soll. Ab Android 13 übernehmen themenbezogene Symbole die Farbe deines Hintergrundbilds.",
+            "new": "Neu"
+          },
+          {
+            "t": "Feedback senden",
+            "p": "Aus den Einstellungen heraus öffnet sich deine E-Mail-App mit einer vorbereiteten Nachricht. Das Anhängen von Geräteinformationen ist optional.",
+            "new": "Neu"
+          }
+        ]
+      }
+    ],
+    "tech_eyebrow": "Datenblatt",
+    "tech_h": "Die technischen Details.",
+    "tech_p": "Diese Angaben beschreiben den aktuellen Entwicklungs-Build (0.89). Die Zahlen stammen aus dem Quellcode.",
+    "tech": [
+      {
+        "k": "Plattform",
+        "v": "Android 8.0 und neuer (API 26); Zielversion Android 15 (API 35)"
+      },
+      {
+        "k": "Entwickelt mit",
+        "v": "Ausschließlich Java 17 und Android SDK; keine Drittanbieter-Bibliotheken"
+      },
+      {
+        "k": "Code",
+        "v": "Rund 20.600 Zeilen in 91 Quelldateien"
+      },
+      {
+        "k": "Tests",
+        "v": "31 Testdateien für die Kernlogik; der Build bricht ab, falls ein Test fehlschlägt"
+      },
+      {
+        "k": "Funktionsweise",
+        "v": "Notification Listener und Schlummerfunktion von Android, damit die Originalbenachrichtigung pünktlich wiederkehrt, statt kopiert zu werden"
+      },
+      {
+        "k": "Netzwerk",
+        "v": "Keine Internetberechtigung; keine Server, Konten, Werbung oder Analysen"
+      },
+      {
+        "k": "Speicher",
+        "v": "Verschlüsselt auf dem Telefon mit einem Schlüssel im Android Keystore"
+      },
+      {
+        "k": "Status",
+        "v": "Getestet auf einem Samsung Galaxy S24 und einem Android 15-Emulator; noch nicht auf Google Play"
+      },
+      {
+        "k": "Entwicklung",
+        "v": "Claude Code ist das wichtigste Entwicklungswerkzeug. Die App selbst enthält keine KI-Dienste."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung · {brand}",
+    "desc": "Wie die Benachrichtigungs-App mit Daten umgeht: keine Internetberechtigung, alles bleibt verschlüsselt auf deinem Smartphone, Benachrichtigungsinhalte nur mit deiner Erlaubnis.",
+    "h1": "Datenschutzerklärung",
+    "updated": "Zuletzt aktualisiert: 11. Oktober 2026",
+    "intro": "Kurz gesagt: Die App hat keine Internetberechtigung und sendet nichts irgendwohin. Alles, was gespeichert wird, bleibt verschlüsselt auf deinem Smartphone. Benachrichtigungsinhalte werden nur gelesen, wenn du das einschaltest, und das Archiv speichert nur Benachrichtigungen, die du selbst auswählst.",
+    "sections": [
+      {
+        "h": "Wer wir sind",
+        "body": "<p>Die App wird von Seçkin Çelik in Karabük, Türkei entwickelt. Kontakt: <a href=\"mailto:{email}\">{email}</a>.</p>"
+      },
+      {
+        "h": "Zugriff auf Benachrichtigungen (erforderlich)",
+        "body": "<p>Die App benötigt Zugriff auf Benachrichtigungen, den du in den Android-Einstellungen erteilst. Um zu entscheiden, was mit einer Benachrichtigung geschieht, nutzt sie die absendende App, die Benachrichtigungsart (z. B. Anruf, Wecker oder Nachrichtenkategorie) und die Uhrzeit. Titel und Nachrichtentexte werden für diese Entscheidung nicht verwendet.</p>"
+      },
+      {
+        "h": "Benachrichtigungsinhalte (optional)",
+        "body": "<ul><li>Wenn du <b>Benachrichtigungsinhalte anzeigen</b> in den Einstellungen aktivierst, wird der Inhalt wartender Benachrichtigungen erst in dem Moment gelesen, in dem er dir angezeigt wird.</li><li>Wenn du zusätzlich aktivierst, dass Inhalte im Verlauf gespeichert werden, werden diese für einen oder sieben Tage – je nach deiner Wahl – verschlüsselt auf dem Telefon gespeichert. Nach Ablauf dieses Zeitraums oder beim Deaktivieren des Benachrichtigungszugriffs werden sie gelöscht.</li></ul>"
+      },
+      {
+        "h": "Benachrichtigungsarchiv",
+        "body": "<ul><li>Es werden nur die Benachrichtigungen gespeichert, die du selbst archivierst: App-Name, Titel, Text und Datum sowie der Ordner, Betrag und das Fälligkeitsdatum, die du angibst.</li><li>Nichts gelangt von allein ins Archiv. Archivierte Einträge bleiben verschlüsselt auf dem Smartphone, bis du sie löschst.</li><li>Der Betragsvorschlag wird direkt auf dem Smartphone berechnet. Erinnerungen an Fälligkeitsdaten nutzen den Wecker des Telefons.</li><li>Das Hinzufügen eines Archiveintrags zu deinem Kalender öffnet deine eigene Kalender-App mit einem vorausgefüllten Termin: der Benachrichtigungstitel (oder der App-Name, falls kein Titel vorhanden ist) als Terminname und das Fälligkeitsdatum als ganztägiger Termin. Du siehst ihn dort, kannst ihn ändern und entscheiden, ob du ihn speichern möchtest. Die App benötigt hierfür keine Kalenderberechtigung. Wenn dein Kalender mit einem Konto synchronisiert wird (zum Beispiel Google), wird der gespeicherte Termin an dieses Konto übertragen; das wird von deiner Kalender-App erledigt, und ha!shh sendet nichts.</li></ul>"
+      },
+      {
+        "h": "Fingerabdruck-Sperre",
+        "body": "<p>Die Sperre nutzt den biometrischen Dialog von Android. Deine Fingerabdruck- oder Gesichtsdaten erreichen die App zu keinem Zeitpunkt; die App erfährt lediglich, ob das Entsperren erfolgreich war.</p>"
+      },
+      {
+        "h": "Weitere Berechtigungen",
+        "body": "<ul><li><b>Benachrichtigungen senden:</b> um zurückgehaltene Benachrichtigungen und Erinnerungen zuzustellen.</li><li><b>Nach dem Neustart ausführen:</b> um deine Regeln und Erinnerungen nach einem Neustart des Smartphones wiederherzustellen.</li><li><b>Kalender (optional):</b> Es werden nur Start- und Endzeit sowie der Verfügbarkeitsstatus von Terminen gelesen, um während Besprechungen den Modus zu wechseln. Termintitel werden nicht gelesen.</li><li><b>Bluetooth (optional):</b> um den Modus zu wechseln, wenn sich das Telefon mit deinem Auto verbindet. Die eigentliche Geräteadresse wird nicht gespeichert; lediglich ein Einweg-Fingerabdruck und der sichtbare Gerätename werden verschlüsselt abgelegt.</li></ul>"
+      },
+      {
+        "h": "Deine installierten Apps",
+        "body": "<p>Um deine Apps in Gruppen zu sortieren und in den Regellisten anzuzeigen, liest die App die Liste der installierten Apps aus, die auf deinem Startbildschirm erscheinen (App-Name, Paketname und der von Android gemeldete Typ). Das geschieht ausschließlich auf dem Smartphone und erfordert keine zusätzlichen Berechtigungen. Die stille Zusammenfassung ist die eigene lautlose Benachrichtigung der App; sie zeigt nur App-Namen und Anzahlen, niemals Benachrichtigungsinhalte.</p>"
+      },
+      {
+        "h": "Kein Netzwerk, kein Tracking",
+        "body": "<p>Die App besitzt keine Internetberechtigung. Es gibt keine Server, Konten, Werbung, Analyse- oder Absturzmelde-Tools. Keine Daten aus der App gelangen an den Entwickler oder Dritte.</p>"
+      },
+      {
+        "h": "Feedback per E-Mail",
+        "body": "<p>Wenn du in den Einstellungen <b>Feedback senden</b> wählst, öffnet sich deine eigene E-Mail-App mit einer vorbereiteten Nachricht. Du verfasst und versendest sie selbst. Geräteinformationen (Hersteller, Modell, Android-Version, App-Version) werden nur hinzugefügt, wenn du das Häkchen setzt. Die E-Mail wird über deinen eigenen E-Mail-Anbieter übertragen. Benachrichtigungsinhalte und deine Regeln werden niemals hinzugefügt. Wenn du die Nachricht sendest, sieht der Entwickler deine E-Mail-Adresse und verwendet sie nur, um dir zu antworten. Nachrichten an {email} werden ausschließlich genutzt, um dir zu antworten und die App zu verbessern, und werden nicht an Dritte weitergegeben.</p>"
+      },
+      {
+        "h": "Export und Sicherung",
+        "body": "<p>Du kannst ein Backup deiner Regeln und Modi als Datei speichern. Es enthält Modusnamen, ausgeblendete integrierte Modi und für jeden Modus die Apps, Gruppen und Kategorien, die sofort durchkommen. Du kannst auch deine Benachrichtigungseinträge exportieren (App, Uhrzeit und was getan wurde). Keine der beiden Dateien enthält Benachrichtigungsinhalte, und das Archiv ist nicht enthalten. Die Datei geht nur an die von dir ausgewählte App oder den ausgewählten Ordner. Das Android-Cloud-Backup ist für diese App deaktiviert.</p>"
+      },
+      {
+        "h": "Löschen deiner Daten",
+        "body": "<p>Durch die Deinstallation der App werden alle zugehörigen Daten restlos vom Telefon gelöscht. Du kannst Archiveinträge und den Verlauf auch direkt in der App löschen.</p>"
+      },
+      {
+        "h": "Änderungen dieser Erklärung",
+        "body": "<p>Sollte sich der Umgang mit Daten in der App ändern, wird diese Seite aktualisiert und das Datum oben angepasst.</p>"
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ und Support · {brand}",
+    "desc": "Antworten auf häufige Fragen zur Benachrichtigungs-App: Datenschutz, Akkuverbrauch, unterstützte Smartphones, das Archiv und wie du Feedback sendest.",
+    "h1": "Fragen und Support",
+    "lead": "Kurze Antworten auf die häufigsten Fragen. Falls deine Frage nicht dabei ist, sende uns eine E-Mail.",
+    "items": [
+      {
+        "q": "Wann wird die App verfügbar sein?",
+        "a": "Sie befindet sich in Entwicklung. Die Veröffentlichung erfolgt auf Google Play, beginnend mit einem geschlossenen Test. Es gibt noch kein festes Datum; diese Seite wird aktualisiert."
+      },
+      {
+        "q": "Wird die App etwas kosten?",
+        "a": "Geplant ist ein kostenloser Offline-Kern. Falls es jemals eine Bezahloption geben sollte, ist ein fairer Einmalkauf statt eines Abonnements vorgesehen. Es wird keine Werbung und keinen Datenverkauf geben. Dieser Plan ist noch nicht endgültig."
+      },
+      {
+        "q": "Liest die App meine Benachrichtigungen?",
+        "a": "Standardmäßig nicht. Für Entscheidungen werden lediglich die App, der Benachrichtigungstyp und die Uhrzeit herangezogen. Inhalte werden nur gelesen, wenn du die Inhaltsanzeige aktivierst, und nur in dem Moment, in dem sie dir angezeigt werden."
+      },
+      {
+        "q": "Könnte ich einen wichtigen Anruf oder eine wichtige Nachricht verpassen?",
+        "a": "Anrufe, Wecker, Erinnerungen, Kalender- und Navigationshinweise werden niemals zurückgehalten. Apps auf deiner Liste „Niemals zurückhalten“ kommen in jedem Modus durch, und die App kann dich noch einmal erinnern, falls eine solche Benachrichtigung nach fünf Minuten nicht geöffnet wurde."
+      },
+      {
+        "q": "Warum hat die App keine Internetberechtigung?",
+        "a": "Weil sie keine benötigt. Alles passiert auf deinem Smartphone, daher können deine Benachrichtigungen nirgendwohin gesendet werden."
+      },
+      {
+        "q": "Verbraucht sie viel Akku?",
+        "a": "Nein, sie führt keinen dauerhaften Hintergrunddienst aus und prüft nichts in einer Endlosschleife. Sie reagiert über den Android Notification Listener auf Benachrichtigungen und nutzt die Wecker des Telefons für Zustellzeiten. Manche Hersteller schränken Hintergrund-Apps ein; die Einrichtungsassistenten zeigen, wie du sie auf deinem Smartphone erlaubst."
+      },
+      {
+        "q": "Auf welchen Smartphones funktioniert sie?",
+        "a": "Auf Geräten mit Android 8 und neuer. Die Fingerabdruck-Sperre erfordert Android 9 oder neuer und eine auf dem Telefon eingerichtete Bildschirmsperre (Fingerabdruck, PIN oder Muster)."
+      },
+      {
+        "q": "Gelangen Benachrichtigungen von allein ins Archiv?",
+        "a": "Nein. Es werden nur Benachrichtigungen gespeichert, die du selbst archivierst – verschlüsselt und auf deinem Smartphone. Du kannst einen Ordner, einen Betrag und ein Fälligkeitsdatum hinzufügen und Einträge jederzeit löschen."
+      },
+      {
+        "q": "Was passiert, wenn ich die App deinstalliere?",
+        "a": "Alle zugehörigen Daten werden vom Telefon gelöscht. Das Android-Cloud-Backup ist deaktiviert; wenn du deine Regeln behalten möchtest, exportiere sie vorher in eine Datei."
+      },
+      {
+        "q": "Welche Sprachen werden unterstützt?",
+        "a": "Die App wird in Deutsch, Englisch, Türkisch, Arabisch, Spanisch, Französisch, Hindi, Indonesisch, Portugiesisch und Russisch vorbereitet. Während der Entwicklung erscheinen einige neue Ansichten zunächst auf Türkisch."
+      },
+      {
+        "q": "Wie melde ich ein Problem oder schlage eine Idee vor?",
+        "a": "Öffne in der App die Einstellungen und wähle „Feedback senden“; deine E-Mail-App öffnet sich mit einer vorbereiteten Nachricht. Du kannst auch direkt an {email} schreiben."
+      }
+    ],
+    "contact_h": "Hast du noch Fragen?",
+    "contact_p": "Schreib uns per E-Mail."
+  }
+}

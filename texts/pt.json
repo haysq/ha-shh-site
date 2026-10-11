@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "name": "Português",
+    "dir": "ltr",
+    "locale": "pt_BR"
+  },
+  "common": {
+    "brand": "ha!shh",
+    "skip": "Pular para o conteúdo",
+    "nav_label": "Menu principal",
+    "nav_demo": "Demonstração ao vivo",
+    "nav_features": "Recursos",
+    "nav_privacy": "Privacidade",
+    "nav_faq": "Perguntas frequentes",
+    "lang_label": "Idioma",
+    "theme_label": "Tema",
+    "theme_auto": "Tema: padrão do aparelho",
+    "theme_light": "Tema: claro",
+    "theme_dark": "Tema: escuro",
+    "menu": "Menu",
+    "soon_small": "Em breve",
+    "soon_big": "no Google Play",
+    "soon_aria": "Em breve no Google Play",
+    "chips": [
+      {
+        "t": "Sem permissão de internet"
+      },
+      {
+        "t": "Tudo fica no seu celular, criptografado"
+      },
+      {
+        "t": "Sem anúncios, sem ferramentas de análise"
+      }
+    ],
+    "dev_role": "Desenvolvedor · Karabük, Turquia",
+    "footer_by": "Desenvolvido por Seçkin Çelik · Karabük, Turquia",
+    "footer_label": "Menu do rodapé",
+    "footer_privacy": "Política de privacidade",
+    "footer_faq": "Perguntas frequentes e suporte",
+    "mt_note": "Esta página foi traduzida com o auxílio de IA. Em caso de dúvidas, a versão em inglês prevalece."
+  },
+  "home": {
+    "title": "{brand} · Notificações que se adaptam ao seu dia",
+    "desc": "Um app para Android que guarda as notificações escolhidas e as entrega juntas nos horários que você definir. Sem permissão de internet; tudo fica no seu celular. Em desenvolvimento, em breve no Google Play.",
+    "eyebrow": "Android · em desenvolvimento",
+    "h1a": "Notificações que",
+    "h1b": "se adaptam ao seu dia.",
+    "lead": "Ele guarda as notificações que você escolher e as entrega juntas nos horários que você definir, como 12:30, 18:00 e 21:00. Ligações, alarmes e os apps marcados como importantes sempre chegam na hora.",
+    "btn_demo": "Veja como é um dia ↓",
+    "demo_h": "Veja um dia passar em um minuto.",
+    "demo_p": "O círculo é um plano de 24 horas, exatamente como no app. Conforme o relógio avança, o modo ativo muda, e cada notificação recebida é exibida na hora, guardada até o próximo horário de entrega ou bloqueada. A cada horário de entrega, tudo o que estava aguardando chega junto.",
+    "dial_aria": "Seletor do plano de 24 horas",
+    "fast": "Velocidade ×3",
+    "restart": "Reiniciar o dia",
+    "st_arr": "notificações recebidas",
+    "st_now": "mostradas na hora",
+    "st_held": "entregues juntas",
+    "st_quiet": "interrupções evitadas",
+    "lane_now": "Chegando agora",
+    "lane_now_s": "importantes ou permitidas",
+    "lane_wait": "Aguardando",
+    "empty": "Nada aguardando.",
+    "demo_fine": "Uma animação com exemplos de regras e de categorias de apps. Tudo é gerado no seu navegador; não são dados reais de uso.",
+    "how_eyebrow": "Como funciona",
+    "how_h": "Uma escolha por app. O app cuida do resto.",
+    "how_p": "Escolha uma de quatro opções para cada app. Defina horários de entrega que se adaptem ao seu dia, depois escolha um modo ou deixe o plano semanal alternar os modos para você.",
+    "actions": [
+      {
+        "t": "Imediatamente",
+        "p": "A notificação chega normalmente."
+      },
+      {
+        "t": "Reter",
+        "p": "A notificação aguarda em silêncio enquanto o modo escolhido estiver ativo."
+      },
+      {
+        "t": "No horário de entrega",
+        "p": "Reunidas e entregues juntas nos horários que você escolher (por exemplo, 12:30, 18:00, 21:00)."
+      },
+      {
+        "t": "Bloquear",
+        "p": "Notificações deste app não são exibidas."
+      }
+    ],
+    "never_eyebrow": "O que importa passa direto",
+    "never_h": "Algumas coisas nunca ficam retidas.",
+    "never_p": "Ligações, alarmes, lembretes, eventos da agenda e notificações de navegação sempre passam direto. Você pode adicionar apps como o do seu banco ou hospital à lista <b>Nunca reter</b>; eles passarão em qualquer modo. Se quiser, você recebe mais um lembrete quando uma dessas notificações não for aberta em cinco minutos.",
+    "never_list": [
+      {
+        "t": "Ligações e chamadas perdidas"
+      },
+      {
+        "t": "Alarmes e lembretes"
+      },
+      {
+        "t": "Eventos da agenda"
+      },
+      {
+        "t": "Navegação"
+      },
+      {
+        "t": "Apps na sua lista Nunca reter"
+      }
+    ],
+    "modes_eyebrow": "Modos",
+    "modes_h": "Quatro modos tranquilos. Crie os seus próprios se quiser.",
+    "modes": [
+      {
+        "t": "Normal",
+        "p": "Notificações sem regra chegam na hora. Suas escolhas individuais por app continuam valendo."
+      },
+      {
+        "t": "Foco",
+        "p": "Retém os apps que tiram a sua atenção enquanto você estuda ou trabalha."
+      },
+      {
+        "t": "Sono",
+        "p": "Uma noite tranquila. O que for importante continua passando."
+      },
+      {
+        "t": "Esporte",
+        "p": "Retém apenas os apps de esportes que você escolher, para você não saber o placar antes de assistir ao jogo."
+      }
+    ],
+    "hl_eyebrow": "Destaques",
+    "hl_h": "Criado para a vida real.",
+    "highlights": [
+      {
+        "t": "Plano semanal",
+        "p": "Os modos alternam sozinhos por dia e horário. Você também pode definir um plano para uma data específica.",
+        "new": ""
+      },
+      {
+        "t": "Escala de turnos",
+        "p": "Um ciclo com turnos da manhã, tarde e noite e dias de folga, com intervalos dentro de cada turno.",
+        "new": ""
+      },
+      {
+        "t": "Arquivo de notificações",
+        "p": "Guarde notificações de cupons, contas ou despesas em uma pasta quando quiser. Você recebe um lembrete na manhã do dia do vencimento.",
+        "new": "Novo"
+      },
+      {
+        "t": "Bloqueio por impressão digital",
+        "p": "Proteja o app inteiro, ou apenas o arquivo e o conteúdo das notificações, com a tela de confirmação do próprio Android.",
+        "new": "Novo"
+      },
+      {
+        "t": "Seletor de 24 horas",
+        "p": "O dia inteiro em um só círculo na tela Hoje. Uma notificação que está aguardando mostra o app e o motivo, e não a mensagem.",
+        "new": ""
+      },
+      {
+        "t": "Quem passa, quem espera",
+        "p": "Para cada modo, veja quais apps chegam na hora e quais esperam, e o motivo. Altere com um toque.",
+        "new": "Novo"
+      }
+    ],
+    "more_features": "Todos os recursos →",
+    "priv_h": "Suas notificações ficam no seu celular.",
+    "priv_p": "O app não tem permissão de internet. Nada é enviado por nenhuma rede, e não há anúncios nem ferramentas de análise.",
+    "facts": [
+      {
+        "b": "0",
+        "p": "Conexões de rede. O app não pede permissão de internet."
+      },
+      {
+        "b": "3",
+        "p": "Critérios usados para decidir: o app, o tipo de notificação e o horário. Título e texto da mensagem não são lidos para tomar essa decisão."
+      },
+      {
+        "b": "Opcional",
+        "p": "O conteúdo das notificações não é lido por padrão. Se você quiser ver o que está aguardando, basta ativar nas Configurações."
+      }
+    ],
+    "priv_more_p": "Configurações e registros ficam armazenados criptografados no celular. O arquivo guarda apenas as notificações que você escolher, também criptografadas e no celular. Desinstalar o app apaga todos os dados.",
+    "priv_more": "Leia a política de privacidade completa →",
+    "status_eyebrow": "Status",
+    "status_h": "Em desenvolvimento, em breve no Google Play.",
+    "status_p": "O app funciona no Android 8 ou superior. O nome ainda não é definitivo; por enquanto usamos o nome de trabalho “ha!shh”. Esta página será atualizada quando o app estiver no Google Play."
+  },
+  "sim": {
+    "mode": {
+      "normal": "Normal",
+      "focus": "Foco",
+      "sleep": "Sono",
+      "sports": "Esporte"
+    },
+    "apps": [
+      [
+        "Mensagens",
+        "M",
+        [
+          "Nova mensagem",
+          "2 novas mensagens",
+          "Conversa em grupo"
+        ]
+      ],
+      [
+        "Redes sociais",
+        "R",
+        [
+          "Alguém curtiu sua publicação",
+          "Novo seguidor",
+          "Você foi mencionado"
+        ]
+      ],
+      [
+        "Notícias",
+        "N",
+        [
+          "Principais notícias da manhã",
+          "Urgente",
+          "Resumo diário"
+        ]
+      ],
+      [
+        "Compras",
+        "C",
+        [
+          "Oferta relâmpago!",
+          "Seu carrinho está esperando",
+          "O desconto acaba logo"
+        ]
+      ],
+      [
+        "Esportes",
+        "E",
+        [
+          "Atualização da partida",
+          "Gol!",
+          "Fim de jogo"
+        ]
+      ],
+      [
+        "Banco",
+        "B",
+        [
+          "Pagamento com cartão",
+          "Transferência recebida"
+        ]
+      ],
+      [
+        "Calendário",
+        "C",
+        [
+          "Reunião em 15 min",
+          "Lembrete de evento"
+        ]
+      ]
+    ],
+    "system": "Sempre",
+    "never": "Nunca reter",
+    "block": "Bloqueadas",
+    "spoiler": "Sem spoilers",
+    "now": "Imediatamente",
+    "delivery": "No horário de entrega",
+    "modeFmt": "Modo {m}",
+    "waitingFmt": "{n} aguardando",
+    "morning": "Manhã",
+    "batch": "Juntas ",
+    "next": "Próxima entrega ",
+    "untilMorning": "Retidas até a manhã",
+    "nextLow": "próxima entrega ",
+    "untilLow": "até a manhã",
+    "play": "Reproduzir",
+    "pause": "Pausar",
+    "again": "Reproduzir novamente"
+  },
+  "features": {
+    "title": "Recursos · {brand}",
+    "desc": "Tudo o que o app faz hoje: regras por app, horários de entrega, modos, plano semanal, escala de turnos, arquivo de notificações e bloqueio por impressão digital. Sem permissão de internet.",
+    "h1": "Tudo o que o app faz hoje.",
+    "lead": "Esta página lista apenas o que já está na versão atual de desenvolvimento. As novidades da atualização mais recente estão sinalizadas.",
+    "groups": [
+      {
+        "h": "O básico",
+        "items": [
+          {
+            "t": "Uma escolha por app",
+            "p": "Imediatamente, reter, no horário de entrega ou bloquear. As regras também podem valer para um grupo de apps ou uma categoria."
+          },
+          {
+            "t": "Horários de entrega",
+            "p": "Defina vários horários de entrega ao longo do dia, como 12:30, 18:00 e 21:00. Tudo o que estiver aguardando chega junto."
+          },
+          {
+            "t": "Lista Nunca reter",
+            "p": "Os apps adicionados aqui passam em qualquer modo. Se quiser, receba mais um lembrete se uma notificação não for aberta em cinco minutos."
+          },
+          {
+            "t": "Sempre entregues",
+            "p": "Ligações, chamadas perdidas, alarmes, lembretes, eventos da agenda e notificações de navegação nunca são retidos."
+          },
+          {
+            "t": "Resumo silencioso",
+            "p": "Uma linha silenciosa na barra de notificações, sem som nem vibração, mostra quem tem quantas notificações esperando e quando a primeira vai chegar. O conteúdo não é exibido. Ative para os apps que você escolher ou para tudo o que estiver esperando. O botão “Entregar agora” dá acesso a tudo o que está esperando de uma só vez, sem abrir o app.",
+            "new": "Novo"
+          }
+        ]
+      },
+      {
+        "h": "Modos e planos",
+        "items": [
+          {
+            "t": "Quatro modos, além dos seus",
+            "p": "Normal, Foco, Sono e Esporte. Renomeie-os, oculte os que não usar ou crie seus próprios modos."
+          },
+          {
+            "t": "Quem passa, quem espera",
+            "p": "Para cada modo, veja quais apps chegam na hora e quais esperam, com o motivo. Adicione um app, grupo ou categoria para definir que “este passa neste modo”.",
+            "new": "Novo"
+          },
+          {
+            "t": "Plano semanal e calendário",
+            "p": "Os modos mudam de acordo com o dia e o horário. Navegue por meses e anos, veja quantas notificações chegaram, aguardaram e foram entregues em um dia passado (apenas contagens) e defina um plano para uma data futura. Os planos com datas específicas são listados com suas respectivas datas. Ao editar um plano, escolha dias úteis ou o fim de semana com um toque.",
+            "new": "Novo"
+          },
+          {
+            "t": "Seletor de 24 horas",
+            "p": "A tela Hoje exibe o dia inteiro em um só círculo com as notificações que estão aguardando. Uma contagem regressiva mostra quando será a próxima entrega, por exemplo “5 notificações em 38 min”."
+          },
+          {
+            "t": "Escala de turnos",
+            "p": "Um ciclo com turnos da manhã, tarde e noite e dias de folga. Os intervalos dentro de cada turno também são aplicados."
+          },
+          {
+            "t": "Perfis prontos",
+            "p": "Veja uma prévia do que um perfil altera antes de aplicá-lo e edite-o. Um perfil dura o tempo indicado no nome (por exemplo, “Trabalho focado · 2 horas”) e depois volta ao modo anterior."
+          },
+          {
+            "t": "Sessão de foco",
+            "p": "Toque em “Foco por 25 min” na tela Hoje. Quando o tempo acabar, você volta ao modo anterior e vê um breve resumo de “muito bem” (apenas contagens).",
+            "new": "Novo"
+          }
+        ]
+      },
+      {
+        "h": "Mantendo o controle",
+        "items": [
+          {
+            "t": "Escopo da regra",
+            "p": "Veja quais apps uma regra como “Compras” abrange. Remova um app classificado incorretamente ou adicione um novo.",
+            "new": "Novo"
+          },
+          {
+            "t": "Grupos de apps",
+            "p": "Junte apps em grupos e gerencie-os com uma única regra. Renomeie um grupo ou altere seus apps a qualquer momento."
+          },
+          {
+            "t": "Todos os seus apps",
+            "p": "A tela de Regras lista todos os apps do seu celular, não apenas aqueles que já enviaram notificações."
+          },
+          {
+            "t": "Automações opcionais",
+            "p": "Com a sua autorização, o app pode alternar modos durante reuniões da agenda ou quando o celular se conectar ao Bluetooth do seu carro."
+          },
+          {
+            "t": "Faça backup das suas regras",
+            "p": "Salve suas regras em um arquivo e restaure-as mais tarde. O backup também mantém nomes de modos, modos ocultos e a lista de apps de cada modo que passam direto.",
+            "new": "Novo"
+          },
+          {
+            "t": "Configuração inteligente",
+            "p": "A configuração começa conhecendo o seu celular: seus apps são organizados em grupos e você ajusta os que caírem no grupo errado. Você só responde sobre grupos que realmente tem e, no final, vê uma prévia de quem passa direto e quem fica esperando. Escolha “Começar simples” e a configuração termina em 3 etapas com a visualização simples ativada.",
+            "new": "Novo"
+          },
+          {
+            "t": "Sugestão de limpeza semanal",
+            "p": "A tela Hoje lista os apps sem regras que mais interromperam você esta semana. Mova um para o horário de entrega com um único toque ou escolha “Agora não”. Apenas as contagens são usadas.",
+            "new": "Novo"
+          },
+          {
+            "t": "Visualização simples",
+            "p": "Ative nos Ajustes: a tela Hoje mantém apenas o mostrador, um único botão de “Foco / Voltar ao normal” e as notificações pendentes. As abas Regras e Plano ficam ocultas, e suas regras continuam funcionando em segundo plano. Para quem quer usar o app com o mínimo de configurações possível.",
+            "new": "Novo"
+          },
+          {
+            "t": "Por que esperou?",
+            "p": "No Histórico, cada notificação retida mostra qual modo ou regra a reteve. De lá, você também pode mover esse app para o horário de entrega sem abrir a tela de regras.",
+            "new": "Novo"
+          },
+          {
+            "t": "Pergunta do dia",
+            "p": "Uma vez pela manhã, o app pergunta sobre o aplicativo sem regras que mais interrompeu você ontem. Retenha-o com um único toque.",
+            "new": "Novo"
+          },
+          {
+            "t": "Modo por Wi-Fi",
+            "p": "Normal quando você chega em casa, Foco quando você chega ao trabalho. Você configura com o app de rotinas do seu celular (no Samsung, “Modos e Rotinas”); o ha!shh não pede permissão de localização. Configurações → Modo por Wi-Fi mostra o passo a passo. Atalhos da tela inicial e rotinas alternam o modo sem abrir o app; apenas uma mensagem curta aparece.",
+            "new": "Novo"
+          }
+        ]
+      },
+      {
+        "h": "Arquivo e segurança",
+        "items": [
+          {
+            "t": "Arquivo de notificações",
+            "p": "Salve as notificações que quiser em pastas como Cupons, Contas e despesas ou na sua própria pasta. O app sugere o valor e você confirma; um total mensal é exibido. Adicione uma data de vencimento e você receberá um lembrete naquela manhã. Você também pode arquivar uma notificação direto do Histórico se o conteúdo dela foi mantido lá. Nada entra no arquivo por conta própria. Um item com data de vencimento pode ser adicionado ao calendário do seu celular (sem precisar de permissão de calendário).",
+            "new": "Novo"
+          },
+          {
+            "t": "Bloqueio por impressão digital",
+            "p": "Proteja o app inteiro ou apenas o arquivo e o conteúdo das notificações com sua impressão digital, rosto ou PIN do celular. A própria solicitação do Android é usada, então os dados da sua impressão digital nunca chegam ao app. Na configuração “arquivo e conteúdo”, as prévias de conteúdo no Histórico também continuam ocultas até você desbloquear.",
+            "new": "Novo"
+          },
+          {
+            "t": "Ver o conteúdo, apenas se você permitir",
+            "p": "O conteúdo das notificações não é lido por padrão. Ative a exibição de conteúdo nas Configurações para ver o que está aguardando."
+          },
+          {
+            "t": "Temas e ícone do app",
+            "p": "Escolha Papel (creme quente, o padrão), Claro (branco), Escuro ou Sistema, que usa Papel no modo claro e Escuro no modo escuro. Quando você altera o tema, o app pergunta se deseja aplicar a alteração ao ícone da tela inicial também. No Android 13 e versões posteriores, os ícones com tema adotam a cor do seu papel de parede.",
+            "new": "Novo"
+          },
+          {
+            "t": "Enviar feedback",
+            "p": "Nas Configurações, o seu app de e-mail abre com uma mensagem pronta. A inclusão de informações sobre o aparelho é opcional.",
+            "new": "Novo"
+          }
+        ]
+      }
+    ],
+    "tech_eyebrow": "Ficha técnica",
+    "tech_h": "Os detalhes técnicos.",
+    "tech_p": "Estes dados descrevem a versão atual de desenvolvimento (0.89). Os números vêm do código-fonte.",
+    "tech": [
+      {
+        "k": "Plataforma",
+        "v": "Android 8.0 e versões posteriores (API 26); tem como alvo o Android 15 (API 35)"
+      },
+      {
+        "k": "Desenvolvido com",
+        "v": "Apenas Java 17 e o SDK do Android; nenhuma biblioteca de terceiros"
+      },
+      {
+        "k": "Código",
+        "v": "Cerca de 20.600 linhas em 91 arquivos-fonte"
+      },
+      {
+        "k": "Testes",
+        "v": "31 arquivos de teste da lógica principal; o build é interrompido se algum teste falhar"
+      },
+      {
+        "k": "Como funciona",
+        "v": "Um leitor de notificações e o adiamento nativo do Android, para que a notificação original reapareça no horário certo em vez de ser copiada"
+      },
+      {
+        "k": "Rede",
+        "v": "Sem permissão de internet; sem servidores, contas, anúncios ou ferramentas de análise"
+      },
+      {
+        "k": "Armazenamento",
+        "v": "Criptografado no celular com uma chave mantida no Android Keystore"
+      },
+      {
+        "k": "Status",
+        "v": "Testado em um Samsung Galaxy S24 e em um emulador do Android 15; ainda não disponível no Google Play"
+      },
+      {
+        "k": "Desenvolvimento",
+        "v": "O Claude Code é a principal ferramenta de desenvolvimento. O app em si não contém nenhum serviço de IA."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Política de privacidade · {brand}",
+    "desc": "Como o app de notificações lida com os dados: sem permissão de internet, tudo fica criptografado no celular, conteúdo de notificações somente com a sua autorização.",
+    "h1": "Política de privacidade",
+    "updated": "Última atualização: 11 de outubro de 2026",
+    "intro": "Em resumo: o app não tem permissão de internet e não envia nada para lugar nenhum. Tudo o que ele armazena fica criptografado no seu celular. O conteúdo das notificações não é lido a menos que você ative essa opção, e o arquivo guarda apenas as notificações que você escolher salvar.",
+    "sections": [
+      {
+        "h": "Quem somos",
+        "body": "<p>O app é desenvolvido por Seçkin Çelik em Karabük, Turquia. Contato: <a href=\"mailto:{email}\">{email}</a>.</p>"
+      },
+      {
+        "h": "Acesso às notificações (obrigatório)",
+        "body": "<p>O app precisa de acesso às notificações, que você concede nas configurações do Android. Para decidir o que fazer com uma notificação, ele usa o app de origem, o tipo de notificação (por exemplo, ligação, alarme ou categoria de mensagem) e o horário. Título e texto das mensagens não são usados nessa decisão.</p>"
+      },
+      {
+        "h": "Conteúdo das notificações (opcional)",
+        "body": "<ul><li>Se você ativar <b>Mostrar conteúdo das notificações</b> nas Configurações, o conteúdo das notificações em espera é lido somente no momento em que é exibido para você.</li><li>Se você também ativar a opção de manter o conteúdo no Histórico, esse conteúdo é armazenado criptografado no celular por um ou sete dias, conforme sua escolha. Ele é excluído quando o período termina ou quando o acesso às notificações é desativado.</li></ul>"
+      },
+      {
+        "h": "Arquivo de notificações",
+        "body": "<ul><li>Apenas as notificações que você escolhe arquivar são salvas: o nome do app, título, texto e data, além da pasta, valor e data de vencimento que você adicionar.</li><li>Nada entra no arquivo por conta própria. Os itens arquivados permanecem criptografados no celular até que você os exclua.</li><li>A sugestão de valor é calculada no próprio celular. O lembrete de vencimento usa o alarme do próprio aparelho.</li><li>Adicionar um item do arquivo ao seu calendário abre o seu próprio aplicativo de calendário com um evento preenchido: o título da notificação (ou o nome do aplicativo, se não houver título) como o nome do evento e a data de vencimento como uma data de dia inteiro. Você o vê lá, pode alterá-lo e escolher se deseja salvá-lo. O aplicativo não precisa de permissão de calendário para isso. Se o seu calendário sincroniza com uma conta (por exemplo, o Google), o evento salvo vai para essa conta; isso é feito pelo seu aplicativo de calendário, e o ha!shh não envia nada.</li></ul>"
+      },
+      {
+        "h": "Bloqueio por impressão digital",
+        "body": "<p>O bloqueio utiliza a confirmação biométrica nativa do Android. Seus dados de impressão digital ou de reconhecimento facial nunca chegam ao app; o app apenas recebe a informação de que o desbloqueio foi realizado com sucesso.</p>"
+      },
+      {
+        "h": "Outras permissões",
+        "body": "<ul><li><b>Enviar notificações:</b> para entregar notificações retidas e lembretes.</li><li><b>Inicialização após reiniciar:</b> para restaurar suas regras e lembretes após o celular ser reiniciado.</li><li><b>Agenda (opcional):</b> apenas os horários de início e término e o status de ocupado dos eventos são lidos, para alternar modos durante reuniões. Os títulos dos eventos não são lidos.</li><li><b>Bluetooth (opcional):</b> para alternar modos quando o celular se conectar ao seu carro. O endereço físico do dispositivo não é armazenado; apenas uma impressão digital unidirecional e o nome do dispositivo visível são mantidos, criptografados.</li></ul>"
+      },
+      {
+        "h": "Seus apps instalados",
+        "body": "<p>Para organizar seus apps em grupos e exibi-los nas listas de regras, o app lê a lista de apps instalados que aparecem na tela inicial (nome do app, nome do pacote e o tipo informado pelo Android). Isso acontece apenas no celular e não usa nenhuma permissão extra. O resumo silencioso é uma notificação silenciosa do próprio app; ela mostra apenas os nomes dos apps e as contagens, nunca o conteúdo das notificações.</p>"
+      },
+      {
+        "h": "Sem rede, sem rastreamento",
+        "body": "<p>O app não tem permissão de internet. Não há servidores, contas, anúncios, ferramentas de análise nem relatórios de falhas. Nenhum dado do app chega ao desenvolvedor ou a terceiros.</p>"
+      },
+      {
+        "h": "Feedback por e-mail",
+        "body": "<p>Se você usar <b>Enviar feedback</b> nas Configurações, o seu app de e-mail abre com uma mensagem preparada. Você mesmo escreve e envia. Informações do dispositivo (fabricante, modelo, versão do Android, versão do app) só são incluídas se você marcar essa opção. O e-mail viaja através do seu provedor de e-mail. O conteúdo das notificações e suas regras nunca são adicionados. Se você enviar a mensagem, o desenvolvedor vê seu endereço de e-mail e o usa apenas para responder a você. Mensagens recebidas em {email} são usadas apenas para responder a você e melhorar o app, e não são compartilhadas com terceiros.</p>"
+      },
+      {
+        "h": "Exportação e backup",
+        "body": "<p>Você pode salvar um backup das suas regras e modos como um arquivo. Ele inclui nomes de modos, modos integrados ocultos e, para cada modo, os apps, grupos e categorias que passam direto. Você também pode exportar seus registros de notificações (app, horário e o que foi feito). Nenhum dos arquivos contém o conteúdo das notificações, e o arquivo não é incluído. O arquivo vai apenas para o app ou pasta que você selecionar. O backup em nuvem do Android está desativado para este app.</p>"
+      },
+      {
+        "h": "Exclusão dos seus dados",
+        "body": "<p>Desinstalar o app apaga todos os seus dados do celular. Você também pode apagar itens do arquivo e limpar o histórico dentro do próprio app.</p>"
+      },
+      {
+        "h": "Alterações nesta política",
+        "body": "<p>Se o app alterar a forma como lida com os dados, esta página será atualizada e a data no topo será modificada.</p>"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Perguntas frequentes e suporte · {brand}",
+    "desc": "Respostas para dúvidas frequentes sobre o app de notificações: privacidade, bateria, celulares compatíveis, o arquivo e como enviar feedback.",
+    "h1": "Perguntas e suporte",
+    "lead": "Respostas curtas para as dúvidas mais comuns. Se a sua não estiver aqui, envie um e-mail.",
+    "items": [
+      {
+        "q": "Quando o app estará disponível?",
+        "a": "Ele está em desenvolvimento. Será lançado no Google Play, começando com um teste fechado. Ainda não há uma data definida; este site será atualizado."
+      },
+      {
+        "q": "Ele será pago?",
+        "a": "O plano é manter os recursos principais gratuitos e offline. Se algum dia houver uma opção paga, a ideia é que seja uma compra única e justa, e não uma assinatura obrigatória. Não haverá anúncios nem venda de dados. Esse plano não é definitivo."
+      },
+      {
+        "q": "O app lê minhas notificações?",
+        "a": "Não por padrão. As decisões usam apenas o app, o tipo de notificação e o horário. O conteúdo só é lido se você ativar a exibição de conteúdo, e apenas no momento em que for mostrado a você."
+      },
+      {
+        "q": "Posso perder uma ligação ou mensagem importante?",
+        "a": "Ligações, alarmes, lembretes, eventos da agenda e notificações de navegação nunca são retidos. Apps na sua lista Nunca reter passam em qualquer modo, e o app pode enviar mais um lembrete se uma dessas notificações não for aberta em cinco minutos."
+      },
+      {
+        "q": "Por que ele não tem permissão de internet?",
+        "a": "Porque não precisa. Tudo acontece no seu celular, então suas notificações não podem ser enviadas para lugar nenhum."
+      },
+      {
+        "q": "Ele consome muita bateria?",
+        "a": "Ele não executa um serviço contínuo em segundo plano nem fica checando coisas em loop. Ele reage às notificações por meio do leitor de notificações do Android e usa os alarmes do próprio aparelho para os horários de entrega. Alguns fabricantes limitam apps em segundo plano; as telas de configuração mostram como permitir o funcionamento no seu celular."
+      },
+      {
+        "q": "Em quais celulares ele funciona?",
+        "a": "No Android 8 e versões mais recentes. O bloqueio por impressão digital requer o Android 9 ou superior e um bloqueio de tela (impressão digital, PIN ou padrão) configurado no aparelho."
+      },
+      {
+        "q": "As notificações vão para o arquivo sozinhas?",
+        "a": "Não. Apenas as notificações que você escolher arquivar são salvas, de forma criptografada e no seu celular. Você pode adicionar uma pasta, um valor e uma data de vencimento, além de excluir itens a qualquer momento."
+      },
+      {
+        "q": "O que acontece se eu desinstalar o app?",
+        "a": "Todos os dados são apagados do celular. O backup na nuvem do Android fica desativado, então, se quiser manter suas regras, exporte-as para um arquivo antes."
+      },
+      {
+        "q": "Quais idiomas são compatíveis?",
+        "a": "O app está sendo preparado em inglês, turco, árabe, alemão, espanhol, francês, hindi, indonésio, português e russo. Durante o desenvolvimento, algumas telas novas aparecem primeiro em turco."
+      },
+      {
+        "q": "Como relatar um problema ou sugerir uma ideia?",
+        "a": "No app, abra as Configurações e escolha Enviar feedback; o seu app de e-mail abrirá com uma mensagem pronta. Você também pode escrever diretamente para {email}."
+      }
+    ],
+    "contact_h": "Ainda tem alguma dúvida?",
+    "contact_p": "Fale conosco por e-mail."
+  }
+}

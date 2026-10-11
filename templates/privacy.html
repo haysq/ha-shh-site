@@ -1,0 +1,14 @@
+<section class="page-head">
+  <div class="wrap narrow">
+    <span class="eyebrow">{{common.nav_privacy}}</span>
+    <h1>{{page.h1}}</h1>
+    <p class="updated">{{page.updated}}</p>
+  </div>
+</section>
+<section style="padding-top:8px">
+  <div class="wrap narrow prose">
+    <div class="card summary"><p>{{page.intro}}</p></div>
+    {{#each page.sections}}<h2>{{.h}}</h2>{{.body}}
+    {{/each}}
+  </div>
+</section>

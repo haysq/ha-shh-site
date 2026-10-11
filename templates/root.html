@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ha!shh · Android</title>
+<meta name="description" content="Android app that holds selected notifications and delivers them together at the times you choose. No internet permission. Available in 10 languages.">
+<link rel="canonical" href="https://ha-shh.com/">
+{{alternates}}
+<link rel="icon" href="assets/logo-kagit.svg" type="image/svg+xml">
+<script>
+(function () {
+  var langs = {{langs_js}}, prefs = navigator.languages || [navigator.language || 'en'], pick = 'en';
+  try { var saved = localStorage.getItem('lang'); if (saved && langs.indexOf(saved) >= 0) prefs = [saved]; } catch (e) {}
+  for (var i = 0; i < prefs.length; i++) {
+    var c = String(prefs[i]).toLowerCase().slice(0, 2);
+    if (langs.indexOf(c) >= 0) { pick = c; break; }
+  }
+  location.replace(pick + '/' + location.hash);
+})();
+</script>
+<style>
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:#FDF6E3;color:#283B3A;font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:16px}
+@media (prefers-color-scheme:dark){body{background:#191D1E;color:#EEF1EC}a{color:#3CCFC1}}
+a{color:#087F78;font-weight:600}
+ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center}
+img{width:72px;height:72px}
+main{text-align:center;max-width:560px}
+</style>
+</head>
+<body>
+<main>
+  <img src="assets/logo-kagit.svg" alt="">
+  <ul>{{names}}</ul>
+</main>
+</body>
+</html>

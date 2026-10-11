@@ -1,0 +1,141 @@
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">{{page.eyebrow}}</span>
+      <h1>{{page.h1a}} <em>{{page.h1b}}</em></h1>
+      <p class="lead">{{page.lead}}</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#demo">{{page.btn_demo}}</a>
+        <a class="btn btn-ghost" href="features/">{{common.nav_features}}</a>
+      </div>
+      <div class="play-badge" role="img" aria-label="{{common.soon_aria}}">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5v17l14-8.5z" fill="var(--gold)"/></svg>
+        <span><small>{{common.soon_small}}</small><b>{{common.soon_big}}</b></span>
+      </div>
+      <ul class="chips" style="margin-top:20px">
+        {{#each common.chips}}<li>{{.t}}</li>{{/each}}
+      </ul>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="halo"></div>
+      <img class="on-light" src="{{root}}assets/isaret.svg" alt=""><img class="on-dark" src="{{root}}assets/isaret-koyu.svg" alt="">
+      <span class="drip"></span><span class="drip d2"></span><span class="drip d3"></span>
+    </div>
+  </div>
+</section>
+
+<section id="demo" class="alt">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow">{{common.nav_demo}}</span>
+      <h2>{{page.demo_h}}</h2>
+      <p>{{page.demo_p}}</p>
+    </div>
+    <div class="sim">
+      <div class="dialbox rv">
+        <svg id="dial" viewBox="0 0 340 340" role="img" aria-label="{{page.dial_aria}}"></svg>
+        <ul class="legend" id="legend">
+          {{#each page.modes}}<li data-m="{{.var}}"><i style="background:var(--m-{{.var}})"></i>{{.t}}</li>{{/each}}
+        </ul>
+        <div class="controls">
+          <button id="play" type="button" aria-pressed="true">{{sim.pause}}</button>
+          <button id="fast" type="button" aria-pressed="false">{{page.fast}}</button>
+          <button id="restart" type="button">{{page.restart}}</button>
+        </div>
+      </div>
+      <div class="rv">
+        <div class="stats" aria-live="off">
+          <div class="stat"><b id="s-arr">0</b><span>{{page.st_arr}}</span></div>
+          <div class="stat"><b id="s-now">0</b><span>{{page.st_now}}</span></div>
+          <div class="stat"><b id="s-held">0</b><span>{{page.st_held}}</span></div>
+          <div class="stat"><b id="s-quiet">0</b><span>{{page.st_quiet}}</span></div>
+        </div>
+        <div class="lanes">
+          <div class="lane"><h3>{{page.lane_now}} <small>{{page.lane_now_s}}</small></h3><ul class="notes" id="now"></ul></div>
+          <div class="lane" id="waitlane"><h3>{{page.lane_wait}} <small id="nextdel"></small></h3><p class="empty" id="empty">{{page.empty}}</p><ul class="notes" id="wait"></ul></div>
+        </div>
+        <p class="fine">{{page.demo_fine}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow">{{page.how_eyebrow}}</span>
+      <h2>{{page.how_h}}</h2>
+      <p>{{page.how_p}}</p>
+    </div>
+    <div class="grid g4">
+      {{#each page.actions}}<div class="card rv">{{.icon}}<h3>{{.t}}</h3><p>{{.p}}</p></div>{{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap grid g2" style="align-items:center;gap:32px">
+    <div class="rv">
+      <span class="eyebrow">{{page.never_eyebrow}}</span>
+      <h2 class="h2">{{page.never_h}}</h2>
+      <p>{{page.never_p}}</p>
+    </div>
+    <ul class="list-check card rv">
+      {{#each page.never_list}}<li>{{.t}}</li>{{/each}}
+    </ul>
+  </div>
+</section>
+
+<section id="modes">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow">{{page.modes_eyebrow}}</span>
+      <h2>{{page.modes_h}}</h2>
+    </div>
+    <div class="grid g4">
+      {{#each page.modes}}<div class="card mode rv" style="--mc:var(--m-{{.var}})"><h3>{{.t}}</h3><p>{{.p}}</p></div>{{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow">{{page.hl_eyebrow}}</span>
+      <h2>{{page.hl_h}}</h2>
+    </div>
+    <div class="grid g3">
+      {{#each page.highlights}}<div class="card rv">{{.icon}}<h3>{{.t}}{{#if .new}} <span class="tag-new">{{.new}}</span>{{/if}}</h3><p>{{.p}}</p></div>{{/each}}
+    </div>
+    <a class="more rv" href="features/">{{page.more_features}}</a>
+  </div>
+</section>
+
+<section id="privacy">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow">{{common.nav_privacy}}</span>
+      <h2>{{page.priv_h}}</h2>
+      <p>{{page.priv_p}}</p>
+    </div>
+    <div class="facts">
+      {{#each page.facts}}<div class="fact rv"><b>{{.b}}</b><p>{{.p}}</p></div>{{/each}}
+    </div>
+    <p class="rv" style="margin-top:20px">{{page.priv_more_p}}</p>
+    <a class="more rv" href="privacy/">{{page.priv_more}}</a>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap narrow">
+    <div class="rv">
+      <span class="eyebrow">{{page.status_eyebrow}}</span>
+      <h2 class="h2">{{page.status_h}}</h2>
+      <p>{{page.status_p}}</p>
+    </div>
+    <div class="card dev rv" style="margin-top:22px">
+      <span class="av" aria-hidden="true">SÇ</span>
+      <div><b>Seçkin Çelik</b><br><span class="muted">{{common.dev_role}}</span><br><a href="mailto:{{email}}">{{email}}</a></div>
+    </div>
+  </div>
+</section>

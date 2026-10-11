@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "name": "Français",
+    "dir": "ltr",
+    "locale": "fr_FR"
+  },
+  "common": {
+    "brand": "ha!shh",
+    "skip": "Aller au contenu",
+    "nav_label": "Menu principal",
+    "nav_demo": "Démo en direct",
+    "nav_features": "Fonctionnalités",
+    "nav_privacy": "Confidentialité",
+    "nav_faq": "FAQ",
+    "lang_label": "Langue",
+    "theme_label": "Thème",
+    "theme_auto": "Thème : selon l'appareil",
+    "theme_light": "Thème : clair",
+    "theme_dark": "Thème : sombre",
+    "menu": "Menu",
+    "soon_small": "Bientôt disponible",
+    "soon_big": "sur Google Play",
+    "soon_aria": "Bientôt disponible sur Google Play",
+    "chips": [
+      {
+        "t": "Aucune autorisation Internet"
+      },
+      {
+        "t": "Tout reste sur votre téléphone, chiffré"
+      },
+      {
+        "t": "Sans pub, sans suivi"
+      }
+    ],
+    "dev_role": "Développeur · Karabük, Türkiye",
+    "footer_by": "Développé par Seçkin Çelik · Karabük, Türkiye",
+    "footer_label": "Menu du pied de page",
+    "footer_privacy": "Politique de confidentialité",
+    "footer_faq": "FAQ et assistance",
+    "mt_note": "Cette page a été traduite avec l'aide de l'IA. En cas de doute, la version anglaise fait foi."
+  },
+  "home": {
+    "title": "{brand} · Des notifications adaptées à votre journée",
+    "desc": "Une application Android qui met de côté les notifications de votre choix et vous les transmet groupées aux heures que vous fixez. Aucune autorisation Internet ; tout reste sur votre téléphone. En développement, bientôt disponible sur Google Play.",
+    "eyebrow": "Android · en cours de développement",
+    "h1a": "Des notifications qui",
+    "h1b": "s'adaptent à votre journée.",
+    "lead": "Elle retient les notifications de votre choix et vous les livre groupées aux heures que vous définissez, comme 12:30, 18:00 et 21:00. Les appels, alarmes et applications importantes arrivent toujours immédiatement.",
+    "btn_demo": "Voir une journée ↓",
+    "demo_h": "Regardez défiler une journée en une minute.",
+    "demo_p": "Le cadran représente un planning de 24 heures, tout comme dans l'application. À mesure que l'horloge tourne, le mode actif change et chaque notification entrante est affichée immédiatement, mise de côté jusqu'à la prochaine heure de livraison, ou bloquée. À chaque heure de livraison, tout ce qui attend arrive d'un coup.",
+    "dial_aria": "Cadran du planning sur 24 heures",
+    "fast": "Vitesse ×3",
+    "restart": "Recommencer la journée",
+    "st_arr": "notifications reçues",
+    "st_now": "affichées immédiatement",
+    "st_held": "livrées groupées",
+    "st_quiet": "interruptions évitées",
+    "lane_now": "Arrivent maintenant",
+    "lane_now_s": "importantes ou autorisées",
+    "lane_wait": "En attente",
+    "empty": "Rien en attente.",
+    "demo_fine": "Une animation avec des règles et des types d'applications donnés à titre d'exemple. Tout est généré dans votre navigateur ; il ne s'agit pas de vraies données d'utilisation.",
+    "how_eyebrow": "Comment ça marche",
+    "how_h": "Un choix par application. L'application fait le reste.",
+    "how_p": "Choisissez l'une des quatre options pour chaque application. Définissez des heures de livraison adaptées à votre journée, puis sélectionnez un mode ou laissez le planning hebdomadaire s'en charger pour vous.",
+    "actions": [
+      {
+        "t": "Immédiatement",
+        "p": "La notification arrive comme d'habitude."
+      },
+      {
+        "t": "Mettre de côté",
+        "p": "La notification attend discrètement tant que le mode sélectionné est actif."
+      },
+      {
+        "t": "À l'heure de livraison",
+        "p": "Regroupées et livrées ensemble aux heures de votre choix (par exemple 12:30, 18:00, 21:00)."
+      },
+      {
+        "t": "Bloquer",
+        "p": "Les notifications de cette application ne sont pas affichées."
+      }
+    ],
+    "never_eyebrow": "Ce qui compte passe toujours",
+    "never_h": "Certaines choses ne sont jamais retenues.",
+    "never_p": "Les appels, alarmes, rappels, événements d'agenda et notifications de navigation passent toujours. Vous pouvez ajouter des applications, comme votre banque ou votre hôpital, à la liste <b>Ne jamais retenir</b> ; elles passeront dans tous les modes. Si vous le souhaitez, vous recevez un rappel supplémentaire lorsqu'une de leurs notifications n'a pas été ouverte au bout de cinq minutes.",
+    "never_list": [
+      {
+        "t": "Appels et appels manqués"
+      },
+      {
+        "t": "Alarmes et rappels"
+      },
+      {
+        "t": "Événements d'agenda"
+      },
+      {
+        "t": "Navigation"
+      },
+      {
+        "t": "Applications de votre liste Ne jamais retenir"
+      }
+    ],
+    "modes_eyebrow": "Modes",
+    "modes_h": "Quatre modes pour rester serein. Créez les vôtres si vous voulez.",
+    "modes": [
+      {
+        "t": "Normal",
+        "p": "Les notifications sans règle arrivent tout de suite. Vos choix par application continuent de s'appliquer."
+      },
+      {
+        "t": "Concentration",
+        "p": "Met de côté les applications qui vous distraient pendant que vous étudiez ou travaillez."
+      },
+      {
+        "t": "Sommeil",
+        "p": "Une nuit tranquille. L'essentiel continue de passer."
+      },
+      {
+        "t": "Sport",
+        "p": "Ne met de côté que les applications de sport de votre choix, pour ne pas découvrir le score avant d'avoir vu le match."
+      }
+    ],
+    "hl_eyebrow": "Points forts",
+    "hl_h": "Conçu pour la vraie vie.",
+    "highlights": [
+      {
+        "t": "Planning hebdomadaire",
+        "p": "Les modes basculent tout seuls selon le jour et l'heure. Vous pouvez aussi définir un planning pour une date précise.",
+        "new": ""
+      },
+      {
+        "t": "Horaires en équipe",
+        "p": "Un cycle alternant matin, soir, nuit et jours de repos, avec gestion des pauses pendant le service.",
+        "new": ""
+      },
+      {
+        "t": "Archive de notifications",
+        "p": "Enregistrez un bon de réduction, une facture ou une dépense dans un dossier quand vous le décidez. Vous recevez un rappel le matin de la date d'échéance.",
+        "new": "Nouveau"
+      },
+      {
+        "t": "Verrouillage par empreinte",
+        "p": "Protégez l'application entière, ou seulement l'archive et le contenu des notifications, grâce au verrouillage d'écran natif d'Android.",
+        "new": "Nouveau"
+      },
+      {
+        "t": "Cadran 24 heures",
+        "p": "Toute la journée sur un seul anneau dans l'écran Aujourd'hui. Une notification en attente indique l'application et la règle, sans dévoiler le message.",
+        "new": ""
+      },
+      {
+        "t": "Qui passe, qui attend",
+        "p": "Pour chaque mode, voyez quelles applications arrivent tout de suite et lesquelles attendent, et pourquoi. Modifiez cela d'un simple geste.",
+        "new": "Nouveau"
+      }
+    ],
+    "more_features": "Toutes les fonctionnalités →",
+    "priv_h": "Vos notifications restent sur votre téléphone.",
+    "priv_p": "L'application ne demande aucune autorisation Internet. Rien n'est envoyé sur un réseau, et il n'y a ni publicité ni outil d'analyse.",
+    "facts": [
+      {
+        "b": "0",
+        "p": "Connexion réseau. L'application ne demande aucune autorisation Internet."
+      },
+      {
+        "b": "3",
+        "p": "Éléments pris en compte : l'application, le type de notification et l'heure. Les titres et le corps des messages ne sont pas lus pour cette décision."
+      },
+      {
+        "b": "Optionnel",
+        "p": "Le contenu des notifications n'est pas lu par défaut. Si vous souhaitez voir ce qui attend, vous devez l'activer dans les Paramètres."
+      }
+    ],
+    "priv_more_p": "Les paramètres et l'historique sont enregistrés de façon chiffrée sur le téléphone. L'archive ne conserve que les notifications que vous choisissez d'enregistrer, également chiffrées et sur le téléphone. Désinstaller l'application supprime toutes ses données.",
+    "priv_more": "Lire toute la politique de confidentialité →",
+    "status_eyebrow": "État du projet",
+    "status_h": "En développement, bientôt disponible sur Google Play.",
+    "status_p": "L'application fonctionne sur Android 8 et versions ultérieures. Son nom définitif n'est pas encore fixé ; nous utilisons pour l'instant le titre de travail « ha!shh ». Cette page sera mise à jour dès son arrivée sur Google Play."
+  },
+  "sim": {
+    "mode": {
+      "normal": "Normal",
+      "focus": "Concentration",
+      "sleep": "Sommeil",
+      "sports": "Sport"
+    },
+    "apps": [
+      [
+        "Messages",
+        "M",
+        [
+          "Nouveau message",
+          "2 nouveaux messages",
+          "Discussion de groupe"
+        ]
+      ],
+      [
+        "Réseaux sociaux",
+        "R",
+        [
+          "Quelqu'un a aimé votre publication",
+          "Nouvel abonné",
+          "Vous avez été mentionné"
+        ]
+      ],
+      [
+        "Actualités",
+        "A",
+        [
+          "Titres du matin",
+          "Dernière minute",
+          "Récapitulatif du jour"
+        ]
+      ],
+      [
+        "Shopping",
+        "S",
+        [
+          "Vente flash !",
+          "Votre panier vous attend",
+          "La réduction se termine bientôt"
+        ]
+      ],
+      [
+        "Sport",
+        "S",
+        [
+          "Mise à jour du match",
+          "But !",
+          "Résultat final"
+        ]
+      ],
+      [
+        "Banque",
+        "B",
+        [
+          "Paiement par carte",
+          "Virement reçu"
+        ]
+      ],
+      [
+        "Calendrier",
+        "C",
+        [
+          "Réunion dans 15 min",
+          "Rappel d'événement"
+        ]
+      ]
+    ],
+    "system": "Toujours",
+    "never": "Ne jamais retenir",
+    "block": "Bloqué",
+    "spoiler": "Anti-spoiler",
+    "now": "Immédiatement",
+    "delivery": "À l'heure de livraison",
+    "modeFmt": "Mode {m}",
+    "waitingFmt": "{n} en attente",
+    "morning": "Matin",
+    "batch": "Groupées ",
+    "next": "Prochaine livraison ",
+    "untilMorning": "Retenu jusqu'au matin",
+    "nextLow": "prochaine livraison ",
+    "untilLow": "jusqu'au matin",
+    "play": "Lecture",
+    "pause": "Pause",
+    "again": "Rejouer"
+  },
+  "features": {
+    "title": "Fonctionnalités · {brand}",
+    "desc": "Tout ce que l'application sait faire aujourd'hui : règles par application, heures de livraison, modes, planning hebdomadaire, horaires en équipe, archive de notifications et verrouillage par empreinte. Aucune autorisation Internet.",
+    "h1": "Tout ce que l'application propose aujourd'hui.",
+    "lead": "Cette page liste uniquement ce qui est présent dans la version actuelle de développement. Les nouveautés de la dernière mise à jour sont signalées.",
+    "groups": [
+      {
+        "h": "Les fondamentaux",
+        "items": [
+          {
+            "t": "Un choix par application",
+            "p": "Immédiatement, mettre de côté, à l'heure de livraison ou bloquer. Les règles peuvent aussi s'appliquer à un groupe d'applications ou à une catégorie."
+          },
+          {
+            "t": "Heures de livraison",
+            "p": "Définissez plusieurs heures de livraison par jour, comme 12:30, 18:00 et 21:00. Tout ce qui est en attente arrive groupé."
+          },
+          {
+            "t": "Liste Ne jamais retenir",
+            "p": "Les applications que vous ajoutez ici passent dans tous les modes. Vous pouvez aussi recevoir un rappel supplémentaire si une notification n'a pas été ouverte au bout de cinq minutes."
+          },
+          {
+            "t": "Toujours livrés",
+            "p": "Les appels, appels manqués, alarmes, rappels, événements d'agenda et notifications de navigation ne sont jamais retenus."
+          },
+          {
+            "t": "Résumé silencieux",
+            "p": "Une seule ligne silencieuse dans la barre de notifications, sans son ni vibration, vous indique qui a des notifications en attente, combien, et quand la première arrivera. Le contenu n'est pas affiché. Activez-le pour les applications de votre choix ou pour tout ce qui attend. Le bouton « Distribuer maintenant » vous livre tout ce qui est en attente en une seule fois, sans ouvrir l'application.",
+            "new": "Nouveau"
+          }
+        ]
+      },
+      {
+        "h": "Modes et plannings",
+        "items": [
+          {
+            "t": "Quatre modes, plus les vôtres",
+            "p": "Normal, Concentration, Sommeil et Sport. Renommez-les, masquez ceux que vous n'utilisez pas ou créez vos propres modes."
+          },
+          {
+            "t": "Qui passe, qui attend",
+            "p": "Pour chaque mode, voyez quelles applications arrivent immédiatement et lesquelles attendent, avec la raison. Ajoutez une application, un groupe ou une catégorie pour indiquer « celle-ci passe dans ce mode ».",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Planning hebdomadaire et calendrier",
+            "p": "Les modes changent selon le jour et l'heure. Parcourez les mois et les années, voyez combien de notifications sont arrivées, ont attendu et ont été distribuées un jour passé (chiffres uniquement), et prévoyez un plan pour une date future. Les plans associés à une date sont listés avec leur date. Lors de la modification d'un plan, sélectionnez les jours de semaine ou le week-end d'un seul geste.",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Cadran 24 heures",
+            "p": "L'écran Aujourd'hui affiche toute la journée sur un seul anneau avec les notifications en attente. Un compte à rebours indique la prochaine distribution, par exemple « 5 notifications dans 38 min »."
+          },
+          {
+            "t": "Horaires en équipe",
+            "p": "Un cycle alternant matin, soir, nuit et jours de repos. Les pauses au sein d'un service sont également prises en compte."
+          },
+          {
+            "t": "Profils prêts à l'emploi",
+            "p": "Prévisualisez ce qu'un profil modifie avant de l'appliquer, et personnalisez-le. Un profil reste actif pendant la durée indiquée par son nom (par exemple « Travail intense · 2 heures »), puis revient au mode précédent."
+          },
+          {
+            "t": "Session de concentration",
+            "p": "Appuyez sur « 25 min de concentration » sur l'écran Aujourd'hui. Une fois le temps écoulé, vous revenez à votre mode précédent et voyez un bref récapitulatif « bien joué » (chiffres uniquement).",
+            "new": "Nouveau"
+          }
+        ]
+      },
+      {
+        "h": "Garder le contrôle",
+        "items": [
+          {
+            "t": "Portée des règles",
+            "p": "Voyez quelles applications sont couvertes par une règle telle que « Shopping ». Retirez une application mal attribuée ou ajoutez-en une nouvelle.",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Groupes d'applications",
+            "p": "Rassemblez des applications en groupes pour les gérer avec une seule règle. Renommez un groupe ou modifiez ses applications à tout moment."
+          },
+          {
+            "t": "Toutes vos applications",
+            "p": "L'écran Règles liste chaque application installée sur votre téléphone, et pas seulement celles qui ont déjà envoyé une notification."
+          },
+          {
+            "t": "Automatisations facultatives",
+            "p": "Avec votre accord, l'application peut changer de mode pendant vos réunions d'agenda ou lorsque votre téléphone se connecte à votre voiture en Bluetooth."
+          },
+          {
+            "t": "Sauvegardez vos règles",
+            "p": "Enregistrez vos règles dans un fichier et restaurez-les plus tard. La sauvegarde conserve aussi les noms des modes, les modes masqués et, pour chaque mode, la liste des applications qui passent immédiatement.",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Configuration intelligente",
+            "p": "La configuration commence par la découverte de votre téléphone : vos applications sont classées en groupes, et vous corrigez celles qui ne sont pas dans le bon. Vous n'êtes interrogé que sur les groupes que vous avez réellement, et vous voyez à la fin un aperçu de qui passe et de qui attend. Choisissez « Démarrage simple » et la configuration se termine en 3 étapes avec la vue simple activée.",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Suggestion de nettoyage hebdomadaire",
+            "p": "L’écran Aujourd’hui liste les applications sans règle qui vous ont le plus interrompu cette semaine. Déplacez-en une vers l’heure de distribution d’un simple geste, ou choisissez « Pas maintenant ». Seuls les décomptes sont utilisés.",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Vue simple",
+            "p": "Activez-la dans les Réglages : l’écran Aujourd’hui ne conserve que le cadran, un unique bouton « Concentration / Retour à la normale » et les notifications en attente. Les onglets Règles et Plan sont masqués, et vos règles continuent de fonctionner en arrière-plan. Pour les personnes qui souhaitent utiliser l’application avec le moins de réglages possible.",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Pourquoi cette attente ?",
+            "p": "Dans l'Historique, chaque notification mise en attente indique le mode ou la règle qui l'a retenue. De là, vous pouvez aussi déplacer cette application vers l'heure de distribution sans ouvrir l'écran des règles.",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Question du jour",
+            "p": "Une fois le matin, l'application vous interroge sur l'appli sans règle qui vous a le plus interrompu hier. Mettez-la en attente d'un simple geste.",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Mode par Wi-Fi",
+            "p": "Normal lorsque vous rentrez chez vous, Concentration lorsque vous arrivez au travail. Vous le configurez avec l'application de routines de votre téléphone (sur Samsung, « Modes et routines ») ; ha!shh ne demande pas l'autorisation de localisation. Paramètres → Mode par Wi-Fi affiche les étapes. Les raccourcis de l'écran d'accueil et les routines changent de mode sans ouvrir l'application ; seul un court message apparaît.",
+            "new": "Nouveau"
+          }
+        ]
+      },
+      {
+        "h": "Archive et sécurité",
+        "items": [
+          {
+            "t": "Archive de notifications",
+            "p": "Enregistrez les notifications de votre choix dans des dossiers comme Coupons, Factures et Dépenses, ou dans votre propre dossier. L'application suggère le montant et vous le confirmez ; un total mensuel s'affiche. Ajoutez une date d'échéance et vous recevrez un rappel ce matin-là. Vous pouvez aussi archiver une notification directement depuis l'Historique si son contenu y a été conservé. Rien n'entre dans l'archive tout seul. Un élément ayant une date d'échéance peut être ajouté au calendrier de votre téléphone (aucune autorisation de calendrier requise).",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Verrouillage par empreinte",
+            "p": "Protégez toute l'application, ou seulement l'archive et le contenu des notifications, avec votre empreinte digitale, votre visage ou le code PIN de votre téléphone. C'est la fenêtre d'Android qui est utilisée : les données de votre empreinte n'atteignent jamais l'application. Avec le réglage « archive et contenu », les aperçus du contenu dans l'Historique restent aussi masqués jusqu'au déverrouillage.",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Affichage du contenu, uniquement si vous l'autorisez",
+            "p": "Le contenu des notifications n'est pas lu par défaut. Activez l'affichage du contenu dans les Paramètres pour voir ce qui est en attente."
+          },
+          {
+            "t": "Thèmes et icône de l'application",
+            "p": "Choisissez Papier (crème chaud, par défaut), Clair (blanc), Sombre ou Système, qui utilise Papier en mode clair et Sombre en mode sombre. Lorsque vous changez de thème, l'application vous demande si vous souhaitez également adapter l'icône de l'écran d'accueil. Sous Android 13 et versions ultérieures, les icônes thématiques adoptent la couleur de votre fond d'écran.",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Envoyer un retour",
+            "p": "Depuis les Paramètres, votre application de messagerie s'ouvre avec un message prêt à l'envoi. L'ajout des informations sur l'appareil est facultatif.",
+            "new": "Nouveau"
+          }
+        ]
+      }
+    ],
+    "tech_eyebrow": "Fiche technique",
+    "tech_h": "Les détails techniques.",
+    "tech_p": "Ces informations décrivent la version actuelle de développement (0.89). Les chiffres sont issus du code source.",
+    "tech": [
+      {
+        "k": "Plateforme",
+        "v": "Android 8.0 et versions ultérieures (API 26) ; cible Android 15 (API 35)"
+      },
+      {
+        "k": "Conçu avec",
+        "v": "Java 17 et le SDK Android uniquement ; aucune bibliothèque tierce"
+      },
+      {
+        "k": "Code",
+        "v": "Environ 20 600 lignes réparties dans 91 fichiers sources"
+      },
+      {
+        "k": "Tests",
+        "v": "31 fichiers de tests de la logique principale ; la compilation s'arrête si un test échoue"
+      },
+      {
+        "k": "Fonctionnement",
+        "v": "Un écouteur de notifications et la mise en veille native d'Android, afin que la notification d'origine réapparaisse à l'heure au lieu d'être copiée"
+      },
+      {
+        "k": "Réseau",
+        "v": "Aucune autorisation Internet ; aucun serveur, compte, publicité ni outil d'analyse"
+      },
+      {
+        "k": "Stockage",
+        "v": "Chiffré sur le téléphone avec une clé conservée dans le Keystore Android"
+      },
+      {
+        "k": "Statut",
+        "v": "Testé sur un Samsung Galaxy S24 et un émulateur Android 15 ; pas encore sur Google Play"
+      },
+      {
+        "k": "Développement",
+        "v": "Claude Code est l'outil de développement principal. L'application ne contient elle-même aucun service d'IA."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Politique de confidentialité · {brand}",
+    "desc": "Comment l'application de notifications gère les données : aucune autorisation Internet, tout reste chiffré sur votre téléphone, le contenu des notifications n'est lu qu'avec votre accord.",
+    "h1": "Politique de confidentialité",
+    "updated": "Dernière mise à jour : 11 octobre 2026",
+    "intro": "En résumé : l'application n'a aucune autorisation Internet et ne transmet rien nulle part. Tout ce qu'elle stocke reste chiffré sur votre téléphone. Le contenu des notifications n'est pas lu sauf si vous activez cette option, et l'archive ne conserve que les notifications que vous décidez d'enregistrer.",
+    "sections": [
+      {
+        "h": "Qui nous sommes",
+        "body": "<p>L'application est développée par Seçkin Çelik à Karabük, Türkiye. Contact : <a href=\"mailto:{email}\">{email}</a>.</p>"
+      },
+      {
+        "h": "Accès aux notifications (requis)",
+        "body": "<p>L'application nécessite l'accès aux notifications, que vous accordez dans les paramètres d'Android. Pour déterminer le sort d'une notification, elle s'appuie sur l'application émettrice, le type de notification (par exemple appel, alarme ou catégorie de message) et l'heure. Les titres et le corps des messages ne sont pas utilisés pour prendre cette décision.</p>"
+      },
+      {
+        "h": "Contenu des notifications (facultatif)",
+        "body": "<ul><li>Si vous activez <b>Afficher le contenu des notifications</b> dans les Paramètres, le contenu des notifications en attente n'est lu qu'au moment précis où il vous est présenté.</li><li>Si vous choisissez également de conserver le contenu dans l'Historique, ces données sont stockées chiffrées sur le téléphone pendant un ou sept jours, selon votre choix. Elles sont supprimées à l'expiration de ce délai ou dès que l'accès aux notifications est désactivé.</li></ul>"
+      },
+      {
+        "h": "Archive de notifications",
+        "body": "<ul><li>Seules les notifications que vous décidez d'archiver sont enregistrées : le nom de l'application, le titre, le texte et la date, ainsi que le dossier, le montant et la date d'échéance que vous ajoutez.</li><li>Rien n'est versé à l'archive automatiquement. Les éléments archivés restent chiffrés sur le téléphone jusqu'à ce que vous les supprimiez.</li><li>Le montant suggéré est calculé directement sur le téléphone. Le rappel à la date d'échéance utilise le système d'alarme du téléphone.</li><li>L'ajout d'un élément d'archive à votre calendrier ouvre votre propre application de calendrier avec un événement prérempli : le titre de la notification (ou le nom de l'application s'il n'y a pas de titre) comme nom de l'événement et la date d'échéance comme date sur toute la journée. Vous le voyez là, vous pouvez le modifier et choisir de l'enregistrer ou non. L'application n'a pas besoin de l'autorisation d'accès au calendrier pour cela. Si votre calendrier se synchronise avec un compte (par exemple Google), l'événement enregistré va vers ce compte ; cela est fait par votre application de calendrier, et ha!shh n'envoie rien.</li></ul>"
+      },
+      {
+        "h": "Verrouillage par empreinte",
+        "body": "<p>Le verrouillage utilise l'invite biométrique native d'Android. Vos données d'empreinte digitale ou de visage n'atteignent jamais l'application ; celle-ci sait uniquement si le déverrouillage a réussi.</p>"
+      },
+      {
+        "h": "Autres autorisations",
+        "body": "<ul><li><b>Publication de notifications :</b> pour délivrer les notifications mises de côté et les rappels.</li><li><b>Démarrage après le redémarrage :</b> pour restaurer vos règles et rappels après le redémarrage du téléphone.</li><li><b>Agenda (facultatif) :</b> seules les heures de début et de fin ainsi que la disponibilité (occupé) des événements sont lues, afin de changer de mode pendant les réunions. Le titre des événements n'est pas lu.</li><li><b>Bluetooth (facultatif) :</b> pour changer de mode lorsque le téléphone se connecte à votre voiture. L'adresse brute de l'appareil n'est pas conservée ; seuls une empreinte numérique à sens unique et le nom de l'appareil que vous voyez sont enregistrés, sous forme chiffrée.</li></ul>"
+      },
+      {
+        "h": "Vos applications installées",
+        "body": "<p>Pour classer vos applications en groupes et les afficher dans les listes de règles, l'application lit la liste des applications installées qui apparaissent sur votre écran d'accueil (nom de l'application, nom du package et type signalé par Android). Tout se passe uniquement sur le téléphone et ne nécessite aucune autorisation supplémentaire. Le résumé silencieux est la propre notification silencieuse de l'application ; il affiche uniquement les noms des applications et leur nombre, jamais le contenu des notifications.</p>"
+      },
+      {
+        "h": "Aucun réseau, aucun pistage",
+        "body": "<p>L'application ne dispose d'aucune autorisation Internet. Il n'y a ni serveurs, ni comptes, ni publicités, ni outils d'analyse ou de rapport de plantage. Aucune donnée issue de l'application ne parvient au développeur ni à qui que ce soit d'autre.</p>"
+      },
+      {
+        "h": "Retour par e-mail",
+        "body": "<p>Si vous utilisez <b>Envoyer un retour</b> dans les Paramètres, votre propre application de messagerie s'ouvre avec un message préparé. Vous le rédigez et l'envoyez vous-même. Les informations sur l'appareil (fabricant, modèle, version d'Android, version de l'application) ne sont ajoutées que si vous cochez cette case. L'e-mail transite par votre fournisseur de messagerie. Le contenu des notifications et vos règles ne sont jamais ajoutés. Si vous envoyez le message, le développeur voit votre adresse e-mail et l'utilise uniquement pour vous répondre. Les messages reçus à l'adresse {email} ne servent qu'à vous répondre et à améliorer l'application, et ne sont pas partagés avec des tiers.</p>"
+      },
+      {
+        "h": "Exportation et sauvegarde",
+        "body": "<p>Vous pouvez enregistrer une sauvegarde de vos règles et de vos modes sous forme de fichier. Elle inclut les noms des modes, les modes intégrés masqués et, pour chaque mode, les applications, groupes et catégories qui passent immédiatement. Vous pouvez aussi exporter vos historiques de notifications (application, heure et action effectuée). Aucun des deux fichiers ne contient le contenu des notifications, et l'archive n'est pas incluse. Le fichier est envoyé uniquement vers l'application ou le dossier que vous choisissez. La sauvegarde cloud d'Android est désactivée pour cette application.</p>"
+      },
+      {
+        "h": "Suppression de vos données",
+        "body": "<p>La désinstallation de l'application supprime l'intégralité de ses données du téléphone. Vous pouvez également supprimer des éléments de l'archive et effacer l'historique directement dans l'application.</p>"
+      },
+      {
+        "h": "Modifications de cette politique",
+        "body": "<p>Si la façon dont l'application traite les données venait à changer, cette page sera mise à jour et la date en haut sera modifiée.</p>"
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ et assistance · {brand}",
+    "desc": "Réponses aux questions courantes sur l'application de notifications : confidentialité, batterie, téléphones compatibles, archive et envoi de retours.",
+    "h1": "Questions et assistance",
+    "lead": "Des réponses courtes aux questions les plus fréquentes. Si la vôtre ne s'y trouve pas, écrivez-nous par e-mail.",
+    "items": [
+      {
+        "q": "Quand l'application sera-t-elle disponible ?",
+        "a": "Elle est en cours de développement. Elle sortira sur Google Play, en commençant par un test fermé. Il n'y a pas encore de date fixée ; ce site sera mis à jour."
+      },
+      {
+        "q": "Sera-t-elle payante ?",
+        "a": "Le projet repose sur un cœur hors ligne gratuit. Si une option payante devait voir le jour, il s'agirait d'un déblocage unique et équitable plutôt que d'un abonnement obligatoire. Il n'y aura ni publicités ni revente de données. Ce plan n'est pas définitif."
+      },
+      {
+        "q": "L'application lit-elle mes notifications ?",
+        "a": "Pas par défaut. Les décisions reposent uniquement sur l'application, le type de notification et l'heure. Le contenu n'est lu que si vous activez l'affichage du contenu, et seulement au moment où il vous est présenté."
+      },
+      {
+        "q": "Est-ce que je risque de manquer un appel ou un message important ?",
+        "a": "Les appels, alarmes, rappels, événements d'agenda et notifications de navigation ne sont jamais retenus. Les applications de votre liste Ne jamais retenir passent dans tous les modes, et l'application peut vous avertir à nouveau si une telle notification n'a pas été ouverte au bout de cinq minutes."
+      },
+      {
+        "q": "Pourquoi n'a-t-elle pas d'autorisation Internet ?",
+        "a": "Parce qu'elle n'en a pas besoin. Tout se déroule sur votre téléphone, vos notifications ne peuvent donc être envoyées nulle part."
+      },
+      {
+        "q": "Consomme-t-elle beaucoup de batterie ?",
+        "a": "Elle ne fait tourner aucun service d'arrière-plan permanent et ne vérifie rien en boucle. Elle réagit aux notifications via l'écouteur de notifications d'Android et utilise les alarmes du téléphone pour les heures de livraison. Certains constructeurs brident les applications en arrière-plan ; les écrans de configuration expliquent comment l'autoriser sur votre appareil."
+      },
+      {
+        "q": "Sur quels téléphones fonctionne-t-elle ?",
+        "a": "Android 8 et versions ultérieures. Le verrouillage par empreinte nécessite Android 9 ou version ultérieure et un verrouillage d'écran (empreinte, code PIN ou schéma) configuré sur le téléphone."
+      },
+      {
+        "q": "Les notifications vont-elles dans l'archive toutes seules ?",
+        "a": "Non. Seules les notifications que vous décidez d'archiver sont enregistrées, de manière chiffrée et sur votre téléphone. Vous pouvez ajouter un dossier, un montant et une date d'échéance, et supprimer des éléments à tout moment."
+      },
+      {
+        "q": "Que se passe-t-il si je désinstalle l'application ?",
+        "a": "Toutes ses données sont supprimées du téléphone. La sauvegarde cloud d'Android étant désactivée, exportez vos règles dans un fichier au préalable si vous souhaitez les conserver."
+      },
+      {
+        "q": "Quelles sont les langues prises en charge ?",
+        "a": "L'application est en préparation en anglais, turc, arabe, allemand, espagnol, français, hindi, indonésien, portugais et russe. Pendant le développement, certains nouveaux écrans apparaissent d'abord en turc."
+      },
+      {
+        "q": "Comment signaler un problème ou proposer une idée ?",
+        "a": "Dans l'application, ouvrez les Paramètres et choisissez Envoyer un retour ; votre application de messagerie s'ouvre avec un message prêt à l'envoi. Vous pouvez aussi écrire directement à {email}."
+      }
+    ],
+    "contact_h": "Vous avez encore une question ?",
+    "contact_p": "Écrivez-nous par e-mail."
+  }
+}

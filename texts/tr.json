@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "name": "Türkçe",
+    "dir": "ltr",
+    "locale": "tr_TR"
+  },
+  "common": {
+    "brand": "ha!shh",
+    "skip": "İçeriğe geç",
+    "nav_label": "Ana menü",
+    "nav_demo": "Canlı örnek",
+    "nav_features": "Özellikler",
+    "nav_privacy": "Gizlilik",
+    "nav_faq": "SSS",
+    "lang_label": "Dil",
+    "theme_label": "Tema",
+    "theme_auto": "Tema: telefona göre",
+    "theme_light": "Tema: açık",
+    "theme_dark": "Tema: koyu",
+    "menu": "Menü",
+    "soon_small": "Yakında",
+    "soon_big": "Google Play'de",
+    "soon_aria": "Google Play'de yakında",
+    "chips": [
+      {
+        "t": "İnternet izni yok"
+      },
+      {
+        "t": "Her şey telefonda, şifreli"
+      },
+      {
+        "t": "Reklam ve analiz yok"
+      }
+    ],
+    "dev_role": "Geliştirici · Karabük",
+    "footer_by": "Geliştiren: Seçkin Çelik · Karabük",
+    "footer_label": "Alt menü",
+    "footer_privacy": "Gizlilik politikası",
+    "footer_faq": "SSS ve destek",
+    "mt_note": ""
+  },
+  "home": {
+    "title": "{brand} · Bildirimler sana göre gelsin",
+    "desc": "Seçtiğin bildirimleri bekletip belirlediğin saatlerde topluca getiren Android uygulaması. İnternet izni yok, her şey telefonda kalır. Geliştiriliyor, Google Play'de yakında.",
+    "eyebrow": "Android · geliştiriliyor",
+    "h1a": "Bildirimler",
+    "h1b": "sana göre gelsin.",
+    "lead": "Seçtiğin bildirimleri bekletir; 12:30, 18:00, 21:00 gibi senin belirlediğin saatlerde topluca getirir. Aramalar, alarmlar ve önemli dediğin uygulamalar her zaman hemen gelir.",
+    "btn_demo": "Bir günü izle ↓",
+    "demo_h": "Bir günü bir dakikada izle.",
+    "demo_p": "Halka, uygulamadaki gibi 24 saatlik bir plan. Saat ilerledikçe etkin mod değişir; gelen her bildirim hemen gösterilir, sonraki teslim saatine kadar bekletilir ya da engellenir. Teslim saati gelince bekleyenlerin hepsi birlikte gelir.",
+    "dial_aria": "24 saatlik plan kadranı",
+    "fast": "Hız ×3",
+    "restart": "Günü baştan başlat",
+    "st_arr": "bildirim geldi",
+    "st_now": "hemen gösterildi",
+    "st_held": "topluca geldi",
+    "st_quiet": "bölünme önlendi",
+    "lane_now": "Şimdi gelenler",
+    "lane_now_s": "önemli ya da izinli",
+    "lane_wait": "Bekleyenler",
+    "empty": "Bekleyen bildirim yok.",
+    "demo_fine": "Örnek kurallar ve örnek uygulama türleriyle yapılmış bir canlandırma. Her şey tarayıcında üretilir; gerçek kullanım verisi değildir.",
+    "how_eyebrow": "Nasıl çalışır",
+    "how_h": "Her uygulama için tek seçim. Gerisini uygulama yapar.",
+    "how_p": "Her uygulama için dört seçenekten birini seç. Gününe uyan teslim saatlerini belirle, sonra bir mod seç ya da modları haftalık plana bırak.",
+    "actions": [
+      {
+        "t": "Hemen",
+        "p": "Bildirim her zamanki gibi hemen gelir."
+      },
+      {
+        "t": "Beklet",
+        "p": "Seçili mod açıkken bildirim sessizce bekler."
+      },
+      {
+        "t": "Teslim saatinde",
+        "p": "Toplanır ve seçtiğin saatlerde (ör. 12:30, 18:00, 21:00) birlikte gelir."
+      },
+      {
+        "t": "Engelle",
+        "p": "Bu uygulamanın bildirimleri gösterilmez."
+      }
+    ],
+    "never_eyebrow": "Önemli olan kaçmaz",
+    "never_h": "Bazı şeyler hiç bekletilmez.",
+    "never_p": "Aramalar, alarmlar, hatırlatıcılar, takvim ve navigasyon bildirimleri her zaman gelir. Banka ya da hastane uygulaması gibi istediğin uygulamaları <b>Hiç bekletme</b> listesine ekleyebilirsin; bunlar her modda gelir. İstersen bu bildirimlerden biri beş dakika içinde açılmazsa bir kez daha hatırlatılır.",
+    "never_list": [
+      {
+        "t": "Aramalar ve cevapsız aramalar"
+      },
+      {
+        "t": "Alarmlar ve hatırlatıcılar"
+      },
+      {
+        "t": "Takvim etkinlikleri"
+      },
+      {
+        "t": "Navigasyon"
+      },
+      {
+        "t": "Hiç bekletme listene eklediğin uygulamalar"
+      }
+    ],
+    "modes_eyebrow": "Modlar",
+    "modes_h": "Dört sakin mod. İstersen kendi modunu yap.",
+    "modes": [
+      {
+        "t": "Normal",
+        "p": "Kuralı olmayan bildirimler hemen gelir. Uygulama seçimlerin yine geçerlidir."
+      },
+      {
+        "t": "Odaklanma",
+        "p": "Ders ya da iş sırasında dikkatini dağıtan uygulamaları bekletir."
+      },
+      {
+        "t": "Uyku",
+        "p": "Sessiz bir gece. Önemli olanlar yine gelir."
+      },
+      {
+        "t": "Spor",
+        "p": "Yalnız seçtiğin spor uygulamalarını bekletir; maçı izlemeden sonucu öğrenmezsin."
+      }
+    ],
+    "hl_eyebrow": "Öne çıkanlar",
+    "hl_h": "Gerçek günlere göre yapıldı.",
+    "highlights": [
+      {
+        "t": "Haftalık plan",
+        "p": "Modlar gün ve saate göre kendiliğinden değişir. Belirli bir tarihe özel plan da kurabilirsin.",
+        "new": ""
+      },
+      {
+        "t": "Vardiya düzeni",
+        "p": "Sabah, akşam, gece vardiyası ve izin günlerinden oluşan dönen düzen; vardiya içinde molalar da var.",
+        "new": ""
+      },
+      {
+        "t": "Bildirim arşivi",
+        "p": "Kupon, ödenecek ya da harcama bildirimini istersen klasörüne kaydet. Son gün sabahı tek bir hatırlatma gelir.",
+        "new": "Yeni"
+      },
+      {
+        "t": "Parmak izi kilidi",
+        "p": "Uygulamanın tamamını ya da yalnız arşivi ve bildirim içeriklerini Android'in kendi kilit penceresiyle koru.",
+        "new": "Yeni"
+      },
+      {
+        "t": "24 saatlik kadran",
+        "p": "Bugün ekranında günün tamamı tek halkada. Bekleyen bildirimde uygulama ve sebep görünür, mesaj değil.",
+        "new": ""
+      },
+      {
+        "t": "Kim gelir, kim bekler",
+        "p": "Her modda hangi uygulamanın hemen geldiğini, hangisinin beklediğini nedeniyle gör; tek dokunuşla değiştir.",
+        "new": "Yeni"
+      }
+    ],
+    "more_features": "Tüm özellikler →",
+    "priv_h": "Bildirimlerin telefonunda kalır.",
+    "priv_p": "Uygulamanın internet izni yok. Hiçbir şey ağ üzerinden gönderilmez; reklam ya da analiz aracı yoktur.",
+    "facts": [
+      {
+        "b": "0",
+        "p": "Ağ bağlantısı. Uygulama internet izni istemez."
+      },
+      {
+        "b": "3",
+        "p": "Karar için kullanılan bilgi: uygulama, bildirim türü ve saat. Başlık ve mesaj metni bu karar için okunmaz."
+      },
+      {
+        "b": "İzinle",
+        "p": "Bildirim içeriği varsayılan olarak okunmaz. Bekleyenlerin içeriğini görmek istersen Ayarlar'dan sen açarsın."
+      }
+    ],
+    "priv_more_p": "Ayarlar ve kayıtlar telefonda şifreli tutulur. Arşivde yalnız senin seçtiğin bildirimler, yine şifreli olarak telefonda saklanır. Uygulamayı kaldırınca verileri silinir.",
+    "priv_more": "Gizlilik politikasının tamamı →",
+    "status_eyebrow": "Durum",
+    "status_h": "Geliştiriliyor, Google Play'de yakında.",
+    "status_p": "Uygulama Android 8 ve üstünde çalışıyor. Adı henüz kesin değil; şimdilik “ha!shh” çalışma adını kullanıyoruz. Google Play'de yayınlanınca bu sayfa güncellenecek."
+  },
+  "sim": {
+    "mode": {
+      "normal": "Normal",
+      "focus": "Odaklanma",
+      "sleep": "Uyku",
+      "sports": "Spor"
+    },
+    "apps": [
+      [
+        "Mesajlar",
+        "M",
+        [
+          "Yeni mesaj",
+          "2 yeni mesaj",
+          "Grup sohbeti"
+        ]
+      ],
+      [
+        "Sosyal medya",
+        "S",
+        [
+          "Gönderin beğenildi",
+          "Yeni takipçi",
+          "Senden bahsedildi"
+        ]
+      ],
+      [
+        "Haberler",
+        "H",
+        [
+          "Sabah bülteni",
+          "Son dakika",
+          "Günün özeti"
+        ]
+      ],
+      [
+        "Alışveriş",
+        "A",
+        [
+          "Flaş indirim!",
+          "Sepetin seni bekliyor",
+          "İndirim bitiyor"
+        ]
+      ],
+      [
+        "Spor",
+        "S",
+        [
+          "Maç güncellemesi",
+          "Gol!",
+          "Maç sonucu"
+        ]
+      ],
+      [
+        "Banka",
+        "B",
+        [
+          "Kart harcaması",
+          "Para geldi"
+        ]
+      ],
+      [
+        "Takvim",
+        "T",
+        [
+          "15 dk sonra toplantı",
+          "Etkinlik hatırlatması"
+        ]
+      ]
+    ],
+    "system": "Hep gelir",
+    "never": "Hiç bekletme",
+    "block": "Engellendi",
+    "spoiler": "Sonuç koruması",
+    "now": "Hemen",
+    "delivery": "Teslim saatinde",
+    "modeFmt": "{m} modu",
+    "waitingFmt": "{n} bekliyor",
+    "morning": "Sabah",
+    "batch": "Toplu ",
+    "next": "Sonraki teslim ",
+    "untilMorning": "Sabaha kadar bekler",
+    "nextLow": "sonraki teslim ",
+    "untilLow": "sabaha kadar",
+    "play": "Oynat",
+    "pause": "Duraklat",
+    "again": "Yeniden oynat"
+  },
+  "features": {
+    "title": "Özellikler · {brand}",
+    "desc": "Uygulamanın bugün yapabildikleri: uygulama başına kurallar, teslim saatleri, modlar, haftalık plan, vardiya düzeni, bildirim arşivi ve parmak izi kilidi. İnternet izni yok.",
+    "h1": "Uygulamanın bugün yaptığı her şey.",
+    "lead": "Bu sayfada yalnız güncel geliştirme sürümünde olanlar yazıyor. Son güncellemeyle gelenler işaretli.",
+    "groups": [
+      {
+        "h": "Temel",
+        "items": [
+          {
+            "t": "Her uygulama için tek seçim",
+            "p": "Hemen, Beklet, Teslim saatinde ya da Engelle. Kurallar bir uygulama grubuna ya da kategoriye de uygulanabilir."
+          },
+          {
+            "t": "Teslim saatleri",
+            "p": "Günde birkaç teslim saati belirle (ör. 12:30, 18:00, 21:00). Bekleyenlerin hepsi birlikte gelir."
+          },
+          {
+            "t": "Hiç bekletme listesi",
+            "p": "Buraya eklediğin uygulamalar her modda gelir. İstersen bir bildirim beş dakika içinde açılmazsa bir kez daha hatırlatılır."
+          },
+          {
+            "t": "Her zaman gelenler",
+            "p": "Aramalar, cevapsız aramalar, alarmlar, hatırlatıcılar, takvim ve navigasyon bildirimleri hiç bekletilmez."
+          },
+          {
+            "t": "Sessiz haber",
+            "p": "Bildirim çubuğunda logolu, sesi ve titreşimi olmayan tek bir özet satırı: kimden kaç bildirim bekliyor, ilki ne zaman gelecek. İçerik gösterilmez. Seçtiğin uygulamalar ya da tüm bekleyenler için açarsın. “Şimdi ver” düğmesiyle uygulamayı açmadan bekleyenlerin hepsini hemen alırsın.",
+            "new": "Yeni"
+          }
+        ]
+      },
+      {
+        "h": "Modlar ve plan",
+        "items": [
+          {
+            "t": "Dört mod ve kendi modların",
+            "p": "Normal, Odaklanma, Uyku ve Spor. Adlarını değiştir, kullanmadıklarını gizle ya da kendi modunu oluştur."
+          },
+          {
+            "t": "Kim gelir, kim bekler",
+            "p": "Her modda hangi uygulamanın hemen geldiğini, hangisinin beklediğini nedeniyle gör. Bir moda uygulama, grup ya da kategori ekleyerek “bu modda hemen gelsin” diyebilirsin.",
+            "new": "Yeni"
+          },
+          {
+            "t": "Haftalık plan ve takvim",
+            "p": "Modlar gün ve saate göre değişir. Aylar ve yıllar arasında gez; geçmiş bir günde kaç bildirimin geldiğini, beklediğini ve teslim edildiğini gör (yalnız sayılar); ileri bir güne özel plan kur. Tarihe özel planlar listede tarihleriyle görünür. Plan düzenlerken hafta içini ya da hafta sonunu tek dokunuşla seç.",
+            "new": "Yeni"
+          },
+          {
+            "t": "24 saatlik kadran",
+            "p": "Bugün ekranı günün tamamını bekleyen bildirimlerle birlikte tek halkada gösterir. Geri sayım, sonraki teslimin ne zaman geleceğini gösterir (ör. “38 dk sonra 5 bildirim gelecek”)."
+          },
+          {
+            "t": "Vardiya düzeni",
+            "p": "Sabah, akşam, gece vardiyası ve izin günlerinden oluşan dönen düzen. Vardiya içindeki molalar da uygulanır."
+          },
+          {
+            "t": "Hazır profiller",
+            "p": "Bir profili uygulamadan önce neyi değiştireceğini gör ve düzenle. Profil adındaki süre kadar sürer (ör. “Derin çalışma · 2 saat”), sonra önceki moda döner."
+          },
+          {
+            "t": "Odak seansı",
+            "p": "Bugün ekranında “25 dk odaklan”a dokun. Süre bitince önceki moduna dönülür ve kısa bir “aferin” özeti çıkar (yalnız sayılar).",
+            "new": "Yeni"
+          }
+        ]
+      },
+      {
+        "h": "Kontrol sende",
+        "items": [
+          {
+            "t": "Kural kapsamı",
+            "p": "“Alışveriş” gibi bir kuralın hangi uygulamaları kapsadığını gör; yanlış tahmin edilen uygulamayı çıkar ya da yenisini ekle.",
+            "new": "Yeni"
+          },
+          {
+            "t": "Uygulama grupları",
+            "p": "Uygulamaları gruplayıp tek kuralla yönet. Grubun adını ve içindeki uygulamaları istediğin zaman değiştir."
+          },
+          {
+            "t": "Bütün uygulamaların",
+            "p": "Kurallar ekranında yalnız bildirim göndermiş olanlar değil, telefondaki bütün uygulamalar listelenir."
+          },
+          {
+            "t": "İsteğe bağlı otomasyonlar",
+            "p": "İzin verirsen uygulama, takvimdeki toplantılarda ya da telefon arabana Bluetooth ile bağlandığında modu değiştirebilir."
+          },
+          {
+            "t": "Kurallarını yedekle",
+            "p": "Kurallarını dosyaya kaydet, sonra geri yükle. Yedek; mod adlarını, gizlediğin modları ve her modun hemen gelenler listesini de taşır.",
+            "new": "Yeni"
+          },
+          {
+            "t": "Akıllı kurulum",
+            "p": "Kurulumun başındaki “Telefonunu tanıyalım” adımı uygulamalarını gruplara ayırır; yanlış gruplananları sen düzeltirsin. Yalnız telefonunda olan gruplar sorulur ve sonunda “kim gelir, kim bekler” önizlemesi açılır. “Sade başla”yı seçersen kurulum 3 adımda biter ve sade görünüm açılır.",
+            "new": "Yeni"
+          },
+          {
+            "t": "Haftalık temizlik önerisi",
+            "p": "Bugün ekranında, bu hafta seni en çok bölen ve kuralı olmayan uygulamalar listelenir. Tek dokunuşla teslim saatine alırsın ya da “Şimdi değil” dersin. Yalnız sayılar kullanılır.",
+            "new": "Yeni"
+          },
+          {
+            "t": "Sade görünüm",
+            "p": "Ayarlar'dan açarsın: Bugün ekranında yalnız kadran, tek bir “Odaklan / Normale dön” düğmesi ve bekleyenler kalır. Kurallar ve Plan sekmeleri gizlenir, kuralların arka planda çalışmaya devam eder. Uygulamayı az ayarla kullanmak isteyenler için.",
+            "new": "Yeni"
+          },
+          {
+            "t": "Neden bekledi?",
+            "p": "Geçmiş'te her bekletilen bildirimin hangi mod ya da kural yüzünden beklediği yazar. Oradan, kural ekranına girmeden o uygulamayı teslim saatine de alabilirsin.",
+            "new": "Yeni"
+          },
+          {
+            "t": "Günün sorusu",
+            "p": "Sabah bir kez, dün seni en çok bölen kuralsız uygulamayı sorar; tek dokunuşla bekletirsin.",
+            "new": "Yeni"
+          },
+          {
+            "t": "Wi-Fi'ye göre mod",
+            "p": "Eve gelince Normal, işe gelince Odak. Telefonunun rutin uygulamasıyla (Samsung'da “Modlar ve Rutinler”) kurulur; ha!shh konum izni istemez. Ayarlar → Wi-Fi'ye göre mod adım adım gösterir. Ana ekran kısayolları ve rutinler de modu uygulamayı açmadan değiştirir; yalnız kısa bir bilgi çıkar.",
+            "new": "Yeni"
+          }
+        ]
+      },
+      {
+        "h": "Arşiv ve güvenlik",
+        "items": [
+          {
+            "t": "Bildirim arşivi",
+            "p": "İstediğin bildirimi Kuponlar, Ödenecekler, Harcamalar gibi klasörlere ya da kendi açtığın klasöre kaydet. Tutarı uygulama önerir, sen onaylarsın; aylık toplam görünür. Son gün verirsen o sabah hatırlatılır. Geçmiş'te içeriği saklanan bir bildirimi de doğrudan arşive kaydedebilirsin. Hiçbir bildirim kendiliğinden arşive girmez. Son günü olan kaydı telefonunun takvimine ekleyebilirsin (takvim izni gerekmez).",
+            "new": "Yeni"
+          },
+          {
+            "t": "Parmak izi kilidi",
+            "p": "Tüm uygulamayı ya da yalnız arşivi ve bildirim içeriklerini parmak izi, yüz ya da telefon şifresiyle koru. Android'in kendi penceresi kullanılır; parmak izi verin uygulamaya hiç gelmez. “Arşiv ve içerikler” seçiliyken Geçmiş'teki içerik önizlemeleri de kilit açılana kadar gizli kalır.",
+            "new": "Yeni"
+          },
+          {
+            "t": "İçerik yalnız izinle",
+            "p": "Bildirim içeriği varsayılan olarak okunmaz. Bekleyenlerin içeriğini görmek için Ayarlar'dan içerik göstermeyi açarsın."
+          },
+          {
+            "t": "Temalar ve uygulama simgesi",
+            "p": "Kağıt (sıcak krem, varsayılan), Açık (beyaz zemin), Koyu ya da Sistem temasını seç; Sistem, telefon açık moddaysa Kağıt'ı, koyu moddaysa Koyu'yu kullanır. Tema değiştirince ana ekran simgesini de uydurmak isteyip istemediğin sorulur. Android 13 ve üstünde temalı simgeler duvar kağıdının rengini alır.",
+            "new": "Yeni"
+          },
+          {
+            "t": "Geri bildirim gönder",
+            "p": "Ayarlar'dan e-posta uygulaman hazır bir mesajla açılır. Cihaz bilgisini eklemek isteğe bağlıdır.",
+            "new": "Yeni"
+          }
+        ]
+      }
+    ],
+    "tech_eyebrow": "Teknik bilgiler",
+    "tech_h": "Teknik ayrıntılar.",
+    "tech_p": "Aşağıdakiler güncel geliştirme sürümünü (0.89) anlatır. Sayılar kaynak koddan alınmıştır.",
+    "tech": [
+      {
+        "k": "Platform",
+        "v": "Android 8.0 ve üstü (API 26); hedef Android 15 (API 35)"
+      },
+      {
+        "k": "Yapım",
+        "v": "Yalnız Java 17 ve Android SDK; dış kütüphane yok"
+      },
+      {
+        "k": "Kod",
+        "v": "91 kaynak dosyada yaklaşık 20.600 satır"
+      },
+      {
+        "k": "Testler",
+        "v": "31 çekirdek mantık testi dosyası; biri başarısız olursa derleme durur"
+      },
+      {
+        "k": "Çalışma biçimi",
+        "v": "Bildirim dinleyicisi ve Android'in kendi erteleme özelliği; asıl bildirim kopyalanmaz, zamanı gelince geri gelir"
+      },
+      {
+        "k": "Ağ",
+        "v": "İnternet izni yok; sunucu, hesap, reklam ya da analiz yok"
+      },
+      {
+        "k": "Depolama",
+        "v": "Telefonda, Android Keystore'da tutulan bir anahtarla şifreli"
+      },
+      {
+        "k": "Durum",
+        "v": "Samsung Galaxy S24 ve Android 15 emülatöründe denendi; henüz Google Play'de değil"
+      },
+      {
+        "k": "Geliştirme",
+        "v": "Ana geliştirme aracı Claude Code. Uygulamanın kendisinde yapay zekâ hizmeti yok."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Gizlilik politikası · {brand}",
+    "desc": "Bildirim uygulamasının verileri nasıl ele aldığı: internet izni yok, her şey telefonda şifreli kalır, bildirim içeriği yalnız izninle.",
+    "h1": "Gizlilik politikası",
+    "updated": "Son güncelleme: 11 Ekim 2026",
+    "intro": "Kısaca: Uygulamanın internet izni yoktur ve hiçbir yere bir şey göndermez. Sakladığı her şey telefonunda şifreli durur. Sen açmadıkça bildirim içeriği okunmaz; arşivde yalnız senin kaydetmeyi seçtiğin bildirimler bulunur.",
+    "sections": [
+      {
+        "h": "Biz kimiz",
+        "body": "<p>Uygulamayı Karabük'te Seçkin Çelik geliştiriyor. İletişim: <a href=\"mailto:{email}\">{email}</a>.</p>"
+      },
+      {
+        "h": "Bildirim erişimi (zorunlu)",
+        "body": "<p>Uygulama, Android ayarlarından senin verdiğin bildirim erişimine ihtiyaç duyar. Bir bildirime ne olacağına karar verirken bildirimi gönderen uygulamayı, bildirim türünü (ör. arama, alarm ya da mesaj kategorisi) ve saati kullanır. Başlık ve mesaj metni bu karar için kullanılmaz.</p>"
+      },
+      {
+        "h": "Bildirim içeriği (isteğe bağlı)",
+        "body": "<ul><li>Ayarlar'da <b>Bildirim içeriğini göster</b> seçeneğini açarsan, bekleyen bildirimlerin içeriği yalnız sana gösterildiği anda okunur.</li><li>Ayrıca Geçmiş'te içeriği saklamayı da açarsan, bu içerik seçtiğin süre boyunca (bir ya da yedi gün) telefonda şifreli tutulur. Süre dolunca ya da bildirim erişimi kapatılınca silinir.</li></ul>"
+      },
+      {
+        "h": "Bildirim arşivi",
+        "body": "<ul><li>Yalnız senin arşivlemeyi seçtiğin bildirimler kaydedilir: uygulama adı, başlık, metin ve tarih ile senin eklediğin klasör, tutar ve son gün.</li><li>Hiçbir bildirim kendiliğinden arşive girmez. Arşivdeki kayıtlar sen silene kadar telefonda şifreli durur.</li><li>Önerilen tutar telefonda hesaplanır. Son gün hatırlatması telefonun kendi alarmıyla kurulur.</li><li>Bir arşiv kaydını takvime eklemek, kendi takvim uygulamanı doldurulmuş bir etkinlikle açar: etkinlik adı olarak bildirimin başlığı (başlık yoksa uygulama adı), tarih olarak da son gün (tüm gün) önerilir. Etkinliği orada görür, değiştirebilir ve kaydedip kaydetmemeyi sen seçersin. Uygulama bunun için takvim izni istemez. Takvimin bir hesapla (ör. Google) eşitleniyorsa kaydettiğin etkinlik de o hesaba gider; bunu senin takvim uygulaman yapar, ha!shh hiçbir şey göndermez.</li></ul>"
+      },
+      {
+        "h": "Parmak izi kilidi",
+        "body": "<p>Kilit, Android'in kendi biyometrik doğrulama penceresini kullanır. Parmak izi ya da yüz verin uygulamaya hiç gelmez; uygulama yalnız kilidin açılıp açılmadığını öğrenir.</p>"
+      },
+      {
+        "h": "Diğer izinler",
+        "body": "<ul><li><b>Bildirim gönderme:</b> bekletilen bildirimleri ve hatırlatmaları sana ulaştırmak için.</li><li><b>Açılışta başlama:</b> telefon yeniden başlayınca kurallarını ve hatırlatmalarını geri kurmak için.</li><li><b>Takvim (isteğe bağlı):</b> toplantılar sırasında modu değiştirmek için yalnız etkinliklerin başlangıç ve bitiş saati ile meşgul bilgisi okunur. Etkinlik başlıkları okunmaz.</li><li><b>Bluetooth (isteğe bağlı):</b> telefon arabana bağlanınca modu değiştirmek için. Cihazın ham adresi saklanmaz; yalnız geri çözülemeyen bir parmak izi ve senin gördüğün cihaz adı şifreli tutulur.</li></ul>"
+      },
+      {
+        "h": "Yüklü uygulamaların",
+        "body": "<p>Uygulamalarını gruplara ayırmak ve kural listelerinde göstermek için uygulama, ana ekranda görünen yüklü uygulamaların listesini okur (uygulama adı, paket adı ve Android'in bildirdiği tür). Bu yalnız telefonda olur ve ek bir izin gerektirmez. Sessiz haber, uygulamanın kendi sessiz bildirimidir; yalnız uygulama adlarını ve sayıları gösterir, bildirim içeriğini asla göstermez.</p>"
+      },
+      {
+        "h": "Ağ yok, takip yok",
+        "body": "<p>Uygulamanın internet izni yoktur. Sunucu, hesap, reklam, analiz ya da çökme raporu aracı yoktur. Uygulamadaki hiçbir veri geliştiriciye ya da başka birine ulaşmaz.</p>"
+      },
+      {
+        "h": "E-postayla geri bildirim",
+        "body": "<p>Ayarlar'daki <b>Geri bildirim gönder</b> seçeneğini kullanırsan kendi e-posta uygulaman hazır bir mesajla açılır. Mesajı sen yazar ve sen gönderirsin. Cihaz bilgisi (üretici, model, Android sürümü, uygulama sürümü) yalnız bu seçeneği işaretlersen eklenir. E-posta, senin e-posta sağlayıcın üzerinden gider. Bildirim içeriği ve kuralların asla eklenmez. Mesajı gönderirsen geliştirici e-posta adresini görür ve onu yalnız sana yanıt vermek için kullanır. {email} adresine gelen mesajlar yalnız sana yanıt vermek ve uygulamayı geliştirmek için kullanılır, üçüncü kişilerle paylaşılmaz.</p>"
+      },
+      {
+        "h": "Dışa aktarma ve yedek",
+        "body": "<p>Kurallarının ve modlarının yedeğini dosya olarak kaydedebilirsin. Yedekte mod adları, gizlenen hazır modlar ve her mod için hemen gelen uygulamalar, gruplar ve kategoriler bulunur. Bildirim kayıtlarını da (uygulama, saat ve yapılan işlem) dışa aktarabilirsin. İki dosyada da bildirim içeriği yoktur, arşiv de bunlara girmez. Dosya yalnız senin seçtiğin uygulamaya ya da klasöre gider. Bu uygulama için Android bulut yedeği kapalıdır.</p>"
+      },
+      {
+        "h": "Verilerini silmek",
+        "body": "<p>Uygulamayı kaldırmak, bütün verilerini telefondan siler. Arşivdeki kayıtları ve geçmişi uygulamanın içinden de silebilirsin.</p>"
+      },
+      {
+        "h": "Bu politikadaki değişiklikler",
+        "body": "<p>Uygulama verileri ele alış biçimini değiştirirse bu sayfa güncellenir ve üstteki tarih değişir.</p>"
+      }
+    ]
+  },
+  "faq": {
+    "title": "SSS ve destek · {brand}",
+    "desc": "Bildirim uygulaması hakkında sık sorulanlar: gizlilik, pil, desteklenen telefonlar, arşiv ve geri bildirim gönderme.",
+    "h1": "Sorular ve destek",
+    "lead": "En çok sorulanlara kısa cevaplar. Sorun burada yoksa e-posta gönder.",
+    "items": [
+      {
+        "q": "Uygulama ne zaman çıkacak?",
+        "a": "Geliştiriliyor. Google Play'de önce kapalı testle yayınlanacak. Henüz tarih yok; bu site güncellenecek."
+      },
+      {
+        "q": "Ücretli mi olacak?",
+        "a": "Plan, ücretsiz ve çevrimdışı bir çekirdek. İleride ücretli bir seçenek olursa zorunlu abonelik değil, adil bir tek seferlik kilit açma olması düşünülüyor. Reklam ve veri satışı olmayacak. Bu plan kesin değil."
+      },
+      {
+        "q": "Uygulama bildirimlerimi okuyor mu?",
+        "a": "Varsayılan olarak hayır. Kararlar yalnız uygulama, bildirim türü ve saatle verilir. İçerik yalnız içerik göstermeyi açarsan ve yalnız sana gösterildiği anda okunur."
+      },
+      {
+        "q": "Önemli bir aramayı ya da mesajı kaçırır mıyım?",
+        "a": "Aramalar, alarmlar, hatırlatıcılar, takvim ve navigasyon bildirimleri hiç bekletilmez. Hiç bekletme listendeki uygulamalar her modda gelir; böyle bir bildirim beş dakika içinde açılmazsa uygulama bir kez daha hatırlatabilir."
+      },
+      {
+        "q": "Neden internet izni yok?",
+        "a": "Gerek yok. Her şey telefonunda olur; bu yüzden bildirimlerin hiçbir yere gönderilemez."
+      },
+      {
+        "q": "Pili tüketir mi?",
+        "a": "Sürekli çalışan bir arka plan hizmeti yok, döngü içinde sürekli kontrol de yapmaz. Bildirimlere Android'in bildirim dinleyicisiyle tepki verir, teslim saatleri için telefonun alarmlarını kullanır. Bazı üreticiler arka plandaki uygulamaları kısıtlar; kurulum ekranları telefonunda buna nasıl izin vereceğini gösterir."
+      },
+      {
+        "q": "Hangi telefonlarda çalışır?",
+        "a": "Android 8 ve üstünde. Parmak izi kilidi için Android 9 ve üstü ile telefonda bir ekran kilidi (parmak izi, PIN ya da desen) gerekir."
+      },
+      {
+        "q": "Bildirimler kendiliğinden arşive girer mi?",
+        "a": "Hayır. Yalnız senin arşivlemeyi seçtiğin bildirimler, şifreli olarak telefonunda saklanır. Klasör, tutar ve son gün ekleyebilir, kayıtları istediğin zaman silebilirsin."
+      },
+      {
+        "q": "Uygulamayı kaldırırsam ne olur?",
+        "a": "Bütün verileri telefondan silinir. Android bulut yedeği kapalı; kurallarını saklamak istersen önce dosyaya aktar."
+      },
+      {
+        "q": "Hangi diller destekleniyor?",
+        "a": "Uygulama İngilizce, Türkçe, Arapça, Almanca, İspanyolca, Fransızca, Hintçe, Endonezce, Portekizce ve Rusça için hazırlanıyor. Geliştirme sırasında bazı yeni ekranlar önce Türkçe çıkıyor."
+      },
+      {
+        "q": "Bir sorunu nasıl bildiririm ya da öneriyi nasıl iletirim?",
+        "a": "Uygulamada Ayarlar'ı açıp Geri bildirim gönder'e dokun; e-posta uygulaman hazır bir mesajla açılır. Doğrudan {email} adresine de yazabilirsin."
+      }
+    ],
+    "contact_h": "Başka bir sorun mu var?",
+    "contact_p": "Bize e-postayla yaz."
+  }
+}

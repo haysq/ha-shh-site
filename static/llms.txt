@@ -1,0 +1,34 @@
+# ha!shh (working name; final name not chosen yet)
+
+> Offline Android app in development that holds the notifications the user chooses and delivers them together at times the user sets. Calls, alarms, reminders and apps the user marks as important always come through. No internet permission. Developed by Seçkin Çelik, Karabük, Türkiye. Contact: hey@ha-shh.com
+
+## Pages (10 languages: en, tr, ar, de, es, fr, hi, id, pt, ru)
+- Home: https://ha-shh.com/en/
+- Features and fact sheet: https://ha-shh.com/en/features/
+- Privacy policy: https://ha-shh.com/en/privacy/
+- FAQ and support: https://ha-shh.com/en/faq/
+- Other languages: replace /en/ with /tr/, /ar/, /de/, /es/, /fr/, /hi/, /id/, /pt/ or /ru/.
+
+## Status
+- Development build 0.89; not yet published on Google Play.
+- Tested on a Samsung Galaxy S24 and an Android 15 emulator.
+
+## Product
+- Per-app choice: immediately, hold, at delivery time, or block; rules can also target app groups and categories.
+- Several delivery times per day (for example 12:30, 18:00, 21:00).
+- Modes: Normal, Focus, Sleep, Sports (holds only selected sports apps), plus custom modes; per-mode view of which apps come through and which wait.
+- Weekly plan, calendar with date-specific plans, 24-hour dial, rotating shift schedules with breaks, ready-made profiles.
+- Never-hold list with an optional reminder if a notification is not opened within five minutes.
+- Notification archive: only notifications the user chooses, in folders, with amount and due-date reminder; encrypted, on device.
+- Fingerprint lock (Android's own biometric prompt) for the whole app or only the archive and notification contents.
+
+## Privacy
+- No internet permission; no servers, accounts, ads, analytics or crash reporting.
+- Decisions use the app, notification type and time; notification content is read only if the user turns it on.
+- Data is stored encrypted on the device (Android Keystore key); Android cloud backup is off.
+
+## Technical
+- Android 8.0+ (API 26), targets API 35. Java 17 and the Android SDK only; no third-party libraries.
+- About 20,600 lines in 91 source files; 31 core logic test files gate every build.
+- Uses a notification listener and Android's snooze, so original notifications return on time.
+- Claude Code is the main development tool; the app itself contains no AI service.
