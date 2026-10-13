@@ -2,7 +2,21 @@
   "meta": {
     "name": "Türkçe",
     "dir": "ltr",
-    "locale": "tr_TR"
+    "locale": "tr_TR",
+    "months": [
+      "Ocak",
+      "Şubat",
+      "Mart",
+      "Nisan",
+      "Mayıs",
+      "Haziran",
+      "Temmuz",
+      "Ağustos",
+      "Eylül",
+      "Ekim",
+      "Kasım",
+      "Aralık"
+    ]
   },
   "common": {
     "brand": "ha!shh",
@@ -37,7 +51,8 @@
     "footer_label": "Alt menü",
     "footer_privacy": "Gizlilik politikası",
     "footer_faq": "SSS ve destek",
-    "mt_note": ""
+    "mt_note": "",
+    "nav_updates": "Duyurular"
   },
   "home": {
     "title": "{brand} · Bildirimler sana göre gelsin",
@@ -166,7 +181,7 @@
       },
       {
         "b": "3",
-        "p": "Karar için kullanılan bilgi: uygulama, bildirim türü ve saat. Başlık ve mesaj metni bu karar için okunmaz."
+        "p": "Karar için kullanılan bilgi: uygulama, bildirim türü ve saat. Başlık ve metin yalnız senin kelimelerinle (spoiler ya da arşiv kelimeleri) karşılaştırılır; bu da yalnız içerik iznini açarsan ve yalnız telefonda olur."
       },
       {
         "b": "İzinle",
@@ -177,7 +192,9 @@
     "priv_more": "Gizlilik politikasının tamamı →",
     "status_eyebrow": "Durum",
     "status_h": "Geliştiriliyor, Google Play'de yakında.",
-    "status_p": "Uygulama Android 8 ve üstünde çalışıyor. Adı henüz kesin değil; şimdilik “ha!shh” çalışma adını kullanıyoruz. Google Play'de yayınlanınca bu sayfa güncellenecek."
+    "status_p": "Uygulama Android 8 ve üstünde çalışıyor. Adı henüz kesin değil; şimdilik “ha!shh” çalışma adını kullanıyoruz. Google Play'de yayınlanınca bu sayfa güncellenecek.",
+    "news_h": "Son duyurular",
+    "news_all": "Tüm duyurular →"
   },
   "sim": {
     "mode": {
@@ -313,7 +330,7 @@
           },
           {
             "t": "Haftalık plan ve takvim",
-            "p": "Modlar gün ve saate göre değişir. Aylar ve yıllar arasında gez; geçmiş bir günde kaç bildirimin geldiğini, beklediğini ve teslim edildiğini gör (yalnız sayılar); ileri bir güne özel plan kur. Tarihe özel planlar listede tarihleriyle görünür. Plan düzenlerken hafta içini ya da hafta sonunu tek dokunuşla seç.",
+            "p": "Modlar gün ve saate göre değişir. Aylar ve yıllar arasında gez; geçmiş bir günde kaç bildirimin geldiğini, beklediğini ve teslim edildiğini gör (yalnız sayılar); ileri bir güne özel plan kur. Tarihe özel planlar listede tarihleriyle görünür. Plan düzenlerken hafta içini ya da hafta sonunu tek dokunuşla seç. Takvimde bir güne dokununca o günün modlarını ve teslim saatlerini görür, açıp kapatırsın.",
             "new": "Yeni"
           },
           {
@@ -331,6 +348,11 @@
           {
             "t": "Odak seansı",
             "p": "Bugün ekranında “25 dk odaklan”a dokun. Süre bitince önceki moduna dönülür ve kısa bir “aferin” özeti çıkar (yalnız sayılar).",
+            "new": "Yeni"
+          },
+          {
+            "t": "Spoiler modu",
+            "p": "Maç izlerken seçtiğin spor, haber ve sosyal medya uygulamaları maç bitene kadar bekler, sonra hepsi birlikte gelir. İstersen takım adı ya da spoiler kelimeleri ekle; içerik izni açıksa eşleşme yalnız telefonunda yapılır.",
             "new": "Yeni"
           }
         ]
@@ -389,6 +411,11 @@
             "t": "Wi-Fi'ye göre mod",
             "p": "Eve gelince Normal, işe gelince Odak. Telefonunun rutin uygulamasıyla (Samsung'da “Modlar ve Rutinler”) kurulur; ha!shh konum izni istemez. Ayarlar → Wi-Fi'ye göre mod adım adım gösterir. Ana ekran kısayolları ve rutinler de modu uygulamayı açmadan değiştirir; yalnız kısa bir bilgi çıkar.",
             "new": "Yeni"
+          },
+          {
+            "t": "Bildirim türü filtresi",
+            "p": "Bir uygulamanın bildirim türlerini ayrı ayrı yönet: örneğin Instagram'da mesajlar hemen, beğeni ve yorumlar teslim saatinde. Türler uygulamanın bildirdiklerinden öğrenilir; içerik analizi yapılmaz. “Yalnız mesajlar” gibi hazır kısayollarla tek dokunuşla kurulur.",
+            "new": "Yeni"
           }
         ]
       },
@@ -397,7 +424,7 @@
         "items": [
           {
             "t": "Bildirim arşivi",
-            "p": "İstediğin bildirimi Kuponlar, Ödenecekler, Harcamalar gibi klasörlere ya da kendi açtığın klasöre kaydet. Tutarı uygulama önerir, sen onaylarsın; aylık toplam görünür. Son gün verirsen o sabah hatırlatılır. Geçmiş'te içeriği saklanan bir bildirimi de doğrudan arşive kaydedebilirsin. Hiçbir bildirim kendiliğinden arşive girmez. Son günü olan kaydı telefonunun takvimine ekleyebilirsin (takvim izni gerekmez).",
+            "p": "İstediğin bildirimi Kuponlar, Ödenecekler, Harcamalar gibi klasörlere ya da kendi açtığın klasöre kaydet. Tutarı uygulama önerir, sen onaylarsın; aylık toplam görünür. Son gün verirsen o sabah hatırlatılır, istersen telefonunun takvimine de eklersin (takvim izni gerekmez). Geçmiş'te içeriği saklanan bir bildirimi de doğrudan arşive kaydedebilirsin. Arşiv grubu kurmadıkça hiçbir bildirim kendiliğinden arşive girmez.",
             "new": "Yeni"
           },
           {
@@ -411,12 +438,27 @@
           },
           {
             "t": "Temalar ve uygulama simgesi",
-            "p": "Kağıt (sıcak krem, varsayılan), Açık (beyaz zemin), Koyu ya da Sistem temasını seç; Sistem, telefon açık moddaysa Kağıt'ı, koyu moddaysa Koyu'yu kullanır. Tema değiştirince ana ekran simgesini de uydurmak isteyip istemediğin sorulur. Android 13 ve üstünde temalı simgeler duvar kağıdının rengini alır.",
+            "p": "Kağıt (sıcak krem, varsayılan), Açık (beyaz zemin), Koyu ya da Sistem temasını seç; Sistem, telefon açık moddaysa Kağıt'ı, koyu moddaysa Koyu'yu kullanır. Tema değiştirince ana ekran simgesini de uydurmak isteyip istemediğin sorulur. Android 13 ve üstünde temalı simgeler duvar kağıdının rengini alır. Yeni Gece ve Gündüz temaları yakında.",
             "new": "Yeni"
           },
           {
             "t": "Geri bildirim gönder",
             "p": "Ayarlar'dan e-posta uygulaman hazır bir mesajla açılır. Cihaz bilgisini eklemek isteğe bağlıdır.",
+            "new": "Yeni"
+          },
+          {
+            "t": "Arşiv grupları",
+            "p": "Arşivini uygulamaya, kişiye ya da senin yazdığın bir kelimeye göre grupla. Her grupta sayaç ve son bildirimler görünür; “Okundu say” dediğin ve bir gruba uyan bildirimler o gruba girer.",
+            "new": "Yeni"
+          },
+          {
+            "t": "Harcama toplamı ve kupon cüzdanı",
+            "p": "Seçtiğin arşiv klasöründe banka bildirimlerindeki harcamalar toplanır (iade ve iptaller düşülür); kupon kodları son kullanma tarihleriyle tek listede birikir. Kodu tek dokunuşla kopyala. Telefonunda şifreli durur.",
+            "new": "Yeni"
+          },
+          {
+            "t": "Arşivin yanında",
+            "p": "Arşivini güçlü parola korumalı ya da şifresiz bir dosya olarak Google Drive'a, Dropbox'a ya da telefonuna kaydet; yeni telefonunda tek dokunuşla geri yükle. Uygulama internete çıkmaz; kaydetmeyi telefonunun kendi dosya seçicisi yapar.",
             "new": "Yeni"
           }
         ]
@@ -468,7 +510,7 @@
     "title": "Gizlilik politikası · {brand}",
     "desc": "Bildirim uygulamasının verileri nasıl ele aldığı: internet izni yok, her şey telefonda şifreli kalır, bildirim içeriği yalnız izninle.",
     "h1": "Gizlilik politikası",
-    "updated": "Son güncelleme: 11 Ekim 2026",
+    "updated": "Son güncelleme: 13 Ekim 2026",
     "intro": "Kısaca: Uygulamanın internet izni yoktur ve hiçbir yere bir şey göndermez. Sakladığı her şey telefonunda şifreli durur. Sen açmadıkça bildirim içeriği okunmaz; arşivde yalnız senin kaydetmeyi seçtiğin bildirimler bulunur.",
     "sections": [
       {
@@ -477,15 +519,15 @@
       },
       {
         "h": "Bildirim erişimi (zorunlu)",
-        "body": "<p>Uygulama, Android ayarlarından senin verdiğin bildirim erişimine ihtiyaç duyar. Bir bildirime ne olacağına karar verirken bildirimi gönderen uygulamayı, bildirim türünü (ör. arama, alarm ya da mesaj kategorisi) ve saati kullanır. Başlık ve mesaj metni bu karar için kullanılmaz.</p>"
+        "body": "<p>Uygulama, Android ayarlarından senin verdiğin bildirim erişimine ihtiyaç duyar. Bir bildirime ne olacağına karar verirken bildirimi gönderen uygulamayı, bildirim türünü (ör. arama, alarm ya da mesaj kategorisi) ve saati kullanır. Başlık ve mesaj metni bu karar için kullanılmaz; tek istisna şu: İçerik iznini açar ve spoiler kelimeleri ya da arşiv kelime grupları eklersen, başlık ve metin telefonda senin kelimelerinle karşılaştırılır. Hiçbir şey bir yere gönderilmez.</p>"
       },
       {
         "h": "Bildirim içeriği (isteğe bağlı)",
-        "body": "<ul><li>Ayarlar'da <b>Bildirim içeriğini göster</b> seçeneğini açarsan, bekleyen bildirimlerin içeriği yalnız sana gösterildiği anda okunur.</li><li>Ayrıca Geçmiş'te içeriği saklamayı da açarsan, bu içerik seçtiğin süre boyunca (bir ya da yedi gün) telefonda şifreli tutulur. Süre dolunca ya da bildirim erişimi kapatılınca silinir.</li></ul>"
+        "body": "<ul><li>Ayarlar'da <b>Bildirim içeriğini göster</b> seçeneğini açarsan, bekleyen bildirimlerin içeriği yalnız sana gösterildiği anda okunur.</li><li>Ayrıca Geçmiş'te içeriği saklamayı da açarsan, bu içerik seçtiğin süre boyunca (bir ya da yedi gün) telefonda şifreli tutulur. Süre dolunca ya da bildirim erişimi kapatılınca silinir.</li><li>İçerik izni açıkken bildirim türü filtresi, türleri tanıyabilmen için bir uygulamanın her bildirim türünden bir örnek başlığı telefonda şifreli olarak saklar.</li></ul>"
       },
       {
         "h": "Bildirim arşivi",
-        "body": "<ul><li>Yalnız senin arşivlemeyi seçtiğin bildirimler kaydedilir: uygulama adı, başlık, metin ve tarih ile senin eklediğin klasör, tutar ve son gün.</li><li>Hiçbir bildirim kendiliğinden arşive girmez. Arşivdeki kayıtlar sen silene kadar telefonda şifreli durur.</li><li>Önerilen tutar telefonda hesaplanır. Son gün hatırlatması telefonun kendi alarmıyla kurulur.</li><li>Bir arşiv kaydını takvime eklemek, kendi takvim uygulamanı doldurulmuş bir etkinlikle açar: etkinlik adı olarak bildirimin başlığı (başlık yoksa uygulama adı), tarih olarak da son gün (tüm gün) önerilir. Etkinliği orada görür, değiştirebilir ve kaydedip kaydetmemeyi sen seçersin. Uygulama bunun için takvim izni istemez. Takvimin bir hesapla (ör. Google) eşitleniyorsa kaydettiğin etkinlik de o hesaba gider; bunu senin takvim uygulaman yapar, ha!shh hiçbir şey göndermez.</li></ul>"
+        "body": "<ul><li>Arşivde senin arşivlemeyi seçtiğin bildirimler ve arşiv grubu kurduysan “Okundu say” dediğin ve gruplarından birine uyan bildirimler bulunur: uygulama adı, başlık, metin ve tarih ile senin eklediğin klasör, tutar ve son gün. Bunun dışında hiçbir şey kendiliğinden arşive girmez.</li><li>Arşivdeki kayıtlar sen silene kadar telefonda şifreli durur. Harcama toplamları ve kupon listeleri, arşivlenmiş bildirimlerinden telefonda hesaplanır. Bir kupon kodunu kopyalamak onu telefonunun panosuna koyar.</li><li>Önerilen tutar telefonda hesaplanır. Son gün hatırlatması telefonun kendi alarmıyla kurulur.</li><li>Bir arşiv kaydını takvime eklemek, kendi takvim uygulamanı doldurulmuş bir etkinlikle açar: etkinlik adı olarak bildirimin başlığı (başlık yoksa uygulama adı), tarih olarak da son gün (tüm gün) önerilir. Etkinliği orada görür, değiştirebilir ve kaydedip kaydetmemeyi sen seçersin. Uygulama bunun için takvim izni istemez. Takvimin bir hesapla (ör. Google) eşitleniyorsa kaydettiğin etkinlik de o hesaba gider; bunu senin takvim uygulaman yapar, ha!shh hiçbir şey göndermez.</li><li>Arşivi, telefonunun kendi dosya seçicisiyle seçtiğin bir yere (ör. Google Drive, Dropbox ya da telefonundaki bir klasör) aktarabilirsin: ya güçlü bir parolayla korunan bir dosya olarak ya da dosyaya sahip olan herkesin okuyabileceği şifresiz bir dosya olarak. İçerik izni kapalıysa dosyada başlık ve metin boş bırakılır. Dosyanın nereye gideceği ve kimin açabileceği bundan sonra sana ve seçtiğin hizmete bağlıdır; ha!shh'ın kendisi hiçbir şey göndermez.</li></ul>"
       },
       {
         "h": "Parmak izi kilidi",
@@ -505,7 +547,7 @@
       },
       {
         "h": "Ödeme",
-        "body": "<p>Abonelik satın alırsan ödemeyi ve aboneliği Google Play yürütür; satın alma bilgisini Google kendi gizlilik politikasına göre işler. Uygulama yalnız telefonundaki Play Store uygulamasından etkin bir aboneliğin olup olmadığını öğrenir; bunun için kendi internet bağlantısını kullanmaz ve ödeme bilgilerini görmez.</p>"
+        "body": "<p>Abonelik satın alırsan ödemeyi ve aboneliği Google Play yürütür; satın alma bilgisini Google kendi gizlilik politikasına göre işler. Uygulama yalnız telefonundaki Play Store uygulamasından etkin bir aboneliğin olup olmadığını öğrenir; bunun için kendi internet bağlantısını kullanmaz ve ödeme bilgilerini görmez. Promosyon kodları Play Store'da kullanılır; uygulama kodu saklamaz.</p>"
       },
       {
         "h": "E-postayla geri bildirim",
@@ -513,7 +555,7 @@
       },
       {
         "h": "Dışa aktarma ve yedek",
-        "body": "<p>Kurallarının ve modlarının yedeğini dosya olarak kaydedebilirsin. Yedekte mod adları, gizlenen hazır modlar ve her mod için hemen gelen uygulamalar, gruplar ve kategoriler bulunur. Bildirim kayıtlarını da (uygulama, saat ve yapılan işlem) dışa aktarabilirsin. İki dosyada da bildirim içeriği yoktur, arşiv de bunlara girmez. Dosya yalnız senin seçtiğin uygulamaya ya da klasöre gider. Bu uygulama için Android bulut yedeği kapalıdır.</p>"
+        "body": "<p>Kurallarının ve modlarının yedeğini dosya olarak kaydedebilirsin. Yedekte mod adları, gizlenen hazır modlar ve her mod için hemen gelen uygulamalar, gruplar ve kategoriler bulunur. Bildirim kayıtlarını da (uygulama, saat ve yapılan işlem) dışa aktarabilirsin. Bu dosyaların hiçbirinde bildirim içeriği yoktur. Arşivin kendi dışa aktarması yukarıda anlatıldı. Dosyalar yalnız senin seçtiğin uygulamaya ya da klasöre gider. Bu uygulama için Android bulut yedeği kapalıdır.</p>"
       },
       {
         "h": "Verilerini silmek",
@@ -536,8 +578,8 @@
         "a": "Geliştiriliyor. Google Play'de önce kapalı testle yayınlanacak. Henüz tarih yok; bu site güncellenecek."
       },
       {
-        "q": "Ücretli mi olacak?",
-        "a": "Plan, ücretsiz ve çevrimdışı bir çekirdek. İleride ücretli bir seçenek olursa zorunlu abonelik değil, adil bir tek seferlik kilit açma olması düşünülüyor. Reklam ve veri satışı olmayacak. Bu plan kesin değil."
+        "q": "Ne kadar tutacak?",
+        "a": "3 günlük ücretsiz denemeden sonra ha!shh yıllık abonelikle kullanılır: yılda 179,99 ₺ ya da 9,99 ABD doları (diğer ülkelerde Google Play yerel fiyatı gösterir). Abonelik olmadan uygulama pasif modda çalışmaya devam eder: hiçbir bildirimi bekletmez, ama bildirimlerini saymaya ve gruplamaya, bugün kaç kez bölündüğünü göstermeye devam eder. Lansmanda ilk 1000 kullanıcı bir promosyon koduyla 6 ay ücretsiz kullanır. Reklam ve veri satışı yok."
       },
       {
         "q": "Uygulama bildirimlerimi okuyor mu?",
@@ -578,5 +620,46 @@
     ],
     "contact_h": "Başka bir sorun mu var?",
     "contact_p": "Bize e-postayla yaz."
-  }
+  },
+  "updates": {
+    "title": "Duyurular · {brand}",
+    "desc": "ha!shh'ta neler yeni: Google Play'deki lansmandan önce geliştirme sürümüne gelen yeni özellikler ve düzeltmeler.",
+    "h1": "Duyurular",
+    "lead": "ha!shh'ta neler yeni. Uygulama hâlâ geliştiriliyor: burada yazanların hepsi geliştirme sürümünde ve lansmanla birlikte Google Play'e gelecek."
+  },
+  "news": [
+    {
+      "date": "2026-10-13",
+      "h": "Spoiler modu, arşiv cüzdanı ve kendi buluta yedek",
+      "items": [
+        "<b>Spoiler modu:</b> Maç izlerken seçtiğin spor, haber ve sosyal medya uygulamalarının bildirimleri maç bitene kadar bekler, sonra hepsi birlikte gelir. İstersen takım adı ya da spoiler kelimeleri eklersin; içerik izni açıksa eşleşme yalnız telefonunda yapılır.",
+        "<b>Harcama toplamı ve kupon cüzdanı:</b> Seçtiğin arşiv klasöründe banka bildirimlerindeki harcamalar toplanır (iade ve iptaller düşülür); kupon kodları son kullanma tarihleriyle tek listede birikir, tek dokunuşla kopyalanır.",
+        "<b>Arşiv grupları:</b> Arşivini uygulamaya, kişiye ya da senin yazdığın bir kelimeye göre grupla. “Okundu say” dediğin ve bir gruba uyan bildirimler o gruba girer.",
+        "<b>Arşivin yanında:</b> Arşivini güçlü parola korumalı ya da şifresiz bir dosya olarak Google Drive'a, Dropbox'a ya da telefonuna kaydet; yeni telefonunda geri yükle. Uygulama yine hiçbir zaman internete çıkmaz; kaydetmeyi telefonunun kendi dosya seçicisi yapar.",
+        "<b>Bildirim türü filtresi:</b> Örneğin Instagram'da mesajlar hemen gelsin, beğeniler ve yorumlar teslim saatinde toplansın. Mesaj metnine değil, uygulamanın bildirdiği bildirim türlerine bakar.",
+        "<b>Takvimde gün ayrıntısı:</b> Bir güne dokun; o günün modlarını ve teslim saatlerini gör, aç ya da kapat.",
+        "<b>Daha akıcı kullanım:</b> Kartları yana kaydırırken takılma yok, bildirime dokununca kendi uygulamasında açılıyor, kurulum kaldığı yerden sürüyor ve tekrar eden “hayalet” bildirimler giderildi.",
+        "<b>Lansman fırsatı:</b> Lansmanda ilk 1000 kullanıcı, Google Play'de kullanacağı bir kodla 6 ay ücretsiz kullanacak.",
+        "<b>Yakında:</b> 3B kadranlı yeni Gece ve Gündüz temaları."
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "h": "Yeni adres: ha-shh.com, 10 dilde",
+      "items": [
+        "Web sitesi kendi adresine taşındı ve artık İngilizce, Türkçe, Arapça, Almanca, İspanyolca, Fransızca, Hintçe, Endonezce, Portekizce ve Rusça."
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "h": "Arşiv, parmak izi kilidi ve daha sakin bir başlangıç",
+      "items": [
+        "Klasörlü, tutarlı ve son gün hatırlatmalı <b>bildirim arşivi</b>.",
+        "Tüm uygulama ya da yalnız arşiv ve bildirim içerikleri için <b>parmak izi kilidi</b>.",
+        "<b>Kim gelir, kim bekler:</b> her mod için ayrı ayrı; ayrıca haftalık temizlik önerisi.",
+        "<b>Sessiz haber, odak seansı, sade görünüm ve akıllı kurulum.</b>",
+        "<b>Kağıt teması</b> ve yeni uygulama simgeleri."
+      ]
+    }
+  ]
 }

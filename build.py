@@ -18,7 +18,7 @@ BASE = "https://ha-shh.com/"
 ALL_LANGS = ["en", "tr", "ar", "de", "es", "fr", "hi", "id", "pt", "ru"]
 # Only languages whose text file exists are built (and linked).
 LANGS = [c for c in ALL_LANGS if os.path.exists(os.path.join(HERE, "texts", c + ".json"))]
-PAGES = {"home": "", "features": "features/", "privacy": "privacy/", "faq": "faq/"}
+PAGES = {"home": "", "features": "features/", "privacy": "privacy/", "faq": "faq/", "updates": "updates/"}
 EMAIL = "hey@ha-shh.com"
 
 ICONS = {
@@ -116,9 +116,9 @@ def decorate(t):
     for item, var in zip(h["modes"], ["normal", "focus", "sleep", "sports"]):
         item["var"] = var
     group_icons = [["bolt", "down", "shield", "star", "bell"],
-                   ["layers", "list", "cal", "dial", "cycle", "sliders", "clock"],
-                   ["eye", "layers", "sliders", "car", "down", "star", "list", "dial", "eye", "bell", "cycle"],
-                   ["box", "finger", "eye", "palette", "mail"]]
+                   ["layers", "list", "cal", "dial", "cycle", "sliders", "clock", "shield"],
+                   ["eye", "layers", "sliders", "car", "down", "star", "list", "dial", "eye", "bell", "cycle", "layers"],
+                   ["box", "finger", "eye", "palette", "mail", "layers", "star", "down"]]
     for group, icons in zip(t["features"]["groups"], group_icons):
         for item, ic in zip(group["items"], icons):
             item["icon"] = icon(ic, ic in ("box", "down"))
@@ -126,6 +126,33 @@ def decorate(t):
             '<div class="card rv">%s<h3>%s%s</h3><p>%s</p></div>'
             % (item["icon"], item["t"], ' <span class="tag-new">%s</span>' % item["new"] if item.get("new") else "", item["p"])
             for item in group["items"])
+
+
+DATE_FMT = {"de": "{d}. {m} {y}", "es": "{d} de {m} de {y}", "pt": "{d} de {m} de {y}"}
+LOWER_MONTHS = ("es", "pt", "fr", "ru")
+RU_GENITIVE = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"]
+
+
+def fmt_date(iso, code, months):
+    y, m, d = (int(x) for x in iso.split("-"))
+    name = RU_GENITIVE[m - 1] if code == "ru" else months[m - 1]
+    if code in LOWER_MONTHS:
+        name = name.lower()
+    return DATE_FMT.get(code, "{d} {m} {y}").format(d=d, m=name, y=y)
+
+
+def news_blocks(t, code):
+    """Full updates list for the updates page, and the 3 latest as cards for the home page."""
+    full, cards = [], []
+    for item in sorted(t["news"], key=lambda n: n["date"], reverse=True):
+        when = fmt_date(item["date"], code, t["meta"]["months"])
+        lis = "".join("<li>%s</li>" % x for x in item["items"])
+        full.append('<article class="news" id="u-%s"><time datetime="%s">%s</time><h2>%s</h2><ul>%s</ul></article>'
+                    % (item["date"], item["date"], when, item["h"], lis))
+        if len(cards) < 3:
+            cards.append('<a class="card news-card rv" href="updates/#u-%s"><time datetime="%s">%s</time><b>%s</b></a>'
+                         % (item["date"], item["date"], when, item["h"]))
+    return "".join(full), "".join(cards)
 
 
 def lang_menu(texts, page, here):
@@ -185,8 +212,10 @@ def main():
                 "nav_cur_features": ' aria-current="page"' if page == "features" else "",
                 "nav_cur_privacy": ' aria-current="page"' if page == "privacy" else "",
                 "nav_cur_faq": ' aria-current="page"' if page == "faq" else "",
+                "nav_cur_updates": ' aria-current="page"' if page == "updates" else "",
                 "demo_href": "#demo" if page == "home" else root + code + "/#demo",
             })
+            ctx["news_html"], ctx["news_box_html"] = news_blocks(t, code)
             ctx["body"] = render(bodies[page], ctx)
             ctx["lang_menu"] = render(lang_menu(texts, page, code), ctx)
             write(os.path.join(code, slug, "index.html"), render(shell, ctx))

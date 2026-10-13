@@ -2,7 +2,21 @@
   "meta": {
     "name": "Français",
     "dir": "ltr",
-    "locale": "fr_FR"
+    "locale": "fr_FR",
+    "months": [
+      "Janvier",
+      "Février",
+      "Mars",
+      "Avril",
+      "Mai",
+      "Juin",
+      "Juillet",
+      "Août",
+      "Septembre",
+      "Octobre",
+      "Novembre",
+      "Décembre"
+    ]
   },
   "common": {
     "brand": "ha!shh",
@@ -37,7 +51,8 @@
     "footer_label": "Menu du pied de page",
     "footer_privacy": "Politique de confidentialité",
     "footer_faq": "FAQ et assistance",
-    "mt_note": "Cette page a été traduite avec l'aide de l'IA. En cas de doute, la version anglaise fait foi."
+    "mt_note": "Cette page a été traduite avec l'aide de l'IA. En cas de doute, la version anglaise fait foi.",
+    "nav_updates": "Mises à jour"
   },
   "home": {
     "title": "{brand} · Des notifications adaptées à votre journée",
@@ -166,7 +181,7 @@
       },
       {
         "b": "3",
-        "p": "Éléments pris en compte : l'application, le type de notification et l'heure. Les titres et le corps des messages ne sont pas lus pour cette décision."
+        "p": "Éléments utilisés pour décider : l'application, le type de notification et l'heure. Les titres et les textes ne sont comparés qu'à vos propres mots (mots spoilers ou mots d'archive), uniquement si vous activez l'accès au contenu, et uniquement sur le téléphone."
       },
       {
         "b": "Optionnel",
@@ -177,7 +192,9 @@
     "priv_more": "Lire toute la politique de confidentialité →",
     "status_eyebrow": "État du projet",
     "status_h": "En développement, bientôt disponible sur Google Play.",
-    "status_p": "L'application fonctionne sur Android 8 et versions ultérieures. Son nom définitif n'est pas encore fixé ; nous utilisons pour l'instant le titre de travail « ha!shh ». Cette page sera mise à jour dès son arrivée sur Google Play."
+    "status_p": "L'application fonctionne sur Android 8 et versions ultérieures. Son nom définitif n'est pas encore fixé ; nous utilisons pour l'instant le titre de travail « ha!shh ». Cette page sera mise à jour dès son arrivée sur Google Play.",
+    "news_h": "Dernières nouveautés",
+    "news_all": "Toutes les nouveautés →"
   },
   "sim": {
     "mode": {
@@ -313,7 +330,7 @@
           },
           {
             "t": "Planning hebdomadaire et calendrier",
-            "p": "Les modes changent selon le jour et l'heure. Parcourez les mois et les années, voyez combien de notifications sont arrivées, ont attendu et ont été distribuées un jour passé (chiffres uniquement), et prévoyez un plan pour une date future. Les plans associés à une date sont listés avec leur date. Lors de la modification d'un plan, sélectionnez les jours de semaine ou le week-end d'un seul geste.",
+            "p": "Les modes changent selon le jour et l'heure. Parcourez les mois et les années, voyez combien de notifications sont arrivées, ont attendu et ont été distribuées un jour passé (chiffres uniquement), et prévoyez un plan pour une date future. Les plans associés à une date sont listés avec leur date. Lors de la modification d'un plan, sélectionnez les jours de semaine ou le week-end d'un seul geste. Appuyez sur un jour dans le calendrier pour voir ses modes et ses heures de distribution, et les activer ou les désactiver.",
             "new": "Nouveau"
           },
           {
@@ -331,6 +348,11 @@
           {
             "t": "Session de concentration",
             "p": "Appuyez sur « 25 min de concentration » sur l'écran Aujourd'hui. Une fois le temps écoulé, vous revenez à votre mode précédent et voyez un bref récapitulatif « bien joué » (chiffres uniquement).",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Mode Spoiler",
+            "p": "Pendant que vous regardez un match, les applications de sport, d'actualités et de réseaux sociaux que vous choisissez attendent la fin de la rencontre, puis tout arrive en même temps. Ajoutez si vous le souhaitez des noms d'équipes ou des mots spoilers ; avec l'accès au contenu activé, ils sont comparés uniquement sur votre téléphone.",
             "new": "Nouveau"
           }
         ]
@@ -389,6 +411,11 @@
             "t": "Mode par Wi-Fi",
             "p": "Normal lorsque vous rentrez chez vous, Concentration lorsque vous arrivez au travail. Vous le configurez avec l'application de routines de votre téléphone (sur Samsung, « Modes et routines ») ; ha!shh ne demande pas l'autorisation de localisation. Paramètres → Mode par Wi-Fi affiche les étapes. Les raccourcis de l'écran d'accueil et les routines changent de mode sans ouvrir l'application ; seul un court message apparaît.",
             "new": "Nouveau"
+          },
+          {
+            "t": "Filtre par type de notification",
+            "p": "Traitez différemment les types de notifications d'une même application : par exemple, les messages Instagram immédiatement, les likes et les commentaires à l'heure de distribution. Les types sont appris à partir de ce que signale l'application, sans aucune analyse de contenu. Des raccourcis prêts à l'emploi comme « Messages uniquement » permettent de tout configurer d'un simple geste.",
+            "new": "Nouveau"
           }
         ]
       },
@@ -397,7 +424,7 @@
         "items": [
           {
             "t": "Archive de notifications",
-            "p": "Enregistrez les notifications de votre choix dans des dossiers comme Coupons, Factures et Dépenses, ou dans votre propre dossier. L'application suggère le montant et vous le confirmez ; un total mensuel s'affiche. Ajoutez une date d'échéance et vous recevrez un rappel ce matin-là. Vous pouvez aussi archiver une notification directement depuis l'Historique si son contenu y a été conservé. Rien n'entre dans l'archive tout seul. Un élément ayant une date d'échéance peut être ajouté au calendrier de votre téléphone (aucune autorisation de calendrier requise).",
+            "p": "Enregistrez les notifications de votre choix dans des dossiers comme Codes promo, Factures et Dépenses, ou dans votre propre dossier. L'application suggère le montant et vous le confirmez ; un total mensuel s'affiche. Ajoutez une date d'échéance pour recevoir un rappel ce matin-là, et vous pouvez l'ajouter au calendrier de votre téléphone (sans autorisation d'accès au calendrier requise). Vous pouvez également archiver une notification directement depuis l'Historique si son contenu y a été conservé. Rien n'entre de lui-même dans l'archive, sauf si vous configurez des groupes d'archive.",
             "new": "Nouveau"
           },
           {
@@ -411,12 +438,27 @@
           },
           {
             "t": "Thèmes et icône de l'application",
-            "p": "Choisissez Papier (crème chaud, par défaut), Clair (blanc), Sombre ou Système, qui utilise Papier en mode clair et Sombre en mode sombre. Lorsque vous changez de thème, l'application vous demande si vous souhaitez également adapter l'icône de l'écran d'accueil. Sous Android 13 et versions ultérieures, les icônes thématiques adoptent la couleur de votre fond d'écran.",
+            "p": "Choisissez Papier (crème chaud, par défaut), Clair (blanc), Sombre ou Système, qui utilise Papier en mode clair et Sombre en mode sombre. Lorsque vous changez de thème, l'application vous demande si vous souhaitez également adapter l'icône de l'écran d'accueil. Sous Android 13 et versions ultérieures, les icônes thématiques adoptent la couleur de votre fond d'écran. De nouveaux thèmes Nuit et Jour arrivent bientôt.",
             "new": "Nouveau"
           },
           {
             "t": "Envoyer un retour",
             "p": "Depuis les Paramètres, votre application de messagerie s'ouvre avec un message prêt à l'envoi. L'ajout des informations sur l'appareil est facultatif.",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Groupes d'archive",
+            "p": "Regroupez votre archive par application, par personne ou par mot de votre choix. Chaque groupe affiche un compteur et ses dernières notifications ; les notifications que vous marquez comme lues et qui correspondent à un groupe y sont ajoutées.",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Total des dépenses et portefeuille de codes promo",
+            "p": "Dans le dossier d'archive de votre choix, les dépenses issues des notifications bancaires s'additionnent (les remboursements et annulations sont déduits), et les codes promo sont rassemblés dans une liste avec leur date d'expiration. Copiez un code d'un simple geste. Conservé de manière chiffrée sur votre téléphone.",
+            "new": "Nouveau"
+          },
+          {
+            "t": "Emportez votre archive avec vous",
+            "p": "Enregistrez votre archive sous forme de fichier protégé par mot de passe ou sans protection sur Google Drive, Dropbox ou votre téléphone, et restaurez-la sur un nouveau téléphone d'un simple geste. L'application ne se connecte jamais à Internet ; c'est le sélecteur de fichiers de votre téléphone qui effectue l'enregistrement.",
             "new": "Nouveau"
           }
         ]
@@ -468,7 +510,7 @@
     "title": "Politique de confidentialité · {brand}",
     "desc": "Comment l'application de notifications gère les données : aucune autorisation Internet, tout reste chiffré sur votre téléphone, le contenu des notifications n'est lu qu'avec votre accord.",
     "h1": "Politique de confidentialité",
-    "updated": "Dernière mise à jour : 11 octobre 2026",
+    "updated": "Dernière mise à jour : 13 octobre 2026",
     "intro": "En résumé : l'application n'a aucune autorisation Internet et ne transmet rien nulle part. Tout ce qu'elle stocke reste chiffré sur votre téléphone. Le contenu des notifications n'est pas lu sauf si vous activez cette option, et l'archive ne conserve que les notifications que vous décidez d'enregistrer.",
     "sections": [
       {
@@ -477,15 +519,15 @@
       },
       {
         "h": "Accès aux notifications (requis)",
-        "body": "<p>L'application nécessite l'accès aux notifications, que vous accordez dans les paramètres d'Android. Pour déterminer le sort d'une notification, elle s'appuie sur l'application émettrice, le type de notification (par exemple appel, alarme ou catégorie de message) et l'heure. Les titres et le corps des messages ne sont pas utilisés pour prendre cette décision.</p>"
+        "body": "<p>L'application a besoin de l'accès aux notifications, que vous accordez dans les paramètres d'Android. Pour décider de ce qu'il advient d'une notification, elle utilise l'application qui l'a envoyée, le type de notification (par exemple la catégorie appel, alarme ou message) et l'heure. Les titres et le texte des messages ne sont pas utilisés pour prendre cette décision, à une exception près : si vous activez l'accès au contenu et ajoutez des mots spoilers ou des groupes de mots d'archive, le titre et le texte sont comparés à vos mots sur le téléphone. Rien n'est envoyé nulle part.</p>"
       },
       {
         "h": "Contenu des notifications (facultatif)",
-        "body": "<ul><li>Si vous activez <b>Afficher le contenu des notifications</b> dans les Paramètres, le contenu des notifications en attente n'est lu qu'au moment précis où il vous est présenté.</li><li>Si vous choisissez également de conserver le contenu dans l'Historique, ces données sont stockées chiffrées sur le téléphone pendant un ou sept jours, selon votre choix. Elles sont supprimées à l'expiration de ce délai ou dès que l'accès aux notifications est désactivé.</li></ul>"
+        "body": "<ul><li>Si vous activez <b>Afficher le contenu des notifications</b> dans les Paramètres, le contenu des notifications en attente n'est lu qu'au moment où il vous est présenté.</li><li>Si vous activez également la conservation du contenu dans l'Historique, ce contenu est stocké de manière chiffrée sur le téléphone pendant un ou sept jours, selon votre choix. Il est supprimé à la fin de cette période ou lorsque l'accès aux notifications est désactivé.</li><li>Lorsque l'accès au contenu est activé, le filtre par type de notification conserve un exemple de titre pour chaque type de notification d'une application, de manière chiffrée sur le téléphone, afin que vous puissiez reconnaître les types.</li></ul>"
       },
       {
         "h": "Archive de notifications",
-        "body": "<ul><li>Seules les notifications que vous décidez d'archiver sont enregistrées : le nom de l'application, le titre, le texte et la date, ainsi que le dossier, le montant et la date d'échéance que vous ajoutez.</li><li>Rien n'est versé à l'archive automatiquement. Les éléments archivés restent chiffrés sur le téléphone jusqu'à ce que vous les supprimiez.</li><li>Le montant suggéré est calculé directement sur le téléphone. Le rappel à la date d'échéance utilise le système d'alarme du téléphone.</li><li>L'ajout d'un élément d'archive à votre calendrier ouvre votre propre application de calendrier avec un événement prérempli : le titre de la notification (ou le nom de l'application s'il n'y a pas de titre) comme nom de l'événement et la date d'échéance comme date sur toute la journée. Vous le voyez là, vous pouvez le modifier et choisir de l'enregistrer ou non. L'application n'a pas besoin de l'autorisation d'accès au calendrier pour cela. Si votre calendrier se synchronise avec un compte (par exemple Google), l'événement enregistré va vers ce compte ; cela est fait par votre application de calendrier, et ha!shh n'envoie rien.</li></ul>"
+        "body": "<ul><li>L'archive conserve les notifications que vous choisissez d'archiver et, si vous configurez des groupes d'archive, les notifications que vous marquez comme lues qui correspondent à l'un de vos groupes : le nom de l'application, le titre, le texte et la date, ainsi que le dossier, le montant et la date d'échéance que vous ajoutez. Rien d'autre n'entre de lui-même dans l'archive.</li><li>Les éléments archivés restent chiffrés sur le téléphone jusqu'à ce que vous les supprimiez. Les totaux de dépenses et les listes de codes promo sont calculés sur le téléphone à partir de vos notifications archivées. Copier un code promo le place dans le presse-papiers de votre téléphone.</li><li>Le montant suggéré est calculé sur le téléphone. Un rappel d'échéance utilise la propre alarme du téléphone.</li><li>Ajouter un élément d'archive à votre calendrier ouvre votre propre application de calendrier avec un événement prérempli : le titre de la notification (ou le nom de l'application s'il n'y a pas de titre) comme nom d'événement et la date d'échéance comme événement sur toute la journée. Vous le visualisez directement, pouvez le modifier et choisir de l'enregistrer ou non. L'application n'a pas besoin d'autorisation d'accès au calendrier pour cela. Si votre calendrier se synchronise avec un compte (par exemple Google), l'événement enregistré est envoyé vers ce compte ; cette opération est effectuée par votre application de calendrier, et ha!shh n'envoie rien.</li><li>Vous pouvez exporter l'archive vers l'emplacement de votre choix (par exemple Google Drive, Dropbox ou un dossier sur votre téléphone) à l'aide du sélecteur de fichiers de votre téléphone : soit sous la forme d'un fichier protégé par un mot de passe robuste, soit sous la forme d'un fichier en clair que toute personne ayant le fichier peut lire. Si l'accès au contenu est désactivé, les titres et les textes restent vides dans le fichier. L'endroit où le fichier est envoyé et les personnes pouvant l'ouvrir ne dépendent ensuite que de vous et du service que vous avez choisi ; ha!shh elle-même n'envoie rien.</li></ul>"
       },
       {
         "h": "Verrouillage par empreinte",
@@ -505,7 +547,7 @@
       },
       {
         "h": "Paiements",
-        "body": "<p>Si vous souscrivez un abonnement, le paiement et l'abonnement sont gérés par Google Play, et Google traite les informations d'achat conformément à sa propre politique de confidentialité. L'application apprend uniquement via l'application Play Store sur votre téléphone si vous disposez d'un abonnement actif ; elle n'utilise pas sa propre connexion Internet pour cela et ne voit pas vos informations de paiement.</p>"
+        "body": "<p>Si vous souscrivez un abonnement, le paiement et l'abonnement sont gérés par Google Play, et Google traite les informations d'achat selon sa propre politique de confidentialité. L'application apprend uniquement de l'application Play Store de votre téléphone si vous disposez d'un abonnement actif ; elle n'utilise pas sa propre connexion Internet pour cela et ne voit pas vos informations de paiement. Les codes promo sont utilisés dans le Play Store ; l'application n'enregistre pas le code.</p>"
       },
       {
         "h": "Retour par e-mail",
@@ -513,7 +555,7 @@
       },
       {
         "h": "Exportation et sauvegarde",
-        "body": "<p>Vous pouvez enregistrer une sauvegarde de vos règles et de vos modes sous forme de fichier. Elle inclut les noms des modes, les modes intégrés masqués et, pour chaque mode, les applications, groupes et catégories qui passent immédiatement. Vous pouvez aussi exporter vos historiques de notifications (application, heure et action effectuée). Aucun des deux fichiers ne contient le contenu des notifications, et l'archive n'est pas incluse. Le fichier est envoyé uniquement vers l'application ou le dossier que vous choisissez. La sauvegarde cloud d'Android est désactivée pour cette application.</p>"
+        "body": "<p>Vous pouvez enregistrer une sauvegarde de vos règles et de vos modes sous forme de fichier. Elle comprend les noms des modes, les modes intégrés masqués et, pour chaque mode, les applications, groupes et catégories qui passent immédiatement. Vous pouvez également exporter vos historiques de notifications (application, heure et action effectuée). Aucun de ces fichiers ne contient le contenu des notifications. L'archive dispose de son propre export, décrit ci-dessus. Les fichiers vont uniquement vers l'application ou le dossier que vous sélectionnez. La sauvegarde cloud d'Android est désactivée pour cette application.</p>"
       },
       {
         "h": "Suppression de vos données",
@@ -536,8 +578,8 @@
         "a": "Elle est en cours de développement. Elle sortira sur Google Play, en commençant par un test fermé. Il n'y a pas encore de date fixée ; ce site sera mis à jour."
       },
       {
-        "q": "Sera-t-elle payante ?",
-        "a": "Le projet repose sur un cœur hors ligne gratuit. Si une option payante devait voir le jour, il s'agirait d'un déblocage unique et équitable plutôt que d'un abonnement obligatoire. Il n'y aura ni publicités ni revente de données. Ce plan n'est pas définitif."
+        "q": "Combien cela coûtera-t-il ?",
+        "a": "Après un essai gratuit de 3 jours, ha!shh fonctionne sous forme d'abonnement annuel : US $9.99 ou ₺179.99 par an (dans les autres pays, Google Play affiche le tarif local). Sans abonnement, l'application continue de fonctionner en mode passif : elle ne retient rien, mais compte et regroupe toujours vos notifications, et indique combien de fois vous avez été interrompu aujourd'hui. Lors du lancement, les 1,000 premiers utilisateurs bénéficient de 6 mois gratuits avec un code promo. Sans publicité et sans vente de données."
       },
       {
         "q": "L'application lit-elle mes notifications ?",
@@ -578,5 +620,46 @@
     ],
     "contact_h": "Vous avez encore une question ?",
     "contact_p": "Écrivez-nous par e-mail."
-  }
+  },
+  "updates": {
+    "title": "Mises à jour · {brand}",
+    "desc": "Les nouveautés de ha!shh : nouvelles fonctionnalités et correctifs de la version de développement, avant le lancement sur Google Play.",
+    "h1": "Mises à jour",
+    "lead": "Les nouveautés de ha!shh. L'application est encore en développement : tout ce qui figure ici fait partie de la version de développement et sera disponible sur Google Play lors du lancement."
+  },
+  "news": [
+    {
+      "date": "2026-10-13",
+      "h": "Mode Spoiler, portefeuille d'archive et sauvegarde sur votre propre cloud",
+      "items": [
+        "<b>Mode Spoiler :</b> pendant que vous regardez un match, les notifications des applications de sport, d'actualités et de réseaux sociaux que vous choisissez attendent la fin de la rencontre, puis arrivent toutes ensemble. Vous pouvez ajouter des noms d'équipes ou des mots spoilers ; avec l'accès au contenu activé, ils sont comparés uniquement sur votre téléphone.",
+        "<b>Total des dépenses et portefeuille de codes promo :</b> dans le dossier d'archive de votre choix, les dépenses issues des notifications bancaires s'additionnent (les remboursements et annulations sont déduits), et les codes promo sont rassemblés dans une liste avec leur date d'expiration, prêts à être copiés d'un simple geste.",
+        "<b>Groupes d'archive :</b> regroupez votre archive par application, par personne ou par mot de votre choix. Les notifications que vous marquez comme lues et qui correspondent à un groupe y sont ajoutées.",
+        "<b>Emportez votre archive avec vous :</b> enregistrez-la sous forme de fichier protégé par mot de passe ou sans protection sur Google Drive, Dropbox ou votre téléphone, et restaurez-la sur un nouveau téléphone. L'application elle-même ne se connecte toujours jamais à Internet ; c'est le sélecteur de fichiers de votre téléphone qui effectue l'enregistrement.",
+        "<b>Filtre par type de notification :</b> par exemple, les messages Instagram arrivent immédiatement tandis que les likes et les commentaires attendent l'heure de distribution. Il utilise les types de notifications signalés par l'application, et non le texte du message.",
+        "<b>Détails des jours du calendrier :</b> appuyez sur un jour pour voir ses modes et ses heures de distribution, et les activer ou les désactiver.",
+        "<b>Utilisation quotidienne plus fluide :</b> faire glisser les cartes ne saccade plus, appuyer sur une notification l'ouvre dans son application, la configuration reprend là où vous vous étiez arrêté, et les notifications « fantômes » en double ont disparu.",
+        "<b>Offre de lancement :</b> lors du lancement, les 1,000 premiers utilisateurs bénéficieront de 6 mois gratuits grâce à un code à utiliser sur Google Play.",
+        "<b>Bientôt disponible :</b> de nouveaux thèmes Nuit et Jour avec un cadran en 3D."
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "h": "Nouvelle adresse : ha-shh.com, en 10 langues",
+      "items": [
+        "Le site web a déménagé vers sa propre adresse et est désormais disponible en anglais, turc, arabe, allemand, espagnol, français, hindi, indonésien, portugais et russe."
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "h": "Archive, verrouillage par empreinte digitale et démarrage plus serein",
+      "items": [
+        "<b>Archive de notifications</b> avec dossiers, montants et rappels d'échéance.",
+        "<b>Verrouillage par empreinte digitale</b> pour toute l'application, ou uniquement pour l'archive et le contenu des notifications.",
+        "<b>Qui passe, qui attend :</b> visualisez-le pour chaque mode, avec en plus une suggestion de tri hebdomadaire.",
+        "<b>Résumé silencieux, session Focus, vue simple et configuration intelligente.</b>",
+        "<b>Thème Papier</b> et nouvelles icônes d'application."
+      ]
+    }
+  ]
 }

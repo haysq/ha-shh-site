@@ -220,3 +220,20 @@ footer a{color:var(--text)}
 [dir="rtl"] .prose ul{padding-left:0;padding-right:1.2em}
 [dir="rtl"] .eyebrow,[dir="rtl"] .langs summary{letter-spacing:0;text-transform:none}
 [dir="rtl"] .hero h1 em{background:linear-gradient(270deg,var(--teal-hi),var(--teal-lo) 60%,var(--gold));-webkit-background-clip:text;background-clip:text}
+
+/* updates: home box + updates page */
+.news-box{padding:8px 0 48px}
+.news-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.news-head .more{margin:0}
+.h3{font-size:1.25rem;margin:0}
+.news-card{display:flex;flex-direction:column;gap:6px;text-decoration:none;color:var(--ink);border-inline-start:4px solid var(--gold)}
+.news-card:hover{transform:translateY(-1px)}
+.news-card time,.news time{font-size:.82rem;font-weight:700;color:var(--muted);letter-spacing:.02em}
+.news-card b{font-size:1.02rem;line-height:1.35}
+.news{padding:22px 0;border-bottom:1px solid var(--line)}
+.news:first-child{padding-top:0}
+.news h2{font-size:1.35rem;margin:.25em 0 .6em}
+.news ul{margin:0;padding-inline-start:1.2em;color:var(--text)}
+.news li{margin:.45em 0}
+.news li::marker{color:var(--gold)}
+@media(min-width:861px) and (max-width:1000px){.top nav a{padding:8px 8px;font-size:.88rem}}

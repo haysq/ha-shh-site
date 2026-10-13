@@ -2,7 +2,21 @@
   "meta": {
     "name": "Bahasa Indonesia",
     "dir": "ltr",
-    "locale": "id_ID"
+    "locale": "id_ID",
+    "months": [
+      "Januari",
+      "Februari",
+      "Maret",
+      "April",
+      "Mei",
+      "Juni",
+      "Juli",
+      "Agustus",
+      "September",
+      "Oktober",
+      "November",
+      "Desember"
+    ]
   },
   "common": {
     "brand": "ha!shh",
@@ -37,7 +51,8 @@
     "footer_label": "Menu footer",
     "footer_privacy": "Kebijakan privasi",
     "footer_faq": "FAQ dan bantuan",
-    "mt_note": "Halaman ini diterjemahkan dengan bantuan AI. Jika ada yang kurang jelas, versi bahasa Inggris yang berlaku."
+    "mt_note": "Halaman ini diterjemahkan dengan bantuan AI. Jika ada yang kurang jelas, versi bahasa Inggris yang berlaku.",
+    "nav_updates": "Pembaruan"
   },
   "home": {
     "title": "{brand} · Notifikasi yang sesuai dengan hari Anda",
@@ -166,7 +181,7 @@
       },
       {
         "b": "3",
-        "p": "Hal yang digunakan untuk menentukan: aplikasi, jenis notifikasi, dan waktu. Judul dan teks pesan tidak dibaca untuk penentuan ini."
+        "p": "Hal-hal yang digunakan untuk menentukan: aplikasi, jenis notifikasi, dan waktu. Judul dan teks hanya dibandingkan dengan kata-kata Anda sendiri (kata spoiler atau kata arsip), hanya jika Anda mengaktifkan akses konten, dan hanya di ponsel."
       },
       {
         "b": "Opsional",
@@ -177,7 +192,9 @@
     "priv_more": "Baca kebijakan privasi selengkapnya →",
     "status_eyebrow": "Status",
     "status_h": "Sedang dikembangkan, segera hadir di Google Play.",
-    "status_p": "Aplikasi ini berjalan di Android 8 ke atas. Namanya belum final; untuk saat ini kami menggunakan nama kerja “ha!shh”. Halaman ini akan diperbarui ketika aplikasi sudah tersedia di Google Play."
+    "status_p": "Aplikasi ini berjalan di Android 8 ke atas. Namanya belum final; untuk saat ini kami menggunakan nama kerja “ha!shh”. Halaman ini akan diperbarui ketika aplikasi sudah tersedia di Google Play.",
+    "news_h": "Pembaruan terbaru",
+    "news_all": "Semua pembaruan →"
   },
   "sim": {
     "mode": {
@@ -313,7 +330,7 @@
           },
           {
             "t": "Rencana mingguan dan kalender",
-            "p": "Mode beralih berdasarkan hari dan waktu. Jelajahi bulan dan tahun, lihat berapa banyak notifikasi yang masuk, menunggu, dan terkirim pada hari sebelumnya (hanya jumlahnya), serta buat rencana untuk tanggal mendatang. Rencana khusus tanggal dicantumkan bersama tanggalnya. Saat mengedit rencana, pilih hari kerja atau akhir pekan hanya dengan sekali ketuk.",
+            "p": "Mode beralih berdasarkan hari dan waktu. Jelajahi bulan dan tahun, lihat berapa banyak notifikasi yang masuk, menunggu, dan terkirim pada hari sebelumnya (hanya jumlahnya), serta buat rencana untuk tanggal mendatang. Rencana khusus tanggal dicantumkan bersama tanggalnya. Saat mengedit rencana, pilih hari kerja atau akhir pekan hanya dengan sekali ketuk. Ketuk suatu hari di kalender untuk melihat mode dan waktu pengirimannya, serta mengaktifkan atau menonaktifkannya.",
             "new": "Baru"
           },
           {
@@ -331,6 +348,11 @@
           {
             "t": "Sesi fokus",
             "p": "Ketuk “Fokus 25 mnt” di layar Hari Ini. Saat waktu habis, Anda kembali ke mode sebelumnya dan melihat ringkasan singkat “kerja bagus” (hanya jumlah).",
+            "new": "Baru"
+          },
+          {
+            "t": "Mode spoiler",
+            "p": "Saat Anda menonton pertandingan, aplikasi olahraga, berita, dan media sosial pilihan Anda akan menunggu hingga selesai, lalu semuanya masuk bersamaan. Anda juga bisa menambahkan nama tim atau kata spoiler; jika akses konten aktif, pencocokan hanya dilakukan di ponsel Anda.",
             "new": "Baru"
           }
         ]
@@ -389,6 +411,11 @@
             "t": "Mode berdasarkan Wi-Fi",
             "p": "Normal saat Anda tiba di rumah, Fokus saat Anda tiba di tempat kerja. Anda mengaturnya dengan aplikasi rutinitas ponsel Anda (di Samsung, “Mode dan Rutinitas”); ha!shh tidak meminta izin lokasi. Pengaturan → Mode berdasarkan Wi-Fi menampilkan langkah-langkahnya. Pintasan layar beranda dan rutinitas beralih mode tanpa membuka aplikasi; hanya pesan singkat yang muncul.",
             "new": "Baru"
+          },
+          {
+            "t": "Filter jenis notifikasi",
+            "p": "Perlakukan jenis notifikasi dari satu aplikasi secara berbeda: misalnya, pesan Instagram langsung masuk, sedangkan tanda suka dan komentar pada waktu pengiriman. Jenis notifikasi dipelajari dari apa yang dilaporkan oleh aplikasi tanpa analisis konten. Pintasan siap pakai seperti “Hanya pesan” dapat mengaturnya dengan sekali ketuk.",
+            "new": "Baru"
           }
         ]
       },
@@ -397,7 +424,7 @@
         "items": [
           {
             "t": "Arsip notifikasi",
-            "p": "Simpan notifikasi yang Anda inginkan ke dalam folder seperti Kupon, Tagihan dan Pengeluaran, atau folder Anda sendiri. Aplikasi menyarankan jumlahnya dan Anda mengonfirmasinya; total bulanan akan ditampilkan. Tambahkan tanggal jatuh tempo dan Anda akan mendapatkan pengingat di pagi harinya. Anda juga bisa mengarsipkan notifikasi langsung dari Riwayat jika isinya tersimpan di sana. Tidak ada yang masuk ke arsip dengan sendirinya. Item dengan tenggat waktu dapat ditambahkan ke kalender ponsel Anda (tidak memerlukan izin kalender).",
+            "p": "Simpan notifikasi yang Anda inginkan ke dalam folder seperti Kupon, Tagihan, dan Pengeluaran, atau folder buatan Anda sendiri. Aplikasi akan menyarankan jumlah nominal dan Anda tinggal mengonfirmasinya; total bulanan akan ditampilkan. Tambahkan tanggal jatuh tempo dan Anda akan mendapatkan pengingat pada pagi hari tersebut, serta Anda dapat menambahkannya ke kalender ponsel Anda (tidak memerlukan izin kalender). Anda juga dapat mengarsipkan notifikasi langsung dari Riwayat jika isinya tersimpan di sana. Tidak ada yang masuk ke arsip dengan sendirinya kecuali Anda mengatur grup arsip.",
             "new": "Baru"
           },
           {
@@ -411,12 +438,27 @@
           },
           {
             "t": "Tema dan ikon aplikasi",
-            "p": "Pilih Kertas (krem hangat, default), Terang (putih), Gelap, atau Sistem, yang menggunakan Kertas dalam mode terang dan Gelap dalam mode gelap. Saat Anda mengubah tema, aplikasi akan menanyakan apakah ingin menyesuaikan ikon layar utama juga. Di Android 13 dan versi lebih baru, ikon bertema akan mengikuti warna wallpaper Anda.",
+            "p": "Pilih Kertas (krem hangat, default), Terang (putih), Gelap, atau Sistem, yang menggunakan Kertas dalam mode terang dan Gelap dalam mode gelap. Saat Anda mengubah tema, aplikasi akan menanyakan apakah ingin menyesuaikan ikon layar utama juga. Di Android 13 dan versi lebih baru, ikon bertema akan mengikuti warna wallpaper Anda. Tema Malam dan Siang baru akan segera hadir.",
             "new": "Baru"
           },
           {
             "t": "Kirim masukan",
             "p": "Dari Pengaturan, aplikasi email Anda terbuka dengan pesan yang sudah siap. Menambahkan informasi perangkat bersifat opsional.",
+            "new": "Baru"
+          },
+          {
+            "t": "Grup arsip",
+            "p": "Kelompokkan arsip Anda berdasarkan aplikasi, orang, atau kata yang Anda tulis. Setiap grup menampilkan jumlah hitungan dan notifikasi terbarunya; notifikasi yang Anda tandai sudah dibaca dan cocok dengan suatu grup akan masuk ke dalamnya.",
+            "new": "Baru"
+          },
+          {
+            "t": "Total pengeluaran dan dompet kupon",
+            "p": "Di folder arsip yang Anda pilih, pengeluaran dari notifikasi bank dijumlahkan (pengembalian dana dan pembatalan dikurangi), dan kode kupon dikumpulkan dalam satu daftar beserta tanggal kedaluwarsanya. Salin kode dengan sekali ketuk. Tetap tersimpan terenkripsi di ponsel Anda.",
+            "new": "Baru"
+          },
+          {
+            "t": "Bawa arsip Anda ke mana saja",
+            "p": "Simpan arsip Anda sebagai file biasa atau yang dilindungi kata sandi ke Google Drive, Dropbox, atau ponsel Anda, lalu pulihkan di ponsel baru dengan sekali ketuk. Aplikasi ini tidak pernah terhubung ke internet; pemilih file bawaan ponsel Anda yang menangani penyimpanan.",
             "new": "Baru"
           }
         ]
@@ -468,7 +510,7 @@
     "title": "Kebijakan privasi · {brand}",
     "desc": "Cara aplikasi notifikasi menangani data: tanpa izin internet, semua tetap terenkripsi di ponsel Anda, konten notifikasi hanya dengan izin Anda.",
     "h1": "Kebijakan privasi",
-    "updated": "Terakhir diperbarui: 11 Oktober 2026",
+    "updated": "Terakhir diperbarui: 13 Oktober 2026",
     "intro": "Singkatnya: aplikasi ini tidak memiliki izin internet dan tidak mengirim apa pun ke mana pun. Semua yang disimpannya tetap terenkripsi di ponsel Anda. Konten notifikasi tidak dibaca kecuali Anda mengaktifkannya, dan arsip hanya menyimpan notifikasi yang Anda pilih untuk disimpan.",
     "sections": [
       {
@@ -477,15 +519,15 @@
       },
       {
         "h": "Akses notifikasi (diperlukan)",
-        "body": "<p>Aplikasi memerlukan akses notifikasi, yang Anda berikan di pengaturan Android. Untuk menentukan apa yang terjadi pada notifikasi, aplikasi menggunakan aplikasi yang mengirimkannya, jenis notifikasi (misalnya kategori panggilan, alarm, atau pesan), dan waktu. Judul dan teks pesan tidak digunakan untuk penentuan ini.</p>"
+        "body": "<p>Aplikasi ini memerlukan akses notifikasi, yang Anda berikan di pengaturan Android. Untuk menentukan apa yang terjadi pada suatu notifikasi, aplikasi menggunakan aplikasi yang mengirimkannya, jenis notifikasi (misalnya kategori panggilan, alarm, atau pesan), dan waktu. Judul dan teks pesan tidak digunakan untuk penentuan ini, dengan satu pengecualian: jika Anda mengaktifkan akses konten dan menambahkan kata spoiler atau grup kata arsip, judul dan teks akan dibandingkan dengan kata-kata Anda di ponsel. Tidak ada yang dikirim ke mana pun.</p>"
       },
       {
         "h": "Konten notifikasi (opsional)",
-        "body": "<ul><li>Jika Anda mengaktifkan <b>Tampilkan konten notifikasi</b> di Pengaturan, konten notifikasi yang sedang menunggu hanya dibaca pada saat ditampilkan kepada Anda.</li><li>Jika Anda juga mengaktifkan penyimpanan konten di Riwayat, konten tersebut disimpan secara terenkripsi di ponsel selama satu atau tujuh hari, sesuai pilihan Anda. Konten akan dihapus saat periode tersebut berakhir atau saat akses notifikasi dinonaktifkan.</li></ul>"
+        "body": "<ul><li>Jika Anda mengaktifkan <b>Tampilkan konten notifikasi</b> di Pengaturan, isi notifikasi yang sedang menunggu hanya dibaca pada saat ditampilkan kepada Anda.</li><li>Jika Anda juga mengaktifkan penyimpanan konten di Riwayat, isi tersebut disimpan secara terenkripsi di ponsel selama satu atau tujuh hari, sesuai pilihan Anda. Data ini dihapus saat periode tersebut berakhir atau saat akses notifikasi dinonaktifkan.</li><li>Dengan akses konten aktif, filter jenis notifikasi menyimpan satu contoh judul untuk setiap jenis notifikasi suatu aplikasi, terenkripsi di ponsel, agar Anda dapat mengenali jenis-jenisnya.</li></ul>"
       },
       {
         "h": "Arsip notifikasi",
-        "body": "<ul><li>Hanya notifikasi yang Anda pilih untuk diarsipkan yang disimpan: nama aplikasi, judul, teks, dan tanggal, ditambah folder, jumlah, dan tanggal jatuh tempo yang Anda tambahkan.</li><li>Tidak ada yang masuk ke arsip secara otomatis. Item yang diarsipkan tetap terenkripsi di ponsel sampai Anda menghapusnya.</li><li>Saran jumlah dihitung di ponsel. Pengingat tanggal jatuh tempo menggunakan alarm ponsel itu sendiri.</li><li>Menambahkan item arsip ke kalender Anda akan membuka aplikasi kalender Anda sendiri dengan acara yang telah terisi: judul notifikasi (atau nama aplikasi jika tidak ada judul) sebagai nama acara dan tanggal jatuh tempo sebagai tanggal sepanjang hari. Anda melihatnya di sana, dapat mengubahnya, dan memilih apakah akan menyimpannya. Aplikasi tidak memerlukan izin kalender untuk hal ini. Jika kalender Anda disinkronkan dengan akun (misalnya Google), acara yang disimpan akan masuk ke akun tersebut; itu dilakukan oleh aplikasi kalender Anda, dan ha!shh tidak mengirimkan apa pun.</li></ul>"
+        "body": "<ul><li>Arsip menyimpan notifikasi yang Anda pilih untuk diarsipkan, dan, jika Anda menyiapkan grup arsip, notifikasi yang Anda tandai sudah dibaca dan cocok dengan salah satu grup Anda: nama aplikasi, judul, teks, dan tanggal, ditambah folder, jumlah nominal, dan tanggal jatuh tempo yang Anda tambahkan. Tidak ada hal lain yang masuk ke arsip dengan sendirinya.</li><li>Item yang diarsipkan tetap terenkripsi di ponsel hingga Anda menghapusnya. Total pengeluaran dan daftar kupon dihitung di ponsel dari notifikasi yang Anda arsipkan. Menyalin kode kupon akan menaruhnya di papan klip ponsel Anda.</li><li>Jumlah nominal yang disarankan dihitung di ponsel. Pengingat tanggal jatuh tempo menggunakan alarm bawaan ponsel.</li><li>Menambahkan item arsip ke kalender Anda akan membuka aplikasi kalender Anda sendiri dengan acara yang sudah terisi: judul notifikasi (atau nama aplikasi jika tidak ada judul) sebagai nama acara dan tanggal jatuh tempo sebagai acara sepanjang hari. Anda melihatnya di sana, dapat mengubahnya, dan memilih apakah ingin menyimpannya. Aplikasi ini tidak memerlukan izin kalender untuk hal ini. Jika kalender Anda disinkronkan dengan suatu akun (misalnya Google), acara yang disimpan akan masuk ke akun tersebut; hal itu dilakukan oleh aplikasi kalender Anda, dan ha!shh tidak mengirimkan apa pun.</li><li>Anda dapat mengekspor arsip ke tempat yang Anda pilih (misalnya Google Drive, Dropbox, atau folder di ponsel Anda) menggunakan pemilih file bawaan ponsel Anda: baik sebagai file yang dilindungi dengan kata sandi yang kuat, maupun sebagai file biasa yang dapat dibaca oleh siapa saja yang memiliki file tersebut. Jika akses konten dinonaktifkan, judul dan teks dikosongkan di dalam file. Ke mana file tersebut disimpan dan siapa yang dapat membukanya sepenuhnya terserah Anda dan layanan yang Anda pilih; ha!shh sendiri tidak mengirimkan apa pun.</li></ul>"
       },
       {
         "h": "Kunci sidik jari",
@@ -505,7 +547,7 @@
       },
       {
         "h": "Pembayaran",
-        "body": "<p>Jika Anda membeli langganan, pembayaran dan langganan akan ditangani oleh Google Play, dan Google memproses informasi pembelian berdasarkan kebijakan privasinya sendiri. Aplikasi ini hanya mengetahui dari aplikasi Play Store di ponsel Anda apakah Anda memiliki langganan aktif; aplikasi tidak menggunakan koneksi internetnya sendiri untuk hal ini dan tidak melihat detail pembayaran Anda.</p>"
+        "body": "<p>Jika Anda membeli langganan, pembayaran dan langganan akan ditangani oleh Google Play, dan Google memproses informasi pembelian berdasarkan kebijakan privasinya sendiri. Aplikasi ini hanya mencari tahu dari aplikasi Play Store di ponsel Anda apakah Anda memiliki langganan aktif; aplikasi ini tidak menggunakan koneksi internetnya sendiri untuk hal ini dan tidak melihat detail pembayaran Anda. Kode promo ditukarkan di Play Store; aplikasi tidak menyimpan kode tersebut.</p>"
       },
       {
         "h": "Masukan melalui email",
@@ -513,7 +555,7 @@
       },
       {
         "h": "Ekspor dan pencadangan",
-        "body": "<p>Anda bisa menyimpan cadangan aturan dan mode Anda sebagai file. Ini mencakup nama mode, mode bawaan yang tersembunyi, dan untuk setiap mode, aplikasi, grup, serta kategori yang langsung lolos. Anda juga bisa mengekspor rekaman notifikasi Anda (aplikasi, waktu, dan apa yang dilakukan). Kedua file tersebut tidak berisi konten notifikasi, dan arsip tidak disertakan. File hanya dikirim ke aplikasi atau folder yang Anda pilih. Pencadangan cloud Android dinonaktifkan untuk aplikasi ini.</p>"
+        "body": "<p>Anda dapat menyimpan cadangan aturan dan mode Anda sebagai file. Ini mencakup nama-nama mode, mode bawaan yang tersembunyi, dan, untuk setiap mode, aplikasi, grup, serta kategori yang langsung masuk. Anda juga dapat mengekspor catatan notifikasi Anda (aplikasi, waktu, dan tindakan yang dilakukan). Tidak satu pun dari file-file ini berisi konten notifikasi. Arsip memiliki ekspornya sendiri, seperti yang dijelaskan di atas. File hanya masuk ke aplikasi atau folder yang Anda pilih. Pencadangan cloud Android dinonaktifkan untuk aplikasi ini.</p>"
       },
       {
         "h": "Menghapus data Anda",
@@ -536,8 +578,8 @@
         "a": "Aplikasi sedang dalam pengembangan. Aplikasi akan dirilis di Google Play, dimulai dengan pengujian tertutup. Belum ada tanggal pasti; situs ini akan diperbarui."
       },
       {
-        "q": "Apakah aplikasi ini berbayar?",
-        "a": "Rencananya adalah fungsi inti luring gratis. Jika kelak ada opsi berbayar, itu dimaksudkan sebagai pembelian sekali buka yang wajar daripada langganan paksa. Tidak akan ada iklan dan tidak ada penjualan data. Rencana ini belum final."
+        "q": "Berapa biayanya?",
+        "a": "Setelah uji coba gratis 3 hari, ha!shh adalah langganan tahunan: US $9.99 atau ₺179.99 per tahun (di negara lain, Google Play menampilkan harga lokal). Tanpa langganan, aplikasi tetap berfungsi dalam mode pasif: tidak menahan apa pun, tetapi tetap menghitung dan mengelompokkan notifikasi Anda serta menunjukkan seberapa sering Anda terganggu hari ini. Saat peluncuran, 1.000 pengguna pertama mendapatkan 6 bulan gratis dengan kode promo. Tanpa iklan dan tanpa penjualan data."
       },
       {
         "q": "Apakah aplikasi membaca notifikasi saya?",
@@ -578,5 +620,46 @@
     ],
     "contact_h": "Masih memiliki pertanyaan?",
     "contact_p": "Hubungi kami melalui email."
-  }
+  },
+  "updates": {
+    "title": "Pembaruan · {brand}",
+    "desc": "Yang baru di ha!shh: fitur baru dan perbaikan dalam versi pengembangan, sebelum peluncuran di Google Play.",
+    "h1": "Pembaruan",
+    "lead": "Yang baru di ha!shh. Aplikasi ini masih dalam tahap pengembangan: semua yang ada di sini berada dalam versi pengembangan dan akan hadir di Google Play saat peluncuran."
+  },
+  "news": [
+    {
+      "date": "2026-10-13",
+      "h": "Mode spoiler, dompet arsip, dan pencadangan ke cloud Anda sendiri",
+      "items": [
+        "<b>Mode spoiler:</b> saat Anda menonton pertandingan, notifikasi dari aplikasi olahraga, berita, dan media sosial pilihan Anda akan menunggu hingga selesai, lalu masuk bersamaan. Anda dapat menambahkan nama tim atau kata spoiler; jika akses konten aktif, pencocokan hanya dilakukan di ponsel Anda.",
+        "<b>Total pengeluaran dan dompet kupon:</b> di folder arsip yang Anda pilih, pengeluaran dari notifikasi bank dijumlahkan (pengembalian dana dan pembatalan dikurangi), dan kode kupon dikumpulkan dalam satu daftar beserta tanggal kedaluwarsanya, siap disalin dengan sekali ketuk.",
+        "<b>Grup arsip:</b> kelompokkan arsip Anda berdasarkan aplikasi, orang, atau kata yang Anda tulis. Notifikasi yang Anda tandai sudah dibaca dan cocok dengan suatu grup akan masuk ke dalamnya.",
+        "<b>Bawa arsip Anda ke mana saja:</b> simpan sebagai file biasa atau file yang dilindungi kata sandi ke Google Drive, Dropbox, atau ponsel Anda, lalu pulihkan di ponsel baru. Aplikasi ini sendiri tetap tidak pernah terhubung ke internet; pemilih file bawaan ponsel Anda yang menangani penyimpanan.",
+        "<b>Filter jenis notifikasi:</b> misalnya, pesan Instagram langsung masuk sementara tanda suka dan komentar menunggu waktu pengiriman. Fitur ini menggunakan jenis notifikasi yang dilaporkan aplikasi, bukan teks pesan.",
+        "<b>Detail hari kalender:</b> ketuk suatu hari untuk melihat mode dan waktu pengirimannya, serta mengaktifkan atau menonaktifkannya.",
+        "<b>Penggunaan sehari-hari yang lebih lancar:</b> mengusap kartu tidak lagi tersendat, mengetuk notifikasi akan langsung membukanya di aplikasinya, pengaturan berlanjut dari posisi terakhir Anda, dan notifikasi “hantu” duplikat sudah hilang.",
+        "<b>Penawaran peluncuran:</b> saat peluncuran, 1.000 pengguna pertama akan mendapatkan 6 bulan gratis dengan kode yang Anda tukarkan di Google Play.",
+        "<b>Segera hadir:</b> tema Malam dan Siang baru dengan tombol putar 3D."
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "h": "Rumah baru: ha-shh.com, dalam 10 bahasa",
+      "items": [
+        "Situs web telah berpindah ke alamatnya sendiri dan kini tersedia dalam bahasa Inggris, Turki, Arab, Jerman, Spanyol, Prancis, Hindi, Indonesia, Portugis, dan Rusia."
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "h": "Arsip, kunci sidik jari, dan awal yang lebih tenang",
+      "items": [
+        "<b>Arsip notifikasi</b> dengan folder, jumlah nominal, dan pengingat jatuh tempo.",
+        "<b>Kunci sidik jari</b> untuk seluruh aplikasi, atau hanya untuk arsip dan isi notifikasi.",
+        "<b>Siapa yang lolos, siapa yang menunggu:</b> lihat untuk setiap mode, ditambah saran pembersihan mingguan.",
+        "<b>Ringkasan hening, sesi fokus, tampilan sederhana, dan pengaturan pintar.</b>",
+        "<b>Tema Kertas</b> dan ikon aplikasi baru."
+      ]
+    }
+  ]
 }

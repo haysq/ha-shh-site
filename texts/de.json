@@ -2,7 +2,21 @@
   "meta": {
     "name": "Deutsch",
     "dir": "ltr",
-    "locale": "de_DE"
+    "locale": "de_DE",
+    "months": [
+      "Januar",
+      "Februar",
+      "März",
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober",
+      "November",
+      "Dezember"
+    ]
   },
   "common": {
     "brand": "ha!shh",
@@ -37,7 +51,8 @@
     "footer_label": "Fußzeilenmenü",
     "footer_privacy": "Datenschutzerklärung",
     "footer_faq": "FAQ und Support",
-    "mt_note": "Diese Seite wurde mithilfe von KI übersetzt. Bei Unklarheiten gilt die englische Version."
+    "mt_note": "Diese Seite wurde mithilfe von KI übersetzt. Bei Unklarheiten gilt die englische Version.",
+    "nav_updates": "Updates"
   },
   "home": {
     "title": "{brand} · Benachrichtigungen, die zu deinem Tag passen",
@@ -166,7 +181,7 @@
       },
       {
         "b": "3",
-        "p": "Kriterien für Entscheidungen: die App, der Benachrichtigungstyp und die Uhrzeit. Titel und Nachrichtentexte werden dafür nicht gelesen."
+        "p": "Grundlagen für Entscheidungen: die App, der Benachrichtigungstyp und die Uhrzeit. Titel und Text werden nur mit deinen eigenen Wörtern verglichen (Spoiler- oder Archiv-Wörter), nur wenn du den Inhaltszugriff aktivierst, und nur auf dem Smartphone."
       },
       {
         "b": "Opt-in",
@@ -177,7 +192,9 @@
     "priv_more": "Vollständige Datenschutzerklärung lesen →",
     "status_eyebrow": "Status",
     "status_h": "In Entwicklung, demnächst auf Google Play.",
-    "status_p": "Die App läuft auf Android 8 und neuer. Ihr endgültiger Name steht noch nicht fest; vorerst nutzen wir den Arbeitstitel „ha!shh“. Diese Seite wird aktualisiert, sobald die App auf Google Play verfügbar ist."
+    "status_p": "Die App läuft auf Android 8 und neuer. Ihr endgültiger Name steht noch nicht fest; vorerst nutzen wir den Arbeitstitel „ha!shh“. Diese Seite wird aktualisiert, sobald die App auf Google Play verfügbar ist.",
+    "news_h": "Neueste Updates",
+    "news_all": "Alle Updates →"
   },
   "sim": {
     "mode": {
@@ -313,7 +330,7 @@
           },
           {
             "t": "Wochenplan und Kalender",
-            "p": "Modi wechseln nach Tag und Uhrzeit. Durchstöbere Monate und Jahre, sieh dir an, wie viele Benachrichtigungen an einem vergangenen Tag ankamen, gewartet haben und zugestellt wurden (nur Anzahlen), und erstelle einen Plan für ein zukünftiges Datum. Pläne für ein bestimmtes Datum werden mit ihrem Datum aufgelistet. Wähle beim Bearbeiten eines Plans Wochentage oder das Wochenende mit einem Fingertipp aus.",
+            "p": "Modi wechseln nach Tag und Uhrzeit. Durchstöbere Monate und Jahre, sieh dir an, wie viele Benachrichtigungen an einem vergangenen Tag ankamen, gewartet haben und zugestellt wurden (nur Anzahlen), und erstelle einen Plan für ein zukünftiges Datum. Pläne für ein bestimmtes Datum werden mit ihrem Datum aufgelistet. Wähle beim Bearbeiten eines Plans Wochentage oder das Wochenende mit einem Fingertipp aus. Tippe auf einen Tag im Kalender, um seine Modi und Zustellzeiten zu sehen und sie ein- oder auszuschalten.",
             "new": "Neu"
           },
           {
@@ -331,6 +348,11 @@
           {
             "t": "Fokus-Sitzung",
             "p": "Tippe im Bildschirm „Heute“ auf „25 Min. Fokus“. Wenn die Zeit abgelaufen ist, kehrst du zu deinem vorherigen Modus zurück und siehst eine kurze „Gut gemacht“-Zusammenfassung (nur Anzahlen).",
+            "new": "Neu"
+          },
+          {
+            "t": "Spoiler-Modus",
+            "p": "Während du ein Spiel schaust, warten die von dir ausgewählten Sport-, Nachrichten- und Social-Apps, bis es vorbei ist, und dann kommt alles zusammen an. Füge optional Teamnamen oder Spoiler-Wörter hinzu; bei aktiviertem Inhaltszugriff werden sie nur auf deinem Smartphone abgeglichen.",
             "new": "Neu"
           }
         ]
@@ -389,6 +411,11 @@
             "t": "Modus per Wi-Fi",
             "p": "Normal, wenn du nach Hause kommst, Fokus, wenn du bei der Arbeit ankommst. Du richtest es mit der Routinen-App deines Telefons ein (bei Samsung „Modi und Routinen“); ha!shh fragt nicht nach der Standortberechtigung. Einstellungen → Modus per Wi-Fi zeigt die Schritte. Startbildschirm-Verknüpfungen und Routinen wechseln den Modus, ohne die App zu öffnen; es erscheint nur eine kurze Nachricht.",
             "new": "Neu"
+          },
+          {
+            "t": "Filter für Benachrichtigungstypen",
+            "p": "Behandle die Benachrichtigungstypen einer App unterschiedlich: zum Beispiel Instagram-Nachrichten sofort, Likes und Kommentare erst zur Zustellzeit. Die Typen werden anhand der Angaben der App gelernt, ganz ohne Inhaltsanalyse. Fertige Kurzbefehle wie „Nur Nachrichten“ richten das mit einem Tippen ein.",
+            "new": "Neu"
           }
         ]
       },
@@ -397,7 +424,7 @@
         "items": [
           {
             "t": "Benachrichtigungsarchiv",
-            "p": "Speichere gewünschte Benachrichtigungen in Ordnern wie Gutscheine, Rechnungen und Ausgaben oder deinem eigenen Ordner. Die App schlägt den Betrag vor und du bestätigst ihn; eine Monatssumme wird angezeigt. Füge ein Fälligkeitsdatum hinzu und du erhältst an diesem Morgen eine Erinnerung. Du kannst eine Benachrichtigung auch direkt aus dem Verlauf archivieren, wenn ihr Inhalt dort gespeichert wurde. Nichts landet von selbst im Archiv. Ein Eintrag mit Fälligkeitsdatum kann zum Kalender deines Telefons hinzugefügt werden (keine Kalenderberechtigung erforderlich).",
+            "p": "Speichere beliebige Benachrichtigungen in Ordnern wie Gutscheine, Rechnungen und Ausgaben oder in deinem eigenen Ordner. Die App schlägt den Betrag vor und du bestätigst ihn; eine monatliche Gesamtsumme wird angezeigt. Gib ein Fälligkeitsdatum an und du erhältst an diesem Morgen eine Erinnerung, und du kannst sie in den Kalender deines Smartphones eintragen (keine Kalenderberechtigung nötig). Du kannst eine Benachrichtigung auch direkt aus dem Verlauf archivieren, wenn ihr Inhalt dort gespeichert wurde. Nichts gelangt von selbst ins Archiv, es sei denn, du richtest Archivgruppen ein.",
             "new": "Neu"
           },
           {
@@ -411,12 +438,27 @@
           },
           {
             "t": "Designs und App-Symbol",
-            "p": "Wähle Papier (warmes Creme, die Standardeinstellung), Hell (Weiß), Dunkel oder System, das im hellen Modus Papier und im dunklen Modus Dunkel verwendet. Wenn du das Design änderst, fragt die App, ob auch das Startbildschirmsymbol angepasst werden soll. Ab Android 13 übernehmen themenbezogene Symbole die Farbe deines Hintergrundbilds.",
+            "p": "Wähle Papier (warmes Creme, die Standardeinstellung), Hell (Weiß), Dunkel oder System, das im hellen Modus Papier und im dunklen Modus Dunkel verwendet. Wenn du das Design änderst, fragt die App, ob auch das Startbildschirmsymbol angepasst werden soll. Ab Android 13 übernehmen themenbezogene Symbole die Farbe deines Hintergrundbilds. Neue Nacht- und Tag-Designs kommen bald.",
             "new": "Neu"
           },
           {
             "t": "Feedback senden",
             "p": "Aus den Einstellungen heraus öffnet sich deine E-Mail-App mit einer vorbereiteten Nachricht. Das Anhängen von Geräteinformationen ist optional.",
+            "new": "Neu"
+          },
+          {
+            "t": "Archivgruppen",
+            "p": "Gruppiere dein Archiv nach App, Person oder einem selbst gewählten Wort. Jede Gruppe zeigt einen Zähler und ihre neuesten Benachrichtigungen; Benachrichtigungen, die du als gelesen markierst und die zu einer Gruppe passen, landen darin.",
+            "new": "Neu"
+          },
+          {
+            "t": "Ausgabensumme und Gutschein-Geldbörse",
+            "p": "In einem Archivordner deiner Wahl werden Ausgaben aus Bank-Benachrichtigungen zusammengerechnet (Rückerstattungen und Stornierungen werden abgezogen), und Gutscheincodes sammeln sich mit ihrem Ablaufdatum in einer Liste. Kopiere einen Code mit nur einem Tippen. Verschlüsselt auf deinem Smartphone aufbewahrt.",
+            "new": "Neu"
+          },
+          {
+            "t": "Nimm dein Archiv mit",
+            "p": "Speichere dein Archiv als passwortgeschützte oder unverschlüsselte Datei auf Google Drive, Dropbox oder deinem Smartphone und stelle es auf einem neuen Smartphone mit nur einem Tippen wieder her. Die App geht niemals online; die Dateiauswahl deines Smartphones übernimmt das Speichern.",
             "new": "Neu"
           }
         ]
@@ -468,7 +510,7 @@
     "title": "Datenschutzerklärung · {brand}",
     "desc": "Wie die Benachrichtigungs-App mit Daten umgeht: keine Internetberechtigung, alles bleibt verschlüsselt auf deinem Smartphone, Benachrichtigungsinhalte nur mit deiner Erlaubnis.",
     "h1": "Datenschutzerklärung",
-    "updated": "Zuletzt aktualisiert: 11. Oktober 2026",
+    "updated": "Zuletzt aktualisiert: 13. Oktober 2026",
     "intro": "Kurz gesagt: Die App hat keine Internetberechtigung und sendet nichts irgendwohin. Alles, was gespeichert wird, bleibt verschlüsselt auf deinem Smartphone. Benachrichtigungsinhalte werden nur gelesen, wenn du das einschaltest, und das Archiv speichert nur Benachrichtigungen, die du selbst auswählst.",
     "sections": [
       {
@@ -477,15 +519,15 @@
       },
       {
         "h": "Zugriff auf Benachrichtigungen (erforderlich)",
-        "body": "<p>Die App benötigt Zugriff auf Benachrichtigungen, den du in den Android-Einstellungen erteilst. Um zu entscheiden, was mit einer Benachrichtigung geschieht, nutzt sie die absendende App, die Benachrichtigungsart (z. B. Anruf, Wecker oder Nachrichtenkategorie) und die Uhrzeit. Titel und Nachrichtentexte werden für diese Entscheidung nicht verwendet.</p>"
+        "body": "<p>Die App benötigt Zugriff auf Benachrichtigungen, den du in den Android-Einstellungen erteilst. Um zu entscheiden, was mit einer Benachrichtigung geschieht, nutzt sie die App, die sie gesendet hat, den Benachrichtigungstyp (zum Beispiel Anruf, Wecker oder Nachrichtenkategorie) und die Uhrzeit. Titel und Nachrichtentext werden für diese Entscheidung nicht verwendet, mit einer Ausnahme: Wenn du den Inhaltszugriff aktivierst und Spoiler-Wörter oder Archiv-Wortgruppen hinzufügst, werden Titel und Text auf dem Smartphone mit deinen Wörtern abgeglichen. Nichts wird irgendwohin gesendet.</p>"
       },
       {
         "h": "Benachrichtigungsinhalte (optional)",
-        "body": "<ul><li>Wenn du <b>Benachrichtigungsinhalte anzeigen</b> in den Einstellungen aktivierst, wird der Inhalt wartender Benachrichtigungen erst in dem Moment gelesen, in dem er dir angezeigt wird.</li><li>Wenn du zusätzlich aktivierst, dass Inhalte im Verlauf gespeichert werden, werden diese für einen oder sieben Tage – je nach deiner Wahl – verschlüsselt auf dem Telefon gespeichert. Nach Ablauf dieses Zeitraums oder beim Deaktivieren des Benachrichtigungszugriffs werden sie gelöscht.</li></ul>"
+        "body": "<ul><li>Wenn du in den Einstellungen <b>Benachrichtigungsinhalt anzeigen</b> aktivierst, wird der Inhalt wartender Benachrichtigungen erst in dem Moment gelesen, in dem er dir angezeigt wird.</li><li>Wenn du zusätzlich aktivierst, dass Inhalte im Verlauf behalten werden, wird dieser Inhalt nach deiner Wahl für einen oder sieben Tage verschlüsselt auf dem Smartphone gespeichert. Er wird gelöscht, wenn der Zeitraum endet oder wenn der Benachrichtigungszugriff deaktiviert wird.</li><li>Bei aktiviertem Inhaltszugriff speichert der Filter für Benachrichtigungstypen einen Beispiel-Titel für jeden Benachrichtigungstyp einer App verschlüsselt auf dem Smartphone, damit du die Typen wiedererkennen kannst.</li></ul>"
       },
       {
         "h": "Benachrichtigungsarchiv",
-        "body": "<ul><li>Es werden nur die Benachrichtigungen gespeichert, die du selbst archivierst: App-Name, Titel, Text und Datum sowie der Ordner, Betrag und das Fälligkeitsdatum, die du angibst.</li><li>Nichts gelangt von allein ins Archiv. Archivierte Einträge bleiben verschlüsselt auf dem Smartphone, bis du sie löschst.</li><li>Der Betragsvorschlag wird direkt auf dem Smartphone berechnet. Erinnerungen an Fälligkeitsdaten nutzen den Wecker des Telefons.</li><li>Das Hinzufügen eines Archiveintrags zu deinem Kalender öffnet deine eigene Kalender-App mit einem vorausgefüllten Termin: der Benachrichtigungstitel (oder der App-Name, falls kein Titel vorhanden ist) als Terminname und das Fälligkeitsdatum als ganztägiger Termin. Du siehst ihn dort, kannst ihn ändern und entscheiden, ob du ihn speichern möchtest. Die App benötigt hierfür keine Kalenderberechtigung. Wenn dein Kalender mit einem Konto synchronisiert wird (zum Beispiel Google), wird der gespeicherte Termin an dieses Konto übertragen; das wird von deiner Kalender-App erledigt, und ha!shh sendet nichts.</li></ul>"
+        "body": "<ul><li>Das Archiv enthält die Benachrichtigungen, die du archivieren möchtest, und – falls du Archivgruppen einrichtest – die Benachrichtigungen, die du als gelesen markierst und die zu einer deiner Gruppen passen: den App-Namen, Titel, Text und das Datum sowie den Ordner, Betrag und das Fälligkeitsdatum, die du hinzufügst. Nichts anderes gelangt von selbst ins Archiv.</li><li>Archivierte Einträge bleiben verschlüsselt auf dem Smartphone, bis du sie löschst. Ausgabensummen und Gutscheinlisten werden auf dem Smartphone aus deinen archivierten Benachrichtigungen berechnet. Das Kopieren eines Gutscheincodes legt ihn in die Zwischenablage deines Smartphones.</li><li>Der vorgeschlagene Betrag wird auf dem Smartphone berechnet. Eine Fälligkeitserinnerung nutzt den Wecker des Smartphones.</li><li>Das Hinzufügen eines Archiveintrags zu deinem Kalender öffnet deine eigene Kalender-App mit einem vorausgefüllten Termin: der Benachrichtigungstitel (oder der App-Name, falls kein Titel vorhanden ist) als Terminname und das Fälligkeitsdatum als ganztägiger Termin. Du siehst ihn dort, kannst ihn ändern und entscheiden, ob du ihn speichern möchtest. Die App benötigt hierfür keine Kalenderberechtigung. Wenn dein Kalender mit einem Konto synchronisiert wird (zum Beispiel Google), geht der gespeicherte Termin an dieses Konto; das wird von deiner Kalender-App erledigt, und ha!shh sendet nichts.</li><li>Du kannst das Archiv über die Dateiauswahl deines Smartphones an einen Ort deiner Wahl exportieren (zum Beispiel Google Drive, Dropbox oder einen Ordner auf deinem Smartphone): entweder als mit einem starken Passwort geschützte Datei oder als unverschlüsselte Datei, die jeder lesen kann, der die Datei hat. Wenn der Inhaltszugriff deaktiviert ist, bleiben Titel und Text in der Datei leer. Wohin die Datei gelangt und wer sie öffnen kann, liegt dann bei dir und dem von dir gewählten Dienst; ha!shh selbst sendet nichts.</li></ul>"
       },
       {
         "h": "Fingerabdruck-Sperre",
@@ -505,7 +547,7 @@
       },
       {
         "h": "Zahlungen",
-        "body": "<p>Wenn du ein Abonnement kaufst, werden die Zahlung und das Abonnement über Google Play abgewickelt, und Google verarbeitet die Kaufinformationen gemäß seiner eigenen Datenschutzerklärung. Die App erfährt lediglich über die Play Store App auf deinem Smartphone, ob du ein aktives Abonnement hast; sie nutzt dafür keine eigene Internetverbindung und sieht deine Zahlungsdaten nicht.</p>"
+        "body": "<p>Wenn du ein Abonnement kaufst, werden die Zahlung und das Abonnement von Google Play abgewickelt, und Google verarbeitet die Kaufinformationen nach seinen eigenen Datenschutzbestimmungen. Die App erfährt lediglich über die Play Store App auf deinem Smartphone, ob du ein aktives Abonnement hast; sie nutzt dafür keine eigene Internetverbindung und sieht deine Zahlungsdaten nicht. Promo-Codes werden im Play Store eingelöst; die App speichert den Code nicht.</p>"
       },
       {
         "h": "Feedback per E-Mail",
@@ -513,7 +555,7 @@
       },
       {
         "h": "Export und Sicherung",
-        "body": "<p>Du kannst ein Backup deiner Regeln und Modi als Datei speichern. Es enthält Modusnamen, ausgeblendete integrierte Modi und für jeden Modus die Apps, Gruppen und Kategorien, die sofort durchkommen. Du kannst auch deine Benachrichtigungseinträge exportieren (App, Uhrzeit und was getan wurde). Keine der beiden Dateien enthält Benachrichtigungsinhalte, und das Archiv ist nicht enthalten. Die Datei geht nur an die von dir ausgewählte App oder den ausgewählten Ordner. Das Android-Cloud-Backup ist für diese App deaktiviert.</p>"
+        "body": "<p>Du kannst ein Backup deiner Regeln und Modi als Datei speichern. Es enthält Modusnamen, versteckte integrierte Modi und für jeden Modus die Apps, Gruppen und Kategorien, die sofort durchkommen. Du kannst auch deine Benachrichtigungsprotokolle exportieren (App, Uhrzeit und was getan wurde). Keine dieser Dateien enthält Benachrichtigungsinhalte. Das Archiv hat einen eigenen Export, wie oben beschrieben. Dateien gelangen nur in die von dir ausgewählte App oder den ausgewählten Ordner. Das Android-Cloud-Backup ist für diese App deaktiviert.</p>"
       },
       {
         "h": "Löschen deiner Daten",
@@ -536,8 +578,8 @@
         "a": "Sie befindet sich in Entwicklung. Die Veröffentlichung erfolgt auf Google Play, beginnend mit einem geschlossenen Test. Es gibt noch kein festes Datum; diese Seite wird aktualisiert."
       },
       {
-        "q": "Wird die App etwas kosten?",
-        "a": "Geplant ist ein kostenloser Offline-Kern. Falls es jemals eine Bezahloption geben sollte, ist ein fairer Einmalkauf statt eines Abonnements vorgesehen. Es wird keine Werbung und keinen Datenverkauf geben. Dieser Plan ist noch nicht endgültig."
+        "q": "Wie viel wird es kosten?",
+        "a": "Nach einer 3-tägigen kostenlosen Testphase ist ha!shh ein Jahresabonnement: US $9.99 oder ₺179.99 im Jahr (in anderen Ländern zeigt Google Play den lokalen Preis an). Ohne Abonnement funktioniert die App weiterhin in einem passiven Modus: Sie hält nichts zurück, zählt und gruppiert aber weiterhin deine Benachrichtigungen und zeigt, wie oft du heute unterbrochen wurdest. Zum Start erhalten die ersten 1.000 Nutzer 6 Monate kostenlos mit einem Promo-Code. Keine Werbung und kein Datenverkauf."
       },
       {
         "q": "Liest die App meine Benachrichtigungen?",
@@ -578,5 +620,46 @@
     ],
     "contact_h": "Hast du noch Fragen?",
     "contact_p": "Schreib uns per E-Mail."
-  }
+  },
+  "updates": {
+    "title": "Updates · {brand}",
+    "desc": "Was es Neues in ha!shh gibt: neue Funktionen und Fehlerbehebungen in der Entwicklungsversion vor dem Start auf Google Play.",
+    "h1": "Updates",
+    "lead": "Was es Neues in ha!shh gibt. Die App ist noch in der Entwicklung: Alles hier ist in der Entwicklungsversion enthalten und kommt zum Start zu Google Play."
+  },
+  "news": [
+    {
+      "date": "2026-10-13",
+      "h": "Spoiler-Modus, Archiv-Geldbörse und Backup in deine eigene Cloud",
+      "items": [
+        "<b>Spoiler-Modus:</b> Während du ein Spiel schaust, warten Benachrichtigungen der von dir ausgewählten Sport-, Nachrichten- und Social-Apps, bis es vorbei ist, und kommen dann alle zusammen an. Du kannst Teamnamen oder Spoiler-Wörter hinzufügen; bei aktiviertem Inhaltszugriff werden sie nur auf deinem Smartphone abgeglichen.",
+        "<b>Ausgabensumme und Gutschein-Geldbörse:</b> In einem Archivordner deiner Wahl werden Ausgaben aus Bank-Benachrichtigungen zusammengerechnet (Rückerstattungen und Stornierungen werden abgezogen), und Gutscheincodes sammeln sich mit ihrem Ablaufdatum in einer Liste – mit einem Fingertipp kopierbereit.",
+        "<b>Archivgruppen:</b> Gruppiere dein Archiv nach App, Person oder einem selbst gewählten Wort. Benachrichtigungen, die du als gelesen markierst und die zu einer Gruppe passen, landen darin.",
+        "<b>Nimm dein Archiv mit:</b> Speichere es als passwortgeschützte oder unverschlüsselte Datei auf Google Drive, Dropbox oder deinem Smartphone und stelle es auf einem neuen Smartphone wieder her. Die App selbst geht weiterhin nie online; die Dateiauswahl deines Smartphones übernimmt das Speichern.",
+        "<b>Filter für Benachrichtigungstypen:</b> So kommen zum Beispiel Instagram-Nachrichten sofort an, während Likes und Kommentare bis zur Zustellzeit warten. Er nutzt die von der App gemeldeten Benachrichtigungstypen, nicht den Nachrichtentext.",
+        "<b>Details zu Kalendertagen:</b> Tippe auf einen Tag, um seine Modi und Zustellzeiten zu sehen und sie ein- oder auszuschalten.",
+        "<b>Flüssigerer Alltag:</b> Das Wegwischen von Karten ruckelt nicht mehr, das Antippen einer Benachrichtigung öffnet sie in ihrer App, die Einrichtung wird dort fortgesetzt, wo du aufgehört hast, und doppelte „Geister“-Benachrichtigungen sind verschwunden.",
+        "<b>Einführungsangebot:</b> Zum Start erhalten die ersten 1.000 Nutzer 6 Monate kostenlos mit einem Code, den du in Google Play einlöst.",
+        "<b>Bald verfügbar:</b> Neue Nacht- und Tag-Designs mit einem 3D-Zifferblatt."
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "h": "Neues Zuhause: ha-shh.com, in 10 Sprachen",
+      "items": [
+        "Die Website ist auf ihre eigene Adresse umgezogen und jetzt auf Englisch, Türkisch, Arabisch, Deutsch, Spanisch, Französisch, Hindi, Indonesisch, Portugiesisch und Russisch verfügbar."
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "h": "Archiv, Fingerabdruck-Sperre und ein ruhigerer Start",
+      "items": [
+        "<b>Benachrichtigungsarchiv</b> mit Ordnern, Beträgen und Fälligkeitserinnerungen.",
+        "<b>Fingerabdruck-Sperre</b> für die gesamte App oder nur für das Archiv und Benachrichtigungsinhalte.",
+        "<b>Wer durchkommt, wer wartet:</b> Sieh es für jeden Modus, plus ein wöchentlicher Aufräumvorschlag.",
+        "<b>Ruhige Zusammenfassung, Focus-Sitzung, einfache Ansicht und smarte Einrichtung.</b>",
+        "<b>Papier-Design</b> und neue App-Symbole."
+      ]
+    }
+  ]
 }

@@ -2,7 +2,21 @@
   "meta": {
     "name": "English",
     "dir": "ltr",
-    "locale": "en_US"
+    "locale": "en_US",
+    "months": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
   },
   "common": {
     "brand": "ha!shh",
@@ -37,7 +51,8 @@
     "footer_label": "Footer menu",
     "footer_privacy": "Privacy policy",
     "footer_faq": "FAQ and support",
-    "mt_note": ""
+    "mt_note": "",
+    "nav_updates": "Updates"
   },
   "home": {
     "title": "{brand} · Notifications that fit your day",
@@ -166,7 +181,7 @@
       },
       {
         "b": "3",
-        "p": "Things used to decide: the app, the notification type and the time. Titles and message text are not read for this decision."
+        "p": "Things used to decide: the app, the notification type and the time. Titles and text are only compared with your own words (spoiler or archive words), only if you turn on content access, and only on the phone."
       },
       {
         "b": "Opt-in",
@@ -177,7 +192,9 @@
     "priv_more": "Read the full privacy policy →",
     "status_eyebrow": "Status",
     "status_h": "In development, coming soon on Google Play.",
-    "status_p": "The app runs on Android 8 and later. Its name is not final yet; for now we use the working title “ha!shh”. This page will be updated when the app is on Google Play."
+    "status_p": "The app runs on Android 8 and later. Its name is not final yet; for now we use the working title “ha!shh”. This page will be updated when the app is on Google Play.",
+    "news_h": "Latest updates",
+    "news_all": "All updates →"
   },
   "sim": {
     "mode": {
@@ -313,7 +330,7 @@
           },
           {
             "t": "Weekly plan and calendar",
-            "p": "Modes switch by day and time. Browse months and years, see how many notifications arrived, waited and were delivered on a past day (counts only), and set a plan for a future date. Date-specific plans are listed with their dates. While editing a plan, pick weekdays or the weekend with one tap.",
+            "p": "Modes switch by day and time. Browse months and years, see how many notifications arrived, waited and were delivered on a past day (counts only), and set a plan for a future date. Date-specific plans are listed with their dates. While editing a plan, pick weekdays or the weekend with one tap. Tap a day in the calendar to see its modes and delivery times and switch them on or off.",
             "new": "New"
           },
           {
@@ -331,6 +348,11 @@
           {
             "t": "Focus session",
             "p": "Tap “Focus for 25 min” on the Today screen. When time is up, you go back to your previous mode and see a short “well done” summary (counts only).",
+            "new": "New"
+          },
+          {
+            "t": "Spoiler mode",
+            "p": "While you watch a match, the sports, news and social apps you choose wait until it ends, then everything arrives together. Optionally add team names or spoiler words; with content access on, they are matched only on your phone.",
             "new": "New"
           }
         ]
@@ -389,6 +411,11 @@
             "t": "Mode by Wi-Fi",
             "p": "Normal when you get home, Focus when you arrive at work. You set it up with your phone's routines app (on Samsung, “Modes and Routines”); ha!shh does not ask for location permission. Settings → Mode by Wi-Fi shows the steps. Home screen shortcuts and routines switch the mode without opening the app; only a short message appears.",
             "new": "New"
+          },
+          {
+            "t": "Notification type filter",
+            "p": "Treat the notification types of one app differently: for example, Instagram messages right away, likes and comments at delivery time. The types are learned from what the app reports, with no content analysis. Ready shortcuts such as “Messages only” set it up with one tap.",
+            "new": "New"
           }
         ]
       },
@@ -397,7 +424,7 @@
         "items": [
           {
             "t": "Notification archive",
-            "p": "Save the notifications you want into folders such as Coupons, Bills and Expenses, or your own folder. The app suggests the amount and you confirm it; a monthly total is shown. Add a due date and you get a reminder that morning. You can also archive a notification straight from History if its content was kept there. Nothing enters the archive on its own. An item with a due date can be added to your phone's calendar (no calendar permission needed).",
+            "p": "Save the notifications you want into folders such as Coupons, Bills and Expenses, or your own folder. The app suggests the amount and you confirm it; a monthly total is shown. Add a due date and you get a reminder that morning, and you can add it to your phone's calendar (no calendar permission needed). You can also archive a notification straight from History if its content was kept there. Nothing enters the archive on its own unless you set up archive groups.",
             "new": "New"
           },
           {
@@ -411,12 +438,27 @@
           },
           {
             "t": "Themes and app icon",
-            "p": "Choose Paper (warm cream, the default), Light (white), Dark or System, which uses Paper in light mode and Dark in dark mode. When you change the theme, the app asks whether to match the home screen icon too. On Android 13 and later, themed icons take your wallpaper color.",
+            "p": "Choose Paper (warm cream, the default), Light (white), Dark or System, which uses Paper in light mode and Dark in dark mode. When you change the theme, the app asks whether to match the home screen icon too. On Android 13 and later, themed icons take your wallpaper color. New Night and Day themes are coming soon.",
             "new": "New"
           },
           {
             "t": "Send feedback",
             "p": "From Settings, your email app opens with a ready message. Adding device information is optional.",
+            "new": "New"
+          },
+          {
+            "t": "Archive groups",
+            "p": "Group your archive by app, person or a word you write. Each group shows a counter and its latest notifications; notifications you mark as read that match a group go into it.",
+            "new": "New"
+          },
+          {
+            "t": "Spending total and coupon wallet",
+            "p": "In an archive folder you choose, spending from bank notifications adds up (refunds and cancellations are subtracted), and coupon codes gather in one list with their expiry dates. Copy a code with one tap. Kept encrypted on your phone.",
+            "new": "New"
+          },
+          {
+            "t": "Take your archive with you",
+            "p": "Save your archive as a password-protected or a plain file to Google Drive, Dropbox or your phone, and restore it on a new phone with one tap. The app never goes online; your phone's own file picker does the saving.",
             "new": "New"
           }
         ]
@@ -468,7 +510,7 @@
     "title": "Privacy policy · {brand}",
     "desc": "How the notification app handles data: no internet permission, everything stays encrypted on your phone, notification content only with your permission.",
     "h1": "Privacy policy",
-    "updated": "Last updated: 11 October 2026",
+    "updated": "Last updated: 13 October 2026",
     "intro": "In short: the app has no internet permission and sends nothing anywhere. Everything it stores stays encrypted on your phone. Notification content is not read unless you turn that on, and the archive holds only the notifications you choose to save.",
     "sections": [
       {
@@ -477,15 +519,15 @@
       },
       {
         "h": "Notification access (required)",
-        "body": "<p>The app needs notification access, which you grant in Android settings. To decide what happens to a notification, it uses the app that sent it, the notification type (for example call, alarm or message category) and the time. Titles and message text are not used for this decision.</p>"
+        "body": "<p>The app needs notification access, which you grant in Android settings. To decide what happens to a notification, it uses the app that sent it, the notification type (for example call, alarm or message category) and the time. Titles and message text are not used for this decision, with one exception: if you turn on content access and add spoiler words or archive word groups, the title and text are compared with your words on the phone. Nothing is sent anywhere.</p>"
       },
       {
         "h": "Notification content (optional)",
-        "body": "<ul><li>If you turn on <b>Show notification content</b> in Settings, the content of waiting notifications is read only at the moment it is shown to you.</li><li>If you also turn on keeping content in History, that content is stored encrypted on the phone for one or seven days, as you choose. It is deleted when the period ends or when notification access is turned off.</li></ul>"
+        "body": "<ul><li>If you turn on <b>Show notification content</b> in Settings, the content of waiting notifications is read only at the moment it is shown to you.</li><li>If you also turn on keeping content in History, that content is stored encrypted on the phone for one or seven days, as you choose. It is deleted when the period ends or when notification access is turned off.</li><li>With content access on, the notification type filter keeps one example title for each notification type of an app, encrypted on the phone, so you can recognise the types.</li></ul>"
       },
       {
         "h": "Notification archive",
-        "body": "<ul><li>Only the notifications you choose to archive are saved: the app name, title, text and date, plus the folder, amount and due date you add.</li><li>Nothing enters the archive on its own. Archived items stay encrypted on the phone until you delete them.</li><li>The suggested amount is calculated on the phone. A due-date reminder uses the phone's own alarm.</li><li>Adding an archive item to your calendar opens your own calendar app with an event filled in: the notification title (or the app name if there is no title) as the event name and the due date as an all-day date. You see it there, can change it and choose whether to save it. The app does not need calendar permission for this. If your calendar syncs with an account (for example Google), the saved event goes to that account; that is done by your calendar app, and ha!shh sends nothing.</li></ul>"
+        "body": "<ul><li>The archive holds the notifications you choose to archive, and, if you set up archive groups, the notifications you mark as read that match one of your groups: the app name, title, text and date, plus the folder, amount and due date you add. Nothing else enters the archive on its own.</li><li>Archived items stay encrypted on the phone until you delete them. Spending totals and coupon lists are calculated on the phone from your archived notifications. Copying a coupon code puts it on your phone's clipboard.</li><li>The suggested amount is calculated on the phone. A due-date reminder uses the phone's own alarm.</li><li>Adding an archive item to your calendar opens your own calendar app with an event filled in: the notification title (or the app name if there is no title) as the event name and the due date as an all-day date. You see it there, can change it and choose whether to save it. The app does not need calendar permission for this. If your calendar syncs with an account (for example Google), the saved event goes to that account; that is done by your calendar app, and ha!shh sends nothing.</li><li>You can export the archive to a place you choose (for example Google Drive, Dropbox or a folder on your phone) using your phone's own file picker: either as a file protected with a strong password, or as a plain file that anyone who has the file can read. If content access is off, titles and text are left empty in the file. Where the file goes and who can open it is then up to you and the service you chose; ha!shh itself sends nothing.</li></ul>"
       },
       {
         "h": "Fingerprint lock",
@@ -505,7 +547,7 @@
       },
       {
         "h": "Payments",
-        "body": "<p>If you buy a subscription, the payment and the subscription are handled by Google Play, and Google processes the purchase information under its own privacy policy. The app only learns from the Play Store app on your phone whether you have an active subscription; it does not use its own internet connection for this and does not see your payment details.</p>"
+        "body": "<p>If you buy a subscription, the payment and the subscription are handled by Google Play, and Google processes the purchase information under its own privacy policy. The app only learns from the Play Store app on your phone whether you have an active subscription; it does not use its own internet connection for this and does not see your payment details. Promo codes are redeemed in the Play Store; the app does not store the code.</p>"
       },
       {
         "h": "Feedback by email",
@@ -513,7 +555,7 @@
       },
       {
         "h": "Export and backup",
-        "body": "<p>You can save a backup of your rules and modes as a file. It includes mode names, hidden built-in modes and, for each mode, the apps, groups and categories that come through right away. You can also export your notification records (app, time and what was done). Neither file contains notification content, and the archive is not included. The file goes only to the app or folder you select. Android cloud backup is turned off for this app.</p>"
+        "body": "<p>You can save a backup of your rules and modes as a file. It includes mode names, hidden built-in modes and, for each mode, the apps, groups and categories that come through right away. You can also export your notification records (app, time and what was done). Neither of these files contains notification content. The archive has its own export, described above. Files go only to the app or folder you select. Android cloud backup is turned off for this app.</p>"
       },
       {
         "h": "Deleting your data",
@@ -536,8 +578,8 @@
         "a": "It is in development. It will be released on Google Play, starting with a closed test. There is no date yet; this site will be updated."
       },
       {
-        "q": "Will it cost money?",
-        "a": "The plan is a free offline core. If there is ever a paid option, it is meant to be a fair one-time unlock rather than a forced subscription. There will be no ads and no data sales. This plan is not final."
+        "q": "How much will it cost?",
+        "a": "After a 3-day free trial, ha!shh is a yearly subscription: US $9.99 or ₺179.99 a year (in other countries, Google Play shows the local price). Without a subscription, the app keeps working in a passive mode: it holds nothing, but still counts and groups your notifications and shows how often you were interrupted today. At launch, the first 1,000 users get 6 months free with a promo code. No ads and no data sales."
       },
       {
         "q": "Does the app read my notifications?",
@@ -578,5 +620,46 @@
     ],
     "contact_h": "Still have a question?",
     "contact_p": "Write to us by email."
-  }
+  },
+  "updates": {
+    "title": "Updates · {brand}",
+    "desc": "What's new in ha!shh: new features and fixes in the development build, before the launch on Google Play.",
+    "h1": "Updates",
+    "lead": "What's new in ha!shh. The app is still in development: everything here is in the development build and comes to Google Play at launch."
+  },
+  "news": [
+    {
+      "date": "2026-10-13",
+      "h": "Spoiler mode, archive wallet and backup to your own cloud",
+      "items": [
+        "<b>Spoiler mode:</b> while you watch a match, notifications from the sports, news and social apps you choose wait until it ends, then arrive together. You can add team names or spoiler words; with content access on, they are matched only on your phone.",
+        "<b>Spending total and coupon wallet:</b> in an archive folder you choose, spending from bank notifications adds up (refunds and cancellations are subtracted), and coupon codes gather in one list with their expiry dates, ready to copy with one tap.",
+        "<b>Archive groups:</b> group your archive by app, person or a word you write. Notifications you mark as read that match a group go into it.",
+        "<b>Take your archive with you:</b> save it as a password-protected or a plain file to Google Drive, Dropbox or your phone, and restore it on a new phone. The app itself still never goes online; your phone's own file picker does the saving.",
+        "<b>Notification type filter:</b> for example, Instagram messages arrive right away while likes and comments wait for delivery time. It uses the notification types the app reports, not the message text.",
+        "<b>Calendar day details:</b> tap a day to see its modes and delivery times and switch them on or off.",
+        "<b>Smoother everyday use:</b> swiping cards away no longer stutters, tapping a notification opens it in its app, setup continues where you left off, and duplicate “ghost” notifications are gone.",
+        "<b>Launch offer:</b> at launch, the first 1,000 users will get 6 months free with a code you redeem in Google Play.",
+        "<b>Coming soon:</b> new Night and Day themes with a 3D dial."
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "h": "New home: ha-shh.com, in 10 languages",
+      "items": [
+        "The website moved to its own address and is now available in English, Turkish, Arabic, German, Spanish, French, Hindi, Indonesian, Portuguese and Russian."
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "h": "Archive, fingerprint lock and a calmer start",
+      "items": [
+        "<b>Notification archive</b> with folders, amounts and due-date reminders.",
+        "<b>Fingerprint lock</b> for the whole app, or only for the archive and notification contents.",
+        "<b>Who comes through, who waits:</b> see it for every mode, plus a weekly clean-up suggestion.",
+        "<b>Quiet summary, focus session, simple view and smart setup.</b>",
+        "<b>Paper theme</b> and new app icons."
+      ]
+    }
+  ]
 }

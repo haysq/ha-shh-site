@@ -2,7 +2,21 @@
   "meta": {
     "name": "Português",
     "dir": "ltr",
-    "locale": "pt_BR"
+    "locale": "pt_BR",
+    "months": [
+      "Janeiro",
+      "Fevereiro",
+      "Março",
+      "Abril",
+      "Maio",
+      "Junho",
+      "Julho",
+      "Agosto",
+      "Setembro",
+      "Outubro",
+      "Novembro",
+      "Dezembro"
+    ]
   },
   "common": {
     "brand": "ha!shh",
@@ -37,7 +51,8 @@
     "footer_label": "Menu do rodapé",
     "footer_privacy": "Política de privacidade",
     "footer_faq": "Perguntas frequentes e suporte",
-    "mt_note": "Esta página foi traduzida com o auxílio de IA. Em caso de dúvidas, a versão em inglês prevalece."
+    "mt_note": "Esta página foi traduzida com o auxílio de IA. Em caso de dúvidas, a versão em inglês prevalece.",
+    "nav_updates": "Atualizações"
   },
   "home": {
     "title": "{brand} · Notificações que se adaptam ao seu dia",
@@ -166,7 +181,7 @@
       },
       {
         "b": "3",
-        "p": "Critérios usados para decidir: o app, o tipo de notificação e o horário. Título e texto da mensagem não são lidos para tomar essa decisão."
+        "p": "Critérios usados para a decisão: o app, o tipo de notificação e o horário. Títulos e textos só são comparados com as suas próprias palavras (palavras de spoiler ou de arquivo), apenas se você ativar o acesso ao conteúdo e somente no celular."
       },
       {
         "b": "Opcional",
@@ -177,7 +192,9 @@
     "priv_more": "Leia a política de privacidade completa →",
     "status_eyebrow": "Status",
     "status_h": "Em desenvolvimento, em breve no Google Play.",
-    "status_p": "O app funciona no Android 8 ou superior. O nome ainda não é definitivo; por enquanto usamos o nome de trabalho “ha!shh”. Esta página será atualizada quando o app estiver no Google Play."
+    "status_p": "O app funciona no Android 8 ou superior. O nome ainda não é definitivo; por enquanto usamos o nome de trabalho “ha!shh”. Esta página será atualizada quando o app estiver no Google Play.",
+    "news_h": "Últimas atualizações",
+    "news_all": "Todas as atualizações →"
   },
   "sim": {
     "mode": {
@@ -313,7 +330,7 @@
           },
           {
             "t": "Plano semanal e calendário",
-            "p": "Os modos mudam de acordo com o dia e o horário. Navegue por meses e anos, veja quantas notificações chegaram, aguardaram e foram entregues em um dia passado (apenas contagens) e defina um plano para uma data futura. Os planos com datas específicas são listados com suas respectivas datas. Ao editar um plano, escolha dias úteis ou o fim de semana com um toque.",
+            "p": "Os modos mudam de acordo com o dia e o horário. Navegue por meses e anos, veja quantas notificações chegaram, aguardaram e foram entregues em um dia passado (apenas contagens) e defina um plano para uma data futura. Os planos com datas específicas são listados com suas respectivas datas. Ao editar um plano, escolha dias úteis ou o fim de semana com um toque. Toque em um dia no calendário para ver os modos e horários de entrega dele e ativá-los ou desativá-los.",
             "new": "Novo"
           },
           {
@@ -331,6 +348,11 @@
           {
             "t": "Sessão de foco",
             "p": "Toque em “Foco por 25 min” na tela Hoje. Quando o tempo acabar, você volta ao modo anterior e vê um breve resumo de “muito bem” (apenas contagens).",
+            "new": "Novo"
+          },
+          {
+            "t": "Modo spoiler",
+            "p": "Enquanto você assiste a uma partida, os apps de esportes, notícias e redes sociais que você escolher esperam até o jogo acabar e tudo chega junto. Se quiser, adicione nomes de times ou palavras de spoiler; com o acesso ao conteúdo ativado, a verificação acontece apenas no seu celular.",
             "new": "Novo"
           }
         ]
@@ -389,6 +411,11 @@
             "t": "Modo por Wi-Fi",
             "p": "Normal quando você chega em casa, Foco quando você chega ao trabalho. Você configura com o app de rotinas do seu celular (no Samsung, “Modos e Rotinas”); o ha!shh não pede permissão de localização. Configurações → Modo por Wi-Fi mostra o passo a passo. Atalhos da tela inicial e rotinas alternam o modo sem abrir o app; apenas uma mensagem curta aparece.",
             "new": "Novo"
+          },
+          {
+            "t": "Filtro por tipo de notificação",
+            "p": "Trate os tipos de notificação de um mesmo app de forma diferente: por exemplo, mensagens do Instagram chegam na hora, enquanto curtidas e comentários chegam no horário de entrega. Os tipos são identificados a partir do que o app informa, sem analisar o conteúdo. Atalhos prontos como “Apenas mensagens” configuram tudo com um toque.",
+            "new": "Novo"
           }
         ]
       },
@@ -397,7 +424,7 @@
         "items": [
           {
             "t": "Arquivo de notificações",
-            "p": "Salve as notificações que quiser em pastas como Cupons, Contas e despesas ou na sua própria pasta. O app sugere o valor e você confirma; um total mensal é exibido. Adicione uma data de vencimento e você receberá um lembrete naquela manhã. Você também pode arquivar uma notificação direto do Histórico se o conteúdo dela foi mantido lá. Nada entra no arquivo por conta própria. Um item com data de vencimento pode ser adicionado ao calendário do seu celular (sem precisar de permissão de calendário).",
+            "p": "Salve as notificações que quiser em pastas como Cupons, Contas e Despesas, ou na sua própria pasta. O app sugere o valor e você confirma; um total mensal é exibido. Adicione uma data de vencimento para receber um lembrete naquela manhã, e você pode adicioná-la ao calendário do seu celular (sem precisar de permissão de calendário). Você também pode arquivar uma notificação direto do Histórico se o conteúdo tiver sido mantido lá. Nada entra no arquivo sozinho, a menos que você configure grupos de arquivo.",
             "new": "Novo"
           },
           {
@@ -411,12 +438,27 @@
           },
           {
             "t": "Temas e ícone do app",
-            "p": "Escolha Papel (creme quente, o padrão), Claro (branco), Escuro ou Sistema, que usa Papel no modo claro e Escuro no modo escuro. Quando você altera o tema, o app pergunta se deseja aplicar a alteração ao ícone da tela inicial também. No Android 13 e versões posteriores, os ícones com tema adotam a cor do seu papel de parede.",
+            "p": "Escolha Papel (creme quente, o padrão), Claro (branco), Escuro ou Sistema, que usa Papel no modo claro e Escuro no modo escuro. Quando você altera o tema, o app pergunta se deseja aplicar a alteração ao ícone da tela inicial também. No Android 13 e versões posteriores, os ícones com tema adotam a cor do seu papel de parede. Novos temas Noite e Dia chegam em breve.",
             "new": "Novo"
           },
           {
             "t": "Enviar feedback",
             "p": "Nas Configurações, o seu app de e-mail abre com uma mensagem pronta. A inclusão de informações sobre o aparelho é opcional.",
+            "new": "Novo"
+          },
+          {
+            "t": "Grupos de arquivo",
+            "p": "Agrupe o seu arquivo por app, pessoa ou uma palavra que você escrever. Cada grupo mostra um contador e suas notificações mais recentes; as notificações que você marcar como lidas e que coincidirem com um grupo vão para ele.",
+            "new": "Novo"
+          },
+          {
+            "t": "Total de gastos e carteira de cupons",
+            "p": "Em uma pasta de arquivo escolhida por você, os gastos das notificações de bancos são somados (reembolsos e cancelamentos são subtraídos), e os códigos de cupom se reúnem em uma única lista com as datas de validade. Copie um código com um toque. Tudo mantido criptografado no seu celular.",
+            "new": "Novo"
+          },
+          {
+            "t": "Leve o seu arquivo com você",
+            "p": "Salve o seu arquivo como um arquivo protegido por senha ou sem senha no Google Drive, Dropbox ou no seu celular, e restaure em um celular novo com um toque. O app nunca se conecta à internet; o próprio seletor de arquivos do seu celular é quem faz o salvamento.",
             "new": "Novo"
           }
         ]
@@ -468,7 +510,7 @@
     "title": "Política de privacidade · {brand}",
     "desc": "Como o app de notificações lida com os dados: sem permissão de internet, tudo fica criptografado no celular, conteúdo de notificações somente com a sua autorização.",
     "h1": "Política de privacidade",
-    "updated": "Última atualização: 11 de outubro de 2026",
+    "updated": "Última atualização: 13 de outubro de 2026",
     "intro": "Em resumo: o app não tem permissão de internet e não envia nada para lugar nenhum. Tudo o que ele armazena fica criptografado no seu celular. O conteúdo das notificações não é lido a menos que você ative essa opção, e o arquivo guarda apenas as notificações que você escolher salvar.",
     "sections": [
       {
@@ -477,15 +519,15 @@
       },
       {
         "h": "Acesso às notificações (obrigatório)",
-        "body": "<p>O app precisa de acesso às notificações, que você concede nas configurações do Android. Para decidir o que fazer com uma notificação, ele usa o app de origem, o tipo de notificação (por exemplo, ligação, alarme ou categoria de mensagem) e o horário. Título e texto das mensagens não são usados nessa decisão.</p>"
+        "body": "<p>O app precisa de acesso às notificações, que você concede nas configurações do Android. Para decidir o que acontece com uma notificação, ele usa o app que a enviou, o tipo de notificação (por exemplo, chamada, alarme ou categoria de mensagem) e o horário. Títulos e textos de mensagens não são usados para essa decisão, com uma exceção: se você ativar o acesso ao conteúdo e adicionar palavras de spoiler ou grupos de palavras de arquivo, o título e o texto são comparados com as suas palavras no celular. Nada é enviado para lugar nenhum.</p>"
       },
       {
         "h": "Conteúdo das notificações (opcional)",
-        "body": "<ul><li>Se você ativar <b>Mostrar conteúdo das notificações</b> nas Configurações, o conteúdo das notificações em espera é lido somente no momento em que é exibido para você.</li><li>Se você também ativar a opção de manter o conteúdo no Histórico, esse conteúdo é armazenado criptografado no celular por um ou sete dias, conforme sua escolha. Ele é excluído quando o período termina ou quando o acesso às notificações é desativado.</li></ul>"
+        "body": "<ul><li>Se você ativar <b>Mostrar conteúdo da notificação</b> nas Configurações, o conteúdo das notificações em espera é lido apenas no momento em que é exibido para você.</li><li>Se você também ativar a opção de manter o conteúdo no Histórico, esse conteúdo é armazenado criptografado no celular por um ou sete dias, conforme a sua escolha. Ele é excluído quando o período termina ou quando o acesso às notificações é desativado.</li><li>Com o acesso ao conteúdo ativado, o filtro por tipo de notificação mantém um título de exemplo para cada tipo de notificação de um app, criptografado no celular, para que você possa reconhecer os tipos.</li></ul>"
       },
       {
         "h": "Arquivo de notificações",
-        "body": "<ul><li>Apenas as notificações que você escolhe arquivar são salvas: o nome do app, título, texto e data, além da pasta, valor e data de vencimento que você adicionar.</li><li>Nada entra no arquivo por conta própria. Os itens arquivados permanecem criptografados no celular até que você os exclua.</li><li>A sugestão de valor é calculada no próprio celular. O lembrete de vencimento usa o alarme do próprio aparelho.</li><li>Adicionar um item do arquivo ao seu calendário abre o seu próprio aplicativo de calendário com um evento preenchido: o título da notificação (ou o nome do aplicativo, se não houver título) como o nome do evento e a data de vencimento como uma data de dia inteiro. Você o vê lá, pode alterá-lo e escolher se deseja salvá-lo. O aplicativo não precisa de permissão de calendário para isso. Se o seu calendário sincroniza com uma conta (por exemplo, o Google), o evento salvo vai para essa conta; isso é feito pelo seu aplicativo de calendário, e o ha!shh não envia nada.</li></ul>"
+        "body": "<ul><li>O arquivo guarda as notificações que você escolher arquivar e, se você configurar grupos de arquivo, as notificações que você marcar como lidas e que coincidirem com um dos seus grupos: o nome do app, título, texto e data, além da pasta, valor e data de vencimento que você adicionar. Nada mais entra no arquivo sozinho.</li><li>Os itens arquivados permanecem criptografados no celular até que você os exclua. Os totais de gastos e as listas de cupons são calculados no celular a partir das suas notificações arquivadas. Copiar um código de cupom o coloca na área de transferência do seu celular.</li><li>O valor sugerido é calculado no celular. O lembrete de data de vencimento usa o próprio alarme do celular.</li><li>Adicionar um item do arquivo ao seu calendário abre o seu próprio app de calendário com um evento preenchido: o título da notificação (ou o nome do app, se não houver título) como o nome do evento e a data de vencimento como uma data de dia inteiro. Você vê o evento lá, pode alterá-lo e escolher se deseja salvá-lo. O app não precisa de permissão de calendário para isso. Se o seu calendário sincroniza com uma conta (por exemplo, Google), o evento salvo vai para essa conta; isso é feito pelo seu app de calendário, e o ha!shh não envia nada.</li><li>Você pode exportar o arquivo para um local que escolher (por exemplo, Google Drive, Dropbox ou uma pasta no seu celular) usando o próprio seletor de arquivos do celular: seja como um arquivo protegido por uma senha forte, seja como um arquivo simples que qualquer pessoa que tenha o arquivo pode ler. Se o acesso ao conteúdo estiver desativado, títulos e textos ficam em branco no arquivo. Para onde o arquivo vai e quem pode abri-lo depende então de você e do serviço que você escolheu; o ha!shh em si não envia nada.</li></ul>"
       },
       {
         "h": "Bloqueio por impressão digital",
@@ -505,7 +547,7 @@
       },
       {
         "h": "Pagamentos",
-        "body": "<p>Se você comprar uma assinatura, o pagamento e a assinatura são gerenciados pelo Google Play, e o Google processa as informações de compra de acordo com sua própria política de privacidade. O aplicativo apenas sabe, por meio do app Play Store no seu celular, se você tem uma assinatura ativa; ele não usa sua própria conexão com a internet para isso e não vê seus dados de pagamento.</p>"
+        "body": "<p>Se você comprar uma assinatura, o pagamento e a assinatura são processados pelo Google Play, e o Google processa as informações da compra sob a sua própria política de privacidade. O app apenas consulta o app da Play Store no seu celular para saber se você tem uma assinatura ativa; ele não usa conexão própria à internet para isso e não tem acesso aos seus dados de pagamento. Códigos promocionais são resgatados na Play Store; o app não armazena o código.</p>"
       },
       {
         "h": "Feedback por e-mail",
@@ -513,7 +555,7 @@
       },
       {
         "h": "Exportação e backup",
-        "body": "<p>Você pode salvar um backup das suas regras e modos como um arquivo. Ele inclui nomes de modos, modos integrados ocultos e, para cada modo, os apps, grupos e categorias que passam direto. Você também pode exportar seus registros de notificações (app, horário e o que foi feito). Nenhum dos arquivos contém o conteúdo das notificações, e o arquivo não é incluído. O arquivo vai apenas para o app ou pasta que você selecionar. O backup em nuvem do Android está desativado para este app.</p>"
+        "body": "<p>Você pode salvar um backup das suas regras e modos como um arquivo. Ele inclui os nomes dos modos, modos integrados ocultos e, para cada modo, os apps, grupos e categorias que passam na hora. Você também pode exportar os registros das suas notificações (app, horário e o que foi feito). Nenhum desses arquivos contém o conteúdo das notificações. O arquivo tem a sua própria exportação, descrita acima. Os arquivos vão apenas para o app ou pasta que você selecionar. O backup na nuvem do Android está desativado para este app.</p>"
       },
       {
         "h": "Exclusão dos seus dados",
@@ -536,8 +578,8 @@
         "a": "Ele está em desenvolvimento. Será lançado no Google Play, começando com um teste fechado. Ainda não há uma data definida; este site será atualizado."
       },
       {
-        "q": "Ele será pago?",
-        "a": "O plano é manter os recursos principais gratuitos e offline. Se algum dia houver uma opção paga, a ideia é que seja uma compra única e justa, e não uma assinatura obrigatória. Não haverá anúncios nem venda de dados. Esse plano não é definitivo."
+        "q": "Quanto vai custar?",
+        "a": "Após um teste grátis de 3 dias, o ha!shh funciona com assinatura anual: US $9.99 ou ₺179.99 por ano (em outros países, o Google Play mostra o preço local). Sem uma assinatura, o app continua funcionando em modo passivo: ele não retém nada, mas ainda conta e agrupa suas notificações e mostra quantas vezes você foi interrompido hoje. No lançamento, os primeiros 1.000 usuários ganham 6 meses grátis com um código promocional. Sem anúncios e sem venda de dados."
       },
       {
         "q": "O app lê minhas notificações?",
@@ -578,5 +620,46 @@
     ],
     "contact_h": "Ainda tem alguma dúvida?",
     "contact_p": "Fale conosco por e-mail."
-  }
+  },
+  "updates": {
+    "title": "Atualizações · {brand}",
+    "desc": "Novidades no ha!shh: novos recursos e correções na versão de desenvolvimento, antes do lançamento no Google Play.",
+    "h1": "Atualizações",
+    "lead": "Novidades no ha!shh. O app ainda está em desenvolvimento: tudo o que está aqui faz parte da versão de desenvolvimento e chega ao Google Play no lançamento."
+  },
+  "news": [
+    {
+      "date": "2026-10-13",
+      "h": "Modo spoiler, carteira de arquivo e backup na sua própria nuvem",
+      "items": [
+        "<b>Modo spoiler:</b> enquanto você assiste a uma partida, as notificações dos apps de esportes, notícias e redes sociais que você escolher esperam até o jogo acabar e chegam todas juntas. Você pode adicionar nomes de times ou palavras de spoiler; com o acesso ao conteúdo ativado, a verificação acontece apenas no seu celular.",
+        "<b>Total de gastos e carteira de cupons:</b> em uma pasta de arquivo escolhida por você, os gastos das notificações de bancos são somados (reembolsos e cancelamentos são subtraídos), e os códigos de cupom se reúnem em uma única lista com as datas de validade, prontos para copiar com um toque.",
+        "<b>Grupos de arquivo:</b> agrupe o seu arquivo por app, pessoa ou uma palavra que você escrever. As notificações que você marcar como lidas e que coincidirem com um grupo vão para ele.",
+        "<b>Leve o seu arquivo com você:</b> salve como um arquivo protegido por senha ou sem senha no Google Drive, Dropbox ou no seu celular, e restaure em um celular novo. O app em si continua sem nunca se conectar à internet; o próprio seletor de arquivos do seu celular é quem faz o salvamento.",
+        "<b>Filtro por tipo de notificação:</b> por exemplo, mensagens do Instagram chegam na hora, enquanto curtidas e comentários esperam o horário de entrega. Ele usa os tipos de notificação informados pelo app, e não o texto da mensagem.",
+        "<b>Detalhes do dia no calendário:</b> toque em um dia para ver os modos e horários de entrega dele e ativá-los ou desativá-los.",
+        "<b>Uso diário mais fluido:</b> deslizar os cartões para dispensar não engasga mais, tocar em uma notificação a abre no app correspondente, a configuração continua de onde você parou e as notificações “fantasmas” duplicadas sumiram.",
+        "<b>Oferta de lançamento:</b> no lançamento, os primeiros 1.000 usuários ganham 6 meses grátis com um código resgatado no Google Play.",
+        "<b>Em breve:</b> novos temas Noite e Dia com um mostrador 3D."
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "h": "Novo endereço: ha-shh.com, em 10 idiomas",
+      "items": [
+        "O site mudou para um endereço próprio e agora está disponível em alemão, árabe, espanhol, francês, hindi, indonésio, inglês, português, russo e turco."
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "h": "Arquivo, bloqueio por impressão digital e um início mais tranquilo",
+      "items": [
+        "<b>Arquivo de notificações</b> com pastas, valores e lembretes de vencimento.",
+        "<b>Bloqueio por impressão digital</b> para o app todo ou apenas para o arquivo e o conteúdo das notificações.",
+        "<b>Quem passa, quem espera:</b> veja isso para cada modo, além de uma sugestão semanal de organização.",
+        "<b>Resumo silencioso, sessão de foco, visualização simples e configuração inteligente.</b>",
+        "<b>Tema Papel</b> e novos ícones do app."
+      ]
+    }
+  ]
 }
