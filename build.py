@@ -141,17 +141,47 @@ def fmt_date(iso, code, months):
     return DATE_FMT.get(code, "{d} {m} {y}").format(d=d, m=name, y=y)
 
 
-def news_blocks(t, code):
+NEWS_IMG_DIR = os.path.join(HERE, "static", "assets", "news")
+
+
+def news_picture(img, root, cls=""):
+    """A screenshot that follows the theme: <name>-light.* on light themes, <name>-dark.* on dark ones.
+    Files live in static/assets/news/. If only one variant exists it is used for both; if none, nothing is shown."""
+    found = {}
+    for variant in ("light", "dark"):
+        for ext in ("webp", "png", "jpg"):
+            if os.path.exists(os.path.join(NEWS_IMG_DIR, "%s-%s.%s" % (img["src"], variant, ext))):
+                found[variant] = "%s-%s.%s" % (img["src"], variant, ext)
+                break
+    if not found:
+        print("warning: missing news image " + img["src"])
+        return ""
+    light = found.get("light") or found["dark"]
+    dark = found.get("dark") or light
+    alt = html.escape(img["alt"], quote=True)
+    if light == dark:
+        return '<img class="shot %s" src="%sassets/news/%s" alt="%s" loading="lazy">' % (cls, root, light, alt)
+    return ('<img class="shot on-light %s" src="%sassets/news/%s" alt="%s" loading="lazy">'
+            '<img class="shot on-dark %s" src="%sassets/news/%s" alt="%s" loading="lazy">'
+            % (cls, root, light, alt, cls, root, dark, alt))
+
+
+def news_blocks(t, code, root):
     """Full updates list for the updates page, and the 3 latest as cards for the home page."""
     full, cards = [], []
     for item in sorted(t["news"], key=lambda n: n["date"], reverse=True):
         when = fmt_date(item["date"], code, t["meta"]["months"])
         lis = "".join("<li>%s</li>" % x for x in item["items"])
-        full.append('<article class="news" id="u-%s"><time datetime="%s">%s</time><h2>%s</h2><ul>%s</ul></article>'
-                    % (item["date"], item["date"], when, item["h"], lis))
+        imgs = item.get("images", [])
+        gallery = "".join('<figure>%s<figcaption>%s</figcaption></figure>' % (news_picture(i, root), i["alt"])
+                          for i in imgs if news_picture(i, root))
+        gallery = '<div class="shots">%s</div>' % gallery if gallery else ""
+        full.append('<article class="news card" id="u-%s"><time datetime="%s">%s</time><h2>%s</h2>%s<ul>%s</ul></article>'
+                    % (item["date"], item["date"], when, item["h"], gallery, lis))
         if len(cards) < 3:
-            cards.append('<a class="card news-card rv" href="updates/#u-%s"><time datetime="%s">%s</time><b>%s</b></a>'
-                         % (item["date"], item["date"], when, item["h"]))
+            thumb = news_picture(imgs[0], root, "thumb") if imgs else ""
+            cards.append('<a class="card news-card rv" href="updates/#u-%s">%s<time datetime="%s">%s</time><b>%s</b></a>'
+                         % (item["date"], thumb, item["date"], when, item["h"]))
     return "".join(full), "".join(cards)
 
 
@@ -215,7 +245,7 @@ def main():
                 "nav_cur_updates": ' aria-current="page"' if page == "updates" else "",
                 "demo_href": "#demo" if page == "home" else root + code + "/#demo",
             })
-            ctx["news_html"], ctx["news_box_html"] = news_blocks(t, code)
+            ctx["news_html"], ctx["news_box_html"] = news_blocks(t, code, root)
             ctx["body"] = render(bodies[page], ctx)
             ctx["lang_menu"] = render(lang_menu(texts, page, code), ctx)
             write(os.path.join(code, slug, "index.html"), render(shell, ctx))

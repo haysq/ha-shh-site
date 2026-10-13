@@ -254,3 +254,12 @@ footer a{color:var(--text)}
 .sw-paper{background:#FDF6E3}.sw-light{background:#FFFFFF}.sw-dark{background:#191D1E}
 .sw-night{background:radial-gradient(circle at 35% 35%,#55CEC0 0 22%,#012328 24%)}
 .sw-day{background:radial-gradient(circle at 35% 35%,#EDB333 0 22%,#F5ECDB 24%)}
+
+/* updates as themed cards, with screenshots that follow the theme */
+.news.card{padding:24px;margin-bottom:18px;border-top:4px solid var(--gold);border-bottom:1px solid var(--line)}
+.news.card:first-child{padding-top:24px}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px;margin:6px 0 16px}
+.shots figure{margin:0}
+.shots figcaption{font-size:.8rem;color:var(--muted);margin-top:6px;line-height:1.35}
+.shot{display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--line);box-shadow:var(--shadow);background:var(--paper2)}
+.news-card .thumb{aspect-ratio:9/12;object-fit:cover;object-position:top;border-radius:12px;margin-bottom:6px;box-shadow:none}
