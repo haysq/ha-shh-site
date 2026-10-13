@@ -52,7 +52,33 @@
     "footer_privacy": "Politique de confidentialité",
     "footer_faq": "FAQ et assistance",
     "mt_note": "Cette page a été traduite avec l'aide de l'IA. En cas de doute, la version anglaise fait foi.",
-    "nav_updates": "Mises à jour"
+    "nav_updates": "Mises à jour",
+    "themes": [
+      {
+        "k": "system",
+        "n": "Système"
+      },
+      {
+        "k": "paper",
+        "n": "Papier"
+      },
+      {
+        "k": "light",
+        "n": "Clair"
+      },
+      {
+        "k": "dark",
+        "n": "Sombre"
+      },
+      {
+        "k": "night",
+        "n": "Nuit"
+      },
+      {
+        "k": "day",
+        "n": "Jour"
+      }
+    ]
   },
   "home": {
     "title": "{brand} · Des notifications adaptées à votre journée",

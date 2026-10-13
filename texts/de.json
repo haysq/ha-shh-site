@@ -52,7 +52,33 @@
     "footer_privacy": "Datenschutzerklärung",
     "footer_faq": "FAQ und Support",
     "mt_note": "Diese Seite wurde mithilfe von KI übersetzt. Bei Unklarheiten gilt die englische Version.",
-    "nav_updates": "Updates"
+    "nav_updates": "Updates",
+    "themes": [
+      {
+        "k": "system",
+        "n": "System"
+      },
+      {
+        "k": "paper",
+        "n": "Papier"
+      },
+      {
+        "k": "light",
+        "n": "Hell"
+      },
+      {
+        "k": "dark",
+        "n": "Dunkel"
+      },
+      {
+        "k": "night",
+        "n": "Nacht"
+      },
+      {
+        "k": "day",
+        "n": "Tag"
+      }
+    ]
   },
   "home": {
     "title": "{brand} · Benachrichtigungen, die zu deinem Tag passen",

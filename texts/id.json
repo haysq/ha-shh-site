@@ -52,7 +52,33 @@
     "footer_privacy": "Kebijakan privasi",
     "footer_faq": "FAQ dan bantuan",
     "mt_note": "Halaman ini diterjemahkan dengan bantuan AI. Jika ada yang kurang jelas, versi bahasa Inggris yang berlaku.",
-    "nav_updates": "Pembaruan"
+    "nav_updates": "Pembaruan",
+    "themes": [
+      {
+        "k": "system",
+        "n": "Sistem"
+      },
+      {
+        "k": "paper",
+        "n": "Kertas"
+      },
+      {
+        "k": "light",
+        "n": "Terang"
+      },
+      {
+        "k": "dark",
+        "n": "Gelap"
+      },
+      {
+        "k": "night",
+        "n": "Malam"
+      },
+      {
+        "k": "day",
+        "n": "Siang"
+      }
+    ]
   },
   "home": {
     "title": "{brand} · Notifikasi yang sesuai dengan hari Anda",

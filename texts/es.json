@@ -52,7 +52,33 @@
     "footer_privacy": "Política de privacidad",
     "footer_faq": "Preguntas frecuentes y soporte",
     "mt_note": "Esta página se tradujo con la ayuda de IA. Si algo no queda claro, prevalece la versión en inglés.",
-    "nav_updates": "Novedades"
+    "nav_updates": "Novedades",
+    "themes": [
+      {
+        "k": "system",
+        "n": "Sistema"
+      },
+      {
+        "k": "paper",
+        "n": "Papel"
+      },
+      {
+        "k": "light",
+        "n": "Claro"
+      },
+      {
+        "k": "dark",
+        "n": "Oscuro"
+      },
+      {
+        "k": "night",
+        "n": "Noche"
+      },
+      {
+        "k": "day",
+        "n": "Día"
+      }
+    ]
   },
   "home": {
     "title": "{brand} · Notificaciones que se adaptan a tu día",

@@ -5,26 +5,35 @@
   document.body.classList.remove('no-js');
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  // ---------- theme: auto -> light -> dark ----------
-  var themeBtn = document.getElementById('theme');
+  // ---------- theme: System (default) + the app's five themes ----------
+  var THEMES = ['system', 'paper', 'light', 'dark', 'night', 'day'];
+  var DARKISH = { dark: 1, night: 1 };
+  var themeBtn = document.getElementById('theme'), themeMenu = document.querySelector('.themes');
   var ICON = {
-    auto: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg>',
+    system: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg>',
     light: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',
     dark: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>'
   };
-  var LABEL = { auto: 'auto', light: 'light', dark: 'dark' };
-  if (themeBtn) ['auto', 'light', 'dark'].forEach(function (k) { LABEL[k] = themeBtn.getAttribute('data-l-' + k) || k; });
-  function getTheme() { try { return localStorage.getItem('theme') || 'auto'; } catch (e) { return 'auto'; } }
+  function getTheme() { try { var t = localStorage.getItem('theme'); return THEMES.indexOf(t) >= 0 ? t : 'system'; } catch (e) { return 'system'; } }
   function applyTheme(t) {
-    if (t === 'auto') root.removeAttribute('data-theme'); else root.setAttribute('data-theme', t);
-    if (themeBtn) { themeBtn.innerHTML = ICON[t]; themeBtn.setAttribute('aria-label', LABEL[t]); themeBtn.title = LABEL[t]; }
+    if (t === 'system') root.removeAttribute('data-theme'); else root.setAttribute('data-theme', t);
+    if (themeBtn) themeBtn.innerHTML = ICON[t === 'system' ? 'system' : (DARKISH[t] ? 'dark' : 'light')];
+    if (themeMenu) themeMenu.querySelectorAll('[data-t]').forEach(function (b) {
+      if (b.getAttribute('data-t') === t) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current');
+    });
   }
   applyTheme(getTheme());
-  if (themeBtn) themeBtn.addEventListener('click', function () {
-    var next = { auto: 'light', light: 'dark', dark: 'auto' }[getTheme()];
-    try { localStorage.setItem('theme', next); } catch (e) {}
-    applyTheme(next);
-  });
+  if (themeMenu) {
+    themeMenu.addEventListener('click', function (e) {
+      var b = e.target.closest('[data-t]');
+      if (!b) return;
+      var t = b.getAttribute('data-t');
+      try { localStorage.setItem('theme', t); } catch (err) {}
+      applyTheme(t);
+      themeMenu.removeAttribute('open');
+    });
+    document.addEventListener('click', function (e) { if (!themeMenu.contains(e.target)) themeMenu.removeAttribute('open'); });
+  }
 
   // ---------- mobile menu ----------
   var menuBtn = document.getElementById('menu'), nav = document.getElementById('nav');

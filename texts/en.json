@@ -52,7 +52,33 @@
     "footer_privacy": "Privacy policy",
     "footer_faq": "FAQ and support",
     "mt_note": "",
-    "nav_updates": "Updates"
+    "nav_updates": "Updates",
+    "themes": [
+      {
+        "k": "system",
+        "n": "System"
+      },
+      {
+        "k": "paper",
+        "n": "Paper"
+      },
+      {
+        "k": "light",
+        "n": "Light"
+      },
+      {
+        "k": "dark",
+        "n": "Dark"
+      },
+      {
+        "k": "night",
+        "n": "Night"
+      },
+      {
+        "k": "day",
+        "n": "Day"
+      }
+    ]
   },
   "home": {
     "title": "{brand} · Notifications that fit your day",

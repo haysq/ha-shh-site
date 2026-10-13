@@ -52,7 +52,33 @@
     "footer_privacy": "Gizlilik politikası",
     "footer_faq": "SSS ve destek",
     "mt_note": "",
-    "nav_updates": "Duyurular"
+    "nav_updates": "Duyurular",
+    "themes": [
+      {
+        "k": "system",
+        "n": "Sistem"
+      },
+      {
+        "k": "paper",
+        "n": "Kağıt"
+      },
+      {
+        "k": "light",
+        "n": "Açık"
+      },
+      {
+        "k": "dark",
+        "n": "Koyu"
+      },
+      {
+        "k": "night",
+        "n": "Gece"
+      },
+      {
+        "k": "day",
+        "n": "Gündüz"
+      }
+    ]
   },
   "home": {
     "title": "{brand} · Bildirimler sana göre gelsin",

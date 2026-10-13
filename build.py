@@ -205,7 +205,7 @@ def main():
             root = "../" if page == "home" else "../../"
             ctx = dict(t)
             ctx.update({
-                "ver": ASSET_VER, "root": root, "page": t[page], "lang": code, "url": BASE + code + "/" + slug,
+                "ver": ASSET_VER, "root": root, "theme_list": t["common"]["themes"], "page": t[page], "lang": code, "url": BASE + code + "/" + slug,
                 "alternates": alternates(page), "email": EMAIL,
                 "sim_json": json.dumps(t["sim"], ensure_ascii=False) if page == "home" else "",
                 "home_href": root + code + "/", "lang_current": t["meta"]["name"],
