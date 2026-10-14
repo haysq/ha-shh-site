@@ -78,7 +78,8 @@
         "k": "day",
         "n": "Gündüz"
       }
-    ]
+    ],
+    "footer_guide": "Kılavuz"
   },
   "home": {
     "title": "{brand} · Bildirimler sana göre gelsin",
@@ -590,7 +591,7 @@
       },
       {
         "h": "Bu web sitesi ve yardımcısı",
-        "body": "<p>ha-shh.com web sitesinde reklam, takip aracı ya da analiz yoktur. Yardım asistanı bu sitedeki metinlerden, senin tarayıcında cevap verir. Sesli okuma cihazında yapılır. Sesle sorma tarayıcının kendi ses hizmetini kullanır; bazı tarayıcılar (ör. Chrome) sesi kendi sunucularında işler. Bir konuşmayı göndermeyi seçersen yalnız soruları, cevapları ve isteğe bağlı notun; tarih, sayfa ve telefon mu bilgisayar mı kullandığın bilgisiyle kaydedilir. Ad, e-posta adresi ya da IP adresi kaydedilmez. Konuşmalar en çok 12 ay saklanır ve yalnız uygulamayı ve yardımcıyı geliştirmek için kullanılır. Seninkinin silinmesi için tarih ve saatiyle {email} adresine yaz.</p>"
+        "body": "<p>ha-shh.com web sitesinde reklam, çerez ya da başka şirketlerin takip aracı yoktur. Ziyaretleri saymak için sitenin kendi çerezsiz sayacı kullanılır: bu sitenin sunucusunda yalnız günlük toplamlar tutulur (ziyaret sayısı, hangi sayfaların açıldığı, e-posta bağlantısına tıklama ve ziyaretin geldiği site, ör. google). IP adresi, çerez ya da cihaz kimliği kaydedilmez; tarayıcın yalnız “bugün sayıldı” ve “daha önce geldi” işaretlerini kendi içinde tutar. Yardım asistanı bu sitedeki metinlerden, senin tarayıcında cevap verir. Sesli okuma cihazında yapılır. Sesle sorma tarayıcının kendi ses hizmetini kullanır; bazı tarayıcılar (ör. Chrome) sesi kendi sunucularında işler. Bir konuşmayı göndermeyi seçersen yalnız soruları, cevapları ve isteğe bağlı notun; tarih, sayfa ve telefon mu bilgisayar mı kullandığın bilgisiyle kaydedilir. Ad, e-posta adresi ya da IP adresi kaydedilmez. Konuşmalar en çok 12 ay saklanır ve yalnız uygulamayı ve yardımcıyı geliştirmek için kullanılır. Seninkinin silinmesi için tarih ve saatiyle {email} adresine yaz.</p>"
       },
       {
         "h": "Dışa aktarma ve yedek",
@@ -831,5 +832,14 @@
         "q": "iletişim|ulaşmak|ulaşamadım|iletişim kuramadım|destek|e-posta|mail|bir insanla konuşmak"
       }
     }
+  },
+  "guide": {
+    "title": "Kılavuz ve sorun çözme · ha!shh",
+    "desc": "ha!shh adım adım nasıl kullanılır; sık sorunların çözümleri: bildirim bekletilmiyor, teslim gecikiyor, telefon markasına göre pil ayarları, arşiv, yedek.",
+    "eyebrow": "Kılavuz",
+    "h1": "ha!shh nasıl kullanılır?",
+    "lead": "Uygulamadaki ekran ve düğme adlarıyla adım adım. Altında sık sorunlar ve çözümleri var. Uygulama hâlâ geliştirildiği için bazı adlar değişebilir.",
+    "h_guide": "Kullanım kılavuzu",
+    "h_fix": "Sık sorunlar"
   }
 }

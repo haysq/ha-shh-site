@@ -78,7 +78,8 @@
         "k": "day",
         "n": "Jour"
       }
-    ]
+    ],
+    "footer_guide": "Guide"
   },
   "home": {
     "title": "{brand} · Des notifications adaptées à votre journée",
@@ -590,7 +591,7 @@
       },
       {
         "h": "Ce site web et son assistant",
-        "body": "<p>Le site web ha-shh.com ne contient aucune publicité, aucun traceur ni outil d'analyse. L'assistant d'aide répond à partir des textes de ce site, directement dans votre navigateur. La lecture à voix haute s'exécute sur votre appareil. La saisie vocale utilise le service vocal propre à votre navigateur ; certains navigateurs (tels que Chrome) traitent l'audio sur leurs serveurs. Si vous choisissez d'envoyer une conversation, seules les questions et réponses ainsi que votre note facultative sont enregistrées, avec la date, la page et l'indication précisant si vous avez utilisé un téléphone ou un ordinateur. Aucun nom, adresse e-mail ou adresse IP n'est enregistré. Les conversations sont conservées pendant 12 mois au maximum et sont utilisées uniquement pour améliorer l'application et l'assistant. Pour faire supprimer la vôtre, écrivez à {email} en indiquant la date et l'heure.</p>"
+        "body": "<p>Le site web ha-shh.com ne contient aucune publicité, aucun cookie ni aucun traceur tiers. Pour compter les visites, il utilise son propre compteur sans cookie : seuls les totaux quotidiens sont conservés sur le serveur de ce site (nombre de visites, pages ouvertes, clics sur le lien d'e-mail et site web d'où provient la visite, comme google). Aucune adresse IP, aucun cookie ni aucun identifiant d'appareil n'est enregistré ; votre navigateur ne conserve pour lui-même que les repères « compté aujourd'hui » et « déjà visité ». L'assistant d'aide répond à partir des textes de ce site, au sein de votre navigateur. La lecture à voix haute s'exécute sur votre appareil. La saisie vocale utilise le service vocal propre à votre navigateur ; certains navigateurs (comme Chrome) traitent l'audio sur leurs serveurs. Si vous choisissez d'envoyer une conversation, seules ses questions et réponses ainsi que votre note facultative sont enregistrées, avec la date, la page et si vous avez utilisé un téléphone ou un ordinateur. Aucun nom, aucune adresse e-mail ni aucune adresse IP n'est enregistré. Les conversations sont conservées pendant 12 mois au maximum et sont utilisées uniquement pour améliorer l'application et l'assistant. Pour faire supprimer la vôtre, écrivez à {email} en précisant la date et l'heure.</p>"
       },
       {
         "h": "Exportation et sauvegarde",
@@ -831,5 +832,14 @@
         "q": "contact|vous contacter|assistance|support|email|parler à quelqu'un|aidez-moi|aide"
       }
     }
+  },
+  "guide": {
+    "title": "Guide et dépannage · ha!shh",
+    "desc": "Comment utiliser ha!shh étape par étape, et solutions aux problèmes courants : notifications non retenues, réceptions tardives, paramètres de batterie par marque de téléphone, archive, sauvegarde.",
+    "eyebrow": "Guide",
+    "h1": "Comment utiliser ha!shh",
+    "lead": "Étape par étape, avec les noms des écrans et des boutons de l'application. En dessous : les problèmes courants et comment les résoudre. L'application est encore en cours de développement, certains noms peuvent donc changer.",
+    "h_guide": "Guide d'utilisation",
+    "h_fix": "Problèmes courants"
   }
 }

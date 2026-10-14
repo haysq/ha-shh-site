@@ -78,7 +78,8 @@
         "k": "day",
         "n": "Siang"
       }
-    ]
+    ],
+    "footer_guide": "Panduan"
   },
   "home": {
     "title": "{brand} · Notifikasi yang sesuai dengan hari Anda",
@@ -590,7 +591,7 @@
       },
       {
         "h": "Situs web ini dan asistennya",
-        "body": "<p>Situs web ha-shh.com tidak memiliki iklan, pelacak, atau analitik. Asisten bantuan menjawab berdasarkan teks di situs ini, langsung di dalam browser Anda. Pembacaan bersuara berjalan di perangkat Anda. Input suara menggunakan layanan suara browser Anda sendiri; beberapa browser (seperti Chrome) memproses audio di server mereka. Jika Anda memilih untuk mengirim percakapan, hanya pertanyaan dan jawaban serta catatan opsional Anda yang disimpan, beserta tanggal, halaman, dan apakah Anda menggunakan ponsel atau komputer. Tidak ada nama, alamat email, atau alamat IP yang disimpan. Percakapan disimpan paling lama 12 bulan dan hanya digunakan untuk meningkatkan kualitas aplikasi dan asisten. Untuk menghapus percakapan Anda, kirimkan email ke {email} dengan menyertakan tanggal dan waktu.</p>"
+        "body": "<p>Situs web ha-shh.com tidak memiliki iklan, cookie, atau pelacak pihak ketiga. Untuk menghitung kunjungan, situs ini menggunakan penghitung tanpa cookie miliknya sendiri: hanya total harian yang disimpan di server situs ini (jumlah kunjungan, halaman mana yang dibuka, klik pada tautan email, dan situs web asal kunjungan, seperti google). Tidak ada alamat IP, cookie, atau ID perangkat yang disimpan; browser Anda hanya menyimpan tanda “dihitung hari ini” dan “pernah dikunjungi” untuk dirinya sendiri. Asisten bantuan menjawab dari teks di situs ini, di dalam browser Anda. Pembacaan bersuara berjalan di perangkat Anda. Input suara menggunakan layanan ucapan milik browser Anda sendiri; beberapa browser (seperti Chrome) memproses audio di server mereka. Jika Anda memilih untuk mengirim percakapan, hanya pertanyaan dan jawaban serta catatan opsional Anda yang disimpan, bersama tanggal, halaman, dan apakah Anda menggunakan ponsel atau komputer. Tidak ada nama, alamat email, atau alamat IP yang disimpan. Percakapan disimpan paling lama 12 bulan dan hanya digunakan untuk meningkatkan aplikasi serta asisten. Untuk menghapus percakapan Anda, kirim email ke {email} dengan menyertakan tanggal dan waktu.</p>"
       },
       {
         "h": "Ekspor dan pencadangan",
@@ -831,5 +832,14 @@
         "q": "kontak|hubungi tim|support|email|bicara dengan orang|butuh bantuan|hubungi kami"
       }
     }
+  },
+  "guide": {
+    "title": "Panduan dan pemecahan masalah · ha!shh",
+    "desc": "Cara menggunakan ha!shh langkah demi langkah, dan solusi untuk masalah umum: notifikasi tidak tertahan, pengiriman terlambat, pengaturan baterai berdasarkan merek ponsel, arsip, pencadangan.",
+    "eyebrow": "Panduan",
+    "h1": "Cara menggunakan ha!shh",
+    "lead": "Langkah demi langkah, dengan nama layar dan tombol di aplikasi. Di bawahnya: masalah umum dan cara memperbaikinya. Aplikasi ini masih dalam pengembangan, jadi beberapa nama mungkin berubah.",
+    "h_guide": "Panduan pengguna",
+    "h_fix": "Masalah umum"
   }
 }

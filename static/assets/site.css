@@ -303,3 +303,9 @@ footer a{color:var(--text)}
 .assist-fb-row .assist-fb-yes{background:var(--teal);border-color:var(--teal);color:#fff}
 :root[data-theme="dark"] .assist-fb-yes,:root[data-theme="night"] .assist-fb-yes{color:#0E1414!important}
 .assist-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+/* guide page */
+.guide-jump{margin-top:10px}
+.guide-h{margin:36px 0 6px;scroll-margin-top:90px}
+.guide-sec{font-size:1rem;margin:22px 0 8px;color:var(--muted)}
+.guide details.faq{scroll-margin-top:90px}
+.guide details.faq:target{outline:2px solid var(--teal);outline-offset:2px}

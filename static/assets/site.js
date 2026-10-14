@@ -60,6 +60,15 @@
     rv.forEach(function (el, i) { el.style.transitionDelay = (i % 4) * 70 + 'ms'; io.observe(el); });
   } else rv.forEach(function (el) { el.classList.add('in'); });
 
+  // ---------- guide links (#k-12): open the answer they point to ----------
+  function openTarget() {
+    var id = location.hash.slice(1), el = id && document.getElementById(id);
+    if (el && el.tagName === 'DETAILS') { el.open = true; el.scrollIntoView({ block: 'start', behavior: 'instant' }); }
+  }
+  openTarget();
+  window.addEventListener('load', function () { setTimeout(openTarget, 50); });
+  window.addEventListener('hashchange', openTarget);
+
   // ---------- cookieless visit counter (same site only; no cookie, IP or id is kept) ----------
   // The browser keeps only "counted today" / "seen before" marks. ?yonetici=1 stops counting this browser (?yonetici=0 undoes it).
   (function () {

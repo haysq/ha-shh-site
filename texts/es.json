@@ -78,7 +78,8 @@
         "k": "day",
         "n": "Día"
       }
-    ]
+    ],
+    "footer_guide": "Guía"
   },
   "home": {
     "title": "{brand} · Notificaciones que se adaptan a tu día",
@@ -590,7 +591,7 @@
       },
       {
         "h": "Este sitio web y su asistente",
-        "body": "<p>El sitio web ha-shh.com no tiene anuncios, rastreadores ni analíticas. El asistente de ayuda responde a partir de los textos de este sitio, dentro de tu navegador. La lectura en voz alta se ejecuta en tu dispositivo. La entrada de voz utiliza el servicio de voz propio de tu navegador; algunos navegadores (como Chrome) procesan el audio en sus servidores. Si decides enviar una conversación, solo se guardan sus preguntas y respuestas y tu nota opcional, junto con la fecha, la página y si usaste un teléfono o un ordenador. No se guarda ningún nombre, dirección de correo electrónico ni dirección IP. Las conversaciones se conservan durante un máximo de 12 meses y se utilizan únicamente para mejorar la aplicación y el asistente. Para eliminar la tuya, escribe a {email} indicando la fecha y la hora.</p>"
+        "body": "<p>El sitio web ha-shh.com no tiene anuncios, cookies ni rastreadores de terceros. Para contar las visitas utiliza su propio contador sin cookies: en el servidor de este sitio solo se conservan los totales diarios (número de visitas, qué páginas se abrieron, clics en el enlace de correo electrónico y el sitio web de donde provino la visita, como google). No se guarda ninguna dirección IP, cookie ni identificador de dispositivo; tu navegador solo conserva para sí mismo las marcas «contado hoy» y «visitado antes». El asistente de ayuda responde a partir de los textos de este sitio, dentro de tu navegador. La lectura en voz alta se ejecuta en tu dispositivo. La entrada de voz utiliza el propio servicio de voz de tu navegador; algunos navegadores (como Chrome) procesan el audio en sus servidores. Si decides enviar una conversación, solo se guardan sus preguntas y respuestas y tu nota opcional, con la fecha, la página y si usaste un teléfono o un ordenador. No se guarda ningún nombre, dirección de correo electrónico ni dirección IP. Las conversaciones se conservan durante un máximo de 12 meses y solo se utilizan para mejorar la aplicación y el asistente. Para que la tuya se elimine, escribe a {email} con la fecha y la hora.</p>"
       },
       {
         "h": "Exportación y copia de seguridad",
@@ -831,5 +832,14 @@
         "q": "contacto|contactar|soporte|atención al cliente|correo|hablar con alguien|ayúdame"
       }
     }
+  },
+  "guide": {
+    "title": "Guía y solución de problemas · ha!shh",
+    "desc": "Cómo usar ha!shh paso a paso, y soluciones para problemas comunes: notificaciones no retenidas, entregas tardías, ajustes de batería según la marca del teléfono, archivo, copia de seguridad.",
+    "eyebrow": "Guía",
+    "h1": "Cómo usar ha!shh",
+    "lead": "Paso a paso, con los nombres de las pantallas y botones de la aplicación. Más abajo: problemas comunes y cómo solucionarlos. La aplicación aún está en desarrollo, por lo que algunos nombres podrían cambiar.",
+    "h_guide": "Guía del usuario",
+    "h_fix": "Problemas comunes"
   }
 }

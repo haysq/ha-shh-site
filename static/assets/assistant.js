@@ -102,9 +102,16 @@
       var tTokens = normalizeAndTokenize(titleText, pageLang);
       var bTokens = normalizeAndTokenize(entry.a || "", pageLang);
 
+      // whole title and question phrases, for exact matches ("Nasıl çalışır?" must not land on "Vardiyalı çalışıyorum")
+      var phrases = [normalizeAndTokenize(entry.t || "", pageLang).join(" ")];
+      for (var pq = 0; entry.q && pq < entry.q.length; pq++) {
+        phrases.push(normalizeAndTokenize(entry.q[pq], pageLang).join(" "));
+      }
+
       docTokens.push({
         title: tTokens,
-        body: bTokens
+        body: bTokens,
+        phrases: phrases
       });
 
       var seen = {};
@@ -516,6 +523,14 @@
       if (!qTokens.length || !kbEntries.length) {
         addAssistantPlainMessage(T.nothing || "No results");
         return;
+      }
+
+      var whole = qTokens.join(" ");
+      for (var ex = 0; ex < kbEntries.length; ex++) {
+        if (kbIndex.docTokens[ex].phrases.indexOf(whole) !== -1) {
+          renderAnswer(kbEntries[ex], null);
+          return;
+        }
       }
 
       var uniqueQ = [];

@@ -78,7 +78,8 @@
         "k": "day",
         "n": "Tag"
       }
-    ]
+    ],
+    "footer_guide": "Anleitung"
   },
   "home": {
     "title": "{brand} · Benachrichtigungen, die zu deinem Tag passen",
@@ -590,7 +591,7 @@
       },
       {
         "h": "Diese Website und ihr Assistent",
-        "body": "<p>Die Website ha-shh.com enthält keine Werbung, Tracker oder Analysetools. Der Hilfe-Assistent antwortet anhand der Texte auf dieser Website direkt in deinem Browser. Das Vorlesen läuft auf deinem Gerät. Die Spracheingabe nutzt den Spracherkennungsdienst deines Browsers; einige Browser (wie Chrome) verarbeiten die Audiodaten auf ihren Servern. Wenn du dich entscheidest, eine Unterhaltung zu senden, werden nur die Fragen und Antworten sowie deine optionale Notiz gespeichert – zusammen mit dem Datum, der Seite und der Information, ob du ein Smartphone oder einen Computer verwendet hast. Es werden weder Name, E-Mail-Adresse noch IP-Adresse gespeichert. Unterhaltungen werden höchstens 12 Monate lang aufbewahrt und ausschließlich zur Verbesserung der App und des Assistenten verwendet. Um deine löschen zu lassen, schreibe mit Datum und Uhrzeit an {email}.</p>"
+        "body": "<p>Die Website ha-shh.com hat keine Werbung, Cookies oder Tracker von Drittanbietern. Um Besuche zu zählen, nutzt sie einen eigenen cookielosen Zähler: Auf dem Server dieser Website werden nur Tagessummen gespeichert (Anzahl der Besuche, welche Seiten geöffnet wurden, Klicks auf den E-Mail-Link und die Website, von der ein Besuch kam, wie z. B. google). Es werden weder IP-Adresse, Cookie noch Geräte-ID gespeichert; dein Browser behält für sich selbst nur die Markierungen „heute gezählt“ und „früher besucht“. Der Hilfe-Assistent antwortet anhand der Texte auf dieser Website, direkt in deinem Browser. Das Vorlesen läuft auf deinem Gerät. Die Spracheingabe nutzt den eigenen Sprachdienst deines Browsers; einige Browser (wie Chrome) verarbeiten die Audiodaten auf ihren Servern. Wenn du dich entscheidest, eine Unterhaltung zu senden, werden nur deren Fragen und Antworten sowie deine optionale Notiz gespeichert, zusammen mit dem Datum, der Seite und der Angabe, ob du ein Smartphone oder einen Computer verwendet hast. Es werden kein Name, keine E-Mail-Adresse und keine IP-Adresse gespeichert. Unterhaltungen werden maximal 12 Monate aufbewahrt und nur zur Verbesserung der App und des Assistenten verwendet. Um deine löschen zu lassen, schreibe mit Datum und Uhrzeit an {email}.</p>"
       },
       {
         "h": "Export und Sicherung",
@@ -831,5 +832,14 @@
         "q": "kontakt|euch erreichen|support|kontaktieren|mit jemandem sprechen|hilfe bitte|e-mail"
       }
     }
+  },
+  "guide": {
+    "title": "Anleitung und Fehlerbehebung · ha!shh",
+    "desc": "So verwendest du ha!shh Schritt für Schritt, und Lösungen für häufige Probleme: Benachrichtigungen nicht zurückgehalten, verspätete Zustellungen, Akkueinstellungen nach Telefonmarke, Archiv, Sicherung.",
+    "eyebrow": "Anleitung",
+    "h1": "So verwendest du ha!shh",
+    "lead": "Schritt für Schritt, mit den Bezeichnungen der Bildschirme und Tasten in der App. Darunter: häufige Probleme und wie man sie behebt. Die App befindet sich noch in der Entwicklung, daher können sich einige Bezeichnungen ändern.",
+    "h_guide": "Benutzeranleitung",
+    "h_fix": "Häufige Probleme"
   }
 }

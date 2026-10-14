@@ -78,7 +78,8 @@
         "k": "day",
         "n": "Day"
       }
-    ]
+    ],
+    "footer_guide": "Guide"
   },
   "home": {
     "title": "{brand} · Notifications that fit your day",
@@ -590,7 +591,7 @@
       },
       {
         "h": "This website and its assistant",
-        "body": "<p>The website ha-shh.com has no ads, trackers or analytics. The help assistant answers from the texts on this site, inside your browser. Read-aloud runs on your device. Voice input uses your browser's own speech service; some browsers (such as Chrome) process the audio on their servers. If you choose to send a conversation, only its questions and answers and your optional note are saved, with the date, the page and whether you used a phone or a computer. No name, email address or IP address is saved. Conversations are kept for at most 12 months and are used only to improve the app and the assistant. To have yours deleted, write to {email} with the date and time.</p>"
+        "body": "<p>The website ha-shh.com has no ads, cookies or third-party trackers. To count visits it uses its own cookieless counter: only daily totals are kept on this site's server (number of visits, which pages were opened, clicks on the email link and the website a visit came from, such as google). No IP address, cookie or device ID is saved; your browser only keeps “counted today” and “visited before” marks for itself. The help assistant answers from the texts on this site, inside your browser. Read-aloud runs on your device. Voice input uses your browser's own speech service; some browsers (such as Chrome) process the audio on their servers. If you choose to send a conversation, only its questions and answers and your optional note are saved, with the date, the page and whether you used a phone or a computer. No name, email address or IP address is saved. Conversations are kept for at most 12 months and are used only to improve the app and the assistant. To have yours deleted, write to {email} with the date and time.</p>"
       },
       {
         "h": "Export and backup",
@@ -831,5 +832,14 @@
         "q": "contact|reach you|couldn't reach|support|email|talk to a person|get in touch"
       }
     }
+  },
+  "guide": {
+    "title": "Guide and troubleshooting · ha!shh",
+    "desc": "How to use ha!shh step by step, and fixes for common problems: notifications not held, late deliveries, battery settings by phone brand, archive, backup.",
+    "eyebrow": "Guide",
+    "h1": "How to use ha!shh",
+    "lead": "Step by step, with the names of the screens and buttons in the app. Below that: common problems and how to fix them. The app is still in development, so some names may change.",
+    "h_guide": "User guide",
+    "h_fix": "Common problems"
   }
 }

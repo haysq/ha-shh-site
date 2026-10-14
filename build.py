@@ -18,7 +18,7 @@ BASE = "https://ha-shh.com/"
 ALL_LANGS = ["en", "tr", "ar", "de", "es", "fr", "hi", "id", "pt", "ru"]
 # Only languages whose text file exists are built (and linked).
 LANGS = [c for c in ALL_LANGS if os.path.exists(os.path.join(HERE, "texts", c + ".json"))]
-PAGES = {"home": "", "features": "features/", "privacy": "privacy/", "faq": "faq/", "updates": "updates/"}
+PAGES = {"home": "", "features": "features/", "privacy": "privacy/", "faq": "faq/", "updates": "updates/", "guide": "guide/"}
 EMAIL = "hey@ha-shh.com"
 
 ICONS = {
@@ -197,6 +197,31 @@ def plain(text):
     return html.unescape(TAG_RE.sub(" ", text)).replace("  ", " ").strip()
 
 
+def load_guide(code):
+    """User guide and troubleshooting entries (kb/<lang>.json, made from the app's docs). Same order in every language,
+    so the anchors #k-<n> match across languages."""
+    path = os.path.join(HERE, "kb", code + ".json")
+    return json.load(open(path, encoding="utf-8")) if os.path.exists(path) else []
+
+
+def guide_blocks(t, code):
+    rows, last_type, last_sec = [], None, None
+    for n, e in enumerate(load_guide(code)):
+        if e["type"] != last_type:
+            if last_type:
+                rows.append("</div>")
+            last_type, last_sec = e["type"], None
+            rows.append('<h2 class="h3 guide-h" id="%s">%s</h2><div>' % (e["type"], html.escape(t["guide"]["h_" + e["type"]])))
+        if e["sec"] != last_sec:
+            last_sec = e["sec"]
+            rows.append('<h3 class="guide-sec">%s</h3>' % html.escape(e["sec"]))
+        rows.append('<details class="faq" id="k-%d"><summary>%s</summary><p>%s</p></details>'
+                    % (n, html.escape(e["t"]), html.escape(e["a"])))
+    if last_type:
+        rows.append("</div>")
+    return "\n".join(rows)
+
+
 def build_kb(t, code):
     """Knowledge base for the on-site assistant, made only from texts that are already on the site
     (plus optional extra entries in kb/<lang>.json: user guide and troubleshooting)."""
@@ -238,11 +263,9 @@ def build_kb(t, code):
             if n is t["news"][0]:
                 row["recent"] = True
             kb.append(row)
-    extra = os.path.join(HERE, "kb", code + ".json")
-    if os.path.exists(extra):
-        for e in json.load(open(extra, encoding="utf-8")):
-            kb.append({"id": "g-%d" % len(kb), "type": e.get("type", "guide"), "t": plain(e["t"]), "a": plain(e["a"]),
-                       "q": [plain(x) for x in e.get("q", [])], "url": e.get("url", "")})
+    for n, e in enumerate(load_guide(code)):
+        kb.append({"id": "g-%d" % len(kb), "type": e.get("type", "guide"), "t": plain(e["t"]), "a": plain(e["a"]),
+                   "q": [plain(x) for x in e.get("q", [])], "url": "guide/#k-%d" % n})
     return kb
 
 
@@ -307,6 +330,7 @@ def main():
                 "demo_href": "#demo" if page == "home" else root + code + "/#demo",
             })
             ctx["news_html"], ctx["news_box_html"] = news_blocks(t, code, root)
+            ctx["guide_html"] = guide_blocks(t, code) if page == "guide" else ""
             ctx["body"] = render(bodies[page], ctx)
             ctx["lang_menu"] = render(lang_menu(texts, page, code), ctx)
             ctx["assist_json"] = json.dumps(t["assist"], ensure_ascii=False)

@@ -1,7 +1,7 @@
 <?php
 /**
  * Cookieless visit counter for ha-shh.com. No IP, cookie or device id is stored; only daily totals.
- * Data lives OUTSIDE the web root (../istatistik.json) and is read by the UĞRAŞ admin panel (İstatistik › ha!shh).
+ * Data lives OUTSIDE the web root (../istatistik.json) and is read only by the site owner.
  */
 declare(strict_types=1);
 date_default_timezone_set('Europe/Istanbul');

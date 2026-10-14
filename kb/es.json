@@ -1,0 +1,878 @@
+[
+ {
+  "type": "guide",
+  "sec": "Primeros pasos",
+  "t": "¿Qué hace ha!shh?",
+  "a": "Pausa las notificaciones entrantes según tus reglas y te las entrega juntas a las horas que elijas. Para decidir qué hacer no lee el texto del mensaje; solo tiene en cuenta de qué app proviene y cuándo llega. La app no tiene permiso de acceso a internet, por lo que todo se queda en tu teléfono.",
+  "q": [
+   "para qué sirve ha!shh",
+   "cómo funciona esta app",
+   "qué hace la aplicación",
+   "explicación de ha!shh"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Primeros pasos",
+  "t": "¿Cómo se hace la configuración inicial?",
+  "a": "Al abrir la app por primera vez, se inicia el Asistente de configuración inicial. Lees la información de privacidad, concedes el acceso a notificaciones y el permiso de batería, y luego eliges la rutina que mejor se adapte a ti (Estudiante, Oficina, Turno de noche, Autónomo / Flexible). Si dejas el asistente a medias, puedes retomarlo desde la tarjeta en Flujo o yendo a Ajustes → Herramientas → Asistente de configuración inicial.",
+  "q": [
+   "configuración por primera vez",
+   "cómo empezar a configurar",
+   "primeros pasos con la app",
+   "retomar asistente inicial"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Primeros pasos",
+  "t": "¿Qué permisos son necesarios?",
+  "a": "Se necesitan dos cosas: acceso a notificaciones (imprescindible para pausarlas) y permiso de batería y segundo plano (para no perderte las horas de entrega). Puedes ver ambos en Ajustes → Permisos del dispositivo; al lado pondrá \"Permitido\" o \"Permiso necesario\".",
+  "q": [
+   "qué permisos necesita ha!shh",
+   "permisos obligatorios",
+   "por qué pide acceso a notificaciones",
+   "activar permisos de la app"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Uso diario",
+  "t": "¿Qué hay en la pantalla Flujo?",
+  "a": "En el centro tienes la esfera del día: las 12 arriba, las 18 a la derecha, las 00 abajo y las 06 a la izquierda. Sobre la esfera se muestran los iconos de las aplicaciones con notificaciones pendientes. En la parte inferior encontrarás la tarjeta Pendientes, la próxima hora de entrega, la tarjeta de archivo y el resumen de Tiempo ganado.",
+  "q": [
+   "qué significa la esfera del día",
+   "elementos de la pantalla de inicio",
+   "cómo leer la pantalla flujo",
+   "dónde veo mis notificaciones"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Uso diario",
+  "t": "¿Cómo veo las notificaciones pendientes?",
+  "a": "En Flujo, toca en Leer todo › dentro de la tarjeta Pendientes. Si quieres, puedes recuperarlas todas de inmediato con Entregar todo ahora. Al tocar una notificación, se abrirá la aplicación correspondiente.",
+  "q": [
+   "dónde están las notificaciones retenidas",
+   "ver notificaciones pendientes",
+   "cómo leer lo que está pausado",
+   "recuperar notificaciones ahora"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Uso diario",
+  "t": "¿Puedo leer el contenido de las notificaciones en la app?",
+  "a": "Sí, pero solo si tú das permiso. Activa la opción en Ajustes → Contenido y tranquilidad → Mostrar contenido de las notificaciones. Si está desactivada, solo se verá el nombre de la app, la hora y el motivo por el que se pausó.",
+  "q": [
+   "ver texto de las notificaciones",
+   "leer mensajes dentro de la app",
+   "mostrar contenido de avisos",
+   "por qué no veo el texto de las notificaciones"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Uso diario",
+  "t": "¿Cómo se calcula el tiempo ganado?",
+  "a": "Por defecto, se calcula 1 minuto por cada notificación pausada sin interrumpirte. Puedes ajustar esta duración entre 0,5 y 5 minutos en Ajustes → Contenido y tranquilidad → Tiempo por interrupción. Para ocultar el resumen, desactiva Resumen de tiempo ganado en la misma sección.",
+  "q": [
+   "cómo calcula el tiempo ahorrado",
+   "qué es el tiempo ganado",
+   "cambiar minutos por interrupción",
+   "desactivar resumen de tiempo"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Reglas",
+  "t": "¿Cómo se crea una regla para una aplicación?",
+  "a": "En la pestaña Reglas, toca sobre la aplicación. Aparecerán cuatro opciones: De inmediato, Pausar, En hora de entrega, Bloquear. El comportamiento que elijas se aplicará a todas las notificaciones de esa app.",
+  "q": [
+   "crear regla para una app",
+   "cómo pausar una aplicación",
+   "configurar notificaciones de una app",
+   "cambiar comportamiento de app"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Reglas",
+  "t": "Quiero que una app no se pause nunca",
+  "a": "En Reglas, toca la app, selecciona De inmediato y pulsa en la opción inferior No pausar nunca (recibir en cualquier modo). De este modo, las notificaciones de esa aplicación llegarán de inmediato sin importar qué modo esté activo.",
+  "q": [
+   "hacer que una app no se pause",
+   "recibir mensajes siempre al instante",
+   "excluir app del bloqueo",
+   "notificaciones urgentes que no esperen"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Reglas",
+  "t": "En apps como Instagram solo quiero ver los mensajes (filtro de tipos)",
+  "a": "En Reglas, toca la app y abre el panel Filtro de tipos con Elegir tipo ›. Tienes filtros listos para usar: Solo mensajes, Solo me gusta, Me gusta y comentarios, Restablecer. Para cada tipo puedes elegir además Predeterminado, De inmediato, En hora de entrega o Bloquear. La distinción se basa en el tipo de notificación que envía la app; el contenido no se lee.",
+  "q": [
+   "filtrar solo mensajes directos",
+   "recibir solo dms de instagram",
+   "silenciar solo likes y comentarios",
+   "cómo usar el filtro por tipo de notificación"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Reglas",
+  "t": "¿Puedo gestionar las aplicaciones por grupos?",
+  "a": "Sí. En la pantalla Reglas, usa Nuevo grupo para reunir varias aplicaciones en un único grupo y gestionarlas con una sola regla. Un grupo puede tener un máximo de 100 aplicaciones.",
+  "q": [
+   "agrupar aplicaciones",
+   "crear grupo de apps",
+   "aplicar misma regla a varias apps",
+   "gestionar apps juntas"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Reglas",
+  "t": "¿Dónde están las aplicaciones que bloqueé permanentemente?",
+  "a": "En Ajustes → Herramientas → Bloqueados. Aquí verás las aplicaciones bloqueadas y el registro de las notificaciones que enviaron (app, hora); puedes restaurarlas con Desbloquear.",
+  "q": [
+   "ver apps bloqueadas",
+   "dónde están las aplicaciones silenciadas",
+   "desbloquear una app",
+   "historial de bloqueos"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Modos y Plan",
+  "t": "¿Qué son los modos?",
+  "a": "Hay cuatro modos predefinidos: Normal, Concentración, Sueño, Deporte. El tiempo de retención y el comportamiento de cada modo se configuran por separado. En la pestaña Plan, dentro de la sección Tus modos, puedes editarlos con Configurar › en la tarjeta del modo; además, con + Modo personalizado puedes añadir el tuyo propio.",
+  "q": [
+   "qué modos existen",
+   "para qué sirven los modos",
+   "crear modo personalizado",
+   "diferencias entre concentración y sueño"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Modos y Plan",
+  "t": "¿Cuánto dura un modo elegido manualmente?",
+  "a": "Si seleccionas tú mismo uno de los modos rápidos, permanecerá activo hasta que lo desactives; el plan programado no lo cambiará. Cuando quieras volver a la programación, toca el botón Volver al plan.",
+  "q": [
+   "cuánto dura un modo manual",
+   "por qué no cambia de modo automáticamente",
+   "volver a la programación",
+   "desactivar modo manual"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Modos y Plan",
+  "t": "¿Cómo configuro el plan semanal?",
+  "a": "En la pestaña Plan se muestran los días de la semana y los bloques horarios. Toca un día y arrastra los extremos de los bloques para ajustar las horas. Con los botones + Modo, + Específico para hoy y + Hora de entrega puedes añadir nuevos bloques o una hora de entrega.",
+  "q": [
+   "programar horario semanal",
+   "cambiar horas del plan",
+   "añadir bloque de horas",
+   "establecer rutina semanal"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Modos y Plan",
+  "t": "Añadir un intervalo de modo desde la esfera",
+  "a": "Toca el botón + junto a la esfera en Flujo. Elige un intervalo en la esfera (p. ej., 18:00–24:00 Concentración, 00:00–06:00 Sueño); las horas avanzan en pasos de 15 minutos. Si hay conflicto con otro intervalo, aparecerá un aviso. Podrás editar o borrar los intervalos que añadas más adelante.",
+  "q": [
+   "añadir horario desde la esfera",
+   "poner modo en el reloj",
+   "programar intervalo rápido",
+   "configurar modo en la rueda"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Modos y Plan",
+  "t": "¿Cómo cambio las horas de entrega?",
+  "a": "En Plan, dentro del panel Configurar › de la tarjeta del modo, pulsa en el enlace Editar horas de entrega y ritmo del día ›. Las notificaciones pendientes se entregarán en su estado original en la siguiente hora de entrega disponible.",
+  "q": [
+   "cambiar hora de entrega de notificaciones",
+   "a qué hora me llegan los mensajes pausados",
+   "modificar entregas programadas",
+   "ajustar ritmo del día"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Modos y Plan",
+  "t": "Trabajo por turnos",
+  "a": "En las herramientas de Plan tienes la opción Turnos. Introduces tu ciclo y los horarios de turno una sola vez; ha!shh calcula automáticamente en qué turno estás cada día. Cuando está activo, en Plan verás \"Turnos · hoy …\".",
+  "q": [
+   "horario rotativo o por turnos",
+   "trabajo a turnos cómo configurar",
+   "patrón de turnos rotativos",
+   "ajustar app para turnos de noche"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Modos y Plan",
+  "t": "¿Cómo consulto días pasados y futuros?",
+  "a": "Con la Vista mensual en las herramientas de Plan puedes navegar entre los meses. Podrás ver los datos de días anteriores y programar un plan personalizado para una fecha futura.",
+  "q": [
+   "ver calendario completo",
+   "consultar días anteriores",
+   "programar un día futuro",
+   "abrir vista mensual"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Modos y Plan",
+  "t": "Modo Deporte y escudo antispoiler",
+  "a": "En Plan, al tocar Configurar › en la tarjeta Deporte se abre Ajustes de deporte. Las notificaciones de las apps deportivas que elijas se pausarán hasta que termine el partido; las demás apps llegarán de forma normal. Si Activar modo spoiler está encendido, las apps de escudo elegidas también esperarán a que finalice el partido. Si quieres, puedes añadir palabras clave (p. ej., gol, resultado); esto solo funciona si diste permiso de contenido y se comprueba únicamente en tu teléfono.",
+  "q": [
+   "evitar spoilers de fútbol",
+   "cómo funciona el modo deporte",
+   "silenciar resultados de partidos",
+   "bloquear alertas de goles"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Archivo",
+  "t": "¿Qué es el Archivo y dónde está?",
+  "a": "Guarda en carpetas las notificaciones que quieras conservar, como cupones, facturas o gastos. Se abre desde el botón 📦 Archivo en la parte superior de la pestaña Historial o desde la tarjeta de archivo en Flujo. El archivo se guarda únicamente en este teléfono de forma cifrada.",
+  "q": [
+   "dónde está el archivo",
+   "para qué sirve el archivo de notificaciones",
+   "guardar recibos y cupones",
+   "acceder al archivo"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Archivo",
+  "t": "¿Cómo añado una notificación al archivo?",
+  "a": "Al revisar las notificaciones pendientes o en Historial, toca en Archivar › junto a una notificación y elige una carpeta. Puedes crear tu propia carpeta con ➕ Crear nueva carpeta...",
+  "q": [
+   "cómo archivar una notificación",
+   "guardar notificación en carpeta",
+   "crear carpeta en archivo",
+   "mover aviso a archivo"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Archivo",
+  "t": "Añadir automáticamente al archivo (reglas y grupos de archivo)",
+  "a": "En Archivo, con ⚙ Reglas se abre Reglas de archivo automático. Con + Añadir regla puedes crear reglas por aplicación, remitente o palabra clave; las notificaciones marcadas como leídas se enviarán solas a la carpeta correspondiente. ✨ Sugerir automáticamente te propone reglas útiles para ti.",
+  "q": [
+   "archivar notificaciones automáticamente",
+   "crear regla de archivado automático",
+   "guardar facturas automáticamente",
+   "reglas para carpetas del archivo"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Archivo",
+  "t": "Cartera de cupones",
+  "a": "Al entrar en la carpeta Cupones dentro de Archivo, arriba del todo aparece Cartera de cupones y ofertas. Los códigos de cupón activos se reúnen aquí y recibirás un recordatorio cuando se acerque su fecha de vencimiento.",
+  "q": [
+   "dónde están mis cupones guardados",
+   "ver códigos de descuento",
+   "cartera de promociones",
+   "recordatorio de vencimiento de cupones"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Archivo",
+  "t": "Filtrar por app y buscar en el archivo",
+  "a": "En Archivo, con 📱 Por aplicación puedes seleccionar una app para ver únicamente sus registros (p. ej., solo tu correo). Con el cuadro de búsqueda puedes buscar por nombre de la aplicación.",
+  "q": [
+   "buscar en el archivo",
+   "filtrar archivo por app",
+   "encontrar notificación archivada",
+   "ver solo notificaciones de una app"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Archivo",
+  "t": "Exportar el archivo y guardarlo en Drive",
+  "a": "En Archivo, al pulsar Exportar archivo aparecen tres opciones: 🔒 Archivo cifrado (.hashh), que lleva contraseña y es el formato recomendado, JSON sin cifrar (.json) y CSV sin cifrar (.csv · Excel / Hoja de cálculo). Puedes guardar el archivo generado donde quieras (como Google Drive) desde el menú de compartir de Android. ha!shh nunca envía el archivo a ningún sitio por su cuenta.",
+  "q": [
+   "exportar archivo a drive",
+   "hacer copia de notificaciones archivadas",
+   "guardar archivo en excel o csv",
+   "descargar datos del archivo"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Privacidad y seguridad",
+  "t": "Bloqueo por huella",
+  "a": "Ajustes → Bloqueo por huella. Hay tres opciones: Desactivado, Solo archivo y contenido de notificaciones, Toda la aplicación (en cada inicio). El bloqueo se puede abrir con huella dactilar, reconocimiento facial o el código de tu teléfono.",
+  "q": [
+   "proteger app con huella",
+   "bloquear acceso con huella o pin",
+   "poner contraseña a ha!shh",
+   "bloquear notificaciones privadas"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Privacidad y seguridad",
+  "t": "Guardar contenido en el historial",
+  "a": "En Ajustes → Contenido y tranquilidad → Guardar contenido en el historial puedes conservar los textos de las notificaciones de forma cifrada durante 1 o 7 días. Al cumplirse el plazo o desactivar el permiso, se eliminan. Este ajuste solo funciona si Mostrar contenido de las notificaciones está activado.",
+  "q": [
+   "guardar texto de notificaciones en historial",
+   "cuánto tiempo se guarda el contenido",
+   "borrar historial de mensajes",
+   "conservar mensajes por días"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Barra de notificaciones y accesos directos",
+  "t": "¿Qué es el aviso silencioso?",
+  "a": "Es una única línea silenciosa en la barra de notificaciones para las notificaciones pausadas: muestra de quién tienes avisos, cuántos son y cuándo es la primera entrega. En Ajustes → Aviso silencioso puedes elegir Desactivado, Apps seleccionadas… o Todas las notificaciones pendientes. Si los iconos de app están activados, al expandir la línea verás los iconos de las aplicaciones que tienen avisos pendientes.",
+  "q": [
+   "qué es el aviso silencioso",
+   "notificación fija en la barra de estado",
+   "mostrar resumen en barra de notificaciones",
+   "ocultar aviso persistente"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Barra de notificaciones y accesos directos",
+  "t": "Notificaciones en tiempo real, como pedidos",
+  "a": "Si cierras por error notificaciones de progreso continuo (como «tu pedido se está preparando»), las encontrarás en Historial con la etiqueta \"notificación en vivo\". Al tocar la fila, se abrirá la aplicación correspondiente.",
+  "q": [
+   "recuperar notificación de comida o pedido",
+   "cerré el aviso del pedido por error",
+   "dónde ver notificaciones en directo",
+   "seguimiento de entregas borrado"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Barra de notificaciones y accesos directos",
+  "t": "Botón de ajustes rápidos",
+  "a": "En Ajustes → Herramientas → Botón de ajustes rápidos puedes añadir un botón de ha!shh al panel de notificaciones. El botón indica la cantidad de avisos pendientes y el nivel de actividad; en ese mismo apartado puedes elegir qué ocurre al tocarlo (abrir pendientes, cambiar de modo, entregar de inmediato).",
+  "q": [
+   "añadir botón en ajustes rápidos",
+   "mosaico de ha!shh en barra de notificaciones",
+   "icono de acceso rápido en el panel",
+   "personalizar botón rápido"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Barra de notificaciones y accesos directos",
+  "t": "Modo según Wi-Fi",
+  "a": "Ajustes → Herramientas → Modo según Wi-Fi te explica paso a paso cómo cambiar de modo automáticamente al conectarte a una red Wi-Fi concreta mediante la app de rutinas de tu teléfono (p. ej., Rutinas de Samsung).",
+  "q": [
+   "cambiar modo al conectar wifi",
+   "activar concentración al llegar al trabajo",
+   "rutinas automáticas con wifi",
+   "cambio de modo por red"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Apariencia",
+  "t": "Cambiar de tema",
+  "a": "En Ajustes → Apariencia tienes los temas Papel, Claro, Oscuro, Sistema, además de Noche (Terciopelo petróleo) y Día (Papel crema). Al cambiar de tema, se te preguntará si quieres que el icono de la pantalla de inicio cambie también para hacer juego.",
+  "q": [
+   "cambiar tema de la app",
+   "poner modo oscuro",
+   "cambiar colores de ha!shh",
+   "tema noche o papel"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Apariencia",
+  "t": "Icono de la app",
+  "a": "En Ajustes → Icono de la app puedes elegir el color del icono en la pantalla de inicio. En algunos teléfonos (como Samsung), al cambiar el icono se quita de la pantalla de inicio y vuelve a la lista de aplicaciones; tendrás que volver a colocarlo desde allí.",
+  "q": [
+   "cambiar icono de la app",
+   "el icono desapareció de la pantalla",
+   "color del icono de ha!shh",
+   "personalizar icono"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Apariencia",
+  "t": "Vista simple",
+  "a": "Cuando activas Ajustes → Contenido y tranquilidad → Vista simple, en Flujo solo quedan la esfera, un único botón y los pendientes; las pestañas Reglas y Plan se ocultan. Tus reglas siguen funcionando con normalidad.",
+  "q": [
+   "activar vista minimalista",
+   "qué es la vista simple",
+   "simplificar pantalla principal",
+   "ocultar pestañas de reglas y plan"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Apariencia",
+  "t": "Interfaz simple con batería baja",
+  "a": "Si Ajustes → Interfaz simple con batería baja está activado, ha!shh pasa automáticamente a la vista simple cuando el teléfono entra en modo de ahorro de energía.",
+  "q": [
+   "ahorro de batería en la app",
+   "interfaz ligera con poca batería",
+   "modo simple automático",
+   "por qué cambió la interfaz sola"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Invitaciones",
+  "t": "¿Cómo invito a un amigo?",
+  "a": "Ajustes → Invita y gana recompensas. Verás tu código en Tu código de invitación; puedes compartirlo por la app que quieras con Invitar o tocar en Copiar código.",
+  "q": [
+   "cómo invitar amigos",
+   "dónde está mi código de invitación",
+   "compartir ha!shh con amigos",
+   "invitar a alguien"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Invitaciones",
+  "t": "¿Cómo sube mi número de invitados?",
+  "a": "Tu amigo instala la app e introduce tu código en Tengo un código de invitación. En su teléfono se genera un código de agradecimiento que debe enviarte (Enviar código de agradecimiento). Tú escribes ese código en Introducir código de agradecimiento y pulsas Añadir. La misma persona no puede contarse dos veces.",
+  "q": [
+   "cómo registrar una invitación",
+   "dónde pongo el código de agradecimiento",
+   "por qué no aumenta mi contador de invitados",
+   "confirmar código de amigo"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Invitaciones",
+  "t": "¿Cuáles son las recompensas?",
+  "a": "Con 1 invitación, la insignia Primera invitación; con 3, el fondo Fondo de papel; con 5, la insignia Círculo silencioso; con 7, el fondo Fondo de noche; con 10, la insignia Embajador de ha!shh. Tu amigo invitado también recibe la insignia \"Llegaste por invitación\". Los fondos de pantalla se activan como fondo de Flujo en Ajustes → Apariencia → Fondo de pantalla de Flujo; si quieres, puedes descargarlos como PNG con Guardar fondo de pantalla como imagen.",
+  "q": [
+   "premios por invitar amigos",
+   "qué recompensas hay",
+   "cómo desbloquear fondos de pantalla",
+   "insignias de invitación"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Copia de seguridad",
+  "t": "¿Cómo hago una copia de seguridad de mis reglas?",
+  "a": "Ajustes → Copia de seguridad → Exportar a archivo. Tus reglas, modos y horario se guardan en un archivo. No hay copia en la nube y el contenido de las notificaciones no se incluye.",
+  "q": [
+   "hacer copia de seguridad",
+   "guardar mis reglas",
+   "respaldar configuración",
+   "exportar datos de la app"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Copia de seguridad",
+  "t": "¿Cómo restauro desde una copia de seguridad?",
+  "a": "En Ajustes → Copia de seguridad → Importar desde archivo, selecciona tu archivo de copia. La app te mostrará el contenido; Combinar conserva y actualiza tus reglas actuales, mientras que Reemplazar las sustituye todas por las del archivo.",
+  "q": [
+   "restaurar copia de seguridad",
+   "cómo recuperar mis reglas",
+   "importar archivo de respaldo",
+   "diferencia entre combinar y reemplazar"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Copia de seguridad",
+  "t": "Compartir plantilla de reglas",
+  "a": "Con Ajustes → Copia de seguridad → Compartir plantilla de reglas puedes pasarle tus reglas a un amigo. No incluye ningún contenido de notificaciones.",
+  "q": [
+   "compartir mis reglas con alguien",
+   "enviar plantilla de configuración",
+   "pasar reglas a un amigo",
+   "exportar plantilla"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Otros",
+  "t": "Enviar comentarios",
+  "a": "Ajustes → Enviar comentarios abre tu aplicación de correo con un mensaje preparado. No se adjuntan tus reglas ni el contenido de tus notificaciones; puedes revisar y editar el correo antes de enviarlo.",
+  "q": [
+   "contactar con soporte",
+   "enviar sugerencia o error",
+   "escribir a los desarrolladores",
+   "dar opinión de la app"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Otros",
+  "t": "Código promocional",
+  "a": "En Ajustes → Herramientas → Canjear código promocional activas tu código promocional de Google Play a través de Play Store.",
+  "q": [
+   "canjear código",
+   "dónde meter código promocional",
+   "activar código de google play",
+   "usar cupón de descuento"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Pausa y entrega",
+  "t": "Las notificaciones no se pausan, llegan de inmediato",
+  "a": "El motivo más común es que se haya desactivado el acceso a notificaciones. Si en Ajustes → Permisos del dispositivo → Gestionar acceso a notificaciones dice \"Permiso necesario\", pulsa ahí y activa ha!shh. Comprueba también que esa app no tenga seleccionado De inmediato o No pausar nunca en la pestaña Reglas. Las llamadas, alarmas y notificaciones del sistema nunca se pausan por razones de seguridad.",
+  "q": [
+   "por qué me siguen sonando las notificaciones",
+   "las notificaciones no se retienen",
+   "me llegan los avisos al momento",
+   "la app no pausa nada"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Pausa y entrega",
+  "t": "Las notificaciones no llegaron a la hora de entrega",
+  "a": "Por lo general, el ahorro de batería del teléfono ha detenido ha!shh en segundo plano. Ve a Ajustes → Permisos del dispositivo → Batería y segundo plano; pulsa en Desactivar optimización de batería y, si reconoce tu marca, en Abrir ajustes específicos del dispositivo. La línea de Estado del sistema muestra el estado de la conexión; si dice \"Conexión perdida\", pulsa en Reconectar.",
+  "q": [
+   "no me llegan a la hora programada",
+   "notificaciones con retraso",
+   "la entrega programada no funcionó",
+   "por qué se retrasan las entregas"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Pausa y entrega",
+  "t": "Las entregas se retrasan en Samsung",
+  "a": "En los ajustes del teléfono, entra en Batería → Límites de uso en segundo plano y añade ha!shh a la lista de Aplicaciones que nunca entran en suspensión. Si está en la lista de Aplicaciones en suspensión, sácala de ahí. El botón Abrir ajustes específicos del dispositivo dentro de ha!shh te lleva directo a esa pantalla de Samsung.",
+  "q": [
+   "retrasos en móvil samsung",
+   "ha!shh no funciona bien en samsung",
+   "configurar batería en samsung",
+   "quitar ha!shh de suspensión"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Pausa y entrega",
+  "t": "Las entregas se retrasan en Xiaomi, Redmi o POCO",
+  "a": "En los ajustes del teléfono, ve a Aplicaciones → ha!shh, activa Inicio automático y pon el Ahorro de batería en Sin restricciones. Bloquear ha!shh en la pantalla de aplicaciones recientes también ayuda. El botón Abrir ajustes específicos del dispositivo dentro de ha!shh abre directamente la pantalla correspondiente de Xiaomi.",
+  "q": [
+   "problemas de entrega en xiaomi",
+   "retraso de notificaciones en redmi o poco",
+   "inicio automático xiaomi ha!shh",
+   "ajustes de batería miui"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Pausa y entrega",
+  "t": "Las entregas se retrasan en Huawei o Honor",
+  "a": "En los ajustes del teléfono, entra en Batería → Inicio de aplicaciones, desactiva la gestión automática para ha!shh y activa las opciones Inicio automático, Inicio secundario y Ejecutar en segundo plano. El botón Abrir ajustes específicos del dispositivo en ha!shh intenta abrir esta pantalla.",
+  "q": [
+   "notificaciones tarde en huawei",
+   "optimización de batería en honor",
+   "mantener ha!shh activo en huawei",
+   "inicio de apps huawei"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Pausa y entrega",
+  "t": "Las entregas se retrasan en Oppo, Realme, OnePlus o Vivo",
+  "a": "En los ajustes del teléfono, activa para ha!shh las opciones Inicio automático y Permitir actividad en segundo plano, y desactiva la optimización de batería. El botón Abrir ajustes específicos del dispositivo en ha!shh intentará abrir la pantalla correspondiente de tu marca.",
+  "q": [
+   "retraso en oppo realme o oneplus",
+   "notificaciones no llegan a tiempo en vivo",
+   "configurar segundo plano oppo",
+   "desactivar ahorro de batería realme"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Pausa y entrega",
+  "t": "He reiniciado el teléfono, ¿qué pasó con las notificaciones pendientes?",
+  "a": "Tras reiniciar, ha!shh comprueba y restaura automáticamente los registros pendientes. Si alguna notificación no se pudiera restaurar, recibirás el aviso \"Comprueba las notificaciones atrasadas\"; en ese caso, solo tienes que abrir las apps afectadas para revisarlas.",
+  "q": [
+   "qué pasa si apago el móvil",
+   "he reiniciado y no veo mis notificaciones",
+   "se pierden los avisos al reiniciar",
+   "recuperar pendientes tras reinicio"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Pausa y entrega",
+  "t": "¿Ha cambiado solo el modo que elegí manualmente?",
+  "a": "El modo seleccionado manualmente permanece activo hasta que tú lo desactives; el plan programado no lo modifica. Para volver a la programación habitual, pulsa el botón Volver al plan.",
+  "q": [
+   "el modo manual se ha cambiado",
+   "por qué sigue en el mismo modo",
+   "no cambia al horario automático",
+   "cómo quitar el modo manual"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Uygulamalar ve kurallar",
+  "t": "Una aplicación no aparece en la lista",
+  "a": "Prueba a escribir el nombre de la aplicación en el cuadro de búsqueda. Si la app no está instalada o nunca ha enviado ninguna notificación, es posible que no figure en la lista; compruébalo de nuevo tras recibir su primera notificación. También puede estar dentro de una categoría: toca en la categoría dentro de Reglas para ver sus aplicaciones.",
+  "q": [
+   "no encuentro una app en la lista",
+   "falta una aplicación en reglas",
+   "por qué no sale mi app",
+   "buscar aplicación que no aparece"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Uygulamalar ve kurallar",
+  "t": "No aparece ningún tipo en el filtro de tipos",
+  "a": "Los tipos se van detectando a medida que la aplicación te envía notificaciones de cada clase. Espera a recibir un par de notificaciones y vuelve a mirar en Reglas → aplicación → Elegir tipo ›. La distinción se basa en el tipo de notificación que envía la app, nunca se lee el contenido.",
+  "q": [
+   "no salen opciones en filtro de tipo",
+   "filtro de tipos vacío",
+   "por qué no aparecen tipos de notificación",
+   "configurar categorías de aviso"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Uygulamalar ve kurallar",
+  "t": "Bloqueé una aplicación de forma permanente y quiero recuperarla",
+  "a": "En la pantalla Ajustes → Herramientas → Bloqueados, entra en la pestaña Aplicaciones bloqueadas y toca en Desbloquear.",
+  "q": [
+   "cómo desbloquear una app",
+   "quitar app de lista negra",
+   "recuperar app bloqueada",
+   "deshacer bloqueo permanente"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Privacidad y bloqueo",
+  "t": "La opción de bloqueo por huella no aparece o no funciona",
+  "a": "Para poder usar el bloqueo, tu teléfono debe tener configurado un bloqueo de pantalla (huella, PIN o patrón) y contar con Android 9 o superior. Tras activar el bloqueo de pantalla en los ajustes de tu teléfono, vuelve a probar desde Ajustes → Bloqueo por huella.",
+  "q": [
+   "no funciona el bloqueo por huella",
+   "no puedo poner huella",
+   "opción de huella dactilar desaparecida",
+   "activar seguridad biométrica"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Privacidad y bloqueo",
+  "t": "No se ve el contenido de las notificaciones",
+  "a": "Por defecto, el contenido está oculto. Activa Ajustes → Contenido y tranquilidad → Mostrar contenido de las notificaciones. Si además quieres poder leerlo en el Historial, selecciona 1 o 7 días en Guardar contenido en el historial.",
+  "q": [
+   "no puedo leer el texto de la notificación",
+   "mostrar mensaje en los avisos",
+   "por qué no veo el contenido",
+   "activar vista previa del mensaje"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Privacidad y bloqueo",
+  "t": "La captura de pantalla de la pantalla Historial sale negra",
+  "a": "No es un error, es una medida de protección de privacidad. En las pantallas capaces de mostrar contenido de notificaciones (Historial, archivo, pantalla de lectura) y cuando el bloqueo está activado, se bloquean las capturas de pantalla para evitar que tus datos privados se filtren a otras aplicaciones.",
+  "q": [
+   "captura de pantalla sale negra",
+   "por qué no puedo hacer pantallazo",
+   "pantalla en negro al hacer captura",
+   "captura bloqueada por seguridad"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Privacidad y bloqueo",
+  "t": "¿Por qué ha!shh no pide permiso de internet?",
+  "a": "La app se diseñó deliberadamente sin permiso de internet. Tus notificaciones, reglas y archivo nunca se envían a ningún servidor fuera de tu teléfono. Si quieres extraer algún archivo (copia de seguridad o archivo cifrado), lo haces tú mismo usando el menú de compartir del sistema.",
+  "q": [
+   "por qué no usa internet",
+   "es segura la app con mis datos",
+   "ha!shh envía mis notificaciones a la nube",
+   "privacidad de mis mensajes"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Archivo",
+  "t": "¿Dónde está el archivo?",
+  "a": "Toca el botón 📦 Archivo situado en la parte superior de la pestaña Historial. También puedes abrirlo desde la tarjeta de archivo en Flujo.",
+  "q": [
+   "cómo entrar al archivo",
+   "dónde veo mis archivos guardados",
+   "abrir la sección archivo",
+   "dónde encontrar el archivo"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Archivo",
+  "t": "Quiero guardar el archivo en Google Drive",
+  "a": "En Archivo, toca en Exportar archivo y elige un formato; el más seguro es 🔒 Archivo cifrado (.hashh). En el menú de compartir que aparece, selecciona Drive. El archivo nunca se sube a internet ni a una copia de seguridad por sí solo; solo se exporta si tú lo decides.",
+  "q": [
+   "subir archivo a google drive",
+   "guardar notificaciones en la nube",
+   "hacer copia del archivo en drive",
+   "exportar datos a drive"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Archivo",
+  "t": "No puedo añadir aplicaciones a una nueva carpeta de archivo",
+  "a": "En Archivo, puedes añadir y quitar aplicaciones de una carpeta mediante la opción ⚙ Editar aplicaciones.",
+  "q": [
+   "meter apps en carpeta de archivo",
+   "no puedo asignar app a carpeta",
+   "editar apps de una carpeta",
+   "gestionar carpetas de archivo"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Archivo",
+  "t": "No aparece ningún cupón en el archivo",
+  "a": "Los cupones se recopilan a partir de las notificaciones archivadas en la carpeta Cupones. Añade la notificación a Cupones mediante Archivar › o crea una regla automática para tus tiendas desde ⚙ Reglas → + Añadir regla.",
+  "q": [
+   "no veo mis cupones",
+   "cómo guardar cupones de descuento",
+   "por qué está vacía la cartera de cupones",
+   "archivar códigos de tiendas"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Notificaciones en vivo",
+  "t": "Cerré por error la notificación de un pedido",
+  "a": "En la pestaña Historial verás esa notificación con la etiqueta \"notificación en vivo\". Al pulsar sobre la fila, se abrirá la aplicación donde hiciste el pedido para que puedas consultar el estado actualizado.",
+  "q": [
+   "he borrado el aviso del pedido",
+   "recuperar notificación de comida a domicilio",
+   "dónde ver el estado de mi envío",
+   "seguimiento de pedido cerrado"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Notificaciones en vivo",
+  "t": "Al tocar una notificación vuelve a la pantalla de inicio",
+  "a": "Tanto en la lista de pendientes como en Historial, al pulsar sobre una notificación se abre la aplicación de la que provino.",
+  "q": [
+   "al pulsar notificación no abre la app",
+   "tocar aviso va a inicio",
+   "cómo abrir la app de una notificación",
+   "abrir mensaje desde la lista"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Invitaciones",
+  "t": "El código de invitación no fue aceptado",
+  "a": "Puedes escribir el código con o sin guiones; no distingue entre mayúsculas y minúsculas. No puedes introducir tu propio código y cada código de invitación solo puede usarse una vez. Si sigue dando error, puede que hayas escrito mal alguna letra; ha!shh detecta errores de un solo carácter, así que pídele a tu amigo que vuelva a copiarte el código.",
+  "q": [
+   "código de invitación no funciona",
+   "error al meter código de amigo",
+   "código no válido ha!shh",
+   "por qué no acepta el código"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Invitaciones",
+  "t": "El código de agradecimiento dice «Este código no te pertenece o es incorrecto»",
+  "a": "El código de agradecimiento se genera exclusivamente a partir del código de la persona que te invitó; el código de otra persona no se sumará a tu cuenta. Pídele a tu amigo que vuelva a pasártelo con Reenviar mi código de agradecimiento. Si aparece \"Esta invitación ya fue contabilizada\", significa que esa persona ya se había sumado a tu cuenta.",
+  "q": [
+   "error código de agradecimiento",
+   "código no te pertenece o incorrecto",
+   "este código ya fue contabilizado",
+   "no suma mi código de agradecimiento"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Copia de seguridad y cambio de móvil",
+  "t": "¿Cómo restauro desde una copia de seguridad?",
+  "a": "En Ajustes → Copia de seguridad → Importar desde archivo, selecciona tu archivo de copia. Combinar conserva y actualiza tus reglas actuales, mientras que Reemplazar sustituye todo por lo que haya en la copia. Si el archivo está dañado o es demasiado grande (más de 512 KB), la aplicación te avisará.",
+  "q": [
+   "cómo cargar una copia de seguridad",
+   "restaurar archivo de respaldo",
+   "recuperar configuración guardada",
+   "importar reglas desde archivo"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Copia de seguridad y cambio de móvil",
+  "t": "Voy a cambiar de teléfono, ¿qué pasará con mis ajustes?",
+  "a": "En el teléfono antiguo, ve a Ajustes → Copia de seguridad → Exportar a archivo y pasa ese archivo al teléfono nuevo (p. ej., por Drive o cable). Instala ha!shh en el móvil nuevo y cárgalo desde Importar desde archivo. Para transferir también el archivo de notificaciones, usa Exportar archivo → 🔒 Archivo cifrado (.hashh) en el teléfono antiguo. Tendrás que volver a conceder los permisos de notificaciones y batería en el nuevo teléfono.",
+  "q": [
+   "pasar ha!shh a móvil nuevo",
+   "cambiar de teléfono transferir datos",
+   "migrar reglas a otro dispositivo",
+   "cómo pasar mi configuración a otro móvil"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Copia de seguridad y cambio de móvil",
+  "t": "Quiero borrar todos mis datos",
+  "a": "Ajustes → Copia de seguridad → Eliminar todos los datos locales. Se borrarán tus reglas, historial, notificaciones pendientes y preferencias; esta acción no se puede deshacer. Si quieres guardar algo antes, utiliza Exportar a archivo.",
+  "q": [
+   "cómo borrar todos los datos",
+   "restablecer app de fábrica",
+   "eliminar historial y reglas",
+   "borrar todo en ha!shh"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Otros",
+  "t": "Cambié el icono de la app y desapareció de la pantalla de inicio",
+  "a": "En algunos teléfonos (como Samsung), al cambiar el icono se retira de la pantalla de inicio y vuelve a la lista de aplicaciones. Solo tienes que volver a arrastrar ha!shh desde la lista de aplicaciones a tu pantalla de inicio.",
+  "q": [
+   "el icono ha desaparecido",
+   "no encuentro la app en inicio",
+   "icono borrado tras cambiar color",
+   "icono de ha!shh no aparece"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Otros",
+  "t": "No encuentro el botón de ajustes rápidos",
+  "a": "Desliza dos veces hacia abajo la barra de notificaciones. Si el botón no aparece, desliza el panel hacia la derecha por si está en la página siguiente. Si sigue sin estar, vuelve a añadirlo desde Ajustes → Herramientas → Botón de ajustes rápidos.",
+  "q": [
+   "dónde está el botón de ajustes rápidos",
+   "no veo el mosaico de la app",
+   "poner botón en barra superior",
+   "activar acceso directo en notificaciones"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Otros",
+  "t": "Quiero informar de un problema",
+  "a": "Ajustes → Enviar comentarios abrirá tu aplicación de correo con un mensaje preparado. No se adjuntarán tus reglas ni el contenido de tus notificaciones.",
+  "q": [
+   "reportar un fallo",
+   "cómo avisar de un error",
+   "comunicar un problema en la app",
+   "enviar bug a soporte"
+  ]
+ }
+]
