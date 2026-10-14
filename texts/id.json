@@ -214,7 +214,7 @@
         "p": "Konten notifikasi tidak dibaca secara default. Jika Anda ingin melihat apa yang sedang menunggu, aktifkan di Pengaturan."
       }
     ],
-    "priv_more_p": "Pengaturan dan catatan disimpan secara terenkripsi di ponsel. Arsip hanya menyimpan notifikasi yang Anda pilih, juga terenkripsi dan di ponsel. Menghapus instalan aplikasi akan menghapus seluruh datanya.",
+    "priv_more_p": "Pengaturan dan catatan disimpan secara terenkripsi di ponsel. Arsip hanya menyimpan notifikasi yang Anda simpan atau yang cocok dengan grup arsip buatan Anda sendiri, juga terenkripsi dan berada di ponsel; data hanya keluar dari ponsel jika Anda mengekspornya ke sebuah file. Menghapus instalan aplikasi akan menghapus datanya.",
     "priv_more": "Baca kebijakan privasi selengkapnya →",
     "status_eyebrow": "Status",
     "status_h": "Sedang dikembangkan, segera hadir di Google Play.",
@@ -628,8 +628,8 @@
         "a": "Android 8 ke atas. Kunci sidik jari membutuhkan Android 9 ke atas dan kunci layar (sidik jari, PIN, atau pola) yang telah diatur di ponsel."
       },
       {
-        "q": "Apakah notifikasi masuk ke arsip secara otomatis?",
-        "a": "Tidak. Hanya notifikasi yang Anda pilih untuk diarsipkan yang disimpan, terenkripsi dan di ponsel Anda. Anda dapat menambahkan folder, jumlah, dan tanggal jatuh tempo, serta menghapus item kapan saja."
+        "q": "Apakah notifikasi masuk ke arsip dengan sendirinya?",
+        "a": "Hanya jika Anda memintanya. Secara default, hanya notifikasi yang Anda pilih untuk diarsipkan yang akan disimpan. Jika Anda menyiapkan grup arsip (berdasarkan aplikasi, orang, atau kata yang Anda tulis), notifikasi yang Anda tandai telah dibaca dan cocok dengan suatu grup juga akan disimpan di sana. Arsip tetap terenkripsi di ponsel Anda dan hanya keluar jika Anda mengekspornya ke sebuah file. Anda dapat menambahkan folder, jumlah, dan tanggal jatuh tempo, serta menghapus item kapan saja."
       },
       {
         "q": "Apa yang terjadi jika saya menghapus instalan aplikasi?",
@@ -674,12 +674,24 @@
           "alt": "Pengaturan mode spoiler: aplikasi yang Anda pilih menunggu hingga pertandingan selesai."
         },
         {
-          "src": "2026-10-13-type-filter",
-          "alt": "Filter jenis notifikasi untuk Instagram: pesan langsung, suka dan komentar pada waktu pengiriman."
+          "src": "2026-10-13-wallet",
+          "alt": "Dompet kupon: kode aktif dalam satu daftar, siap disalin."
+        },
+        {
+          "src": "2026-10-13-archive-groups",
+          "alt": "Arsip: notifikasi tersimpan dalam folder, lengkap dengan total bulan ini."
         },
         {
           "src": "2026-10-13-export",
           "alt": "Ekspor arsip: sebagai file yang dilindungi kata sandi atau file biasa."
+        },
+        {
+          "src": "2026-10-13-type-filter",
+          "alt": "Filter jenis notifikasi untuk Instagram: pesan langsung, suka dan komentar pada waktu pengiriman."
+        },
+        {
+          "src": "2026-10-13-calendar-day",
+          "alt": "Detail hari kalender: mode dan waktu pengantaran pada hari tersebut."
         }
       ]
     },

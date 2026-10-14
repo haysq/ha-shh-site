@@ -214,7 +214,7 @@
         "p": "El contenido de las notificaciones no se lee de forma predeterminada. Si quieres ver lo que está en espera, lo activas en Ajustes."
       }
     ],
-    "priv_more_p": "Los ajustes y los registros se guardan cifrados en el teléfono. El archivo conserva solo las notificaciones que elijas, también cifradas y en el teléfono. Al desinstalar la app se borran todos sus datos.",
+    "priv_more_p": "Los ajustes y registros se guardan cifrados en el teléfono. El archivo solo conserva las notificaciones que tú guardas o que coinciden con tus grupos de archivo, también cifradas y en el teléfono; solo salen de él si las exportas a un archivo. Desinstalar la app elimina sus datos.",
     "priv_more": "Leer la política de privacidad completa →",
     "status_eyebrow": "Estado",
     "status_h": "En desarrollo, próximamente en Google Play.",
@@ -628,8 +628,8 @@
         "a": "En Android 8 y versiones posteriores. El bloqueo por huella requiere Android 9 o posterior y tener configurado un bloqueo de pantalla (huella dactilar, PIN o patrón) en el teléfono."
       },
       {
-        "q": "¿Las notificaciones van al archivo por su cuenta?",
-        "a": "No. Solo se guardan las notificaciones que tú decides archivar, cifradas y en tu teléfono. Puedes añadir una carpeta, un importe y una fecha de vencimiento, y eliminar elementos en cualquier momento."
+        "q": "¿Las notificaciones van al archivo por sí solas?",
+        "a": "Solo si tú lo decides. De forma predeterminada, solo se guardan las notificaciones que eliges archivar. Si configuras grupos de archivo (por app, persona o una palabra que escribas), las notificaciones que marques como leídas y coincidan con un grupo también se guardarán allí. El archivo permanece cifrado en tu teléfono y solo sale de él si lo exportas a un archivo. Puedes añadir una carpeta, un importe y una fecha de vencimiento, así como eliminar elementos en cualquier momento."
       },
       {
         "q": "¿Qué ocurre si desinstalo la app?",
@@ -674,12 +674,24 @@
           "alt": "Ajustes del modo spoiler: las aplicaciones que elijas esperan a que termine el partido."
         },
         {
-          "src": "2026-10-13-type-filter",
-          "alt": "Filtro por tipo de notificación en Instagram: mensajes al instante, me gusta y comentarios a la hora de entrega."
+          "src": "2026-10-13-wallet",
+          "alt": "Cartera de cupones: códigos activos en una sola lista, listos para copiar."
+        },
+        {
+          "src": "2026-10-13-archive-groups",
+          "alt": "El archivo: notificaciones guardadas en carpetas, con el total de este mes."
         },
         {
           "src": "2026-10-13-export",
           "alt": "Exportar el archivo: protegido con contraseña o como archivo normal."
+        },
+        {
+          "src": "2026-10-13-type-filter",
+          "alt": "Filtro por tipo de notificación en Instagram: mensajes al instante, me gusta y comentarios a la hora de entrega."
+        },
+        {
+          "src": "2026-10-13-calendar-day",
+          "alt": "Detalles del día en el calendario: modos y horas de entrega de ese día."
         }
       ]
     },

@@ -214,7 +214,7 @@
         "p": "Benachrichtigungsinhalte werden standardmäßig nicht gelesen. Wenn du sehen möchtest, was wartet, schaltest du das in den Einstellungen ein."
       }
     ],
-    "priv_more_p": "Einstellungen und Protokolle werden verschlüsselt auf dem Telefon gespeichert. Das Archiv behält nur die von dir ausgewählten Benachrichtigungen – ebenfalls verschlüsselt und lokal. Bei der Deinstallation der App werden alle Daten gelöscht.",
+    "priv_more_p": "Einstellungen und Einträge werden verschlüsselt auf dem Telefon gespeichert. Das Archiv enthält nur die Benachrichtigungen, die du speicherst oder die deinen eigenen Archivgruppen entsprechen, ebenfalls verschlüsselt und auf dem Telefon; es verlässt das Telefon nur, wenn du es in eine Datei exportierst. Wenn du die App deinstallierst, werden ihre Daten gelöscht.",
     "priv_more": "Vollständige Datenschutzerklärung lesen →",
     "status_eyebrow": "Status",
     "status_h": "In Entwicklung, demnächst auf Google Play.",
@@ -628,8 +628,8 @@
         "a": "Auf Geräten mit Android 8 und neuer. Die Fingerabdruck-Sperre erfordert Android 9 oder neuer und eine auf dem Telefon eingerichtete Bildschirmsperre (Fingerabdruck, PIN oder Muster)."
       },
       {
-        "q": "Gelangen Benachrichtigungen von allein ins Archiv?",
-        "a": "Nein. Es werden nur Benachrichtigungen gespeichert, die du selbst archivierst – verschlüsselt und auf deinem Smartphone. Du kannst einen Ordner, einen Betrag und ein Fälligkeitsdatum hinzufügen und Einträge jederzeit löschen."
+        "q": "Landen Benachrichtigungen von selbst im Archiv?",
+        "a": "Nur wenn du es möchtest. Standardmäßig werden nur Benachrichtigungen gespeichert, die du selbst archivierst. Wenn du Archivgruppen einrichtest (nach App, Person oder einem festgelegten Begriff), werden dort auch Benachrichtigungen gespeichert, die du als gelesen markierst und die zu einer Gruppe passen. Das Archiv bleibt verschlüsselt auf deinem Telefon und verlässt es nur, wenn du es in eine Datei exportierst. Du kannst jederzeit einen Ordner, einen Betrag und ein Fälligkeitsdatum hinzufügen sowie Einträge löschen."
       },
       {
         "q": "Was passiert, wenn ich die App deinstalliere?",
@@ -674,12 +674,24 @@
           "alt": "Einstellungen für den Spoiler-Modus: Die Apps, die du auswählst, warten, bis das Spiel endet."
         },
         {
-          "src": "2026-10-13-type-filter",
-          "alt": "Filter für Benachrichtigungstypen bei Instagram: Nachrichten sofort, Likes und Kommentare zur Zustellzeit."
+          "src": "2026-10-13-wallet",
+          "alt": "Gutschein-Wallet: Aktive Codes in einer Liste, bereit zum Kopieren."
+        },
+        {
+          "src": "2026-10-13-archive-groups",
+          "alt": "Das Archiv: Gespeicherte Benachrichtigungen in Ordnern, mit der Gesamtzahl dieses Monats."
         },
         {
           "src": "2026-10-13-export",
           "alt": "Exportieren des Archivs: als passwortgeschützte oder einfache Datei."
+        },
+        {
+          "src": "2026-10-13-type-filter",
+          "alt": "Filter für Benachrichtigungstypen bei Instagram: Nachrichten sofort, Likes und Kommentare zur Zustellzeit."
+        },
+        {
+          "src": "2026-10-13-calendar-day",
+          "alt": "Kalendertag-Details: Modi und Zustellzeiten dieses Tages."
         }
       ]
     },

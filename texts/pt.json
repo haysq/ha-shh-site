@@ -214,7 +214,7 @@
         "p": "O conteúdo das notificações não é lido por padrão. Se você quiser ver o que está aguardando, basta ativar nas Configurações."
       }
     ],
-    "priv_more_p": "Configurações e registros ficam armazenados criptografados no celular. O arquivo guarda apenas as notificações que você escolher, também criptografadas e no celular. Desinstalar o app apaga todos os dados.",
+    "priv_more_p": "As configurações e os registros ficam salvos criptografados no telefone. O arquivo mantém apenas as notificações que você salva ou que correspondem aos seus próprios grupos de arquivamento, também criptografadas e no telefone; só saem do telefone se você exportar para um arquivo. Desinstalar o aplicativo apaga os dados dele.",
     "priv_more": "Leia a política de privacidade completa →",
     "status_eyebrow": "Status",
     "status_h": "Em desenvolvimento, em breve no Google Play.",
@@ -629,7 +629,7 @@
       },
       {
         "q": "As notificações vão para o arquivo sozinhas?",
-        "a": "Não. Apenas as notificações que você escolher arquivar são salvas, de forma criptografada e no seu celular. Você pode adicionar uma pasta, um valor e uma data de vencimento, além de excluir itens a qualquer momento."
+        "a": "Só se você quiser. Por padrão, apenas as notificações que você decide arquivar são salvas. Se você configurar grupos de arquivamento (por app, pessoa ou uma palavra que você escrever), as notificações que você marcar como lidas e que corresponderem a um grupo também serão salvas lá. O arquivo continua criptografado no seu telefone e só sai dele se você exportar para um arquivo. Você pode adicionar uma pasta, um valor e uma data de vencimento, além de excluir itens a qualquer momento."
       },
       {
         "q": "O que acontece se eu desinstalar o app?",
@@ -674,12 +674,24 @@
           "alt": "Configurações do modo spoiler: os apps que você escolher esperam até o fim da partida."
         },
         {
-          "src": "2026-10-13-type-filter",
-          "alt": "Filtro por tipo de notificação no Instagram: mensagens na hora, curtidas e comentários no horário de entrega."
+          "src": "2026-10-13-wallet",
+          "alt": "Carteira de cupons: códigos ativos em uma lista, prontos para copiar."
+        },
+        {
+          "src": "2026-10-13-archive-groups",
+          "alt": "O arquivo: notificações salvas em pastas, com o total deste mês."
         },
         {
           "src": "2026-10-13-export",
           "alt": "Exportar o arquivo: protegido por senha ou como um arquivo comum."
+        },
+        {
+          "src": "2026-10-13-type-filter",
+          "alt": "Filtro por tipo de notificação no Instagram: mensagens na hora, curtidas e comentários no horário de entrega."
+        },
+        {
+          "src": "2026-10-13-calendar-day",
+          "alt": "Detalhes do dia no calendário: modos e horários de entrega daquele dia."
         }
       ]
     },

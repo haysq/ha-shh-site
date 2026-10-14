@@ -214,7 +214,7 @@
         "p": "Notification content is not read by default. If you want to see what is waiting, you turn it on in Settings."
       }
     ],
-    "priv_more_p": "Settings and records are stored encrypted on the phone. The archive keeps only the notifications you choose, also encrypted and on the phone. Uninstalling the app deletes its data.",
+    "priv_more_p": "Settings and records are stored encrypted on the phone. The archive keeps only the notifications you save or that match your own archive groups, also encrypted and on the phone; it leaves the phone only if you export it to a file. Uninstalling the app deletes its data.",
     "priv_more": "Read the full privacy policy →",
     "status_eyebrow": "Status",
     "status_h": "In development, coming soon on Google Play.",
@@ -629,7 +629,7 @@
       },
       {
         "q": "Do notifications go into the archive on their own?",
-        "a": "No. Only notifications you choose to archive are saved, encrypted and on your phone. You can add a folder, an amount and a due date, and delete items at any time."
+        "a": "Only if you ask for it. By default, only notifications you choose to archive are saved. If you set up archive groups (by app, person or a word you write), notifications you mark as read that match a group are saved there too. The archive stays encrypted on your phone and leaves it only if you export it to a file. You can add a folder, an amount and a due date, and delete items at any time."
       },
       {
         "q": "What happens if I uninstall the app?",
@@ -674,12 +674,24 @@
           "alt": "Spoiler mode settings: the apps you choose wait until the match ends."
         },
         {
-          "src": "2026-10-13-type-filter",
-          "alt": "Notification type filter for Instagram: messages right away, likes and comments at delivery time."
+          "src": "2026-10-13-wallet",
+          "alt": "Coupon wallet: active codes in one list, ready to copy."
+        },
+        {
+          "src": "2026-10-13-archive-groups",
+          "alt": "The archive: saved notifications in folders, with this month's total."
         },
         {
           "src": "2026-10-13-export",
           "alt": "Exporting the archive: as a password-protected or a plain file."
+        },
+        {
+          "src": "2026-10-13-type-filter",
+          "alt": "Notification type filter for Instagram: messages right away, likes and comments at delivery time."
+        },
+        {
+          "src": "2026-10-13-calendar-day",
+          "alt": "Calendar day details: that day's modes and delivery times."
         }
       ]
     },

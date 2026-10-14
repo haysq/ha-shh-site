@@ -214,7 +214,7 @@
         "p": "Bildirim içeriği varsayılan olarak okunmaz. Bekleyenlerin içeriğini görmek istersen Ayarlar'dan sen açarsın."
       }
     ],
-    "priv_more_p": "Ayarlar ve kayıtlar telefonda şifreli tutulur. Arşivde yalnız senin seçtiğin bildirimler, yine şifreli olarak telefonda saklanır. Uygulamayı kaldırınca verileri silinir.",
+    "priv_more_p": "Ayarlar ve kayıtlar telefonda şifreli tutulur. Arşivde yalnız senin kaydettiğin ya da kendi kurduğun arşiv gruplarına uyan bildirimler bulunur; bunlar da telefonda şifreli durur ve yalnız sen dosyaya aktarırsan telefondan çıkar. Uygulamayı kaldırınca verileri silinir.",
     "priv_more": "Gizlilik politikasının tamamı →",
     "status_eyebrow": "Durum",
     "status_h": "Geliştiriliyor, Google Play'de yakında.",
@@ -629,7 +629,7 @@
       },
       {
         "q": "Bildirimler kendiliğinden arşive girer mi?",
-        "a": "Hayır. Yalnız senin arşivlemeyi seçtiğin bildirimler, şifreli olarak telefonunda saklanır. Klasör, tutar ve son gün ekleyebilir, kayıtları istediğin zaman silebilirsin."
+        "a": "Yalnız sen istersen. Varsayılan olarak yalnız senin arşivlemeyi seçtiğin bildirimler kaydedilir. Arşiv grubu kurarsan (uygulamaya, kişiye ya da yazdığın bir kelimeye göre), “Okundu say” dediğin ve bir gruba uyan bildirimler de oraya kaydedilir. Arşiv telefonunda şifreli durur ve yalnız sen dosyaya aktarırsan telefondan çıkar. Klasör, tutar ve son gün ekleyebilir, kayıtları istediğin zaman silebilirsin."
       },
       {
         "q": "Uygulamayı kaldırırsam ne olur?",
@@ -674,12 +674,24 @@
           "alt": "Spoiler modu ayarları: seçtiğin uygulamalar maç bitene kadar bekler."
         },
         {
-          "src": "2026-10-13-type-filter",
-          "alt": "Instagram için bildirim türü filtresi: mesajlar hemen, beğeni ve yorumlar teslim saatinde."
+          "src": "2026-10-13-wallet",
+          "alt": "Kupon cüzdanı: etkin kodlar tek listede, kopyalamaya hazır."
+        },
+        {
+          "src": "2026-10-13-archive-groups",
+          "alt": "Arşiv: kaydedilen bildirimler klasörlerde, bu ayın toplamıyla."
         },
         {
           "src": "2026-10-13-export",
           "alt": "Arşivi dışa aktarma: parola korumalı ya da şifresiz dosya olarak."
+        },
+        {
+          "src": "2026-10-13-type-filter",
+          "alt": "Instagram için bildirim türü filtresi: mesajlar hemen, beğeni ve yorumlar teslim saatinde."
+        },
+        {
+          "src": "2026-10-13-calendar-day",
+          "alt": "Takvimde gün ayrıntısı: o günün modları ve teslim saatleri."
         }
       ]
     },

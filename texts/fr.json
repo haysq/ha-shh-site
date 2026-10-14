@@ -214,7 +214,7 @@
         "p": "Le contenu des notifications n'est pas lu par défaut. Si vous souhaitez voir ce qui attend, vous devez l'activer dans les Paramètres."
       }
     ],
-    "priv_more_p": "Les paramètres et l'historique sont enregistrés de façon chiffrée sur le téléphone. L'archive ne conserve que les notifications que vous choisissez d'enregistrer, également chiffrées et sur le téléphone. Désinstaller l'application supprime toutes ses données.",
+    "priv_more_p": "Les paramètres et les enregistrements sont stockés de manière chiffrée sur le téléphone. L'archive ne conserve que les notifications que vous enregistrez ou qui correspondent à vos propres groupes d'archivage, également chiffrées et sur le téléphone ; elles ne quittent le téléphone que si vous les exportez vers un fichier. La désinstallation de l'application supprime ses données.",
     "priv_more": "Lire toute la politique de confidentialité →",
     "status_eyebrow": "État du projet",
     "status_h": "En développement, bientôt disponible sur Google Play.",
@@ -628,8 +628,8 @@
         "a": "Android 8 et versions ultérieures. Le verrouillage par empreinte nécessite Android 9 ou version ultérieure et un verrouillage d'écran (empreinte, code PIN ou schéma) configuré sur le téléphone."
       },
       {
-        "q": "Les notifications vont-elles dans l'archive toutes seules ?",
-        "a": "Non. Seules les notifications que vous décidez d'archiver sont enregistrées, de manière chiffrée et sur votre téléphone. Vous pouvez ajouter un dossier, un montant et une date d'échéance, et supprimer des éléments à tout moment."
+        "q": "Les notifications vont-elles d'elles-mêmes dans les archives ?",
+        "a": "Uniquement si vous le demandez. Par défaut, seules les notifications que vous choisissez d'archiver sont enregistrées. Si vous configurez des groupes d'archivage (par application, personne ou mot que vous saisissez), les notifications que vous marquez comme lues et qui correspondent à un groupe y sont également enregistrées. L'archive reste chiffrée sur votre téléphone et ne le quitte que si vous l'exportez vers un fichier. Vous pouvez ajouter un dossier, un montant et une date d'échéance, et supprimer des éléments à tout moment."
       },
       {
         "q": "Que se passe-t-il si je désinstalle l'application ?",
@@ -674,12 +674,24 @@
           "alt": "Paramètres du mode spoiler : les applications que vous choisissez attendent la fin du match."
         },
         {
-          "src": "2026-10-13-type-filter",
-          "alt": "Filtre par type de notification pour Instagram : messages instantanés, mentions J'aime et commentaires à l'heure de distribution."
+          "src": "2026-10-13-wallet",
+          "alt": "Portefeuille de coupons : les codes actifs dans une seule liste, prêts à être copiés."
+        },
+        {
+          "src": "2026-10-13-archive-groups",
+          "alt": "Les archives : notifications enregistrées dans des dossiers, avec le total de ce mois-ci."
         },
         {
           "src": "2026-10-13-export",
           "alt": "Exportation de l'archive : protégée par mot de passe ou sous forme de fichier simple."
+        },
+        {
+          "src": "2026-10-13-type-filter",
+          "alt": "Filtre par type de notification pour Instagram : messages instantanés, mentions J'aime et commentaires à l'heure de distribution."
+        },
+        {
+          "src": "2026-10-13-calendar-day",
+          "alt": "Détails du jour dans le calendrier : modes et heures de distribution de cette journée."
         }
       ]
     },
