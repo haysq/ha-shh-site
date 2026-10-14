@@ -589,6 +589,10 @@
         "body": "<p>If you use <b>Send feedback</b> in Settings, your own email app opens with a prepared message. You write and send it yourself. Device information (manufacturer, model, Android version, app version) is added only if you tick that option. The email travels through your email provider. Notification content and your rules are never added. If you send the message, the developer sees your email address and uses it only to reply to you. Messages received at {email} are used only to reply to you and improve the app, and are not shared with third parties.</p>"
       },
       {
+        "h": "This website and its assistant",
+        "body": "<p>The website ha-shh.com has no ads, trackers or analytics. The help assistant answers from the texts on this site, inside your browser. Read-aloud runs on your device. Voice input uses your browser's own speech service; some browsers (such as Chrome) process the audio on their servers. If you choose to send a conversation, only its questions and answers and your optional note are saved, with the date, the page and whether you used a phone or a computer. No name, email address or IP address is saved. Conversations are kept for at most 12 months and are used only to improve the app and the assistant. To have yours deleted, write to {email} with the date and time.</p>"
+      },
+      {
         "h": "Export and backup",
         "body": "<p>You can save a backup of your rules and modes as a file. It includes mode names, hidden built-in modes and, for each mode, the apps, groups and categories that come through right away. You can also export your notification records (app, time and what was done). Neither of these files contains notification content. The archive has its own export, described above. Files go only to the app or folder you select. Android cloud backup is turned off for this app.</p>"
       },
@@ -796,6 +800,14 @@
       "Is it private?",
       "How much will it cost?",
       "What is new?"
-    ]
+    ],
+    "fb_btn": "Send this conversation to the team",
+    "fb_note": "Add a note (optional)",
+    "fb_send": "Send",
+    "fb_ok": "Thank you! Your conversation was sent.",
+    "fb_mail": "Open in email",
+    "fb_ask": "Shall we send this conversation to the ha!shh team? It helps us improve the app and this assistant. Only the questions and answers above (and your note, if you write one) are sent. No name, email address or IP address is saved.",
+    "fb_fail": "It couldn't be sent. You can email it to us instead:",
+    "fb_no": "No, thanks"
   }
 }

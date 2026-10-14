@@ -589,6 +589,10 @@
         "body": "<p>Se você usar <b>Enviar feedback</b> nas Configurações, o seu app de e-mail abre com uma mensagem preparada. Você mesmo escreve e envia. Informações do dispositivo (fabricante, modelo, versão do Android, versão do app) só são incluídas se você marcar essa opção. O e-mail viaja através do seu provedor de e-mail. O conteúdo das notificações e suas regras nunca são adicionados. Se você enviar a mensagem, o desenvolvedor vê seu endereço de e-mail e o usa apenas para responder a você. Mensagens recebidas em {email} são usadas apenas para responder a você e melhorar o app, e não são compartilhadas com terceiros.</p>"
       },
       {
+        "h": "Este site e seu assistente",
+        "body": "<p>O site ha-shh.com não tem anúncios, rastreadores ou análises. O assistente de ajuda responde a partir dos textos deste site, dentro do seu navegador. A leitura em voz alta é executada no seu dispositivo. A entrada de voz usa o serviço de voz do próprio navegador; alguns navegadores (como o Chrome) processam o áudio em seus servidores. Se você optar por enviar uma conversa, apenas as perguntas e respostas e sua anotação opcional serão salvas, com a data, a página e a informação se você usou um celular ou um computador. Nenhum nome, endereço de e-mail ou endereço IP é salvo. As conversas são mantidas por no máximo 12 meses e usadas apenas para melhorar o aplicativo e o assistente. Para excluir a sua, escreva para {email} informando a data e a hora.</p>"
+      },
+      {
         "h": "Exportação e backup",
         "body": "<p>Você pode salvar um backup das suas regras e modos como um arquivo. Ele inclui os nomes dos modos, modos integrados ocultos e, para cada modo, os apps, grupos e categorias que passam na hora. Você também pode exportar os registros das suas notificações (app, horário e o que foi feito). Nenhum desses arquivos contém o conteúdo das notificações. O arquivo tem a sua própria exportação, descrita acima. Os arquivos vão apenas para o app ou pasta que você selecionar. O backup na nuvem do Android está desativado para este app.</p>"
       },
@@ -796,6 +800,14 @@
       "É privado?",
       "Quanto vai custar?",
       "O que há de novo?"
-    ]
+    ],
+    "fb_btn": "Enviar esta conversa para a equipe",
+    "fb_note": "Adicionar uma anotação (opcional)",
+    "fb_send": "Enviar",
+    "fb_ok": "Obrigado! Sua conversa foi enviada.",
+    "fb_mail": "Abrir no e-mail",
+    "fb_ask": "Podemos enviar esta conversa para a equipe do ha!shh? Isso nos ajuda a melhorar o aplicativo e este assistente. Apenas as perguntas e respostas acima (e sua anotação, se você escrever uma) são enviadas. Nenhum nome, endereço de e-mail ou endereço IP é salvo.",
+    "fb_fail": "Não foi possível enviar. Em vez disso, você pode nos enviar por e-mail:",
+    "fb_no": "Não, obrigado"
   }
 }

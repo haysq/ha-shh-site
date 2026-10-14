@@ -589,6 +589,10 @@
         "body": "<p>Jika Anda menggunakan <b>Kirim masukan</b> di Pengaturan, aplikasi email Anda sendiri akan terbuka dengan pesan yang sudah disiapkan. Anda menulis dan mengirimkannya sendiri. Informasi perangkat (produsen, model, versi Android, versi aplikasi) hanya ditambahkan jika Anda mencentang opsi tersebut. Email terkirim melalui penyedia email Anda. Konten notifikasi dan aturan Anda tidak pernah ditambahkan. Jika Anda mengirim pesan, pengembang melihat alamat email Anda dan hanya menggunakannya untuk membalas Anda. Pesan yang diterima di {email} hanya digunakan untuk membalas Anda dan meningkatkan kualitas aplikasi, serta tidak dibagikan kepada pihak ketiga.</p>"
       },
       {
+        "h": "Situs web ini dan asistennya",
+        "body": "<p>Situs web ha-shh.com tidak memiliki iklan, pelacak, atau analitik. Asisten bantuan menjawab berdasarkan teks di situs ini, langsung di dalam browser Anda. Pembacaan bersuara berjalan di perangkat Anda. Input suara menggunakan layanan suara browser Anda sendiri; beberapa browser (seperti Chrome) memproses audio di server mereka. Jika Anda memilih untuk mengirim percakapan, hanya pertanyaan dan jawaban serta catatan opsional Anda yang disimpan, beserta tanggal, halaman, dan apakah Anda menggunakan ponsel atau komputer. Tidak ada nama, alamat email, atau alamat IP yang disimpan. Percakapan disimpan paling lama 12 bulan dan hanya digunakan untuk meningkatkan kualitas aplikasi dan asisten. Untuk menghapus percakapan Anda, kirimkan email ke {email} dengan menyertakan tanggal dan waktu.</p>"
+      },
+      {
         "h": "Ekspor dan pencadangan",
         "body": "<p>Anda dapat menyimpan cadangan aturan dan mode Anda sebagai file. Ini mencakup nama-nama mode, mode bawaan yang tersembunyi, dan, untuk setiap mode, aplikasi, grup, serta kategori yang langsung masuk. Anda juga dapat mengekspor catatan notifikasi Anda (aplikasi, waktu, dan tindakan yang dilakukan). Tidak satu pun dari file-file ini berisi konten notifikasi. Arsip memiliki ekspornya sendiri, seperti yang dijelaskan di atas. File hanya masuk ke aplikasi atau folder yang Anda pilih. Pencadangan cloud Android dinonaktifkan untuk aplikasi ini.</p>"
       },
@@ -796,6 +800,14 @@
       "Apakah ini privat?",
       "Berapa biayanya?",
       "Apa yang baru?"
-    ]
+    ],
+    "fb_btn": "Kirim percakapan ini ke tim",
+    "fb_note": "Tambahkan catatan (opsional)",
+    "fb_send": "Kirim",
+    "fb_ok": "Terima kasih! Percakapan Anda telah terkirim.",
+    "fb_mail": "Buka di email",
+    "fb_ask": "Bolehkah kami mengirimkan percakapan ini ke tim ha!shh? Ini membantu kami menyempurnakan aplikasi dan asisten ini. Hanya pertanyaan dan jawaban di atas (serta catatan Anda, jika Anda menulisnya) yang dikirimkan. Tidak ada nama, alamat email, atau alamat IP yang disimpan.",
+    "fb_fail": "Tidak dapat dikirim. Sebagai gantinya, Anda dapat mengirimkannya melalui email kepada kami:",
+    "fb_no": "Tidak, terima kasih"
   }
 }

@@ -245,7 +245,7 @@ def alternates(page):
 def asset_version():
     import hashlib
     h = hashlib.sha1()
-    for name in ("site.css", "site.js", "assistant.js"):
+    for name in ("site.css", "site.js", "assistant.js", "assistant-feedback.js"):
         with open(os.path.join(HERE, "static", "assets", name), "rb") as f:
             h.update(f.read())
     return h.hexdigest()[:8]

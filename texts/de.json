@@ -589,6 +589,10 @@
         "body": "<p>Wenn du in den Einstellungen <b>Feedback senden</b> wählst, öffnet sich deine eigene E-Mail-App mit einer vorbereiteten Nachricht. Du verfasst und versendest sie selbst. Geräteinformationen (Hersteller, Modell, Android-Version, App-Version) werden nur hinzugefügt, wenn du das Häkchen setzt. Die E-Mail wird über deinen eigenen E-Mail-Anbieter übertragen. Benachrichtigungsinhalte und deine Regeln werden niemals hinzugefügt. Wenn du die Nachricht sendest, sieht der Entwickler deine E-Mail-Adresse und verwendet sie nur, um dir zu antworten. Nachrichten an {email} werden ausschließlich genutzt, um dir zu antworten und die App zu verbessern, und werden nicht an Dritte weitergegeben.</p>"
       },
       {
+        "h": "Diese Website und ihr Assistent",
+        "body": "<p>Die Website ha-shh.com enthält keine Werbung, Tracker oder Analysetools. Der Hilfe-Assistent antwortet anhand der Texte auf dieser Website direkt in deinem Browser. Das Vorlesen läuft auf deinem Gerät. Die Spracheingabe nutzt den Spracherkennungsdienst deines Browsers; einige Browser (wie Chrome) verarbeiten die Audiodaten auf ihren Servern. Wenn du dich entscheidest, eine Unterhaltung zu senden, werden nur die Fragen und Antworten sowie deine optionale Notiz gespeichert – zusammen mit dem Datum, der Seite und der Information, ob du ein Smartphone oder einen Computer verwendet hast. Es werden weder Name, E-Mail-Adresse noch IP-Adresse gespeichert. Unterhaltungen werden höchstens 12 Monate lang aufbewahrt und ausschließlich zur Verbesserung der App und des Assistenten verwendet. Um deine löschen zu lassen, schreibe mit Datum und Uhrzeit an {email}.</p>"
+      },
+      {
         "h": "Export und Sicherung",
         "body": "<p>Du kannst ein Backup deiner Regeln und Modi als Datei speichern. Es enthält Modusnamen, versteckte integrierte Modi und für jeden Modus die Apps, Gruppen und Kategorien, die sofort durchkommen. Du kannst auch deine Benachrichtigungsprotokolle exportieren (App, Uhrzeit und was getan wurde). Keine dieser Dateien enthält Benachrichtigungsinhalte. Das Archiv hat einen eigenen Export, wie oben beschrieben. Dateien gelangen nur in die von dir ausgewählte App oder den ausgewählten Ordner. Das Android-Cloud-Backup ist für diese App deaktiviert.</p>"
       },
@@ -796,6 +800,14 @@
       "Ist es privat?",
       "Wie viel kostet es?",
       "Was gibt es Neues?"
-    ]
+    ],
+    "fb_btn": "Diese Unterhaltung an das Team senden",
+    "fb_note": "Notiz hinzufügen (optional)",
+    "fb_send": "Senden",
+    "fb_ok": "Vielen Dank! Deine Unterhaltung wurde gesendet.",
+    "fb_mail": "In E-Mail öffnen",
+    "fb_ask": "Sollen wir diese Unterhaltung an das ha!shh-Team senden? Das hilft uns, die App und diesen Assistenten zu verbessern. Es werden nur die obigen Fragen und Antworten (und deine Notiz, falls du eine schreibst) gesendet. Es werden weder Name, E-Mail-Adresse noch IP-Adresse gespeichert.",
+    "fb_fail": "Konnte nicht gesendet werden. Du kannst sie uns stattdessen per E-Mail senden:",
+    "fb_no": "Nein, danke"
   }
 }

@@ -295,3 +295,11 @@ footer a{color:var(--text)}
 @media print{#assist{display:none}}
 .assist-title{flex:1;min-width:0}
 .assist-header .assist-speak{white-space:nowrap}
+.assist-fb-btn{background:transparent;border:1px solid var(--line);border-radius:999px;color:var(--ink);padding:5px 8px;display:grid;place-items:center}
+.assist-fb p{margin:0 0 8px;color:var(--ink);font-size:.88rem}
+.assist-fb textarea{width:100%;font:inherit;font-size:.85rem;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);padding:7px 9px;resize:vertical}
+.assist-fb-row{display:flex;gap:6px;margin-top:8px}
+.assist-fb-row button{border-radius:999px;padding:6px 12px;font-weight:700;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.assist-fb-row .assist-fb-yes{background:var(--teal);border-color:var(--teal);color:#fff}
+:root[data-theme="dark"] .assist-fb-yes,:root[data-theme="night"] .assist-fb-yes{color:#0E1414!important}
+.assist-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}

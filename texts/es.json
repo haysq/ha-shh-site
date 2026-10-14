@@ -589,6 +589,10 @@
         "body": "<p>Si utilizas <b>Enviar comentarios</b> en Ajustes, se abrirá tu app de correo con un mensaje preparado. Tú mismo lo redactas y lo envías. La información sobre el dispositivo (fabricante, modelo, versión de Android, versión de la app) solo se incluye si marcas esa casilla. El correo viaja a través de tu proveedor de correo electrónico. El contenido de las notificaciones y tus reglas nunca se añaden. Si envías el mensaje, el desarrollador ve tu dirección de correo electrónico y la usa solo para responderte. Los mensajes recibidos en {email} se utilizan únicamente para responderte y mejorar la app, y no se comparten con terceros.</p>"
       },
       {
+        "h": "Este sitio web y su asistente",
+        "body": "<p>El sitio web ha-shh.com no tiene anuncios, rastreadores ni analíticas. El asistente de ayuda responde a partir de los textos de este sitio, dentro de tu navegador. La lectura en voz alta se ejecuta en tu dispositivo. La entrada de voz utiliza el servicio de voz propio de tu navegador; algunos navegadores (como Chrome) procesan el audio en sus servidores. Si decides enviar una conversación, solo se guardan sus preguntas y respuestas y tu nota opcional, junto con la fecha, la página y si usaste un teléfono o un ordenador. No se guarda ningún nombre, dirección de correo electrónico ni dirección IP. Las conversaciones se conservan durante un máximo de 12 meses y se utilizan únicamente para mejorar la aplicación y el asistente. Para eliminar la tuya, escribe a {email} indicando la fecha y la hora.</p>"
+      },
+      {
         "h": "Exportación y copia de seguridad",
         "body": "<p>Puedes guardar una copia de seguridad de tus reglas y modos en un archivo. Incluye los nombres de los modos, los modos integrados ocultos y, para cada modo, las apps, grupos y categorías que pasan de inmediato. También puedes exportar tus registros de notificaciones (app, hora y qué se hizo). Ninguno de estos archivos contiene el contenido de las notificaciones. El archivo tiene su propia exportación, descrita anteriormente. Los archivos solo van a la app o carpeta que selecciones. La copia de seguridad en la nube de Android está desactivada para esta app.</p>"
       },
@@ -796,6 +800,14 @@
       "¿Es privado?",
       "¿Cuánto costará?",
       "¿Qué hay de nuevo?"
-    ]
+    ],
+    "fb_btn": "Enviar esta conversación al equipo",
+    "fb_note": "Añadir una nota (opcional)",
+    "fb_send": "Enviar",
+    "fb_ok": "¡Gracias! Tu conversación ha sido enviada.",
+    "fb_mail": "Abrir en el correo",
+    "fb_ask": "¿Enviamos esta conversación al equipo de ha!shh? Nos ayuda a mejorar la aplicación y este asistente. Solo se envían las preguntas y respuestas anteriores (y tu nota, si escribes una). No se guarda ningún nombre, dirección de correo electrónico ni dirección IP.",
+    "fb_fail": "No se pudo enviar. Puedes enviárnosla por correo electrónico:",
+    "fb_no": "No, gracias"
   }
 }

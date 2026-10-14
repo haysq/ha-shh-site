@@ -589,6 +589,10 @@
         "body": "<p>Ayarlar'daki <b>Geri bildirim gönder</b> seçeneğini kullanırsan kendi e-posta uygulaman hazır bir mesajla açılır. Mesajı sen yazar ve sen gönderirsin. Cihaz bilgisi (üretici, model, Android sürümü, uygulama sürümü) yalnız bu seçeneği işaretlersen eklenir. E-posta, senin e-posta sağlayıcın üzerinden gider. Bildirim içeriği ve kuralların asla eklenmez. Mesajı gönderirsen geliştirici e-posta adresini görür ve onu yalnız sana yanıt vermek için kullanır. {email} adresine gelen mesajlar yalnız sana yanıt vermek ve uygulamayı geliştirmek için kullanılır, üçüncü kişilerle paylaşılmaz.</p>"
       },
       {
+        "h": "Bu web sitesi ve yardımcısı",
+        "body": "<p>ha-shh.com web sitesinde reklam, takip aracı ya da analiz yoktur. Yardım asistanı bu sitedeki metinlerden, senin tarayıcında cevap verir. Sesli okuma cihazında yapılır. Sesle sorma tarayıcının kendi ses hizmetini kullanır; bazı tarayıcılar (ör. Chrome) sesi kendi sunucularında işler. Bir konuşmayı göndermeyi seçersen yalnız soruları, cevapları ve isteğe bağlı notun; tarih, sayfa ve telefon mu bilgisayar mı kullandığın bilgisiyle kaydedilir. Ad, e-posta adresi ya da IP adresi kaydedilmez. Konuşmalar en çok 12 ay saklanır ve yalnız uygulamayı ve yardımcıyı geliştirmek için kullanılır. Seninkinin silinmesi için tarih ve saatiyle {email} adresine yaz.</p>"
+      },
+      {
         "h": "Dışa aktarma ve yedek",
         "body": "<p>Kurallarının ve modlarının yedeğini dosya olarak kaydedebilirsin. Yedekte mod adları, gizlenen hazır modlar ve her mod için hemen gelen uygulamalar, gruplar ve kategoriler bulunur. Bildirim kayıtlarını da (uygulama, saat ve yapılan işlem) dışa aktarabilirsin. Bu dosyaların hiçbirinde bildirim içeriği yoktur. Arşivin kendi dışa aktarması yukarıda anlatıldı. Dosyalar yalnız senin seçtiğin uygulamaya ya da klasöre gider. Bu uygulama için Android bulut yedeği kapalıdır.</p>"
       },
@@ -796,6 +800,14 @@
       "Gizli mi?",
       "Ne kadar tutacak?",
       "Neler yeni?"
-    ]
+    ],
+    "fb_btn": "Bu konuşmayı ekibe gönder",
+    "fb_note": "Not ekle (isteğe bağlı)",
+    "fb_send": "Gönder",
+    "fb_ok": "Teşekkürler! Konuşman gönderildi.",
+    "fb_mail": "E-postada aç",
+    "fb_ask": "Bu konuşmayı ha!shh ekibine gönderelim mi? Uygulamayı ve bu yardımcıyı geliştirmemize yardım eder. Yalnız yukarıdaki sorular ve cevaplar (yazarsan notun da) gönderilir. Ad, e-posta adresi ya da IP adresi kaydedilmez.",
+    "fb_fail": "Gönderilemedi. İstersen e-postayla gönderebilirsin:",
+    "fb_no": "Hayır, teşekkürler"
   }
 }

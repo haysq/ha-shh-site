@@ -589,6 +589,10 @@
         "body": "<p>Si vous utilisez <b>Envoyer un retour</b> dans les Paramètres, votre propre application de messagerie s'ouvre avec un message préparé. Vous le rédigez et l'envoyez vous-même. Les informations sur l'appareil (fabricant, modèle, version d'Android, version de l'application) ne sont ajoutées que si vous cochez cette case. L'e-mail transite par votre fournisseur de messagerie. Le contenu des notifications et vos règles ne sont jamais ajoutés. Si vous envoyez le message, le développeur voit votre adresse e-mail et l'utilise uniquement pour vous répondre. Les messages reçus à l'adresse {email} ne servent qu'à vous répondre et à améliorer l'application, et ne sont pas partagés avec des tiers.</p>"
       },
       {
+        "h": "Ce site web et son assistant",
+        "body": "<p>Le site web ha-shh.com ne contient aucune publicité, aucun traceur ni outil d'analyse. L'assistant d'aide répond à partir des textes de ce site, directement dans votre navigateur. La lecture à voix haute s'exécute sur votre appareil. La saisie vocale utilise le service vocal propre à votre navigateur ; certains navigateurs (tels que Chrome) traitent l'audio sur leurs serveurs. Si vous choisissez d'envoyer une conversation, seules les questions et réponses ainsi que votre note facultative sont enregistrées, avec la date, la page et l'indication précisant si vous avez utilisé un téléphone ou un ordinateur. Aucun nom, adresse e-mail ou adresse IP n'est enregistré. Les conversations sont conservées pendant 12 mois au maximum et sont utilisées uniquement pour améliorer l'application et l'assistant. Pour faire supprimer la vôtre, écrivez à {email} en indiquant la date et l'heure.</p>"
+      },
+      {
         "h": "Exportation et sauvegarde",
         "body": "<p>Vous pouvez enregistrer une sauvegarde de vos règles et de vos modes sous forme de fichier. Elle comprend les noms des modes, les modes intégrés masqués et, pour chaque mode, les applications, groupes et catégories qui passent immédiatement. Vous pouvez également exporter vos historiques de notifications (application, heure et action effectuée). Aucun de ces fichiers ne contient le contenu des notifications. L'archive dispose de son propre export, décrit ci-dessus. Les fichiers vont uniquement vers l'application ou le dossier que vous sélectionnez. La sauvegarde cloud d'Android est désactivée pour cette application.</p>"
       },
@@ -796,6 +800,14 @@
       "Est-ce confidentiel ?",
       "Combien cela coûtera-t-il ?",
       "Quoi de neuf ?"
-    ]
+    ],
+    "fb_btn": "Envoyer cette conversation à l'équipe",
+    "fb_note": "Ajouter une note (facultatif)",
+    "fb_send": "Envoyer",
+    "fb_ok": "Merci ! Votre conversation a été envoyée.",
+    "fb_mail": "Ouvrir dans l'e-mail",
+    "fb_ask": "Souhaitez-vous envoyer cette conversation à l'équipe ha!shh ? Cela nous aide à améliorer l'application et cet assistant. Seules les questions et réponses ci-dessus (et votre note, si vous en écrivez une) sont envoyées. Aucun nom, adresse e-mail ou adresse IP n'est enregistré.",
+    "fb_fail": "L'envoi a échoué. Vous pouvez nous l'envoyer par e-mail à la place :",
+    "fb_no": "Non, merci"
   }
 }
