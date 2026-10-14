@@ -790,7 +790,7 @@
     "speak_on": "Antworten vorlesen: Ein",
     "speak_off": "Antworten vorlesen: Aus",
     "hello": "Hi! Ich kann dir Funktionen von ha!shh, die Einrichtung, Datenschutz und Neuigkeiten erklären. Frag mich einfach etwas – per Text oder mit deiner Stimme.",
-    "nothing": "Dazu konnte ich leider nichts finden. Versuch es mit anderen Wörtern, schau in die FAQ oder schreib an hey@ha-shh.com.",
+    "nothing": "Dazu konnte ich leider keine Antwort finden. Versuche es mit anderen Wörtern oder sende diese Unterhaltung über die Schaltfläche unten an das Team.",
     "more": "Mehr lesen",
     "related": "Ähnliche Themen:",
     "voice_note": "Antworten stammen von dieser Website. Das Vorlesen läuft direkt auf deinem Gerät. Die Spracheingabe nutzt den Spracherkennungsdienst deines Browsers; manche Browser (wie Chrome) verarbeiten Audiodaten auf eigenen Servern. Tippen funktioniert auch ohne.",
@@ -808,6 +808,28 @@
     "fb_mail": "In E-Mail öffnen",
     "fb_ask": "Sollen wir diese Unterhaltung an das ha!shh-Team senden? Das hilft uns, die App und diesen Assistenten zu verbessern. Es werden nur die obigen Fragen und Antworten (und deine Notiz, falls du eine schreibst) gesendet. Es werden weder Name, E-Mail-Adresse noch IP-Adresse gespeichert.",
     "fb_fail": "Konnte nicht gesendet werden. Du kannst sie uns stattdessen per E-Mail senden:",
-    "fb_no": "Nein, danke"
+    "fb_no": "Nein, danke",
+    "hint": "Kannst du etwas genauer beschreiben, was du wissen möchtest? Frage zum Beispiel „wofür ist es da“, „wie richte ich es ein“, „ist es privat“ oder „was kostet es“. Um dem Team zu schreiben, tippe auf die Schaltfläche unten.",
+    "filler": "mehr|sonst noch was|verstehe ich nicht|nicht verstanden|was|ok|alles klar|ja|nein|danke|hallo|warum",
+    "basics": {
+      "what": {
+        "t": "Wofür ist ha!shh da?",
+        "a": "Es verringert, wie oft Benachrichtigungen deinen Tag unterbrechen. Benachrichtigungen ausgewählter Apps warten und treffen gebündelt zu von dir festgelegten Zeiten ein (z. B. 12:30, 18:00, 21:00), damit du weniger abgelenkt bist und seltener aufs Handy schaust. Anrufe, Wecker und Apps, die du als wichtig einstufst, kommen weiterhin sofort durch.",
+        "url": "features/",
+        "q": "wofür ist das|was macht es|warum nutzen|zeit sparen|ablenkung|fokus|zu viele benachrichtigungen|funktion"
+      },
+      "setup": {
+        "t": "Wie richte ich es ein?",
+        "a": "ha!shh gibt es noch nicht bei Google Play; sobald es da ist, installierst du es aus dem Play Store. Beim ersten Start bittet die App um Zugriff auf Benachrichtigungen, um diese zurückhalten zu können. Dann lernt die Einrichtung dein Handy kennen: Sie teilt deine Apps in Gruppen ein, die du anpassen kannst, und am Ende siehst du, wer sofort durchkommt und wer wartet. Du kannst die Zustellzeiten jederzeit ändern.",
+        "url": "features/",
+        "q": "wie einrichten|einrichtung|installieren|herunterladen|wo herunterladen|wie starten|erster start|loslegen"
+      },
+      "contact": {
+        "t": "Wie erreiche ich das Team?",
+        "a": "Schreibe an {email}; Support per Telefon oder WhatsApp gibt es nicht. Du kannst diese Unterhaltung auch direkt an das Team senden; es werden weder Name, E-Mail-Adresse noch IP-Adresse gespeichert.",
+        "url": "faq/",
+        "q": "kontakt|euch erreichen|support|kontaktieren|mit jemandem sprechen|hilfe bitte|e-mail"
+      }
+    }
   }
 }

@@ -189,6 +189,7 @@ TAG_RE = re.compile(r"<[^>]+>")
 
 
 def plain(text):
+    text = text.replace("{email}", EMAIL).replace("{brand}", "ha!shh")
     return html.unescape(TAG_RE.sub(" ", text)).replace("  ", " ").strip()
 
 
@@ -202,6 +203,18 @@ def build_kb(t, code):
     kb.append({"id": "o-1", "type": "faq", "t": plain(h["priv_h"]),
                "a": plain(h["priv_p"] + " " + " ".join(f["p"] for f in h["facts"]) + " " + h["priv_more_p"]), "url": "privacy/",
                "q": [plain(t["assist"]["suggestions"][1]), plain(t["common"]["nav_privacy"])]})
+    # basic questions (what is it for, how to set it up, how to reach us), written for the assistant
+    for key, e in t["assist"]["basics"].items():
+        row = {"id": "b-" + key, "type": "faq", "t": plain(e["t"]), "a": plain(e["a"]), "url": e["url"],
+               "q": [plain(x) for x in e["q"].split("|") if x.strip()]}
+        if key == "contact":
+            row["act"] = "feedback"
+        kb.append(row)
+    # "what's new": the latest update in one answer
+    last = t["news"][0]
+    titles = [plain(m.group(1)).rstrip(":") for m in (re.match(r"<b>(.*?)</b>", x, re.S) for x in last["items"]) if m]
+    kb.append({"id": "o-2", "type": "faq", "t": plain(last["h"]), "a": fmt_date(last["date"], code, t["meta"]["months"]) + ": " + " · ".join(titles),
+               "url": "updates/", "q": [plain(t["assist"]["suggestions"][3]), plain(t["common"]["nav_updates"])]})
     for g in t["features"]["groups"]:
         for i in g["items"]:
             kb.append({"id": "f-%d" % len(kb), "type": "feature", "t": plain(i["t"]), "a": plain(i["p"]), "url": "features/"})
@@ -217,7 +230,10 @@ def build_kb(t, code):
         for item in n["items"]:
             m = re.match(r"<b>(.*?)</b>\s*(.*)", item, re.S)
             title, body = (plain(m.group(1)).rstrip(":"), plain(m.group(2))) if m else (plain(n["h"]), plain(item))
-            kb.append({"id": "n-%d" % len(kb), "type": "news", "t": title, "a": body, "url": "updates/#u-" + n["date"]})
+            row = {"id": "n-%d" % len(kb), "type": "news", "t": title, "a": body, "url": "updates/#u-" + n["date"]}
+            if n is t["news"][0]:
+                row["recent"] = True
+            kb.append(row)
     extra = os.path.join(HERE, "kb", code + ".json")
     if os.path.exists(extra):
         for e in json.load(open(extra, encoding="utf-8")):

@@ -790,7 +790,7 @@
     "speak_on": "Ler respostas em voz alta: ativado",
     "speak_off": "Ler respostas em voz alta: desativado",
     "hello": "Olá! Posso explicar os recursos do ha!shh, como configurá-los, privacidade e novidades. Pergunte o que quiser, digitando ou por voz.",
-    "nothing": "Não encontrei uma resposta para isso. Tente outras palavras, confira as perguntas frequentes ou escreva para hey@ha-shh.com.",
+    "nothing": "Não consegui encontrar uma resposta para isso. Tente usar outras palavras ou envie esta conversa para a equipe pelo botão abaixo.",
     "more": "Ler mais",
     "related": "Relacionado:",
     "voice_note": "As respostas vêm deste site. A leitura em voz alta roda no seu dispositivo. A entrada por voz usa o serviço de fala do navegador; alguns navegadores (como o Chrome) processam o áudio em servidores próprios. Digitar funciona normalmente sem isso.",
@@ -808,6 +808,28 @@
     "fb_mail": "Abrir no e-mail",
     "fb_ask": "Podemos enviar esta conversa para a equipe do ha!shh? Isso nos ajuda a melhorar o aplicativo e este assistente. Apenas as perguntas e respostas acima (e sua anotação, se você escrever uma) são enviadas. Nenhum nome, endereço de e-mail ou endereço IP é salvo.",
     "fb_fail": "Não foi possível enviar. Em vez disso, você pode nos enviar por e-mail:",
-    "fb_no": "Não, obrigado"
+    "fb_no": "Não, obrigado",
+    "hint": "Você poderia detalhar um pouco mais o que gostaria de saber? Por exemplo, pergunte “para que serve”, “como configurar”, “é privado” ou “quanto custa”. Para escrever para a equipe, toque no botão abaixo.",
+    "filler": "mais|outra coisa|não entendi|não compreendi|o que|ok|beleza|sim|não|obrigado|valeu|olá",
+    "basics": {
+      "what": {
+        "t": "Para que serve o ha!shh?",
+        "a": "Ele reduz a frequência com que as notificações interrompem o seu dia. As notificações dos aplicativos que você escolher aguardam e chegam juntas nos horários que você definir (por exemplo, 12:30, 18:00, 21:00), para que você se distraia menos e olhe menos o celular. Ligações, alarmes e os apps marcados como importantes continuam chegando na mesma hora.",
+        "url": "features/",
+        "q": "para que serve|o que faz|por que usar|economizar tempo|distração|foco|muitas notificações|objetivo"
+      },
+      "setup": {
+        "t": "Como faço para configurar?",
+        "a": "O ha!shh ainda não está no Google Play; assim que for lançado, você poderá instalá-lo pela Play Store. Na primeira inicialização, ele pede acesso às notificações, necessário para que possa retê-las. Depois, a configuração reconhece o seu celular: ele organiza seus apps em grupos para você revisar, e no final você vê quem passa direto e quem espera. Você pode alterar os horários de entrega quando quiser.",
+        "url": "features/",
+        "q": "como configurar|configuração|instalar|baixar|onde baixar|como começar|primeiro uso|começar"
+      },
+      "contact": {
+        "t": "Como falo com a equipe?",
+        "a": "Escreva para {email}; não há suporte por telefone ou WhatsApp. Você também pode enviar esta conversa para a equipe agora mesmo; nenhum nome, endereço de e-mail ou endereço IP é armazenado.",
+        "url": "faq/",
+        "q": "contato|falar com vocês|suporte|e-mail|falar com uma pessoa|atendimento|preciso de ajuda"
+      }
+    }
   }
 }

@@ -790,7 +790,7 @@
     "speak_on": "Read answers aloud: on",
     "speak_off": "Read answers aloud: off",
     "hello": "Hi! I can explain ha!shh's features, how to set them up, privacy and what's new. Ask me anything, by typing or with your voice.",
-    "nothing": "I couldn't find an answer to that. Try other words, look at the FAQ, or write to hey@ha-shh.com.",
+    "nothing": "I couldn't find an answer to that. Try other words, or send this conversation to the team with the button below.",
     "more": "Read more",
     "related": "Related:",
     "voice_note": "Answers come from this site. Read-aloud runs on your device. Voice input uses your browser's speech service; some browsers (such as Chrome) process the audio on their own servers. Typing works without it.",
@@ -808,6 +808,28 @@
     "fb_mail": "Open in email",
     "fb_ask": "Shall we send this conversation to the ha!shh team? It helps us improve the app and this assistant. Only the questions and answers above (and your note, if you write one) are sent. No name, email address or IP address is saved.",
     "fb_fail": "It couldn't be sent. You can email it to us instead:",
-    "fb_no": "No, thanks"
+    "fb_no": "No, thanks",
+    "hint": "Could you say a bit more about what you'd like to know? For example, ask “what is it for”, “how do I set it up”, “is it private” or “how much”. To write to the team, tap the button below.",
+    "filler": "other|more|anything else|i don't understand|didn't understand|what|ok|okay|yes|no|thanks|thank you|hi|hello|hmm|why|how",
+    "basics": {
+      "what": {
+        "t": "What is ha!shh for?",
+        "a": "It cuts down how often notifications interrupt your day. Notifications from the apps you choose wait and arrive together at times you set (e.g. 12:30, 18:00, 21:00), so you get distracted less and check your phone less. Calls, alarms and the apps you mark as important still come through right away.",
+        "url": "features/",
+        "q": "what is it for|what does it do|why use it|save time|distraction|focus|too many notifications|purpose"
+      },
+      "setup": {
+        "t": "How do I set it up?",
+        "a": "ha!shh is not on Google Play yet; once it is, you install it from the Play Store. On first launch it asks for notification access, which it needs to hold notifications. Then setup gets to know your phone: it sorts your apps into groups for you to correct, and at the end you see who comes through and who waits. You can change delivery times whenever you like.",
+        "url": "features/",
+        "q": "how to set up|setup|install|download|where to get it|how to start|first launch|get started"
+      },
+      "contact": {
+        "t": "How do I reach the team?",
+        "a": "Write to {email}; there is no phone or WhatsApp support. You can also send this conversation to the team right now; no name, email address or IP address is stored.",
+        "url": "faq/",
+        "q": "contact|reach you|couldn't reach|support|email|talk to a person|get in touch"
+      }
+    }
   }
 }

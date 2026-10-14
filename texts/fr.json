@@ -790,7 +790,7 @@
     "speak_on": "Lecture vocale des réponses : activée",
     "speak_off": "Lecture vocale des réponses : désactivée",
     "hello": "Bonjour ! Je peux vous expliquer les fonctionnalités de ha!shh, leur configuration, la confidentialité et les nouveautés. Posez-moi vos questions par écrit ou avec votre voix.",
-    "nothing": "Je n'ai pas trouvé de réponse à cela. Essayez d'autres mots, consultez la FAQ ou écrivez à hey@ha-shh.com.",
+    "nothing": "Je n'ai pas trouvé de réponse à cela. Essayez avec d'autres mots, ou transmettez cette conversation à l'équipe grâce au bouton ci-dessous.",
     "more": "En savoir plus",
     "related": "Articles connexes :",
     "voice_note": "Les réponses proviennent de ce site. La lecture vocale s'exécute sur votre appareil. La saisie vocale utilise le service vocal de votre navigateur ; certains navigateurs (comme Chrome) traitent l'audio sur leurs propres serveurs. La saisie au clavier fonctionne sans cela.",
@@ -808,6 +808,28 @@
     "fb_mail": "Ouvrir dans l'e-mail",
     "fb_ask": "Souhaitez-vous envoyer cette conversation à l'équipe ha!shh ? Cela nous aide à améliorer l'application et cet assistant. Seules les questions et réponses ci-dessus (et votre note, si vous en écrivez une) sont envoyées. Aucun nom, adresse e-mail ou adresse IP n'est enregistré.",
     "fb_fail": "L'envoi a échoué. Vous pouvez nous l'envoyer par e-mail à la place :",
-    "fb_no": "Non, merci"
+    "fb_no": "Non, merci",
+    "hint": "Pourriez-vous préciser ce que vous aimeriez savoir ? Par exemple, demandez « à quoi ça sert », « comment le configurer », « est-ce confidentiel » ou « combien ça coûte ». Pour écrire à l'équipe, appuyez sur le bouton ci-dessous.",
+    "filler": "autre|plus|autre chose|je ne comprends pas|pas compris|quoi|d'accord|ok|oui|non|merci|bonjour",
+    "basics": {
+      "what": {
+        "t": "À quoi sert ha!shh ?",
+        "a": "L'application réduit la fréquence à laquelle les notifications interrompent votre journée. Les notifications des applications de votre choix patientent et arrivent ensemble aux horaires que vous définissez (par ex. 12:30, 18:00, 21:00), ce qui vous évite d'être distrait et de consulter sans cesse votre téléphone. Les appels, alarmes et applications signalées comme importantes continuent d'arriver immédiatement.",
+        "url": "features/",
+        "q": "à quoi ça sert|que fait cette application|pourquoi l'utiliser|gagner du temps|distraction|concentration|trop de notifications|utilité"
+      },
+      "setup": {
+        "t": "Comment le configurer ?",
+        "a": "ha!shh n'est pas encore sur Google Play ; dès sa disponibilité, vous pourrez l'installer depuis le Play Store. Au premier lancement, l'application demande l'accès aux notifications, indispensable pour les mettre en attente. Ensuite, la configuration apprend à connaître votre téléphone : elle organise vos applications en groupes que vous pouvez ajuster, et vous voyez à la fin lesquelles passent directement et lesquelles attendent. Vous pouvez modifier les heures de distribution quand vous le souhaitez.",
+        "url": "features/",
+        "q": "comment configurer|configuration|installer|télécharger|où la trouver|comment commencer|premier lancement|démarrer"
+      },
+      "contact": {
+        "t": "Comment joindre l'équipe ?",
+        "a": "Écrivez à {email} ; il n'y a pas d'assistance par téléphone ou WhatsApp. Vous pouvez également transmettre cette conversation à l'équipe dès maintenant ; aucun nom, adresse e-mail ou adresse IP n'est conservé.",
+        "url": "faq/",
+        "q": "contact|vous contacter|assistance|support|email|parler à quelqu'un|aidez-moi|aide"
+      }
+    }
   }
 }

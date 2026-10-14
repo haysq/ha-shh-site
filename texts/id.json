@@ -790,7 +790,7 @@
     "speak_on": "Bacakan jawaban: aktif",
     "speak_off": "Bacakan jawaban: nonaktif",
     "hello": "Halo! Saya bisa menjelaskan fitur ha!shh, cara pengaturannya, privasi, dan hal baru lainnya. Tanyakan apa saja, dengan mengetik atau berbicara.",
-    "nothing": "Saya tidak dapat menemukan jawaban untuk itu. Coba kata lain, lihat FAQ, atau kirim email ke hey@ha-shh.com.",
+    "nothing": "Saya tidak dapat menemukan jawaban untuk hal tersebut. Coba gunakan kata lain, atau kirimkan percakapan ini ke tim lewat tombol di bawah.",
     "more": "Baca selengkapnya",
     "related": "Terkait:",
     "voice_note": "Jawaban berasal dari situs ini. Fitur baca bersuara berjalan di perangkat Anda. Input suara menggunakan layanan suara browser Anda; beberapa browser (seperti Chrome) memproses audio di server mereka. Mengetik tetap berfungsi tanpanya.",
@@ -808,6 +808,28 @@
     "fb_mail": "Buka di email",
     "fb_ask": "Bolehkah kami mengirimkan percakapan ini ke tim ha!shh? Ini membantu kami menyempurnakan aplikasi dan asisten ini. Hanya pertanyaan dan jawaban di atas (serta catatan Anda, jika Anda menulisnya) yang dikirimkan. Tidak ada nama, alamat email, atau alamat IP yang disimpan.",
     "fb_fail": "Tidak dapat dikirim. Sebagai gantinya, Anda dapat mengirimkannya melalui email kepada kami:",
-    "fb_no": "Tidak, terima kasih"
+    "fb_no": "Tidak, terima kasih",
+    "hint": "Bisakah Anda menjelaskan sedikit lagi tentang apa yang ingin Anda ketahui? Misalnya, tanyakan “apa fungsinya”, “bagaimana cara mengaturnya”, “apakah aman dan privat” atau “berapa harganya”. Untuk mengirim pesan ke tim, ketuk tombol di bawah.",
+    "filler": "lain|lagi|ada yang lain|saya tidak paham|kurang paham|apa|oke|ok|ya|tidak|terima kasih|halo",
+    "basics": {
+      "what": {
+        "t": "Apa fungsi ha!shh?",
+        "a": "Aplikasi ini mengurangi seberapa sering notifikasi mengganggu aktivitas harian Anda. Notifikasi dari aplikasi yang Anda pilih akan ditahan dan dikirim bersamaan pada waktu yang Anda tentukan (misalnya 12:30, 18:00, 21:00), sehingga Anda tidak mudah terdistraksi dan lebih jarang memeriksa ponsel. Panggilan telepon, alarm, dan aplikasi yang Anda tandai sebagai penting akan tetap masuk seketika.",
+        "url": "features/",
+        "q": "apa fungsinya|apa kegunaannya|kenapa pakai ini|hemat waktu|distraksi|fokus|terlalu banyak notifikasi|tujuan"
+      },
+      "setup": {
+        "t": "Bagaimana cara mengaturnya?",
+        "a": "ha!shh belum tersedia di Google Play; setelah hadir nanti, Anda dapat memasangnya dari Play Store. Saat pertama kali dibuka, aplikasi akan meminta izin akses notifikasi yang dibutuhkan untuk menahan notifikasi. Selanjutnya, proses penyiapan akan mengenali ponsel Anda: aplikasi Anda akan dikelompokkan agar bisa Anda sesuaikan, dan di akhir Anda dapat melihat siapa saja yang langsung masuk dan siapa yang ditahan. Anda dapat mengubah jadwal pengiriman kapan saja.",
+        "url": "features/",
+        "q": "cara mengatur|pengaturan|pasang|unduh|download|di mana dapatnya|cara mulai|mulai"
+      },
+      "contact": {
+        "t": "Bagaimana cara menghubungi tim?",
+        "a": "Kirim email ke {email}; tidak tersedia dukungan melalui telepon atau WhatsApp. Anda juga dapat langsung mengirimkan percakapan ini ke tim sekarang; tidak ada nama, alamat email, atau alamat IP yang disimpan.",
+        "url": "faq/",
+        "q": "kontak|hubungi tim|support|email|bicara dengan orang|butuh bantuan|hubungi kami"
+      }
+    }
   }
 }

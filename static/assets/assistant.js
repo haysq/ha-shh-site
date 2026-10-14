@@ -418,6 +418,34 @@
     scrollToBottom();
   }
 
+  function addNothingMessage(text) {
+    var msgDiv = document.createElement("div");
+    msgDiv.className = "assist-msg bot";
+    msgDiv.appendChild(document.createTextNode(text));
+    if (typeof window.haAssistFeedback === "function" && T.fb_btn) {
+      var row = document.createElement("div");
+      row.className = "assist-related";
+      var fb = document.createElement("button");
+      fb.type = "button";
+      fb.className = "assist-chip";
+      fb.textContent = T.fb_btn;
+      fb.onclick = function() { window.haAssistFeedback(); };
+      row.appendChild(fb);
+      msgDiv.appendChild(row);
+    }
+    logEl.appendChild(msgDiv);
+    scrollToBottom();
+  }
+
+  function isFiller(text) {
+    var f = String(T.filler || "").split("|");
+    var x = text.toLocaleLowerCase(pageLang).replace(/[.!?¿¡,،؟।…\s]+/g, " ").trim();
+    for (var i = 0; i < f.length; i++) {
+      if (x === String(f[i]).toLocaleLowerCase(pageLang)) return true;
+    }
+    return false;
+  }
+
   function renderAnswer(entry, relatedEntries) {
     var msgDiv = document.createElement("div");
     msgDiv.className = "assist-msg bot";
@@ -432,7 +460,8 @@
 
     if (entry.url) {
       var moreLink = document.createElement("a");
-      moreLink.href = entry.url;
+      try { moreLink.href = new URL(entry.url, new URL(kbUrl.replace(/kb\.json$/, ""), location.href)).href; }
+      catch (e) { moreLink.href = entry.url; }
       moreLink.textContent = T.more || "More";
       msgDiv.appendChild(moreLink);
     }
@@ -459,6 +488,9 @@
       }
       msgDiv.appendChild(relContainer);
     }
+    if (entry.act === "feedback" && typeof window.haAssistFeedback === "function") {
+      setTimeout(function() { window.haAssistFeedback(); }, 0);
+    }
 
     logEl.appendChild(msgDiv);
     scrollToBottom();
@@ -473,6 +505,11 @@
       return;
     }
     addUserMessage(trimmed);
+
+    if (isFiller(trimmed)) {
+      addNothingMessage(T.hint || T.nothing || "");
+      return;
+    }
 
     loadKB(function() {
       var qTokens = normalizeAndTokenize(trimmed, pageLang);
@@ -533,7 +570,7 @@
           }
         }
 
-        totalScore *= TYPE_WEIGHT[kbEntries[i].type] || 1;
+        totalScore *= kbEntries[i].recent ? 0.95 : (TYPE_WEIGHT[kbEntries[i].type] || 1);
         if (totalScore > 0) {
           scored.push({
             entry: kbEntries[i],
@@ -547,7 +584,7 @@
       });
 
       if (!scored.length || scored[0].score < 1.2) {
-        addAssistantPlainMessage(T.nothing || "No results");
+        addNothingMessage(T.nothing || "No results");
         return;
       }
 

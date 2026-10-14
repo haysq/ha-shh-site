@@ -790,7 +790,7 @@
     "speak_on": "Cevapları sesli oku: açık",
     "speak_off": "Cevapları sesli oku: kapalı",
     "hello": "Merhaba! ha!shh'ın özelliklerini, nasıl kurulacağını, gizliliği ve yenilikleri anlatabilirim. Yazarak ya da sesle istediğini sor.",
-    "nothing": "Buna bir cevap bulamadım. Başka kelimelerle dene, SSS'ye bak ya da hey@ha-shh.com adresine yaz.",
+    "nothing": "Buna bir cevap bulamadım. Başka kelimelerle dene ya da bu konuşmayı aşağıdaki düğmeyle ekibe gönder.",
     "more": "Devamını oku",
     "related": "İlgili:",
     "voice_note": "Cevaplar bu siteden gelir. Sesli okuma cihazında yapılır. Sesle sorma tarayıcının ses hizmetini kullanır; bazı tarayıcılar (ör. Chrome) sesi kendi sunucularında işler. Yazarak sormak buna gerek duymaz.",
@@ -808,6 +808,28 @@
     "fb_mail": "E-postada aç",
     "fb_ask": "Bu konuşmayı ha!shh ekibine gönderelim mi? Uygulamayı ve bu yardımcıyı geliştirmemize yardım eder. Yalnız yukarıdaki sorular ve cevaplar (yazarsan notun da) gönderilir. Ad, e-posta adresi ya da IP adresi kaydedilmez.",
     "fb_fail": "Gönderilemedi. İstersen e-postayla gönderebilirsin:",
-    "fb_no": "Hayır, teşekkürler"
+    "fb_no": "Hayır, teşekkürler",
+    "hint": "Ne öğrenmek istediğini biraz daha açık yazar mısın? Örneğin “ne işe yarar”, “nasıl kurulur”, “gizli mi” ya da “ne kadar” diye sorabilirsin. Ekibe yazmak istersen aşağıdaki düğmeye dokun.",
+    "filler": "başka|başka ne|anlamadım|tamam|evet|hayır|peki|olur|teşekkürler|teşekkür ederim|sağ ol|merhaba|selam|hmm|ne|neden|nasıl",
+    "basics": {
+      "what": {
+        "t": "ha!shh ne işe yarar?",
+        "a": "Bildirimlerin gün boyu seni bölmesini azaltır. Seçtiğin uygulamaların bildirimleri bekler ve belirlediğin saatlerde (ör. 12:30, 18:00, 21:00) topluca gelir; böylece dikkatin daha az dağılır, telefona daha az bakarsın. Aramalar, alarmlar ve önemli dediğin uygulamalar yine hemen gelir.",
+        "url": "features/",
+        "q": "ne işe yarar|ne yapar|amacı ne|neden kullanayım|zaman tasarrufu|dikkat dağınıklığı|odaklanma|çok bildirim geliyor"
+      },
+      "setup": {
+        "t": "Nasıl kurulur?",
+        "a": "ha!shh henüz Google Play'de değil; çıkınca Play Store'dan kurulacak. İlk açılışta bildirimleri bekletebilmesi için bildirim erişimi izni istenir. Ardından “Telefonunu tanıyalım” adımı uygulamalarını gruplara ayırır, sen düzeltirsin; sonunda kimin hemen geleceğini, kimin bekleyeceğini görürsün. Teslim saatlerini istediğin zaman değiştirebilirsin.",
+        "url": "features/",
+        "q": "nasıl kurulur|kurulum|nasıl indiririm|indir|yükle|nereden bulurum|nasıl başlarım|ilk açılış"
+      },
+      "contact": {
+        "t": "Ekibe nasıl ulaşırım?",
+        "a": "{email} adresine yazabilirsin; telefon ya da WhatsApp desteği yok. İstersen bu konuşmayı da hemen ekibe gönderebilirsin; ad, e-posta ya da IP adresi kaydedilmez.",
+        "url": "faq/",
+        "q": "iletişim|ulaşmak|ulaşamadım|iletişim kuramadım|destek|e-posta|mail|bir insanla konuşmak"
+      }
+    }
   }
 }

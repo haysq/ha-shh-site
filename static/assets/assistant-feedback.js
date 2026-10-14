@@ -72,6 +72,8 @@
     });
   }
 
+  window.haAssistFeedback = function () { if (userCount()) ask(); };
+
   // a "send this conversation" button in the header, and one offer when closing after a real conversation
   var tries = 0, timer = setInterval(function () {
     var head = box.querySelector(".assist-header"), close = box.querySelector(".assist-close");
