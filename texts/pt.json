@@ -667,6 +667,20 @@
         "<b>Uso diário mais fluido:</b> deslizar os cartões para dispensar não engasga mais, tocar em uma notificação a abre no app correspondente, a configuração continua de onde você parou e as notificações “fantasmas” duplicadas sumiram.",
         "<b>Oferta de lançamento:</b> no lançamento, os primeiros 1.000 usuários ganham 6 meses grátis com um código resgatado no Google Play.",
         "<b>Em breve:</b> novos temas Noite e Dia com um mostrador 3D."
+      ],
+      "images": [
+        {
+          "src": "2026-10-13-spoiler",
+          "alt": "Configurações do modo spoiler: os apps que você escolher esperam até o fim da partida."
+        },
+        {
+          "src": "2026-10-13-type-filter",
+          "alt": "Filtro por tipo de notificação no Instagram: mensagens na hora, curtidas e comentários no horário de entrega."
+        },
+        {
+          "src": "2026-10-13-export",
+          "alt": "Exportar o arquivo: protegido por senha ou como um arquivo comum."
+        }
       ]
     },
     {

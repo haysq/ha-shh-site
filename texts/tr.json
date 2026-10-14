@@ -667,6 +667,20 @@
         "<b>Daha akıcı kullanım:</b> Kartları yana kaydırırken takılma yok, bildirime dokununca kendi uygulamasında açılıyor, kurulum kaldığı yerden sürüyor ve tekrar eden “hayalet” bildirimler giderildi.",
         "<b>Lansman fırsatı:</b> Lansmanda ilk 1000 kullanıcı, Google Play'de kullanacağı bir kodla 6 ay ücretsiz kullanacak.",
         "<b>Yakında:</b> 3B kadranlı yeni Gece ve Gündüz temaları."
+      ],
+      "images": [
+        {
+          "src": "2026-10-13-spoiler",
+          "alt": "Spoiler modu ayarları: seçtiğin uygulamalar maç bitene kadar bekler."
+        },
+        {
+          "src": "2026-10-13-type-filter",
+          "alt": "Instagram için bildirim türü filtresi: mesajlar hemen, beğeni ve yorumlar teslim saatinde."
+        },
+        {
+          "src": "2026-10-13-export",
+          "alt": "Arşivi dışa aktarma: parola korumalı ya da şifresiz dosya olarak."
+        }
       ]
     },
     {

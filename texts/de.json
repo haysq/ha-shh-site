@@ -667,6 +667,20 @@
         "<b>Flüssigerer Alltag:</b> Das Wegwischen von Karten ruckelt nicht mehr, das Antippen einer Benachrichtigung öffnet sie in ihrer App, die Einrichtung wird dort fortgesetzt, wo du aufgehört hast, und doppelte „Geister“-Benachrichtigungen sind verschwunden.",
         "<b>Einführungsangebot:</b> Zum Start erhalten die ersten 1.000 Nutzer 6 Monate kostenlos mit einem Code, den du in Google Play einlöst.",
         "<b>Bald verfügbar:</b> Neue Nacht- und Tag-Designs mit einem 3D-Zifferblatt."
+      ],
+      "images": [
+        {
+          "src": "2026-10-13-spoiler",
+          "alt": "Einstellungen für den Spoiler-Modus: Die Apps, die du auswählst, warten, bis das Spiel endet."
+        },
+        {
+          "src": "2026-10-13-type-filter",
+          "alt": "Filter für Benachrichtigungstypen bei Instagram: Nachrichten sofort, Likes und Kommentare zur Zustellzeit."
+        },
+        {
+          "src": "2026-10-13-export",
+          "alt": "Exportieren des Archivs: als passwortgeschützte oder einfache Datei."
+        }
       ]
     },
     {

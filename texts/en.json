@@ -667,6 +667,20 @@
         "<b>Smoother everyday use:</b> swiping cards away no longer stutters, tapping a notification opens it in its app, setup continues where you left off, and duplicate “ghost” notifications are gone.",
         "<b>Launch offer:</b> at launch, the first 1,000 users will get 6 months free with a code you redeem in Google Play.",
         "<b>Coming soon:</b> new Night and Day themes with a 3D dial."
+      ],
+      "images": [
+        {
+          "src": "2026-10-13-spoiler",
+          "alt": "Spoiler mode settings: the apps you choose wait until the match ends."
+        },
+        {
+          "src": "2026-10-13-type-filter",
+          "alt": "Notification type filter for Instagram: messages right away, likes and comments at delivery time."
+        },
+        {
+          "src": "2026-10-13-export",
+          "alt": "Exporting the archive: as a password-protected or a plain file."
+        }
       ]
     },
     {

@@ -667,6 +667,20 @@
         "<b>Utilisation quotidienne plus fluide :</b> faire glisser les cartes ne saccade plus, appuyer sur une notification l'ouvre dans son application, la configuration reprend là où vous vous étiez arrêté, et les notifications « fantômes » en double ont disparu.",
         "<b>Offre de lancement :</b> lors du lancement, les 1,000 premiers utilisateurs bénéficieront de 6 mois gratuits grâce à un code à utiliser sur Google Play.",
         "<b>Bientôt disponible :</b> de nouveaux thèmes Nuit et Jour avec un cadran en 3D."
+      ],
+      "images": [
+        {
+          "src": "2026-10-13-spoiler",
+          "alt": "Paramètres du mode spoiler : les applications que vous choisissez attendent la fin du match."
+        },
+        {
+          "src": "2026-10-13-type-filter",
+          "alt": "Filtre par type de notification pour Instagram : messages instantanés, mentions J'aime et commentaires à l'heure de distribution."
+        },
+        {
+          "src": "2026-10-13-export",
+          "alt": "Exportation de l'archive : protégée par mot de passe ou sous forme de fichier simple."
+        }
       ]
     },
     {

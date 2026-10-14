@@ -667,6 +667,20 @@
         "<b>Uso diario más fluido:</b> deslizar tarjetas ya no va a tirones, tocar una notificación la abre en su app, la configuración continúa donde la dejaste y las notificaciones duplicadas «fantasma» desaparecieron.",
         "<b>Oferta de lanzamiento:</b> en el lanzamiento, los primeros 1,000 usuarios obtendrán 6 meses gratis con un código para canjear en Google Play.",
         "<b>Próximamente:</b> nuevos temas Night y Day con un dial en 3D."
+      ],
+      "images": [
+        {
+          "src": "2026-10-13-spoiler",
+          "alt": "Ajustes del modo spoiler: las aplicaciones que elijas esperan a que termine el partido."
+        },
+        {
+          "src": "2026-10-13-type-filter",
+          "alt": "Filtro por tipo de notificación en Instagram: mensajes al instante, me gusta y comentarios a la hora de entrega."
+        },
+        {
+          "src": "2026-10-13-export",
+          "alt": "Exportar el archivo: protegido con contraseña o como archivo normal."
+        }
       ]
     },
     {
