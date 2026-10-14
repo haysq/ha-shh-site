@@ -737,6 +737,42 @@
         "<b>Résumé silencieux, session Focus, vue simple et configuration intelligente.</b>",
         "<b>Thème Papier</b> et nouvelles icônes d'application."
       ]
+    },
+    {
+      "date": "2026-10-06",
+      "h": "Horaires de travail posté, liste « Ne jamais retenir » et règles plus équitables",
+      "items": [
+        "<b>Planning de travail posté :</b> un cycle régulier de postes du matin, de l'après-midi, de la nuit et de jours de repos.",
+        "<b>Liste « Ne jamais retenir » :</b> les applications choisies passent quel que soit le mode, avec un rappel facultatif si une notification n'est pas ouverte dans les cinq minutes.",
+        "<b>Les applications nouvellement installées</b> demandent à quel groupe elles appartiennent.",
+        "<b>Plus équitable par conception :</b> l'application ne devine plus d'après le texte du message, ce qui empêche d'autres applications de doubler la file en écrivant « urgent ». Les rappels passent toujours, et Sleep et Focus ont la priorité sur les autres règles.",
+        "<b>Plus sûr :</b> les autres applications ne peuvent plus changer votre mode sans votre autorisation.",
+        "<b>Un résumé serein</b> du temps que vous avez préservé, sans séries ni objectifs, avec un écran Aujourd'hui mis à jour en direct."
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "h": "Boutons de mode rapide et protection des matchs",
+      "items": [
+        "<b>Boutons de mode rapide</b> pour changer de mode d'un simple geste.",
+        "<b>Protection programmée des matchs :</b> les applications de sport choisies attendent la fin du match pour vous éviter de découvrir le score trop tôt.",
+        "<b>Raccourcis sur l'écran d'accueil</b> pour les modes.",
+        "<b>Conseils pour la batterie</b> pendant la configuration pour les marques de téléphone qui arrêtent les applications en arrière-plan."
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "h": "Les débuts : ce que savaient faire les premières versions",
+      "items": [
+        "Au 3 octobre 2026, les premières versions de développement possédaient déjà le cœur de ha!shh :",
+        "<b>Un choix par application :</b> immédiat, mettre en attente, à l'heure de livraison ou bloquer.",
+        "<b>Des heures de livraison</b> telles que 12:30, 18:00 et 21:00, où tout ce qui attend arrive en même temps.",
+        "<b>Des modes et un planning hebdomadaire</b> sur un cadran de 24 heures, plus « suspendre pour aujourd'hui » et « retenir cette application jusqu'à demain ».",
+        "<b>Le calme face aux vagues de notifications :</b> une application qui envoie beaucoup de notifications d'affilée est mise en sourdine pendant un moment.",
+        "<b>Des automatisations facultatives</b> pour les réunions de votre calendrier et le Bluetooth de votre voiture, une tuile dans les Paramètres rapides et un fichier de sauvegarde pour vos règles.",
+        "<b>La confidentialité dès le premier jour :</b> aucune autorisation internet et un stockage chiffré sur le téléphone.",
+        "Le 3 octobre sont arrivés le <b>premier assistant de configuration</b>, la recherche dans les notifications en attente et l'Historique, ainsi que la préparation pour 10 langues."
+      ]
     }
   ]
 }

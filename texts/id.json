@@ -737,6 +737,42 @@
         "<b>Ringkasan hening, sesi fokus, tampilan sederhana, dan pengaturan pintar.</b>",
         "<b>Tema Kertas</b> dan ikon aplikasi baru."
       ]
+    },
+    {
+      "date": "2026-10-06",
+      "h": "Jadwal shift, daftar «Jangan pernah tahan», dan aturan yang lebih adil",
+      "items": [
+        "<b>Jadwal shift:</b> siklus berulang dari shift pagi, sore, dan malam serta hari libur.",
+        "<b>Daftar «Jangan pernah tahan»:</b> aplikasi pilihan tetap masuk di setiap mode, dengan pengingat opsional jika notifikasi tidak dibuka dalam lima menit.",
+        "<b>Aplikasi yang baru dipasang</b> menanyakan kelompok mana yang sesuai untuk mereka.",
+        "<b>Lebih adil secara rancangan:</b> aplikasi tidak lagi menebak dari teks pesan, sehingga aplikasi lain tidak bisa mendahului antrean dengan menulis “mendesak”. Pengingat selalu masuk, dan Sleep serta Focus diprioritaskan di atas aturan lain.",
+        "<b>Lebih aman:</b> aplikasi lain tidak dapat lagi mengganti mode Anda tanpa izin Anda.",
+        "<b>Ringkasan yang tenang</b> tentang waktu yang berhasil Anda jaga, tanpa target atau capaian beruntun, dan layar Hari Ini yang diperbarui secara langsung."
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "h": "Tombol mode cepat dan perlindungan pertandingan",
+      "items": [
+        "<b>Tombol mode cepat</b> untuk beralih mode dengan satu ketukan.",
+        "<b>Perlindungan pertandingan berbatas waktu:</b> aplikasi olahraga pilihan menunggu hingga pertandingan selesai, agar Anda tidak mengetahui skor lebih awal.",
+        "<b>Pintasan layar beranda</b> untuk mode.",
+        "<b>Panduan baterai</b> selama penyiapan untuk merek ponsel yang menghentikan aplikasi di latar belakang."
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "h": "Awal mula: kemampuan versi-versi pertama",
+      "items": [
+        "Pada 3 Oktober 2026, versi pengembangan awal sudah memiliki inti dari ha!shh:",
+        "<b>Satu pilihan per aplikasi:</b> segera, tahan, pada waktu pengiriman, atau blokir.",
+        "<b>Waktu pengiriman</b> seperti 12:30, 18:00, dan 21:00, saat semua yang menunggu masuk bersamaan.",
+        "<b>Mode dan rencana mingguan</b> pada putaran 24 jam, ditambah “jeda untuk hari ini” dan “tahan aplikasi ini hingga besok”.",
+        "<b>Ketenangan dari banjir notifikasi:</b> aplikasi yang mengirim banyak notifikasi berturut-turut akan disenyapkan untuk sementara.",
+        "<b>Otomatisasi opsional</b> untuk rapat kalender dan Bluetooth mobil Anda, tombol Pengaturan Cepat, serta file cadangan untuk aturan Anda.",
+        "<b>Privasi sejak hari pertama:</b> tanpa izin internet dan penyimpanan terenkripsi di ponsel.",
+        "Pada 3 Oktober hadir <b>panduan penyiapan pertama</b>, pencarian pada notifikasi yang menunggu dan Riwayat, serta persiapan untuk 10 bahasa."
+      ]
     }
   ]
 }

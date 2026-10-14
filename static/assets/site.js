@@ -60,6 +60,38 @@
     rv.forEach(function (el, i) { el.style.transitionDelay = (i % 4) * 70 + 'ms'; io.observe(el); });
   } else rv.forEach(function (el) { el.classList.add('in'); });
 
+  // ---------- cookieless visit counter (same site only; no cookie, IP or id is kept) ----------
+  // The browser keeps only "counted today" / "seen before" marks. ?yonetici=1 stops counting this browser (?yonetici=0 undoes it).
+  (function () {
+    var skip = !!navigator.webdriver;
+    try {
+      var u = new URL(location.href), y = u.searchParams.get('yonetici');
+      if (y === '1' || y === '0') {
+        if (y === '1') localStorage.setItem('hs-owner', '1'); else localStorage.removeItem('hs-owner');
+        u.searchParams.delete('yonetici'); history.replaceState(null, '', u.pathname + u.search + u.hash);
+      }
+      if (localStorage.getItem('hs-owner') === '1') skip = true;
+    } catch (e) {}
+    if (skip || !navigator.sendBeacon) return;
+    function send(t, extra) {
+      try {
+        var b = { t: t, p: location.pathname };
+        for (var k in extra) b[k] = extra[k];
+        navigator.sendBeacon('/s.php', new Blob([JSON.stringify(b)], { type: 'text/plain' }));
+      } catch (e) {}
+    }
+    var visit = 0, day = 0, first = 0, ref = '';
+    try { if (!sessionStorage.getItem('hs-s')) { sessionStorage.setItem('hs-s', '1'); visit = 1; } } catch (e) {}
+    try {
+      var d = new Date(), today = d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate();
+      if (localStorage.getItem('hs-d') !== today) { localStorage.setItem('hs-d', today); day = 1; }
+      if (!localStorage.getItem('hs-f')) { localStorage.setItem('hs-f', '1'); first = 1; }
+    } catch (e) {}
+    try { if (document.referrer) { var h = new URL(document.referrer).hostname; if (h !== location.hostname) ref = h; } } catch (e) {}
+    send('sayfa', { y: visit, g: day, n: first, r: ref });
+    document.addEventListener('click', function (e) { if (e.target.closest('a[href^="mailto:"]')) send('posta'); });
+  })();
+
   // ---------- simulation ----------
   var dial = document.getElementById('dial');
   if (!dial) return;

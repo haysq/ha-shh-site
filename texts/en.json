@@ -737,6 +737,42 @@
         "<b>Quiet summary, focus session, simple view and smart setup.</b>",
         "<b>Paper theme</b> and new app icons."
       ]
+    },
+    {
+      "date": "2026-10-06",
+      "h": "Shift schedules, a Never hold list and fairer rules",
+      "items": [
+        "<b>Shift schedule:</b> a repeating cycle of morning, evening and night shifts and days off.",
+        "<b>Never hold list:</b> chosen apps come through in every mode, with an optional reminder if a notification is not opened within five minutes.",
+        "<b>Newly installed apps</b> ask which group they belong to.",
+        "<b>Fairer by design:</b> the app no longer guesses from message text, so other apps cannot jump the queue by writing “urgent”. Reminders always come through, and Sleep and Focus take priority over other rules.",
+        "<b>Safer:</b> other apps can no longer switch your mode without your permission.",
+        "<b>A calm summary</b> of the time you kept, with no streaks or goals, and a Today screen that updates live."
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "h": "Quick mode buttons and match protection",
+      "items": [
+        "<b>Quick mode buttons</b> to switch modes with one tap.",
+        "<b>Timed match protection:</b> chosen sports apps wait until the match is over, so you don't learn the score early.",
+        "<b>Home screen shortcuts</b> for modes.",
+        "<b>Battery guidance</b> during setup for phone brands that stop apps in the background."
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "h": "The beginning: what the first builds could do",
+      "items": [
+        "By 3 October 2026, the first development builds already had the core of ha!shh:",
+        "<b>One choice per app:</b> immediately, hold, at delivery time or block.",
+        "<b>Delivery times</b> such as 12:30, 18:00 and 21:00, where everything waiting arrives together.",
+        "<b>Modes and a weekly plan</b> on a 24-hour dial, plus “pause for today” and “hold this app until tomorrow”.",
+        "<b>Calm for notification storms:</b> an app that sends many notifications in a row is quietened for a while.",
+        "<b>Optional automations</b> for calendar meetings and your car's Bluetooth, a Quick Settings tile and a backup file for your rules.",
+        "<b>Privacy from day one:</b> no internet permission and encrypted storage on the phone.",
+        "On 3 October came the <b>first setup wizard</b>, search in waiting notifications and History, and preparation for 10 languages."
+      ]
     }
   ]
 }

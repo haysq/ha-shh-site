@@ -737,6 +737,42 @@
         "<b>Sessiz haber, odak seansı, sade görünüm ve akıllı kurulum.</b>",
         "<b>Kağıt teması</b> ve yeni uygulama simgeleri."
       ]
+    },
+    {
+      "date": "2026-10-06",
+      "h": "Vardiya düzeni, Hiç bekletme listesi ve daha adil kurallar",
+      "items": [
+        "<b>Vardiya düzeni:</b> sabah, akşam, gece vardiyası ve izin günlerinden oluşan dönen düzen.",
+        "<b>Hiç bekletme listesi:</b> seçtiğin uygulamalar her modda gelir; istersen bir bildirim beş dakika içinde açılmazsa bir kez daha hatırlatılır.",
+        "<b>Yeni yüklenen uygulamalar</b> hangi gruba gireceklerini sorar.",
+        "<b>Baştan adil:</b> uygulama artık mesaj metninden tahmin yürütmüyor; böylece diğer uygulamalar “acil” yazarak öne geçemez. Hatırlatıcılar her zaman gelir, Uyku ve Odaklanma diğer kurallardan önce gelir.",
+        "<b>Daha güvenli:</b> başka uygulamalar artık iznin olmadan modunu değiştiremez.",
+        "Seri ya da hedef olmadan, kazandığın zamanı gösteren <b>sakin bir özet</b> ve kendini canlı güncelleyen Bugün ekranı."
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "h": "Hızlı mod düğmeleri ve maç koruması",
+      "items": [
+        "Modu tek dokunuşla değiştiren <b>hızlı mod düğmeleri</b>.",
+        "<b>Süreli maç koruması:</b> seçtiğin spor uygulamaları maç bitene kadar bekler; skoru erken öğrenmezsin.",
+        "Modlar için <b>ana ekran kısayolları</b>.",
+        "Uygulamaları arka planda durduran telefon markaları için kurulumda <b>pil rehberi</b>."
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "h": "Başlangıç: ilk sürümler neler yapıyordu",
+      "items": [
+        "3 Ekim 2026'ya kadar ilk geliştirme sürümlerinde ha!shh'ın temeli hazırdı:",
+        "<b>Her uygulama için tek seçim:</b> Hemen, Beklet, Teslim saatinde ya da Engelle.",
+        "<b>Teslim saatleri:</b> 12:30, 18:00, 21:00 gibi; bekleyenlerin hepsi birlikte gelir.",
+        "<b>Modlar ve haftalık plan</b> 24 saatlik kadranda; ayrıca “bugünlük duraklat” ve “bu uygulamayı yarına kadar beklet”.",
+        "<b>Bildirim fırtınasına sakinlik:</b> art arda çok bildirim gönderen bir uygulama bir süre susturulur.",
+        "<b>İsteğe bağlı otomasyonlar:</b> takvimdeki toplantılar ve arabanın Bluetooth'u için; Hızlı Ayarlar kutucuğu ve kurallar için yedek dosyası.",
+        "<b>İlk günden gizlilik:</b> internet izni yok, telefonda şifreli depolama.",
+        "3 Ekim'de <b>ilk kurulum sihirbazı</b>, bekleyenlerde ve Geçmiş'te arama ve 10 dil hazırlığı geldi."
+      ]
     }
   ]
 }

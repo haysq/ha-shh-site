@@ -737,6 +737,42 @@
         "<b>Ruhige Zusammenfassung, Focus-Sitzung, einfache Ansicht und smarte Einrichtung.</b>",
         "<b>Papier-Design</b> und neue App-Symbole."
       ]
+    },
+    {
+      "date": "2026-10-06",
+      "h": "Schichtpläne, eine „Nie zurückhalten“-Liste und fairere Regeln",
+      "items": [
+        "<b>Schichtplan:</b> ein wiederkehrender Zyklus aus Früh-, Spät- und Nachtschichten sowie freien Tagen.",
+        "<b>„Nie zurückhalten“-Liste:</b> Ausgewählte Apps kommen in jedem Modus durch, mit einer optionalen Erinnerung, wenn eine Benachrichtigung nicht innerhalb von fünf Minuten geöffnet wird.",
+        "<b>Neu installierte Apps</b> fragen dich, zu welcher Gruppe sie gehören.",
+        "<b>Von Grund auf fairer:</b> Die App rät nicht mehr anhand des Nachrichtentexts, sodass andere Apps sich nicht vordrängeln können, indem sie „dringend“ schreiben. Erinnerungen kommen immer durch, und Sleep und Focus haben Vorrang vor anderen Regeln.",
+        "<b>Sicherer:</b> Andere Apps können deinen Modus nicht mehr ohne deine Erlaubnis wechseln.",
+        "<b>Eine ruhige Zusammenfassung</b> der Zeit, die du für dich behalten hast, ganz ohne Streaks oder Ziele, und ein Heute-Bildschirm, der sich live aktualisiert."
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "h": "Schnellmodus-Tasten und Spielschutz",
+      "items": [
+        "<b>Schnellmodus-Tasten</b>, um Modi mit einem Fingertipp zu wechseln.",
+        "<b>Zeitgesteuerter Spielschutz:</b> Ausgewählte Sport-Apps warten, bis das Spiel vorbei ist, damit du das Ergebnis nicht zu früh erfährst.",
+        "<b>Startbildschirm-Verknüpfungen</b> für Modi.",
+        "<b>Akku-Tipps</b> bei der Einrichtung für Smartphone-Marken, die Apps im Hintergrund beenden."
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "h": "Der Anfang: Was die ersten Versionen schon konnten",
+      "items": [
+        "Bis zum 3. Oktober 2026 hatten die ersten Entwicklungsversionen bereits den Kern von ha!shh:",
+        "<b>Eine Wahl pro App:</b> sofort, zurückhalten, zur Lieferzeit oder blockieren.",
+        "<b>Lieferzeiten</b> wie 12:30, 18:00 und 21:00, zu denen alles Wartende gemeinsam ankommt.",
+        "<b>Modi und ein Wochenplan</b> auf einem 24-Stunden-Zifferblatt, plus „Für heute pausieren“ und „Diese App bis morgen zurückhalten“.",
+        "<b>Ruhe bei Benachrichtigungsfluten:</b> Eine App, die viele Benachrichtigungen hintereinander sendet, wird für eine Weile stummgeschaltet.",
+        "<b>Optionale Automationen</b> für Kalendertermine und das Bluetooth deines Autos, eine Kachel in den Schnelleinstellungen und eine Sicherungsdatei für deine Regeln.",
+        "<b>Datenschutz vom ersten Tag an:</b> keine Internetberechtigung und verschlüsselter Speicher auf dem Telefon.",
+        "Am 3. Oktober kamen der <b>erste Einrichtungsassistent</b>, die Suche in wartenden Benachrichtigungen und im Verlauf sowie die Vorbereitung auf 10 Sprachen."
+      ]
     }
   ]
 }

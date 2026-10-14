@@ -737,6 +737,42 @@
         "<b>Resumo silencioso, sessão de foco, visualização simples e configuração inteligente.</b>",
         "<b>Tema Papel</b> e novos ícones do app."
       ]
+    },
+    {
+      "date": "2026-10-06",
+      "h": "Escalas de turnos, lista «Nunca reter» e regras mais justas",
+      "items": [
+        "<b>Escala de turnos:</b> um ciclo repetido de turnos da manhã, tarde e noite, e dias de folga.",
+        "<b>Lista «Nunca reter»:</b> apps selecionados chegam em qualquer modo, com um lembrete opcional se uma notificação não for aberta em cinco minutos.",
+        "<b>Apps recém-instalados</b> perguntam a você a qual grupo pertencem.",
+        "<b>Mais justo por definição:</b> o app não tenta adivinhar pelo texto da mensagem, então outros apps não conseguem furar a fila escrevendo “urgente”. Lembretes sempre passam, e Sleep e Focus têm prioridade sobre outras regras.",
+        "<b>Mais seguro:</b> outros apps não podem mais alterar seu modo sem sua permissão.",
+        "<b>Um resumo tranquilo</b> do tempo que você preservou, sem metas ou sequências a manter, e uma tela Hoje que atualiza em tempo real."
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "h": "Botões rápidos de modo e proteção de partidas",
+      "items": [
+        "<b>Botões rápidos de modo</b> para alternar entre modos com um toque.",
+        "<b>Proteção de partidas por tempo:</b> apps de esportes selecionados aguardam o fim do jogo para você não saber o placar antes da hora.",
+        "<b>Atalhos na tela inicial</b> para os modos.",
+        "<b>Orientações de bateria</b> durante a configuração para marcas de celular que fecham apps em segundo plano."
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "h": "O começo: o que as primeiras versões podiam fazer",
+      "items": [
+        "Em 3 de outubro de 2026, as primeiras versões de desenvolvimento já tinham o essencial do ha!shh:",
+        "<b>Uma opção por app:</b> imediatamente, reter, no horário de entrega ou bloquear.",
+        "<b>Horários de entrega</b> como 12:30, 18:00 e 21:00, quando tudo o que está aguardando chega junto.",
+        "<b>Modos e um plano semanal</b> em um mostrador de 24 horas, além de “pausar por hoje” e “reter este app até amanhã”.",
+        "<b>Calma para tempestades de notificações:</b> um app que envia muitas notificações seguidas é silenciado por um tempo.",
+        "<b>Automações opcionais</b> para reuniões no calendário e o Bluetooth do seu carro, um atalho nas Configurações Rápidas e um arquivo de backup para suas regras.",
+        "<b>Privacidade desde o primeiro dia:</b> sem permissão de internet e armazenamento criptografado no celular.",
+        "Em 3 de outubro chegaram o <b>primeiro assistente de configuração</b>, a busca em notificações em espera e no Histórico, e a preparação para 10 idiomas."
+      ]
     }
   ]
 }
