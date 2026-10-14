@@ -774,5 +774,28 @@
         "3 Ekim'de <b>ilk kurulum sihirbazı</b>, bekleyenlerde ve Geçmiş'te arama ve 10 dil hazırlığı geldi."
       ]
     }
-  ]
+  ],
+  "assist": {
+    "title": "ha!shh'a sor",
+    "open": "ha!shh hakkında soru sor",
+    "close": "Kapat",
+    "placeholder": "Özellik, kurulum ya da bir sorun hakkında sor…",
+    "send": "Gönder",
+    "mic": "Sorunu sesli sor",
+    "mic_off": "Dinlemeyi durdur",
+    "speak_on": "Cevapları sesli oku: açık",
+    "speak_off": "Cevapları sesli oku: kapalı",
+    "hello": "Merhaba! ha!shh'ın özelliklerini, nasıl kurulacağını, gizliliği ve yenilikleri anlatabilirim. Yazarak ya da sesle istediğini sor.",
+    "nothing": "Buna bir cevap bulamadım. Başka kelimelerle dene, SSS'ye bak ya da hey@ha-shh.com adresine yaz.",
+    "more": "Devamını oku",
+    "related": "İlgili:",
+    "voice_note": "Cevaplar bu siteden gelir. Sesli okuma cihazında yapılır. Sesle sorma tarayıcının ses hizmetini kullanır; bazı tarayıcılar (ör. Chrome) sesi kendi sunucularında işler. Yazarak sormak buna gerek duymaz.",
+    "unsupported": "Bu tarayıcı sesle sormayı desteklemiyor.",
+    "suggestions": [
+      "Nasıl çalışır?",
+      "Gizli mi?",
+      "Ne kadar tutacak?",
+      "Neler yeni?"
+    ]
+  }
 }

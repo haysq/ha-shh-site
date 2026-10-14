@@ -774,5 +774,28 @@
         "Em 3 de outubro chegaram o <b>primeiro assistente de configuração</b>, a busca em notificações em espera e no Histórico, e a preparação para 10 idiomas."
       ]
     }
-  ]
+  ],
+  "assist": {
+    "title": "Pergunte ao ha!shh",
+    "open": "Faça uma pergunta sobre o ha!shh",
+    "close": "Fechar",
+    "placeholder": "Pergunte sobre recursos, configuração ou problemas…",
+    "send": "Enviar",
+    "mic": "Fale sua pergunta",
+    "mic_off": "Parar de ouvir",
+    "speak_on": "Ler respostas em voz alta: ativado",
+    "speak_off": "Ler respostas em voz alta: desativado",
+    "hello": "Olá! Posso explicar os recursos do ha!shh, como configurá-los, privacidade e novidades. Pergunte o que quiser, digitando ou por voz.",
+    "nothing": "Não encontrei uma resposta para isso. Tente outras palavras, confira as perguntas frequentes ou escreva para hey@ha-shh.com.",
+    "more": "Ler mais",
+    "related": "Relacionado:",
+    "voice_note": "As respostas vêm deste site. A leitura em voz alta roda no seu dispositivo. A entrada por voz usa o serviço de fala do navegador; alguns navegadores (como o Chrome) processam o áudio em servidores próprios. Digitar funciona normalmente sem isso.",
+    "unsupported": "A entrada por voz não é compatível com este navegador.",
+    "suggestions": [
+      "Como funciona?",
+      "É privado?",
+      "Quanto vai custar?",
+      "O que há de novo?"
+    ]
+  }
 }

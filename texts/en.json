@@ -774,5 +774,28 @@
         "On 3 October came the <b>first setup wizard</b>, search in waiting notifications and History, and preparation for 10 languages."
       ]
     }
-  ]
+  ],
+  "assist": {
+    "title": "Ask ha!shh",
+    "open": "Ask a question about ha!shh",
+    "close": "Close",
+    "placeholder": "Ask about features, setup or a problem…",
+    "send": "Send",
+    "mic": "Speak your question",
+    "mic_off": "Stop listening",
+    "speak_on": "Read answers aloud: on",
+    "speak_off": "Read answers aloud: off",
+    "hello": "Hi! I can explain ha!shh's features, how to set them up, privacy and what's new. Ask me anything, by typing or with your voice.",
+    "nothing": "I couldn't find an answer to that. Try other words, look at the FAQ, or write to hey@ha-shh.com.",
+    "more": "Read more",
+    "related": "Related:",
+    "voice_note": "Answers come from this site. Read-aloud runs on your device. Voice input uses your browser's speech service; some browsers (such as Chrome) process the audio on their own servers. Typing works without it.",
+    "unsupported": "Voice input is not supported in this browser.",
+    "suggestions": [
+      "How does it work?",
+      "Is it private?",
+      "How much will it cost?",
+      "What is new?"
+    ]
+  }
 }

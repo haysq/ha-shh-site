@@ -774,5 +774,28 @@
         "Am 3. Oktober kamen der <b>erste Einrichtungsassistent</b>, die Suche in wartenden Benachrichtigungen und im Verlauf sowie die Vorbereitung auf 10 Sprachen."
       ]
     }
-  ]
+  ],
+  "assist": {
+    "title": "Frag ha!shh",
+    "open": "Stelle eine Frage zu ha!shh",
+    "close": "Schließen",
+    "placeholder": "Frag nach Funktionen, Einrichtung oder Problemen …",
+    "send": "Senden",
+    "mic": "Sprich deine Frage ein",
+    "mic_off": "Zuhören beenden",
+    "speak_on": "Antworten vorlesen: Ein",
+    "speak_off": "Antworten vorlesen: Aus",
+    "hello": "Hi! Ich kann dir Funktionen von ha!shh, die Einrichtung, Datenschutz und Neuigkeiten erklären. Frag mich einfach etwas – per Text oder mit deiner Stimme.",
+    "nothing": "Dazu konnte ich leider nichts finden. Versuch es mit anderen Wörtern, schau in die FAQ oder schreib an hey@ha-shh.com.",
+    "more": "Mehr lesen",
+    "related": "Ähnliche Themen:",
+    "voice_note": "Antworten stammen von dieser Website. Das Vorlesen läuft direkt auf deinem Gerät. Die Spracheingabe nutzt den Spracherkennungsdienst deines Browsers; manche Browser (wie Chrome) verarbeiten Audiodaten auf eigenen Servern. Tippen funktioniert auch ohne.",
+    "unsupported": "Spracheingabe wird von diesem Browser nicht unterstützt.",
+    "suggestions": [
+      "Wie funktioniert es?",
+      "Ist es privat?",
+      "Wie viel kostet es?",
+      "Was gibt es Neues?"
+    ]
+  }
 }

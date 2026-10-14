@@ -774,5 +774,28 @@
         "Le 3 octobre sont arrivés le <b>premier assistant de configuration</b>, la recherche dans les notifications en attente et l'Historique, ainsi que la préparation pour 10 langues."
       ]
     }
-  ]
+  ],
+  "assist": {
+    "title": "Demander à ha!shh",
+    "open": "Poser une question sur ha!shh",
+    "close": "Fermer",
+    "placeholder": "Posez une question sur les fonctionnalités, la configuration ou un problème…",
+    "send": "Envoyer",
+    "mic": "Posez votre question à voix haute",
+    "mic_off": "Arrêter l'écoute",
+    "speak_on": "Lecture vocale des réponses : activée",
+    "speak_off": "Lecture vocale des réponses : désactivée",
+    "hello": "Bonjour ! Je peux vous expliquer les fonctionnalités de ha!shh, leur configuration, la confidentialité et les nouveautés. Posez-moi vos questions par écrit ou avec votre voix.",
+    "nothing": "Je n'ai pas trouvé de réponse à cela. Essayez d'autres mots, consultez la FAQ ou écrivez à hey@ha-shh.com.",
+    "more": "En savoir plus",
+    "related": "Articles connexes :",
+    "voice_note": "Les réponses proviennent de ce site. La lecture vocale s'exécute sur votre appareil. La saisie vocale utilise le service vocal de votre navigateur ; certains navigateurs (comme Chrome) traitent l'audio sur leurs propres serveurs. La saisie au clavier fonctionne sans cela.",
+    "unsupported": "La saisie vocale n'est pas prise en charge sur ce navigateur.",
+    "suggestions": [
+      "Comment cela fonctionne-t-il ?",
+      "Est-ce confidentiel ?",
+      "Combien cela coûtera-t-il ?",
+      "Quoi de neuf ?"
+    ]
+  }
 }

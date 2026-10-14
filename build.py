@@ -185,6 +185,47 @@ def news_blocks(t, code, root):
     return "".join(full), "".join(cards)
 
 
+TAG_RE = re.compile(r"<[^>]+>")
+
+
+def plain(text):
+    return html.unescape(TAG_RE.sub(" ", text)).replace("  ", " ").strip()
+
+
+def build_kb(t, code):
+    """Knowledge base for the on-site assistant, made only from texts that are already on the site
+    (plus optional extra entries in kb/<lang>.json: user guide and troubleshooting)."""
+    kb = []
+    h = t["home"]
+    kb.append({"id": "o-0", "type": "faq", "t": plain(h["how_h"]), "a": plain(h["lead"] + " " + h["how_p"]), "url": "#how",
+               "q": [plain(t["assist"]["suggestions"][0])]})
+    kb.append({"id": "o-1", "type": "faq", "t": plain(h["priv_h"]),
+               "a": plain(h["priv_p"] + " " + " ".join(f["p"] for f in h["facts"]) + " " + h["priv_more_p"]), "url": "privacy/",
+               "q": [plain(t["assist"]["suggestions"][1]), plain(t["common"]["nav_privacy"])]})
+    for g in t["features"]["groups"]:
+        for i in g["items"]:
+            kb.append({"id": "f-%d" % len(kb), "type": "feature", "t": plain(i["t"]), "a": plain(i["p"]), "url": "features/"})
+    for i in t["faq"]["items"]:
+        kb.append({"id": "q-%d" % len(kb), "type": "faq", "t": plain(i["q"]), "a": plain(i["a"]), "url": "faq/"})
+    for i in t["home"]["modes"]:
+        kb.append({"id": "m-%d" % len(kb), "type": "mode", "t": plain(i["t"]), "a": plain(i["p"]), "url": "#modes"})
+    for i in t["home"]["actions"]:
+        kb.append({"id": "a-%d" % len(kb), "type": "action", "t": plain(i["t"]), "a": plain(i["p"]), "url": "#how"})
+    for sec in t["privacy"]["sections"]:
+        kb.append({"id": "p-%d" % len(kb), "type": "privacy", "t": plain(sec["h"]), "a": plain(sec["body"]), "url": "privacy/"})
+    for n in t["news"]:
+        for item in n["items"]:
+            m = re.match(r"<b>(.*?)</b>\s*(.*)", item, re.S)
+            title, body = (plain(m.group(1)).rstrip(":"), plain(m.group(2))) if m else (plain(n["h"]), plain(item))
+            kb.append({"id": "n-%d" % len(kb), "type": "news", "t": title, "a": body, "url": "updates/#u-" + n["date"]})
+    extra = os.path.join(HERE, "kb", code + ".json")
+    if os.path.exists(extra):
+        for e in json.load(open(extra, encoding="utf-8")):
+            kb.append({"id": "g-%d" % len(kb), "type": e.get("type", "guide"), "t": plain(e["t"]), "a": plain(e["a"]),
+                       "q": [plain(x) for x in e.get("q", [])], "url": e.get("url", "")})
+    return kb
+
+
 def lang_menu(texts, page, here):
     links = []
     for code in LANGS:
@@ -204,7 +245,7 @@ def alternates(page):
 def asset_version():
     import hashlib
     h = hashlib.sha1()
-    for name in ("site.css", "site.js"):
+    for name in ("site.css", "site.js", "assistant.js"):
         with open(os.path.join(HERE, "static", "assets", name), "rb") as f:
             h.update(f.read())
     return h.hexdigest()[:8]
@@ -248,7 +289,9 @@ def main():
             ctx["news_html"], ctx["news_box_html"] = news_blocks(t, code, root)
             ctx["body"] = render(bodies[page], ctx)
             ctx["lang_menu"] = render(lang_menu(texts, page, code), ctx)
+            ctx["assist_json"] = json.dumps(t["assist"], ensure_ascii=False)
             write(os.path.join(code, slug, "index.html"), render(shell, ctx))
+        write(os.path.join(code, "kb.json"), json.dumps(build_kb(t, code), ensure_ascii=False))
 
     # Root: send visitors to their language (English if none matches).
     names = "".join('<li><a href="%s/" hreflang="%s" lang="%s">%s</a></li>'

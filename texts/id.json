@@ -774,5 +774,28 @@
         "Pada 3 Oktober hadir <b>panduan penyiapan pertama</b>, pencarian pada notifikasi yang menunggu dan Riwayat, serta persiapan untuk 10 bahasa."
       ]
     }
-  ]
+  ],
+  "assist": {
+    "title": "Tanya ha!shh",
+    "open": "Ajukan pertanyaan tentang ha!shh",
+    "close": "Tutup",
+    "placeholder": "Tanyakan tentang fitur, penyiapan, atau masalah…",
+    "send": "Kirim",
+    "mic": "Ucapkan pertanyaan Anda",
+    "mic_off": "Berhenti mendengarkan",
+    "speak_on": "Bacakan jawaban: aktif",
+    "speak_off": "Bacakan jawaban: nonaktif",
+    "hello": "Halo! Saya bisa menjelaskan fitur ha!shh, cara pengaturannya, privasi, dan hal baru lainnya. Tanyakan apa saja, dengan mengetik atau berbicara.",
+    "nothing": "Saya tidak dapat menemukan jawaban untuk itu. Coba kata lain, lihat FAQ, atau kirim email ke hey@ha-shh.com.",
+    "more": "Baca selengkapnya",
+    "related": "Terkait:",
+    "voice_note": "Jawaban berasal dari situs ini. Fitur baca bersuara berjalan di perangkat Anda. Input suara menggunakan layanan suara browser Anda; beberapa browser (seperti Chrome) memproses audio di server mereka. Mengetik tetap berfungsi tanpanya.",
+    "unsupported": "Input suara tidak didukung di browser ini.",
+    "suggestions": [
+      "Bagaimana cara kerjanya?",
+      "Apakah ini privat?",
+      "Berapa biayanya?",
+      "Apa yang baru?"
+    ]
+  }
 }
