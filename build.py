@@ -144,14 +144,18 @@ def fmt_date(iso, code, months):
 NEWS_IMG_DIR = os.path.join(HERE, "static", "assets", "news")
 
 
-def news_picture(img, root, cls=""):
+def news_picture(img, root, cls="", code="tr"):
     """A screenshot that follows the theme: <name>-light.* on light themes, <name>-dark.* on dark ones.
-    Files live in static/assets/news/. If only one variant exists it is used for both; if none, nothing is shown."""
+    Files live in static/assets/news/. Screenshots in the page's language are <name>-<lang>-light.* ; without them
+    the English ones are used, then the original Turkish ones (<name>-light.*).
+    If only one variant exists it is used for both; if none, nothing is shown."""
     found = {}
+    names = [img["src"] + "-" + code, img["src"] + "-en", img["src"]] if code != "tr" else [img["src"]]
     for variant in ("light", "dark"):
         for ext in ("webp", "png", "jpg"):
-            if os.path.exists(os.path.join(NEWS_IMG_DIR, "%s-%s.%s" % (img["src"], variant, ext))):
-                found[variant] = "%s-%s.%s" % (img["src"], variant, ext)
+            hit = next((n for n in names if os.path.exists(os.path.join(NEWS_IMG_DIR, "%s-%s.%s" % (n, variant, ext)))), None)
+            if hit:
+                found[variant] = "%s-%s.%s" % (hit, variant, ext)
                 break
     if not found:
         print("warning: missing news image " + img["src"])
@@ -173,13 +177,13 @@ def news_blocks(t, code, root):
         when = fmt_date(item["date"], code, t["meta"]["months"])
         lis = "".join("<li>%s</li>" % x for x in item["items"])
         imgs = item.get("images", [])
-        gallery = "".join('<figure>%s<figcaption>%s</figcaption></figure>' % (news_picture(i, root), i["alt"])
-                          for i in imgs if news_picture(i, root))
+        gallery = "".join('<figure>%s<figcaption>%s</figcaption></figure>' % (news_picture(i, root, "", code), i["alt"])
+                          for i in imgs if news_picture(i, root, "", code))
         gallery = '<div class="shots">%s</div>' % gallery if gallery else ""
         full.append('<article class="news card" id="u-%s"><time datetime="%s">%s</time><h2>%s</h2>%s<ul>%s</ul></article>'
                     % (item["date"], item["date"], when, item["h"], gallery, lis))
         if len(cards) < 3:
-            thumb = news_picture(imgs[0], root, "thumb") if imgs else ""
+            thumb = news_picture(imgs[0], root, "thumb", code) if imgs else ""
             cards.append('<a class="card news-card rv" href="updates/#u-%s">%s<time datetime="%s">%s</time><b>%s</b></a>'
                          % (item["date"], thumb, item["date"], when, item["h"]))
     return "".join(full), "".join(cards)
