@@ -16,6 +16,8 @@
     var c = String(prefs[i]).toLowerCase().slice(0, 2);
     if (langs.indexOf(c) >= 0) { pick = c; break; }
   }
+  // keep where the visitor came from for the visit counter (the redirect would hide it)
+  try { if (document.referrer && new URL(document.referrer).hostname !== location.hostname) sessionStorage.setItem('hs-r', new URL(document.referrer).hostname); } catch (e) {}
   location.replace(pick + '/' + location.hash);
 })();
 </script>

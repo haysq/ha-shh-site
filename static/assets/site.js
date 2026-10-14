@@ -88,6 +88,7 @@
       if (!localStorage.getItem('hs-f')) { localStorage.setItem('hs-f', '1'); first = 1; }
     } catch (e) {}
     try { if (document.referrer) { var h = new URL(document.referrer).hostname; if (h !== location.hostname) ref = h; } } catch (e) {}
+    try { if (!ref && visit) ref = sessionStorage.getItem('hs-r') || ''; sessionStorage.removeItem('hs-r'); } catch (e) {}
     send('sayfa', { y: visit, g: day, n: first, r: ref });
     document.addEventListener('click', function (e) { if (e.target.closest('a[href^="mailto:"]')) send('posta'); });
   })();
