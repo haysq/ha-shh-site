@@ -486,6 +486,11 @@
             "t": "Emportez votre archive avec vous",
             "p": "Enregistrez votre archive sous forme de fichier protégé par mot de passe ou sans protection sur Google Drive, Dropbox ou votre téléphone, et restaurez-la sur un nouveau téléphone d'un simple geste. L'application ne se connecte jamais à Internet ; c'est le sélecteur de fichiers de votre téléphone qui effectue l'enregistrement.",
             "new": "Nouveau"
+          },
+          {
+            "t": "Inviter des amis",
+            "p": "Chaque installation dispose d'un code d'invitation aléatoire. Lorsqu'un ami rejoint l'application et vous envoie son code de remerciement, vous débloquez des badges et des fonds d'écran (les récompenses sont uniquement visuelles). Fonctionne sans internet ; personne ne sait qui vous êtes.",
+            "new": "Nouveau"
           }
         ]
       }
@@ -536,7 +541,7 @@
     "title": "Politique de confidentialité · {brand}",
     "desc": "Comment l'application de notifications gère les données : aucune autorisation Internet, tout reste chiffré sur votre téléphone, le contenu des notifications n'est lu qu'avec votre accord.",
     "h1": "Politique de confidentialité",
-    "updated": "Dernière mise à jour : 13 octobre 2026",
+    "updated": "Dernière mise à jour : 14 octobre 2026",
     "intro": "En résumé : l'application n'a aucune autorisation Internet et ne transmet rien nulle part. Tout ce qu'elle stocke reste chiffré sur votre téléphone. Le contenu des notifications n'est pas lu sauf si vous activez cette option, et l'archive ne conserve que les notifications que vous décidez d'enregistrer.",
     "sections": [
       {
@@ -574,6 +579,10 @@
       {
         "h": "Paiements",
         "body": "<p>Si vous souscrivez un abonnement, le paiement et l'abonnement sont gérés par Google Play, et Google traite les informations d'achat selon sa propre politique de confidentialité. L'application apprend uniquement de l'application Play Store de votre téléphone si vous disposez d'un abonnement actif ; elle n'utilise pas sa propre connexion Internet pour cela et ne voit pas vos informations de paiement. Les codes promo sont utilisés dans le Play Store ; l'application n'enregistre pas le code.</p>"
+      },
+      {
+        "h": "Codes d'invitation",
+        "body": "<p>Chaque installation génère un code d'invitation aléatoire sur le téléphone ; il ne contient aucune information personnelle. Si vous invitez quelqu'un, vous choisissez l'application avec laquelle le partager ; le lien Google Play partagé contient uniquement ce code. L'application de votre ami génère un code de remerciement qu'il vous envoie lui-même, et votre compteur augmente sur votre téléphone. Aucun serveur n'intervient et l'application ne sait pas qui vous avez invité. Les récompenses ne sont que des badges et des fonds d'écran.</p>"
       },
       {
         "h": "Retour par e-mail",
@@ -654,6 +663,22 @@
     "lead": "Les nouveautés de ha!shh. L'application est encore en développement : tout ce qui figure ici fait partie de la version de développement et sera disponible sur Google Play lors du lancement."
   },
   "news": [
+    {
+      "date": "2026-10-14",
+      "h": "Invitez des amis, gagnez des récompenses",
+      "items": [
+        "<b>Invitez et gagnez des récompenses :</b> chaque installation dispose d'un code d'invitation aléatoire. Partagez-le avec l'application de votre choix ; lorsqu'un ami installe ha!shh et le saisit, son application lui donne un code de remerciement à vous renvoyer, et votre compteur augmente.",
+        "<b>Les récompenses sont juste pour le plaisir :</b> 1 invitation débloque le badge « Première invitation », 3 le fond d'écran Papier, 5 le badge « Cercle calme », 7 le fond d'écran Nuit et 10 le badge « Ambassadeur ha!shh ».",
+        "<b>Sans serveur ni suivi :</b> les invitations fonctionnent sans internet ; personne ne sait qui vous êtes.",
+        "<b>Également nouveau :</b> une disposition sur deux colonnes lorsque le téléphone est à l'horizontale, un affichage simple automatique en mode économie d'énergie, les icônes des applications dans le résumé silencieux agrandi, les notifications en direct (comme le suivi de commande) conservées avec leur dernière progression dans l'Historique, un sélecteur d'heure plus grand et un bouton Archiver en haut de l'Historique."
+      ],
+      "images": [
+        {
+          "src": "2026-10-14-invite",
+          "alt": "Écran d'invitation : votre code d'invitation, les récompenses et le champ pour le code de remerciement."
+        }
+      ]
+    },
     {
       "date": "2026-10-13",
       "h": "Mode Spoiler, portefeuille d'archive et sauvegarde sur votre propre cloud",

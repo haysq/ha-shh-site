@@ -486,6 +486,11 @@
             "t": "Take your archive with you",
             "p": "Save your archive as a password-protected or a plain file to Google Drive, Dropbox or your phone, and restore it on a new phone with one tap. The app never goes online; your phone's own file picker does the saving.",
             "new": "New"
+          },
+          {
+            "t": "Invite friends",
+            "p": "Every installation has a random invite code. When a friend joins and sends you their thank-you code, you unlock badges and wallpapers (rewards are only visual). Works without internet; nobody learns who you are.",
+            "new": "New"
           }
         ]
       }
@@ -536,7 +541,7 @@
     "title": "Privacy policy · {brand}",
     "desc": "How the notification app handles data: no internet permission, everything stays encrypted on your phone, notification content only with your permission.",
     "h1": "Privacy policy",
-    "updated": "Last updated: 13 October 2026",
+    "updated": "Last updated: 14 October 2026",
     "intro": "In short: the app has no internet permission and sends nothing anywhere. Everything it stores stays encrypted on your phone. Notification content is not read unless you turn that on, and the archive holds only the notifications you choose to save.",
     "sections": [
       {
@@ -574,6 +579,10 @@
       {
         "h": "Payments",
         "body": "<p>If you buy a subscription, the payment and the subscription are handled by Google Play, and Google processes the purchase information under its own privacy policy. The app only learns from the Play Store app on your phone whether you have an active subscription; it does not use its own internet connection for this and does not see your payment details. Promo codes are redeemed in the Play Store; the app does not store the code.</p>"
+      },
+      {
+        "h": "Invite codes",
+        "body": "<p>Each installation creates a random invite code on the phone; it contains no personal information. If you invite someone, you choose the app to share it with; the shared Google Play link contains only this code. Your friend's app creates a thank-you code, which they send to you themselves, and your counter goes up on your phone. No server is involved and the app does not learn who you invited. Rewards are only badges and wallpapers.</p>"
       },
       {
         "h": "Feedback by email",
@@ -654,6 +663,22 @@
     "lead": "What's new in ha!shh. The app is still in development: everything here is in the development build and comes to Google Play at launch."
   },
   "news": [
+    {
+      "date": "2026-10-14",
+      "h": "Invite friends, earn rewards",
+      "items": [
+        "<b>Invite and earn rewards:</b> every installation has a random invite code. Share it with the app you choose; when a friend installs ha!shh and enters it, their app gives them a thank-you code to send back to you, and your counter goes up.",
+        "<b>Rewards are just for fun:</b> 1 invite unlocks the “First invite” badge, 3 the Paper wallpaper, 5 the “Quiet circle” badge, 7 the Night wallpaper and 10 the “ha!shh ambassador” badge.",
+        "<b>No server, no tracking:</b> invites work without internet; nobody learns who you are.",
+        "<b>Also new:</b> a two-column layout when the phone is on its side, an automatic simple view when battery saver is on, app icons in the expanded quiet summary, live notifications (such as order tracking) kept with their latest progress in History, a larger time picker and an Archive button at the top of History."
+      ],
+      "images": [
+        {
+          "src": "2026-10-14-invite",
+          "alt": "Invite screen: your invite code, rewards and the thank-you code field."
+        }
+      ]
+    },
     {
       "date": "2026-10-13",
       "h": "Spoiler mode, archive wallet and backup to your own cloud",

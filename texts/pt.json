@@ -486,6 +486,11 @@
             "t": "Leve o seu arquivo com você",
             "p": "Salve o seu arquivo como um arquivo protegido por senha ou sem senha no Google Drive, Dropbox ou no seu celular, e restaure em um celular novo com um toque. O app nunca se conecta à internet; o próprio seletor de arquivos do seu celular é quem faz o salvamento.",
             "new": "Novo"
+          },
+          {
+            "t": "Convidar amigos",
+            "p": "Cada instalação tem um código de convite aleatório. Quando um amigo entra e envia o código de agradecimento dele, você desbloqueia emblemas e papéis de parede (as recompensas são apenas visuais). Funciona sem internet; ninguém descobre quem você é.",
+            "new": "Novo"
           }
         ]
       }
@@ -536,7 +541,7 @@
     "title": "Política de privacidade · {brand}",
     "desc": "Como o app de notificações lida com os dados: sem permissão de internet, tudo fica criptografado no celular, conteúdo de notificações somente com a sua autorização.",
     "h1": "Política de privacidade",
-    "updated": "Última atualização: 13 de outubro de 2026",
+    "updated": "Última atualização: 14 de outubro de 2026",
     "intro": "Em resumo: o app não tem permissão de internet e não envia nada para lugar nenhum. Tudo o que ele armazena fica criptografado no seu celular. O conteúdo das notificações não é lido a menos que você ative essa opção, e o arquivo guarda apenas as notificações que você escolher salvar.",
     "sections": [
       {
@@ -574,6 +579,10 @@
       {
         "h": "Pagamentos",
         "body": "<p>Se você comprar uma assinatura, o pagamento e a assinatura são processados pelo Google Play, e o Google processa as informações da compra sob a sua própria política de privacidade. O app apenas consulta o app da Play Store no seu celular para saber se você tem uma assinatura ativa; ele não usa conexão própria à internet para isso e não tem acesso aos seus dados de pagamento. Códigos promocionais são resgatados na Play Store; o app não armazena o código.</p>"
+      },
+      {
+        "h": "Códigos de convite",
+        "body": "<p>Cada instalação cria um código de convite aleatório no celular; ele não contém informações pessoais. Se você convidar alguém, você escolhe o aplicativo para compartilhar; o link compartilhado do Google Play contém apenas esse código. O aplicativo do seu amigo cria um código de agradecimento, que ele mesmo envia para você, e o contador aumenta no seu celular. Nenhum servidor está envolvido e o aplicativo não sabe quem você convidou. As recompensas são apenas emblemas e papéis de parede.</p>"
       },
       {
         "h": "Feedback por e-mail",
@@ -654,6 +663,22 @@
     "lead": "Novidades no ha!shh. O app ainda está em desenvolvimento: tudo o que está aqui faz parte da versão de desenvolvimento e chega ao Google Play no lançamento."
   },
   "news": [
+    {
+      "date": "2026-10-14",
+      "h": "Convide amigos, ganhe recompensas",
+      "items": [
+        "<b>Convide e ganhe recompensas:</b> cada instalação tem um código de convite aleatório. Compartilhe-o com o aplicativo que escolher; quando um amigo instalar o ha!shh e inseri-lo, o aplicativo dele fornecerá um código de agradecimento para enviar de volta a você, e seu contador aumentará.",
+        "<b>As recompensas são apenas por diversão:</b> 1 convite desbloqueia o emblema “Primeiro convite”, 3 o papel de parede Papel, 5 o emblema “Círculo silencioso”, 7 o papel de parede Noite e 10 o emblema “Embaixador ha!shh”.",
+        "<b>Sem servidor, sem rastreamento:</b> os convites funcionam sem internet; ninguém descobre quem você é.",
+        "<b>Outras novidades:</b> layout de duas colunas quando o celular estiver na horizontal, visualização simples automática quando a economia de bateria estiver ativada, ícones de aplicativos no resumo silencioso expandido, notificações em tempo real (como rastreamento de pedidos) mantidas com o progresso mais recente no Histórico, seletor de horário maior e um botão Arquivar na parte superior do Histórico."
+      ],
+      "images": [
+        {
+          "src": "2026-10-14-invite",
+          "alt": "Tela de convite: seu código de convite, recompensas e o campo do código de agradecimento."
+        }
+      ]
+    },
     {
       "date": "2026-10-13",
       "h": "Modo spoiler, carteira de arquivo e backup na sua própria nuvem",

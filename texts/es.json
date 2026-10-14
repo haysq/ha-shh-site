@@ -486,6 +486,11 @@
             "t": "Llévate tu archivo contigo",
             "p": "Guarda tu archivo como un archivo protegido por contraseña o sin ella en Google Drive, Dropbox o tu teléfono, y restáuralo en un teléfono nuevo con un solo toque. La app nunca se conecta a internet; el selector de archivos de tu propio teléfono se encarga de guardarlo.",
             "new": "Nuevo"
+          },
+          {
+            "t": "Invitar amigos",
+            "p": "Cada instalación tiene un código de invitación aleatorio. Cuando un amigo se una y te envíe su código de agradecimiento, desbloquearás insignias y fondos de pantalla (las recompensas son solo visuales). Funciona sin internet; nadie sabrá quién eres.",
+            "new": "Nuevo"
           }
         ]
       }
@@ -536,7 +541,7 @@
     "title": "Política de privacidad · {brand}",
     "desc": "Cómo gestiona los datos la app de notificaciones: sin permiso de internet, todo permanece cifrado en tu teléfono, contenido de las notificaciones solo con tu permiso.",
     "h1": "Política de privacidad",
-    "updated": "Última actualización: 13 de octubre de 2026",
+    "updated": "Última actualización: 14 de octubre de 2026",
     "intro": "En resumen: la app no tiene permiso de internet y no envía nada a ningún sitio. Todo lo que almacena permanece cifrado en tu teléfono. El contenido de las notificaciones no se lee a menos que actives esa opción, y el archivo contiene solo las notificaciones que tú elijas guardar.",
     "sections": [
       {
@@ -574,6 +579,10 @@
       {
         "h": "Pagos",
         "body": "<p>Si compras una suscripción, el pago y la suscripción se gestionan a través de Google Play, y Google procesa los datos de compra según su propia política de privacidad. La app solo consulta a través de la app de Play Store en tu teléfono si tienes una suscripción activa; no utiliza su propia conexión a internet para esto ni ve tus datos de pago. Los códigos promocionales se canjean en Play Store; la app no almacena el código.</p>"
+      },
+      {
+        "h": "Códigos de invitación",
+        "body": "<p>Cada instalación genera un código de invitación aleatorio en el teléfono; no contiene información personal. Si invitas a alguien, tú eliges la aplicación con la que compartirlo; el enlace de Google Play compartido contiene únicamente este código. La aplicación de tu amigo genera un código de agradecimiento que él mismo te envía, y tu contador aumenta en tu teléfono. No interviene ningún servidor y la app no se entera de a quién has invitado. Las recompensas son solo insignias y fondos de pantalla.</p>"
       },
       {
         "h": "Comentarios por correo electrónico",
@@ -654,6 +663,22 @@
     "lead": "Novedades en ha!shh. La app todavía está en desarrollo: todo lo que ves aquí está en la versión de desarrollo y llegará a Google Play en el lanzamiento."
   },
   "news": [
+    {
+      "date": "2026-10-14",
+      "h": "Invita amigos, gana recompensas",
+      "items": [
+        "<b>Invita y gana recompensas:</b> cada instalación tiene un código de invitación aleatorio. Compártelo con la aplicación que elijas; cuando un amigo instale ha!shh y lo introduzca, su app le dará un código de agradecimiento para que te lo envíe, y tu contador aumentará.",
+        "<b>Las recompensas son solo por diversión:</b> 1 invitación desbloquea la insignia «Primera invitación», 3 el fondo de pantalla Papel, 5 la insignia «Círculo tranquilo», 7 el fondo de pantalla Noche y 10 la insignia «Embajador de ha!shh».",
+        "<b>Sin servidores ni rastreo:</b> las invitaciones funcionan sin internet; nadie sabrá quién eres.",
+        "<b>Otras novedades:</b> un diseño de dos columnas cuando el teléfono está de lado, una vista simple automática al activar el ahorro de batería, iconos de apps en el resumen silencioso ampliado, notificaciones en vivo (como el seguimiento de pedidos) guardadas con su progreso más reciente en el Historial, un selector de hora más grande y un botón de Archivo en la parte superior del Historial."
+      ],
+      "images": [
+        {
+          "src": "2026-10-14-invite",
+          "alt": "Pantalla de invitación: tu código de invitación, recompensas y el campo para el código de agradecimiento."
+        }
+      ]
+    },
     {
       "date": "2026-10-13",
       "h": "Modo spoiler, billetera del archivo y copia de seguridad en tu propia nube",

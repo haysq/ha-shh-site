@@ -486,6 +486,11 @@
             "t": "Nimm dein Archiv mit",
             "p": "Speichere dein Archiv als passwortgeschützte oder unverschlüsselte Datei auf Google Drive, Dropbox oder deinem Smartphone und stelle es auf einem neuen Smartphone mit nur einem Tippen wieder her. Die App geht niemals online; die Dateiauswahl deines Smartphones übernimmt das Speichern.",
             "new": "Neu"
+          },
+          {
+            "t": "Freunde einladen",
+            "p": "Jede Installation hat einen zufälligen Einladungscode. Wenn ein Freund beitritt und dir seinen Dankeschön-Code schickt, schaltest du Abzeichen und Hintergrundbilder frei (Belohnungen sind rein optisch). Funktioniert ohne Internet; niemand erfährt, wer du bist.",
+            "new": "Neu"
           }
         ]
       }
@@ -536,7 +541,7 @@
     "title": "Datenschutzerklärung · {brand}",
     "desc": "Wie die Benachrichtigungs-App mit Daten umgeht: keine Internetberechtigung, alles bleibt verschlüsselt auf deinem Smartphone, Benachrichtigungsinhalte nur mit deiner Erlaubnis.",
     "h1": "Datenschutzerklärung",
-    "updated": "Zuletzt aktualisiert: 13. Oktober 2026",
+    "updated": "Zuletzt aktualisiert: 14. Oktober 2026",
     "intro": "Kurz gesagt: Die App hat keine Internetberechtigung und sendet nichts irgendwohin. Alles, was gespeichert wird, bleibt verschlüsselt auf deinem Smartphone. Benachrichtigungsinhalte werden nur gelesen, wenn du das einschaltest, und das Archiv speichert nur Benachrichtigungen, die du selbst auswählst.",
     "sections": [
       {
@@ -574,6 +579,10 @@
       {
         "h": "Zahlungen",
         "body": "<p>Wenn du ein Abonnement kaufst, werden die Zahlung und das Abonnement von Google Play abgewickelt, und Google verarbeitet die Kaufinformationen nach seinen eigenen Datenschutzbestimmungen. Die App erfährt lediglich über die Play Store App auf deinem Smartphone, ob du ein aktives Abonnement hast; sie nutzt dafür keine eigene Internetverbindung und sieht deine Zahlungsdaten nicht. Promo-Codes werden im Play Store eingelöst; die App speichert den Code nicht.</p>"
+      },
+      {
+        "h": "Einladungscodes",
+        "body": "<p>Jede Installation erstellt einen zufälligen Einladungscode auf dem Telefon; er enthält keine persönlichen Informationen. Wenn du jemanden einlädst, wählst du die App zum Teilen aus; der geteilte Google Play-Link enthält nur diesen Code. Die App deines Freundes erstellt einen Dankeschön-Code, den er dir selbst zusendet, und dein Zähler auf deinem Telefon steigt. Es ist kein Server beteiligt und die App erfährt nicht, wen du eingeladen hast. Belohnungen sind ausschließlich Abzeichen und Hintergrundbilder.</p>"
       },
       {
         "h": "Feedback per E-Mail",
@@ -654,6 +663,22 @@
     "lead": "Was es Neues in ha!shh gibt. Die App ist noch in der Entwicklung: Alles hier ist in der Entwicklungsversion enthalten und kommt zum Start zu Google Play."
   },
   "news": [
+    {
+      "date": "2026-10-14",
+      "h": "Freunde einladen, Belohnungen erhalten",
+      "items": [
+        "<b>Einladen und Belohnungen erhalten:</b> Jede Installation hat einen zufälligen Einladungscode. Teile ihn über die App deiner Wahl; wenn ein Freund ha!shh installiert und den Code eingibt, erhält er von seiner App einen Dankeschön-Code, den er dir zurücksenden kann, und dein Zähler steigt.",
+        "<b>Belohnungen dienen nur dem Spaß:</b> 1 Einladung schaltet das Abzeichen „Erste Einladung“ frei, 3 das Papier-Hintergrundbild, 5 das Abzeichen „Ruhiger Kreis“, 7 das Nacht-Hintergrundbild und 10 das Abzeichen „ha!shh-Botschafter“.",
+        "<b>Kein Server, kein Tracking:</b> Einladungen funktionieren ohne Internet; niemand erfährt, wer du bist.",
+        "<b>Außerdem neu:</b> Ein zweispaltiges Layout im Querformat, eine automatische einfache Ansicht bei aktivem Energiesparmodus, App-Symbole in der erweiterten Ruhe-Zusammenfassung, Live-Benachrichtigungen (wie Bestellverfolgung) mit aktuellem Status im Verlauf, eine größere Zeitauswahl und eine Archivieren-Schaltfläche oben im Verlauf."
+      ],
+      "images": [
+        {
+          "src": "2026-10-14-invite",
+          "alt": "Einladungsbildschirm: Dein Einladungscode, Belohnungen und das Feld für den Dankeschön-Code."
+        }
+      ]
+    },
     {
       "date": "2026-10-13",
       "h": "Spoiler-Modus, Archiv-Geldbörse und Backup in deine eigene Cloud",

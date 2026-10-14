@@ -486,6 +486,11 @@
             "t": "Bawa arsip Anda ke mana saja",
             "p": "Simpan arsip Anda sebagai file biasa atau yang dilindungi kata sandi ke Google Drive, Dropbox, atau ponsel Anda, lalu pulihkan di ponsel baru dengan sekali ketuk. Aplikasi ini tidak pernah terhubung ke internet; pemilih file bawaan ponsel Anda yang menangani penyimpanan.",
             "new": "Baru"
+          },
+          {
+            "t": "Undang teman",
+            "p": "Setiap pemasangan memiliki kode undangan acak. Saat teman bergabung dan mengirimi Anda kode terima kasih mereka, Anda membuka lencana dan wallpaper (hadiah hanya berupa visual). Berfungsi tanpa internet; tidak ada yang mengetahui siapa Anda.",
+            "new": "Baru"
           }
         ]
       }
@@ -536,7 +541,7 @@
     "title": "Kebijakan privasi · {brand}",
     "desc": "Cara aplikasi notifikasi menangani data: tanpa izin internet, semua tetap terenkripsi di ponsel Anda, konten notifikasi hanya dengan izin Anda.",
     "h1": "Kebijakan privasi",
-    "updated": "Terakhir diperbarui: 13 Oktober 2026",
+    "updated": "Terakhir diperbarui: 14 Oktober 2026",
     "intro": "Singkatnya: aplikasi ini tidak memiliki izin internet dan tidak mengirim apa pun ke mana pun. Semua yang disimpannya tetap terenkripsi di ponsel Anda. Konten notifikasi tidak dibaca kecuali Anda mengaktifkannya, dan arsip hanya menyimpan notifikasi yang Anda pilih untuk disimpan.",
     "sections": [
       {
@@ -574,6 +579,10 @@
       {
         "h": "Pembayaran",
         "body": "<p>Jika Anda membeli langganan, pembayaran dan langganan akan ditangani oleh Google Play, dan Google memproses informasi pembelian berdasarkan kebijakan privasinya sendiri. Aplikasi ini hanya mencari tahu dari aplikasi Play Store di ponsel Anda apakah Anda memiliki langganan aktif; aplikasi ini tidak menggunakan koneksi internetnya sendiri untuk hal ini dan tidak melihat detail pembayaran Anda. Kode promo ditukarkan di Play Store; aplikasi tidak menyimpan kode tersebut.</p>"
+      },
+      {
+        "h": "Kode undangan",
+        "body": "<p>Setiap pemasangan membuat kode undangan acak di ponsel; kode ini tidak memuat informasi pribadi apa pun. Jika Anda mengundang seseorang, Anda memilih aplikasi untuk membagikannya; tautan Google Play yang dibagikan hanya memuat kode ini. Aplikasi teman Anda membuat kode terima kasih, yang mereka kirimkan sendiri kepada Anda, dan penghitung di ponsel Anda bertambah. Tidak ada server yang terlibat dan aplikasi tidak mengetahui siapa yang Anda undang. Hadiah hanyalah lencana dan wallpaper.</p>"
       },
       {
         "h": "Masukan melalui email",
@@ -654,6 +663,22 @@
     "lead": "Yang baru di ha!shh. Aplikasi ini masih dalam tahap pengembangan: semua yang ada di sini berada dalam versi pengembangan dan akan hadir di Google Play saat peluncuran."
   },
   "news": [
+    {
+      "date": "2026-10-14",
+      "h": "Undang teman, dapatkan hadiah",
+      "items": [
+        "<b>Undang dan dapatkan hadiah:</b> setiap pemasangan memiliki kode undangan acak. Bagikan melalui aplikasi pilihan Anda; saat teman memasang ha!shh dan memasukkannya, aplikasi mereka akan memberi kode terima kasih untuk dikirimkan kembali kepada Anda, dan penghitung Anda akan bertambah.",
+        "<b>Hadiah hanya untuk bersenang-senang:</b> 1 undangan membuka lencana “Undangan pertama”, 3 wallpaper Kertas, 5 lencana “Lingkaran tenang”, 7 wallpaper Malam, dan 10 lencana “Duta ha!shh”.",
+        "<b>Tanpa server, tanpa pelacakan:</b> undangan berfungsi tanpa internet; tidak ada yang mengetahui siapa Anda.",
+        "<b>Yang baru lainnya:</b> tata letak dua kolom saat ponsel dalam posisi miring, tampilan sederhana otomatis saat penghemat baterai aktif, ikon aplikasi dalam ringkasan senyap yang diperluas, notifikasi langsung (seperti pelacakan pesanan) yang disimpan dengan progres terbarunya di Riwayat, pemilih waktu yang lebih besar, dan tombol Arsip di bagian atas Riwayat."
+      ],
+      "images": [
+        {
+          "src": "2026-10-14-invite",
+          "alt": "Layar undangan: kode undangan Anda, hadiah, dan kolom kode terima kasih."
+        }
+      ]
+    },
     {
       "date": "2026-10-13",
       "h": "Mode spoiler, dompet arsip, dan pencadangan ke cloud Anda sendiri",

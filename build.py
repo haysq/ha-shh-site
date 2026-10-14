@@ -118,7 +118,7 @@ def decorate(t):
     group_icons = [["bolt", "down", "shield", "star", "bell"],
                    ["layers", "list", "cal", "dial", "cycle", "sliders", "clock", "shield"],
                    ["eye", "layers", "sliders", "car", "down", "star", "list", "dial", "eye", "bell", "cycle", "layers"],
-                   ["box", "finger", "eye", "palette", "mail", "layers", "star", "down"]]
+                   ["box", "finger", "eye", "palette", "mail", "layers", "star", "down", "star"]]
     for group, icons in zip(t["features"]["groups"], group_icons):
         for item, ic in zip(group["items"], icons):
             item["icon"] = icon(ic, ic in ("box", "down"))

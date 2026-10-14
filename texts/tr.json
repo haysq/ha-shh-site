@@ -486,6 +486,11 @@
             "t": "Arşivin yanında",
             "p": "Arşivini güçlü parola korumalı ya da şifresiz bir dosya olarak Google Drive'a, Dropbox'a ya da telefonuna kaydet; yeni telefonunda tek dokunuşla geri yükle. Uygulama internete çıkmaz; kaydetmeyi telefonunun kendi dosya seçicisi yapar.",
             "new": "Yeni"
+          },
+          {
+            "t": "Arkadaşlarını davet et",
+            "p": "Her kurulumun rastgele bir davet kodu var. Arkadaşın katılıp sana teşekkür kodunu gönderince rozetlerin ve duvar kâğıtlarının kilidi açılır (ödüller yalnız görseldir). İnternet olmadan çalışır; kim olduğun bilinmez.",
+            "new": "Yeni"
           }
         ]
       }
@@ -536,7 +541,7 @@
     "title": "Gizlilik politikası · {brand}",
     "desc": "Bildirim uygulamasının verileri nasıl ele aldığı: internet izni yok, her şey telefonda şifreli kalır, bildirim içeriği yalnız izninle.",
     "h1": "Gizlilik politikası",
-    "updated": "Son güncelleme: 13 Ekim 2026",
+    "updated": "Son güncelleme: 14 Ekim 2026",
     "intro": "Kısaca: Uygulamanın internet izni yoktur ve hiçbir yere bir şey göndermez. Sakladığı her şey telefonunda şifreli durur. Sen açmadıkça bildirim içeriği okunmaz; arşivde yalnız senin kaydetmeyi seçtiğin bildirimler bulunur.",
     "sections": [
       {
@@ -574,6 +579,10 @@
       {
         "h": "Ödeme",
         "body": "<p>Abonelik satın alırsan ödemeyi ve aboneliği Google Play yürütür; satın alma bilgisini Google kendi gizlilik politikasına göre işler. Uygulama yalnız telefonundaki Play Store uygulamasından etkin bir aboneliğin olup olmadığını öğrenir; bunun için kendi internet bağlantısını kullanmaz ve ödeme bilgilerini görmez. Promosyon kodları Play Store'da kullanılır; uygulama kodu saklamaz.</p>"
+      },
+      {
+        "h": "Davet kodları",
+        "body": "<p>Her kurulum telefonda rastgele bir davet kodu oluşturur; kodda kişisel bilgi yoktur. Birini davet edersen hangi uygulamayla paylaşacağını sen seçersin; paylaşılan Google Play bağlantısında yalnız bu kod bulunur. Arkadaşının uygulaması bir teşekkür kodu oluşturur, arkadaşın bunu sana kendisi gönderir ve sayacın telefonunda artar. Arada sunucu yoktur ve uygulama kimi davet ettiğini öğrenmez. Ödüller yalnız rozet ve duvar kâğıdıdır.</p>"
       },
       {
         "h": "E-postayla geri bildirim",
@@ -654,6 +663,22 @@
     "lead": "ha!shh'ta neler yeni. Uygulama hâlâ geliştiriliyor: burada yazanların hepsi geliştirme sürümünde ve lansmanla birlikte Google Play'e gelecek."
   },
   "news": [
+    {
+      "date": "2026-10-14",
+      "h": "Arkadaşlarını davet et, ödül kazan",
+      "items": [
+        "<b>Davet et, ödül kazan:</b> Her kurulumun rastgele bir davet kodu var. Kodu seçtiğin uygulamayla paylaş; arkadaşın ha!shh'ı kurup kodu girince uygulaması ona sana göndermesi için bir teşekkür kodu verir, senin sayacın artar.",
+        "<b>Ödüller yalnız keyif için:</b> 1 davet “İlk davet” rozetini, 3 davet Kâğıt duvar kâğıdını, 5 davet “Sessiz çember” rozetini, 7 davet Gece duvar kâğıdını, 10 davet “ha!shh elçisi” rozetini açar.",
+        "<b>Sunucu yok, takip yok:</b> Davetler internet olmadan çalışır; kim olduğun bilinmez.",
+        "<b>Ayrıca yeni:</b> Telefon yan çevrilince iki sütunlu görünüm, pil tasarrufu açılınca kendiliğinden sade görünüm, genişletilen sessiz haberde uygulama simgeleri, Geçmiş'te son durumuyla saklanan canlı bildirimler (ör. sipariş takibi), daha büyük saat seçici ve Geçmiş'in üstünde Arşiv düğmesi."
+      ],
+      "images": [
+        {
+          "src": "2026-10-14-invite",
+          "alt": "Davet ekranı: davet kodun, ödüller ve teşekkür kodu alanı."
+        }
+      ]
+    },
     {
       "date": "2026-10-13",
       "h": "Spoiler modu, arşiv cüzdanı ve kendi buluta yedek",
