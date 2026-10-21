@@ -2,252 +2,252 @@
  {
   "type": "guide",
   "sec": "Memulai",
-  "t": "Apa yang dilakukan ha!shh?",
-  "a": "Aplikasi ini menunda notifikasi masuk sesuai aturan Anda dan mengembalikannya secara bersamaan pada jam-jam yang Anda pilih. Teks notifikasi tidak pernah dibaca untuk mengambil keputusan; hanya informasi aplikasi asal dan waktu kedatangannya yang digunakan. Aplikasi ini tidak memiliki izin internet, semuanya tetap berada di ponsel Anda.",
+  "t": "Apa fungsi ha!shh?",
+  "a": "ha!shh menunda notifikasi yang masuk sesuai aturan Anda dan mengumpulkannya untuk dikirimkan pada jam-jam yang Anda tentukan. Untuk memutuskan penundaan, isi teks notifikasi tidak dibaca; hanya aplikasi asal dan waktu masuknya yang digunakan. Secara default, isi notifikasi hanya dibaca dan ditampilkan di ponsel Anda; aplikasi ini tidak memiliki izin internet, sehingga tidak ada data yang keluar dari ponsel Anda.",
   "q": [
-   "apa itu ha!shh",
-   "cara kerja ha!shh",
-   "fungsi aplikasi ha!shh",
-   "bagaimana ha!shh menunda notifikasi"
+   "apa fungsi ha!shh",
+   "bagaimana cara kerja ha!shh",
+   "apa itu aplikasi ha!shh",
+   "keamanan data di ha!shh"
   ]
  },
  {
   "type": "guide",
   "sec": "Memulai",
   "t": "Bagaimana cara melakukan penyiapan awal?",
-  "a": "Saat Anda pertama kali membuka aplikasi, Panduan Penyiapan Awal akan dimulai. Anda membaca informasi privasi, memberikan akses notifikasi serta pengaturan baterai, lalu memilih rutinitas yang cocok untuk Anda (Pelajar, Pekerja Kantor, Giliran Kerja Malam, Bebas / Fleksibel). Jika Anda keluar dari panduan di tengah jalan, Anda dapat melanjutkannya melalui kartu di Aliran atau lewat Pengaturan → Alat → Panduan Penyiapan Awal.",
+  "a": "Saat membuka aplikasi untuk pertama kali, Panduan Penyiapan Awal akan dimulai. Anda membaca informasi privasi, memberikan izin akses notifikasi serta baterai, lalu memilih gaya hidup yang cocok untuk Anda (Pelajar, Pekerja Kantor, Shift Malam, Fleksibel / Freelance). Penyiapan awal ini juga langsung menyiapkan jadwal Tidur malam pada peluncuran pertama; sehingga begitu selesai, aplikasi langsung siap digunakan. Jika Anda keluar di tengah panduan, Anda dapat melanjutkannya lewat kartu di layar Hari Ini atau melalui Pengaturan → Alat → Panduan Penyiapan Awal.",
   "q": [
-   "setup awal aplikasi",
-   "cara mengatur ha!shh pertama kali",
-   "panduan pengguna baru",
-   "cara melanjutkan wizard penyiapan"
+   "cara setup ha!shh pertama kali",
+   "pengaturan awal aplikasi",
+   "wisaya penyiapan",
+   "melanjutkan setup awal"
   ]
  },
  {
   "type": "guide",
   "sec": "Memulai",
   "t": "Izin apa saja yang diperlukan?",
-  "a": "Dua hal diperlukan: akses notifikasi (wajib untuk penundaan) serta izin baterai dan latar belakang (agar waktu pengantaran tidak terlewat). Anda dapat melihat keduanya di Pengaturan → Izin perangkat; di sampingnya akan tertulis \"Diizinkan\" atau \"Izin diperlukan\".",
+  "a": "Dua izin utama diperlukan: akses notifikasi (wajib untuk penundaan dan pengiriman sekaligus) serta izin baterai dan latar belakang (agar waktu pengiriman tidak terlambat). Keduanya dapat Anda lihat di Pengaturan → Izin perangkat; di sampingnya akan tertulis \"Diizinkan\" atau \"Izin diperlukan\".",
   "q": [
    "izin apa yang dibutuhkan",
-   "kenapa butuh akses notifikasi",
-   "izin latar belakang dan baterai",
-   "cara cek izin perangkat"
+   "akses notifikasi tidak aktif",
+   "kenapa butuh izin baterai",
+   "cek izin aplikasi"
   ]
  },
  {
   "type": "guide",
-  "sec": "Penggunaan sehari-hari",
-  "t": "Ada apa saja di layar Aliran?",
-  "a": "Di bagian tengah terdapat putaran jam harian: 12 di atas, 18 di kanan, 00 di bawah, 06 di kiri. Ikon aplikasi dari notifikasi yang tertunda muncul di atas putaran jam. Di bagian bawah terdapat kartu Tertunda, waktu pengantaran berikutnya, kartu arsip, dan ringkasan Waktu yang dihemat.",
+  "sec": "Penggunaan Sehari-hari",
+  "t": "Apa saja yang ada di layar Hari Ini?",
+  "a": "Di bagian tengah terdapat dial jam 24 jam: 12 di atas, 18 di kanan, 00 di bawah, 06 di kiri. Ikon aplikasi dari notifikasi yang tertunda muncul di atas dial; ikon pada jam yang berdekatan tidak akan saling bertumpuk. Di bagian bawah terdapat tumpukan kartu Notifikasi Tertunda, jadwal pengiriman berikutnya, kartu arsip, dan ringkasan Waktu yang dihemat (perkiraan penghematan baterai berkat layar ponsel yang tidak menyala terus-menerus juga dirangkum di kartu ini).",
   "q": [
-   "tampilan layar aliran",
-   "arti jam di beranda",
-   "isi menu aliran",
-   "penjelasan kartu tertunda dan arsip"
+   "tampilan layar hari ini",
+   "arti dial jam 24 jam",
+   "kartu notifikasi tertunda",
+   "menu di beranda"
   ]
  },
  {
   "type": "guide",
-  "sec": "Penggunaan sehari-hari",
+  "sec": "Penggunaan Sehari-hari",
   "t": "Bagaimana cara melihat notifikasi yang tertunda?",
-  "a": "Di Aliran, ketuk tautan Baca semua › pada kartu Tertunda. Jika mau, Anda dapat langsung menerima semuanya dengan Kirim semua sekarang. Mengetuk suatu notifikasi akan membuka aplikasi asalnya.",
+  "a": "Di layar Hari Ini, Anda dapat mengetuk tautan Baca semua › pada kartu Notifikasi Tertunda. Jika mau, Anda dapat mengambil semua notifikasi yang tertunda sekaligus dengan Tampilkan semua sekarang. Mengetuk suatu notifikasi akan langsung membuka aplikasi asalnya. Pada tumpukan kartu, geser kartu ke kanan untuk menandainya sudah dibaca, atau geser ke kiri untuk menunda 30 menit. Jika ingin membatalkan tindakan, cukup ketuk tombol Urungkan yang muncul selama 4 detik di bagian bawah layar.",
   "q": [
    "cara melihat pesan tertunda",
-   "baca notifikasi yang ditahan",
-   "terima semua notifikasi sekarang",
-   "buka aplikasi dari notifikasi tertunda"
+   "baca notifikasi sekarang",
+   "geser kartu notifikasi",
+   "batalkan tunda notifikasi"
   ]
  },
  {
   "type": "guide",
-  "sec": "Penggunaan sehari-hari",
+  "sec": "Penggunaan Sehari-hari",
   "t": "Bisakah saya membaca isi notifikasi di dalam aplikasi?",
-  "a": "Ya, tetapi hanya jika Anda mengizinkannya. Aktifkan sakelar Pengaturan → Konten dan ketenangan → Tampilkan konten notifikasi. Saat dimatikan, hanya nama aplikasi, waktu, dan alasan penundaan yang akan terlihat.",
+  "a": "Ya. Opsi menampilkan isi notifikasi aktif secara default; konten hanya dibaca dan ditampilkan secara aman di perangkat Anda sendiri. Jika tidak menginginkannya, Anda dapat mematikannya melalui sakelar Pengaturan → Konten dan ketenangan → Tampilkan isi notifikasi. Saat dimatikan, hanya nama aplikasi, waktu, dan alasan penundaan yang akan terlihat.",
   "q": [
-   "cara lihat isi pesan notifikasi",
-   "baca preview chat",
-   "tampilkan teks notifikasi di aplikasi",
-   "kenapa isi notifikasi tersembunyi"
+   "baca isi chat di aplikasi",
+   "sembunyikan teks notifikasi",
+   "privasi isi pesan",
+   "tampilkan isi notifikasi"
   ]
  },
  {
   "type": "guide",
-  "sec": "Penggunaan sehari-hari",
-  "t": "Bagaimana waktu yang dihemat dihitung?",
-  "a": "Secara default, dihitung 1 menit untuk setiap notifikasi yang ditunda tanpa mengganggu Anda. Anda dapat mengubah durasi ini antara 0,5 hingga 5 menit melalui Pengaturan → Konten dan ketenangan → Waktu per gangguan. Untuk mematikan ringkasan, matikan sakelar Ringkasan waktu yang dihemat di bagian yang sama.",
+  "sec": "Penggunaan Sehari-hari",
+  "t": "Bagaimana cara menghitung Waktu yang dihemat?",
+  "a": "Secara default, setiap notifikasi yang ditahan tanpa mengganggu Anda dihitung menghemat waktu 1 menit. Anda dapat mengubah durasi ini antara 0,5 hingga 5 menit melalui Pengaturan → Konten dan ketenangan → Waktu per gangguan. Untuk menonaktifkan ringkasan, Anda dapat mematikan sakelar Ringkasan waktu yang dihemat di bagian yang sama. Perkiraan penghematan baterai yang diperoleh dari pencegahan layar menyala tanpa perlu juga ditampilkan di kartu ini.",
   "q": [
-   "cara menghitung waktu yang dihemat",
-   "ubah durasi per gangguan",
-   "matikan ringkasan waktu hemat",
-   "apa itu waktu yang dihemat"
+   "cara hitung waktu dihemat",
+   "pengaturan waktu per gangguan",
+   "matikan ringkasan waktu",
+   "hemat baterai notifikasi"
   ]
  },
  {
   "type": "guide",
   "sec": "Aturan",
-  "t": "Bagaimana cara membuat aturan untuk suatu aplikasi?",
-  "a": "Ketuk aplikasi di tab Aturan. Empat opsi akan muncul: Langsung, Tunda, Saat pengantaran, Blokir. Tindakan yang Anda pilih akan diterapkan ke semua notifikasi dari aplikasi tersebut.",
+  "t": "Bagaimana cara mengatur aturan untuk suatu aplikasi?",
+  "a": "Ketuk aplikasi di tab Aturan. Empat pilihan akan muncul: Langsung, Tunda, Saat waktu pengiriman, Blokir. Tindakan yang Anda pilih akan diterapkan ke semua notifikasi dari aplikasi tersebut.",
   "q": [
-   "cara bikin aturan aplikasi",
    "atur notifikasi per aplikasi",
-   "opsi aturan notifikasi",
-   "ubah perilaku aplikasi di aturan"
+   "cara membuat aturan aplikasi",
+   "tunda aplikasi tertentu",
+   "blokir notifikasi aplikasi"
   ]
  },
  {
   "type": "guide",
   "sec": "Aturan",
-  "t": "Saya ingin aplikasi tertentu tidak pernah ditunda",
-  "a": "Ketuk aplikasi di Aturan, pilih Langsung, lalu ketuk opsi Jangan pernah tunda (terima di semua mode) yang muncul di bawah. Dengan begitu, notifikasi aplikasi tersebut akan langsung masuk dalam mode apa pun.",
+  "t": "Saya ingin sebuah aplikasi tidak pernah ditunda",
+  "a": "Di tab Aturan, ketuk aplikasi yang diinginkan, pilih Langsung, lalu ketuk opsi Jangan pernah tunda (kirim di semua mode) yang muncul di bawahnya. Dengan demikian, notifikasi aplikasi tersebut akan langsung masuk terlepas dari mode apa pun yang sedang aktif. Notifikasi sistem Android dan SIM (jaringan, operator, peringatan sistem) serta panggilan darurat dan alarm demi alasan keamanan tidak akan pernah ditunda.",
   "q": [
-   "jangan tunda whatsapp",
-   "aplikasi langsung masuk selalu",
-   "notifikasi darurat selalu bunyi",
-   "cara bypass penundaan aplikasi"
+   "aplikasi selalu masuk",
+   "jangan tunda wa",
+   "notifikasi penting langsung muncul",
+   "pengecualian aturan"
   ]
  },
  {
   "type": "guide",
   "sec": "Aturan",
-  "t": "Saya hanya ingin melihat pesan pada aplikasi seperti Instagram (filter jenis)",
-  "a": "Ketuk aplikasi di Aturan dan buka panel Filter Jenis dengan Pilih jenis ›. Tersedia filter siap pakai: Hanya pesan, Hanya suka, Suka + komentar, Atur ulang. Anda juga dapat memilih Default, Langsung, Saat pengantaran, atau Blokir untuk setiap jenis. Pemisahan dilakukan berdasarkan kategori notifikasi aplikasi; konten pesan tidak dibaca.",
+  "t": "Saya hanya ingin melihat pesan di aplikasi seperti Instagram (filter jenis)",
+  "a": "Di tab Aturan, ketuk aplikasi lalu buka panel Filter Jenis dengan mengetuk Pilih jenis ›. Tersedia filter siap pakai: Hanya pesan, Hanya suka, Suka + komentar, Atur ulang. Untuk setiap jenis, Anda juga dapat memilih Default, Langsung, Saat pengiriman, atau Blokir. Pemisahan dilakukan berdasarkan saluran/jenis notifikasi dari aplikasi; isinya sama sekali tidak dibaca.",
   "q": [
    "hanya terima dm instagram",
    "filter jenis notifikasi",
-   "blokir notifikasi like izinkan pesan",
-   "atur filter kategori aplikasi"
+   "matikan like terima pesan saja",
+   "filter kategori notifikasi"
   ]
  },
  {
   "type": "guide",
   "sec": "Aturan",
   "t": "Bisakah saya mengelola aplikasi sebagai grup?",
-  "a": "Ya. Di layar Aturan, Anda dapat mengumpulkan beberapa aplikasi dalam satu grup dengan Grup Baru dan mengelolanya dengan satu aturan. Sebuah grup dapat menampung maksimal 100 aplikasi.",
+  "a": "Ya. Di layar Aturan, ketuk Grup Baru untuk mengumpulkan beberapa aplikasi dalam satu grup dan mengelolanya dengan satu aturan. Satu grup dapat memuat hingga 100 aplikasi.",
   "q": [
-   "kelompokkan beberapa aplikasi",
-   "bikin grup aturan",
-   "kelola aplikasi sekaligus",
-   "buat grup notifikasi baru"
+   "buat grup aplikasi",
+   "kelompokkan aplikasi di aturan",
+   "atur banyak aplikasi sekaligus",
+   "batas maksimal grup aplikasi"
   ]
  },
  {
   "type": "guide",
   "sec": "Aturan",
-  "t": "Di mana letak aplikasi yang saya blokir permanen?",
-  "a": "Pengaturan → Alat → Diblokir. Di sini Anda dapat melihat aplikasi yang diblokir beserta catatan notifikasi yang masuk darinya (aplikasi, waktu); Anda dapat membatalkannya dengan Buka Blokir.",
+  "t": "Di mana daftar aplikasi yang saya blokir permanen?",
+  "a": "Buka Pengaturan → Alat → Yang Diblokir. Di sini Anda dapat melihat aplikasi yang diblokir beserta catatan riwayat notifikasinya (nama aplikasi dan waktu); Anda dapat membuka blokir dengan mengetuk Buka Blokir.",
   "q": [
-   "daftar aplikasi terblokir",
-   "lihat riwayat notifikasi yang diblokir",
-   "cara buka blokir aplikasi",
-   "menu aplikasi diblokir"
+   "lihat aplikasi yang diblokir",
+   "buka blokir aplikasi",
+   "daftar blokir permanen",
+   "riwayat notifikasi diblokir"
   ]
  },
  {
   "type": "guide",
-  "sec": "Mode dan Rencana",
-  "t": "Apa saja mode yang ada?",
-  "a": "Ada empat mode bawaan: Normal, Fokus, Tidur, Olahraga. Waktu penundaan dan perilaku setiap mode diatur secara terpisah. Anda dapat mengeditnya melalui Atur › pada kartu mode di bagian Mode Anda di tab Rencana; Anda dapat menambahkan mode sendiri dengan + Mode kustom.",
+  "sec": "Mode dan Jadwal",
+  "t": "Apa saja mode yang tersedia?",
+  "a": "Tersedia empat mode bawaan: Normal, Fokus, Tidur, Olahraga. Durasi penundaan dan perilaku tiap mode dapat disesuaikan secara terpisah. Ketika waktu suatu mode berakhir, notifikasi yang tertahan di mode tersebut tidak dikirimkan pada waktu yang berantakan, melainkan dikirimkan bersamaan saat mode berakhir. Pada tab Jadwal di bagian Mode Anda, Anda dapat mengaturnya lewat Atur › pada kartu mode, atau menambahkan mode Anda sendiri lewat + Mode kustom.",
   "q": [
-   "apa saja mode yang tersedia",
-   "perbedaan mode fokus dan tidur",
-   "cara edit pengaturan mode",
-   "tambah mode kustom baru"
+   "apa itu mode fokus dan tidur",
+   "mode yang ada di ha!shh",
+   "tambah mode kustom baru",
+   "kapan notifikasi mode dikirim"
   ]
  },
  {
   "type": "guide",
-  "sec": "Mode dan Rencana",
-  "t": "Berapa lama mode yang saya pilih manual bertahan?",
-  "a": "Jika Anda memilih sendiri salah satu mode cepat, mode tersebut akan tetap aktif sampai Anda mematikannya; rencana jadwal tidak akan mengubahnya. Saat ingin kembali ke jadwal, ketuk tombol Kembali ke rencana.",
+  "sec": "Mode dan Jadwal",
+  "t": "Berapa lama mode yang saya pilih secara manual akan aktif?",
+  "a": "Saat Anda memilih salah satu mode cepat secara manual, mode tersebut akan tetap aktif sampai Anda mematikannya; perubahan jadwal otomatis tidak akan menimpanya. Jika ingin kembali ke jadwal reguler, cukup ketuk tombol Kembali ke jadwal.",
   "q": [
-   "durasi mode manual",
-   "kenapa mode tidak ganti otomatis",
-   "cara matikan mode manual",
-   "kembali ke jadwal rutin"
+   "mode manual bertahan berapa lama",
+   "cara kembali ke jadwal",
+   "jadwal tidak jalan saat mode aktif",
+   "matikan mode manual"
   ]
  },
  {
   "type": "guide",
-  "sec": "Mode dan Rencana",
-  "t": "Bagaimana cara membuat rencana mingguan?",
-  "a": "Hari dalam seminggu dan blok jam terlihat di tab Rencana. Anda mengatur jam dengan mengetuk salah satu hari dan menyeret ujung blok waktu. Anda dapat menambahkan blok atau waktu pengantaran baru dengan tombol + Mode, + Khusus hari ini, dan + Waktu pengantaran.",
+  "sec": "Mode dan Jadwal",
+  "t": "Bagaimana cara mengatur jadwal mingguan?",
+  "a": "Di tab Jadwal, hari-hari dalam seminggu dan blok waktu akan terlihat. Ketuk salah satu hari dan seret ujung blok waktu untuk menyesuaikan jamnya. Anda dapat menambahkan blok baru atau jadwal pengiriman dengan tombol + Mode, + Khusus hari ini, dan + Waktu pengiriman.",
   "q": [
-   "cara atur jadwal mingguan",
-   "setel jam mode otomatis",
-   "tambah blok waktu di rencana",
-   "jadwalkan waktu pengantaran rutin"
+   "atur jadwal mingguan",
+   "ubah jam mode otomatis",
+   "tambah waktu pengiriman baru",
+   "jadwal khusus hari ini"
   ]
  },
  {
   "type": "guide",
-  "sec": "Mode dan Rencana",
-  "t": "Menambahkan rentang mode dari putaran jam",
-  "a": "Ketuk tombol + di samping putaran jam di Aliran. Pilih rentang pada putaran jam (mis. 18.00–24.00 Fokus, 00.00–06.00 Tidur); waktu bergerak dalam kelipatan 15 menit. Peringatan akan muncul jika ada rentang yang bertabrakan. Anda dapat mengedit dan menghapus rentang yang ditambahkan nanti.",
+  "sec": "Mode dan Jadwal",
+  "t": "Menambahkan rentang mode dari dial jam",
+  "a": "Ketuk tombol + di samping dial pada layar Hari Ini. Pilih rentang waktu pada dial (misalnya, 18:00–24:00 Fokus, 00:00–06:00 Tidur); waktu bergerak dengan kelipatan 15 menit. Jika ada rentang yang bertabrakan, peringatan akan muncul. Rentang yang Anda tambahkan dapat diedit atau dihapus nanti.",
   "q": [
-   "tambah rentang waktu dari dial jam",
-   "atur jam mode di beranda",
-   "jadwalkan mode lewat putaran jam",
-   "edit rentang waktu jam"
+   "tambah rentang waktu dari dial",
+   "atur mode lewat jam dial",
+   "rentang waktu tabrakan",
+   "jadwal cepat lewat dial"
   ]
  },
  {
   "type": "guide",
-  "sec": "Mode dan Rencana",
-  "t": "Bagaimana cara mengubah waktu pengantaran?",
-  "a": "Di Rencana, ketuk tautan Edit waktu pengantaran & ritme harian › dari panel Atur › pada kartu mode. Notifikasi yang tertunda akan kembali dalam bentuk aslinya pada waktu pengantaran berikutnya yang sesuai.",
+  "sec": "Mode dan Jadwal",
+  "t": "Bagaimana cara mengubah waktu pengiriman notifikasi?",
+  "a": "Di tab Jadwal pada kartu mode, masuk ke panel Atur › lalu ketuk tautan Atur waktu pengiriman & ritme harian ›. Notifikasi yang tertunda akan dikirimkan kembali dalam bentuk aslinya pada jadwal pengiriman bersama berikutnya yang sesuai.",
   "q": [
    "ubah jam kirim notifikasi",
-   "ganti jadwal pengantaran pesan",
-   "atur ritme harian pengantaran",
-   "kapan notifikasi tertunda masuk"
+   "ganti waktu terima notifikasi",
+   "kapan notifikasi dikirimkan",
+   "jadwal batch notifikasi"
   ]
  },
  {
   "type": "guide",
-  "sec": "Mode dan Rencana",
-  "t": "Saya bekerja dengan sistem shift / giliran kerja",
-  "a": "Terdapat Pola giliran kerja di alat Rencana. Anda memasukkan siklus dan jam shift sekali saja; ha!shh akan menghitung secara otomatis hari apa Anda berada di shift yang mana. Saat aktif, di Rencana akan tertulis \"Pola giliran kerja · hari ini …\".",
+  "sec": "Mode dan Jadwal",
+  "t": "Saya bekerja dengan sistem shift",
+  "a": "Di alat Jadwal tersedia fitur Jadwal shift. Masukkan siklus dan jam shift Anda sekali saja; ha!shh akan secara otomatis menghitung shift Anda pada hari tersebut. Saat aktif, di tab Jadwal akan tertera keterangan \"Jadwal shift · hari ini …\".",
   "q": [
-   "jadwal kerja bergilir shift",
-   "atur pola giliran kerja",
-   "ha!shh untuk pekerja shift malam",
-   "siklus shift otomatis"
+   "kerja shift bergilir",
+   "atur jadwal shift",
+   "pengaturan shift kerja",
+   "rotasi shift ha!shh"
   ]
  },
  {
   "type": "guide",
-  "sec": "Mode dan Rencana",
-  "t": "Bagaimana cara melihat hari lalu dan hari mendatang?",
-  "a": "Anda dapat berpindah antar-bulan menggunakan Tampilan bulan di alat Rencana. Anda dapat melihat angka statistik hari lalu dan membuat rencana khusus untuk hari mendatang.",
+  "sec": "Mode dan Jadwal",
+  "t": "Bagaimana cara melihat hari-hari sebelumnya dan yang akan datang?",
+  "a": "Gunakan Tampilan bulan pada alat Jadwal untuk berpindah antarbulan. Anda dapat melihat ringkasan angka pada hari sebelumnya, atau menyiapkan jadwal khusus untuk hari mendatang.",
   "q": [
-   "lihat kalender rencana",
-   "cek riwayat jadwal kemarin",
-   "atur jadwal untuk hari besok",
-   "buka tampilan bulan"
+   "lihat kalender jadwal",
+   "tampilan bulanan",
+   "cek riwayat hari lalu",
+   "jadwal untuk tanggal tertentu"
   ]
  },
  {
   "type": "guide",
-  "sec": "Mode dan Rencana",
-  "t": "Mode olahraga dan perisai spoiler",
-  "a": "Pengaturan Olahraga terbuka melalui Atur › pada kartu Olahraga di Rencana. Notifikasi dari aplikasi olahraga yang Anda pilih akan ditunda sampai pertandingan selesai; aplikasi lain masuk seperti biasa. Jika Aktifkan mode spoiler menyala, aplikasi perisai yang Anda pilih juga ikut ditunda sampai pertandingan usai. Anda juga dapat menambahkan kata kunci jika mau (mis. gol, skor); ini hanya dicocokkan di ponsel jika Anda telah memberikan izin konten.",
+  "sec": "Mode dan Jadwal",
+  "t": "Mode olahraga dan perlindungan spoiler",
+  "a": "Di tab Jadwal, ketuk Atur › pada kartu Olahraga untuk membuka Pengaturan Olahraga. Notifikasi dari aplikasi olahraga yang Anda pilih akan ditunda hingga pertandingan selesai; notifikasi aplikasi lain tetap masuk normal. Jika Aktifkan mode spoiler menyala, aplikasi pelindung yang Anda tentukan juga akan ditunda hingga pertandingan usai. Anda juga dapat menambahkan kata kunci (misal: gol, skor); pencocokan ini hanya berfungsi jika izin isi notifikasi aktif dan dilakukan sepenuhnya di ponsel Anda.",
   "q": [
-   "hindari spoiler skor pertandingan",
-   "cara kerja perisai spoiler",
-   "tunda notifikasi aplikasi olahraga",
-   "filter kata kunci gol skor"
+   "cegah spoiler skor bola",
+   "mode nonton bola",
+   "filter kata kunci spoiler",
+   "pengaturan mode olahraga"
   ]
  },
  {
   "type": "guide",
   "sec": "Arsip",
   "t": "Apa itu Arsip dan di mana letaknya?",
-  "a": "Fitur ini menyimpan notifikasi yang ingin Anda simpan seperti kupon, tagihan, dan pengeluaran ke dalam folder. Fitur ini dapat dibuka dari tombol 📦 Arsip di bagian atas tab Riwayat atau dari kartu arsip di Aliran. Arsip disimpan secara terenkripsi hanya di ponsel ini.",
+  "a": "Arsip menyimpan notifikasi yang ingin Anda simpan rapi dalam folder, seperti kupon, tagihan, dan pengeluaran. Anda dapat membukanya melalui tombol 📦 Arsip di bagian atas tab Riwayat atau melalui kartu arsip di layar Hari Ini. Data arsip hanya disimpan di ponsel ini dalam kondisi terenkripsi.",
   "q": [
-   "apa kegunaan arsip",
-   "dimana letak menu arsip",
-   "simpan bukti tagihan dari notifikasi",
+   "apa fungsi arsip",
+   "di mana letak arsip",
+   "buka folder arsip",
    "keamanan data arsip"
   ]
  },
@@ -255,190 +255,250 @@
   "type": "guide",
   "sec": "Arsip",
   "t": "Bagaimana cara memasukkan notifikasi ke arsip?",
-  "a": "Ketuk tautan Arsipkan › di samping notifikasi saat membaca yang tertunda atau di Riwayat, lalu pilih folder. Anda dapat membuat folder sendiri dengan ➕ Buat Folder Baru....",
+  "a": "Saat membaca notifikasi tertunda atau di tab Riwayat, ketuk tautan Arsipkan › di samping notifikasi lalu pilih foldernya. Anda dapat membuat folder sendiri lewat ➕ Buat Folder Baru.... Semua catatan arsip yang Anda tambahkan atau edit secara manual akan selalu tersimpan dan tidak akan terhapus otomatis.",
   "q": [
-   "cara mengarsipkan notifikasi",
-   "pindahkan pesan ke folder arsip",
-   "bikin folder arsip baru",
-   "simpan pesan ke arsip"
+   "cara simpan ke arsip",
+   "arsipkan notifikasi",
+   "buat folder arsip baru",
+   "notifikasi arsip hilang"
   ]
  },
  {
   "type": "guide",
   "sec": "Arsip",
-  "t": "Menambahkan otomatis ke arsip (aturan dan grup arsip)",
-  "a": "Di arsip, ⚙ Aturan akan membuka Aturan Arsip Otomatis. Dengan + Tambah Aturan, Anda membuat aturan berdasarkan aplikasi, orang, atau kata kunci; notifikasi yang ditandai telah dibaca akan otomatis masuk ke folder terkait. ✨ Saran Otomatis merekomendasikan aturan yang cocok untuk Anda.",
+  "t": "Penyimpanan otomatis ke arsip (aturan dan grup arsip)",
+  "a": "Arsip otomatis aktif secara default. Fitur ini hanya menyimpan notifikasi penting secara otomatis ke folder yang sesuai: pembayaran bank, kupon, bukti transaksi/pengeluaran, dan tagihan/jatuh tempo. Harga dalam iklan promo tidak akan dimasukkan ke arsip. Catatan yang Anda tambahkan atau edit secara manual akan selalu disimpan. Nominal ditampilkan dalam mata uang lokal ponsel Anda. Untuk mematikan arsip otomatis atau memilih jenisnya, gunakan Pengaturan → Privasi dan data → Arsip otomatis. Di layar Arsip, Anda juga dapat menambahkan aturan kustom berdasarkan aplikasi, pengirim, atau kata kunci melalui ⚙ Aturan.",
   "q": [
-   "arsip otomatis notifikasi",
-   "buat aturan arsip otomatis",
-   "simpan otomatis chat tertentu",
-   "gunakan saran otomatis arsip"
+   "arsip otomatis struk belanja",
+   "atur arsip bank dan tagihan",
+   "filter kupon otomatis",
+   "matikan auto arsip"
   ]
  },
  {
   "type": "guide",
   "sec": "Arsip",
   "t": "Dompet kupon",
-  "a": "Saat membuka folder Kupon di arsip, Dompet Kupon & Promo akan terlihat di bagian paling atas. Kode kupon aktif dikumpulkan di sini; Anda akan diingatkan saat mendekati tanggal kedaluwarsa.",
+  "a": "Saat Anda membuka folder Kupon di arsip, Dompet Kupon & Promo akan tampil di paling atas. Kupon diskon dan promo yang masih aktif dikumpulkan di sini, dan Anda akan diingatkan saat masa berlaku kupon hampir habis.",
   "q": [
-   "lihat kupon promo yang tersimpan",
-   "dompet kupon belanja",
-   "pengingat kupon mau habis",
-   "cara kumpulkan voucher diskon"
+   "lihat voucher diskon",
+   "dompet kupon promo",
+   "pengingat expired kupon",
+   "folder kupon belanja"
   ]
  },
  {
   "type": "guide",
   "sec": "Arsip",
-  "t": "Melihat berdasarkan aplikasi dan mencari di arsip",
-  "a": "Di arsip, pilih aplikasi dengan 📱 Berdasarkan aplikasi untuk melihat riwayat aplikasi itu saja (mis. hanya aplikasi email Anda). Anda dapat mencari berdasarkan nama aplikasi menggunakan kotak pencarian.",
+  "t": "Melihat dan mencari arsip berdasarkan aplikasi",
+  "a": "Di layar Arsip, ketuk tombol 📱 Berdasarkan aplikasi untuk memilih aplikasi tertentu dan memeriksa riwayat arsipnya saja. Anda juga dapat menggunakan kotak pencarian untuk mencari berdasarkan nama aplikasi atau isi teks.",
   "q": [
-   "cari arsip aplikasi tertentu",
-   "filter arsip berdasarkan aplikasi",
-   "pencarian riwayat tersimpan",
-   "lihat arsip pesan email saja"
+   "cari riwayat pesan di arsip",
+   "filter arsip per aplikasi",
+   "pencarian notifikasi lama",
+   "arsip aplikasi tertentu"
   ]
  },
  {
   "type": "guide",
   "sec": "Arsip",
-  "t": "Mengekspor arsip dan menyimpannya ke Drive",
-  "a": "Tiga opsi muncul di Ekspor Arsip pada menu arsip: 🔒 Arsip Terenkripsi (.hashh) yang dilindungi kata sandi dan merupakan format yang disarankan, JSON Tanpa Enkripsi (.json), dan CSV Tanpa Enkripsi (.csv · Excel / Spreadsheet). Anda dapat menyimpan file yang dihasilkan ke tempat mana pun yang Anda inginkan seperti Google Drive dari menu berbagi Android. ha!shh tidak pernah mengirimkan file ke mana pun dengan sendirinya.",
+  "t": "Mengekspor arsip dan menyimpannya ke Google Drive",
+  "a": "Di menu Arsip, ketuk Ekspor Arsip dan pilih satu dari tiga format: 🔒 Arsip Terenkripsi (.hashh) (format aman berpassword yang disarankan), JSON Tanpa Enkripsi (.json), dan CSV Tanpa Enkripsi (.csv · Excel / Spreadsheet). Anda dapat menyimpan file hasil ekspor ke Google Drive atau penyimpanan lokal melalui menu berbagi bawaan Android. Karena ha!shh tidak memiliki izin internet, aplikasi tidak akan pernah mengunggah file tersebut ke server mana pun.",
   "q": [
-   "ekspor arsip ke google drive",
-   "simpan file cadangan arsip hashh",
-   "unduh riwayat notifikasi ke excel",
-   "cara export data json arsip"
+   "cara backup arsip ke drive",
+   "ekspor data hashh",
+   "format file arsip",
+   "pindahkan arsip ke excel"
   ]
  },
  {
   "type": "guide",
-  "sec": "Privasi dan keamanan",
+  "sec": "Privasi dan Keamanan",
   "t": "Kunci sidik jari",
-  "a": "Pengaturan → Kunci sidik jari. Ada tiga opsi: Mati, Hanya arsip dan konten notifikasi, Seluruh aplikasi (setiap kali dibuka). Kunci dapat dibuka dengan sidik jari, wajah, atau sandi ponsel.",
+  "a": "Buka Pengaturan → Privasi dan data → Kunci sidik jari. Tersedia tiga opsi: Mati, Hanya arsip dan isi notifikasi, Seluruh aplikasi (setiap dibuka). Kunci dapat dibuka menggunakan sidik jari, pengenalan wajah, atau PIN/sandi ponsel Anda.",
   "q": [
-   "cara kunci aplikasi dengan sidik jari",
-   "amankan isi notifikasi pakai fingerprint",
-   "kunci arsip pesan penting",
-   "opsi kunci aplikasi ha!shh"
+   "kunci aplikasi dengan sidik jari",
+   "amankan isi notifikasi dengan fingerprint",
+   "kunci arsip pesan",
+   "face unlock ha!shh"
   ]
  },
  {
   "type": "guide",
-  "sec": "Privasi dan keamanan",
-  "t": "Menyimpan konten di riwayat",
-  "a": "Melalui Pengaturan → Konten dan ketenangan → Simpan konten di riwayat, Anda dapat menyimpan konten notifikasi terenkripsi selama 1 atau 7 hari. Data akan terhapus saat batas waktu habis atau saat izin dimatikan. Pengaturan ini hanya berfungsi jika Tampilkan konten notifikasi aktif.",
+  "sec": "Privasi dan Keamanan",
+  "t": "Berapa lama riwayat notifikasi disimpan",
+  "a": "Saat penyiapan, ha!shh akan menanyakan berapa lama riwayat notifikasi disimpan: hapus setelah 7, 30, 90, atau 365 hari, atau Jangan hapus otomatis, saya bersihkan sendiri. Durasi yang disarankan adalah 30 hari. Pilihan ini dapat Anda ubah nanti di Pengaturan → Konten dan ketenangan → Masa simpan riwayat notifikasi. Jika Anda tidak memilih batas waktu, tidak ada data yang akan terhapus otomatis. Jika riwayat mulai memakan banyak ruang, kartu \"Bersihkan data lama?\" akan muncul di layar Hari Ini. Jika berkenan, Anda dapat menghapus data yang lebih lama dari 30 hari; jumlah data yang akan dihapus diperlihatkan terlebih dahulu untuk meminta persetujuan Anda. Jika Anda memilih \"Nanti saja\", pertanyaan tidak akan muncul selama 14 hari. Catatan di Arsip sama sekali tidak terpengaruh oleh pembersihan ini. Isi notifikasi (judul dan teks) dapat dilihat di riwayat hanya jika opsi Tampilkan isi notifikasi aktif; konten disimpan terenkripsi hanya di ponsel ini.",
   "q": [
-   "simpan teks notifikasi di riwayat",
-   "berapa lama riwayat tersimpan",
-   "hapus otomatis konten riwayat",
-   "enkripsi teks notifikasi riwayat"
+   "masa simpan riwayat notifikasi",
+   "cara hapus log notifikasi lama",
+   "riwayat pesan otomatis hilang",
+   "apakah arsip ikut terhapus"
   ]
  },
  {
   "type": "guide",
-  "sec": "Bilah notifikasi dan pintasan",
-  "t": "Apa itu pembaruan hening?",
-  "a": "Satu baris hening di bilah notifikasi untuk notifikasi yang ditunda: berapa banyak notifikasi dari siapa, kapan pengantaran pertama. Di Pengaturan → Pembaruan hening, Anda dapat memilih Mati, Aplikasi yang saya pilih…, atau Semua notifikasi tertunda. Jika ikon aplikasi dalam notifikasi aktif, ikon aplikasi yang tertunda akan terlihat saat memperluas baris tersebut.",
+  "sec": "Privasi dan Keamanan",
+  "t": "Blokir tangkapan layar",
+  "a": "Opsi Pengaturan → Privasi dan data → Cegah tangkapan layar di layar sensitif adalah setelan keamanan opsional dan dinonaktifkan secara default. Saat diaktifkan, opsi ini mencegah pengambilan tangkapan layar pada brankas, layar kunci, dan panel tampilan isi notifikasi, serta menyembunyikan konten dari pratinjau aplikasi terkini (recent apps).",
   "q": [
-   "apa itu pembaruan hening",
-   "notifikasi rangkuman di status bar",
-   "atur tampilan status bar ha!shh",
-   "sembunyikan status penundaan notifikasi"
+   "tidak bisa screenshot aplikasi",
+   "cegah tangkapan layar sensitif",
+   "layar recent apps blur",
+   "privasi screenshot"
   ]
  },
  {
   "type": "guide",
-  "sec": "Bilah notifikasi dan pintasan",
-  "t": "Notifikasi langsung seperti pesanan",
-  "a": "Jika Anda tidak sengaja menutup notifikasi progres seperti pesanan yang sedang disiapkan, Anda akan melihatnya di Riwayat dengan lencana \"notifikasi langsung\". Mengetuk baris tersebut akan membuka aplikasi terkait.",
+  "sec": "Bilah Notifikasi, Alat, dan Widget",
+  "t": "Widget layar utama",
+  "a": "Anda dapat menambahkan ha!shh ke layar utama ponsel Anda sebagai widget. Tersedia empat ukuran berbeda (2x2, 4x1, 4x2, 4x3). Widget menampilkan waktu pengiriman berikutnya, mode aktif, jumlah notifikasi tertunda, dan aplikasi dengan notifikasi terbanyak. Pada ukuran besar (4x2 dan 4x3), daftar notifikasi tertunda dan tombol satu sentuhan \"Tandai semua telah dibaca\" turut disertakan. Widget menyesuaikan dengan tema pilihan Anda; mengetuk jam akan menampilkan waktu saat ini.",
   "q": [
-   "notifikasi grab gojek hilang",
-   "lacak status pesanan yang terhapus",
-   "apa arti lencana notifikasi langsung",
-   "buka riwayat status pesanan"
+   "pasang widget di homescreen",
+   "ukuran widget ha!shh",
+   "widget notifikasi tertunda",
+   "tampilan widget layar depan"
   ]
  },
  {
   "type": "guide",
-  "sec": "Bilah notifikasi dan pintasan",
-  "t": "Ubin pengaturan cepat",
-  "a": "Anda dapat menambahkan ubin ha!shh ke panel notifikasi melalui Pengaturan → Alat → Ubin pengaturan cepat. Ubin ini menampilkan jumlah tertunda dan kepadatannya; Anda dapat memilih dari menu yang sama apa yang terjadi saat ubin diketuk (buka yang tertunda, ubah mode, langsung antarkan).",
+  "sec": "Bilah Notifikasi, Alat, dan Widget",
+  "t": "Apa itu kabar senyap?",
+  "a": "Kabar senyap adalah satu baris ringkasan di bilah notifikasi ponsel yang tidak mengeluarkan suara dan getaran untuk memberi tahu notifikasi yang sedang ditunda: menampilkan dari siapa dan berapa banyak notifikasinya, serta waktu pengiriman pertama. Di Pengaturan → Konten dan ketenangan → Kabar senyap, Anda dapat memilih Mati, Aplikasi pilihan saya…, atau Semua notifikasi tertunda. Jika ikon aplikasi diaktifkan, memperluas bilah ringkasan akan menampilkan ikon-ikon aplikasi yang tertunda.",
   "q": [
-   "tambah tombol ha!shh di status bar",
+   "notifikasi senyap di status bar",
+   "apa itu kabar senyap",
+   "ringkasan notifikasi tanpa suara",
+   "sembunyikan kabar senyap"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Bilah Notifikasi, Alat, dan Widget",
+  "t": "Notifikasi langsung seperti pesanan makanan atau kurir",
+  "a": "Jika Anda tidak sengaja menutup notifikasi status langsung seperti paket, pesanan, atau musik, Anda dapat menemukannya di tab Riwayat dengan tanda \"⚡ Langsung\". Mengetuk baris tersebut akan langsung membuka aplikasi terkait.",
+  "q": [
+   "lacak status pesanan kurir",
+   "notifikasi live tracking tertutup",
+   "buka notifikasi musik berjalan",
+   "notifikasi langsung riwayat"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Bilah Notifikasi, Alat, dan Widget",
+  "t": "Ubin setelan cepat",
+  "a": "Melalui Pengaturan → Alat → Ubin setelan cepat, Anda dapat menambahkan pintasan ha!shh ke panel notifikasi atas ponsel. Ubin tersebut menampilkan jumlah notifikasi tertunda dan jam pengiriman; Anda dapat memilih tindakan apa yang dilakukan saat ubin diketuk dari menu yang sama.",
+  "q": [
    "quick settings tile ha!shh",
-   "atur aksi ubin pengaturan cepat",
-   "lihat jumlah tertunda dari panel atas"
+   "tambah tombol panel notifikasi atas",
+   "pintasan quick toggle",
+   "cek notifikasi lewat status bar"
   ]
  },
  {
   "type": "guide",
-  "sec": "Bilah notifikasi dan pintasan",
+  "sec": "Bilah Notifikasi, Alat, dan Widget",
   "t": "Mode berdasarkan Wi-Fi",
-  "a": "Pengaturan → Alat → Mode berdasarkan Wi-Fi menjelaskan langkah demi langkah cara mengubah mode saat terhubung ke Wi-Fi tertentu menggunakan aplikasi rutinitas ponsel Anda (mis. Rutinitas Samsung).",
+  "a": "Opsi Pengaturan → Alat → Mode berdasarkan Wi-Fi menjelaskan panduan langkah demi langkah untuk mengubah mode secara otomatis saat ponsel terhubung ke Wi-Fi rumah atau kantor menggunakan aplikasi rutinitas ponsel Anda (misalnya Samsung Modes and Routines). Fitur ini tidak memerlukan izin lokasi.",
   "q": [
-   "ganti mode otomatis saat connect wifi",
-   "atur mode wifi kantor",
-   "integrasi rutinitas samsung ha!shh",
-   "otomasi mode berdasarkan wifi"
+   "ganti mode otomatis konek wifi",
+   "integrasi samsung routines wifi",
+   "mode kerja saat wifi kantor",
+   "otomatisasi wifi tanpa izin lokasi"
   ]
  },
  {
   "type": "guide",
   "sec": "Tampilan",
   "t": "Mengganti tema",
-  "a": "Di bawah Pengaturan → Tampilan terdapat tema Kertas, Terang, Gelap, Sistem serta tema Malam (Petrol Velvet) dan Siang (Kertas Krim). Saat tema diubah, Anda akan ditanya apakah ingin ikon layar utama disesuaikan juga.",
+  "a": "Di Pengaturan → Tampilan, tersedia tema Kertas, Terang, Gelap, Sistem, serta Malam (Beludru Minyak) dan Siang (Kertas Krem). Anda juga dapat berpindah tema dengan mudah menggunakan tombol Matahari/Bulan di layar Hari Ini. Saat tema berganti, Anda dapat mengatur agar ikon di layar utama ikut berganti ke warna yang serasi.",
   "q": [
    "cara ubah tema aplikasi",
-   "ganti tema mode gelap",
-   "tema petrol velvet ha!shh",
-   "sesuaikan tema dan ikon"
+   "tema gelap dark mode",
+   "ganti warna tampilan",
+   "tema siang dan malam"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Tampilan",
+  "t": "Bahasa aplikasi",
+  "a": "Melalui Pengaturan → Tampilan → Bahasa aplikasi, Anda dapat langsung memilih dari 10 bahasa yang tersedia (dan bahasa sistem) langsung di dalam aplikasi tanpa perlu masuk ke pengaturan sistem ponsel.",
+  "q": [
+   "ganti bahasa aplikasi",
+   "ubah bahasa ke indonesia",
+   "pilihan bahasa di ha!shh",
+   "setelan bahasa tanpa pengaturan ponsel"
   ]
  },
  {
   "type": "guide",
   "sec": "Tampilan",
   "t": "Ikon aplikasi",
-  "a": "Pilih warna ikon di layar utama melalui Pengaturan → Ikon aplikasi. Pada beberapa ponsel (mis. Samsung), saat ikon berubah, ikon mungkin terhapus dari layar utama dan kembali ke laci aplikasi; Anda perlu menambahkannya kembali dari sana.",
+  "a": "Melalui Pengaturan → Tampilan → Ikon aplikasi, Anda dapat menyesuaikan warna ikon aplikasi di layar utama agar serasi dengan tema Anda. Pada beberapa tipe ponsel, saat ikon diubah, ikon mungkin hilang dari layar utama dan kembali ke daftar aplikasi; cukup seret kembali ke layar utama.",
   "q": [
-   "ubah warna ikon aplikasi",
-   "ganti tampilan ikon ha!shh",
-   "kenapa ikon hilang setelah diubah",
-   "kembalikan ikon ke beranda"
+   "ganti warna icon aplikasi",
+   "ikon homescreen hilang setelah ganti tema",
+   "kustomisasi ikon ha!shh",
+   "ubah tema logo aplikasi"
   ]
  },
  {
   "type": "guide",
   "sec": "Tampilan",
-  "t": "Tampilan ringkas",
-  "a": "Saat Pengaturan → Konten dan ketenangan → Tampilan ringkas aktif, hanya putaran jam, satu tombol, dan item tertunda yang tersisa di Aliran; tab Aturan dan Rencana disembunyikan. Aturan Anda tetap berjalan normal.",
+  "t": "Tampilan sederhana",
+  "a": "Saat opsi Pengaturan → Konten dan ketenangan → Tampilan sederhana aktif, layar Hari Ini hanya menampilkan dial jam, satu tombol mode, dan daftar notifikasi tertunda; tab Aturan dan Jadwal disembunyikan. Aturan yang telah Anda tentukan tetap berjalan normal di latar belakang.",
   "q": [
-   "aktifkan tampilan ringkas",
-   "sembunyikan tab aturan dan rencana",
-   "mode tampilan minimalis",
-   "layar aliran sederhana"
+   "mode tampilan ringkas",
+   "hilangkan menu tab jadwal dan aturan",
+   "tampilan minimalis",
+   "tampilan sederhana ha!shh"
   ]
  },
  {
   "type": "guide",
   "sec": "Tampilan",
-  "t": "Antarmuka ringkas saat baterai lemah",
-  "a": "Jika Pengaturan → Antarmuka ringkas saat baterai lemah aktif, ha!shh akan otomatis beralih ke tampilan ringkas saat ponsel memasuki mode hemat daya.",
+  "t": "Antarmuka sederhana saat baterai lemah",
+  "a": "Jika Pengaturan → Tampilan → Antarmuka sederhana saat baterai lemah aktif, ha!shh akan otomatis beralih ke tampilan sederhana dan menghentikan animasi saat ponsel masuk ke mode hemat baterai guna menekan konsumsi daya.",
   "q": [
-   "tampilan otomatis ringkas saat hemat daya",
-   "hemat baterai ha!shh",
-   "antarmuka baterai lemah",
-   "otomatis mode hemat tampilan"
+   "hemat baterai otomatis ha!shh",
+   "antarmuka simpel low battery",
+   "animasi mati saat baterai habis",
+   "mode hemat daya aplikasi"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Tampilan",
+  "t": "Tampilan meja saat diputar miring",
+  "a": "Saat Pengaturan → Tampilan → Tampilan meja saat diputar miring aktif, memutar ponsel ke posisi horizontal akan mengubah layar menjadi jam meja yang menampilkan jam besar, mode aktif, bilah mingguan, pengiriman berikutnya, dan notifikasi tertunda. Anda dapat memilih bagian mana yang ingin ditampilkan, atau menggunakan foto Anda sendiri sebagai bingkai atau latar belakang. Layar dapat tetap menyala saat ponsel diisi daya, dan tata letak daya rendah membantu menghemat baterai.",
+  "q": [
+   "mode jam meja landscape",
+   "standby mode saat hp dimiringkan",
+   "layar jam meja saat ngecas",
+   "jadikan hp jam meja"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Alat dan Laporan",
+  "t": "Laporan Notifikasi dan Statistik",
+  "a": "Melalui Pengaturan → Alat → Laporan Notifikasi, Anda dapat memeriksa ritme notifikasi, distribusi notifikasi harian dan bulanan, keseimbangan mode fokus/tidur, serta waktu yang dihemat dan perkiraan penghematan baterai berkat gangguan yang dicegah, semuanya dalam satu layar. Tidak ada baris terpisah untuk \"Statistik\"; seluruh statistik penggunaan telah digabungkan ke dalam Laporan Notifikasi. Anda juga dapat membagikan laporan ini dalam bentuk gambar jika diinginkan.",
+  "q": [
+   "lihat statistik notifikasi",
+   "buka laporan riwayat notifikasi",
+   "cek waktu yang dihemat",
+   "bagikan infografis laporan"
   ]
  },
  {
   "type": "guide",
   "sec": "Undangan",
-  "t": "Bagaimana cara mengundang teman saya?",
-  "a": "Pengaturan → Undang dan dapatkan hadiah. Anda akan melihat kode Anda di bawah Kode Undangan Anda; bagikan melalui aplikasi mana pun dengan Undang atau pilih Salin Kode.",
+  "t": "Bagaimana cara mengundang teman?",
+  "a": "Buka Pengaturan → Undang dan dapatkan hadiah. Anda akan melihat kode Anda di bawah Kode Undangan Anda; gunakan Undang untuk membagikannya lewat aplikasi perpesanan apa pun atau pilih Salin Kode.",
   "q": [
-   "cara undang teman",
-   "dimana kode undangan saya",
+   "cara mengundang teman",
+   "di mana kode undangan saya",
    "bagikan kode referral",
    "ajak teman pakai ha!shh"
   ]
@@ -447,432 +507,492 @@
   "type": "guide",
   "sec": "Undangan",
   "t": "Bagaimana jumlah undangan saya bertambah?",
-  "a": "Teman Anda memasang aplikasi dan memasukkan kode Anda ke kolom Saya Punya Kode Undangan. Kode terima kasih akan dibuat di ponselnya, lalu ia mengirimkannya kepada Anda (Kirim Kode Terima Kasih). Anda mengetikkan kode ini ke kolom Masukkan Kode Terima Kasih dan memilih Tambah. Orang yang sama tidak dapat dihitung dua kali.",
+  "a": "Teman Anda menginstal aplikasi dan memasukkan kode Anda di kolom Saya Punya Kode Undangan. Ponselnya akan membuat kode terima kasih yang harus ia kirimkan kepada Anda (Kirim Kode Terima Kasih). Anda memasukkan kode tersebut ke kolom Masukkan Kode Terima Kasih lalu mengetuk Tambah. Orang yang sama tidak dapat dihitung dua kali.",
   "q": [
-   "cara konfirmasi undangan referral",
-   "masukkan kode terima kasih",
-   "kenapa jumlah undangan belum bertambah",
-   "cara klaim teman yang diundang"
+   "cara klaim kode terima kasih",
+   "undangan belum bertambah",
+   "masukkan kode referral teman",
+   "verifikasi undangan teman"
   ]
  },
  {
   "type": "guide",
   "sec": "Undangan",
-  "t": "Apa saja hadiahnya?",
-  "a": "Lencana Undangan pertama untuk 1 undangan, wallpaper Kertas untuk 3 undangan, lencana Lingkaran tenang untuk 5 undangan, wallpaper Malam untuk 7 undangan, lencana Duta ha!shh untuk 10 undangan. Teman yang datang lewat undangan juga mendapatkan lencana \"Datang lewat undangan\". Wallpaper terbuka sebagai latar belakang Aliran di Pengaturan → Tampilan → Wallpaper Aliran; jika mau, Anda dapat menyimpannya sebagai PNG dengan Simpan wallpaper sebagai gambar.",
+  "t": "Apa saja hadiah undangannya?",
+  "a": "Anda mendapatkan lencana Undangan Pertama untuk 1 undangan, wallpaper Kertas untuk 3, lencana Lingkaran Hening untuk 5, wallpaper Malam untuk 7, dan lencana Duta ha!shh untuk 10 undangan. Teman yang bergabung melalui undangan juga menerima lencana \"Bergabung lewat undangan\". Wallpaper dapat diaktifkan sebagai latar belakang layar Hari Ini di Pengaturan → Tampilan → Wallpaper Aliran; jika diinginkan, Anda dapat menyimpannya sebagai file PNG lewat Simpan wallpaper sebagai gambar.",
   "q": [
-   "daftar hadiah referral",
-   "cara dapat wallpaper eksklusif",
+   "hadiah undang teman",
+   "download wallpaper eksklusif",
    "lencana duta ha!shh",
-   "simpan wallpaper hasil reward"
+   "daftar reward referral"
   ]
  },
  {
   "type": "guide",
-  "sec": "Cadangan",
+  "sec": "Pencadangan",
   "t": "Bagaimana cara mencadangkan aturan saya?",
-  "a": "Pengaturan → Cadangan → Ekspor ke file. Aturan, mode, dan rencana Anda akan disimpan ke dalam sebuah file. Tidak ada cadangan cloud dan konten notifikasi tidak dicadangkan.",
+  "a": "Buka Pengaturan → Pencadangan → Ekspor ke file. Aturan, mode, dan jadwal mingguan Anda akan disimpan ke dalam sebuah file di ponsel Anda. Tidak ada cadangan internet dan isi pesan notifikasi tidak disertakan dalam file ini.",
   "q": [
-   "cara cadangkan aturan ha!shh",
-   "backup settingan aplikasi ke file",
-   "simpan aturan dan jadwal",
-   "apakah ada backup cloud"
+   "cara backup aturan",
+   "simpan pengaturan ke file",
+   "cadangkan jadwal dan mode",
+   "ekspor aturan ha!shh"
   ]
  },
  {
   "type": "guide",
-  "sec": "Cadangan",
+  "sec": "Pencadangan",
   "t": "Bagaimana cara memulihkan dari cadangan?",
-  "a": "Pilih file cadangan Anda melalui Pengaturan → Cadangan → Impor dari file. Aplikasi akan menampilkan isinya; Gabungkan mempertahankan aturan yang ada dan memperbaruinya, Ganti menukar semuanya dengan isi cadangan.",
+  "a": "Pilih file cadangan Anda lewat Pengaturan → Pencadangan → Impor dari file. Aplikasi akan menampilkan isi file; opsi Gabungkan akan menambahkan aturan baru tanpa menghapus aturan yang ada, sedangkan Ganti akan menimpa seluruh aturan dengan data dari cadangan.",
   "q": [
-   "restore file cadangan aturan",
-   "cara impor aturan lama",
-   "perbedaan gabungkan dan ganti",
-   "pulihkan jadwal dari file backup"
+   "restore file backup",
+   "pulihkan aturan lama",
+   "timpa atau gabung cadangan",
+   "impor aturan dari file"
   ]
  },
  {
   "type": "guide",
-  "sec": "Cadangan",
+  "sec": "Pencadangan",
   "t": "Membagikan templat aturan",
-  "a": "Melalui Pengaturan → Cadangan → Bagikan templat aturan, Anda dapat membagikan aturan Anda kepada teman. Tidak ada konten notifikasi di dalamnya.",
+  "a": "Anda dapat membagikan aturan Anda kepada teman melalui Pengaturan → Pencadangan → Bagikan templat aturan. Isi pesan notifikasi Anda sama sekali tidak akan dibagikan.",
   "q": [
-   "bagikan templat aturan ke teman",
-   "share settingan aturan ha!shh",
-   "kirim profil aturan notifikasi",
-   "apakah aman membagikan templat aturan"
+   "share template aturan",
+   "kirim aturan ke teman",
+   "bagikan pengaturan ha!shh",
+   "ekspor template rules"
   ]
  },
  {
   "type": "guide",
   "sec": "Lainnya",
   "t": "Mengirim masukan",
-  "a": "Pengaturan → Kirim masukan akan membuka aplikasi email Anda dengan pesan yang telah disiapkan. Konten notifikasi dan aturan Anda tidak disertakan; Anda dapat melihat dan mengubah email sebelum mengirimkannya.",
+  "a": "Pengaturan → Kirim masukan akan membuka aplikasi email Anda dengan templat yang sudah disiapkan. Isi notifikasi dan aturan pribadi Anda tidak akan disertakan; Anda dapat meninjau dan mengedit teks email tersebut sebelum mengirimkannya.",
   "q": [
-   "kirim kritik dan saran",
+   "kirim feedback aplikasi",
+   "lapor masalah lewat email",
    "hubungi pengembang ha!shh",
-   "laporkan ide perbaikan",
-   "kirim email masukan"
+   "saran fitur baru"
   ]
  },
  {
   "type": "guide",
   "sec": "Lainnya",
   "t": "Kode promo",
-  "a": "Melalui Pengaturan → Alat → Gunakan kode promo, Anda dapat mengaktifkan kode promo Google Play via Play Store.",
+  "a": "Melalui Pengaturan → Alat → Gunakan kode promo, Anda dapat mengaktifkan kode promosi Google Play langsung melalui Play Store.",
   "q": [
-   "cara pakai kode promo",
-   "redeem code google play",
-   "masukkan voucher promo",
-   "aktivasi promo play store"
+   "redeem kode promo",
+   "klaim voucher play store",
+   "masukkan kode diskon",
+   "aktivasi promo ha!shh"
   ]
  },
  {
   "type": "fix",
-  "sec": "Penundaan dan pengantaran",
+  "sec": "Penundaan dan Pengiriman",
   "t": "Notifikasi tidak ditunda, langsung masuk",
-  "a": "Penyebab paling umum adalah akses notifikasi yang nonaktif. Jika tertulis \"Izin diperlukan\" pada baris Pengaturan → Izin perangkat → Kelola akses notifikasi, ketuk baris tersebut dan aktifkan ha!shh. Selain itu, opsi Langsung atau Jangan pernah tunda mungkin dipilih untuk aplikasi tersebut; periksa dengan mengetuk aplikasi di tab Aturan. Notifikasi panggilan, alarm, dan sistem tidak pernah ditunda demi keamanan.",
+  "a": "Penyebab paling umum adalah izin akses notifikasi yang nonaktif. Jika pada baris Pengaturan → Izin perangkat → Kelola akses notifikasi tertulis \"Izin diperlukan\", ketuk baris tersebut dan aktifkan ha!shh. Selain itu, periksa apakah opsi Langsung atau Jangan pernah tunda aktif untuk aplikasi tersebut di tab Aturan. Panggilan telepon, alarm, serta notifikasi sistem Android dan kartu SIM (jaringan, peringatan operator) demi keamanan tidak akan pernah ditunda di mode apa pun.",
   "q": [
-   "notifikasi tidak tertahan",
-   "kenapa pesan langsung bunyi",
-   "ha!shh tidak menunda notifikasi",
-   "notifikasi telepon tetap masuk"
+   "notifikasi masih langsung masuk",
+   "kenapa pesan tidak tertunda",
+   "akses notifikasi mati",
+   "aturan tunda tidak bekerja"
   ]
  },
  {
   "type": "fix",
-  "sec": "Penundaan dan pengantaran",
-  "t": "Notifikasi tidak masuk pada waktu pengantaran",
-  "a": "Biasanya penghemat baterai ponsel telah menghentikan ha!shh di latar belakang. Ketuk baris Pengaturan → Izin perangkat → Baterai dan latar belakang; gunakan tombol Matikan Pengoptimalan Baterai dan, jika merek Anda dikenali, Buka Pengaturan Khusus Perangkat. Baris kesehatan sistem menunjukkan status koneksi; jika tertulis \"Koneksi terputus\", ketuk Sambungkan ulang dari sana.",
+  "sec": "Penundaan dan Pengiriman",
+  "t": "Notifikasi tidak muncul pada waktu pengiriman",
+  "a": "Biasanya fitur hemat baterai ponsel telah menghentikan ha!shh di latar belakang. Ketuk Pengaturan → Izin perangkat → Baterai dan latar belakang; gunakan tombol Matikan Optimalkan Baterai dan, jika merek ponsel Anda dikenali, Buka Pengaturan Khusus Perangkat. Baris kondisi sistem menunjukkan status koneksi; jika tertulis \"Koneksi terputus\", ketuk Hubungkan ulang dari situ. Ketika waktu suatu mode berakhir, notifikasi yang tertahan di mode tersebut tidak dikirimkan pada jam-jam yang berantakan, melainkan dikirimkan bersamaan saat mode berakhir.",
   "q": [
-   "notifikasi tertunda tidak kunjung datang",
-   "pengantaran pesan telat",
-   "ha!shh mati di latar belakang",
-   "koneksi sistem terputus"
+   "notifikasi telat terkirim",
+   "jadwal kirim tidak jalan",
+   "aplikasi berhenti di latar belakang",
+   "optimasi baterai mematikan ha!shh"
   ]
  },
  {
   "type": "fix",
-  "sec": "Penundaan dan pengantaran",
-  "t": "Pengantaran tertunda di ponsel Samsung",
-  "a": "Buka Baterai → Batas penggunaan latar belakang di pengaturan ponsel dan tambahkan ha!shh ke daftar Aplikasi yang tidak pernah tidur. Jika ada di daftar Aplikasi yang tidur, hapus dari sana. Tombol Buka Pengaturan Khusus Perangkat di dalam ha!shh akan membawa Anda langsung ke layar baterai Samsung.",
+  "sec": "Penundaan dan Pengiriman",
+  "t": "Pengiriman tertunda di ponsel Samsung",
+  "a": "Buka pengaturan ponsel di bagian Baterai → Batas penggunaan latar belakang, lalu tambahkan ha!shh ke daftar Aplikasi yang tidak pernah tidur. Jika ada di daftar Aplikasi tidur, hapus dari situ. Tombol Buka Pengaturan Khusus Perangkat di ha!shh akan mengarahkan Anda langsung ke layar pengaturan baterai Samsung.",
   "q": [
    "notifikasi telat di hp samsung",
-   "atur baterai samsung untuk ha!shh",
-   "tambah ha!shh ke aplikasi tidak pernah tidur",
-   "masalah pengantaran samsung"
+   "pengaturan baterai samsung",
+   "masukkan aplikasi tidak pernah tidur",
+   "notifikasi tertahan samsung"
   ]
  },
  {
   "type": "fix",
-  "sec": "Penundaan dan pengantaran",
-  "t": "Pengantaran tertunda di ponsel Xiaomi, Redmi, atau POCO",
-  "a": "Di pengaturan ponsel pada bagian Aplikasi → ha!shh, aktifkan Mulai otomatis dan ubah Penghemat baterai menjadi Tanpa batasan. Mengunci ha!shh di layar aplikasi terkini juga membantu. Tombol Buka Pengaturan Khusus Perangkat di ha!shh akan membuka layar Xiaomi yang relevan.",
+  "sec": "Penundaan dan Pengiriman",
+  "t": "Pengiriman tertunda di ponsel Xiaomi, Redmi, atau POCO",
+  "a": "Buka pengaturan ponsel di bagian Aplikasi → ha!shh, aktifkan Mulai otomatis dan ubah Penghemat baterai menjadi Tidak ada pembatasan. Mengunci ha!shh di layar aplikasi terkini (recent apps) juga sangat membantu. Tombol Buka Pengaturan Khusus Perangkat di ha!shh akan membuka layar Xiaomi terkait.",
   "q": [
-   "notifikasi telat di xiaomi redmi",
-   "setting autostart poco",
-   "matikan penghemat baterai miui",
-   "kunci aplikasi ha!shh di recent apps"
+   "notifikasi telat di xiaomi miui",
+   "setting autostart redmi poco",
+   "kunci ha!shh di recent apps",
+   "matikan hemat baterai poco"
   ]
  },
  {
   "type": "fix",
-  "sec": "Penundaan dan pengantaran",
-  "t": "Pengantaran tertunda di ponsel Huawei atau Honor",
-  "a": "Di pengaturan ponsel pada bagian Baterai → Peluncuran aplikasi, matikan pengelolaan otomatis untuk ha!shh dan aktifkan opsi Mulai otomatis, Peluncuran sekunder, serta Berjalan di latar belakang. Tombol Buka Pengaturan Khusus Perangkat di ha!shh akan mencoba membuka layar ini.",
+  "sec": "Penundaan dan Pengiriman",
+  "t": "Pengiriman tertunda di ponsel Huawei atau Honor",
+  "a": "Buka pengaturan ponsel di bagian Baterai → Peluncuran aplikasi, matikan pengelolaan otomatis untuk ha!shh, lalu aktifkan opsi Mulai otomatis, Peluncuran sekunder, dan Berjalan di latar belakang. Tombol Buka Pengaturan Khusus Perangkat di ha!shh akan mencoba membuka layar ini.",
   "q": [
-   "notifikasi tertunda di huawei honor",
-   "pengaturan peluncuran aplikasi huawei",
-   "izinkan berjalan di latar belakang honor",
-   "ha!shh ditutup otomatis huawei"
+   "notifikasi terlambat huawei honor",
+   "setting peluncuran aplikasi huawei",
+   "izinkan latar belakang honor",
+   "baterai menutup aplikasi huawei"
   ]
  },
  {
   "type": "fix",
-  "sec": "Penundaan dan pengantaran",
-  "t": "Pengantaran tertunda di ponsel Oppo, Realme, OnePlus, atau Vivo",
-  "a": "Di pengaturan ponsel untuk ha!shh, aktifkan opsi Mulai otomatis dan Izinkan berjalan di latar belakang, lalu matikan pengoptimalan baterai. Tombol Buka Pengaturan Khusus Perangkat di ha!shh akan mencoba membuka layar yang sesuai untuk merek tersebut.",
+  "sec": "Penundaan dan Pengiriman",
+  "t": "Pengiriman tertunda di ponsel Oppo, Realme, OnePlus, atau Vivo",
+  "a": "Buka pengaturan ponsel untuk ha!shh, aktifkan Mulai otomatis dan Izinkan aktivitas latar belakang, lalu matikan pengoptimalan baterai. Tombol Buka Pengaturan Khusus Perangkat di ha!shh akan mencoba membuka layar pengaturan merek terkait.",
   "q": [
-   "notifikasi telat di oppo realme",
-   "pengaturan latar belakang vivo",
-   "optimasi baterai oneplus ha!shh",
-   "aktifkan mulai otomatis realme"
+   "notifikasi telat oppo realme",
+   "optimasi baterai oneplus vivo",
+   "izinkan autostart coloros",
+   "pesan tidak masuk vivo"
   ]
  },
  {
   "type": "fix",
-  "sec": "Penundaan dan pengantaran",
-  "t": "Saya memulai ulang ponsel, apa yang terjadi pada notifikasi tertunda?",
-  "a": "ha!shh secara otomatis memeriksa dan memulihkan catatan tertunda setelah ponsel dimulai ulang. Jika ada notifikasi yang tidak dapat dipulihkan, peringatan \"Periksa notifikasi yang tertunda\" akan muncul; Anda cukup membuka aplikasi terkait untuk memeriksanya.",
+  "sec": "Penundaan dan Pengiriman",
+  "t": "Saya baru saja memulai ulang ponsel, bagaimana nasib notifikasi yang tertunda?",
+  "a": "Setelah ponsel dimulai ulang, ha!shh akan secara otomatis memeriksa dan memulihkan data notifikasi yang tertunda. Jika ada notifikasi yang tidak dapat dipulihkan, peringatan \"Periksa notifikasi yang tertunda\" akan muncul; jika demikian, cukup buka aplikasi terkait untuk melihatnya.",
   "q": [
-   "notifikasi setelah restart hp",
-   "apakah pesan tertunda hilang saat reboot",
-   "peringatan periksa notifikasi tertunda",
-   "pulihkan notifikasi setelah hp nyala"
+   "habis restart hp notifikasi hilang",
+   "apakah restart menghapus pesan tertunda",
+   "notifikasi tertahan setelah reboot",
+   "notifikasi tidak muncul setelah restart"
   ]
  },
  {
   "type": "fix",
-  "sec": "Penundaan dan pengantaran",
-  "t": "Apakah mode yang saya pilih manual berubah dengan sendirinya?",
-  "a": "Mode yang Anda pilih manual akan tetap aktif sampai Anda mematikannya; rencana jadwal tidak akan mengubahnya. Untuk kembali ke jadwal, gunakan tombol Kembali ke rencana.",
+  "sec": "Penundaan dan Pengiriman",
+  "t": "Apakah mode yang saya pilih secara manual berubah sendiri?",
+  "a": "Mode yang Anda pilih secara manual akan tetap aktif sampai Anda mematikannya; jadwal tidak akan mengubahnya. Untuk kembali ke jadwal otomatis, gunakan tombol Kembali ke jadwal.",
   "q": [
-   "kenapa mode tidak berganti sesuai jadwal",
-   "mode manual tidak mau mati",
-   "cara kembali ke rencana otomatis",
-   "apakah mode manual ada batas waktunya"
+   "mode manual mati sendiri",
+   "kembali ke jadwal otomatis",
+   "kenapa jadwal tidak ganti mode",
+   "reset mode manual"
   ]
  },
  {
   "type": "fix",
-  "sec": "Aplikasi dan aturan",
-  "t": "Aplikasi tidak muncul dalam daftar",
-  "a": "Coba ketik nama aplikasi di kotak pencarian. Jika aplikasi belum terpasang di ponsel atau belum pernah mengirimkan notifikasi sama sekali, aplikasi mungkin belum ada di daftar; periksa kembali setelah notifikasi pertamanya masuk. Aplikasi mungkin juga berada di dalam suatu kategori: Anda dapat mengetuk kategori di Aturan untuk melihat daftar aplikasinya.",
+  "sec": "Aplikasi dan Aturan",
+  "t": "Suatu aplikasi tidak muncul di daftar",
+  "a": "Coba ketikkan nama aplikasi di kotak pencarian. Jika aplikasi belum terpasang di ponsel atau belum pernah mengirimkan notifikasi sama sekali, aplikasi tersebut mungkin belum terdaftar; periksa kembali setelah notifikasi pertamanya masuk. Aplikasi juga mungkin berada di dalam suatu kategori: Anda dapat mengetuk kategori di tab Aturan untuk melihat daftar aplikasinya.",
   "q": [
-   "aplikasi tidak ada di daftar aturan",
-   "cari aplikasi di ha!shh tidak ketemu",
-   "kenapa aplikasi baru belum muncul",
-   "lihat aplikasi di dalam kategori"
+   "aplikasi tidak ada di daftar",
+   "cari aplikasi di aturan",
+   "aplikasi baru tidak terdeteksi",
+   "kategori aplikasi tidak muncul"
   ]
  },
  {
   "type": "fix",
-  "sec": "Aplikasi dan aturan",
+  "sec": "Aplikasi dan Aturan",
   "t": "Tidak ada jenis apa pun yang muncul di filter jenis",
-  "a": "Jenis notifikasi dipelajari seiring berjalannya waktu saat aplikasi mengirimkan notifikasi dari jenis tersebut kepada Anda. Tunggu hingga beberapa notifikasi masuk terlebih dahulu, lalu periksa kembali melalui Aturan → aplikasi → Pilih jenis ›. Pemisahan dilakukan berdasarkan kategori notifikasi aplikasi, konten pesan tidak dibaca.",
+  "a": "Jenis notifikasi dipelajari oleh aplikasi seiring aplikasi tersebut mengirimkan notifikasi dalam kategori tersebut ke ponsel Anda. Tunggu hingga beberapa notifikasi masuk terlebih dahulu, lalu periksa kembali di Aturan → aplikasi → Pilih jenis ›. Pemisahan dilakukan berdasarkan saluran notifikasi aplikasi, bukan dengan membaca isinya.",
   "q": [
-   "filter jenis masih kosong",
-   "kategori pesan belum terdeteksi",
-   "kenapa jenis notifikasi tidak muncul",
-   "cara memunculkan opsi filter jenis"
+   "filter jenis kosong",
+   "channel notifikasi belum muncul",
+   "kategori pesan instagram tidak ada",
+   "cara memunculkan jenis notifikasi"
   ]
  },
  {
   "type": "fix",
-  "sec": "Aplikasi dan aturan",
-  "t": "Saya memblokir aplikasi secara permanen, saya ingin membatalkannya",
-  "a": "Buka tab Aplikasi yang Diblokir di layar Pengaturan → Alat → Diblokir, lalu ketuk Buka Blokir.",
+  "sec": "Aplikasi dan Aturan",
+  "t": "Saya memblokir permanen sebuah aplikasi, bagaimana membatalkannya?",
+  "a": "Buka layar Pengaturan → Alat → Yang Diblokir, buka tab Aplikasi yang Diblokir, lalu ketuk Buka Blokir.",
   "q": [
-   "cara buka blokir aplikasi",
-   "batalkan pemblokiran permanen",
-   "kembalikan notifikasi aplikasi terblokir",
-   "unblock aplikasi di ha!shh"
+   "batal blokir aplikasi",
+   "kembalikan aplikasi yang diblokir",
+   "buka notifikasi yang diblokir",
+   "unblock aplikasi"
   ]
  },
  {
   "type": "fix",
-  "sec": "Privasi dan kunci",
-  "t": "Opsi kunci sidik jari tidak muncul atau tidak berfungsi",
-  "a": "Kunci layar ponsel (sidik jari, PIN, atau pola) harus aktif dan ponsel membutuhkan Android 9 atau lebih baru untuk dapat menggunakan fitur kunci. Setelah mengaktifkan kunci layar dari pengaturan ponsel Anda, coba lagi melalui Pengaturan → Kunci sidik jari.",
+  "sec": "Privasi dan Kunci",
+  "t": "Pilihan kunci sidik jari tidak muncul atau tidak berfungsi",
+  "a": "Agar penguncian dapat digunakan, kunci layar ponsel (sidik jari, PIN, atau pola) harus sudah diaktifkan dan perangkat menggunakan Android 9 atau yang lebih baru. Setelah mengaktifkan kunci layar di pengaturan ponsel, coba kembali melalui Pengaturan → Privasi dan data → Kunci sidik jari.",
   "q": [
-   "kunci sidik jari tidak bisa dipakai",
-   "fingerprint ha!shh error",
-   "kenapa opsi sidik jari tidak ada",
-   "syarat kunci sidik jari"
+   "fingerprint tidak bisa diaktifkan",
+   "kunci sidik jari hilang",
+   "syarat kunci sidik jari",
+   "biometrik tidak terdeteksi"
   ]
  },
  {
   "type": "fix",
-  "sec": "Privasi dan kunci",
-  "t": "Konten notifikasi tidak muncul",
-  "a": "Secara default konten tidak ditampilkan. Aktifkan sakelar Pengaturan → Konten dan ketenangan → Tampilkan konten notifikasi. Jika Anda ingin membacanya di Riwayat, pilih juga 1 atau 7 hari melalui Simpan konten di riwayat.",
+  "sec": "Privasi dan Kunci",
+  "t": "Isi notifikasi tidak terlihat",
+  "a": "Opsi menampilkan isi notifikasi aktif secara default. Jika tidak terlihat, pastikan sakelar Pengaturan → Konten dan ketenangan → Tampilkan isi notifikasi sudah aktif. Jika Anda juga ingin membaca isi notifikasi di kemudian hari pada tab Riwayat, periksa pengaturan Masa simpan riwayat notifikasi: catatan yang lebih lama dari durasi yang dipilih akan dihapus; jika tidak memilih batas waktu, tidak ada data yang terhapus otomatis.",
   "q": [
    "isi pesan tidak tampil",
-   "kenapa teks notifikasi kosong",
-   "cara membaca pesan tertunda",
-   "aktifkan preview konten notifikasi"
+   "teks notifikasi kosong",
+   "baca riwayat pesan lama",
+   "aktifkan pratinjau pesan"
   ]
  },
  {
   "type": "fix",
-  "sec": "Privasi dan kunci",
-  "t": "Tangkapan layar pada layar Riwayat hasilnya hitam",
-  "a": "Ini bukan kerusakan, melainkan perlindungan privasi. Pengambilan tangkapan layar diblokir pada layar yang dapat menampilkan isi notifikasi (Riwayat, arsip, layar baca) dan saat kunci aktif; dengan demikian, konten tidak bocor ke aplikasi lain.",
+  "sec": "Privasi dan Kunci",
+  "t": "Hasil tangkapan layar di tab Riwayat menjadi hitam",
+  "a": "Ini bukan kesalahan sistem, melainkan pengaturan privasi opsional. Jika Pengaturan → Privasi dan data → Cegah tangkapan layar di layar sensitif aktif, tangkapan layar akan diblokir pada brankas, kunci sidik jari, dan layar yang memuat konten notifikasi. Pengaturan ini mati secara default; jika Anda ingin mengambil tangkapan layar, cukup matikan pengaturan ini.",
   "q": [
-   "kenapa screenshot riwayat warna hitam",
-   "tangkapan layar ha!shh blank",
-   "tidak bisa screenshot arsip",
-   "alasan screenshot diblokir"
+   "screenshot layar hitam",
+   "kenapa tidak bisa screenshot riwayat",
+   "tangkapan layar blank hitam",
+   "matikan proteksi screenshot"
   ]
  },
  {
   "type": "fix",
-  "sec": "Privasi dan kunci",
+  "sec": "Privasi dan Kunci",
   "t": "Mengapa ha!shh tidak meminta izin internet?",
-  "a": "Aplikasi ini sengaja dibuat tanpa izin internet. Notifikasi, aturan, dan arsip Anda tidak akan pernah dikirimkan dari ponsel ke server mana pun. Jika Anda ingin mengeluarkan file (cadangan atau arsip), Anda melakukannya sendiri melalui menu berbagi.",
+  "a": "Aplikasi ini sengaja dirancang tanpa izin akses internet sama sekali. Notifikasi, aturan, dan arsip Anda tidak akan pernah dikirimkan ke server mana pun dari ponsel Anda. Jika Anda ingin memindahkan file ke luar (cadangan atau arsip), Anda sendirilah yang melakukannya melalui menu berbagi.",
   "q": [
-   "apakah ha!shh butuh kuota internet",
-   "keamanan data notifikasi ha!shh",
-   "apakah data saya dikirim ke server",
-   "alasan ha!shh tidak ada izin internet"
+   "kenapa ha!shh tidak butuh internet",
+   "keamanan data pribadi",
+   "apakah ha!shh aman offline",
+   "izin akses internet aplikasi"
   ]
  },
  {
   "type": "fix",
   "sec": "Arsip",
-  "t": "Di mana letak arsip?",
-  "a": "Ketuk tombol 📦 Arsip di bagian atas tab Riwayat. Anda juga dapat membukanya dari kartu arsip di Aliran.",
+  "t": "Di mana letak Arsip?",
+  "a": "Anda dapat mengetuk tombol 📦 Arsip di bagian atas tab Riwayat atau membukanya melalui kartu arsip di layar Hari Ini. Arsip otomatis aktif secara default; fitur ini hanya menyimpan notifikasi pembayaran bank, kupon, bukti transaksi, dan tagihan/jatuh tempo secara otomatis ke folder yang bersangkutan. Harga dalam materi promosi tidak akan diarsipkan. Data yang Anda tambahkan atau edit sendiri secara manual tidak akan pernah dihapus dan akan selalu tersimpan.",
   "q": [
-   "cara buka arsip",
-   "dimana letak arsip notifikasi",
-   "akses menu arsip",
-   "buka folder arsip tersimpan"
+   "cara buka menu arsip",
+   "di mana folder simpanan notifikasi",
+   "arsip otomatis struk",
+   "apakah arsip terhapus otomatis"
   ]
  },
  {
   "type": "fix",
   "sec": "Arsip",
   "t": "Saya ingin menyimpan arsip ke Google Drive",
-  "a": "Ketuk Ekspor Arsip di arsip dan pilih format; yang paling aman adalah 🔒 Arsip Terenkripsi (.hashh). Pilih Drive pada menu berbagi yang muncul. Arsip tidak otomatis masuk ke cadangan atau internet; arsip hanya keluar menjadi file jika Anda mengekspornya.",
+  "a": "Di menu Arsip, ketuk Ekspor Arsip dan pilih formatnya; yang paling aman adalah 🔒 Arsip Terenkripsi (.hashh). Pada menu berbagi yang muncul, pilih Google Drive. Arsip tidak akan pernah dicadangkan atau dikirim ke internet secara otomatis; file hanya akan keluar jika Anda sendiri yang mengekspornya.",
   "q": [
    "simpan arsip ke google drive",
-   "upload backup hashh ke drive",
-   "ekspor arsip ke cloud",
-   "bagikan arsip ke drive"
+   "upload backup ke gdrive",
+   "ekspor arsip hashh ke cloud",
+   "backup manual ke cloud"
   ]
  },
  {
   "type": "fix",
   "sec": "Arsip",
   "t": "Saya tidak bisa menambahkan aplikasi ke folder arsip baru",
-  "a": "Anda dapat menambah dan menghapus aplikasi dari folder melalui ⚙ Atur Aplikasi di arsip.",
+  "a": "Di layar Arsip, buka menu ⚙ Atur Aplikasi untuk menambah atau menghapus aplikasi yang terkait dengan folder tersebut.",
   "q": [
-   "cara tambah aplikasi ke folder arsip",
-   "atur aplikasi di arsip",
-   "edit folder arsip",
-   "kelola aplikasi folder arsip"
+   "tambah aplikasi ke folder arsip",
+   "kelola aplikasi folder",
+   "atur aplikasi arsip",
+   "ubah daftar aplikasi folder"
   ]
  },
  {
   "type": "fix",
   "sec": "Arsip",
   "t": "Kupon tidak muncul di arsip",
-  "a": "Kupon dikumpulkan dari notifikasi yang diarsipkan ke dalam folder Kupon. Tambahkan notifikasi ke Kupon melalui Arsipkan › atau buat aturan arsip otomatis untuk aplikasi belanja Anda melalui ⚙ Aturan → + Tambah Aturan.",
+  "a": "Kupon dikumpulkan dari notifikasi yang disimpan di folder Kupon. Masukkan notifikasi secara manual lewat Arsipkan › ke folder Kupon, atau buat aturan arsip otomatis untuk aplikasi toko online Anda lewat ⚙ Aturan → + Tambah Aturan.",
   "q": [
-   "voucher diskon tidak masuk arsip",
-   "kenapa kupon tidak terbaca",
-   "cara simpan promo ke kupon",
-   "dompet kupon masih kosong"
+   "kupon belanja tidak muncul",
+   "voucher promo tidak tersimpan",
+   "cara simpan kupon ke dompet",
+   "buat aturan otomatis kupon"
   ]
  },
  {
   "type": "fix",
-  "sec": "Notifikasi langsung",
+  "sec": "Notifikasi Langsung dan Tindakan Kart",
   "t": "Saya tidak sengaja menutup notifikasi pesanan",
-  "a": "Notifikasi tersebut akan muncul di tab Riwayat dengan lencana \"notifikasi langsung\". Mengetuk baris tersebut akan membuka aplikasi pesanan Anda dan Anda dapat melihat status terkini dari sana.",
+  "a": "Di tab Riwayat, notifikasi tersebut akan tetap terlihat dengan tanda \"⚡ Langsung\". Mengetuk baris tersebut akan langsung membuka aplikasi pemesanan terkait dan Anda dapat melihat status terkini dari sana.",
   "q": [
-   "notifikasi pesanan makanan terhapus",
-   "cek status pengiriman barang",
-   "buka kembali notifikasi langsung",
-   "cari riwayat live update pesanan"
+   "notifikasi kurir tidak sengaja terhapus",
+   "cari pesanan yang ditutup",
+   "lacak pengiriman terhapus",
+   "buka notifikasi langsung riwayat"
   ]
  },
  {
   "type": "fix",
-  "sec": "Notifikasi langsung",
-  "t": "Mengetuk notifikasi malah kembali ke layar utama",
-  "a": "Mengetuk notifikasi pada daftar tertunda dan di Riwayat akan membuka aplikasi asalnya.",
+  "sec": "Notifikasi Langsung dan Tindakan Kart",
+  "t": "Mengetuk notifikasi justru membuat saya kembali ke layar utama",
+  "a": "Mengetuk notifikasi pada daftar tertunda maupun di tab Riwayat akan membuka aplikasi asalnya. Masalah kembali ke layar utama saat mengetuk dari panel dial jam telah diketahui dan sedang dalam penanganan.",
   "q": [
-   "klik notifikasi tidak membuka aplikasi",
-   "kenapa kembali ke beranda saat ketuk pesan",
-   "notifikasi tidak merespons saat diketuk",
-   "masalah buka aplikasi dari riwayat"
+   "ketuk notifikasi malah ke homescreen",
+   "aplikasi tidak terbuka saat diklik",
+   "bug klik notifikasi dial",
+   "notifikasi kembali ke beranda"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Notifikasi Langsung dan Tindakan Kart",
+  "t": "Saya tidak sengaja melakukan aksi pada kartu tertunda (menandai terbaca atau menunda)",
+  "a": "Saat Anda menggeser kartu ke kanan atau ke kiri pada tumpukan kartu di layar Hari Ini, bilah Urungkan akan muncul selama 4 detik di bagian bawah layar. Cukup ketuk bilah tersebut untuk segera membatalkan tindakan Anda.",
+  "q": [
+   "salah geser kartu notifikasi",
+   "batalkan tandai telah dibaca",
+   "kembalikan kartu yang tergeser",
+   "undo tunda notifikasi"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Tampilan dan Widget",
+  "t": "Di mana saya bisa mengubah bahasa aplikasi?",
+  "a": "Anda tidak perlu membuka pengaturan sistem ponsel. Buka Pengaturan → Tampilan → Bahasa aplikasi untuk langsung menggunakan ha!shh dalam bahasa pilihan Anda (tersedia dukungan 10 bahasa).",
+  "q": [
+   "ubah bahasa ha!shh",
+   "ganti bahasa indonesia",
+   "lokasi pengaturan bahasa",
+   "set bahasa aplikasi"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Tampilan dan Widget",
+  "t": "Tampilan meja tidak terbuka",
+  "a": "Agar tampilan meja aktif saat ponsel dimiringkan, pastikan setelan Pengaturan → Tampilan → Tampilan meja saat diputar miring sudah aktif. Anda juga dapat mengatur opsi agar layar tetap menyala saat dicas serta tata letak hemat baterai di layar pengaturan yang sama.",
+  "q": [
+   "standby mode meja tidak aktif",
+   "hp dimiringkan tidak jadi jam meja",
+   "layar meja tidak muncul saat landscape",
+   "pengaturan jam meja standby"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Tampilan dan Widget",
+  "t": "Bagaimana cara menambahkan widget layar utama?",
+  "a": "Tekan dan tahan area kosong di layar utama ponsel Anda, lalu pilih ha!shh dari menu widget. Anda dapat memilih satu dari empat ukuran yang tersedia (2x2, 4x1, 4x2, 4x3) sesuai kebutuhan Anda.",
+  "q": [
+   "cara pasang widget ha!shh",
+   "tambah widget ke beranda",
+   "pilihan ukuran widget",
+   "widget homescreen"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Tampilan dan Widget",
+  "t": "Di mana saya bisa menemukan statistik dan laporan notifikasi?",
+  "a": "Tidak ada baris terpisah untuk \"Statistik\"; seluruh statistik penggunaan dan grafik distribusi telah digabungkan ke Pengaturan → Alat → Laporan Notifikasi. Di sini Anda dapat melihat jumlah notifikasi harian dan bulanan, keseimbangan fokus, waktu yang dihemat, serta perkiraan penghematan baterai.",
+  "q": [
+   "di mana letak menu statistik",
+   "buka laporan grafik notifikasi",
+   "cek total waktu dihemat",
+   "laporan mingguan notifikasi"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Tampilan dan Widget",
+  "t": "Saya mengubah ikon aplikasi, lalu ikonnya hilang dari layar utama",
+  "a": "Pada beberapa tipe ponsel (misalnya Samsung), perubahan ikon menyebabkan ikon terhapus dari layar utama dan kembali ke laci aplikasi. Cukup buka daftar aplikasi dan seret kembali ha!shh ke layar utama Anda.",
+  "q": [
+   "ikon aplikasi hilang setelah diganti",
+   "ha!shh hilang dari homescreen",
+   "shortcut aplikasi terhapus",
+   "kembalikan ikon ke layar utama"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Tampilan dan Widget",
+  "t": "Saya tidak menemukan ubin setelan cepat",
+  "a": "Tarik bilah notifikasi ke bawah dua kali. Jika ubin tidak terlihat, geser panel ke kanan karena mungkin berada di halaman berikutnya. Jika tetap tidak ada, tambahkan kembali melalui Pengaturan → Alat → Ubin setelan cepat.",
+  "q": [
+   "quick settings tile hilang",
+   "ubin setelan cepat tidak ada",
+   "tambah toggle ha!shh ke status bar",
+   "cari ikon panel notifikasi"
   ]
  },
  {
   "type": "fix",
   "sec": "Undangan",
-  "t": "Kode undangan tidak diterima",
-  "a": "Anda dapat menulis kode dengan atau tanpa tanda hubung; huruf besar dan kecil tidak berpengaruh. Anda tidak dapat memasukkan kode Anda sendiri dan kode undangan hanya dapat dimasukkan sekali. Jika kode masih tidak diterima, mungkin ada salah ketik pada satu huruf; ha!shh dapat mendeteksi kesalahan satu huruf, mintalah teman Anda untuk menyalin dan mengirim ulang kodenya.",
+  "t": "Kode undangan ditolak",
+  "a": "Anda dapat mengetik kode dengan atau tanpa tanda hubung; huruf besar dan kecil tidak berpengaruh. Anda tidak dapat memasukkan kode Anda sendiri, dan kode undangan hanya dapat digunakan satu kali. Jika kode masih ditolak, kemungkinan ada kesalahan penulisan; ha!shh mendeteksi kesalahan walau hanya satu huruf, jadi mintalah teman Anda untuk menyalin dan mengirimkan ulang kodenya.",
   "q": [
-   "kode undangan tidak valid",
-   "kenapa kode referral ditolak",
-   "salah memasukkan kode teman",
-   "kode invite error"
+   "kode referral tidak valid",
+   "kenapa kode undangan salah",
+   "gagal memasukkan kode teman",
+   "kode undangan error"
   ]
  },
  {
   "type": "fix",
   "sec": "Undangan",
   "t": "Kode terima kasih menampilkan \"Kode ini bukan milik Anda atau salah\"",
-  "a": "Kode terima kasih hanya dibuat berdasarkan kode orang yang mengundang Anda; kode terima kasih milik orang lain tidak akan ditambahkan ke hitungan Anda. Mintalah teman Anda untuk mengirim ulang kodenya melalui Kirim Ulang Kode Terima Kasih. Jika tertulis \"Undangan ini sudah dihitung\", orang tersebut memang sudah tercatat dalam hitungan Anda.",
+  "a": "Kode terima kasih hanya dihasilkan khusus berdasarkan kode orang yang mengundang Anda; kode terima kasih orang lain tidak akan menambahkan poin undangan Anda. Mintalah teman Anda untuk mengirim ulang kodenya lewat Kirim Ulang Kode Terima Kasih. Jika muncul pesan \"Undangan ini sudah dihitung\", berarti orang tersebut sudah tercatat dalam daftar undangan Anda.",
   "q": [
-   "kode terima kasih ditolak",
+   "kode terima kasih salah",
    "error kode bukan milik anda",
-   "gagal klaim kode terima kasih",
+   "undangan sudah dihitung",
    "kirim ulang kode terima kasih"
   ]
  },
  {
   "type": "fix",
-  "sec": "Cadangan dan ganti ponsel",
-  "t": "Bagaimana cara memulihkan dari cadangan?",
-  "a": "Pilih file cadangan Anda melalui Pengaturan → Cadangan → Impor dari file. Gabungkan mempertahankan aturan yang ada dan memperbaruinya, Ganti menukar semuanya dengan isi cadangan. Aplikasi akan memberi peringatan jika file rusak atau terlalu besar (di atas 512 KB).",
+  "sec": "Cadangan dan Ganti Ponsel",
+  "t": "Bagaimana cara memulihkan data dari cadangan?",
+  "a": "Pilih file cadangan Anda lewat Pengaturan → Pencadangan → Impor dari file. Opsi Gabungkan akan mempertahankan serta memperbarui aturan Anda saat ini, sedangkan Ganti akan mengganti seluruh aturan dengan data dari file cadangan. Jika file rusak atau ukurannya terlalu besar (lebih dari 512 KB), aplikasi akan menampilkan peringatan.",
   "q": [
-   "cara restore file backup",
-   "impor aturan dari file cadangan",
-   "file cadangan rusak atau terlalu besar",
-   "pilih gabungkan atau ganti"
+   "cara restore file cadangan",
+   "impor backup ha!shh",
+   "restore gagal file rusak",
+   "gabung atau timpa aturan"
   ]
  },
  {
   "type": "fix",
-  "sec": "Cadangan dan ganti ponsel",
-  "t": "Saya berganti ponsel, bagaimana dengan pengaturan saya?",
-  "a": "Buat cadangan di ponsel lama melalui Pengaturan → Cadangan → Ekspor ke file dan pindahkan file tersebut ke ponsel baru (mis. lewat Drive atau kabel). Pasang ha!shh di ponsel baru dan pulihkan dengan Impor dari file. Untuk memindahkan arsip juga, gunakan Ekspor Arsip → 🔒 Arsip Terenkripsi (.hashh) di ponsel lama. Anda perlu memberikan kembali akses notifikasi dan izin baterai di ponsel baru.",
+  "sec": "Cadangan dan Ganti Ponsel",
+  "t": "Saya berganti ponsel baru, bagaimana dengan pengaturan saya?",
+  "a": "Di ponsel lama, buat cadangan lewat Pengaturan → Pencadangan → Ekspor ke file lalu pindahkan file tersebut ke ponsel baru Anda (misalnya melalui Google Drive atau kabel). Instal ha!shh di ponsel baru dan pulihkan lewat Impor dari file. Untuk memindahkan arsip juga, gunakan Ekspor Arsip → 🔒 Arsip Terenkripsi (.hashh) di ponsel lama. Anda perlu memberikan kembali izin akses notifikasi dan baterai di ponsel baru.",
   "q": [
-   "cara pindahkan data ha!shh ke hp baru",
-   "migrasi aturan dan arsip",
-   "ganti ponsel baru ha!shh",
-   "transfer pengaturan ke hp lain"
+   "pindah aplikasi ke hp baru",
+   "transfer data ha!shh",
+   "ganti hp restore aturan",
+   "cara migrasi notifikasi ke ponsel baru"
   ]
  },
  {
   "type": "fix",
-  "sec": "Cadangan dan ganti ponsel",
+  "sec": "Cadangan dan Ganti Ponsel",
   "t": "Saya ingin menghapus semua data saya",
-  "a": "Pengaturan → Cadangan → Hapus semua data lokal. Aturan, riwayat, catatan tertunda, dan preferensi akan dihapus; tindakan ini tidak dapat dibatalkan. Jika ingin mencadangkannya terlebih dahulu, gunakan Ekspor ke file.",
+  "a": "Buka Pengaturan → Privasi dan data → Hapus semua data lokal saya. Seluruh aturan, riwayat, catatan tertunda, dan preferensi akan dihapus; tindakan ini tidak dapat dibatalkan. Jika ingin mencadangkan terlebih dahulu, gunakan Ekspor data saya di bagian yang sama. Seluruh catatan arsip juga akan ikut terhapus oleh proses ini.",
   "q": [
-   "reset data aplikasi ha!shh",
-   "cara hapus semua data lokal",
-   "hapus seluruh aturan dan riwayat",
-   "kembalikan setelan awal pabrik"
-  ]
- },
- {
-  "type": "fix",
-  "sec": "Lainnya",
-  "t": "Saya mengubah ikon aplikasi, ikonnya hilang dari layar utama",
-  "a": "Pada beberapa ponsel (mis. Samsung), saat ikon berubah, ikon akan terhapus dari layar utama dan kembali ke laci aplikasi. Tarik kembali ha!shh dari laci aplikasi ke layar utama.",
-  "q": [
-   "ikon aplikasi hilang dari beranda",
-   "icon ha!shh hilang setelah diganti",
-   "logo aplikasi tidak ada di layar utama",
-   "cara mengembalikan ikon ke layar depan"
-  ]
- },
- {
-  "type": "fix",
-  "sec": "Lainnya",
-  "t": "Saya tidak dapat menemukan ubin pengaturan cepat",
-  "a": "Tarik ke bawah bilah notifikasi dua kali. Jika ubin belum terlihat, geser panel ke kanan, ubin mungkin berada di halaman berikutnya. Jika tetap tidak ada, tambahkan kembali melalui Pengaturan → Alat → Ubin pengaturan cepat.",
-  "q": [
-   "ubin pengaturan cepat tidak muncul",
-   "dimana quick tile ha!shh",
-   "tombol pintasan status bar hilang",
-   "cara pasang ubin ha!shh di panel notifikasi"
+   "hapus seluruh data aplikasi",
+   "reset ha!shh ke awal",
+   "bersihkan semua riwayat dan aturan",
+   "hapus akun dan data lokal"
   ]
  },
  {
   "type": "fix",
   "sec": "Lainnya",
   "t": "Saya ingin melaporkan masalah",
-  "a": "Pengaturan → Kirim masukan akan membuka aplikasi email Anda dengan pesan yang telah disiapkan. Konten notifikasi dan aturan Anda tidak akan disertakan.",
+  "a": "Pengaturan → Kirim masukan akan membuka aplikasi email Anda dengan format pesan yang sudah disiapkan. Isi notifikasi dan aturan pribadi Anda tidak akan disertakan.",
   "q": [
-   "lapor bug ha!shh",
-   "cara kirim keluhan masalah",
-   "kontak tim support aplikasi",
-   "ada masalah di aplikasi lapor kemana"
+   "laporkan bug aplikasi",
+   "ada error di aplikasi",
+   "hubungi support ha!shh",
+   "kirim email bantuan masalah"
   ]
  }
 ]

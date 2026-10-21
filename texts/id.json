@@ -208,14 +208,14 @@
       },
       {
         "b": "3",
-        "p": "Hal-hal yang digunakan untuk menentukan: aplikasi, jenis notifikasi, dan waktu. Judul dan teks hanya dibandingkan dengan kata-kata Anda sendiri (kata spoiler atau kata arsip), hanya jika Anda mengaktifkan akses konten, dan hanya di ponsel."
+        "p": "Hal-hal yang digunakan untuk memutuskan apakah akan menahan notifikasi: aplikasi, jenis notifikasi, dan waktu. Hanya jika Anda mengaktifkan mode spoiler, kata-kata yang Anda pilih akan dicari di dalam notifikasi, di ponsel Anda."
       },
       {
-        "b": "Opsional",
-        "p": "Konten notifikasi tidak dibaca secara default. Jika Anda ingin melihat apa yang sedang menunggu, aktifkan di Pengaturan."
+        "b": "Milik Anda",
+        "p": "Berapa lama isi disimpan adalah pilihan Anda. Isi notifikasi ditampilkan di dalam aplikasi dan tetap terenkripsi di ponsel Anda; Anda memilih berapa lama isi disimpan, atau menonaktifkannya sepenuhnya di Pengaturan."
       }
     ],
-    "priv_more_p": "Pengaturan dan catatan disimpan secara terenkripsi di ponsel. Arsip hanya menyimpan notifikasi yang Anda simpan atau yang cocok dengan grup arsip buatan Anda sendiri, juga terenkripsi dan berada di ponsel; data hanya keluar dari ponsel jika Anda mengekspornya ke sebuah file. Menghapus instalan aplikasi akan menghapus datanya.",
+    "priv_more_p": "Pengaturan dan catatan disimpan terenkripsi di ponsel Anda. Isi notifikasi ditampilkan di dalam aplikasi dan disimpan selama yang Anda pilih, dan pembayaran bank, kupon, pengeluaran, serta tagihan masuk ke arsip otomatis. Semua ini dapat dinonaktifkan di Pengaturan, dan hanya keluar dari ponsel Anda jika Anda mengekspornya ke file. Mencopot pemasangan aplikasi akan menghapus datanya.",
     "priv_more": "Baca kebijakan privasi selengkapnya →",
     "status_eyebrow": "Status",
     "status_h": "Sedang dikembangkan, segera hadir di Google Play.",
@@ -451,7 +451,7 @@
         "items": [
           {
             "t": "Arsip notifikasi",
-            "p": "Simpan notifikasi yang Anda inginkan ke dalam folder seperti Kupon, Tagihan, dan Pengeluaran, atau folder buatan Anda sendiri. Aplikasi akan menyarankan jumlah nominal dan Anda tinggal mengonfirmasinya; total bulanan akan ditampilkan. Tambahkan tanggal jatuh tempo dan Anda akan mendapatkan pengingat pada pagi hari tersebut, serta Anda dapat menambahkannya ke kalender ponsel Anda (tidak memerlukan izin kalender). Anda juga dapat mengarsipkan notifikasi langsung dari Riwayat jika isinya tersimpan di sana. Tidak ada yang masuk ke arsip dengan sendirinya kecuali Anda mengatur grup arsip.",
+            "p": "Simpan notifikasi apa pun ke dalam folder seperti Kupon, Tagihan yang harus dibayar, atau Pengeluaran, atau ke dalam folder Anda sendiri. Aplikasi menyarankan jumlahnya dan Anda mengonfirmasinya; total bulanan ditampilkan. Beri tanggal jatuh tempo dan Anda akan diingatkan pada pagi hari tersebut; Anda juga dapat menambahkannya ke kalender ponsel Anda (tidak memerlukan izin kalender). Pembayaran bank, kupon, pengeluaran, dan tagihan masuk ke arsip secara otomatis segera setelah tiba; Anda dapat menonaktifkan ini, atau salah satu dari jenis ini, di Pengaturan.",
             "new": "Baru"
           },
           {
@@ -460,8 +460,8 @@
             "new": "Baru"
           },
           {
-            "t": "Lihat konten, hanya jika Anda mengizinkannya",
-            "p": "Konten notifikasi tidak dibaca secara default. Aktifkan tampilan konten di Pengaturan untuk melihat apa yang sedang menunggu."
+            "t": "Isi tetap di ponsel Anda, di bawah kendali Anda",
+            "p": "Isi notifikasi yang menunggu dan yang lalu ditampilkan di dalam aplikasi dan disimpan terenkripsi di ponsel Anda; Anda memilih berapa lama isi disimpan. Jika Anda tidak menginginkannya, nonaktifkan tampilan isi di Pengaturan; setelah itu, hanya nama aplikasi, waktu, dan alasan penundaan yang ditampilkan."
           },
           {
             "t": "Tema dan ikon aplikasi",
@@ -540,10 +540,10 @@
   },
   "privacy": {
     "title": "Kebijakan privasi · {brand}",
-    "desc": "Cara aplikasi notifikasi menangani data: tanpa izin internet, semua tetap terenkripsi di ponsel Anda, konten notifikasi hanya dengan izin Anda.",
+    "desc": "Cara aplikasi notifikasi menangani data: tanpa izin internet, semuanya tetap terenkripsi di ponsel Anda; tampilan isi, penyimpanan, dan arsip otomatis berada di bawah kendali Anda.",
     "h1": "Kebijakan privasi",
-    "updated": "Terakhir diperbarui: 14 Oktober 2026",
-    "intro": "Singkatnya: aplikasi ini tidak memiliki izin internet dan tidak mengirim apa pun ke mana pun. Semua yang disimpannya tetap terenkripsi di ponsel Anda. Konten notifikasi tidak dibaca kecuali Anda mengaktifkannya, dan arsip hanya menyimpan notifikasi yang Anda pilih untuk disimpan.",
+    "updated": "Terakhir diperbarui: 21 Oktober 2026",
+    "intro": "Singkatnya: aplikasi ini tidak memiliki izin internet dan tidak mengirim apa pun ke mana pun. Semua yang disimpannya tetap terenkripsi di ponsel Anda, dan hanya Anda yang melihatnya. Isi notifikasi ditampilkan di dalam aplikasi dan disimpan selama yang Anda pilih, dan pembayaran bank, kupon, pengeluaran, serta tagihan masuk ke arsip otomatis. Anda dapat menonaktifkan semua ini di Pengaturan.",
     "sections": [
       {
         "h": "Tentang kami",
@@ -551,15 +551,15 @@
       },
       {
         "h": "Akses notifikasi (diperlukan)",
-        "body": "<p>Aplikasi ini memerlukan akses notifikasi, yang Anda berikan di pengaturan Android. Untuk menentukan apa yang terjadi pada suatu notifikasi, aplikasi menggunakan aplikasi yang mengirimkannya, jenis notifikasi (misalnya kategori panggilan, alarm, atau pesan), dan waktu. Judul dan teks pesan tidak digunakan untuk penentuan ini, dengan satu pengecualian: jika Anda mengaktifkan akses konten dan menambahkan kata spoiler atau grup kata arsip, judul dan teks akan dibandingkan dengan kata-kata Anda di ponsel. Tidak ada yang dikirim ke mana pun.</p>"
+        "body": "<p>Aplikasi memerlukan akses notifikasi yang Anda berikan di pengaturan Android. Untuk memutuskan apakah notifikasi langsung masuk atau menunggu, aplikasi menggunakan aplikasi yang mengirimkannya, jenis notifikasi (misalnya kategori panggilan, alarm, atau pesan), dan waktu. Satu-satunya pengecualian adalah mode spoiler: jika Anda mengaktifkannya, kata-kata yang Anda pilih (seperti nama tim) dicari di judul dan teks notifikasi, di ponsel Anda. Penggunaan isi lainnya dijelaskan pada bagian-bagian di bawah ini. Tidak ada yang dikirim ke mana pun.</p>"
       },
       {
-        "h": "Konten notifikasi (opsional)",
-        "body": "<ul><li>Jika Anda mengaktifkan <b>Tampilkan konten notifikasi</b> di Pengaturan, isi notifikasi yang sedang menunggu hanya dibaca pada saat ditampilkan kepada Anda.</li><li>Jika Anda juga mengaktifkan penyimpanan konten di Riwayat, isi tersebut disimpan secara terenkripsi di ponsel selama satu atau tujuh hari, sesuai pilihan Anda. Data ini dihapus saat periode tersebut berakhir atau saat akses notifikasi dinonaktifkan.</li><li>Dengan akses konten aktif, filter jenis notifikasi menyimpan satu contoh judul untuk setiap jenis notifikasi suatu aplikasi, terenkripsi di ponsel, agar Anda dapat mengenali jenis-jenisnya.</li></ul>"
+        "h": "Konten notifikasi",
+        "body": "<ul><li><b>Tampilan (aktif secara default):</b> Judul dan teks notifikasi yang menunggu dan yang lalu ditampilkan kepada Anda di dalam aplikasi. Jika Anda menonaktifkan <b>Tampilkan isi notifikasi</b> di Pengaturan, isi tidak dibaca maupun disimpan; hanya nama aplikasi, waktu, dan alasan penundaan yang ditampilkan.</li><li><b>Berapa lama disimpan (pilihan Anda):</b> Riwayat dan isi disimpan terenkripsi di ponsel Anda. Anda memilih berapa lama saat penyiapan (7, 30, 90 atau 365 hari, atau tanpa penghapusan otomatis) dan dapat mengubahnya nanti di Pengaturan. Jika Anda tidak memilih, tidak ada yang dihapus secara otomatis; jika Riwayat memakan banyak ruang, Anda akan ditanya apakah ingin membersihkan catatan lama. Isi dihapus saat Anda menonaktifkan tampilan isi. Arsip tidak terpengaruh oleh pembersihan ini.</li><li><b>Kata-kata Anda sendiri:</b> Jika Anda menambahkan kata-kata spoiler atau grup kata arsip, judul dan teks akan dibandingkan dengan kata-kata tersebut di ponsel Anda.</li><li><b>Filter jenis notifikasi:</b> Agar Anda dapat mengenali jenis-jenisnya, satu contoh judul per jenis notifikasi dari suatu aplikasi disimpan terenkripsi di ponsel Anda.</li><li><b>Log riwayat:</b> Untuk setiap notifikasi yang diterima ponsel Anda, aplikasi, waktu, dan apa yang terjadi (langsung masuk, ditahan, dikirimkan, ditandai sebagai telah dibaca) disimpan di Riwayat di ponsel Anda.</li></ul>"
       },
       {
         "h": "Arsip notifikasi",
-        "body": "<ul><li>Arsip menyimpan notifikasi yang Anda pilih untuk diarsipkan, dan, jika Anda menyiapkan grup arsip, notifikasi yang Anda tandai sudah dibaca dan cocok dengan salah satu grup Anda: nama aplikasi, judul, teks, dan tanggal, ditambah folder, jumlah nominal, dan tanggal jatuh tempo yang Anda tambahkan. Tidak ada hal lain yang masuk ke arsip dengan sendirinya.</li><li>Item yang diarsipkan tetap terenkripsi di ponsel hingga Anda menghapusnya. Total pengeluaran dan daftar kupon dihitung di ponsel dari notifikasi yang Anda arsipkan. Menyalin kode kupon akan menaruhnya di papan klip ponsel Anda.</li><li>Jumlah nominal yang disarankan dihitung di ponsel. Pengingat tanggal jatuh tempo menggunakan alarm bawaan ponsel.</li><li>Menambahkan item arsip ke kalender Anda akan membuka aplikasi kalender Anda sendiri dengan acara yang sudah terisi: judul notifikasi (atau nama aplikasi jika tidak ada judul) sebagai nama acara dan tanggal jatuh tempo sebagai acara sepanjang hari. Anda melihatnya di sana, dapat mengubahnya, dan memilih apakah ingin menyimpannya. Aplikasi ini tidak memerlukan izin kalender untuk hal ini. Jika kalender Anda disinkronkan dengan suatu akun (misalnya Google), acara yang disimpan akan masuk ke akun tersebut; hal itu dilakukan oleh aplikasi kalender Anda, dan ha!shh tidak mengirimkan apa pun.</li><li>Anda dapat mengekspor arsip ke tempat yang Anda pilih (misalnya Google Drive, Dropbox, atau folder di ponsel Anda) menggunakan pemilih file bawaan ponsel Anda: baik sebagai file yang dilindungi dengan kata sandi yang kuat, maupun sebagai file biasa yang dapat dibaca oleh siapa saja yang memiliki file tersebut. Jika akses konten dinonaktifkan, judul dan teks dikosongkan di dalam file. Ke mana file tersebut disimpan dan siapa yang dapat membukanya sepenuhnya terserah Anda dan layanan yang Anda pilih; ha!shh sendiri tidak mengirimkan apa pun.</li></ul>"
+        "body": "<ul><li><b>Arsip otomatis (aktif secara default):</b> Pembayaran bank, kupon, pengeluaran, dan tagihan disimpan ke arsip segera setelah tiba. Untuk mengenalinya, judul dan teks dibandingkan di ponsel Anda dengan frasa tertentu (misalnya “pembayaran dilakukan”, “tanggal jatuh tempo”, kode kupon); tidak ada yang keluar dari ponsel Anda untuk hal ini. Anda dapat menonaktifkan arsip otomatis, atau salah satu dari jenisnya, di Pengaturan. Entri otomatis disimpan selama 365 hari secara default; Anda dapat memilih periodenya, dan entri yang Anda edit atau beri catatan tidak akan dihapus. Jika Anda menonaktifkan tampilan isi, arsip otomatis juga akan berhenti.</li><li>Selain itu, arsip menyimpan notifikasi yang Anda pilih untuk diarsipkan dan, jika Anda telah menyiapkan grup arsip, notifikasi yang Anda tandai sebagai telah dibaca yang cocok dengan salah satu grup Anda: nama aplikasi, judul, teks, dan tanggal, ditambah folder, jumlah, dan tanggal jatuh tempo yang Anda tambahkan. Data ini tetap terenkripsi di ponsel Anda hingga Anda menghapusnya.</li><li>Total pengeluaran dan daftar kupon dihitung di ponsel Anda dari notifikasi yang Anda arsipkan. Menyalin kode kupon akan menempatkannya di papan klip ponsel Anda.</li><li>Jumlah yang disarankan dihitung di ponsel Anda. Pengingat tanggal jatuh tempo diatur dengan alarm ponsel Anda sendiri.</li><li>Menambahkan entri arsip ke kalender Anda akan membuka aplikasi kalender Anda sendiri dengan acara yang telah diisi sebelumnya: judul notifikasi (atau nama aplikasi jika tidak ada judul) disarankan sebagai nama acara dan tanggal jatuh tempo (sepanjang hari) sebagai tanggalnya. Anda melihat acara tersebut di sana, dapat mengubahnya, dan memilih apakah akan menyimpannya. Aplikasi tidak meminta izin kalender untuk hal ini. Jika kalender Anda disinkronkan dengan suatu akun (seperti Google), acara yang Anda simpan juga akan masuk ke akun tersebut; aplikasi kalender Anda yang melakukannya, ha!shh tidak mengirim apa pun.</li><li>Anda dapat mengekspor arsip dengan pemilih file ponsel Anda sendiri ke tempat yang Anda pilih (seperti Google Drive, Dropbox, atau folder di ponsel Anda): baik sebagai file yang dilindungi dengan kata sandi yang kuat, maupun sebagai file tidak terenkripsi yang dapat dibaca oleh siapa saja yang memilikinya. Jika Anda menonaktifkan tampilan isi, judul dan teks dibiarkan kosong di dalam file. Ke mana file tersebut pergi dan siapa yang dapat membukanya kemudian bergantung pada Anda dan layanan yang Anda pilih; ha!shh sendiri tidak mengirim apa pun.</li></ul>"
       },
       {
         "h": "Kunci sidik jari",
@@ -567,7 +567,7 @@
       },
       {
         "h": "Izin lainnya",
-        "body": "<ul><li><b>Mengirim notifikasi:</b> untuk mengirimkan notifikasi yang ditahan dan pengingat.</li><li><b>Memulai setelah boot ulang:</b> untuk memulihkan aturan dan pengingat Anda setelah ponsel dimulai ulang.</li><li><b>Kalender (opsional):</b> hanya waktu mulai dan selesai serta status sibuk dari acara yang dibaca, untuk beralih mode selama rapat. Judul acara tidak dibaca.</li><li><b>Bluetooth (opsional):</b> untuk beralih mode saat ponsel terhubung ke mobil Anda. Alamat perangkat mentah tidak disimpan; hanya sidik jari satu arah dan nama perangkat yang Anda lihat yang disimpan secara terenkripsi.</li></ul>"
+        "body": "<ul><li><b>Mengirim notifikasi:</b> untuk mengirimkan notifikasi yang ditahan dan pengingat kepada Anda.</li><li><b>Memulai saat booting:</b> untuk mengatur kembali aturan dan pengingat Anda setelah ponsel Anda dimulai ulang.</li><li><b>Getaran:</b> Agar notifikasi yang ditahan tidak bersuara, ha!shh mengelola suara notifikasi dan memutar sendiri suara serta getaran dari notifikasi yang langsung masuk. Panggilan dan alarm tidak terpengaruh; hal ini dapat dinonaktifkan di Pengaturan.</li><li><b>Menjaga tetap terjaga:</b> Agar keputusan tentang notifikasi yang tiba saat layar mati tidak tertunda, ponsel dijaga tetap terjaga selama maksimal 3 detik.</li><li><b>Kalender (opsional):</b> untuk mengubah mode selama rapat, hanya waktu mulai dan selesai serta status sibuk acara yang dibaca. Judul acara tidak dibaca.</li><li><b>Bluetooth (opsional):</b> untuk mengubah mode saat ponsel Anda terhubung ke mobil Anda. Alamat mentah perangkat tidak disimpan; hanya sidik jari yang tidak dapat diubah kembali dan nama perangkat yang Anda lihat yang disimpan, secara terenkripsi.</li></ul>"
       },
       {
         "h": "Aplikasi terinstal Anda",
@@ -623,7 +623,7 @@
       },
       {
         "q": "Apakah aplikasi membaca notifikasi saya?",
-        "a": "Tidak secara default. Keputusan hanya menggunakan aplikasi, jenis notifikasi, dan waktu. Konten hanya dibaca jika Anda mengaktifkan tampilan konten, dan hanya pada saat ditampilkan kepada Anda."
+        "a": "Kami tidak melakukannya: aplikasi tidak memiliki izin internet dan tidak ada yang keluar dari ponsel Anda. Aplikasi memutuskan apakah akan menahan notifikasi menggunakan aplikasi, jenis notifikasi, dan waktu (jika Anda mengaktifkan mode spoiler, kata-kata yang Anda pilih juga akan dicari). Isi dibaca di ponsel Anda untuk menampilkannya kepada Anda, menyimpannya selama yang Anda pilih, dan mengarsipkan pembayaran bank, kupon, pengeluaran, serta tagihan secara otomatis. Jika Anda tidak menginginkannya, nonaktifkan <b>Tampilkan isi notifikasi</b> di Pengaturan."
       },
       {
         "q": "Mungkinkah saya melewatkan panggilan atau pesan penting?",
@@ -643,7 +643,7 @@
       },
       {
         "q": "Apakah notifikasi masuk ke arsip dengan sendirinya?",
-        "a": "Hanya jika Anda memintanya. Secara default, hanya notifikasi yang Anda pilih untuk diarsipkan yang akan disimpan. Jika Anda menyiapkan grup arsip (berdasarkan aplikasi, orang, atau kata yang Anda tulis), notifikasi yang Anda tandai telah dibaca dan cocok dengan suatu grup juga akan disimpan di sana. Arsip tetap terenkripsi di ponsel Anda dan hanya keluar jika Anda mengekspornya ke sebuah file. Anda dapat menambahkan folder, jumlah, dan tanggal jatuh tempo, serta menghapus item kapan saja."
+        "a": "Pembayaran bank, kupon, pengeluaran, dan tagihan, ya: arsip otomatis aktif secara default dan menyimpannya segera setelah tiba. Notifikasi lain hanya disimpan jika Anda mengarsipkannya atau cocok dengan grup arsip yang Anda siapkan. Anda dapat menonaktifkan arsip otomatis, atau salah satu dari jenisnya, di Pengaturan. Arsip tetap terenkripsi di ponsel Anda dan hanya keluar jika Anda mengekspornya ke file. Anda dapat menambahkan folder, jumlah, dan tanggal jatuh tempo, serta menghapus entri kapan pun Anda mau."
       },
       {
         "q": "Apa yang terjadi jika saya menghapus instalan aplikasi?",
@@ -668,6 +668,21 @@
     "lead": "Yang baru di ha!shh. Aplikasi ini masih dalam tahap pengembangan: semua yang ada di sini berada dalam versi pengembangan dan akan hadir di Google Play saat peluncuran."
   },
   "news": [
+    {
+      "date": "2026-10-21",
+      "h": "10 bahasa, widget, dan tampilan meja",
+      "items": [
+        "<b>Aplikasi dalam 10 bahasa:</b> Setiap layar tersedia dalam bahasa Inggris, Turki, Arab, Jerman, Spanyol, Prancis, Hindi, Indonesia, Portugis, dan Rusia. Anda juga dapat memilih bahasa di dalam aplikasi, di Pengaturan → Tampilan.",
+        "<b>Widget layar utama:</b> Dalam empat ukuran, menampilkan pengiriman berikutnya, mode aktif, berapa banyak yang sedang menunggu, dan aplikasi dengan notifikasi menunggu terbanyak. Ukuran besar mencantumkan notifikasi yang menunggu, dan satu ketukan menandainya sebagai telah dibaca. Widget mengikuti tema Anda; ketuk waktu untuk melihat waktu saat ini.",
+        "<b>Tampilan meja:</b> Putar ponsel Anda ke samping untuk melihat jam besar, mode aktif, strip mingguan, pengiriman berikutnya, dan apa yang sedang menunggu. Pilih apa yang akan ditampilkan, dan gunakan foto Anda sendiri sebagai bingkai atau latar belakang. Layar tetap menyala saat mengisi daya; dalam tata letak daya rendah, layar meredup dan diperbarui satu menit sekali.",
+        "<b>Setiap notifikasi di Riwayat:</b> Notifikasi yang langsung masuk kini juga masuk ke Riwayat, sehingga Anda dapat menemukan notifikasi yang tidak sengaja Anda abaikan. Anda memilih saat penyiapan berapa lama Riwayat disimpan; jika tidak, tidak ada yang dihapus secara otomatis, dan jika memakan ruang, Anda akan ditanya sebelum ada yang dibersihkan.",
+        "<b>Arsip otomatis:</b> Pembayaran bank, kupon, pengeluaran yang selesai, dan tagihan masuk ke arsip segera setelah tiba; harga dalam iklan tidak. Entri yang Anda tambahkan atau edit sendiri selalu tetap ada. Ini dapat dinonaktifkan; jumlah ditampilkan dalam mata uang ponsel Anda.",
+        "<b>Menunggu dengan tenang:</b> Notifikasi yang ditahan tidak mengeluarkan suara sama sekali; ha!shh memutar suara notifikasi yang langsung masuk. Panggilan dan alarm tidak terpengaruh.",
+        "<b>Urungkan:</b> Saat Anda menggesek kartu yang menunggu untuk menandainya sebagai telah dibaca atau menundanya, Anda dapat mengurungkannya dalam 4 detik.",
+        "<b>Layar yang lebih sederhana:</b> Aturan, Rencana, dan Riwayat ditata ulang; laporan notifikasi dan statistik berada di satu layar . Penyiapan pertama kali juga menyiapkan rencana Tidur malam hari. Blokir tangkapan layar di layar sensitif kini menjadi opsi yang Anda aktifkan di Pengaturan.",
+        "<b>Perbaikan:</b> Keterlambatan dalam menahan notifikasi saat layar mati telah diperbaiki; notifikasi yang tiba tanpa suara juga mengikuti aturan Anda; notifikasi sistem Android dan SIM tidak pernah ditahan; saat suatu mode berakhir, semua yang ditahannya tiba bersamaan; pada malam pergantian waktu musim panas, mode berakhir pada waktu yang tepat; aplikasi belanja masuk ke grup yang tepat; aplikasi lain tidak dapat membuka atau mengubah layar dan tema ha!shh."
+      ]
+    },
     {
       "date": "2026-10-14",
       "h": "Undang teman, dapatkan hadiah",

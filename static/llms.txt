@@ -19,12 +19,14 @@
 - Modes: Normal, Focus, Sleep, Sports (holds only selected sports apps), plus custom modes; per-mode view of which apps come through and which wait.
 - Weekly plan, calendar with date-specific plans, 24-hour dial, rotating shift schedules with breaks, ready-made profiles.
 - Never-hold list with an optional reminder if a notification is not opened within five minutes.
-- Notification archive: only notifications the user chooses, in folders, with amount and due-date reminder; encrypted, on device.
+- Notification archive: folders with amount and due-date reminder; bank payments, coupons, spending and bills are archived automatically by default (can be turned off); encrypted, on device.
+- Home screen widgets (four sizes), a landscape desk view, and the whole app in 10 languages.
 - Fingerprint lock (Android's own biometric prompt) for the whole app or only the archive and notification contents.
 
 ## Privacy
 - No internet permission; no servers, accounts, ads, analytics or crash reporting.
-- Decisions use the app, notification type and time; notification content is read only if the user turns it on.
+- Hold/deliver decisions use the app, notification type and time; only in spoiler mode are the user's chosen words searched in the notification, on the device.
+- By default, notification content is shown in the app and kept encrypted on the device for a period the user chooses (or not at all), and the automatic archive matches title/text against fixed phrases on the device. All of this can be turned off in Settings.
 - Data is stored encrypted on the device (Android Keystore key); Android cloud backup is off.
 
 ## Technical

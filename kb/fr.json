@@ -3,876 +3,996 @@
   "type": "guide",
   "sec": "Prise en main",
   "t": "Que fait ha!shh ?",
-  "a": "Elle met en attente les notifications entrantes selon vos règles et vous les restitue groupées aux heures que vous avez choisies. Pour prendre sa décision, l'application ne lit pas le texte de vos notifications : seuls l'application d'origine et l'horodatage sont pris en compte. L'application ne possède aucune autorisation d'accès à Internet ; tout reste sur votre téléphone.",
+  "a": "L'application met vos notifications entrantes en attente selon vos règles et vous les restitue de manière groupée aux heures que vous avez choisies. Pour décider de la mise en attente, le contenu du message n'est jamais lu : seules l'application source et l'heure de réception sont utilisées. Le contenu des notifications n'est lu et affiché par défaut que sur votre propre téléphone ; l'application ne demande aucun accès à Internet et aucune donnée ne quitte votre appareil.",
   "q": [
-   "à quoi sert ha!shh",
+   "à quoi sert cette application",
    "comment fonctionne ha!shh",
-   "c'est quoi cette appli",
-   "que fait l'application"
+   "que fait l'application",
+   "principe de ha!shh"
   ]
  },
  {
   "type": "guide",
   "sec": "Prise en main",
   "t": "Comment effectuer la configuration initiale ?",
-  "a": "À la première ouverture de l'application, l'Assistant de configuration initiale démarre. Vous lisez les informations de confidentialité, accordez l'accès aux notifications ainsi que les réglages de batterie, puis choisissez le rythme qui vous correspond (Étudiant, Employé de bureau, Travail de nuit, Indépendant / Flexible). Si vous quittez l'assistant en cours de route, vous pouvez le reprendre depuis la carte sur le Flux ou via Paramètres → Outils → Assistant de configuration initiale.",
+  "a": "Lorsque vous ouvrez l'application pour la première fois, l'Assistant de configuration initiale démarre. Vous prenez connaissance des informations de confidentialité, accordez l'accès aux notifications et les autorisations de batterie, puis choisissez le rythme de vie qui vous correspond (Étudiant, Employé de bureau, Travail de nuit, Indépendant / Flexible). La configuration prépare également dès le premier démarrage votre programme de Sommeil nocturne ; l'application est ainsi prête à l'emploi dès la fin de l'assistant. Si vous quittez l'assistant en cours de route, vous pouvez le reprendre depuis la carte sur l'écran Aujourd'hui ou via Paramètres → Outils → Assistant de configuration initiale.",
   "q": [
-   "comment configurer l'application au début",
-   "première utilisation de ha!shh",
-   "relancer l'assistant de configuration",
-   "comment faire la configuration initiale"
+   "premier démarrage",
+   "comment configurer l'application",
+   "assistant de configuration",
+   "première installation"
   ]
  },
  {
   "type": "guide",
   "sec": "Prise en main",
   "t": "Quelles sont les autorisations requises ?",
-  "a": "Deux autorisations sont nécessaires : l'accès aux notifications (indispensable pour la mise en attente) ainsi que l'autorisation de batterie et d'arrière-plan (pour ne pas manquer les heures de distribution). Vous pouvez vérifier les deux sous Paramètres → Autorisations de l'appareil ; la mention « Autorisé » ou « Autorisation requise » s'affiche à côté.",
+  "a": "Deux autorisations de base sont nécessaires : l'accès aux notifications (indispensable pour la mise en attente et la distribution groupée) et l'autorisation de batterie et d'arrière-plan (pour éviter tout retard lors des heures de distribution). Vous pouvez vérifier ces deux autorisations dans Paramètres → Autorisations de l'appareil, où s'affiche la mention « Autorisé » ou « Autorisation requise ».",
   "q": [
-   "quelles permissions donner à ha!shh",
+   "quelles permissions donner",
    "autorisations nécessaires",
-   "pourquoi autoriser l'accès aux notifications",
-   "permissions requises pour l'application"
+   "accès aux notifications",
+   "paramètres batterie"
   ]
  },
  {
   "type": "guide",
   "sec": "Utilisation quotidienne",
-  "t": "Que trouve-t-on sur l'écran Flux ?",
-  "a": "Au centre se trouve le cadran de la journée : 12 en haut, 18 à droite, 00 en bas, 06 à gauche. Les icônes des applications ayant des notifications en attente apparaissent au-dessus du cadran. En dessous se trouvent la carte En attente, la prochaine heure de distribution, la carte d'archives et le résumé de votre Temps gagné.",
+  "t": "Que trouve-t-on sur l'écran Aujourd'hui ?",
+  "a": "Au centre se trouve un cadran de 24 heures : 12 h en haut, 18 h à droite, 00 h en bas et 06 h à gauche. Les icônes des applications ayant des notifications en attente apparaissent sur le cadran, sans se chevaucher lorsqu'elles arrivent à des heures proches. En bas se trouvent la pile de cartes En attente, la prochaine heure de distribution, la carte d'archives et le résumé Temps gagné (qui inclut aussi une estimation de la batterie économisée en évitant les allumages intempestifs de l'écran).",
   "q": [
-   "que signifie l'écran d'accueil",
-   "comprendre le cadran du flux",
-   "que voit-on sur l'écran flux",
-   "explication de l'écran principal"
+   "explication écran aujourd'hui",
+   "que signifie le cadran",
+   "carte en attente",
+   "comprendre l'écran principal"
   ]
  },
  {
   "type": "guide",
   "sec": "Utilisation quotidienne",
-  "t": "Comment consulter les notifications en attente ?",
-  "a": "Dans le Flux, appuyez sur le lien Tout lire › situé sur la carte En attente. Si vous le souhaitez, vous pouvez tout récupérer immédiatement avec Tout distribuer maintenant. Appuyer sur une notification ouvre l'application d'où elle provient.",
+  "t": "Comment voir les notifications en attente ?",
+  "a": "Sur l'écran Aujourd'hui, vous pouvez appuyer sur le lien Tout lire › situé sur la carte En attente. Si vous le souhaitez, l'option Tout distribuer maintenant vous permet de recevoir immédiatement toutes les notifications en attente. Un appui sur une notification ouvre l'application correspondante. Dans la pile de cartes, vous pouvez glisser une carte vers la droite pour la marquer comme lue, ou vers la gauche pour la reporter de 30 minutes. Si vous souhaitez annuler votre action, appuyez simplement sur le bouton Annuler affiché en bas de l'écran pendant 4 secondes.",
   "q": [
    "voir les notifications bloquées",
    "comment lire les messages en attente",
-   "consulter les alertes retenues",
-   "accéder aux notifications en attente"
+   "tout distribuer maintenant",
+   "annuler une action"
   ]
  },
  {
   "type": "guide",
   "sec": "Utilisation quotidienne",
   "t": "Puis-je lire le contenu des notifications dans l'application ?",
-  "a": "Oui, mais seulement si vous l'autorisez. Activez le bouton Paramètres → Contenu et sérénité → Afficher le contenu des notifications. Lorsqu'il est désactivé, seuls le nom de l'application, l'heure et la raison de la mise en attente sont visibles.",
+  "a": "Oui. L'affichage du contenu des notifications est activé par défaut ; les contenus sont lus et affichés en toute sécurité uniquement sur votre propre appareil. Si vous préférez le masquer, désactivez l'interrupteur dans Paramètres → Contenu et sérénité → Afficher le contenu des notifications. Lorsqu'il est désactivé, seuls le nom de l'application, l'heure et la raison de la mise en attente sont affichés.",
   "q": [
-   "lire le texte de mes notifications",
-   "afficher le message complet dans ha!shh",
+   "lire les messages dans l'application",
    "masquer le texte des notifications",
-   "aperçu du contenu des alertes"
+   "afficher le contenu",
+   "confidentialité du texte"
   ]
  },
  {
   "type": "guide",
   "sec": "Utilisation quotidienne",
-  "t": "Comment le temps gagné est-il calculé ?",
-  "a": "Pour chaque notification mise en attente sans vous interrompre, 1 minute est comptabilisée par défaut. Vous pouvez modifier cette durée entre 0,5 et 5 minutes dans Paramètres → Contenu et sérénité → Temps par interruption. Pour désactiver le résumé, désactivez le bouton Résumé du temps gagné dans cette même section.",
+  "t": "Comment est calculé le temps gagné ?",
+  "a": "Pour chaque notification mise en attente sans vous interrompre, 1 minute est comptabilisée comme gagnée par défaut. Vous pouvez ajuster cette durée entre 0,5 et 5 minutes dans Paramètres → Contenu et sérénité → Temps par interruption. Pour masquer ce résumé, désactivez l'interrupteur Résumé du temps gagné dans cette même section. L'économie de batterie estimée grâce aux réveils d'écran évités est également présentée sur cette carte.",
   "q": [
    "calcul du temps gagné",
-   "comment est mesuré le temps économisé",
-   "changer les minutes par interruption",
-   "désactiver le résumé du temps gagné"
+   "comment est calculé le temps",
+   "désactiver temps gagné",
+   "économie de batterie"
   ]
  },
  {
   "type": "guide",
   "sec": "Règles",
-  "t": "Comment définir une règle pour une application ?",
-  "a": "Dans l'onglet Règles, appuyez sur l'application concernée. Quatre options s'affichent : Immédiat, Mettre en attente, À l'heure de distribution, Bloquer. Le comportement choisi s'applique à toutes les notifications de cette application.",
+  "t": "Comment créer une règle pour une application ?",
+  "a": "Dans l'onglet Règles, appuyez sur l'application concernée. Quatre options s'offrent à vous : Immédiat, Mettre en attente, À l'heure de distribution, Bloquer. Le comportement choisi sera appliqué à l'ensemble des notifications émises par cette application.",
   "q": [
-   "créer une règle par appli",
-   "comment bloquer les alertes d'une application",
-   "définir le comportement d'une appli",
-   "ajouter une règle pour une app"
+   "ajouter une règle",
+   "gérer une application",
+   "bloquer une appli",
+   "configurer les règles"
   ]
  },
  {
   "type": "guide",
   "sec": "Règles",
-  "t": "Je ne veux jamais mettre en attente une application",
-  "a": "Dans Règles, appuyez sur l'application, choisissez Immédiat, puis appuyez sur l'option qui apparaît en bas : Ne jamais mettre en attente (distribuer dans tous les modes). Ainsi, quel que soit le mode actif, les notifications de cette application arriveront instantanément.",
+  "t": "Je souhaite qu'une application ne soit jamais mise en attente",
+  "a": "Dans Règles, appuyez sur l'application, choisissez Immédiat, puis appuyez sur l'option Ne jamais mettre en attente (autoriser dans tous les modes) qui apparaît en dessous. Ainsi, quel que soit le mode actif, les notifications de cette application arriveront instantanément. Par mesure de sécurité, les notifications système et SIM d'Android (réseau, opérateur, alertes système) ainsi que les appels d'urgence et alarmes ne sont jamais mis en attente.",
   "q": [
-   "recevoir toujours les messages d'une appli",
-   "ne jamais bloquer cette application",
-   "autoriser une appli dans tous les modes",
-   "laisser passer les notifications en direct"
+   "ne jamais bloquer une appli",
+   "recevoir les notifications immédiatement",
+   "exceptions aux règles",
+   "alertes urgentes"
   ]
  },
  {
   "type": "guide",
   "sec": "Règles",
-  "t": "Je souhaite voir uniquement les messages sur des applications comme Instagram (filtre de types)",
-  "a": "Dans Règles, appuyez sur l'application puis sur Choisir le type › pour ouvrir le panneau Filtre de types. Des filtres prédéfinis sont disponibles : Uniquement les messages, Uniquement les mentions J'aime, J'aime + commentaires, Réinitialiser. Vous pouvez également choisir pour chaque type : Par défaut, Immédiat, À la distribution ou Bloquer. Le tri repose sur le type de notification déclaré par l'application ; le contenu n'est jamais lu.",
+  "t": "Je souhaite ne voir que les messages sur des applications comme Instagram (filtre de type)",
+  "a": "Dans Règles, appuyez sur l'application puis sur Choisir le type › pour ouvrir le panneau Filtre de type. Des filtres prédéfinis sont disponibles : Messages uniquement, Mentions J'aime uniquement, J'aime + commentaires, Réinitialiser. Pour chaque type, vous pouvez également définir Par défaut, Immédiat, À la distribution ou Bloquer. Le filtrage s'appuie sur le canal ou le type de notification de l'application ; le contenu n'est pas lu.",
   "q": [
-   "filtrer les dm instagram",
-   "ne garder que les messages privés",
-   "bloquer les likes et garder les messages",
-   "comment marche le filtre de types"
+   "filtrer messages instagram",
+   "ne recevoir que les messages",
+   "filtre de type",
+   "bloquer les likes"
   ]
  },
  {
   "type": "guide",
   "sec": "Règles",
   "t": "Puis-je gérer les applications par groupe ?",
-  "a": "Oui. Sur l'écran Règles, appuyez sur Nouveau groupe pour réunir plusieurs applications au sein d'un même groupe et les gérer avec une seule règle. Un groupe peut contenir jusqu'à 100 applications.",
+  "a": "Oui. Sur l'écran Règles, appuyez sur Nouveau groupe pour réunir plusieurs applications au sein d'un même groupe et leur appliquer une règle unique. Un groupe peut contenir jusqu'à 100 applications.",
   "q": [
-   "regrouper plusieurs applications",
    "créer un groupe d'applis",
-   "gérer les notifications par groupe",
-   "appliquer une règle à plusieurs apps"
+   "gérer plusieurs applis à la fois",
+   "groupe de règles",
+   "appliquer une règle à plusieurs applications"
   ]
  },
  {
   "type": "guide",
   "sec": "Règles",
-  "t": "Où retrouver les applications que j'ai bloquées définitivement ?",
-  "a": "Dans Paramètres → Outils → Bloqués. Vous y trouverez les applications bloquées ainsi que l'historique des notifications reçues de leur part (application, heure) ; vous pouvez annuler le blocage avec Débloquer.",
+  "t": "Où retrouver les applications bloquées définitivement ?",
+  "a": "Rendez-vous dans Paramètres → Outils → Éléments bloqués. Vous y trouverez la liste des applications bloquées ainsi que l'historique des notifications reçues (application et heure). Vous pouvez lever le blocage en appuyant sur Débloquer.",
   "q": [
-   "voir les applications bloquées",
-   "où sont les applis masquées",
+   "voir les applis bloquées",
+   "où trouver les bloqués",
    "débloquer une application",
-   "liste des apps bannies"
+   "liste de blocage"
   ]
  },
  {
   "type": "guide",
-  "sec": "Modes et Planning",
-  "t": "Quels sont les modes disponibles ?",
-  "a": "Quatre modes prêts à l'emploi sont proposés : Normal, Concentration, Sommeil, Sport. La durée de mise en attente et le comportement de chaque mode se règlent individuellement. Vous pouvez les modifier depuis la section Vos modes de l'onglet Planning en appuyant sur Configurer › sur la carte du mode ; vous pouvez aussi ajouter votre propre mode avec + Mode personnalisé.",
+  "sec": "Modes et planning",
+  "t": "Quels sont les différents modes ?",
+  "a": "Quatre modes prêts à l'emploi sont proposés : Normal, Concentration, Sommeil et Sport. La durée de mise en attente et le comportement de chaque mode se règlent individuellement. Lorsqu'un mode prend fin, toutes les notifications retenues pendant celui-ci sont distribuées ensemble, et non de façon dispersée. Dans l'onglet Planning, section Vos modes, vous pouvez modifier un mode via Configurer › sur sa carte, ou ajouter le vôtre avec + Mode personnalisé.",
   "q": [
-   "quels sont les différents modes",
-   "personnaliser les modes de ha!shh",
-   "créer un nouveau mode",
-   "différence entre les modes"
+   "quels sont les modes",
+   "mode concentration et sommeil",
+   "créer un mode personnalisé",
+   "comment fonctionnent les modes"
   ]
  },
  {
   "type": "guide",
-  "sec": "Modes et Planning",
+  "sec": "Modes et planning",
   "t": "Combien de temps dure un mode sélectionné manuellement ?",
-  "a": "Si vous sélectionnez vous-même l'un des modes rapides, il reste actif jusqu'à ce que vous le désactiviez ; le planning ne le modifiera pas. Lorsque vous souhaitez reprendre le planning prévu, appuyez sur le bouton Revenir au planning.",
+  "a": "Lorsque vous sélectionnez vous-même l'un des modes rapides, il reste actif jusqu'à ce que vous le désactiviez ; les transitions du planning automatique ne remplacent pas ce choix manuel. Lorsque vous souhaitez revenir au planning programmé, appuyez simplement sur le bouton Revenir au planning.",
   "q": [
-   "durée d'un mode manuel",
-   "pourquoi le mode ne change pas tout seul",
-   "désactiver le mode manuel",
-   "repasser en mode automatique"
+   "durée du mode manuel",
+   "quitter le mode manuel",
+   "revenir au planning",
+   "mode activé manuellement"
   ]
  },
  {
   "type": "guide",
-  "sec": "Modes et Planning",
+  "sec": "Modes et planning",
   "t": "Comment configurer le planning hebdomadaire ?",
-  "a": "Dans l'onglet Planning, les jours de la semaine et les blocs horaires s'affichent. Appuyez sur un jour et faites glisser les extrémités d'un bloc pour ajuster les heures. Utilisez les boutons + Mode, + Spécifique à ce jour et + Heure de distribution pour ajouter un nouveau bloc ou une heure de distribution.",
+  "a": "L'onglet Planning affiche les jours de la semaine ainsi que des blocs horaires. Appuyez sur un jour et faites glisser les extrémités d'un bloc pour en ajuster les heures. Vous pouvez ajouter de nouveaux blocs ou créneaux de distribution à l'aide des boutons + Mode, + Spécifique à ce jour et + Heure de distribution.",
   "q": [
-   "régler l'emploi du temps de la semaine",
-   "créer un planning hebdomadaire",
-   "ajuster les plages horaires",
-   "programmer mes heures de distribution"
+   "programme de la semaine",
+   "définir un planning",
+   "changer les heures de distribution",
+   "créer un planning hebdomadaire"
   ]
  },
  {
   "type": "guide",
-  "sec": "Modes et Planning",
+  "sec": "Modes et planning",
   "t": "Ajouter une plage de mode depuis le cadran",
-  "a": "Appuyez sur le bouton + à côté du cadran dans le Flux. Sélectionnez une plage sur le cadran (par ex. 18:00–24:00 Concentration, 00:00–06:00 Sommeil) ; les heures avancent par paliers de 15 minutes. Un avertissement s'affiche en cas de chevauchement. Vous pourrez ensuite modifier ou supprimer les plages ajoutées.",
+  "a": "Appuyez sur le bouton + à côté du cadran sur l'écran Aujourd'hui. Choisissez une plage horaire sur le cadran (par exemple 18:00–24:00 Concentration, 00:00–06:00 Sommeil) ; les horaires avancent par pas de 15 minutes. Un avertissement s'affiche en cas de chevauchement avec une autre plage. Vous pourrez ensuite modifier ou supprimer les plages ajoutées.",
   "q": [
-   "ajouter un créneau sur le cadran",
-   "programmer un mode depuis l'accueil",
-   "définir une période de concentration sur l'horloge",
-   "mettre une plage horaire sur le cadran"
+   "ajouter un mode sur le cadran",
+   "définir une heure sur le cadran",
+   "créer une plage horaire",
+   "raccourci cadran"
   ]
  },
  {
   "type": "guide",
-  "sec": "Modes et Planning",
+  "sec": "Modes et planning",
   "t": "Comment modifier les heures de distribution ?",
-  "a": "Dans Planning, ouvrez le panneau Configurer › depuis la carte du mode, puis appuyez sur le lien Modifier les heures de distribution et le rythme de la journée ›. Les notifications en attente vous seront restituées dans leur état d'origine à la prochaine heure de distribution prévue.",
+  "a": "Dans l'onglet Planning, sur la carte du mode, appuyez sur le panneau Configurer › puis sur le lien Modifier les heures de distribution et le rythme de la journée ›. Les notifications en attente vous seront alors restituées dans leur état d'origine lors du prochain créneau de distribution groupée adapté.",
   "q": [
-   "changer l'heure de livraison des messages",
-   "modifier l'horaire de distribution",
-   "quand vais-je recevoir mes notifications",
-   "ajuster les heures de délivrance"
+   "changer l'heure de livraison",
+   "modifier les heures de distribution",
+   "quand arrivent les notifications",
+   "heures de remise"
   ]
  },
  {
   "type": "guide",
-  "sec": "Modes et Planning",
-  "t": "Je travaille en horaires décalés ou postés",
-  "a": "Dans les outils de Planning, vous disposez de l'option Horaires postés. Indiquez votre cycle et vos horaires de travail une seule fois ; ha!shh calcule automatiquement dans quel poste vous vous trouvez chaque jour. Lorsqu'elle est activée, la mention « Horaires postés · aujourd'hui … » s'affiche dans le Planning.",
+  "sec": "Modes et planning",
+  "t": "Je travaille en horaires décalés (postés)",
+  "a": "La section Outils du planning intègre la fonction Travail posté. Vous entrez une fois votre cycle et vos horaires d'équipe ; ha!shh calcule automatiquement dans quelle équipe vous êtes chaque jour. Lorsque la fonction est active, la mention « Travail posté · aujourd'hui … » s'affiche dans l'onglet Planning.",
   "q": [
-   "travail en 3x8 avec l'appli",
-   "comment gérer le travail de nuit et posté",
-   "régler les horaires variables",
-   "configurer un roulement de travail"
+   "horaires décalés",
+   "travail posté",
+   "gestion des équipes",
+   "planning 3x8"
   ]
  },
  {
   "type": "guide",
-  "sec": "Modes et Planning",
+  "sec": "Modes et planning",
   "t": "Comment consulter les jours passés et futurs ?",
-  "a": "La Vue mensuelle accessible dans les outils de Planning vous permet de naviguer d'un mois à l'autre. Vous pouvez y consulter les statistiques d'une journée passée ou programmer un planning dédié pour un jour futur.",
+  "a": "Grâce à la Vue mensuelle disponible dans les outils de l'onglet Planning, vous pouvez naviguer d'un mois à l'autre. Vous pouvez ainsi consulter les chiffres d'un jour passé ou définir un programme personnalisé pour une date ultérieure.",
   "q": [
-   "voir le planning du mois",
-   "consulter les jours passés",
-   "programmer un jour particulier à l'avance",
-   "historique du calendrier des modes"
+   "voir les jours précédents",
+   "planning futur",
+   "vue calendrier",
+   "historique du planning"
   ]
  },
  {
   "type": "guide",
-  "sec": "Modes et Planning",
+  "sec": "Modes et planning",
   "t": "Mode Sport et bouclier anti-spoiler",
-  "a": "Dans Planning, appuyez sur Configurer › sur la carte Sport pour ouvrir les Paramètres du mode Sport. Les notifications de vos applications sportives sélectionnées sont retenues jusqu'à la fin du match ; les autres applications arrivent normalement. Si l'option Activer le mode anti-spoiler est cochée, les applications de protection sélectionnées sont également mises en attente pendant la rencontre. Vous pouvez aussi ajouter des mots-clés (ex. but, score) ; cette recherche s'effectue uniquement si vous avez autorisé l'affichage du contenu et le traitement s'opère exclusivement sur votre téléphone.",
+  "a": "Dans Planning, appuyez sur Configurer › sur la carte Sport pour ouvrir les Paramètres sport. Les notifications des applications sportives choisies sont retenues jusqu'à la fin du match ; les autres applications arrivent normalement. Si l'option Activer le mode anti-spoiler est cochée, les applications boucliers sélectionnées sont également mises en attente jusqu'à la fin de la rencontre. Vous pouvez aussi ajouter des mots-clés (par exemple but, score) ; cette détection s'effectue uniquement sur votre téléphone et seulement si l'accès au contenu est activé.",
   "q": [
-   "ne pas voir les scores de foot",
-   "comment fonctionne l'anti spoiler",
-   "bloquer les alertes de match",
-   "masquer les résultats sportifs"
+   "éviter les spoilers de foot",
+   "mode sport anti spoiler",
+   "bloquer les scores de match",
+   "cacher résultats sportifs"
   ]
  },
  {
   "type": "guide",
   "sec": "Archives",
-  "t": "Qu'est-ce que l'Archive et où se trouve-t-elle ?",
-  "a": "Elle conserve dans des dossiers les notifications que vous souhaitez garder, comme des coupons, des factures ou des dépenses. Elle s'ouvre depuis le bouton 📦 Archives situé en haut de l'onglet Historique ou depuis la carte d'archives dans le Flux. Vos archives restent exclusivement sur votre téléphone, sous forme chiffrée.",
+  "t": "Qu'est-ce que l'Archive et où la trouver ?",
+  "a": "Elle conserve dans des dossiers bien organisés les notifications que vous souhaitez garder, telles que vos coupons, factures et dépenses. Vous pouvez y accéder via le bouton 📦 Archives situé au-dessus de l'onglet Historique ou depuis la carte d'archives sur l'écran Aujourd'hui. Les données archivées sont stockées uniquement sur ce téléphone et sous forme chiffrée.",
   "q": [
-   "où sont stockées mes archives",
-   "retrouver un message archivé",
+   "où sont les archives",
    "à quoi sert l'archive",
-   "comment ouvrir les archives"
+   "retrouver mes factures et coupons",
+   "ouvrir les archives"
   ]
  },
  {
   "type": "guide",
   "sec": "Archives",
   "t": "Comment ajouter une notification aux archives ?",
-  "a": "Pendant la lecture des éléments en attente ou dans l'Historique, appuyez sur le lien Archiver › à côté d'une notification et choisissez un dossier. Vous pouvez créer votre propre dossier via ➕ Créer un nouveau dossier....",
+  "a": "En consultant les notifications en attente ou depuis l'Historique, appuyez sur le lien Archiver › à côté d'une notification et sélectionnez un dossier. Vous pouvez créer votre propre dossier via ➕ Créer un nouveau dossier... Tous les éléments archivés ou modifiés manuellement sont conservés indéfiniment et ne sont jamais supprimés automatiquement.",
   "q": [
-   "enregistrer une notification dans les archives",
-   "comment archiver un message",
-   "classer une notification dans un dossier",
-   "mettre de côté une notification"
+   "archiver une notification",
+   "enregistrer dans les archives",
+   "créer un dossier d'archive",
+   "sauvegarder un message"
   ]
  },
  {
   "type": "guide",
   "sec": "Archives",
-  "t": "Ajout automatique aux archives (règles et groupes d'archivage)",
-  "a": "Dans les archives, l'icône ⚙ Règles ouvre les Règles d'archivage automatique. Avec + Ajouter une règle, vous créez une règle selon l'application, l'expéditeur ou un mot-clé ; les notifications considérées comme lues sont automatiquement dirigées vers le dossier correspondant. Le bouton ✨ Suggestions automatiques vous suggère des règles adaptées.",
+  "t": "Ajout automatique à l'archive (règles et groupes d'archivage)",
+  "a": "L'archivage automatique est activé par défaut. Il enregistre de lui-même uniquement les notifications importantes dans les dossiers correspondants : paiements bancaires, coupons, dépenses effectuées et factures/échéances de paiement. Les prix mentionnés dans les publicités ne sont pas archivés. Les éléments ajoutés et modifiés manuellement restent toujours conservés. Les montants sont affichés dans la devise locale de votre téléphone. Pour désactiver l'archivage automatique ou choisir les types concernés, rendez-vous dans Paramètres → Confidentialité et données → Archivage automatique. Sur l'écran de l'archive, appuyez sur ⚙ Règles pour ajouter vos propres règles par application, contact ou mot-clé.",
   "q": [
-   "archiver automatiquement mes reçus",
-   "créer une règle d'archivage",
-   "automatiser le tri des archives",
-   "classer automatiquement les notifications"
+   "archivage automatique",
+   "classer automatiquement les factures",
+   "règles d'archivage",
+   "configurer l'archive automatique"
   ]
  },
  {
   "type": "guide",
   "sec": "Archives",
   "t": "Portefeuille de coupons",
-  "a": "Dans les archives, lorsque vous ouvrez le dossier Coupons, le Portefeuille de coupons et offres s'affiche tout en haut. Vos codes promo en cours y sont regroupés et un rappel vous prévient à l'approche de la date d'expiration.",
+  "a": "En ouvrant le dossier Coupons dans l'archive, le Portefeuille de coupons et bons plans apparaît tout en haut. Les réductions actives et les coupons promotionnels y sont regroupés ; un rappel vous prévient à l'approche de leur date d'expiration.",
   "q": [
-   "où sont mes codes promo archivés",
-   "retrouver un coupon de réduction",
-   "comment marche le portefeuille de bons d'achat",
-   "gérer mes coupons enregistrés"
+   "où sont mes codes promo",
+   "portefeuille coupons",
+   "retrouver un bon de réduction",
+   "alertes expiration coupon"
   ]
  },
  {
   "type": "guide",
   "sec": "Archives",
-  "t": "Filtrer par application et rechercher dans les archives",
-  "a": "Dans les archives, l'option 📱 Par application vous permet de sélectionner une application pour afficher uniquement ses enregistrements (par ex. uniquement votre application de messagerie). La barre de recherche permet quant à elle de chercher par nom d'application.",
+  "t": "Filtrer par application et rechercher dans l'archive",
+  "a": "Dans l'archive, appuyez sur le bouton 📱 Par application pour choisir une application précise et consulter uniquement ses enregistrements. La barre de recherche vous permet de rechercher par nom d'application ou par contenu.",
   "q": [
-   "chercher dans mes archives",
-   "retrouver les notifications d'une appli précise",
-   "filtrer les archives par application",
-   "recherche de messages archivés"
+   "rechercher dans l'archive",
+   "trier par application dans les archives",
+   "retrouver une ancienne notification",
+   "recherche archive"
   ]
  },
  {
   "type": "guide",
   "sec": "Archives",
-  "t": "Exporter les archives et les sauvegarder sur Drive",
-  "a": "Dans les archives, appuyez sur Exporter les archives pour choisir parmi trois formats : 🔒 Archive chiffrée (.hashh) au format protégé par mot de passe (recommandé), JSON non chiffré (.json) et CSV non chiffré (.csv · Excel / Feuilles de calcul). Vous pouvez enregistrer le fichier généré où vous le souhaitez (comme Google Drive) via le menu de partage d'Android. ha!shh ne transmet elle-même aucun fichier sur Internet.",
+  "t": "Exporter l'archive et la sauvegarder sur Google Drive",
+  "a": "Dans l'archive, appuyez sur Exporter les archives pour afficher trois options : 🔒 Archive chiffrée (.hashh) (protégée par mot de passe et format sécurisé recommandé), JSON non chiffré (.json) et CSV non chiffré (.csv · Excel / Tableur). Vous pouvez enregistrer le fichier obtenu où vous le souhaitez (Google Drive, stockage local...) via le menu de partage d'Android. ha!shh ne disposant pas de l'autorisation d'accès à Internet, l'application ne téléverse elle-même aucun fichier sur un serveur.",
   "q": [
-   "sauvegarder mes archives sur google drive",
-   "exporter mes notifications archivées",
-   "télécharger les archives en csv ou json",
-   "partager mon fichier d'archives"
+   "sauvegarder sur google drive",
+   "exporter les archives",
+   "sauvegarde hashh",
+   "télécharger mes archives"
   ]
  },
  {
   "type": "guide",
   "sec": "Confidentialité et sécurité",
   "t": "Verrouillage par empreinte digitale",
-  "a": "Rendez-vous dans Paramètres → Verrouillage par empreinte digitale. Trois options sont proposées : Désactivé, Uniquement les archives et le contenu des notifications, Toute l'application (à chaque ouverture). Le déverrouillage fonctionne avec l'empreinte digitale, la reconnaissance faciale ou le code de votre téléphone.",
+  "a": "Rendez-vous dans Paramètres → Confidentialité et données → Verrouillage par empreinte. Trois options s'offrent à vous : Désactivé, Archives et contenu des notifications uniquement, Toute l'application (à chaque ouverture). Le déverrouillage peut s'effectuer par empreinte digitale, reconnaissance faciale ou code PIN/mot de passe du téléphone.",
   "q": [
-   "verrouiller ha!shh par empreinte",
-   "mettre un mot de passe sur l'application",
-   "protéger le contenu avec biométrie",
-   "sécuriser l'accès aux notifications"
+   "verrouiller l'application",
+   "mettre une empreinte",
+   "code pin pour hashh",
+   "protéger mes notifications"
   ]
  },
  {
   "type": "guide",
   "sec": "Confidentialité et sécurité",
-  "t": "Conserver le contenu dans l'historique",
-  "a": "Via Paramètres → Contenu et sérénité → Conserver le contenu dans l'historique, vous pouvez stocker le contenu des notifications de manière chiffrée pendant 1 ou 7 jours. Les données sont supprimées une fois le délai expiré ou si vous retirez l'autorisation. Ce réglage fonctionne uniquement si Afficher le contenu des notifications est activé.",
+  "t": "Durée de conservation de l'historique des notifications",
+  "a": "Lors de la configuration, ha!shh vous demande pendant combien de temps conserver l'historique : suppression après 7, 30, 90 ou 365 jours, ou Pas de suppression automatique, je nettoie moi-même. Le choix recommandé est de 30 jours. Vous pouvez modifier ce réglage ultérieurement dans Paramètres → Contenu et sérénité → Durée de conservation de l'historique. Si vous n'avez sélectionné aucun délai, aucun élément n'est supprimé automatiquement. Si l'historique commence à prendre trop de place, une carte « Nettoyer les anciens enregistrements ? » s'affiche sur l'écran Aujourd'hui. Vous pouvez alors supprimer les éléments de plus de 30 jours ; le nombre d'éléments concernés vous est présenté avant de demander votre confirmation. Si vous choisissez « Pas maintenant », la question ne sera pas reposée pendant 14 jours. Les éléments enregistrés dans l'archive ne sont absolument pas affectés par ce nettoyage. L'affichage du contenu des notifications (titre et texte) dans l'historique fonctionne lorsque l'option Afficher le contenu des notifications est active ; ce contenu est conservé de façon chiffrée uniquement sur ce téléphone.",
   "q": [
-   "garder le texte des notifications dans l'historique",
-   "durée de conservation des messages",
-   "pourquoi mes anciens messages sont effacés",
-   "sauvegarder l'historique des notifications"
+   "combien de temps garder l'historique",
+   "supprimer l'historique automatiquement",
+   "durée de conservation",
+   "effacer les vieilles notifications"
   ]
  },
  {
   "type": "guide",
-  "sec": "Barre de notifications et raccourcis",
-  "t": "Qu'est-ce que le résumé silencieux ?",
-  "a": "C'est une ligne discrète et silencieuse dans la barre de notifications : elle indique qui vous a envoyé des notifications, combien sont en attente et à quelle heure aura lieu la prochaine distribution. Choisissez dans Paramètres → Résumé silencieux parmi Désactivé, Applications sélectionnées… ou Toutes les notifications en attente. Si l'affichage des icônes est activé, agrandir la notification affiche les logos des applications concernées.",
+  "sec": "Confidentialité et sécurité",
+  "t": "Blocage des captures d'écran",
+  "a": "L'option Paramètres → Confidentialité et données → Bloquer les captures d'écran sur les écrans sensibles est un paramètre de sécurité optionnel, désactivé par défaut. Lorsqu'elle est activée, elle empêche les captures d'écran sur le coffre-fort, l'écran de verrouillage et les panneaux affichant le texte des notifications, et masque le contenu dans l'aperçu des applications récentes.",
   "q": [
-   "c'est quoi la notification silencieuse",
-   "résumé des alertes dans la barre d'état",
-   "afficher un compteur discret de notifications",
-   "personnaliser le résumé silencieux"
+   "empêcher capture d'écran",
+   "bloquer screenshot",
+   "écran noir capture",
+   "sécuriser l'écran"
   ]
  },
  {
   "type": "guide",
-  "sec": "Barre de notifications et raccourcis",
-  "t": "Notifications en direct comme les livraisons",
-  "a": "Si vous effacez par inadvertance des alertes évolutives comme le suivi d'une commande en cours de livraison, vous les retrouverez dans l'Historique avec le badge « notification en direct ». Appuyer sur la ligne ouvre directement l'application concernée.",
+  "sec": "Barre de notifications, outils et widgets",
+  "t": "Widgets pour l'écran d'accueil",
+  "a": "Vous pouvez ajouter ha!shh en tant que widget sur votre écran d'accueil. Quatre tailles sont disponibles (2x2, 4x1, 4x2, 4x3). Le widget affiche la prochaine heure de distribution, le mode actif, le nombre de notifications en attente et les applications en comptant le plus. Les grands formats (4x2 et 4x3) intègrent la liste des notifications en attente et un bouton d'un geste « Tout marquer comme lu ». Le widget s'adapte à votre thème et affiche l'heure actuelle lorsque vous touchez l'horloge.",
   "q": [
-   "retrouver une commande uber ou livraison fermée",
-   "alerte de commande disparue",
-   "notifications en temps réel effacées",
-   "suivre une livraison dans ha!shh"
+   "ajouter un widget",
+   "widget écran d'accueil",
+   "tailles de widget",
+   "raccourci sur le bureau"
   ]
  },
  {
   "type": "guide",
-  "sec": "Barre de notifications et raccourcis",
-  "t": "Vignette des réglages rapides",
-  "a": "Grâce à Paramètres → Outils → Vignette des réglages rapides, vous pouvez ajouter une tuile ha!shh dans le volet des notifications. Elle affiche le nombre d'éléments en attente et l'activité ; vous choisissez au même endroit l'action au toucher (ouvrir les éléments en attente, changer de mode, distribuer immédiatement).",
+  "sec": "Barre de notifications, outils et widgets",
+  "t": "Qu'est-ce que la notification discrète ?",
+  "a": "C'est une ligne de résumé unique qui reste dans la barre d'état sans son ni vibration : elle indique qui vous a envoyé des notifications, combien sont en attente et la prochaine heure de distribution. Dans Paramètres → Contenu et sérénité → Notification discrète, vous pouvez choisir entre Désactivé, Mes applications sélectionnées… ou Toutes les notifications en attente. Si les icônes d'applications sont activées, le déploiement de la ligne de résumé laisse apparaître les icônes des applications concernées.",
   "q": [
-   "ajouter ha!shh aux paramètres rapides",
-   "raccourci volet déroulant",
-   "bouton d'accès rapide dans les notifications",
-   "tuile raccourci ha!shh"
+   "notification discrète",
+   "résumé dans la barre de notifications",
+   "alerte silencieuse",
+   "icône barre d'état"
   ]
  },
  {
   "type": "guide",
-  "sec": "Barre de notifications et raccourcis",
-  "t": "Activer un mode selon le Wi-Fi",
-  "a": "L'option Paramètres → Outils → Mode selon le Wi-Fi vous guide pas à pas pour changer automatiquement de mode dès que vous vous connectez à un réseau Wi-Fi précis, via l'application de routines de votre téléphone (comme Samsung Modes et routines).",
+  "sec": "Barre de notifications, outils et widgets",
+  "t": "Notifications en direct (commandes, livraisons...)",
+  "a": "Si vous effacez par mégarde une notification dont le statut évolue (comme un colis, une commande ou un lecteur audio), vous la retrouverez dans l'Historique avec le badge « ⚡ En direct ». Appuyer sur cette ligne ouvre immédiatement l'application correspondante.",
   "q": [
-   "changer de mode quand je suis au travail",
-   "activer un mode avec le wifi de la maison",
-   "automatiser un mode selon le réseau wifi",
-   "routine wifi et ha!shh"
+   "suivi de livraison",
+   "notification commande disparue",
+   "notifications en direct",
+   "statut de commande"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Barre de notifications, outils et widgets",
+  "t": "Vignette de paramètres rapides",
+  "a": "Dans Paramètres → Outils → Vignette de paramètres rapides, vous pouvez ajouter une vignette ha!shh au panneau de notifications supérieur de votre téléphone. Cette vignette indique le nombre de notifications en attente ainsi que l'heure de distribution ; vous pouvez choisir l'action associée au toucher depuis ce même menu.",
+  "q": [
+   "bouton paramètres rapides",
+   "ajouter raccourci volet notifications",
+   "tuile android",
+   "vignette ha!shh"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Barre de notifications, outils et widgets",
+  "t": "Mode selon le Wi-Fi",
+  "a": "L'option Paramètres → Outils → Mode selon le Wi-Fi vous guide pas à pas pour changer automatiquement de mode dès que vous vous connectez au Wi-Fi de votre domicile ou de votre travail via l'application de routines de votre téléphone (comme Modes et routines de Samsung). Aucune autorisation de localisation n'est requise.",
+  "q": [
+   "changer de mode avec le wifi",
+   "automatisation wifi",
+   "routines samsung",
+   "mode bureau automatique"
   ]
  },
  {
   "type": "guide",
   "sec": "Apparence",
   "t": "Changer de thème",
-  "a": "Dans Paramètres → Apparence, vous trouverez les thèmes Papier, Clair, Sombre, Système, ainsi que Nuit (Velours pétrole) et Jour (Papier crème). Lors du changement de thème, l'application vous demande si vous souhaitez également adapter l'icône de l'écran d'accueil.",
+  "a": "Sous Paramètres → Apparence, vous trouverez les thèmes Papier, Clair, Sombre, Système, ainsi que Nuit (Velours pétrole) et Jour (Papier crème). Vous pouvez également basculer facilement d'un thème à l'autre grâce au bouton Soleil/Lune sur l'écran Aujourd'hui. Vous pouvez aussi choisir d'adapter la couleur de l'icône de l'écran d'accueil lors d'un changement de thème.",
   "q": [
-   "passer en mode sombre",
-   "changer le style de l'application",
-   "thème papier ou crème",
-   "modifier les couleurs de ha!shh"
+   "mode sombre",
+   "changer le thème",
+   "thème clair",
+   "couleurs de l'application"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Apparence",
+  "t": "Langue de l'application",
+  "a": "Dans Paramètres → Apparence → Langue de l'application, vous pouvez choisir directement parmi 10 langues (ou la langue du système) sans avoir à ouvrir les paramètres système de votre téléphone.",
+  "q": [
+   "changer la langue",
+   "mettre en français",
+   "langue de ha!shh",
+   "modifier la langue de l'application"
   ]
  },
  {
   "type": "guide",
   "sec": "Apparence",
   "t": "Icône de l'application",
-  "a": "Dans Paramètres → Icône de l'application, vous pouvez choisir la couleur de l'icône affichée sur votre écran d'accueil. Sur certains téléphones (comme Samsung), changer d'icône peut la retirer de l'écran d'accueil pour la replacer dans la liste des applications ; il vous suffira de la reglisser sur votre écran d'accueil.",
+  "a": "Dans Paramètres → Apparence → Icône de l'application, vous pouvez harmoniser la couleur de l'icône de l'écran d'accueil avec votre thème. Sur certains téléphones, le changement d'icône peut la retirer de l'écran d'accueil pour la replacer dans le tiroir d'applications ; il vous suffit alors de la faire glisser à nouveau sur votre écran d'accueil.",
   "q": [
-   "changer la couleur du logo de l'app",
-   "personnaliser l'icône ha!shh",
-   "l'icône a disparu de mon écran d'accueil",
-   "modifier l'icône de l'application"
+   "changer icône ha!shh",
+   "couleur icône application",
+   "icône disparue après changement",
+   "personnaliser l'icône"
   ]
  },
  {
   "type": "guide",
   "sec": "Apparence",
   "t": "Affichage épuré",
-  "a": "Lorsque Paramètres → Contenu et sérénité → Affichage épuré est activé, seuls le cadran, un bouton unique et les notifications en attente restent visibles sur le Flux ; les onglets Règles et Planning sont masqués. Vos règles continuent de s'appliquer normalement.",
+  "a": "Lorsque l'option Paramètres → Contenu et sérénité → Affichage épuré est activée, l'écran Aujourd'hui ne conserve que le cadran, un unique bouton de mode et la liste des notifications en attente ; les onglets Règles et Planning sont masqués. Les règles que vous avez établies continuent de s'appliquer normalement en arrière-plan.",
   "q": [
+   "mode minimaliste",
    "simplifier l'interface",
-   "masquer les onglets règles et planning",
-   "mode minimaliste dans l'appli",
-   "comment activer l'affichage épuré"
+   "affichage épuré",
+   "masquer les onglets"
   ]
  },
  {
   "type": "guide",
   "sec": "Apparence",
   "t": "Interface épurée en cas de batterie faible",
-  "a": "Si l'option Paramètres → Interface épurée si batterie faible est activée, ha!shh passe automatiquement en affichage simplifié dès que votre téléphone entre en mode économie d'énergie.",
+  "a": "Si l'option Paramètres → Apparence → Interface épurée en cas de batterie faible est activée, ha!shh bascule automatiquement sur un affichage simplifié et interrompt les animations dès que votre téléphone passe en mode économie d'énergie, afin de préserver votre batterie.",
   "q": [
-   "mode économie d'énergie dans l'app",
-   "interface simplifiée batterie faible",
-   "réduire la consommation sur batterie faible",
-   "passage automatique en vue épurée"
+   "économie d'énergie ha!shh",
+   "interface batterie faible",
+   "désactiver animations batterie",
+   "réduire consommation batterie"
   ]
  },
  {
   "type": "guide",
-  "sec": "Parrainage",
+  "sec": "Apparence",
+  "t": "Mode horloge de table en paysage",
+  "a": "Lorsque l'option Paramètres → Apparence → Mode horloge de table en paysage est cochée, basculer votre téléphone à l'horizontale transforme l'écran en réveil de table affichant une grande horloge, le mode actif, la frise de la semaine, la prochaine distribution et les notifications en attente. Vous pouvez choisir les éléments à afficher et définir votre propre photo en cadre ou en arrière-plan. L'écran peut rester allumé en permanence lorsque le téléphone est en charge ; de plus, une disposition basse consommation permet d'économiser la batterie.",
+  "q": [
+   "mode table de nuit",
+   "horloge paysage",
+   "poser le téléphone horizontalement",
+   "écran chevet"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Outils et rapports",
+  "t": "Rapport de notifications et statistiques",
+  "a": "Dans Paramètres → Outils → Rapport de notifications, vous pouvez visualiser sur un seul écran votre rythme de réception, la répartition quotidienne et mensuelle de vos alertes, l'équilibre entre concentration et sommeil, ainsi que le temps gagné et l'estimation de la batterie préservée grâce aux interruptions évitées. Il n'existe pas de ligne « Statistiques » distincte : toutes les métriques d'utilisation sont regroupées dans le Rapport de notifications. Vous pouvez également partager le rapport sous forme d'image.",
+  "q": [
+   "voir les statistiques",
+   "rapport de notifications",
+   "temps économisé stats",
+   "partager mon rapport"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Invitations",
   "t": "Comment inviter un ami ?",
-  "a": "Rendez-vous dans Paramètres → Inviter et gagner des récompenses. Vous trouverez votre code sous Votre code d'invitation ; appuyez sur Inviter pour le partager via l'application de votre choix, ou sélectionnez Copier le code.",
+  "a": "Rendez-vous dans Paramètres → Inviter et gagner des récompenses. Vous trouverez votre code sous Votre code d'invitation ; vous pouvez le partager via l'application de messagerie de votre choix avec Inviter ou simplement appuyer sur Copier le code.",
   "q": [
-   "comment parrainer un proche",
-   "partager mon code d'invitation",
-   "où trouver mon code de parrainage",
-   "inviter un ami sur ha!shh"
+   "parrainer un ami",
+   "partager mon code",
+   "comment inviter",
+   "code d'invitation"
   ]
  },
  {
   "type": "guide",
-  "sec": "Parrainage",
-  "t": "Comment mon compteur d'invitations augmente-t-il ?",
-  "a": "Votre ami installe l'application et saisit votre code dans le champ J'ai un code d'invitation. Son téléphone génère alors un code de remerciement qu'il vous envoie (Envoyer le code de remerciement). De votre côté, vous saisissez ce code dans le champ Saisir le code de remerciement et appuyez sur Ajouter. Une même personne ne peut pas être comptabilisée deux fois.",
+  "sec": "Invitations",
+  "t": "Comment augmente mon compteur d'invitations ?",
+  "a": "Votre ami installe l'application et saisit votre code dans le champ J'ai un code d'invitation. Il vous transmet ensuite le code de remerciement généré sur son téléphone (Envoyer le code de remerciement). De votre côté, vous saisissez ce code dans le champ Saisir le code de remerciement et appuyez sur Ajouter. Une même personne ne peut pas être comptabilisée deux fois.",
   "q": [
-   "valider un code de remerciement",
+   "valider une invitation",
+   "code de remerciement",
    "comment marche le parrainage",
-   "pourquoi mon invitation n'est pas comptée",
-   "enregistrer un ami parrainé"
+   "compteur d'invitation"
   ]
  },
  {
   "type": "guide",
-  "sec": "Parrainage",
+  "sec": "Invitations",
   "t": "Quelles sont les récompenses ?",
-  "a": "À 1 invitation : badge Première invitation ; à 3 : Fond d'écran Papier ; à 5 : badge Cercle silencieux ; à 7 : Fond d'écran Nuit ; à 10 : badge Ambassadeur ha!shh. Votre ami invité reçoit également le badge « Invité(e) avec succès ». Les fonds d'écran se débloquent comme arrière-plan du Flux sous Paramètres → Apparence → Fond d'écran du Flux ; vous pouvez aussi les exporter au format PNG grâce à Enregistrer le fond d'écran comme image.",
+  "a": "Vous gagnez le badge Première invitation dès 1 invitation, le Fond d'écran Papier à 3, le badge Cercle de silence à 5, le Fond d'écran Nuit à 7 et le badge Ambassadeur ha!shh à 10. Votre ami parrainé reçoit également le badge « Venu sur invitation ». Les fonds d'écran s'activent pour l'arrière-plan de l'écran Aujourd'hui dans Paramètres → Apparence → Fond d'écran dynamique ; vous pouvez aussi les enregistrer au format PNG via Enregistrer le fond d'écran comme image.",
   "q": [
    "cadeaux de parrainage",
-   "qu'est-ce qu'on gagne en invitant des amis",
-   "débloquer les fonds d'écran exclusifs",
-   "liste des badges et récompenses"
+   "récompenses invitation",
+   "débloquer des fonds d'écran",
+   "badges parrainage"
   ]
  },
  {
   "type": "guide",
   "sec": "Sauvegarde",
   "t": "Comment sauvegarder mes règles ?",
-  "a": "Rendez-vous dans Paramètres → Sauvegarde → Exporter vers un fichier. Vos règles, vos modes et votre planning sont enregistrés dans un fichier. Aucune sauvegarde dans le cloud n'est effectuée et le contenu de vos notifications n'est pas inclus.",
+  "a": "Rendez-vous dans Paramètres → Sauvegarde → Exporter vers un fichier. Vos règles, vos modes et votre planning hebdomadaire sont enregistrés dans un fichier sur votre téléphone. Aucune sauvegarde en ligne n'est effectuée et le contenu de vos notifications n'est jamais inclus dans ce fichier.",
   "q": [
-   "faire une copie de mes réglages",
-   "comment exporter mes règles",
-   "sauvegarder la configuration ha!shh",
-   "créer un fichier de sauvegarde"
+   "sauvegarder mes paramètres",
+   "exporter les règles",
+   "sauvegarde de configuration",
+   "faire une copie de sauvegarde"
   ]
  },
  {
   "type": "guide",
   "sec": "Sauvegarde",
-  "t": "Comment restaurer mes données depuis une sauvegarde ?",
-  "a": "Sélectionnez votre fichier de sauvegarde dans Paramètres → Sauvegarde → Importer depuis un fichier. L'application affiche son contenu : l'option Fusionner conserve et met à jour vos règles existantes, tandis que Remplacer substitue l'ensemble de vos règles par celles du fichier.",
+  "t": "Comment restaurer depuis une sauvegarde ?",
+  "a": "Dans Paramètres → Sauvegarde → Importer depuis un fichier, sélectionnez votre fichier de sauvegarde. L'application affiche son contenu : Fusionner ajoute les nouvelles règles tout en préservant vos règles actuelles, tandis que Remplacer substitue l'ensemble de vos règles par celles du fichier.",
   "q": [
-   "importer mes règles sauvegardées",
-   "restaurer une sauvegarde",
-   "récupérer mes paramètres",
-   "charger un fichier de sauvegarde"
+   "restaurer mes règles",
+   "importer une sauvegarde",
+   "récupérer la configuration",
+   "fusionner les règles"
   ]
  },
  {
   "type": "guide",
   "sec": "Sauvegarde",
   "t": "Partager un modèle de règles",
-  "a": "Grâce à Paramètres → Sauvegarde → Partager un modèle de règles, vous pouvez transmettre vos règles à un ami. Le fichier ne contient aucun contenu de notification.",
+  "a": "Grâce à l'option Paramètres → Sauvegarde → Partager le modèle de règles, vous pouvez envoyer vos règles à un ami. Le contenu de vos notifications n'est absolument jamais partagé.",
   "q": [
-   "envoyer mes règles à un proche",
-   "partager ma configuration ha!shh",
-   "transmettre un modèle de règles",
-   "donner mes réglages à quelqu'un"
+   "envoyer mes règles à un ami",
+   "partager une configuration",
+   "modèle de règles",
+   "exporter le profil"
   ]
  },
  {
   "type": "guide",
   "sec": "Autre",
-  "t": "Envoyer des commentaires",
-  "a": "L'option Paramètres → Envoyer des commentaires ouvre votre application de messagerie avec un message prérempli. Le contenu de vos notifications et vos règles ne sont pas joints ; vous pouvez relire et modifier l'e-mail avant de l'envoyer.",
+  "t": "Envoyer des commentaires ou un avis",
+  "a": "L'option Paramètres → Envoyer des commentaires ouvre votre application de messagerie avec un modèle pré-rempli. Le contenu de vos notifications et vos règles personnelles n'y figurent pas ; vous pouvez relire et modifier le texte du courriel avant de l'envoyer.",
   "q": [
    "contacter le support",
-   "donner mon avis sur l'application",
-   "envoyer une suggestion aux développeurs",
-   "signaler un problème par mail"
+   "envoyer un commentaire",
+   "faire une suggestion",
+   "écrire aux développeurs"
   ]
  },
  {
   "type": "guide",
   "sec": "Autre",
-  "t": "Code promo",
-  "a": "Allez dans Paramètres → Outils → Utiliser un code promo pour activer un code promotionnel Google Play directement via le Play Store.",
+  "t": "Code promotionnel",
+  "a": "Dans Paramètres → Outils → Utiliser un code promotionnel, vous pouvez activer directement un code promotionnel Google Play via le Play Store.",
   "q": [
-   "où entrer un code promotionnel",
-   "activer un code promo play store",
-   "utiliser un coupon google play",
-   "valider un code de réduction"
+   "activer un code promo",
+   "utiliser un coupon play store",
+   "entrer code promo",
+   "code promotionnel"
   ]
  },
  {
   "type": "fix",
   "sec": "Mise en attente et distribution",
   "t": "Les notifications ne sont pas mises en attente et arrivent immédiatement",
-  "a": "La cause la plus fréquente est la désactivation de l'accès aux notifications. Si la mention « Autorisation requise » apparaît sur la ligne Paramètres → Autorisations de l'appareil → Gérer l'accès aux notifications, appuyez dessus et activez ha!shh. De plus, il se peut que l'option Immédiat ou Ne jamais mettre en attente soit activée pour cette application ; vérifiez en appuyant sur l'application dans l'onglet Règles. Pour des raisons de sécurité, les appels, les alarmes et les alertes système ne sont jamais mis en attente.",
+  "a": "La cause la plus fréquente est la désactivation de l'accès aux notifications. Si la mention « Autorisation requise » apparaît sur la ligne Paramètres → Autorisations de l'appareil → Gérer l'accès aux notifications, appuyez dessus et activez ha!shh. Il se peut également que l'application soit configurée sur Immédiat ou Ne jamais mettre en attente ; vérifiez en appuyant sur l'application dans l'onglet Règles. Par mesure de sécurité, les appels téléphoniques, les alarmes et les notifications système Android et SIM (alertes réseau et opérateur) ne sont jamais mis en attente, quel que soit le mode.",
   "q": [
-   "pourquoi les alertes arrivent toujours",
-   "ha!shh ne bloque pas les notifications",
-   "mes messages ne sont pas mis en attente",
-   "les notifications passent quand même"
+   "pourquoi les notifications arrivent quand même",
+   "ha!shh ne bloque rien",
+   "notifications pas en attente",
+   "les alertes sonnent toujours"
   ]
  },
  {
   "type": "fix",
   "sec": "Mise en attente et distribution",
   "t": "Les notifications ne sont pas arrivées à l'heure de distribution",
-  "a": "Dans la plupart des cas, l'économiseur de batterie du téléphone a arrêté ha!shh en arrière-plan. Appuyez sur la ligne Paramètres → Autorisations de l'appareil → Batterie et arrière-plan ; utilisez les boutons Désactiver l'optimisation de la batterie et, si votre marque est identifiée, Ouvrir les paramètres spécifiques de l'appareil. La ligne État du système indique l'état du service ; si la mention « Déconnecté » apparaît, appuyez sur Se reconnecter.",
+  "a": "Le plus souvent, l'économiseur de batterie du téléphone a arrêté ha!shh en arrière-plan. Appuyez sur la ligne Paramètres → Autorisations de l'appareil → Batterie et arrière-plan ; utilisez les boutons Désactiver l'optimisation de la batterie et, si votre marque est identifiée, Ouvrir les paramètres spécifiques de l'appareil. La ligne Santé du système indique l'état de la connexion ; si elle indique « Déconnecté », appuyez sur Se reconnecter. Lorsqu'un mode prend fin, les notifications retenues pendant celui-ci vous sont remises toutes ensemble à la fin du mode, et non à des heures dispersées.",
   "q": [
-   "retard sur l'heure de distribution",
-   "je n'ai pas reçu mes messages à l'heure prévue",
-   "les notifications ne se débloquent pas à l'heure",
-   "ha!shh ne délivre rien à l'heure dite"
+   "retard de livraison des notifications",
+   "les messages n'arrivent pas à l'heure",
+   "ha!shh tué en arrière-plan",
+   "notifications bloquées"
   ]
  },
  {
   "type": "fix",
   "sec": "Mise en attente et distribution",
   "t": "Les distributions ont du retard sur Samsung",
-  "a": "Dans les paramètres du téléphone, rendez-vous dans Batterie → Limites d'utilisation en arrière-plan et ajoutez ha!shh à la liste Applications jamais en veille. Si elle figure dans Applications en veille, retirez-la. Dans ha!shh, le bouton Ouvrir les paramètres spécifiques de l'appareil vous redirige directement vers l'écran de batterie Samsung.",
+  "a": "Dans les paramètres du téléphone, rendez-vous dans Batterie → Limites d'utilisation en arrière-plan et ajoutez ha!shh à la liste des Applications jamais en veille. Si l'application figure dans la liste des applications en veille, retirez-la. Le bouton Ouvrir les paramètres spécifiques de l'appareil dans ha!shh vous conduit directement à cet écran de réglages de Samsung.",
   "q": [
-   "retard de notification sur samsung",
-   "problème de batterie samsung ha!shh",
-   "notifications bloquées sur un galaxy",
-   "ha!shh en veille sur samsung"
+   "problème samsung notification",
+   "retard samsung",
+   "notifications bloquées samsung",
+   "optimisation batterie samsung"
   ]
  },
  {
   "type": "fix",
   "sec": "Mise en attente et distribution",
   "t": "Les distributions ont du retard sur Xiaomi, Redmi ou POCO",
-  "a": "Dans les paramètres du téléphone, accédez à Applications → ha!shh, activez Démarrage automatique et réglez Économiseur de batterie sur Aucune restriction. Verrouiller ha!shh dans l'écran des applications récentes peut également aider. Dans ha!shh, le bouton Ouvrir les paramètres spécifiques de l'appareil ouvre directement l'écran Xiaomi correspondant.",
+  "a": "Dans les paramètres du téléphone, sous Applications → ha!shh, activez le Démarrage automatique et réglez l'Économiseur de batterie sur Pas de restrictions. Verrouiller ha!shh dans l'écran des applications récentes est également utile. Le bouton Ouvrir les paramètres spécifiques de l'appareil dans ha!shh ouvre directement l'écran Xiaomi concerné.",
   "q": [
-   "problème notification xiaomi redmi poco",
-   "ha!shh ne fonctionne pas en arrière-plan miui",
-   "délivrance en retard sur xiaomi",
-   "paramètres de batterie poco et redmi"
+   "problème xiaomi notification",
+   "retard redmi poco",
+   "démarrage automatique xiaomi",
+   "économie de batterie miui"
   ]
  },
  {
   "type": "fix",
   "sec": "Mise en attente et distribution",
   "t": "Les distributions ont du retard sur Huawei ou Honor",
-  "a": "Dans les paramètres du téléphone, ouvrez Batterie → Lancement d'application, désactivez la gestion automatique pour ha!shh et cochez les options Lancement automatique, Lancement secondaire et Exécution en arrière-plan. Le bouton Ouvrir les paramètres spécifiques de l'appareil dans ha!shh tente d'ouvrir directement cet écran.",
+  "a": "Dans les paramètres du téléphone, section Batterie → Lancement d'applications, désactivez la gestion automatique pour ha!shh et cochez les options Lancement automatique, Lancement secondaire et Exécution en arrière-plan. Le bouton Ouvrir les paramètres spécifiques de l'appareil dans ha!shh tente d'ouvrir cet écran.",
   "q": [
-   "problème de réception sur huawei honor",
-   "notifications en retard sur huawei",
-   "ha!shh fermé par le système sur honor",
-   "optimisation batterie emui huawei"
+   "problème huawei notification",
+   "retard honor",
+   "lancement d'application huawei",
+   "notifications ne sonnent pas huawei"
   ]
  },
  {
   "type": "fix",
   "sec": "Mise en attente et distribution",
   "t": "Les distributions ont du retard sur Oppo, Realme, OnePlus ou Vivo",
-  "a": "Dans les paramètres du téléphone, activez Démarrage automatique et Autoriser l'activité en arrière-plan pour ha!shh, puis désactivez l'optimisation de la batterie. Dans ha!shh, le bouton Ouvrir les paramètres spécifiques de l'appareil essaie d'ouvrir directement l'écran de configuration propre à votre marque.",
+  "a": "Dans les paramètres du téléphone, activez les options Lancement automatique et Autoriser l'activité en arrière-plan pour ha!shh, puis désactivez l'optimisation de la batterie. Le bouton Ouvrir les paramètres spécifiques de l'appareil dans ha!shh tente d'ouvrir l'écran dédié de votre marque.",
   "q": [
-   "retard notification oppo realme oneplus vivo",
-   "ha!shh ne se réveille pas sur coloros oxygenos",
-   "messages retardés sur mon oneplus",
-   "batterie oppo tue l'application"
+   "retard oppo realme",
+   "oneplus bloque les notifications",
+   "problème vivo arrière-plan",
+   "lancement automatique oppo"
   ]
  },
  {
   "type": "fix",
   "sec": "Mise en attente et distribution",
-  "t": "J'ai redémarré mon téléphone, que sont devenues mes notifications en attente ?",
-  "a": "ha!shh vérifie et restaure automatiquement les éléments en attente après un redémarrage. Si une notification ne peut être restaurée, une alerte « Vérifier les notifications en retard » apparaît ; il vous suffit alors d'ouvrir les applications concernées pour les consulter.",
+  "t": "J'ai redémarré mon téléphone, qu'advient-il des notifications en attente ?",
+  "a": "ha!shh vérifie et restaure automatiquement les enregistrements en attente après un redémarrage. Si une notification ne peut être restaurée, un avertissement « Vérifiez les notifications en retard » s'affiche ; il vous suffit alors d'ouvrir les applications concernées pour vérifier.",
   "q": [
-   "perte des alertes après redémarrage",
-   "que deviennent les notifications si le téléphone redémarre",
-   "téléphone éteint et messages en attente",
-   "récupérer les alertes après avoir redémarré"
+   "téléphone éteint notifications",
+   "après redémarrage",
+   "perte de notifications après reboot",
+   "redémarrage téléphone"
   ]
  },
  {
   "type": "fix",
   "sec": "Mise en attente et distribution",
-  "t": "Le mode choisi manuellement a-t-il changé tout seul ?",
-  "a": "Un mode sélectionné manuellement reste enclenché jusqu'à ce que vous le désactiviez ; le planning programmé ne le remplacera pas. Pour réactiver le planning automatique, utilisez le bouton Revenir au planning.",
+  "t": "Le mode que j'ai choisi manuellement a-t-il changé tout seul ?",
+  "a": "Le mode sélectionné manuellement reste en vigueur jusqu'à ce que vous le désactiviez ; le planning programmé ne le modifie pas de lui-même. Pour revenir à la programmation automatique, utilisez le bouton Revenir au planning.",
   "q": [
-   "pourquoi le mode ne suit plus le planning",
-   "mode bloqué manuellement",
-   "revenir à la programmation automatique",
-   "le mode ne change pas à l'heure prévue"
+   "le mode a changé tout seul",
+   "quitter le mode forcé",
+   "pourquoi le mode ne change pas",
+   "désactiver mode manuel"
   ]
  },
  {
   "type": "fix",
   "sec": "Applications et règles",
   "t": "Une application n'apparaît pas dans la liste",
-  "a": "Essayez de taper son nom dans le champ de recherche. Si l'application n'est pas installée sur le téléphone ou si elle n'a encore jamais envoyé de notification, elle peut ne pas figurer dans la liste ; revérifiez après sa première notification. Elle peut aussi être rangée dans une catégorie : appuyez sur une catégorie dans Règles pour afficher ses applications.",
+  "a": "Essayez de saisir le nom de l'application dans la zone de recherche. Si l'application n'est pas installée sur votre appareil ou si elle n'a encore émis aucune notification, elle peut ne pas figurer dans la liste ; revérifiez dès sa première notification. L'application peut également se trouver à l'intérieur d'une catégorie : dans Règles, touchez la catégorie pour faire apparaître les applications.",
   "q": [
-   "application introuvable dans la liste",
-   "je ne vois pas mon appli dans ha!shh",
-   "ajouter une appli absente",
-   "chercher une application dans les règles"
+   "application introuvable",
+   "mon appli n'est pas dans la liste",
+   "ajouter une application manquante",
+   "chercher une appli"
   ]
  },
  {
   "type": "fix",
   "sec": "Applications et règles",
-  "t": "Aucun type n'apparaît dans le filtre de types",
-  "a": "Les types sont découverts au fur et à mesure que l'application vous envoie des notifications de ces différentes catégories. Attendez d'en recevoir quelques-unes, puis retournez dans Règles → votre application → Choisir le type ›. Le tri se base sur le type d'alerte fourni par l'application, sans jamais lire le contenu.",
+  "t": "Aucun type n'apparaît dans le filtre de type",
+  "a": "Les différents types sont découverts au fur et à mesure que l'application vous envoie des notifications de ce type précis. Patientez d'abord jusqu'à recevoir quelques alertes, puis vérifiez à nouveau dans Règles → application → Choisir le type ›. La catégorisation s'effectue selon le canal de notification de l'application, sans lecture de son contenu.",
   "q": [
-   "le filtre de types est vide",
-   "aucun type d'alerte détecté",
-   "comment faire apparaître les types de notification",
-   "pourquoi la liste des types est vide"
+   "filtre de type vide",
+   "aucun type disponible",
+   "configurer les types d'alerte",
+   "pourquoi le filtre est vide"
   ]
  },
  {
   "type": "fix",
   "sec": "Applications et règles",
-  "t": "J'ai bloqué une application définitivement et je souhaite annuler ce choix",
-  "a": "Rendez-vous dans l'écran Paramètres → Outils → Bloqués, passez sur l'onglet Applications bloquées et appuyez sur Débloquer.",
+  "t": "J'ai bloqué définitivement une application et je souhaite annuler",
+  "a": "Rendez-vous dans Paramètres → Outils → Éléments bloqués, passez sur l'onglet Applications bloquées et appuyez sur Débloquer.",
   "q": [
-   "débloquer une appli bannie",
-   "comment réactiver une application bloquée",
-   "annuler le blocage d'une application",
-   "retrouver une app bloquée"
+   "débloquer une appli",
+   "annuler un blocage définitif",
+   "retirer de la liste noire",
+   "débloquer notification"
   ]
  },
  {
   "type": "fix",
   "sec": "Confidentialité et verrouillage",
   "t": "L'option de verrouillage par empreinte n'apparaît pas ou ne fonctionne pas",
-  "a": "Le verrouillage exige qu'un verrouillage d'écran (empreinte digitale, code PIN ou schéma) soit configuré sur votre appareil et nécessite Android 9 ou une version ultérieure. Après avoir activé un verrouillage dans les paramètres de votre téléphone, réessayez dans Paramètres → Verrouillage par empreinte digitale.",
+  "a": "Pour utiliser ce verrouillage, un verrouillage d'écran (empreinte digitale, code PIN ou schéma) doit être activé sur votre téléphone, et l'appareil doit fonctionner sous Android 9 ou une version supérieure. Après avoir activé le verrouillage de l'écran dans les paramètres de votre téléphone, réessayez dans Paramètres → Confidentialité et données → Verrouillage par empreinte.",
   "q": [
-   "empreinte digitale non reconnue",
-   "impossible d'activer le verrouillage par empreinte",
-   "le déverrouillage biométrique ne marche pas",
-   "option empreinte absente"
+   "empreinte digitale ne fonctionne pas",
+   "verrouillage biométrique indisponible",
+   "bloquer avec empreinte",
+   "problème capteur empreinte"
   ]
  },
  {
   "type": "fix",
   "sec": "Confidentialité et verrouillage",
   "t": "Le contenu des notifications ne s'affiche pas",
-  "a": "Par défaut, le texte n'est pas affiché pour protéger votre vie privée. Activez le bouton Paramètres → Contenu et sérénité → Afficher le contenu des notifications. Si vous voulez aussi le relire dans l'historique, activez Conserver le contenu dans l'historique et choisissez 1 ou 7 jours.",
+  "a": "L'affichage du contenu est activé par défaut. S'il n'apparaît pas, vérifiez que l'interrupteur Paramètres → Contenu et sérénité → Afficher le contenu des notifications est bien activé. Si vous souhaitez relire le texte des notifications plus tard dans l'onglet Historique, vérifiez également le paramètre Durée de conservation de l'historique : les éléments antérieurs au délai choisi sont effacés ; si aucun délai n'est défini, rien n'est supprimé automatiquement.",
   "q": [
-   "je ne vois pas le texte de mes messages",
-   "afficher le contenu des notifications",
-   "messages masqués dans l'application",
-   "pourquoi le texte des alertes est caché"
+   "texte du message invisible",
+   "contenu masqué",
+   "pourquoi je ne vois pas le message",
+   "afficher texte des notifications"
   ]
  },
  {
   "type": "fix",
   "sec": "Confidentialité et verrouillage",
-  "t": "La capture d'écran de l'Historique est toute noire",
-  "a": "Il ne s'agit pas d'un bug, mais d'une protection de votre vie privée. Sur les écrans susceptibles d'afficher le contenu personnel des notifications (Historique, archives, écran de lecture) ou lorsque le verrouillage est actif, la capture d'écran est bloquée par sécurité afin d'éviter toute fuite vers d'autres applications.",
+  "t": "La capture d'écran de l'Historique est totalement noire",
+  "a": "Il ne s'agit pas d'un bug, mais d'une option de sécurité. Si l'option Paramètres → Confidentialité et données → Bloquer les captures d'écran sur les écrans sensibles est active, la prise de capture d'écran est bloquée sur le coffre-fort, le verrouillage par empreinte et les panneaux affichant le texte des notifications. Cette option est désactivée par défaut ; si vous voulez faire une capture, il vous suffit de la désactiver.",
   "q": [
    "capture d'écran noire",
-   "impossible de faire un screenshot de l'historique",
-   "pourquoi l'écran devient noir en capture",
-   "capture d'écran bloquée"
+   "screenshot tout noir",
+   "capture interdite",
+   "pourquoi la capture est noire"
   ]
  },
  {
   "type": "fix",
   "sec": "Confidentialité et verrouillage",
-  "t": "Pourquoi ha!shh ne demande-t-elle pas d'autorisation Internet ?",
-  "a": "L'application a été conçue délibérément sans aucun accès à Internet. Vos notifications, vos règles et vos archives ne quittent jamais votre téléphone vers le moindre serveur. Si vous décidez d'exporter un fichier (sauvegarde ou archive), vous le faites vous-même via le menu de partage de votre téléphone.",
+  "t": "Pourquoi ha!shh ne demande-t-elle pas l'autorisation d'accès à Internet ?",
+  "a": "L'application a été délibérément conçue sans autorisation d'accès à Internet. Vos notifications, vos règles et vos archives ne sont transmises à aucun serveur. Si vous décidez d'exporter un fichier (sauvegarde ou archive), vous le faites vous-même via le menu de partage de votre appareil.",
   "q": [
-   "ha!shh utilise-t-elle internet",
-   "mes données sont-elles envoyées sur des serveurs",
-   "sécurité et absence de connexion internet",
-   "pourquoi pas d'accès internet"
+   "pourquoi pas d'accès internet",
+   "mes données vont-elles sur internet",
+   "sécurité des données",
+   "application hors ligne"
   ]
  },
  {
   "type": "fix",
   "sec": "Archives",
   "t": "Où se trouve l'Archive ?",
-  "a": "Appuyez sur le bouton 📦 Archives situé en haut de l'onglet Historique. Vous pouvez également y accéder directement depuis la carte d'archives sur le Flux.",
+  "a": "Vous pouvez appuyer sur le bouton 📦 Archives situé au-dessus de l'onglet Historique ou l'ouvrir depuis la carte d'archives sur l'écran Aujourd'hui. L'archivage automatique est activé par défaut ; il enregistre de lui-même dans les dossiers adaptés uniquement les paiements bancaires, les coupons, les dépenses confirmées et les avis d'échéance/factures. Les prix publicitaires ne sont pas archivés. Les éléments ajoutés ou modifiés manuellement, quant à eux, ne sont jamais supprimés et restent conservés.",
   "q": [
-   "comment accéder aux archives",
-   "où est rangée l'archive",
-   "ouvrir le dossier des archives",
-   "trouver la section archive"
+   "où trouver l'archive",
+   "accès aux archives",
+   "dossier des factures",
+   "retrouver mes archives"
   ]
  },
  {
   "type": "fix",
   "sec": "Archives",
   "t": "Je souhaite sauvegarder mes archives sur Google Drive",
-  "a": "Dans les archives, appuyez sur Exporter les archives et choisissez un format ; le plus sécurisé est 🔒 Archive chiffrée (.hashh). Choisissez Drive dans le menu de partage qui s'ouvre. ha!shh n'envoie jamais vos archives automatiquement en ligne : elles ne quittent l'appareil que si vous déclenchez vous-même l'exportation.",
+  "a": "Dans l'archive, appuyez sur Exporter les archives et choisissez un format ; le format le plus sûr est 🔒 Archive chiffrée (.hashh). Sélectionnez Drive dans le menu de partage qui s'affiche. L'archive n'est jamais envoyée automatiquement en ligne ou sur un cloud ; elle n'est exportée dans un fichier que si vous en prenez l'initiative.",
   "q": [
-   "mettre mes archives sur mon drive",
-   "sauvegarder les archives dans le cloud",
-   "exporter le fichier d'archive sur google drive",
-   "comment synchroniser mes archives sur drive"
+   "sauvegarder archives sur drive",
+   "exporter vers google drive",
+   "mettre mes archives sur le cloud",
+   "exporter hashh drive"
   ]
  },
  {
   "type": "fix",
   "sec": "Archives",
-  "t": "Impossible d'ajouter une application à un nouveau dossier d'archives",
-  "a": "Dans les archives, utilisez l'option ⚙ Gérer les applications pour associer ou retirer des applications à un dossier.",
+  "t": "Je n'arrive pas à ajouter une application à un nouveau dossier d'archive",
+  "a": "Dans l'archive, utilisez l'option ⚙ Gérer les applications pour associer ou retirer des applications à un dossier.",
   "q": [
-   "ajouter une appli à un dossier d'archive",
-   "associer une application à un dossier",
-   "impossible de lier une app à une archive",
-   "gérer les applications d'un dossier d'archive"
+   "ajouter appli au dossier archive",
+   "associer application dossier",
+   "gérer applications archive",
+   "classer les applis dans l'archive"
   ]
  },
  {
   "type": "fix",
   "sec": "Archives",
-  "t": "Aucun coupon n'apparaît dans les archives",
-  "a": "Les coupons sont extraits des notifications archivées dans le dossier Coupons. Ajoutez la notification concernée avec Archiver › vers Coupons ou configurez une règle d'archivage automatique pour vos applications marchandes via ⚙ Règles → + Ajouter une règle.",
+  "t": "Aucun coupon n'apparaît dans l'archive",
+  "a": "Les coupons sont collectés à partir des notifications archivées dans le dossier Coupons. Ajoutez la notification à Coupons via Archiver › ou créez une règle d'archivage automatique pour vos applications commerciales dans ⚙ Règles → + Ajouter une règle.",
   "q": [
-   "pourquoi mes coupons ne s'affichent pas",
-   "portefeuille de codes promo vide",
-   "enregistrer un bon de réduction",
-   "comment faire apparaître les coupons"
+   "coupon introuvable",
+   "mes promos n'apparaissent pas",
+   "ajouter un coupon",
+   "comment enregistrer un code promo"
   ]
  },
  {
   "type": "fix",
-  "sec": "Notifications en direct",
-  "t": "J'ai fermé par erreur une notification de livraison ou commande",
-  "a": "Dans l'onglet Historique, cette alerte reste visible avec le badge « notification en direct ». Appuyez sur la ligne pour ouvrir directement l'application de votre commande et suivre l'avancement en temps réel.",
+  "sec": "Notifications en direct et gestion des cartes",
+  "t": "J'ai fermé par erreur une notification de commande ou livraison",
+  "a": "Dans l'onglet Historique, cette notification est signalée par le badge « ⚡ En direct ». En appuyant sur cette ligne, l'application de votre commande s'ouvre directement pour vous permettre d'en vérifier le statut actualisé.",
   "q": [
-   "suivre une commande fermée par mégarde",
-   "retrouver une notification de livraison effacée",
-   "rouvrir une alerte de commande en direct",
-   "notification uber ou deliveroo fermée par erreur"
+   "retrouver notification commande",
+   "suivi colis fermé par erreur",
+   "alerte livraison effacée",
+   "notification en direct perdue"
   ]
  },
  {
   "type": "fix",
-  "sec": "Notifications en direct",
-  "t": "Appuyer sur une notification renvoie vers l'écran d'accueil",
-  "a": "Dans la liste des notifications en attente ainsi que dans l'Historique, appuyer sur une notification ouvre l'application dont elle provient.",
+  "sec": "Notifications en direct et gestion des cartes",
+  "t": "Toucher une notification me renvoie à l'écran d'accueil",
+  "a": "Les notifications dans la liste en attente et dans l'Historique ouvrent l'application d'origine lorsqu'on les touche. Un souci causant un retour à l'écran d'accueil depuis le panneau du cadran est connu et en cours de correction.",
   "q": [
-   "cliquer sur une notification ouvre l'accueil",
-   "pourquoi l'appli ne s'ouvre pas au clic",
-   "ouvrir l'application depuis la notification",
-   "problème en touchant une notification"
+   "cliquer sur notification revient au bureau",
+   "l'appli ne s'ouvre pas",
+   "bug appui notification",
+   "retour accueil au clic"
   ]
  },
  {
   "type": "fix",
-  "sec": "Parrainage",
-  "t": "Le code d'invitation n'est pas accepté",
-  "a": "Vous pouvez saisir le code avec ou sans tirets ; les majuscules et minuscules n'ont pas d'importance. Vous ne pouvez pas saisir votre propre code et un code d'invitation ne peut être utilisé qu'une seule fois. Si le code est toujours refusé, vérifiez qu'il n'y a pas d'erreur de frappe ; ha!shh repère les fautes d'une lettre, demandez à votre ami de vous recopier et renvoyer le code.",
+  "sec": "Notifications en direct et gestion des cartes",
+  "t": "J'ai fait une mauvaise manipulation sur une carte en attente (marquée lue ou reportée par erreur)",
+  "a": "Sur l'écran Aujourd'hui, lorsque vous glissez une carte de la pile vers la droite ou la gauche, la barre Annuler s'affiche en bas de l'écran pendant 4 secondes. Touchez-la pour annuler immédiatement l'opération.",
   "q": [
-   "code d'invitation invalide",
-   "erreur sur le code parrainage",
-   "pourquoi mon code d'invitation ne marche pas",
-   "code ami refusé"
+   "annuler glissement carte",
+   "carte marquée lue par erreur",
+   "annuler report notification",
+   "récupérer carte en attente"
   ]
  },
  {
   "type": "fix",
-  "sec": "Parrainage",
-  "t": "Le code de remerciement indique « Ce code ne vous appartient pas ou est incorrect »",
-  "a": "Un code de remerciement est généré uniquement pour le code de la personne qui vous a invité ; le code de remerciement d'un tiers ne peut pas créditer votre compte. Demandez à votre ami de vous le renvoyer via Renvoyer mon code de remerciement. Si le message « Cette invitation a déjà été prise en compte » s'affiche, c'est que cette personne est déjà enregistrée dans votre total.",
+  "sec": "Apparence et widgets",
+  "t": "Où changer la langue de l'application ?",
+  "a": "Inutile d'accéder aux réglages système de votre téléphone. Vous pouvez utiliser ha!shh instantanément dans la langue de votre choix (10 langues disponibles) depuis Paramètres → Apparence → Langue de l'application.",
   "q": [
-   "erreur code de remerciement",
-   "code de remerciement refusé",
-   "ce code ne vous appartient pas",
-   "invitation déjà prise en compte"
+   "changer la langue de l'application",
+   "ha!shh en français",
+   "sélectionner une langue",
+   "menu langue"
   ]
  },
  {
   "type": "fix",
-  "sec": "Sauvegarde et changement de téléphone",
-  "t": "Comment restaurer mes données depuis une sauvegarde ?",
-  "a": "Dans Paramètres → Sauvegarde → Importer depuis un fichier, sélectionnez votre fichier de sauvegarde. Fusionner conserve et met à jour vos règles actuelles, tandis que Remplacer substitue tout par le contenu du fichier. Si le fichier est corrompu ou trop lourd (plus de 512 KB), l'application vous avertira.",
+  "sec": "Apparence et widgets",
+  "t": "Le mode horloge de table ne s'ouvre pas",
+  "a": "Pour que l'affichage horloge de table apparaisse lorsque vous tournez votre téléphone en mode paysage, assurez-vous que l'option Paramètres → Apparence → Mode horloge de table en paysage est bien activée. Vous pouvez aussi gérer le maintien de l'écran allumé en charge et le mode économie de batterie depuis ce même écran.",
   "q": [
-   "restaurer ma sauvegarde sur un autre appareil",
-   "importer les règles d'un fichier",
-   "fichier de sauvegarde trop gros ou corrompu",
-   "récupérer ma configuration ha!shh"
+   "mode paysage ne marche pas",
+   "horloge de chevet bloquée",
+   "rotation écran ha!shh",
+   "activer horloge de table"
   ]
  },
  {
   "type": "fix",
-  "sec": "Sauvegarde et changement de téléphone",
-  "t": "Je change de téléphone, que deviennent mes réglages ?",
-  "a": "Sur votre ancien téléphone, faites une sauvegarde via Paramètres → Sauvegarde → Exporter vers un fichier et transférez ce fichier sur votre nouvel appareil (par ex. via Drive ou par câble). Installez ha!shh sur le nouveau téléphone et chargez la sauvegarde via Importer depuis un fichier. Pour transférer aussi vos archives, utilisez Exporter les archives → 🔒 Archive chiffrée (.hashh) sur l'ancien appareil. Vous devrez réaccorder l'accès aux notifications et les autorisations de batterie sur le nouveau téléphone.",
+  "sec": "Apparence et widgets",
+  "t": "Comment ajouter un widget sur l'écran d'accueil ?",
+  "a": "Maintenez un appui long sur une zone vide de votre écran d'accueil, puis sélectionnez ha!shh dans le menu des widgets. Vous pouvez choisir parmi quatre formats (2x2, 4x1, 4x2, 4x3) selon vos besoins.",
   "q": [
-   "transférer ha!shh sur un nouveau téléphone",
-   "changer de smartphone sans perdre mes règles",
-   "migrer mes données et archives sur un autre appareil",
-   "comment exporter tous mes réglages sur mon nouveau téléphone"
+   "mettre le widget sur l'écran",
+   "installer widget ha!shh",
+   "comment mettre un widget",
+   "raccourci widget"
   ]
  },
  {
   "type": "fix",
-  "sec": "Sauvegarde et changement de téléphone",
+  "sec": "Apparence et widgets",
+  "t": "Où trouver les statistiques et le rapport de notifications ?",
+  "a": "Il n'y a pas d'entrée « Statistiques » séparée : toutes les statistiques d'utilisation et les graphiques de répartition sont centralisés dans Paramètres → Outils → Rapport de notifications. Vous pouvez y consulter le nombre de notifications par jour et par mois, l'équilibre de concentration, le temps gagné et la batterie préservée.",
+  "q": [
+   "où sont les stats",
+   "voir les graphiques de notifications",
+   "temps économisé rapport",
+   "statistiques ha!shh"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Apparence et widgets",
+  "t": "J'ai modifié l'icône de l'application et elle a disparu de l'écran d'accueil",
+  "a": "Sur certains téléphones (comme Samsung), modifier l'icône la retire de l'écran d'accueil pour la replacer dans le tiroir d'applications. Il vous suffit de glisser à nouveau ha!shh depuis la liste des applications vers votre écran d'accueil.",
+  "q": [
+   "icône disparue après changement",
+   "retrouver l'icône sur l'écran",
+   "bug icône samsung",
+   "icône ha!shh introuvable"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Apparence et widgets",
+  "t": "Je ne trouve pas la vignette de paramètres rapides",
+  "a": "Faites glisser deux fois le volet des notifications vers le bas. Si la vignette n'apparaît pas, faites glisser le volet vers la droite, elle se trouve peut-être sur la page suivante. Si elle est absente, rajoutez-la via Paramètres → Outils → Vignette de paramètres rapides.",
+  "q": [
+   "bouton volet notifications disparu",
+   "retrouver la vignette rapide",
+   "ajouter raccourci haut d'écran",
+   "tuile paramètres rapides"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Invitations",
+  "t": "Mon code d'invitation n'est pas accepté",
+  "a": "Vous pouvez saisir le code avec ou sans tiret ; la casse (majuscules/minuscules) n'a pas d'importance. Vous ne pouvez pas entrer votre propre code et un code d'invitation ne peut être utilisé qu'une seule fois. Si le code est toujours refusé, une lettre a peut-être été mal saisie ; ha!shh détecte les fautes d'une lettre, demandez à votre ami de copier et renvoyer son code.",
+  "q": [
+   "code de parrainage invalide",
+   "erreur code invitation",
+   "mon code ne marche pas",
+   "problème code ami"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Invitations",
+  "t": "Le code de remerciement indique « Ce code ne vous appartient pas ou est erroné »",
+  "a": "Le code de remerciement est généré uniquement en lien avec le code de la personne qui vous a invité ; le code de remerciement d'un tiers ne peut pas s'ajouter à votre compteur. Demandez à votre ami de vous le renvoyer via Renvoyer mon code de remerciement. Si la mention « Cette invitation a déjà été comptabilisée » s'affiche, cette personne a déjà été ajoutée à votre total.",
+  "q": [
+   "erreur code remerciement",
+   "code remerciement invalide",
+   "invitation déjà comptée",
+   "problème validation parrainage"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Sauvegarde et changement d'appareil",
+  "t": "Comment restaurer depuis une sauvegarde ?",
+  "a": "Sélectionnez votre fichier de sauvegarde dans Paramètres → Sauvegarde → Importer depuis un fichier. L'option Fusionner conserve et met à jour vos règles existantes, tandis que Remplacer remplace tout par le contenu de la sauvegarde. Si le fichier est corrompu ou trop volumineux (plus de 512 KB), l'application vous avertit.",
+  "q": [
+   "restaurer un fichier de sauvegarde",
+   "importer mes règles",
+   "récupérer sauvegarde",
+   "remplacer mes règles"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Sauvegarde et changement d'appareil",
+  "t": "Je change de téléphone, que deviennent mes paramètres ?",
+  "a": "Sur votre ancien téléphone, créez une sauvegarde dans Paramètres → Sauvegarde → Exporter vers un fichier et transférez le fichier sur votre nouveau téléphone (par exemple via Drive ou par câble). Installez ha!shh sur le nouveau téléphone et chargez le fichier avec Importer depuis un fichier. Pour transférer aussi l'archive, utilisez sur l'ancien téléphone Exporter les archives → 🔒 Archive chiffrée (.hashh). Vous devrez réaccorder l'accès aux notifications et les autorisations de batterie sur le nouveau téléphone.",
+  "q": [
+   "changer de téléphone",
+   "transférer mes données sur un nouveau smartphone",
+   "migrer ha!shh vers un autre appareil",
+   "sauvegarder avant changement de mobile"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Sauvegarde et changement d'appareil",
   "t": "Je souhaite supprimer toutes mes données",
-  "a": "Allez dans Paramètres → Sauvegarde → Supprimer toutes les données locales. Vos règles, l'historique, les éléments en attente et vos préférences seront effacés ; cette action est irréversible. Si vous souhaitez conserver une copie au préalable, pensez à utiliser Exporter vers un fichier.",
+  "a": "Rendez-vous dans Paramètres → Confidentialité et données → Supprimer toutes mes données locales. Vos règles, votre historique, vos notifications en attente et vos préférences seront effacés ; cette action est irréversible. Si vous préférez faire une sauvegarde au préalable, utilisez Exporter mes données dans cette même section. Les archives sont également supprimées lors de cette opération.",
   "q": [
-   "effacer toutes mes données dans ha!shh",
+   "effacer toutes les données",
    "réinitialiser l'application",
-   "supprimer historique et règles",
-   "remettre ha!shh à zéro"
-  ]
- },
- {
-  "type": "fix",
-  "sec": "Autre",
-  "t": "J'ai changé l'icône de l'application et elle a disparu de l'écran d'accueil",
-  "a": "Sur certains téléphones (comme Samsung), changer d'icône la retire de l'écran d'accueil pour la replacer dans le tiroir d'applications. Il vous suffit alors de reglisser ha!shh depuis la liste des applications vers votre écran d'accueil.",
-  "q": [
-   "l'icône a disparu de mon écran",
-   "retrouver le raccourci ha!shh après changement d'icône",
-   "icône absente de l'accueil sur samsung",
-   "où est passée l'application après changement de logo"
-  ]
- },
- {
-  "type": "fix",
-  "sec": "Autre",
-  "t": "Je ne trouve pas la vignette des réglages rapides",
-  "a": "Tirez deux fois le panneau de notifications vers le bas. Si la vignette n'apparaît pas, faites glisser le volet vers la droite, elle se trouve peut-être sur la page suivante. Si elle n'y est pas, réajoutez-la depuis Paramètres → Outils → Vignette des réglages rapides.",
-  "q": [
-   "où est la tuile de réglage rapide",
-   "vignette ha!shh introuvable",
-   "ajouter le raccourci dans le panneau de notifications",
-   "bouton d'accès rapide absent"
+   "supprimer mon compte et mes données",
+   "remise à zéro ha!shh"
   ]
  },
  {
   "type": "fix",
   "sec": "Autre",
   "t": "Je souhaite signaler un problème",
-  "a": "L'option Paramètres → Envoyer des commentaires ouvre votre application d'e-mails avec un message prérempli. Le contenu de vos notifications et vos règles ne sont pas inclus.",
+  "a": "L'option Paramètres → Envoyer des commentaires ouvre votre application de messagerie avec un message pré-rempli. Le contenu de vos notifications et vos règles n'y sont pas inclus.",
   "q": [
    "signaler un bug",
    "un problème dans l'application",
-   "écrire à l'assistance",
-   "rapporter un dysfonctionnement"
+   "contacter l'assistance",
+   "envoyer un rapport de bug"
   ]
  }
 ]

@@ -15,7 +15,7 @@ $kh = strtolower((string)parse_url($kaynak, PHP_URL_HOST));
 if ($kh !== 'ha-shh.com') { http_response_code(204); exit; }
 // Bots, link previews, speed tests and automation are not counted
 $ua = strtolower($_SERVER['HTTP_USER_AGENT'] ?? '');
-if ($ua === '' || preg_match('/bot|crawl|spider|slurp|headless|lighthouse|preview|monitor|curl|wget|python|google|inspection|externalhit|externalagent|facebookcatalog|whatsapp\/|telegram|skype|slack|discord|yandex|bing|semrush|ahrefs|gtmetrix|pingdom|uptime|hostinger|pagespeed|phantom|selenium|puppeteer|playwright/', $ua)) { http_response_code(204); exit; }
+if ($ua === '' || preg_match('/bot|crawl|spider|slurp|headless|lighthouse|preview|monitor|curl|wget|python|googlebot|google-inspectiontool|adsbot-google|inspection|externalhit|externalagent|facebookcatalog|whatsapp\/|telegram|skype|slack|discord|yandex|bing|semrush|ahrefs|gtmetrix|pingdom|uptime|hostinger|pagespeed|phantom|selenium|puppeteer|playwright/', $ua)) { http_response_code(204); exit; }
 
 $g = json_decode((string)file_get_contents('php://input', false, null, 0, 2048), true);
 if (!is_array($g)) { http_response_code(204); exit; }

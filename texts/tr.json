@@ -208,14 +208,14 @@
       },
       {
         "b": "3",
-        "p": "Karar için kullanılan bilgi: uygulama, bildirim türü ve saat. Başlık ve metin yalnız senin kelimelerinle (spoiler ya da arşiv kelimeleri) karşılaştırılır; bu da yalnız içerik iznini açarsan ve yalnız telefonda olur."
+        "p": "Bekletme kararı için kullanılan bilgi: uygulama, bildirim türü ve saat. Yalnız Spoiler modunu açarsan seçtiğin kelimeler bildirimin içinde, telefonunda aranır."
       },
       {
-        "b": "İzinle",
-        "p": "Bildirim içeriği varsayılan olarak okunmaz. Bekleyenlerin içeriğini görmek istersen Ayarlar'dan sen açarsın."
+        "b": "Sende",
+        "p": "İçeriğin ne kadar saklanacağı senin seçimin. Bildirim içeriği uygulamada gösterilir ve telefonda şifreli durur; saklama süresini sen seçersin ya da Ayarlar'dan tamamen kapatırsın."
       }
     ],
-    "priv_more_p": "Ayarlar ve kayıtlar telefonda şifreli tutulur. Arşivde yalnız senin kaydettiğin ya da kendi kurduğun arşiv gruplarına uyan bildirimler bulunur; bunlar da telefonda şifreli durur ve yalnız sen dosyaya aktarırsan telefondan çıkar. Uygulamayı kaldırınca verileri silinir.",
+    "priv_more_p": "Ayarlar ve kayıtlar telefonda şifreli tutulur. Bildirim içeriği uygulamada gösterilir ve senin seçtiğin süre boyunca saklanır; banka ödemeleri, kuponlar, harcamalar ve faturalar otomatik arşive girer. Hepsi Ayarlar'dan kapatılabilir ve yalnız sen dosyaya aktarırsan telefondan çıkar. Uygulamayı kaldırınca verileri silinir.",
     "priv_more": "Gizlilik politikasının tamamı →",
     "status_eyebrow": "Durum",
     "status_h": "Geliştiriliyor, Google Play'de yakında.",
@@ -451,7 +451,7 @@
         "items": [
           {
             "t": "Bildirim arşivi",
-            "p": "İstediğin bildirimi Kuponlar, Ödenecekler, Harcamalar gibi klasörlere ya da kendi açtığın klasöre kaydet. Tutarı uygulama önerir, sen onaylarsın; aylık toplam görünür. Son gün verirsen o sabah hatırlatılır, istersen telefonunun takvimine de eklersin (takvim izni gerekmez). Geçmiş'te içeriği saklanan bir bildirimi de doğrudan arşive kaydedebilirsin. Arşiv grubu kurmadıkça hiçbir bildirim kendiliğinden arşive girmez.",
+            "p": "İstediğin bildirimi Kuponlar, Ödenecekler, Harcamalar gibi klasörlere ya da kendi açtığın klasöre kaydet. Tutarı uygulama önerir, sen onaylarsın; aylık toplam görünür. Son gün verirsen o sabah hatırlatılır, istersen telefonunun takvimine de eklersin (takvim izni gerekmez). Banka ödemeleri, kuponlar, harcamalar ve faturalar bildirim gelir gelmez otomatik olarak arşive girer; bunu ya da türlerinden birini Ayarlar'dan kapatabilirsin.",
             "new": "Yeni"
           },
           {
@@ -460,8 +460,8 @@
             "new": "Yeni"
           },
           {
-            "t": "İçerik yalnız izinle",
-            "p": "Bildirim içeriği varsayılan olarak okunmaz. Bekleyenlerin içeriğini görmek için Ayarlar'dan içerik göstermeyi açarsın."
+            "t": "İçerik telefonda, senin kontrolünde",
+            "p": "Bekleyen ve geçmişteki bildirimlerin içeriği uygulamada görünür ve telefonda şifreli olarak saklanır; ne kadar saklanacağını sen seçersin. İstemezsen Ayarlar'dan içerik göstermeyi kapatırsın; o zaman yalnız uygulama adı, saat ve bekleme nedeni görünür."
           },
           {
             "t": "Temalar ve uygulama simgesi",
@@ -540,10 +540,10 @@
   },
   "privacy": {
     "title": "Gizlilik politikası · {brand}",
-    "desc": "Bildirim uygulamasının verileri nasıl ele aldığı: internet izni yok, her şey telefonda şifreli kalır, bildirim içeriği yalnız izninle.",
+    "desc": "Bildirim uygulamasının verileri nasıl ele aldığı: internet izni yok, her şey telefonda şifreli kalır; içerik gösterme, saklama ve otomatik arşiv senin kontrolünde.",
     "h1": "Gizlilik politikası",
-    "updated": "Son güncelleme: 14 Ekim 2026",
-    "intro": "Kısaca: Uygulamanın internet izni yoktur ve hiçbir yere bir şey göndermez. Sakladığı her şey telefonunda şifreli durur. Sen açmadıkça bildirim içeriği okunmaz; arşivde yalnız senin kaydetmeyi seçtiğin bildirimler bulunur.",
+    "updated": "Son güncelleme: 21 Ekim 2026",
+    "intro": "Kısaca: Uygulamanın internet izni yoktur ve hiçbir yere bir şey göndermez. Sakladığı her şey telefonunda şifreli durur ve onu yalnız sen görürsün. Bildirim içeriği uygulamada gösterilir ve senin seçtiğin süre boyunca saklanır; banka ödemeleri, kuponlar, harcamalar ve faturalar otomatik arşive girer. Bunların hepsini Ayarlar'dan kapatabilirsin.",
     "sections": [
       {
         "h": "Biz kimiz",
@@ -551,15 +551,15 @@
       },
       {
         "h": "Bildirim erişimi (zorunlu)",
-        "body": "<p>Uygulama, Android ayarlarından senin verdiğin bildirim erişimine ihtiyaç duyar. Bir bildirime ne olacağına karar verirken bildirimi gönderen uygulamayı, bildirim türünü (ör. arama, alarm ya da mesaj kategorisi) ve saati kullanır. Başlık ve mesaj metni bu karar için kullanılmaz; tek istisna şu: İçerik iznini açar ve spoiler kelimeleri ya da arşiv kelime grupları eklersen, başlık ve metin telefonda senin kelimelerinle karşılaştırılır. Hiçbir şey bir yere gönderilmez.</p>"
+        "body": "<p>Uygulama, Android ayarlarından senin verdiğin bildirim erişimine ihtiyaç duyar. Bir bildirimin hemen mi geleceğine yoksa bekleyeceğine karar verirken bildirimi gönderen uygulamayı, bildirim türünü (ör. arama, alarm ya da mesaj kategorisi) ve saati kullanır. Tek istisna Spoiler modu: onu açarsan seçtiğin kelimeler (ör. takım adı) bildirimin başlığında ve metninde, telefonunda aranır. İçeriğin başka nerede kullanıldığı aşağıdaki bölümlerde yazıyor. Hiçbir şey bir yere gönderilmez.</p>"
       },
       {
-        "h": "Bildirim içeriği (isteğe bağlı)",
-        "body": "<ul><li>Ayarlar'da <b>Bildirim içeriğini göster</b> seçeneğini açarsan, bekleyen bildirimlerin içeriği yalnız sana gösterildiği anda okunur.</li><li>Ayrıca Geçmiş'te içeriği saklamayı da açarsan, bu içerik seçtiğin süre boyunca (bir ya da yedi gün) telefonda şifreli tutulur. Süre dolunca ya da bildirim erişimi kapatılınca silinir.</li><li>İçerik izni açıkken bildirim türü filtresi, türleri tanıyabilmen için bir uygulamanın her bildirim türünden bir örnek başlığı telefonda şifreli olarak saklar.</li></ul>"
+        "h": "Bildirim içeriği",
+        "body": "<ul><li><b>Gösterme (varsayılan açık):</b> Bekleyen ve geçmişteki bildirimlerin başlığı ve metni uygulamada sana gösterilir. Ayarlar'da <b>Bildirim içeriğini göster</b> seçeneğini kapatırsan içerik okunmaz ve saklanmaz; yalnız uygulama adı, saat ve bekleme nedeni görünür.</li><li><b>Saklama süresi (senin seçimin):</b> Geçmiş ve içerik telefonda şifreli tutulur. Ne kadar saklanacağını kurulumda seçersin (7, 30, 90 ya da 365 gün ya da otomatik silme yok) ve sonra Ayarlar'dan değiştirebilirsin. Süre seçmezsen hiçbir kayıt kendiliğinden silinmez; geçmiş çok yer kaplarsa eski kayıtları temizlemek isteyip istemediğin sorulur. İçerik göstermeyi kapatınca içerik silinir. Arşiv bu temizlikten etkilenmez.</li><li><b>Senin kelimelerin:</b> Spoiler kelimeleri ya da arşiv kelime grupları eklersen başlık ve metin telefonda bu kelimelerle karşılaştırılır.</li><li><b>Bildirim türü filtresi:</b> Türleri tanıyabilmen için bir uygulamanın her bildirim türünden bir örnek başlık telefonda şifreli olarak saklanır.</li><li><b>Geçmiş kaydı:</b> Telefona gelen her bildirim için uygulama, saat ve ne olduğu (hemen geldi, bekletildi, teslim edildi, okundu sayıldı) Geçmiş'te telefonda tutulur.</li></ul>"
       },
       {
         "h": "Bildirim arşivi",
-        "body": "<ul><li>Arşivde senin arşivlemeyi seçtiğin bildirimler ve arşiv grubu kurduysan “Okundu say” dediğin ve gruplarından birine uyan bildirimler bulunur: uygulama adı, başlık, metin ve tarih ile senin eklediğin klasör, tutar ve son gün. Bunun dışında hiçbir şey kendiliğinden arşive girmez.</li><li>Arşivdeki kayıtlar sen silene kadar telefonda şifreli durur. Harcama toplamları ve kupon listeleri, arşivlenmiş bildirimlerinden telefonda hesaplanır. Bir kupon kodunu kopyalamak onu telefonunun panosuna koyar.</li><li>Önerilen tutar telefonda hesaplanır. Son gün hatırlatması telefonun kendi alarmıyla kurulur.</li><li>Bir arşiv kaydını takvime eklemek, kendi takvim uygulamanı doldurulmuş bir etkinlikle açar: etkinlik adı olarak bildirimin başlığı (başlık yoksa uygulama adı), tarih olarak da son gün (tüm gün) önerilir. Etkinliği orada görür, değiştirebilir ve kaydedip kaydetmemeyi sen seçersin. Uygulama bunun için takvim izni istemez. Takvimin bir hesapla (ör. Google) eşitleniyorsa kaydettiğin etkinlik de o hesaba gider; bunu senin takvim uygulaman yapar, ha!shh hiçbir şey göndermez.</li><li>Arşivi, telefonunun kendi dosya seçicisiyle seçtiğin bir yere (ör. Google Drive, Dropbox ya da telefonundaki bir klasör) aktarabilirsin: ya güçlü bir parolayla korunan bir dosya olarak ya da dosyaya sahip olan herkesin okuyabileceği şifresiz bir dosya olarak. İçerik izni kapalıysa dosyada başlık ve metin boş bırakılır. Dosyanın nereye gideceği ve kimin açabileceği bundan sonra sana ve seçtiğin hizmete bağlıdır; ha!shh'ın kendisi hiçbir şey göndermez.</li></ul>"
+        "body": "<ul><li><b>Otomatik arşiv (varsayılan açık):</b> Banka ödemeleri, kuponlar, harcamalar ve faturalar bildirim gelir gelmez arşive kaydedilir. Bunları tanımak için başlık ve metin telefonda belirli ifadelerle (ör. “ödeme yapıldı”, “son ödeme tarihi”, kupon kodu) karşılaştırılır; bunun için hiçbir şey telefondan çıkmaz. Otomatik arşivi ya da türlerinden birini Ayarlar'dan kapatabilirsin. Otomatik kayıtlar varsayılan olarak 365 gün saklanır; süreyi seçebilirsin, düzenlediğin ya da not eklediğin kayıtlar silinmez. İçerik göstermeyi kapatırsan otomatik arşiv de çalışmaz.</li><li>Bunun dışında arşivde senin arşivlemeyi seçtiğin bildirimler ve arşiv grubu kurduysan “Okundu say” dediğin ve gruplarından birine uyan bildirimler bulunur: uygulama adı, başlık, metin ve tarih ile senin eklediğin klasör, tutar ve son gün. Bunlar sen silene kadar telefonda şifreli durur.</li><li>Harcama toplamları ve kupon listeleri, arşivlenmiş bildirimlerinden telefonda hesaplanır. Bir kupon kodunu kopyalamak onu telefonunun panosuna koyar.</li><li>Önerilen tutar telefonda hesaplanır. Son gün hatırlatması telefonun kendi alarmıyla kurulur.</li><li>Bir arşiv kaydını takvime eklemek, kendi takvim uygulamanı doldurulmuş bir etkinlikle açar: etkinlik adı olarak bildirimin başlığı (başlık yoksa uygulama adı), tarih olarak da son gün (tüm gün) önerilir. Etkinliği orada görür, değiştirebilir ve kaydedip kaydetmemeyi sen seçersin. Uygulama bunun için takvim izni istemez. Takvimin bir hesapla (ör. Google) eşitleniyorsa kaydettiğin etkinlik de o hesaba gider; bunu senin takvim uygulaman yapar, ha!shh hiçbir şey göndermez.</li><li>Arşivi, telefonunun kendi dosya seçicisiyle seçtiğin bir yere (ör. Google Drive, Dropbox ya da telefonundaki bir klasör) aktarabilirsin: ya güçlü bir parolayla korunan bir dosya olarak ya da dosyaya sahip olan herkesin okuyabileceği şifresiz bir dosya olarak. İçerik göstermeyi kapattıysan dosyada başlık ve metin boş bırakılır. Dosyanın nereye gideceği ve kimin açabileceği bundan sonra sana ve seçtiğin hizmete bağlıdır; ha!shh'ın kendisi hiçbir şey göndermez.</li></ul>"
       },
       {
         "h": "Parmak izi kilidi",
@@ -567,7 +567,7 @@
       },
       {
         "h": "Diğer izinler",
-        "body": "<ul><li><b>Bildirim gönderme:</b> bekletilen bildirimleri ve hatırlatmaları sana ulaştırmak için.</li><li><b>Açılışta başlama:</b> telefon yeniden başlayınca kurallarını ve hatırlatmalarını geri kurmak için.</li><li><b>Takvim (isteğe bağlı):</b> toplantılar sırasında modu değiştirmek için yalnız etkinliklerin başlangıç ve bitiş saati ile meşgul bilgisi okunur. Etkinlik başlıkları okunmaz.</li><li><b>Bluetooth (isteğe bağlı):</b> telefon arabana bağlanınca modu değiştirmek için. Cihazın ham adresi saklanmaz; yalnız geri çözülemeyen bir parmak izi ve senin gördüğün cihaz adı şifreli tutulur.</li></ul>"
+        "body": "<ul><li><b>Bildirim gönderme:</b> bekletilen bildirimleri ve hatırlatmaları sana ulaştırmak için.</li><li><b>Açılışta başlama:</b> telefon yeniden başlayınca kurallarını ve hatırlatmalarını geri kurmak için.</li><li><b>Titreşim:</b> Bekletilen bildirimler ses çıkarmasın diye ha!shh bildirim seslerini yönetir ve hemen gelen bildirimlerin sesini ve titreşimini kendisi çalar. Aramalar ve alarmlar etkilenmez; Ayarlar'dan kapatılabilir.</li><li><b>Uyanık tutma:</b> Ekran kapalıyken gelen bir bildirimin kararı gecikmesin diye telefon en fazla 3 saniye uyanık tutulur.</li><li><b>Takvim (isteğe bağlı):</b> toplantılar sırasında modu değiştirmek için yalnız etkinliklerin başlangıç ve bitiş saati ile meşgul bilgisi okunur. Etkinlik başlıkları okunmaz.</li><li><b>Bluetooth (isteğe bağlı):</b> telefon arabana bağlanınca modu değiştirmek için. Cihazın ham adresi saklanmaz; yalnız geri çözülemeyen bir parmak izi ve senin gördüğün cihaz adı şifreli tutulur.</li></ul>"
       },
       {
         "h": "Yüklü uygulamaların",
@@ -623,7 +623,7 @@
       },
       {
         "q": "Uygulama bildirimlerimi okuyor mu?",
-        "a": "Varsayılan olarak hayır. Kararlar yalnız uygulama, bildirim türü ve saatle verilir. İçerik yalnız içerik göstermeyi açarsan ve yalnız sana gösterildiği anda okunur."
+        "a": "Biz okumuyoruz: uygulamanın internet izni yoktur ve hiçbir şey telefonundan çıkmaz. Uygulama, bildirimleri bekletme kararını uygulama, bildirim türü ve saatle verir (Spoiler modunu açarsan seçtiğin kelimeler de aranır). İçeriği sana göstermek, senin seçtiğin süre boyunca saklamak ve banka ödemeleri, kuponlar, harcamalar ve faturaları otomatik arşivlemek için içerik telefonda okunur. İstemezsen Ayarlar'dan <b>Bildirim içeriğini göster</b> seçeneğini kapat."
       },
       {
         "q": "Önemli bir aramayı ya da mesajı kaçırır mıyım?",
@@ -643,7 +643,7 @@
       },
       {
         "q": "Bildirimler kendiliğinden arşive girer mi?",
-        "a": "Yalnız sen istersen. Varsayılan olarak yalnız senin arşivlemeyi seçtiğin bildirimler kaydedilir. Arşiv grubu kurarsan (uygulamaya, kişiye ya da yazdığın bir kelimeye göre), “Okundu say” dediğin ve bir gruba uyan bildirimler de oraya kaydedilir. Arşiv telefonunda şifreli durur ve yalnız sen dosyaya aktarırsan telefondan çıkar. Klasör, tutar ve son gün ekleyebilir, kayıtları istediğin zaman silebilirsin."
+        "a": "Banka ödemeleri, kuponlar, harcamalar ve faturalar evet: otomatik arşiv varsayılan olarak açık ve bunları bildirim gelir gelmez kaydeder. Diğer bildirimler yalnız sen arşivlersen ya da kurduğun bir arşiv grubuna uyarsa kaydedilir. Otomatik arşivi ya da türlerinden birini Ayarlar'dan kapatabilirsin. Arşiv telefonunda şifreli durur ve yalnız sen dosyaya aktarırsan telefondan çıkar. Klasör, tutar ve son gün ekleyebilir, kayıtları istediğin zaman silebilirsin."
       },
       {
         "q": "Uygulamayı kaldırırsam ne olur?",
@@ -668,6 +668,21 @@
     "lead": "ha!shh'ta neler yeni. Uygulama hâlâ geliştiriliyor: burada yazanların hepsi geliştirme sürümünde ve lansmanla birlikte Google Play'e gelecek."
   },
   "news": [
+    {
+      "date": "2026-10-21",
+      "h": "10 dil, widget'lar ve masa görünümü",
+      "items": [
+        "<b>Uygulama 10 dilde:</b> Bütün ekranlar İngilizce, Türkçe, Arapça, Almanca, İspanyolca, Fransızca, Hintçe, Endonezce, Portekizce ve Rusça. Dili Ayarlar → Görünüm'den uygulamanın içinde de seçebilirsin.",
+        "<b>Ana ekran widget'ları:</b> Dört boyutta sıradaki teslim, etkin mod, bekleyen sayısı ve en çok bekleyen uygulamalar. Büyük boyutta bekleyenler listelenir ve tek dokunuşla okundu sayılır. Widget temaya uyar; saate dokununca şu anki saati gösterir.",
+        "<b>Masa görünümü:</b> Telefonu yan çevirince büyük saat, etkin mod, hafta şeridi, sıradaki teslim ve bekleyenler. Hangilerinin görüneceğini seçersin, kendi fotoğrafını çerçeve ya da arka plan yapabilirsin. Şarjdayken ekran açık kalır; düşük güç düzeninde parlaklık kısılır ve ekran dakikada bir yenilenir.",
+        "<b>Her bildirim Geçmiş'te:</b> Hemen gelenler de artık Geçmiş'e girer; yanlışlıkla kapattığın bir bildirimi orada bulursun. Geçmişin ne kadar saklanacağını kurulumda sen seçersin; seçmezsen hiçbir şey kendiliğinden silinmez, yer kaplarsa temizlemek için sana sorulur.",
+        "<b>Otomatik arşiv:</b> Banka ödemeleri, kuponlar, gerçekleşmiş harcamalar ve faturalar bildirim gelir gelmez arşive girer; reklamlardaki fiyatlar girmez. Elle eklediğin ve düzenlediğin kayıtlar hep kalır. Kapatılabilir; tutarlar telefonunun para birimiyle gösterilir.",
+        "<b>Sessiz bekleme:</b> Bekletilen bildirimler hiç ses çıkarmaz; hemen gelenlerin sesini ha!shh çalar. Aramalar ve alarmlar etkilenmez.",
+        "<b>Geri al:</b> Bekleyen bir kartı kaydırıp okundu saydığında ya da ertelediğinde 4 saniye içinde geri alabilirsin.",
+        "<b>Daha sade ekranlar:</b> Kurallar, Plan ve Geçmiş yeniden düzenlendi; bildirim raporu ve istatistikler tek ekranda. İlk kurulum gece Uyku planını da kurar. Hassas ekranlarda ekran görüntüsü engeli artık Ayarlar'dan açılan bir seçenek.",
+        "<b>Düzeltmeler:</b> Ekran kapalıyken bekletmedeki gecikme giderildi; sessiz gelen bildirimler de kurallara uyuyor; Android sistem ve SIM bildirimleri hiç bekletilmez; bir mod bitince beklettikleri birlikte gelir; yaz/kış saati gecesinde mod doğru saatte biter; alışveriş uygulamaları doğru grupta; başka uygulamalar ha!shh'ın ekranlarını ve temasını açıp değiştiremez."
+      ]
+    },
     {
       "date": "2026-10-14",
       "h": "Arkadaşlarını davet et, ödül kazan",

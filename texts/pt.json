@@ -208,14 +208,14 @@
       },
       {
         "b": "3",
-        "p": "Critérios usados para a decisão: o app, o tipo de notificação e o horário. Títulos e textos só são comparados com as suas próprias palavras (palavras de spoiler ou de arquivo), apenas se você ativar o acesso ao conteúdo e somente no celular."
+        "p": "O que é usado para decidir se uma notificação deve ser retida: o app, o tipo de notificação e o horário. Somente se você ativar o modo spoiler as palavras que você escolheu são buscadas dentro da notificação, no seu celular."
       },
       {
-        "b": "Opcional",
-        "p": "O conteúdo das notificações não é lido por padrão. Se você quiser ver o que está aguardando, basta ativar nas Configurações."
+        "b": "Seu",
+        "p": "Por quanto tempo o conteúdo é guardado é uma escolha sua. O conteúdo das notificações é mostrado no app e permanece criptografado no seu celular; você escolhe por quanto tempo ele é guardado, ou desativa isso completamente nas Configurações."
       }
     ],
-    "priv_more_p": "As configurações e os registros ficam salvos criptografados no telefone. O arquivo mantém apenas as notificações que você salva ou que correspondem aos seus próprios grupos de arquivamento, também criptografadas e no telefone; só saem do telefone se você exportar para um arquivo. Desinstalar o aplicativo apaga os dados dele.",
+    "priv_more_p": "Configurações e registros são mantidos criptografados no seu celular. O conteúdo das notificações é mostrado no app e guardado pelo tempo que você escolher, e pagamentos bancários, cupons, gastos e contas vão para o arquivo automático. Tudo isso pode ser desativado nas Configurações, e só sai do seu celular se você exportar para um arquivo. Desinstalar o app apaga seus dados.",
     "priv_more": "Leia a política de privacidade completa →",
     "status_eyebrow": "Status",
     "status_h": "Em desenvolvimento, em breve no Google Play.",
@@ -451,7 +451,7 @@
         "items": [
           {
             "t": "Arquivo de notificações",
-            "p": "Salve as notificações que quiser em pastas como Cupons, Contas e Despesas, ou na sua própria pasta. O app sugere o valor e você confirma; um total mensal é exibido. Adicione uma data de vencimento para receber um lembrete naquela manhã, e você pode adicioná-la ao calendário do seu celular (sem precisar de permissão de calendário). Você também pode arquivar uma notificação direto do Histórico se o conteúdo tiver sido mantido lá. Nada entra no arquivo sozinho, a menos que você configure grupos de arquivo.",
+            "p": "Salve qualquer notificação em pastas como Cupons, Contas a pagar ou Gastos, ou em uma pasta própria. O app sugere o valor e você confirma; um total mensal é mostrado. Defina uma data de vencimento e você será lembrado naquela manhã; você também pode adicioná-la ao calendário do seu celular (nenhuma permissão de calendário é necessária). Pagamentos bancários, cupons, gastos e contas vão para o arquivo automaticamente assim que chegam; você pode desativar isso, ou qualquer um desses tipos, nas Configurações.",
             "new": "Novo"
           },
           {
@@ -460,8 +460,8 @@
             "new": "Novo"
           },
           {
-            "t": "Ver o conteúdo, apenas se você permitir",
-            "p": "O conteúdo das notificações não é lido por padrão. Ative a exibição de conteúdo nas Configurações para ver o que está aguardando."
+            "t": "O conteúdo permanece no seu celular, sob seu controle",
+            "p": "O conteúdo das notificações em espera e anteriores é mostrado no app e mantido criptografado no seu celular; você escolhe por quanto tempo ele é guardado. Se você preferir que não, desative a exibição de conteúdo nas Configurações; assim, apenas o nome do app, o horário e o motivo da retenção são mostrados."
           },
           {
             "t": "Temas e ícone do app",
@@ -540,10 +540,10 @@
   },
   "privacy": {
     "title": "Política de privacidade · {brand}",
-    "desc": "Como o app de notificações lida com os dados: sem permissão de internet, tudo fica criptografado no celular, conteúdo de notificações somente com a sua autorização.",
+    "desc": "Como o app de notificações lida com os dados: sem permissão de internet, tudo permanece criptografado no seu celular; a exibição de conteúdo, a retenção e o arquivo automático estão sob seu controle.",
     "h1": "Política de privacidade",
-    "updated": "Última atualização: 14 de outubro de 2026",
-    "intro": "Em resumo: o app não tem permissão de internet e não envia nada para lugar nenhum. Tudo o que ele armazena fica criptografado no seu celular. O conteúdo das notificações não é lido a menos que você ative essa opção, e o arquivo guarda apenas as notificações que você escolher salvar.",
+    "updated": "Última atualização: 21 de outubro de 2026",
+    "intro": "Em resumo: o app não tem permissão de internet e não envia nada para lugar nenhum. Tudo o que ele guarda permanece criptografado no seu celular, e só você vê. O conteúdo das notificações é mostrado no app e guardado pelo tempo que você escolher, e pagamentos bancários, cupons, gastos e contas vão para o arquivo automático. Você pode desativar tudo isso nas Configurações.",
     "sections": [
       {
         "h": "Quem somos",
@@ -551,15 +551,15 @@
       },
       {
         "h": "Acesso às notificações (obrigatório)",
-        "body": "<p>O app precisa de acesso às notificações, que você concede nas configurações do Android. Para decidir o que acontece com uma notificação, ele usa o app que a enviou, o tipo de notificação (por exemplo, chamada, alarme ou categoria de mensagem) e o horário. Títulos e textos de mensagens não são usados para essa decisão, com uma exceção: se você ativar o acesso ao conteúdo e adicionar palavras de spoiler ou grupos de palavras de arquivo, o título e o texto são comparados com as suas palavras no celular. Nada é enviado para lugar nenhum.</p>"
+        "body": "<p>O app precisa do acesso às notificações que você concede nas configurações do Android. Para decidir se uma notificação passa direto ou fica em espera, ele usa o app que a enviou, o tipo de notificação (por exemplo, chamada, alarme ou categoria de mensagem) e o horário. A única exceção é o modo spoiler: se você ativá-lo, as palavras que você escolheu (como o nome de um time) são buscadas no título e no texto da notificação, no seu celular. Os demais casos em que o conteúdo é usado estão descritos nas seções abaixo. Nada é enviado para lugar nenhum.</p>"
       },
       {
-        "h": "Conteúdo das notificações (opcional)",
-        "body": "<ul><li>Se você ativar <b>Mostrar conteúdo da notificação</b> nas Configurações, o conteúdo das notificações em espera é lido apenas no momento em que é exibido para você.</li><li>Se você também ativar a opção de manter o conteúdo no Histórico, esse conteúdo é armazenado criptografado no celular por um ou sete dias, conforme a sua escolha. Ele é excluído quando o período termina ou quando o acesso às notificações é desativado.</li><li>Com o acesso ao conteúdo ativado, o filtro por tipo de notificação mantém um título de exemplo para cada tipo de notificação de um app, criptografado no celular, para que você possa reconhecer os tipos.</li></ul>"
+        "h": "Conteúdo das notificações",
+        "body": "<ul><li><b>Exibição (ativada por padrão):</b> O título e o texto das notificações em espera e anteriores são mostrados a você no app. Se você desativar <b>Mostrar conteúdo das notificações</b> nas Configurações, o conteúdo não é lido nem guardado; apenas o nome do app, o horário e o motivo da retenção são mostrados.</li><li><b>Por quanto tempo é mantido (sua escolha):</b> O Histórico e o conteúdo são mantidos criptografados no seu celular. Você escolhe por quanto tempo durante a configuração (7, 30, 90 ou 365 dias, ou sem exclusão automática) e pode alterar mais tarde nas Configurações. Se você não escolher, nada é excluído automaticamente; se o Histórico ocupar muito espaço, é perguntado a você se deseja limpar registros antigos. O conteúdo é excluído quando você desativa a exibição de conteúdo. O arquivo não é afetado por essa limpeza.</li><li><b>Suas próprias palavras:</b> Se você adicionar palavras de spoiler ou grupos de palavras de arquivamento, o título e o texto são comparados com essas palavras no seu celular.</li><li><b>Filtro por tipo de notificação:</b> Para que você possa reconhecer os tipos, um título de exemplo por tipo de notificação de um app é mantido criptografado no seu celular.</li><li><b>Registro do Histórico:</b> Para cada notificação que seu celular recebe, o app, o horário e o que aconteceu (passou direto, retida, entregue, marcada como lida) são guardados no Histórico no seu celular.</li></ul>"
       },
       {
         "h": "Arquivo de notificações",
-        "body": "<ul><li>O arquivo guarda as notificações que você escolher arquivar e, se você configurar grupos de arquivo, as notificações que você marcar como lidas e que coincidirem com um dos seus grupos: o nome do app, título, texto e data, além da pasta, valor e data de vencimento que você adicionar. Nada mais entra no arquivo sozinho.</li><li>Os itens arquivados permanecem criptografados no celular até que você os exclua. Os totais de gastos e as listas de cupons são calculados no celular a partir das suas notificações arquivadas. Copiar um código de cupom o coloca na área de transferência do seu celular.</li><li>O valor sugerido é calculado no celular. O lembrete de data de vencimento usa o próprio alarme do celular.</li><li>Adicionar um item do arquivo ao seu calendário abre o seu próprio app de calendário com um evento preenchido: o título da notificação (ou o nome do app, se não houver título) como o nome do evento e a data de vencimento como uma data de dia inteiro. Você vê o evento lá, pode alterá-lo e escolher se deseja salvá-lo. O app não precisa de permissão de calendário para isso. Se o seu calendário sincroniza com uma conta (por exemplo, Google), o evento salvo vai para essa conta; isso é feito pelo seu app de calendário, e o ha!shh não envia nada.</li><li>Você pode exportar o arquivo para um local que escolher (por exemplo, Google Drive, Dropbox ou uma pasta no seu celular) usando o próprio seletor de arquivos do celular: seja como um arquivo protegido por uma senha forte, seja como um arquivo simples que qualquer pessoa que tenha o arquivo pode ler. Se o acesso ao conteúdo estiver desativado, títulos e textos ficam em branco no arquivo. Para onde o arquivo vai e quem pode abri-lo depende então de você e do serviço que você escolheu; o ha!shh em si não envia nada.</li></ul>"
+        "body": "<ul><li><b>Arquivo automático (ativado por padrão):</b> Pagamentos bancários, cupons, gastos e contas são salvos no arquivo assim que chegam. Para reconhecê-los, o título e o texto são comparados no seu celular com certas frases (por exemplo, “pagamento realizado”, “data de vencimento”, um código de cupom); nada sai do seu celular para isso. Você pode desativar o arquivo automático, ou qualquer um dos seus tipos, nas Configurações. As entradas automáticas são guardadas por 365 dias por padrão; você pode escolher o período, e as entradas que você editar ou às quais adicionar uma nota não são excluídas. Se você desativar a exibição de conteúdo, o arquivo automático também é interrompido.</li><li>Além disso, o arquivo guarda as notificações que você escolhe arquivar e, se você tiver configurado grupos de arquivamento, as notificações que você marcou como lidas e que correspondem a um dos seus grupos: nome do app, título, texto e data, além da pasta, valor e data de vencimento que você adicionou. Esses dados permanecem criptografados no seu celular até que você os exclua.</li><li>Os totais de gastos e as listas de cupons são calculados no seu celular a partir das suas notificações arquivadas. Copiar um código de cupom o coloca na área de transferência do seu celular.</li><li>O valor sugerido é calculado no seu celular. Os lembretes de data de vencimento são definidos com o próprio alarme do seu celular.</li><li>Adicionar uma entrada do arquivo ao seu calendário abre o seu próprio app de calendário com um evento pré-preenchido: o título da notificação (ou o nome do app se não houver título) é sugerido como o nome do evento e a data de vencimento (o dia todo) como a data. Você vê o evento lá, pode alterá-lo e escolher se deseja salvá-lo. O app não pede permissão de calendário para isso. Se o seu calendário sincroniza com uma conta (como o Google), o evento que você salva vai para essa conta também; quem faz isso é o seu app de calendário, o ha!shh não envia nada.</li><li>Você pode exportar o arquivo com o seletor de arquivos do seu próprio celular para um local que você escolher (como Google Drive, Dropbox ou uma pasta no seu celular): seja como um arquivo protegido com uma senha forte, seja como um arquivo não criptografado que qualquer pessoa que o tenha possa ler. Se você desativou a exibição de conteúdo, o título e o texto ficam em branco no arquivo. Para onde o arquivo vai e quem pode abri-lo depende então de você e do serviço escolhido; o próprio ha!shh não envia nada.</li></ul>"
       },
       {
         "h": "Bloqueio por impressão digital",
@@ -567,7 +567,7 @@
       },
       {
         "h": "Outras permissões",
-        "body": "<ul><li><b>Enviar notificações:</b> para entregar notificações retidas e lembretes.</li><li><b>Inicialização após reiniciar:</b> para restaurar suas regras e lembretes após o celular ser reiniciado.</li><li><b>Agenda (opcional):</b> apenas os horários de início e término e o status de ocupado dos eventos são lidos, para alternar modos durante reuniões. Os títulos dos eventos não são lidos.</li><li><b>Bluetooth (opcional):</b> para alternar modos quando o celular se conectar ao seu carro. O endereço físico do dispositivo não é armazenado; apenas uma impressão digital unidirecional e o nome do dispositivo visível são mantidos, criptografados.</li></ul>"
+        "body": "<ul><li><b>Enviar notificações:</b> para entregar notificações retidas e lembretes a você.</li><li><b>Iniciar na inicialização:</b> para configurar suas regras e lembretes novamente após o celular reiniciar.</li><li><b>Vibração:</b> Para que notificações retidas não emitam nenhum som, o ha!shh gerencia os sons das notificações e reproduz ele mesmo o som e a vibração das notificações que passam direto. Chamadas e alarmes não são afetados; isso pode ser desativado nas Configurações.</li><li><b>Manter ativo:</b> Para que a decisão sobre uma notificação que chega enquanto a tela está desligada não sofra atraso, o celular é mantido acordado por no máximo 3 segundos.</li><li><b>Calendário (opcional):</b> para alterar o modo durante reuniões, apenas os horários de início e término e o status de ocupado dos eventos são lidos. Os títulos dos eventos não são lidos.</li><li><b>Bluetooth (opcional):</b> para alterar o modo quando o celular se conecta ao seu carro. O endereço bruto do dispositivo não é armazenado; apenas uma impressão digital irreversível e o nome do dispositivo que você vê são guardados, de forma criptografada.</li></ul>"
       },
       {
         "h": "Seus apps instalados",
@@ -623,7 +623,7 @@
       },
       {
         "q": "O app lê minhas notificações?",
-        "a": "Não por padrão. As decisões usam apenas o app, o tipo de notificação e o horário. O conteúdo só é lido se você ativar a exibição de conteúdo, e apenas no momento em que for mostrado a você."
+        "a": "Nós não lemos: o app não tem permissão de internet e nada sai do seu celular. O app decide se deve reter uma notificação usando o app, o tipo de notificação e o horário (se você ativar o modo spoiler, as palavras que você escolheu também são buscadas). O conteúdo é lido no seu celular para ser mostrado a você, para ser guardado pelo tempo que você escolher e para arquivar pagamentos bancários, cupons, gastos e contas automaticamente. Se você preferir que não, desative <b>Mostrar conteúdo das notificações</b> nas Configurações."
       },
       {
         "q": "Posso perder uma ligação ou mensagem importante?",
@@ -643,7 +643,7 @@
       },
       {
         "q": "As notificações vão para o arquivo sozinhas?",
-        "a": "Só se você quiser. Por padrão, apenas as notificações que você decide arquivar são salvas. Se você configurar grupos de arquivamento (por app, pessoa ou uma palavra que você escrever), as notificações que você marcar como lidas e que corresponderem a um grupo também serão salvas lá. O arquivo continua criptografado no seu telefone e só sai dele se você exportar para um arquivo. Você pode adicionar uma pasta, um valor e uma data de vencimento, além de excluir itens a qualquer momento."
+        "a": "Pagamentos bancários, cupons, gastos e contas, sim: o arquivo automático vem ativado por padrão e salva esses itens assim que chegam. Outras notificações só são salvas se você as arquivar ou se corresponderem a um grupo de arquivamento configurado por você. Você pode desativar o arquivo automático, ou qualquer um dos seus tipos, nas Configurações. O arquivo permanece criptografado no seu celular e só sai dele se você o exportar para um arquivo. Você pode adicionar pasta, valor e data de vencimento, e excluir entradas quando quiser."
       },
       {
         "q": "O que acontece se eu desinstalar o app?",
@@ -668,6 +668,21 @@
     "lead": "Novidades no ha!shh. O app ainda está em desenvolvimento: tudo o que está aqui faz parte da versão de desenvolvimento e chega ao Google Play no lançamento."
   },
   "news": [
+    {
+      "date": "2026-10-21",
+      "h": "10 idiomas, widgets e modo mesa",
+      "items": [
+        "<b>O app em 10 idiomas:</b> Todas as telas estão disponíveis em inglês, turco, árabe, alemão, espanhol, francês, híndi, indonésio, português e russo. Você também pode escolher o idioma dentro do app, em Configurações → Aparência.",
+        "<b>Widgets da tela inicial:</b> Em quatro tamanhos, mostrando a próxima entrega, o modo ativo, quantas notificações estão em espera e os apps com mais notificações retidas. O tamanho grande lista as notificações em espera, e um toque as marca como lidas. Os widgets seguem o seu tema; toque no horário para ver a hora atual.",
+        "<b>Modo mesa:</b> Gire o celular de lado para ver um relógio grande, o modo ativo, uma faixa semanal, a próxima entrega e o que está em espera. Escolha o que exibir e use sua própria foto como moldura ou plano de fundo. A tela permanece ligada durante o carregamento; no layout de baixo consumo, ela escurece e atualiza uma vez por minuto.",
+        "<b>Todas as notificações no Histórico:</b> Notificações que passaram direto agora vão para o Histórico também, para que você possa encontrar uma que dispensou por engano. Você escolhe durante a configuração por quanto tempo o Histórico é mantido; se não escolher, nada é excluído automaticamente, e se ocupar espaço, é perguntado a você antes que qualquer coisa seja limpa.",
+        "<b>Arquivo automático:</b> Pagamentos bancários, cupons, gastos concluídos e contas vão para o arquivo assim que chegam; preços em anúncios não. Entradas que você mesmo adicionou ou editou sempre permanecem. O recurso pode ser desativado; os valores são exibidos na moeda do seu celular.",
+        "<b>Espera silenciosa:</b> Notificações retidas não emitem som algum; o ha!shh reproduz o som daquelas que passam direto. Chamadas e alarmes não são afetados.",
+        "<b>Desfazer:</b> Ao deslizar um cartão em espera para marcá-lo como lido ou adiá-lo, você pode desfazer a ação em até 4 segundos.",
+        "<b>Telas mais simples:</b> Regras, Plano e Histórico foram reorganizados; o relatório de notificações e as estatísticas estão em uma única tela. A configuração inicial também define um plano de Sono noturno. Bloquear capturas em telas confidenciais agora é uma opção que você ativa nas Configurações.",
+        "<b>Correções:</b> O atraso na retenção de notificações enquanto a tela está desligada foi corrigido; notificações que chegam silenciosamente também seguem suas regras; notificações do sistema Android e do SIM nunca são retidas; quando um modo termina, tudo o que ele reteve chega junto; em noites de horário de verão, os modos terminam no horário certo; apps de compras vão para o grupo correto; outros apps não conseguem abrir nem alterar as telas e o tema do ha!shh."
+      ]
+    },
     {
       "date": "2026-10-14",
       "h": "Convide amigos, ganhe recompensas",

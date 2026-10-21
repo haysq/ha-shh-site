@@ -208,14 +208,14 @@
       },
       {
         "b": "3",
-        "p": "Things used to decide: the app, the notification type and the time. Titles and text are only compared with your own words (spoiler or archive words), only if you turn on content access, and only on the phone."
+        "p": "Things used to decide whether to hold a notification: the app, the notification type and the time. Only if you turn on spoiler mode are the words you chose looked for inside the notification, on your phone."
       },
       {
-        "b": "Opt-in",
-        "p": "Notification content is not read by default. If you want to see what is waiting, you turn it on in Settings."
+        "b": "Yours",
+        "p": "How long content is kept is your choice. Notification content is shown in the app and stays encrypted on your phone; you choose how long it's kept, or turn it off completely in Settings."
       }
     ],
-    "priv_more_p": "Settings and records are stored encrypted on the phone. The archive keeps only the notifications you save or that match your own archive groups, also encrypted and on the phone; it leaves the phone only if you export it to a file. Uninstalling the app deletes its data.",
+    "priv_more_p": "Settings and records are kept encrypted on your phone. Notification content is shown in the app and kept for as long as you choose, and bank payments, coupons, spending and bills go into the automatic archive. All of this can be turned off in Settings, and it only leaves your phone if you export it to a file. Uninstalling the app deletes its data.",
     "priv_more": "Read the full privacy policy →",
     "status_eyebrow": "Status",
     "status_h": "In development, coming soon on Google Play.",
@@ -451,7 +451,7 @@
         "items": [
           {
             "t": "Notification archive",
-            "p": "Save the notifications you want into folders such as Coupons, Bills and Expenses, or your own folder. The app suggests the amount and you confirm it; a monthly total is shown. Add a due date and you get a reminder that morning, and you can add it to your phone's calendar (no calendar permission needed). You can also archive a notification straight from History if its content was kept there. Nothing enters the archive on its own unless you set up archive groups.",
+            "p": "Save any notification into folders like Coupons, Bills to pay or Spending, or into a folder of your own. The app suggests the amount and you confirm it; a monthly total is shown. Give it a due date and you're reminded that morning; you can also add it to your phone's calendar (no calendar permission needed). Bank payments, coupons, spending and bills go into the archive automatically as soon as they arrive; you can turn this, or any of these types, off in Settings.",
             "new": "New"
           },
           {
@@ -460,8 +460,8 @@
             "new": "New"
           },
           {
-            "t": "See content, only if you allow it",
-            "p": "Notification content is not read by default. Turn on content display in Settings to see what is waiting."
+            "t": "Content stays on your phone, under your control",
+            "p": "The content of waiting and past notifications is shown in the app and kept encrypted on your phone; you choose how long it's kept. If you'd rather not, turn off content display in Settings; then only the app name, time and reason for waiting are shown."
           },
           {
             "t": "Themes and app icon",
@@ -540,10 +540,10 @@
   },
   "privacy": {
     "title": "Privacy policy · {brand}",
-    "desc": "How the notification app handles data: no internet permission, everything stays encrypted on your phone, notification content only with your permission.",
+    "desc": "How the notification app handles data: no internet permission, everything stays encrypted on your phone; content display, retention and the automatic archive are under your control.",
     "h1": "Privacy policy",
-    "updated": "Last updated: 14 October 2026",
-    "intro": "In short: the app has no internet permission and sends nothing anywhere. Everything it stores stays encrypted on your phone. Notification content is not read unless you turn that on, and the archive holds only the notifications you choose to save.",
+    "updated": "Last updated: 21 October 2026",
+    "intro": "In short: the app has no internet permission and sends nothing anywhere. Everything it keeps stays encrypted on your phone, and only you see it. Notification content is shown in the app and kept for as long as you choose, and bank payments, coupons, spending and bills go into the automatic archive. You can turn all of this off in Settings.",
     "sections": [
       {
         "h": "Who we are",
@@ -551,15 +551,15 @@
       },
       {
         "h": "Notification access (required)",
-        "body": "<p>The app needs notification access, which you grant in Android settings. To decide what happens to a notification, it uses the app that sent it, the notification type (for example call, alarm or message category) and the time. Titles and message text are not used for this decision, with one exception: if you turn on content access and add spoiler words or archive word groups, the title and text are compared with your words on the phone. Nothing is sent anywhere.</p>"
+        "body": "<p>The app needs the notification access you grant in Android settings. To decide whether a notification comes through right away or waits, it uses the app that sent it, the notification type (e.g. call, alarm or message category) and the time. The only exception is spoiler mode: if you turn it on, the words you chose (such as a team name) are looked for in the notification's title and text, on your phone. Where else content is used is described in the sections below. Nothing is sent anywhere.</p>"
       },
       {
-        "h": "Notification content (optional)",
-        "body": "<ul><li>If you turn on <b>Show notification content</b> in Settings, the content of waiting notifications is read only at the moment it is shown to you.</li><li>If you also turn on keeping content in History, that content is stored encrypted on the phone for one or seven days, as you choose. It is deleted when the period ends or when notification access is turned off.</li><li>With content access on, the notification type filter keeps one example title for each notification type of an app, encrypted on the phone, so you can recognise the types.</li></ul>"
+        "h": "Notification content",
+        "body": "<ul><li><b>Display (on by default):</b> The title and text of waiting and past notifications are shown to you in the app. If you turn off <b>Show notification content</b> in Settings, content is neither read nor kept; only the app name, time and reason for waiting are shown.</li><li><b>How long it's kept (your choice):</b> History and content are kept encrypted on your phone. You choose how long during setup (7, 30, 90 or 365 days, or no automatic deletion) and can change it later in Settings. If you don't choose, nothing is deleted automatically; if History takes up a lot of space, you're asked whether to clear old records. Content is deleted when you turn off content display. The archive is not affected by this clean-up.</li><li><b>Your own words:</b> If you add spoiler words or archive word groups, the title and text are compared with those words on your phone.</li><li><b>Notification type filter:</b> So you can recognise the types, one sample title per notification type of an app is kept encrypted on your phone.</li><li><b>History log:</b> For every notification your phone receives, the app, the time and what happened (came through, held, delivered, marked as read) are kept in History on your phone.</li></ul>"
       },
       {
         "h": "Notification archive",
-        "body": "<ul><li>The archive holds the notifications you choose to archive, and, if you set up archive groups, the notifications you mark as read that match one of your groups: the app name, title, text and date, plus the folder, amount and due date you add. Nothing else enters the archive on its own.</li><li>Archived items stay encrypted on the phone until you delete them. Spending totals and coupon lists are calculated on the phone from your archived notifications. Copying a coupon code puts it on your phone's clipboard.</li><li>The suggested amount is calculated on the phone. A due-date reminder uses the phone's own alarm.</li><li>Adding an archive item to your calendar opens your own calendar app with an event filled in: the notification title (or the app name if there is no title) as the event name and the due date as an all-day date. You see it there, can change it and choose whether to save it. The app does not need calendar permission for this. If your calendar syncs with an account (for example Google), the saved event goes to that account; that is done by your calendar app, and ha!shh sends nothing.</li><li>You can export the archive to a place you choose (for example Google Drive, Dropbox or a folder on your phone) using your phone's own file picker: either as a file protected with a strong password, or as a plain file that anyone who has the file can read. If content access is off, titles and text are left empty in the file. Where the file goes and who can open it is then up to you and the service you chose; ha!shh itself sends nothing.</li></ul>"
+        "body": "<ul><li><b>Automatic archive (on by default):</b> Bank payments, coupons, spending and bills are saved to the archive as soon as they arrive. To recognise them, the title and text are compared on your phone with certain phrases (e.g. “payment made”, “due date”, a coupon code); nothing leaves your phone for this. You can turn the automatic archive, or any of its types, off in Settings. Automatic entries are kept for 365 days by default; you can choose the period, and entries you edit or add a note to are not deleted. If you turn off content display, the automatic archive stops too.</li><li>Apart from that, the archive holds the notifications you choose to archive and, if you have set up archive groups, notifications you marked as read that match one of your groups: app name, title, text and date, plus the folder, amount and due date you added. These stay encrypted on your phone until you delete them.</li><li>Spending totals and coupon lists are calculated on your phone from your archived notifications. Copying a coupon code puts it on your phone's clipboard.</li><li>The suggested amount is calculated on your phone. Due-date reminders are set with your phone's own alarm.</li><li>Adding an archive entry to your calendar opens your own calendar app with a pre-filled event: the notification's title (or the app name if there is no title) is suggested as the event name and the due date (all day) as the date. You see the event there, can change it, and choose whether to save it. The app does not ask for calendar permission for this. If your calendar syncs with an account (such as Google), the event you save goes to that account too; your calendar app does that, ha!shh sends nothing.</li><li>You can export the archive with your phone's own file picker to a place you choose (such as Google Drive, Dropbox or a folder on your phone): either as a file protected with a strong password, or as an unencrypted file anyone who has it can read. If you turned off content display, the title and text are left empty in the file. Where the file goes and who can open it then depends on you and the service you chose; ha!shh itself sends nothing.</li></ul>"
       },
       {
         "h": "Fingerprint lock",
@@ -567,7 +567,7 @@
       },
       {
         "h": "Other permissions",
-        "body": "<ul><li><b>Posting notifications:</b> to deliver held notifications and reminders.</li><li><b>Starting after reboot:</b> to restore your rules and reminders after the phone restarts.</li><li><b>Calendar (optional):</b> only the start and end times and busy status of events are read, to switch modes during meetings. Event titles are not read.</li><li><b>Bluetooth (optional):</b> to switch modes when the phone connects to your car. The raw device address is not stored; only a one-way fingerprint and the device name you see are kept, encrypted.</li></ul>"
+        "body": "<ul><li><b>Posting notifications:</b> to deliver held notifications and reminders to you.</li><li><b>Starting at boot:</b> to set your rules and reminders up again after your phone restarts.</li><li><b>Vibration:</b> So held notifications make no sound, ha!shh manages notification sounds and plays the sound and vibration of notifications that come through right away itself. Calls and alarms are not affected; this can be turned off in Settings.</li><li><b>Keeping awake:</b> So the decision about a notification that arrives while the screen is off isn't delayed, the phone is kept awake for at most 3 seconds.</li><li><b>Calendar (optional):</b> to change mode during meetings, only the start and end times and busy status of events are read. Event titles are not read.</li><li><b>Bluetooth (optional):</b> to change mode when your phone connects to your car. The device's raw address is not stored; only an irreversible fingerprint and the device name you see are kept, encrypted.</li></ul>"
       },
       {
         "h": "Your installed apps",
@@ -623,7 +623,7 @@
       },
       {
         "q": "Does the app read my notifications?",
-        "a": "Not by default. Decisions use only the app, the notification type and the time. Content is read only if you turn on content display, and only at the moment it is shown to you."
+        "a": "We don't: the app has no internet permission and nothing leaves your phone. The app decides whether to hold a notification using the app, the notification type and the time (if you turn on spoiler mode, the words you chose are looked for too). Content is read on your phone to show it to you, to keep it for as long as you choose, and to archive bank payments, coupons, spending and bills automatically. If you'd rather not, turn off <b>Show notification content</b> in Settings."
       },
       {
         "q": "Could I miss an important call or message?",
@@ -643,7 +643,7 @@
       },
       {
         "q": "Do notifications go into the archive on their own?",
-        "a": "Only if you ask for it. By default, only notifications you choose to archive are saved. If you set up archive groups (by app, person or a word you write), notifications you mark as read that match a group are saved there too. The archive stays encrypted on your phone and leaves it only if you export it to a file. You can add a folder, an amount and a due date, and delete items at any time."
+        "a": "Bank payments, coupons, spending and bills, yes: the automatic archive is on by default and saves them as soon as they arrive. Other notifications are saved only if you archive them or they match an archive group you set up. You can turn the automatic archive, or any of its types, off in Settings. The archive stays encrypted on your phone and only leaves it if you export it to a file. You can add a folder, amount and due date, and delete entries whenever you like."
       },
       {
         "q": "What happens if I uninstall the app?",
@@ -668,6 +668,21 @@
     "lead": "What's new in ha!shh. The app is still in development: everything here is in the development build and comes to Google Play at launch."
   },
   "news": [
+    {
+      "date": "2026-10-21",
+      "h": "10 languages, widgets and desk view",
+      "items": [
+        "<b>The app in 10 languages:</b> Every screen is available in English, Turkish, Arabic, German, Spanish, French, Hindi, Indonesian, Portuguese and Russian. You can also pick the language inside the app, in Settings → Appearance.",
+        "<b>Home screen widgets:</b> In four sizes, showing the next delivery, the active mode, how many are waiting and the apps with the most waiting. The large size lists waiting notifications, and one tap marks them as read. Widgets follow your theme; tap the time to see the current time.",
+        "<b>Desk view:</b> Turn your phone sideways for a big clock, the active mode, a week strip, the next delivery and what's waiting. Choose what to show, and use your own photo as a frame or background. The screen stays on while charging; in low-power layout it dims and refreshes once a minute.",
+        "<b>Every notification in History:</b> Notifications that came through right away now go into History too, so you can find one you dismissed by mistake. You choose during setup how long History is kept; if you don't, nothing is deleted automatically, and if it takes up space you're asked before anything is cleared.",
+        "<b>Automatic archive:</b> Bank payments, coupons, completed spending and bills go into the archive as soon as they arrive; prices in ads don't. Entries you added or edited yourself always stay. It can be turned off; amounts are shown in your phone's currency.",
+        "<b>Quiet waiting:</b> Held notifications make no sound at all; ha!shh plays the sound of the ones that come through right away. Calls and alarms are not affected.",
+        "<b>Undo:</b> When you swipe a waiting card to mark it as read or snooze it, you can undo within 4 seconds.",
+        "<b>Simpler screens:</b> Rules, Plan and History were reorganised; the notification report and statistics are on one screen. First-time setup also sets up a night Sleep plan. Blocking screenshots on sensitive screens is now an option you turn on in Settings.",
+        "<b>Fixes:</b> The delay in holding notifications while the screen is off is fixed; notifications that arrive silently follow your rules too; Android system and SIM notifications are never held; when a mode ends, everything it held arrives together; on daylight-saving nights modes end at the right time; shopping apps land in the right group; other apps can't open or change ha!shh's screens and theme."
+      ]
+    },
     {
       "date": "2026-10-14",
       "h": "Invite friends, earn rewards",

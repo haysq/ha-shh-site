@@ -208,14 +208,14 @@
       },
       {
         "b": "3",
-        "p": "Éléments utilisés pour décider : l'application, le type de notification et l'heure. Les titres et les textes ne sont comparés qu'à vos propres mots (mots spoilers ou mots d'archive), uniquement si vous activez l'accès au contenu, et uniquement sur le téléphone."
+        "p": "Éléments utilisés pour décider de mettre en attente une notification : l'application, le type de notification et l'heure. Ce n'est que si vous activez le mode spoiler que les mots que vous avez choisis sont recherchés dans la notification, sur votre téléphone."
       },
       {
-        "b": "Optionnel",
-        "p": "Le contenu des notifications n'est pas lu par défaut. Si vous souhaitez voir ce qui attend, vous devez l'activer dans les Paramètres."
+        "b": "À vous",
+        "p": "La durée de conservation du contenu est votre choix. Le contenu des notifications est affiché dans l'application et reste chiffré sur votre téléphone ; vous choisissez combien de temps il est conservé, ou vous le désactivez complètement dans Paramètres."
       }
     ],
-    "priv_more_p": "Les paramètres et les enregistrements sont stockés de manière chiffrée sur le téléphone. L'archive ne conserve que les notifications que vous enregistrez ou qui correspondent à vos propres groupes d'archivage, également chiffrées et sur le téléphone ; elles ne quittent le téléphone que si vous les exportez vers un fichier. La désinstallation de l'application supprime ses données.",
+    "priv_more_p": "Les paramètres et les enregistrements sont conservés chiffrés sur votre téléphone. Le contenu des notifications est affiché dans l'application et conservé aussi longtemps que vous le choisissez, et les paiements bancaires, coupons, dépenses et factures vont dans l'archive automatique. Tout cela peut être désactivé dans Paramètres, et cela ne quitte votre téléphone que si vous l'exportez vers un fichier. La désinstallation de l'application supprime ses données.",
     "priv_more": "Lire toute la politique de confidentialité →",
     "status_eyebrow": "État du projet",
     "status_h": "En développement, bientôt disponible sur Google Play.",
@@ -451,7 +451,7 @@
         "items": [
           {
             "t": "Archive de notifications",
-            "p": "Enregistrez les notifications de votre choix dans des dossiers comme Codes promo, Factures et Dépenses, ou dans votre propre dossier. L'application suggère le montant et vous le confirmez ; un total mensuel s'affiche. Ajoutez une date d'échéance pour recevoir un rappel ce matin-là, et vous pouvez l'ajouter au calendrier de votre téléphone (sans autorisation d'accès au calendrier requise). Vous pouvez également archiver une notification directement depuis l'Historique si son contenu y a été conservé. Rien n'entre de lui-même dans l'archive, sauf si vous configurez des groupes d'archive.",
+            "p": "Enregistrez n'importe quelle notification dans des dossiers comme Coupons, Factures à payer ou Dépenses, ou dans votre propre dossier. L'application suggère le montant et vous le confirmez ; un total mensuel est affiché. Attribuez-lui une date d'échéance et vous recevez un rappel ce matin-là ; vous pouvez également l'ajouter au calendrier de votre téléphone (aucune autorisation de calendrier nécessaire). Les paiements bancaires, coupons, dépenses et factures vont automatiquement dans l'archive dès leur arrivée ; vous pouvez désactiver cela, ou l'un de ces types, dans Paramètres.",
             "new": "Nouveau"
           },
           {
@@ -460,8 +460,8 @@
             "new": "Nouveau"
           },
           {
-            "t": "Affichage du contenu, uniquement si vous l'autorisez",
-            "p": "Le contenu des notifications n'est pas lu par défaut. Activez l'affichage du contenu dans les Paramètres pour voir ce qui est en attente."
+            "t": "Le contenu reste sur votre téléphone, sous votre contrôle",
+            "p": "Le contenu des notifications en attente et passées est affiché dans l'application et conservé chiffré sur votre téléphone ; vous choisissez combien de temps il est conservé. Si vous préférez ne pas le faire, désactivez l'affichage du contenu dans Paramètres ; seuls le nom de l'application, l'heure et la raison de la mise en attente sont alors affichés."
           },
           {
             "t": "Thèmes et icône de l'application",
@@ -540,10 +540,10 @@
   },
   "privacy": {
     "title": "Politique de confidentialité · {brand}",
-    "desc": "Comment l'application de notifications gère les données : aucune autorisation Internet, tout reste chiffré sur votre téléphone, le contenu des notifications n'est lu qu'avec votre accord.",
+    "desc": "Comment l'application de notification traite les données : aucune autorisation internet, tout reste chiffré sur votre téléphone ; l'affichage du contenu, sa conservation et l'archive automatique sont sous votre contrôle.",
     "h1": "Politique de confidentialité",
-    "updated": "Dernière mise à jour : 14 octobre 2026",
-    "intro": "En résumé : l'application n'a aucune autorisation Internet et ne transmet rien nulle part. Tout ce qu'elle stocke reste chiffré sur votre téléphone. Le contenu des notifications n'est pas lu sauf si vous activez cette option, et l'archive ne conserve que les notifications que vous décidez d'enregistrer.",
+    "updated": "Dernière mise à jour : 21 octobre 2026",
+    "intro": "En résumé : l'application n'a aucune autorisation internet et n'envoie rien nulle part. Tout ce qu'elle conserve reste chiffré sur votre téléphone, et vous seul le voyez. Le contenu des notifications est affiché dans l'application et conservé aussi longtemps que vous le choisissez, et les paiements bancaires, coupons, dépenses et factures vont dans l'archive automatique. Vous pouvez désactiver tout cela dans Paramètres.",
     "sections": [
       {
         "h": "Qui nous sommes",
@@ -551,15 +551,15 @@
       },
       {
         "h": "Accès aux notifications (requis)",
-        "body": "<p>L'application a besoin de l'accès aux notifications, que vous accordez dans les paramètres d'Android. Pour décider de ce qu'il advient d'une notification, elle utilise l'application qui l'a envoyée, le type de notification (par exemple la catégorie appel, alarme ou message) et l'heure. Les titres et le texte des messages ne sont pas utilisés pour prendre cette décision, à une exception près : si vous activez l'accès au contenu et ajoutez des mots spoilers ou des groupes de mots d'archive, le titre et le texte sont comparés à vos mots sur le téléphone. Rien n'est envoyé nulle part.</p>"
+        "body": "<p>L'application a besoin de l'accès aux notifications que vous accordez dans les paramètres d'Android. Pour décider si une notification arrive immédiatement ou est mise en attente, elle utilise l'application qui l'a envoyée, le type de notification (par exemple appel, alarme ou catégorie de message) et l'heure. La seule exception est le mode spoiler : si vous l'activez, les mots que vous avez choisis (comme le nom d'une équipe) sont recherchés dans le titre et le texte de la notification, sur votre téléphone. Les autres cas d'utilisation du contenu sont décrits dans les sections ci-dessous. Rien n'est envoyé nulle part.</p>"
       },
       {
-        "h": "Contenu des notifications (facultatif)",
-        "body": "<ul><li>Si vous activez <b>Afficher le contenu des notifications</b> dans les Paramètres, le contenu des notifications en attente n'est lu qu'au moment où il vous est présenté.</li><li>Si vous activez également la conservation du contenu dans l'Historique, ce contenu est stocké de manière chiffrée sur le téléphone pendant un ou sept jours, selon votre choix. Il est supprimé à la fin de cette période ou lorsque l'accès aux notifications est désactivé.</li><li>Lorsque l'accès au contenu est activé, le filtre par type de notification conserve un exemple de titre pour chaque type de notification d'une application, de manière chiffrée sur le téléphone, afin que vous puissiez reconnaître les types.</li></ul>"
+        "h": "Contenu des notifications",
+        "body": "<ul><li><b>Affichage (activé par défaut) :</b> Le titre et le texte des notifications en attente et passées vous sont présentés dans l'application. Si vous désactivez <b>Afficher le contenu des notifications</b> dans Paramètres, le contenu n'est ni lu ni conservé ; seuls le nom de l'application, l'heure et la raison de la mise en attente sont affichés.</li><li><b>Durée de conservation (votre choix) :</b> L'historique et le contenu sont conservés chiffrés sur votre téléphone. Vous choisissez la durée lors de la configuration (7, 30, 90 ou 365 jours, ou aucune suppression automatique) et pouvez la modifier plus tard dans Paramètres. Si vous ne choisissez pas, rien n'est supprimé automatiquement ; si l'historique prend beaucoup d'espace, il vous est demandé si vous souhaitez effacer les anciens enregistrements. Le contenu est supprimé lorsque vous désactivez l'affichage du contenu. L'archive n'est pas affectée par ce nettoyage.</li><li><b>Vos propres mots :</b> Si vous ajoutez des mots spoiler ou des groupes de mots d'archivage, le titre et le texte sont comparés à ces mots sur votre téléphone.</li><li><b>Filtre de type de notification :</b> Afin que vous puissiez reconnaître les types, un exemple de titre par type de notification d'une application est conservé chiffré sur votre téléphone.</li><li><b>Journal de l'historique :</b> Pour chaque notification reçue par votre téléphone, l'application, l'heure et ce qui s'est passé (arrivée immédiatement, mise en attente, remise, marquée comme lue) sont conservés dans l'historique sur votre téléphone.</li></ul>"
       },
       {
         "h": "Archive de notifications",
-        "body": "<ul><li>L'archive conserve les notifications que vous choisissez d'archiver et, si vous configurez des groupes d'archive, les notifications que vous marquez comme lues qui correspondent à l'un de vos groupes : le nom de l'application, le titre, le texte et la date, ainsi que le dossier, le montant et la date d'échéance que vous ajoutez. Rien d'autre n'entre de lui-même dans l'archive.</li><li>Les éléments archivés restent chiffrés sur le téléphone jusqu'à ce que vous les supprimiez. Les totaux de dépenses et les listes de codes promo sont calculés sur le téléphone à partir de vos notifications archivées. Copier un code promo le place dans le presse-papiers de votre téléphone.</li><li>Le montant suggéré est calculé sur le téléphone. Un rappel d'échéance utilise la propre alarme du téléphone.</li><li>Ajouter un élément d'archive à votre calendrier ouvre votre propre application de calendrier avec un événement prérempli : le titre de la notification (ou le nom de l'application s'il n'y a pas de titre) comme nom d'événement et la date d'échéance comme événement sur toute la journée. Vous le visualisez directement, pouvez le modifier et choisir de l'enregistrer ou non. L'application n'a pas besoin d'autorisation d'accès au calendrier pour cela. Si votre calendrier se synchronise avec un compte (par exemple Google), l'événement enregistré est envoyé vers ce compte ; cette opération est effectuée par votre application de calendrier, et ha!shh n'envoie rien.</li><li>Vous pouvez exporter l'archive vers l'emplacement de votre choix (par exemple Google Drive, Dropbox ou un dossier sur votre téléphone) à l'aide du sélecteur de fichiers de votre téléphone : soit sous la forme d'un fichier protégé par un mot de passe robuste, soit sous la forme d'un fichier en clair que toute personne ayant le fichier peut lire. Si l'accès au contenu est désactivé, les titres et les textes restent vides dans le fichier. L'endroit où le fichier est envoyé et les personnes pouvant l'ouvrir ne dépendent ensuite que de vous et du service que vous avez choisi ; ha!shh elle-même n'envoie rien.</li></ul>"
+        "body": "<ul><li><b>Archive automatique (activée par défaut) :</b> Les paiements bancaires, coupons, dépenses et factures sont enregistrés dans l'archive dès leur arrivée. Pour les reconnaître, le titre et le texte sont comparés sur votre téléphone à certaines expressions (par exemple « paiement effectué », « date d'échéance », un code coupon) ; rien ne quitte votre téléphone pour cela. Vous pouvez désactiver l'archive automatique, ou l'un de ses types, dans Paramètres. Les entrées automatiques sont conservées pendant 365 jours par défaut ; vous pouvez choisir la durée, et les entrées que vous modifiez ou auxquelles vous ajoutez une note ne sont pas supprimées. Si vous désactivez l'affichage du contenu, l'archive automatique s'arrête également.</li><li>En dehors de cela, l'archive conserve les notifications que vous choisissez d'archiver et, si vous avez configuré des groupes d'archivage, les notifications que vous avez marquées comme lues qui correspondent à l'un de vos groupes : nom de l'application, titre, texte et date, ainsi que le dossier, le montant et la date d'échéance que vous avez ajoutés. Ces données restent chiffrées sur votre téléphone jusqu'à ce que vous les supprimiez.</li><li>Les totaux de dépenses et les listes de coupons sont calculés sur votre téléphone à partir de vos notifications archivées. Copier un code coupon le place dans le presse-papiers de votre téléphone.</li><li>Le montant suggéré est calculé sur votre téléphone. Les rappels de date d'échéance sont définis à l'aide de l'alarme propre à votre téléphone.</li><li>L'ajout d'une entrée de l'archive à votre calendrier ouvre votre propre application de calendrier avec un événement prérempli : le titre de la notification (ou le nom de l'application s'il n'y a pas de titre) est suggéré comme nom de l'événement et la date d'échéance (toute la journée) comme date. Vous y voyez l'événement, pouvez le modifier et choisir de l'enregistrer ou non. L'application ne demande aucune autorisation de calendrier pour cela. Si votre calendrier se synchronise avec un compte (tel que Google), l'événement que vous enregistrez va également sur ce compte ; c'est votre application de calendrier qui s'en charge, ha!shh n'envoie rien.</li><li>Vous pouvez exporter l'archive à l'aide du sélecteur de fichiers propre à votre téléphone vers un emplacement de votre choix (comme Google Drive, Dropbox ou un dossier de votre téléphone) : soit sous forme de fichier protégé par un mot de passe robuste, soit sous forme de fichier non chiffré que toute personne en sa possession peut lire. Si vous avez désactivé l'affichage du contenu, le titre et le texte restent vides dans le fichier. L'endroit où va le fichier et les personnes qui peuvent l'ouvrir dépendent alors de vous et du service que vous avez choisi ; ha!shh elle-même n'envoie rien.</li></ul>"
       },
       {
         "h": "Verrouillage par empreinte",
@@ -567,7 +567,7 @@
       },
       {
         "h": "Autres autorisations",
-        "body": "<ul><li><b>Publication de notifications :</b> pour délivrer les notifications mises de côté et les rappels.</li><li><b>Démarrage après le redémarrage :</b> pour restaurer vos règles et rappels après le redémarrage du téléphone.</li><li><b>Agenda (facultatif) :</b> seules les heures de début et de fin ainsi que la disponibilité (occupé) des événements sont lues, afin de changer de mode pendant les réunions. Le titre des événements n'est pas lu.</li><li><b>Bluetooth (facultatif) :</b> pour changer de mode lorsque le téléphone se connecte à votre voiture. L'adresse brute de l'appareil n'est pas conservée ; seuls une empreinte numérique à sens unique et le nom de l'appareil que vous voyez sont enregistrés, sous forme chiffrée.</li></ul>"
+        "body": "<ul><li><b>Publication de notifications :</b> pour vous remettre les notifications mises en attente et les rappels.</li><li><b>Lancement au démarrage :</b> pour rétablir vos règles et vos rappels après le redémarrage de votre téléphone.</li><li><b>Vibration :</b> Pour que les notifications mises en attente n'émettent aucun son, ha!shh gère les sons de notification et diffuse elle-même le son et la vibration des notifications qui arrivent immédiatement. Les appels et les alarmes ne sont pas affectés ; cela peut être désactivé dans Paramètres.</li><li><b>Maintien de l'appareil éveillé :</b> Pour que la décision concernant une notification qui arrive lorsque l'écran est éteint ne soit pas retardée, le téléphone est maintenu éveillé pendant au plus 3 secondes.</li><li><b>Calendrier (facultatif) :</b> pour changer de mode pendant les réunions, seules l'heure de début, l'heure de fin et la disponibilité des événements sont lues. Les titres des événements ne sont pas lus.</li><li><b>Bluetooth (facultatif) :</b> pour changer de mode lorsque votre téléphone se connecte à votre voiture. L'adresse brute de l'appareil n'est pas stockée ; seules une empreinte irréversible et le nom de l'appareil que vous voyez sont conservés, de manière chiffrée.</li></ul>"
       },
       {
         "h": "Vos applications installées",
@@ -623,7 +623,7 @@
       },
       {
         "q": "L'application lit-elle mes notifications ?",
-        "a": "Pas par défaut. Les décisions reposent uniquement sur l'application, le type de notification et l'heure. Le contenu n'est lu que si vous activez l'affichage du contenu, et seulement au moment où il vous est présenté."
+        "a": "Nous ne les lisons pas : l'application n'a aucune autorisation internet et rien ne quitte votre téléphone. L'application décide de mettre en attente une notification en se basant sur l'application, le type de notification et l'heure (si vous activez le mode spoiler, les mots que vous avez choisis sont recherchés aussi). Le contenu est lu sur votre téléphone pour vous le présenter, pour le conserver aussi longtemps que vous le choisissez, et pour archiver automatiquement les paiements bancaires, coupons, dépenses et factures. Si vous préférez ne pas le faire, désactivez <b>Afficher le contenu des notifications</b> dans Paramètres."
       },
       {
         "q": "Est-ce que je risque de manquer un appel ou un message important ?",
@@ -643,7 +643,7 @@
       },
       {
         "q": "Les notifications vont-elles d'elles-mêmes dans les archives ?",
-        "a": "Uniquement si vous le demandez. Par défaut, seules les notifications que vous choisissez d'archiver sont enregistrées. Si vous configurez des groupes d'archivage (par application, personne ou mot que vous saisissez), les notifications que vous marquez comme lues et qui correspondent à un groupe y sont également enregistrées. L'archive reste chiffrée sur votre téléphone et ne le quitte que si vous l'exportez vers un fichier. Vous pouvez ajouter un dossier, un montant et une date d'échéance, et supprimer des éléments à tout moment."
+        "a": "Les paiements bancaires, coupons, dépenses et factures, oui : l'archive automatique est activée par défaut et les enregistre dès leur arrivée. Les autres notifications ne sont enregistrées que si vous les archivez ou si elles correspondent à un groupe d'archivage que vous avez configuré. Vous pouvez désactiver l'archive automatique, ou l'un de ses types, dans Paramètres. L'archive reste chiffrée sur votre téléphone et ne le quitte que si vous l'exportez vers un fichier. Vous pouvez ajouter un dossier, un montant et une date d'échéance, et supprimer des entrées quand vous le souhaitez."
       },
       {
         "q": "Que se passe-t-il si je désinstalle l'application ?",
@@ -668,6 +668,21 @@
     "lead": "Les nouveautés de ha!shh. L'application est encore en développement : tout ce qui figure ici fait partie de la version de développement et sera disponible sur Google Play lors du lancement."
   },
   "news": [
+    {
+      "date": "2026-10-21",
+      "h": "10 langues, widgets et vue bureau",
+      "items": [
+        "<b>L'application en 10 langues :</b> Chaque écran est disponible en anglais, turc, arabe, allemand, espagnol, français, hindi, indonésien, portugais et russe. Vous pouvez également choisir la langue dans l'application, dans Paramètres → Apparence.",
+        "<b>Widgets de l'écran d'accueil :</b> En quatre tailles, affichant la prochaine remise, le mode actif, le nombre de notifications en attente et les applications en ayant le plus. La grande taille liste les notifications en attente, et un appui les marque comme lues. Les widgets suivent votre thème ; appuyez sur l'heure pour voir l'heure actuelle.",
+        "<b>Vue bureau :</b> Tournez votre téléphone à l'horizontale pour afficher une grande horloge, le mode actif, une bande de la semaine, la prochaine remise et ce qui est en attente. Choisissez ce qui doit être affiché et utilisez votre propre photo comme cadre ou arrière-plan. L'écran reste allumé pendant la charge ; en disposition basse consommation, il s'assombrit et se rafraîchit une fois par minute.",
+        "<b>Toutes les notifications dans l'historique :</b> Les notifications arrivées immédiatement vont désormais aussi dans l'historique, afin que vous puissiez en retrouver une que vous avez ignorée par erreur. Vous choisissez lors de la configuration la durée de conservation de l'historique ; si vous ne le faites pas, rien n'est supprimé automatiquement, et s'il prend de l'espace, il vous est demandé confirmation avant que quoi que ce soit ne soit effacé.",
+        "<b>Archive automatique :</b> Les paiements bancaires, coupons, dépenses effectuées et factures vont dans l'archive dès leur arrivée ; ce n'est pas le cas des prix dans les publicités. Les entrées que vous avez ajoutées ou modifiées vous-même restent toujours. Elle peut être désactivée ; les montants sont affichés dans la devise de votre téléphone.",
+        "<b>Mise en attente silencieuse :</b> Les notifications mises en attente n'émettent aucun son ; ha!shh diffuse le son de celles qui arrivent immédiatement. Les appels et les alarmes ne sont pas affectés.",
+        "<b>Annuler :</b> Lorsque vous glissez une carte en attente pour la marquer comme lue ou la reporter, vous pouvez annuler dans les 4 secondes.",
+        "<b>Écrans simplifiés :</b> Les sections Règles, Programme et Historique ont été réorganisées ; le rapport de notifications et les statistiques sont sur un seul écran. La configuration initiale configure également un programme Sommeil pour la nuit. Bloquer les captures sur les écrans sensibles est désormais une option que vous activez dans Paramètres.",
+        "<b>Corrections :</b> Le délai de mise en attente des notifications lorsque l'écran est éteint est corrigé ; les notifications qui arrivent silencieusement suivent aussi vos règles ; les notifications du système Android et de la carte SIM ne sont jamais mises en attente ; lorsqu'un mode se termine, tout ce qu'il a retenu arrive en même temps ; lors des nuits de changement d'heure, les modes se terminent à la bonne heure ; les applications de shopping arrivent dans le bon groupe ; les autres applications ne peuvent pas ouvrir ni modifier les écrans et le thème de ha!shh."
+      ]
+    },
     {
       "date": "2026-10-14",
       "h": "Invitez des amis, gagnez des récompenses",

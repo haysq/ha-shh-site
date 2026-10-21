@@ -3,802 +3,946 @@
   "type": "guide",
   "sec": "Erste Schritte",
   "t": "Was macht ha!shh?",
-  "a": "Die App hält eingehende Benachrichtigungen nach deinen Regeln zurück und stellt sie zu den von dir gewählten Zeiten gesammelt zu. Für die Entscheidung wird der Text der Benachrichtigung nicht gelesen; es wird nur verwendet, von welcher App und wann sie eingetroffen ist. Die App hat keine Internetberechtigung, alles bleibt auf deinem Telefon.",
+  "a": "Es hält eingehende Benachrichtigungen nach deinen Regeln zurück und stellt sie zu den von dir gewählten Zeiten gesammelt zu. Für die Entscheidung, ob eine Benachrichtigung zurückgehalten wird, wird deren Text nicht gelesen; es wird lediglich erfasst, von welcher App und wann sie eingetroffen ist. Benachrichtigungsinhalte werden standardmäßig nur auf deinem Telefon gelesen und angezeigt; die App besitzt keine Internetberechtigung, sodass keinerlei Daten dein Gerät verlassen.",
   "q": [
-   "was macht ha!shh",
-   "wie funktioniert diese app",
-   "wofür ist ha!shh da",
-   "was bringt mir ha!shh"
+   "was ist hashh",
+   "wie funktioniert die app",
+   "wozu dient hashh",
+   "was macht ha!shh genau"
   ]
  },
  {
   "type": "guide",
   "sec": "Erste Schritte",
   "t": "Wie funktioniert die Ersteinrichtung?",
-  "a": "Wenn du die App zum ersten Mal öffnest, startet der Einrichtungsassistent. Du liest die Datenschutzhinweise, vergibst den Benachrichtigungszugriff sowie die Akku-Einstellung und wählst dann den Tagesablauf, der zu dir passt (Schüler/Student, Büroangestellter, Nachtschicht, Freiberuflich / Flexibel). Wenn du den Assistenten abbrichst, kannst du ihn über die Karte im Feed oder über Einstellungen → Tools → Einrichtungsassistent fortsetzen.",
+  "a": "Beim ersten Start der App öffnet sich der Einrichtungsassistent. Du liest die Datenschutzhinweise, vergibst den Benachrichtigungszugriff sowie die Akku-Berechtigung und wählst anschließend deinen Lebensstil aus (Student, Büroangestellter, Nachtschicht, Freiberuflich / Flexibel). Die Einrichtung bereitet beim ersten Start auch direkt den nächtlichen Schlaf-Plan vor, sodass die App sofort einsatzbereit ist. Falls du den Assistenten abbrichst, kannst du ihn über die Karte auf dem Heute-Bildschirm oder über Einstellungen → Tools → Einrichtungsassistent fortsetzen.",
   "q": [
-   "wie richte ich die app ein",
-   "ersteinrichtung starten",
-   "einrichtungsassistent nochmal öffnen",
-   "app zum ersten mal einrichten"
+   "einrichtung starten",
+   "wie richte ich hashh ein",
+   "ersteinrichtung fortsetzen",
+   "assistent nochmal starten"
   ]
  },
  {
   "type": "guide",
   "sec": "Erste Schritte",
   "t": "Welche Berechtigungen werden benötigt?",
-  "a": "Zwei Dinge sind erforderlich: der Benachrichtigungszugriff (zwingend für das Zurückhalten) und die Akku- und Hintergrundberechtigung (damit die Zustellzeiten nicht verpasst werden). Beides siehst du unter Einstellungen → Geräteberechtigungen; daneben steht jeweils \"Erlaubt\" oder \"Berechtigung erforderlich\".",
+  "a": "Es sind zwei grundlegende Berechtigungen erforderlich: der Benachrichtigungszugriff (zwingend nötig für das Zurückhalten und gebündelte Zustellen) sowie die Akku- und Hintergrundberechtigung (damit Zustellzeiten nicht verzögert werden). Beide findest du unter Einstellungen → Geräteberechtigungen; daneben steht jeweils „Erlaubt“ oder „Berechtigung erforderlich“.",
   "q": [
-   "welche rechte braucht die app",
-   "berechtigungen erforderlich",
-   "benachrichtigungszugriff aktivieren",
-   "akku berechtigung einstellen"
+   "welche berechtigungen braucht hashh",
+   "warum benachrichtigungszugriff",
+   "berechtigungen erteilen",
+   "akku berechtigung"
   ]
  },
  {
   "type": "guide",
-  "sec": "Täglicher Gebrauch",
-  "t": "Was ist auf dem Feed-Bildschirm zu sehen?",
-  "a": "In der Mitte befindet sich das Zifferblatt des Tages: 12 oben, 18 rechts, 00 unten, 06 links. Auf dem Zifferblatt sind die App-Symbole der wartenden Benachrichtigungen zu sehen. Unten findest du die Karte Wartend, die nächste Zustellzeit, die Archiv-Karte und die Übersicht gewonnener Zeit.",
+  "sec": "Tägliche Nutzung",
+  "t": "Was ist auf dem Heute-Bildschirm zu sehen?",
+  "a": "In der Mitte befindet sich das 24-Stunden-Zifferblatt: 12 oben, 18 rechts, 00 unten, 06 links. Auf dem Zifferblatt werden die App-Symbole der wartenden Benachrichtigungen angezeigt; Symbole zu nahe beieinander liegenden Zeiten überlappen sich nicht. Darunter befinden sich der Kartenstapel „Wartend“, die nächste Zustellzeit, die Archiv-Karte und die Übersicht „Gewonnene Zeit“ (auch die geschätzte Akkuersparnis durch verhinderte Bildschirmaktivierungen wird in dieser Karte zusammengefasst).",
   "q": [
-   "was bedeuten die anzeigen im feed",
-   "zifferblatt erklärung",
-   "feed übersicht",
-   "uhr auf dem startbildschirm"
+   "was bedeutet das zifferblatt",
+   "heute ansicht aufbau",
+   "was zeigt der hauptbildschirm",
+   "symbole auf der uhr"
   ]
  },
  {
   "type": "guide",
-  "sec": "Täglicher Gebrauch",
-  "t": "Wie sehe ich wartende Benachrichtigungen?",
-  "a": "Tippe im Feed auf der Karte Wartend auf den Link Alle lesen ›. Wenn du möchtest, kannst du mit Jetzt alle abrufen sofort alle zurückholen. Tippst du auf eine Benachrichtigung, öffnet sich die zugehörige App.",
+  "sec": "Tägliche Nutzung",
+  "t": "Wie kann ich wartende Benachrichtigungen sehen?",
+  "a": "Auf dem Heute-Bildschirm kannst du auf der Karte „Wartend“ auf „Alle lesen ›“ tippen. Wenn du möchtest, kannst du mit „Jetzt alle abrufen“ sofort alle wartenden Benachrichtigungen erhalten. Wenn du auf eine Benachrichtigung tippst, öffnet sich die entsprechende App. Im Kartenstapel kannst du eine Karte nach rechts wischen, um sie als gelesen zu markieren, oder nach links wischen, um sie um 30 Minuten zu verschieben. Falls du eine Aktion rückgängig machen möchtest, tippe einfach auf die Schaltfläche „Rückgängig“, die 4 Sekunden lang am unteren Bildschirmrand angezeigt wird.",
   "q": [
-   "wie sehe ich zurückgehaltene nachrichten",
-   "wartende benachrichtigungen anzeigen",
-   "benachrichtigungen sofort abrufen",
-   "wo sind meine nachrichten"
+   "wartende benachrichtigungen ansehen",
+   "benachrichtigungen jetzt abrufen",
+   "wie snoozen",
+   "benachrichtigung rückgängig machen"
   ]
  },
  {
   "type": "guide",
-  "sec": "Täglicher Gebrauch",
-  "t": "Kann ich den Inhalt von Benachrichtigungen in der App lesen?",
-  "a": "Ja, aber nur, wenn du es erlaubst. Aktiviere den Schalter Einstellungen → Inhalt & Ruhe → Benachrichtigungsinhalt anzeigen. Wenn er ausgeschaltet ist, sind nur der Name der App, die Uhrzeit und der Grund für das Zurückhalten sichtbar.",
+  "sec": "Tägliche Nutzung",
+  "t": "Kann ich Benachrichtigungsinhalte in der App lesen?",
+  "a": "Ja. Das Anzeigen von Benachrichtigungsinhalten ist standardmäßig aktiviert; der Inhalt wird sicher und ausschließlich auf deinem eigenen Gerät gelesen und dargestellt. Wenn du das nicht möchtest, kannst du es unter Einstellungen → Inhalt & Ruhe → Benachrichtigungsinhalt anzeigen deaktivieren. Wenn die Option deaktiviert ist, werden nur der App-Name, die Uhrzeit und der Zurückhaltungsgrund angezeigt.",
   "q": [
-   "nachrichtenvorschau einschalten",
-   "inhalt von benachrichtigungen sehen",
-   "nachrichtentext lesen",
-   "benachrichtigungsvorschau aktivieren"
+   "benachrichtigungsvorschau ausschalten",
+   "nachrichtentext in hashh lesen",
+   "inhalt verbergen",
+   "kann hashh meine nachrichten lesen"
   ]
  },
  {
   "type": "guide",
-  "sec": "Täglicher Gebrauch",
+  "sec": "Tägliche Nutzung",
   "t": "Wie wird die gewonnene Zeit berechnet?",
-  "a": "Für jede Benachrichtigung, die zurückgehalten wird, ohne dich zu unterbrechen, wird standardmäßig 1 Minute gezählt. Du kannst diese Dauer unter Einstellungen → Inhalt & Ruhe → Zeit pro Unterbrechung zwischen 0,5 und 5 Minuten anpassen. Um die Übersicht auszublenden, deaktiviere im selben Bereich den Schalter Übersicht gewonnener Zeit.",
+  "a": "Für jede Benachrichtigung, die zurückgehalten wurde, ohne dich zu unterbrechen, wird standardmäßig 1 gewonnene Minute gezählt. Diese Zeit kannst du unter Einstellungen → Inhalt & Ruhe → Zeit pro Unterbrechung zwischen 0,5 und 5 Minuten anpassen. Um die Übersicht auszublenden, deaktiviere im selben Bereich den Schalter „Übersicht gewonnener Zeit“. Auch die geschätzte Akkuersparnis durch verhinderte unnötige Bildschirmaktivierungen wird auf dieser Karte angezeigt.",
   "q": [
-   "wie wird gewonnene zeit gezählt",
-   "fokuszeit berechnung",
-   "zeitersparnis ausschalten",
-   "gewonnene zeit anpassen"
+   "wie funktioniert gewonnene zeit",
+   "zeitersparnis anpassen",
+   "akkuersparnis berechnung",
+   "zeit pro unterbrechung einstellen"
   ]
  },
  {
   "type": "guide",
   "sec": "Regeln",
   "t": "Wie erstelle ich eine Regel für eine App?",
-  "a": "Tippe im Tab Regeln auf die gewünschte App. Es erscheinen vier Optionen: Sofort, Zurückhalten, Zur Zustellzeit, Blockieren. Das ausgewählte Verhalten gilt dann für alle Benachrichtigungen dieser App.",
+  "a": "Tippe im Tab „Regeln“ auf die gewünschte App. Es erscheinen vier Optionen: Sofort, Zurückhalten, Zur Zustellzeit, Blockieren. Das ausgewählte Verhalten wird auf alle Benachrichtigungen dieser App angewendet.",
   "q": [
    "regel für app erstellen",
-   "app benachrichtigungen anpassen",
-   "wie stelle ich regeln ein",
-   "benachrichtigung für eine app stummschalten"
+   "app benachrichtigung blockieren",
+   "zustellung für app ändern",
+   "regeln anpassen"
   ]
  },
  {
   "type": "guide",
   "sec": "Regeln",
-  "t": "Ich möchte, dass eine App nie zurückgehalten wird",
-  "a": "Tippe unter Regeln auf die App, wähle Sofort und tippe unten auf die erscheinende Option Nie zurückhalten (in jedem Modus zustellen). Dadurch werden Benachrichtigungen dieser App immer sofort zugestellt, egal welcher Modus aktiv ist.",
+  "t": "Ich möchte, dass eine App niemals zurückgehalten wird",
+  "a": "Tippe unter „Regeln“ auf die App, wähle „Sofort“ und tippe unten auf die Option „Nie zurückhalten (in jedem Modus zustellen)“. Dadurch werden Benachrichtigungen dieser App sofort zugestellt, egal welcher Modus aktiv ist. Android-System- und SIM-Benachrichtigungen (Netz, Mobilfunkanbieter, Systemwarnungen) sowie Notrufe und Wecker werden aus Sicherheitsgründen ohnehin niemals zurückgehalten.",
   "q": [
-   "app soll immer durchkommen",
-   "ausnahme für app festlegen",
+   "app immer sofort durchlassen",
    "wichtige app nie stummschalten",
-   "app immer sofort anzeigen"
+   "app ausnahmen festlegen",
+   "whatsapp immer sofort anzeigen"
   ]
  },
  {
   "type": "guide",
   "sec": "Regeln",
   "t": "Ich möchte bei Apps wie Instagram nur Nachrichten sehen (Typ-Filter)",
-  "a": "Tippe unter Regeln auf die App und öffne mit Typ auswählen › das Bedienfeld Typ-Filter. Dort gibt es vorgefertigte Filter: Nur Nachrichten, Nur Likes, Likes + Kommentare, Zurücksetzen. Für jeden Typ kannst du separat Standard, Sofort, Zur Zustellzeit oder Blockieren wählen. Die Unterscheidung erfolgt anhand des Benachrichtigungstyps der App; Inhalte werden nicht gelesen.",
+  "a": "Tippe unter „Regeln“ auf die App und öffne mit „Typ auswählen ›“ das Panel „Typ-Filter“. Es gibt vorgefertigte Filter: Nur Nachrichten, Nur Likes, Likes + Kommentare, Zurücksetzen. Für jeden Typ kannst du außerdem Standard, Sofort, Bei Zustellung oder Blockieren wählen. Die Unterscheidung erfolgt anhand des Benachrichtigungskanals bzw. des Typs der App; der Inhalt wird nicht gelesen.",
   "q": [
-   "nur direkte nachrichten anzeigen",
-   "instagram nachrichten filtern",
-   "nur nachrichten erlauben likes blockieren",
-   "benachrichtigungstypen einstellen"
+   "nur nachrichten bei instagram",
+   "benachrichtigungstypen filtern",
+   "nur dms erlauben",
+   "typ filter einstellen"
   ]
  },
  {
   "type": "guide",
   "sec": "Regeln",
   "t": "Kann ich Apps als Gruppe verwalten?",
-  "a": "Ja. Im Bildschirm Regeln kannst du mit Neue Gruppe mehrere Apps in einer Gruppe zusammenfassen und über eine einzige Regel steuern. Eine Gruppe kann bis zu 100 Apps enthalten.",
+  "a": "Ja. Im Bildschirm „Regeln“ kannst du über „Neue Gruppe“ mehrere Apps in einer Gruppe zusammenfassen und mit einer einzigen Regel verwalten. Eine Gruppe kann bis zu 100 Apps enthalten.",
   "q": [
    "apps gruppieren",
-   "mehrere apps zusammen verwalten",
+   "mehrere apps gleichzeitig regeln",
    "app gruppe erstellen",
-   "gruppenregel anlegen"
+   "gruppenregeln"
   ]
  },
  {
   "type": "guide",
   "sec": "Regeln",
   "t": "Wo finde ich dauerhaft blockierte Apps?",
-  "a": "Unter Einstellungen → Tools → Blockiert. Hier siehst du die blockierten Apps sowie das Protokoll der von ihnen eingetroffenen Benachrichtigungen (App, Uhrzeit); mit Freigeben hebst du die Blockierung wieder auf.",
+  "a": "Unter Einstellungen → Tools → Blockierte Apps. Hier siehst du blockierte Apps und das Protokoll der von ihnen eingegangenen Benachrichtigungen (App und Uhrzeit); mit „Entsperren“ kannst du die Blockierung aufheben.",
   "q": [
-   "wo sind blockierte apps",
-   "blockierung aufheben",
-   "gesperrte apps anzeigen",
-   "blockierte benachrichtigungen sehen"
+   "blockierte apps anzeigen",
+   "app wieder entsperren",
+   "wo sind geblockte apps",
+   "blockierung aufheben"
   ]
  },
  {
   "type": "guide",
   "sec": "Modi & Zeitplan",
   "t": "Welche Modi gibt es?",
-  "a": "Es gibt vier vorgefertigte Modi: Normal, Fokus, Schlaf, Sport. Für jeden Modus werden die Zurückhaltedauer und das Verhalten separat eingestellt. Im Tab Zeitplan passt du sie im Bereich Deine Modi auf der jeweiligen Modus-Karte über Anpassen › an; mit + Eigener Modus kannst du deinen eigenen Modus hinzufügen.",
+  "a": "Es gibt vier vorgefertigte Modi: Normal, Fokus, Schlafen, Sport. Die Zurückhaltedauer und das Verhalten jedes Modus werden separat eingestellt. Läuft die Dauer eines Modus ab, werden die darin zurückgehaltenen Benachrichtigungen nicht zu verstreuten Zeiten, sondern gesammelt am Modusende zugestellt. Im Tab „Zeitplan“ kannst du unter „Deine Modi“ auf der Moduskarte über „Anpassen ›“ Änderungen vornehmen oder mit „+ Eigener Modus“ einen eigenen Modus hinzufügen.",
   "q": [
    "welche modi gibt es",
    "fokusmodus einstellen",
-   "eigene modi erstellen",
-   "unterschied zwischen den modi"
+   "eigenen modus erstellen",
+   "schlafmodus konfigurieren"
   ]
  },
  {
   "type": "guide",
   "sec": "Modi & Zeitplan",
   "t": "Wie lange bleibt ein manuell ausgewählter Modus aktiv?",
-  "a": "Wenn du einen der Schnellmodi manuell auswählst, bleibt er so lange aktiv, bis du ihn wieder abschaltest; der Zeitplan überschreibt ihn nicht. Wenn du zum Zeitplan zurückkehren möchtest, tippe auf die Schaltfläche Zurück zum Zeitplan.",
+  "a": "Wenn du einen der Schnellmodi manuell auswählst, bleibt er so lange aktiv, bis du ihn ausschaltest; geplante Zeitplanwechsel überschreiben diese Auswahl nicht. Wenn du zum Plan zurückkehren möchtest, tippe einfach auf die Schaltfläche „Zurück zum Zeitplan“.",
   "q": [
-   "wie lange dauert manueller modus",
-   "manuellen modus beenden",
+   "manueller modus wie lange",
+   "modus ausschalten",
    "zurück zum zeitplan",
-   "modus schaltet nicht automatisch um"
+   "manuellen fokus beenden"
   ]
  },
  {
   "type": "guide",
   "sec": "Modi & Zeitplan",
-  "t": "Wie richte ich den Wochenplan ein?",
-  "a": "Im Tab Zeitplan werden die Wochentage und Zeitblöcke angezeigt. Tippe auf einen Tag und ziehe an den Blockenden, um die Zeiten anzupassen. Mit den Schaltflächen + Modus, + Nur für heute und + Zustellzeit fügst du neue Blöcke oder Zustellzeiten hinzu.",
+  "t": "Wie erstelle ich einen Wochenplan?",
+  "a": "Im Tab „Zeitplan“ werden die Wochentage und Zeitblöcke angezeigt. Tippe auf einen Tag und ziehe die Enden der Blöcke, um die Zeiten anzupassen. Mit den Schaltflächen „+ Modus“, „+ Speziell für diesen Tag“ und „+ Zustellzeit“ fügst du neue Blöcke oder Zustellzeiten hinzu.",
   "q": [
-   "wochenplan erstellen",
-   "zeitplan für wochentage anpassen",
-   "blöcke im zeitplan ändern",
-   "feste zeiten einstellen"
+   "wochenplan einrichten",
+   "zeitplan anpassen",
+   "zustellzeiten planen",
+   "zeiten ändern im zeitplan"
   ]
  },
  {
   "type": "guide",
   "sec": "Modi & Zeitplan",
-  "t": "Modus-Intervall über das Zifferblatt hinzufügen",
-  "a": "Tippe im Feed neben dem Zifferblatt auf die Schaltfläche +. Wähle auf dem Zifferblatt ein Intervall aus (z. B. 18:00–24:00 Fokus, 00:00–06:00 Schlaf); die Zeiten bewegen sich in 15-Minuten-Schritten. Bei einer Überschneidung erscheint eine Warnung. Hinzugefügte Intervalle kannst du später bearbeiten und löschen.",
+  "t": "Modus-Zeitbereich über das Zifferblatt hinzufügen",
+  "a": "Tippe auf die Schaltfläche „+“ neben dem Zifferblatt auf dem Heute-Bildschirm. Wähle auf dem Zifferblatt einen Bereich aus (z. B. 18:00–24:00 Fokus, 00:00–06:00 Schlafen); die Zeiten bewegen sich in 15-Minuten-Schritten. Bei Überschneidungen erscheint eine Warnung. Hinzugefügte Bereiche kannst du später bearbeiten und löschen.",
   "q": [
-   "modus auf zifferblatt einstellen",
-   "uhrzeit bereich hinzufügen",
-   "intervall über die uhr festlegen",
-   "zeitblock über zifferblatt anlegen"
+   "modus auf der uhr einstellen",
+   "zifferblatt zeitbereich hinzufügen",
+   "zeitfenster über zifferblatt",
+   "modus zeit hinzufügen"
   ]
  },
  {
   "type": "guide",
   "sec": "Modi & Zeitplan",
   "t": "Wie ändere ich die Zustellzeiten?",
-  "a": "Tippe im Tab Zeitplan auf der Modus-Karte im Bedienfeld Anpassen › auf den Link Zustellzeiten & Tagesrhythmus bearbeiten ›. Wartende Benachrichtigungen werden zur nächsten passenden Zustellzeit in ihrem Originalzustand zugestellt.",
+  "a": "Tippe im Tab „Zeitplan“ auf der Moduskarte im Panel „Anpassen ›“ auf den Link „Zustellzeiten & Tagesrhythmus anpassen ›“. Wartende Benachrichtigungen werden zur nächsten passenden Sammelzustellzeit im Originalzustand zugestellt.",
   "q": [
-   "zustellzeit ändern",
-   "wann kommen benachrichtigungen an",
-   "feste empfangszeiten einstellen",
-   "benachrichtigungszeiten anpassen"
+   "zustellzeiten ändern",
+   "wann kommen benachrichtigungen",
+   "sammelzustellung anpassen",
+   "tagesrhythmus ändern"
   ]
  },
  {
   "type": "guide",
   "sec": "Modi & Zeitplan",
   "t": "Ich arbeite im Schichtdienst",
-  "a": "In den Zeitplan-Tools gibt es den Schichtplan. Du gibst deinen Zyklus und deine Schichtzeiten einmalig ein; ha!shh berechnet automatisch, an welchem Tag du welche Schicht hast. Wenn die Funktion aktiv ist, steht im Zeitplan \"Schichtplan · heute …\".",
+  "a": "In den Zeitplan-Tools gibt es den „Schichtplan“. Gib deinen Turnus und deine Schichtzeiten einmalig ein; ha!shh berechnet automatisch, an welchem Tag du in welcher Schicht bist. Wenn die Funktion aktiv ist, wird im Zeitplan der Hinweis „Schichtplan · heute …“ angezeigt.",
   "q": [
-   "schichtdienst einstellen",
-   "schichtarbeit konfigurieren",
-   "wechselnde arbeitszeiten",
-   "schichtplan funktion"
+   "schichtarbeit einstellen",
+   "schichtplan konfigurieren",
+   "wechselschicht nutzen",
+   "arbeitszeiten schichtdienst"
   ]
  },
  {
   "type": "guide",
   "sec": "Modi & Zeitplan",
   "t": "Wie sehe ich vergangene und zukünftige Tage ein?",
-  "a": "Mit der Monatsansicht in den Zeitplan-Tools kannst du zwischen den Monaten wechseln. Du siehst Statistiken vergangener Tage und kannst für künftige Tage einen speziellen Zeitplan erstellen.",
+  "a": "Mit der Monatsansicht in den Zeitplan-Tools kannst du zwischen den Monaten navigieren. Du kannst Statistiken vergangener Tage einsehen oder Pläne für zukünftige Tage erstellen.",
   "q": [
    "vergangene tage ansehen",
-   "kalenderübersicht öffnen",
-   "zeitplan für die zukunft planen",
-   "monatsansicht aufrufen"
+   "kalenderansicht",
+   "zukünftige tage planen",
+   "monatsansicht öffnen"
   ]
  },
  {
   "type": "guide",
   "sec": "Modi & Zeitplan",
-  "t": "Sport-Modus und Spoiler-Schutz",
-  "a": "Unter Zeitplan öffnet Anpassen › auf der Sport-Karte die Sport-Einstellungen. Benachrichtigungen ausgewählter Sport-Apps werden bis zum Spielende zurückgehalten; andere Apps kommen normal an. Wenn Spoiler-Modus aktivieren eingeschaltet ist, warten auch ausgewählte Schutz-Apps bis zum Spielende. Du kannst auch Schlüsselwörter hinzufügen (z. B. Tor, Ergebnis); dies funktioniert nur bei erteilter Inhaltsberechtigung und der Abgleich findet ausschließlich lokal auf deinem Telefon statt.",
+  "t": "Sport-Modus und Spoiler-Schild",
+  "a": "Im Tab „Zeitplan“ öffnet sich über „Anpassen ›“ auf der Sport-Karte der Bereich „Sport-Einstellungen“. Benachrichtigungen ausgewählter Sport-Apps werden bis zum Spielende zurückgehalten; andere Apps kommen ganz normal an. Ist „Spoiler-Modus aktivieren“ eingeschaltet, werden auch ausgewählte Schild-Apps bis zum Spielende zurückgehalten. Auf Wunsch kannst du Schlüsselwörter hinzufügen (z. B. Tor, Ergebnis); dieser Abgleich erfolgt nur bei aktiviertem Inhaltszugriff und ausschließlich lokal auf deinem Telefon.",
   "q": [
-   "spoiler verhindern",
-   "fussball ergebnisse blockieren",
-   "sport modus konfigurieren",
-   "live ticker stummschalten"
+   "spoiler schutz aktivieren",
+   "sportmodus einrichten",
+   "fußball ergebnisse blockieren",
+   "tor benachrichtigungen verbergen"
   ]
  },
  {
   "type": "guide",
   "sec": "Archiv",
   "t": "Was ist das Archiv und wo finde ich es?",
-  "a": "Es speichert Benachrichtigungen, die du aufbewahren möchtest – wie Gutscheine, Rechnungen und Ausgaben – in Ordnern. Du öffnest es über die Schaltfläche 📦 Archiv oben im Tab Verlauf oder über die Archiv-Karte im Feed. Das Archiv bleibt ausschließlich auf diesem Telefon und liegt verschlüsselt vor.",
+  "a": "Es speichert Benachrichtigungen, die du aufbewahren möchtest – wie Gutscheine, Rechnungen und Ausgaben – in übersichtlichen Ordnern. Du erreichst es über die Schaltfläche „📦 Archiv“ oben im Tab „Verlauf“ oder über die Archiv-Karte auf dem Heute-Bildschirm. Archivdaten werden ausschließlich auf diesem Telefon und verschlüsselt gespeichert.",
   "q": [
    "wo ist das archiv",
-   "wofür ist das archiv",
-   "nachrichten dauerhaft speichern",
-   "archiv finden"
+   "was speichert das archiv",
+   "archiv finden",
+   "benachrichtigungen aufbewahren"
   ]
  },
  {
   "type": "guide",
   "sec": "Archiv",
   "t": "Wie füge ich eine Benachrichtigung zum Archiv hinzu?",
-  "a": "Tippe beim Lesen der wartenden Benachrichtigungen oder im Verlauf neben einer Nachricht auf den Link Archivieren › und wähle einen Ordner. Mit ➕ Neuen Ordner erstellen... kannst du deinen eigenen Ordner anlegen.",
+  "a": "Beim Lesen wartender Benachrichtigungen oder im Verlauf kannst du neben einer Benachrichtigung auf den Link „Archivieren ›“ tippen und einen Ordner auswählen. Mit „➕ Neuen Ordner erstellen...“ kannst du einen eigenen Ordner anlegen. Alle manuell hinzugefügten oder bearbeiteten Archiveinträge bleiben dauerhaft erhalten und werden niemals automatisch gelöscht.",
   "q": [
-   "nachricht archivieren",
-   "benachrichtigung im archiv ablegen",
-   "eigenen archiv ordner erstellen",
-   "wie speichere ich nachrichten"
+   "benachrichtigung archivieren",
+   "in ordner speichern",
+   "neuen archiv ordner erstellen",
+   "eintrag sichern"
   ]
  },
  {
   "type": "guide",
   "sec": "Archiv",
-  "t": "Automatisches Archivieren (Archivierungsregeln und -gruppen)",
-  "a": "Im Archiv öffnet ⚙ Regeln die Automatische Archivierungsregeln. Mit + Regel hinzufügen erstellst du Regeln nach App, Absender oder Schlüsselwort; als gelesen markierte Benachrichtigungen wandern dann automatisch in den entsprechenden Ordner. ✨ Automatisch vorschlagen empfiehlt passende Regeln für dich.",
+  "t": "Automatisches Hinzufügen zum Archiv (Archivregeln und -gruppen)",
+  "a": "Das automatische Archivieren ist standardmäßig aktiviert. Es speichert nur wichtige Benachrichtigungen selbstständig in den entsprechenden Ordnern: Bankzahlungen, Gutscheine, getätigte Ausgaben und Rechnungen/Fälligkeiten. Preise in Werbeanzeigen gelangen nicht ins Archiv. Manuell hinzugefügte oder bearbeitete Einträge bleiben stets erhalten. Beträge werden in der lokalen Währung deines Telefons angezeigt. Um das automatische Archivieren zu deaktivieren oder Typen auszuwählen, gehe zu Einstellungen → Datenschutz & Daten → Automatisches Archiv. Im Archiv-Bildschirm kannst du unter „⚙ Regeln“ auch eigene Regeln nach App, Kontakt oder Schlüsselwort hinzufügen.",
   "q": [
-   "nachrichten automatisch archivieren",
-   "archivierungsregeln einrichten",
-   "regeln für archiv erstellen",
-   "automatisch vorschlagen archiv"
+   "automatisches archivieren",
+   "archivregeln erstellen",
+   "rechnungen automatisch speichern",
+   "auto archiv ausschalten"
   ]
  },
  {
   "type": "guide",
   "sec": "Archiv",
   "t": "Gutschein-Wallet",
-  "a": "Wenn du im Archiv in den Ordner Gutscheine wechselst, siehst du ganz oben die Gutschein- & Aktions-Wallet. Aktive Gutscheincodes werden hier gesammelt; kurz vor Ablauf wirst du daran erinnert.",
+  "a": "Wenn du im Archiv zum Ordner „Gutscheine“ wechselst, erscheint ganz oben das „Gutschein- & Aktions-Wallet“. Aktive Rabatt- und Aktionsgutscheine werden hier gebündelt gesammelt; kurz vor Ablauf des Gültigkeitsdatums wirst du daran erinnert.",
   "q": [
-   "gutscheine finden",
-   "wo sind gespeicherte rabattcodes",
+   "rabattcodes finden",
    "gutschein wallet ansehen",
-   "gutschein erinnerung"
+   "gespeicherte kupons",
+   "gutscheine verwalten"
   ]
  },
  {
   "type": "guide",
   "sec": "Archiv",
   "t": "Im Archiv nach App filtern und suchen",
-  "a": "Im Archiv wählst du über 📱 Nach App eine App aus, um nur deren Einträge anzuzeigen (z. B. nur deine Mail-App). Über das Suchfeld kannst du gezielt nach dem App-Namen suchen.",
+  "a": "Im Archiv kannst du mit der Schaltfläche „📱 Nach App“ eine bestimmte App auswählen und nur deren Einträge ansehen. Über das Suchfeld kannst du nach App-Namen oder Inhalten suchen.",
   "q": [
-   "archiv nach app durchsuchen",
-   "gespeicherte nachrichten filtern",
-   "bestimmte app im archiv finden",
-   "im archiv suchen"
+   "archiv durchsuchen",
+   "archivierte nachrichten nach app",
+   "rechnung im archiv suchen",
+   "archiv filter"
   ]
  },
  {
   "type": "guide",
   "sec": "Archiv",
-  "t": "Archiv exportieren und in Drive speichern",
-  "a": "Im Archiv erscheinen bei Archiv exportieren drei Optionen: 🔒 Verschlüsseltes Archiv (.hashh) als passwortgeschütztes und empfohlenes Format, Unverschlüsseltes JSON (.json) und Unverschlüsseltes CSV (.csv · Excel / Tabellen). Die erstellte Datei kannst du über das Android-Teilen-Menü an beliebiger Stelle speichern, etwa in Google Drive. ha!shh sendet die Datei von sich aus an keinen Server.",
+  "t": "Archiv exportieren und auf Google Drive sichern",
+  "a": "Im Archiv stehen dir unter „Archiv exportieren“ drei Optionen zur Verfügung: „🔒 Verschlüsseltes Archiv (.hashh)“ (passwortgeschützt und empfohlenes sicheres Format), „Unverschlüsseltes JSON (.json)“ und „Unverschlüsseltes CSV (.csv · Excel / Tabellen)“. Die erstellte Datei kannst du über das Android-Teilen-Menü an einem beliebigen Ort speichern, wie etwa Google Drive oder im lokalen Gerätespeicher. Da ha!shh keine Internetberechtigung besitzt, lädt die App selbst die Datei niemals auf Server hoch.",
   "q": [
    "archiv exportieren",
-   "archiv in drive sichern",
-   "nachrichten als csv exportieren",
-   "backup vom archiv erstellen"
+   "archiv auf drive sichern",
+   "backup von archiv erstellen",
+   "csv export archiv"
   ]
  },
  {
   "type": "guide",
   "sec": "Datenschutz & Sicherheit",
   "t": "Fingerabdruck-Sperre",
-  "a": "Einstellungen → Fingerabdruck-Sperre. Es gibt drei Optionen: Aus, Nur Archiv und Benachrichtigungsinhalte, Gesamte App (bei jedem Öffnen). Das Entsperren erfolgt per Fingerabdruck, Gesichtserkennung oder Gerätekennwort.",
+  "a": "Gehe zu Einstellungen → Datenschutz & Daten → Fingerabdruck-Sperre. Es gibt drei Optionen: Deaktiviert, Nur Archiv und Benachrichtigungsinhalte, Gesamte App (bei jedem Öffnen). Das Entsperren erfolgt per Fingerabdruck, Gesichtserkennung oder Geräte-PIN/Passwort.",
   "q": [
-   "fingerabdruck sperre einrichten",
-   "app mit biometrie sichern",
-   "nachrichten mit pin sperren",
-   "zugriff auf app schützen"
+   "app sperren mit fingerabdruck",
+   "biometrische sperre",
+   "pin für app festlegen",
+   "archiv sperren"
   ]
  },
  {
   "type": "guide",
   "sec": "Datenschutz & Sicherheit",
-  "t": "Inhalte im Verlauf speichern",
-  "a": "Über Einstellungen → Inhalt & Ruhe → Inhalte im Verlauf speichern kannst du Benachrichtigungsinhalte für 1 oder 7 Tage verschlüsselt speichern. Nach Ablauf der Frist oder beim Deaktivieren der Berechtigung werden sie gelöscht. Diese Einstellung funktioniert nur, wenn Benachrichtigungsinhalt anzeigen aktiv ist.",
+  "t": "Aufbewahrungsdauer des Benachrichtigungsverlaufs",
+  "a": "Bei der Einrichtung fragt ha!shh, wie lange der Benachrichtigungsverlauf gespeichert werden soll: nach 7, 30, 90 oder 365 Tagen löschen oder „Nicht automatisch löschen, manuell bereinigen“. Empfohlen werden 30 Tage. Du kannst diese Auswahl später unter Einstellungen → Inhalt & Ruhe → Aufbewahrungsdauer des Benachrichtigungsverlaufs ändern. Wenn kein Zeitraum festgelegt wurde, werden Einträge nicht automatisch gelöscht. Nimmt der Verlauf viel Speicherplatz ein, erscheint auf dem Heute-Bildschirm die Karte „Alte Einträge bereinigen?“. Auf Wunsch kannst du Einträge älter als 30 Tage löschen; vorab siehst du die Anzahl der Einträge und wirst um Bestätigung gebeten. Wenn du „Nicht jetzt“ wählst, wird 14 Tage lang nicht mehr nachgefragt. Einträge im Archiv bleiben von dieser Bereinigung unberührt. Das Anzeigen von Benachrichtigungsinhalten (Titel und Text) im Verlauf funktioniert, solange „Benachrichtigungsinhalt anzeigen“ aktiviert ist; Inhalte werden verschlüsselt nur auf diesem Telefon gespeichert.",
   "q": [
-   "inhalte im verlauf behalten",
-   "nachrichtenverlauf dauerhaft speichern",
-   "wie lange wird der verlauf gespeichert",
-   "verlauf nachrichtentext aktivieren"
+   "verlauf speicherdauer",
+   "benachrichtigungsverlauf löschen",
+   "alte daten bereinigen",
+   "wie lange speichert hashh"
   ]
  },
  {
   "type": "guide",
-  "sec": "Benachrichtigungsleiste & Kurzbefehle",
-  "t": "Was ist die Stille Vorschau?",
-  "a": "Eine einzelne, lautlose Zeile in der Benachrichtigungsleiste für zurückgehaltene Benachrichtigungen: von wem wie viele Mitteilungen vorliegen und wann die erste Zustellung erfolgt. Unter Einstellungen → Stille Vorschau wählst du Aus, Ausgewählte Apps… oder Alle wartenden Benachrichtigungen. Wenn App-Symbole in der Benachrichtigung aktiviert sind, werden beim Aufklappen der Zeile die Symbole der wartenden Apps sichtbar.",
+  "sec": "Datenschutz & Sicherheit",
+  "t": "Screenshot-Sperre",
+  "a": "Die Option Einstellungen → Datenschutz & Daten → Screenshots auf sensiblen Bildschirmen blockieren ist eine optionale Sicherheitseinstellung und standardmäßig deaktiviert. Bei Aktivierung verhindert sie Screenshots in Tresorbereichen, auf dem Sperrbildschirm und auf Bildschirmen mit Benachrichtigungsinhalten und blendet Inhalte in der Vorschau der letzten Apps aus.",
   "q": [
-   "was ist die stille vorschau",
-   "sammelbenachrichtigung in statusleiste",
-   "stille benachrichtigungszeile",
-   "benachrichtigungsleiste zusammenfassung"
+   "screenshots verbieten",
+   "screenshot sperre aktivieren",
+   "keine screenshots erlauben",
+   "screenshot schutz"
   ]
  },
  {
   "type": "guide",
-  "sec": "Benachrichtigungsleiste & Kurzbefehle",
+  "sec": "Benachrichtigungsleiste, Tools & Widgets",
+  "t": "Startbildschirm-Widgets",
+  "a": "Du kannst ha!shh als Widget zu deinem Startbildschirm hinzufügen. Es stehen vier verschiedene Größen zur Auswahl (2x2, 4x1, 4x2, 4x3). Auf dem Widget siehst du die nächste Zustellzeit, den aktiven Modus, die Anzahl wartender Benachrichtigungen sowie die Apps mit den meisten wartenden Nachrichten. In den größeren Formaten (4x2 und 4x3) sind eine Liste der wartenden Benachrichtigungen sowie eine Schaltfläche „Alle als gelesen markieren“ mit nur einem Fingertipp enthalten. Es passt sich deinem gewählten Design an; durch Antippen der Uhr wird die aktuelle Uhrzeit angezeigt.",
+  "q": [
+   "widget auf startbildschirm",
+   "hashh widget größen",
+   "widget hinzufügen",
+   "uhr widget"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Benachrichtigungsleiste, Tools & Widgets",
+  "t": "Was ist die stille Benachrichtigung?",
+  "a": "Für zurückgehaltene Benachrichtigungen erscheint in der Benachrichtigungsleiste deines Telefons eine einzelne Zusammenfassungszeile ohne Ton und Vibration: Sie zeigt, von wem wie viele Benachrichtigungen vorliegen und wann die erste Zustellzeit ist. Unter Einstellungen → Inhalt & Ruhe → Stille Benachrichtigung kannst du zwischen „Deaktiviert“, „Ausgewählte Apps…“ oder „Alle wartenden Benachrichtigungen“ wählen. Wenn App-Symbole aktiviert sind, werden beim Aufklappen der Zeile die Symbole der wartenden Apps sichtbar.",
+  "q": [
+   "stille benachrichtigung was ist das",
+   "zusammenfassung in statusleiste",
+   "stumme benachrichtigung einstellen",
+   "benachrichtigungsleiste vorschau"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Benachrichtigungsleiste, Tools & Widgets",
   "t": "Live-Benachrichtigungen wie Bestellungen",
-  "a": "Wenn du fortschreitende Benachrichtigungen – etwa wenn eine Bestellung vorbereitet wird – versehentlich schließt, siehst du sie im Verlauf mit dem Kennzeichen \"Live-Benachrichtigung\". Ein Tippen auf die Zeile öffnet direkt die betreffende App.",
+  "a": "Wenn du Benachrichtigungen mit Fortschrittsstatus (z. B. Paketlieferung, Essensbestellung oder Musik) versehentlich weggewischt hast, findest du sie im Verlauf mit dem Label „⚡ Live“. Durch Antippen der Zeile öffnet sich sofort die entsprechende App.",
   "q": [
-   "lieferstatus wiederfinden",
-   "geschlossene live meldungen",
-   "bestellstatus erneut öffnen",
-   "aktive meldung weggewischt"
+   "paketverfolgung wiederfinden",
+   "live benachrichtigung weggewischt",
+   "lieferstatus nachsehen",
+   "bestellstatus verloren"
   ]
  },
  {
   "type": "guide",
-  "sec": "Benachrichtigungsleiste & Kurzbefehle",
-  "t": "Kachel für Schnelleinstellungen",
-  "a": "Über Einstellungen → Tools → Kachel für Schnelleinstellungen fügst du dem Benachrichtigungsfeld eine ha!shh-Kachel hinzu. Die Kachel zeigt die Anzahl der wartenden Mitteilungen und die Intensität an; was beim Antippen passieren soll (Wartende öffnen, Modus wechseln, sofort zustellen), legst du an derselben Stelle fest.",
+  "sec": "Benachrichtigungsleiste, Tools & Widgets",
+  "t": "Schnelleinstellungs-Kachel",
+  "a": "Über Einstellungen → Tools → Schnelleinstellungs-Kachel kannst du dem oberen Benachrichtigungsbereich deines Telefons eine ha!shh-Kachel hinzufügen. Die Kachel zeigt die Anzahl wartender Benachrichtigungen und die nächste Zustellzeit; im selben Menü kannst du festlegen, was beim Antippen geschehen soll.",
   "q": [
-   "schnelleinstellungs kachel aktivieren",
-   "quick settings tile hinzufügen",
-   "kachel in der statusleiste",
-   "toggle für benachrichtigungsleiste"
+   "quick settings kachel",
+   "schnelleinstellungen hinzufügen",
+   "hashh statusleiste kachel",
+   "kachel belegen"
   ]
  },
  {
   "type": "guide",
-  "sec": "Benachrichtigungsleiste & Kurzbefehle",
+  "sec": "Benachrichtigungsleiste, Tools & Widgets",
   "t": "Modus nach WLAN",
-  "a": "Einstellungen → Tools → Modus nach WLAN erklärt dir Schritt für Schritt, wie du bei Verbindung mit einem bestimmten WLAN über die Routine-App deines Telefons (z. B. Samsung Routines) den Modus wechselst.",
+  "a": "Die Option Einstellungen → Tools → Modus nach WLAN erklärt dir Schritt für Schritt, wie der Modus automatisch wechselt, sobald sich dein Telefon mit deinem Heim- oder Arbeits-WLAN verbindet (über die Routine-App deines Telefons, z. B. Samsung Modi und Routinen). Eine Standortberechtigung ist dafür nicht erforderlich.",
   "q": [
-   "modus automatisch bei wlan wechseln",
-   "wlan routine einrichten",
-   "arbeitsmodus bei büro wlan",
-   "modus per wlan steuern"
+   "modus per wlan steuern",
+   "automatisch im home wlan",
+   "samsung routinen verknüpfen",
+   "wlan modus wechsel"
   ]
  },
  {
   "type": "guide",
   "sec": "Erscheinungsbild",
   "t": "Design ändern",
-  "a": "Unter Einstellungen → Erscheinungsbild stehen die Themes Papier, Hell, Dunkel, System sowie Nacht (Petrol-Samt) und Tag (Cremepapier) zur Auswahl. Wenn du das Design änderst, wirst du gefragt, ob das Startbildschirm-Symbol ebenfalls angepasst werden soll.",
+  "a": "Unter Einstellungen → Erscheinungsbild findest du die Themes Papier, Hell, Dunkel, System sowie Nacht (Petrolsamt) und Tag (Cremepapier). Mit dem Sonne/Mond-Symbol auf dem Heute-Bildschirm kannst du auch ganz einfach zwischen den Themes umschalten. Du kannst zudem festlegen, dass das App-Symbol auf dem Startbildschirm seine Farbe passend zum Theme ändert.",
   "q": [
-   "design wechseln",
+   "theme wechseln",
    "dark mode aktivieren",
    "farbschema ändern",
-   "app theme anpassen"
+   "hell dunkel design"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Erscheinungsbild",
+  "t": "App-Sprache",
+  "a": "Unter Einstellungen → Erscheinungsbild → App-Sprache kannst du direkt in der App aus 10 Sprachen (sowie der Systemsprache) wählen, ohne in die Systemeinstellungen deines Telefons gehen zu müssen.",
+  "q": [
+   "sprache ändern",
+   "app auf deutsch stellen",
+   "language settings",
+   "sprache auswählen"
   ]
  },
  {
   "type": "guide",
   "sec": "Erscheinungsbild",
   "t": "App-Symbol",
-  "a": "Unter Einstellungen → App-Symbol wählst du die Farbe des Symbols auf deinem Startbildschirm. Auf manchen Telefonen (z. B. Samsung) verschwindet das Symbol nach dem Wechsel vom Startbildschirm und kehrt in die App-Übersicht zurück; du musst es von dort einfach wieder hinzufügen.",
+  "a": "Unter Einstellungen → Erscheinungsbild → App-Symbol kannst du die Farbe des App-Symbols auf deinem Startbildschirm passend zu deinem Design anpassen. Bei manchen Telefonen wird das Symbol beim Wechsel vom Startbildschirm entfernt und wandert in den App-Drawer zurück; ziehe es in diesem Fall einfach wieder auf den Startbildschirm.",
   "q": [
-   "app symbol ändern",
-   "icon farbe wechseln",
-   "app icon vom startbildschirm verschwunden",
-   "startbildschirm icon anpassen"
+   "app icon farbe ändern",
+   "icon auf startbildschirm weg",
+   "app icon anpassen",
+   "icon verschwunden"
   ]
  },
  {
   "type": "guide",
   "sec": "Erscheinungsbild",
-  "t": "Schlichte Ansicht",
-  "a": "Wenn Einstellungen → Inhalt & Ruhe → Schlichte Ansicht aktiv ist, bleiben im Feed nur das Zifferblatt, eine einzelne Schaltfläche und die wartenden Mitteilungen; die Tabs Regeln und Zeitplan werden ausgeblendet. Deine Regeln laufen im Hintergrund weiter.",
+  "t": "Kompakte Ansicht",
+  "a": "Wenn Einstellungen → Inhalt & Ruhe → Kompakte Ansicht aktiviert ist, bleiben auf dem Heute-Bildschirm nur das Zifferblatt, eine einzelne Modus-Schaltfläche und die Liste der wartenden Benachrichtigungen sichtbar; die Tabs „Regeln“ und „Zeitplan“ werden ausgeblendet. Deine festgelegten Regeln laufen im Hintergrund wie gewohnt weiter.",
   "q": [
-   "schlichte ansicht einschalten",
-   "minimalistischer modus",
+   "einfache ansicht einschalten",
+   "minimalistische ansicht",
    "tabs ausblenden",
-   "einfache oberfläche aktivieren"
+   "kompakter modus"
   ]
  },
  {
   "type": "guide",
   "sec": "Erscheinungsbild",
-  "t": "Schlichte Ansicht bei schwachem Akku",
-  "a": "Ist Einstellungen → Schlichte Ansicht bei schwachem Akku aktiviert, wechselt ha!shh automatisch in die schlichte Ansicht, sobald das Telefon in den Energiesparmodus geht.",
+  "t": "Einfache Oberfläche bei schwachem Akku",
+  "a": "Wenn Einstellungen → Erscheinungsbild → Einfache Oberfläche bei schwachem Akku aktiviert ist, wechselt ha!shh automatisch in eine minimalistische Ansicht und stoppt Animationen, sobald dein Telefon in den Energiesparmodus wechselt, um den Akkuverbrauch zu senken.",
   "q": [
-   "energiesparmodus oberfläche",
-   "schlichte ansicht bei akkusparen",
-   "akku schonen in ha!shh",
-   "automatischer sparmodus"
+   "akku sparen hashh",
+   "stromsparmodus oberfläche",
+   "animationen stoppen bei wenig akku",
+   "energiesparmodus ui"
   ]
  },
  {
   "type": "guide",
-  "sec": "Einladungen",
+  "sec": "Erscheinungsbild",
+  "t": "Tischuhr-Modus beim Querstellen",
+  "a": "Wenn Einstellungen → Erscheinungsbild → Tischuhr-Modus beim Querstellen aktiv ist und du dein Telefon ins Querformat drehst, verwandelt sich der Bildschirm in eine Schreibtischuhr mit großer Zeitanzeige, aktivem Modus, Wochenleiste, nächster Zustellung und wartenden Benachrichtigungen. Du kannst auswählen, welche Bereiche angezeigt werden, und ein eigenes Foto als Rahmen oder Hintergrund festlegen. Während das Telefon lädt, kann der Bildschirm dauerhaft eingeschaltet bleiben; zudem sorgt ein Niedrigenergielayout für geringen Akkuverbrauch.",
+  "q": [
+   "tischuhr modus",
+   "querformat uhr",
+   "standby anzeige quer",
+   "telefon als wecker am tisch"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Tools & Berichte",
+  "t": "Benachrichtigungsbericht und Statistiken",
+  "a": "Unter Einstellungen → Tools → Benachrichtigungsbericht kannst du deinen Benachrichtigungsrhythmus, die tägliche und monatliche Verteilung, die Balance zwischen Fokus- und Schlafmodus sowie die durch verhinderte Unterbrechungen gewonnene Zeit und geschätzte Akkuersparnis auf einem einzigen Bildschirm einsehen. Es gibt keinen separaten Menüpunkt „Statistiken“; alle Nutzungsstatistiken sind im Benachrichtigungsbericht zusammengefasst. Du kannst den Bericht auf Wunsch als Bild teilen.",
+  "q": [
+   "benachrichtigungsstatistik einsehen",
+   "wieviel zeit gespart",
+   "nutzungsbericht anzeigen",
+   "bericht teilen"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Freunde einladen",
   "t": "Wie lade ich Freunde ein?",
-  "a": "Einstellungen → Freunde einladen & Belohnungen erhalten. Unter Dein Einladungscode siehst du deinen Code; über Einladen teilst du ihn direkt über eine beliebige App oder wählst Code kopieren.",
+  "a": "Unter Einstellungen → Freunde einladen & Belohnungen erhalten. Unter „Dein Einladungscode“ siehst du deinen persönlichen Code; über „Einladen“ kannst du ihn über eine beliebige Messaging-App teilen oder auf „Code kopieren“ tippen.",
   "q": [
-   "freunde einladen",
-   "wie funktioniert der einladungscode",
-   "empfehlungscode teilen",
-   "jemanden zu ha!shh einladen"
+   "freunde werben",
+   "einladungscode teilen",
+   "jemanden zu hashh einladen",
+   "wo ist mein einladungscode"
   ]
  },
  {
   "type": "guide",
-  "sec": "Einladungen",
-  "t": "Wie erhöht sich mein Einladungszähler?",
-  "a": "Dein Freund installiert die App und gibt deinen Code im Feld Ich habe einen Einladungscode ein. Auf seinem Telefon wird ein Dankeschön-Code generiert, den er dir zusendet (Dankeschön-Code senden). Du trägst diesen Code im Feld Dankeschön-Code eingeben ein und tippst auf Hinzufügen. Dieselbe Person wird nur einmal gezählt.",
+  "sec": "Freunde einladen",
+  "t": "Wie erhöht sich meine Anzahl an Einladungen?",
+  "a": "Dein Freund installiert die App und gibt im Feld „Ich habe einen Einladungscode“ deinen Code ein. Den Dankeschön-Code, der auf seinem Telefon erzeugt wird, sendet er an dich (über „Dankeschön-Code senden“). Du trägst diesen Code im Feld „Dankeschön-Code eingeben“ ein und tippst auf „Hinzufügen“. Dieselbe Person kann nicht doppelt gezählt werden.",
   "q": [
-   "warum zählt die einladung nicht",
+   "einladung zählt nicht",
    "dankeschön code eingeben",
-   "einladungszähler erhöhen",
-   "wie wird eine empfehlung gewertet"
+   "wie funktioniert freunde werben",
+   "einladungszähler erhöhen"
   ]
  },
  {
   "type": "guide",
-  "sec": "Einladungen",
+  "sec": "Freunde einladen",
   "t": "Welche Belohnungen gibt es?",
-  "a": "Bei 1 Einladung das Abzeichen Erste Einladung, bei 3 das Hintergrundbild Papier, bei 5 das Abzeichen Stiller Kreis, bei 7 das Hintergrundbild Nacht, bei 10 das Abzeichen ha!shh-Botschafter. Auch dein eingeladener Freund erhält das Abzeichen \"Eingeladen\". Die Hintergrundbilder lassen sich unter Einstellungen → Erscheinungsbild → Feed-Hintergrundbild für den Feed aktivieren; mit Hintergrundbild als Bild speichern kannst du sie als PNG-Datei sichern.",
+  "a": "Bei 1 Einladung erhältst du das Badge „Erste Einladung“, bei 3 das Hintergrundbild „Papier“, bei 5 das Badge „Stiller Kreis“, bei 7 das Hintergrundbild „Nacht“ und bei 10 das Badge „ha!shh-Botschafter“. Dein eingeladener Freund erhält das Badge „Eingeladen worden“. Die Hintergrundbilder werden als Hintergrund für den Heute-Bildschirm unter Einstellungen → Erscheinungsbild → Feed-Hintergrundbild freigeschaltet; du kannst sie über „Hintergrundbild als Bild speichern“ auch als PNG exportieren.",
   "q": [
-   "welche belohnungen gibt es",
-   "einladungs belohnungen freischalten",
-   "wallpaper freischalten",
-   "abzeichen für einladungen"
+   "belohnungen einladungen",
+   "welche badges gibt es",
+   "exklusive wallpaper freischalten",
+   "einladungs prämie"
   ]
  },
  {
   "type": "guide",
-  "sec": "Sicherung",
+  "sec": "Backup",
   "t": "Wie sichere ich meine Regeln?",
-  "a": "Einstellungen → Sicherung → In Datei exportieren. Deine Regeln, Modi und dein Zeitplan werden in einer Datei gespeichert. Es gibt kein Cloud-Backup und Inhalte von Benachrichtigungen werden nicht gesichert.",
+  "a": "Gehe zu Einstellungen → Backup → In Datei exportieren. Deine Regeln, Modi und dein Wochenplan werden in einer Datei auf deinem Telefon gespeichert. Es gibt kein Internet-Backup, und Benachrichtigungsinhalte werden niemals in diese Datei aufgenommen.",
   "q": [
    "regeln sichern",
    "backup erstellen",
-   "einstellungen als datei exportieren",
-   "wie mache ich eine datensicherung"
+   "einstellungen exportieren",
+   "konfiguration sichern"
   ]
  },
  {
   "type": "guide",
-  "sec": "Sicherung",
-  "t": "Wie stelle ich eine Sicherung wieder her?",
-  "a": "Wähle unter Einstellungen → Sicherung → Aus Datei importieren deine Sicherungsdatei aus. Die App zeigt den Inhalt an; Zusammenführen behält deine bestehenden Regeln bei und aktualisiert sie, Ersetzen überschreibt alles mit den Daten aus der Sicherung.",
+  "sec": "Backup",
+  "t": "Wie stelle ich ein Backup wieder her?",
+  "a": "Wähle unter Einstellungen → Backup → Aus Datei importieren deine Sicherungsdatei aus. Die App zeigt den Dateiinhalt an; „Zusammenführen“ behält deine vorhandenen Regeln bei und ergänzt neue, während „Ersetzen“ alle Regeln durch die Inhalte des Backups austauscht.",
   "q": [
    "backup wiederherstellen",
-   "sicherungsdatei importieren",
-   "alte regeln laden",
-   "einstellungen aus datei einspielen"
+   "regeln importieren",
+   "einstellungen aus datei laden",
+   "backup einspielen"
   ]
  },
  {
   "type": "guide",
-  "sec": "Sicherung",
+  "sec": "Backup",
   "t": "Regelvorlage teilen",
-  "a": "Über Einstellungen → Sicherung → Regelvorlage teilen kannst du deine Regeln mit Freunden teilen. Darin sind keinerlei Benachrichtigungsinhalte enthalten.",
+  "a": "Unter Einstellungen → Backup → Regelvorlage teilen kannst du deine Regeln mit einem Freund teilen. Benachrichtigungsinhalte werden dabei unter keinen Umständen geteilt.",
   "q": [
-   "regeln mit freunden teilen",
-   "regelvorlage exportieren",
-   "konfiguration weitergeben",
-   "einstellungen teilen"
+   "regeln an freund senden",
+   "regeln teilen",
+   "setup weitergeben",
+   "konfiguration teilen"
   ]
  },
  {
   "type": "guide",
   "sec": "Sonstiges",
   "t": "Feedback senden",
-  "a": "Einstellungen → Feedback senden öffnet deine E-Mail-App mit einer vorbereiteten Nachricht. Deine Benachrichtigungsinhalte und Regeln werden nicht angehängt; du kannst die E-Mail vor dem Absenden überprüfen und ändern.",
+  "a": "Unter Einstellungen → Feedback senden öffnet sich deine E-Mail-App mit einer vorbereiteten Vorlage. Deine Benachrichtigungsinhalte und privaten Regeln werden nicht angehängt; du kannst den Text der E-Mail vor dem Absenden einsehen und bearbeiten.",
   "q": [
    "feedback geben",
-   "support kontaktieren",
    "problem melden per mail",
-   "nachricht an entwickler senden"
+   "entwickler kontaktieren",
+   "support anschreiben"
   ]
  },
  {
   "type": "guide",
   "sec": "Sonstiges",
   "t": "Gutscheincode",
-  "a": "Unter Einstellungen → Tools → Gutscheincode einlösen aktivierst du einen Google Play Gutscheincode direkt über den Play Store.",
+  "a": "Unter Einstellungen → Tools → Gutscheincode einlösen kannst du einen Google Play Promo-Code direkt über den Play Store aktivieren.",
   "q": [
-   "promo code einlösen",
-   "gutscheincode eingeben",
-   "play store code aktivieren",
-   "rabattcode verwenden"
+   "promo code eingeben",
+   "gutschein einlösen",
+   "aktionscode play store",
+   "rabattcode aktivieren"
   ]
  },
  {
   "type": "fix",
-  "sec": "Zurückhalten & Zustellung",
+  "sec": "Zurückhaltung & Zustellung",
   "t": "Benachrichtigungen werden nicht zurückgehalten, sondern kommen sofort",
-  "a": "Die häufigste Ursache ist ein deaktivierter Benachrichtigungszugriff. Wenn in der Zeile Einstellungen → Geräteberechtigungen → Benachrichtigungszugriff verwalten der Hinweis \"Berechtigung erforderlich\" steht, tippe darauf und aktiviere ha!shh. Zudem könnte für die App Sofort oder Nie zurückhalten ausgewählt sein; prüfe das im Tab Regeln durch Antippen der App. Anrufe, Wecker und Systembenachrichtigungen werden aus Sicherheitsgründen nie zurückgehalten.",
+  "a": "Die häufigste Ursache ist ein deaktivierter Benachrichtigungszugriff. Wenn unter Einstellungen → Geräteberechtigungen → Benachrichtigungszugriff verwalten der Hinweis „Berechtigung erforderlich“ steht, tippe darauf und aktiviere ha!shh. Möglicherweise ist für die jeweilige App auch „Sofort“ oder „Nie zurückhalten“ eingestellt; überprüfe dies durch Antippen der App im Tab „Regeln“. Telefonanrufe, Wecker sowie Android-System- und SIM-Benachrichtigungen (Netz, Betreiberhinweise) werden aus Sicherheitsgründen in keinem Modus zurückgehalten.",
   "q": [
-   "benachrichtigungen werden nicht stummgeschaltet",
-   "warum kommen nachrichten trotzdem durch",
-   "ha!shh blockiert nicht",
-   "nachrichten kommen sofort an"
+   "benachrichtigungen kommen trotzdem",
+   "hashh blockiert nicht",
+   "nachrichten werden nicht gestoppt",
+   "warum sofortige zustellung"
   ]
  },
  {
   "type": "fix",
-  "sec": "Zurückhalten & Zustellung",
+  "sec": "Zurückhaltung & Zustellung",
   "t": "Benachrichtigungen kamen nicht zur Zustellzeit an",
-  "a": "Meist hat die Akku-Optimierung deines Telefons ha!shh im Hintergrund beendet. Tippe auf Einstellungen → Geräteberechtigungen → Akku & Hintergrund; nutze die Schaltflächen Akku-Optimierung deaktivieren und – falls deine Marke erkannt wird – Spezifische Geräteeinstellungen öffnen. Die Zeile Systemstatus zeigt den Verbindungsstatus an; steht dort \"Verbindung getrennt\", tippe an dieser Stelle auf Neu verbinden.",
+  "a": "Meist hat die Akku-Optimierung deines Telefons ha!shh im Hintergrund gestoppt. Tippe auf Einstellungen → Geräteberechtigungen → Akku und Hintergrund; nutze die Schaltflächen „Akku-Optimierung deaktivieren“ und (falls deine Gerätemarke erkannt wird) „Spezielle Geräteeinstellungen öffnen“. Die Zeile „Systemzustand“ zeigt den Verbindungsstatus an; tippe auf „Erneut verbinden“, falls dort „Verbindung getrennt“ steht. Läuft die Dauer eines Modus ab, werden die darin zurückgehaltenen Benachrichtigungen gesammelt am Modusende zugestellt, nicht zu verstreuten Zeiten.",
   "q": [
+   "zustellung verspätet",
+   "keine benachrichtigungen zur zeit",
    "benachrichtigungen kommen zu spät",
-   "zustellzeit verpasst",
-   "keine zustellung zur geplanten zeit",
-   "app wird im hintergrund beendet"
+   "akku stoppt hashh"
   ]
  },
  {
   "type": "fix",
-  "sec": "Zurückhalten & Zustellung",
-  "t": "Bei Samsung verzögern sich die Zustellungen",
-  "a": "Gehe in den Telefoneinstellungen zu Akku → Grenzen der Hintergrundnutzung und füge ha!shh zur Liste Apps, die nie im Standby sind hinzu. Falls die App in der Liste für Standby-Apps steht, entferne sie dort. Die Schaltfläche Spezifische Geräteeinstellungen öffnen innerhalb von ha!shh führt dich direkt zum Samsung-Akku-Menü.",
+  "sec": "Zurückhaltung & Zustellung",
+  "t": "Bei Samsung verzögert sich die Zustellung",
+  "a": "Gehe in den Telefoneinstellungen zu Akku → Grenzen der Hintergrundnutzung und füge ha!shh zur Liste „Apps, die nie im Standby sind“ hinzu. Falls die App in der Liste für Standby-Apps steht, entferne sie dort. Die Schaltfläche „Spezielle Geräteeinstellungen öffnen“ in ha!shh bringt dich direkt zum passenden Samsung-Akku-Bildschirm.",
   "q": [
-   "samsung benachrichtigung verspätet",
-   "samsung standby probleme",
-   "ha!shh auf samsung nicht beenden",
-   "samsung akku ausnahme"
+   "samsung verzögerung",
+   "samsung akku standby hashh",
+   "samsung benachrichtigungen verspätet",
+   "galaxy zustellung verzögert"
   ]
  },
  {
   "type": "fix",
-  "sec": "Zurückhalten & Zustellung",
-  "t": "Bei Xiaomi, Redmi oder POCO verzögern sich die Zustellungen",
-  "a": "Aktiviere in den Telefoneinstellungen unter Apps → ha!shh den Autostart und stelle den Energiesparmodus auf Keine Beschränkungen. Es hilft außerdem, ha!shh in der Übersicht der letzten Apps mit dem Schloss zu sperren. Die Schaltfläche Spezifische Geräteeinstellungen öffnen in ha!shh öffnet den passenden Xiaomi-Bildschirm.",
+  "sec": "Zurückhaltung & Zustellung",
+  "t": "Bei Xiaomi, Redmi oder POCO verzögert sich die Zustellung",
+  "a": "Aktiviere in den Telefoneinstellungen unter Apps → ha!shh den „Autostart“ und stelle die Energiesparfunktion auf „Keine Beschränkungen“. Es hilft außerdem, ha!shh in der Übersicht der letzten Apps mit dem Schloss-Symbol zu sperren. Die Schaltfläche „Spezielle Geräteeinstellungen öffnen“ in ha!shh öffnet den passenden Xiaomi-Bildschirm.",
   "q": [
-   "xiaomi hintergrund stoppt app",
-   "redmi verzögerte benachrichtigung",
-   "poco autostart aktivieren",
-   "miui akku beschränkung aufheben"
+   "xiaomi benachrichtigung verspätet",
+   "redmi autostart aktivieren",
+   "poco zustellung kommt nicht",
+   "miui akkusparen ausschalten"
   ]
  },
  {
   "type": "fix",
-  "sec": "Zurückhalten & Zustellung",
-  "t": "Bei Huawei oder Honor verzögern sich die Zustellungen",
-  "a": "Deaktiviere in den Telefoneinstellungen unter Akku → App-Start die automatische Verwaltung für ha!shh und schalte Manueller Start, Sekundärer Start sowie Im Hintergrund ausführen ein. Die Schaltfläche Spezifische Geräteeinstellungen öffnen in ha!shh versucht, diesen Bildschirm zu öffnen.",
+  "sec": "Zurückhaltung & Zustellung",
+  "t": "Bei Huawei oder Honor verzögert sich die Zustellung",
+  "a": "Deaktiviere in den Telefoneinstellungen unter Akku → App-Start die automatische Verwaltung für ha!shh und aktiviere die Optionen „Automatischer Start“, „Sekundärer Start“ und „Im Hintergrund ausführen“. Die Schaltfläche „Spezielle Geräteeinstellungen öffnen“ in ha!shh versucht, diesen Bildschirm direkt zu öffnen.",
   "q": [
-   "huawei nachrichten kommen nicht pünktlich",
-   "honor app start einstellungen",
-   "huawei hintergrund beenden verhindern",
-   "honor akkusparmodus ha!shh"
+   "huawei benachrichtigungsprobleme",
+   "honor app start einstellen",
+   "huawei verzögerung beheben",
+   "emui hintergrund aktivität"
   ]
  },
  {
   "type": "fix",
-  "sec": "Zurückhalten & Zustellung",
-  "t": "Bei Oppo, Realme, OnePlus oder Vivo verzögern sich die Zustellungen",
-  "a": "Aktiviere in den Telefoneinstellungen für ha!shh den Autostart und Hintergrundaktivität zulassen und schalte die Akku-Optimierung aus. Die Schaltfläche Spezifische Geräteeinstellungen öffnen in ha!shh versucht, den passenden Bildschirm der Marke zu öffnen.",
+  "sec": "Zurückhaltung & Zustellung",
+  "t": "Bei Oppo, Realme, OnePlus oder Vivo verzögert sich die Zustellung",
+  "a": "Aktiviere in den Telefoneinstellungen für ha!shh „Autostart“ und „Ausführung im Hintergrund zulassen“ und deaktiviere die Akku-Optimierung. Die Schaltfläche „Spezielle Geräteeinstellungen öffnen“ in ha!shh versucht, den entsprechenden Bildschirm der jeweiligen Marke zu öffnen.",
   "q": [
-   "oneplus benachrichtigung verspätet",
-   "oppo autostart ha!shh",
-   "realme hintergrund optimierung",
-   "vivo akku einstellungen ha!shh"
+   "oppo verzögerte zustellung",
+   "oneplus akku optimierung ausschalten",
+   "realme autostart hashh",
+   "vivo zustellung verspätet"
   ]
  },
  {
   "type": "fix",
-  "sec": "Zurückhalten & Zustellung",
+  "sec": "Zurückhaltung & Zustellung",
   "t": "Ich habe das Telefon neu gestartet, was passiert mit den wartenden Benachrichtigungen?",
-  "a": "ha!shh überprüft nach einem Neustart selbstständig alle zurückgehaltenen Einträge und stellt sie wieder her. Sollte eine Benachrichtigung nicht wiederhergestellt werden können, erscheint der Hinweis \"Verzögerte Benachrichtigungen prüfen\"; in diesem Fall genügt es, die betreffenden Apps kurz zu öffnen und nachzusehen.",
+  "a": "ha!shh überprüft nach einem Neustart selbstständig alle wartenden Einträge und stellt sie wieder her. Sollte eine Benachrichtigung einmal nicht wiederhergestellt werden können, erscheint der Hinweis „Verzögerte Benachrichtigungen prüfen“; öffne in diesem Fall einfach kurz die jeweiligen Apps.",
   "q": [
-   "telefon neugestartet nachrichten weg",
-   "was passiert nach neustart",
-   "wartende nachrichten nach reboot",
-   "handy neustart benachrichtigungen"
+   "nach handy neustart",
+   "sind benachrichtigungen nach reboot weg",
+   "neustart warteschlange",
+   "gerät neu gestartet"
   ]
  },
  {
   "type": "fix",
-  "sec": "Zurückhalten & Zustellung",
-  "t": "Hat sich mein manuell gewählter Modus von selbst geändert?",
-  "a": "Ein manuell ausgewählter Modus bleibt so lange aktiv, bis du ihn abschaltest; der Zeitplan überschreibt ihn nicht. Um zum Zeitplan zurückzukehren, nutze die Schaltfläche Zurück zum Zeitplan.",
+  "sec": "Zurückhaltung & Zustellung",
+  "t": "Hat sich mein manuell gewählter Modus von alleine geändert?",
+  "a": "Ein manuell ausgewählter Modus bleibt so lange aktiv, bis du ihn selbst beendest; der reguläre Zeitplan überschreibt ihn nicht. Nutze die Schaltfläche „Zurück zum Zeitplan“, um zum automatischen Plan zurückzukehren.",
   "q": [
-   "modus schaltet von alleine um",
-   "manueller modus verstellt sich",
+   "manueller modus bleibt hängen",
+   "warum wechselt modus nicht",
    "zeitplan greift nicht",
-   "automatischen plan wieder aktivieren"
+   "manuellen modus beenden"
   ]
  },
  {
   "type": "fix",
   "sec": "Apps & Regeln",
-  "t": "Eine App taucht nicht in der Liste auf",
-  "a": "Versuche, den Namen der App in das Suchfeld einzugeben. Wenn die App nicht auf deinem Telefon installiert ist oder bisher noch nie eine Benachrichtigung gesendet hat, ist sie möglicherweise nicht gelistet; sieh nach ihrer ersten Benachrichtigung erneut nach. Die App kann sich auch in einer Kategorie befinden: Tippe unter Regeln auf eine Kategorie, um die enthaltenen Apps zu sehen.",
+  "t": "Eine App wird in der Liste nicht angezeigt",
+  "a": "Versuche, den Namen der App in das Suchfeld einzugeben. Wenn die App nicht auf deinem Telefon installiert ist oder noch nie eine Benachrichtigung gesendet hat, ist sie möglicherweise noch nicht gelistet; sieh nach ihrer ersten Benachrichtigung erneut nach. Die App könnte sich auch innerhalb einer Kategorie befinden: Tippe unter „Regeln“ auf die Kategorie, um die enthaltenen Apps zu sehen.",
   "q": [
-   "app nicht in der liste",
-   "kann app nicht finden",
-   "app fehlt bei regeln",
-   "neue app wird nicht angezeigt"
+   "app fehlt in der liste",
+   "app wird nicht gefunden",
+   "app nicht sichtbar in regeln",
+   "app in regeln suchen"
   ]
  },
  {
   "type": "fix",
   "sec": "Apps & Regeln",
   "t": "Im Typ-Filter werden keine Typen angezeigt",
-  "a": "Typen werden erst erlernt, wenn die App dir eine Benachrichtigung dieses Typs gesendet hat. Warte zunächst ein paar Benachrichtigungen ab und sieh dann unter Regeln → App → Typ auswählen › erneut nach. Die Unterscheidung erfolgt anhand des Benachrichtigungstyps der App, Inhalte werden nicht gelesen.",
+  "a": "Benachrichtigungstypen werden erst erlernt, wenn die App dir entsprechende Benachrichtigungen geschickt hat. Warte zunächst ab, bis ein paar Benachrichtigungen eingegangen sind, und sieh dann unter Regeln → App → Typ auswählen › erneut nach. Die Unterscheidung erfolgt über die Benachrichtigungskanäle der App, Inhalte werden nicht gelesen.",
   "q": [
    "keine typen im filter",
    "typ filter leer",
-   "kann benachrichtigungsart nicht wählen",
-   "warum steht im typenfilter nichts"
+   "kann typen nicht auswählen",
+   "filterkanäle fehlen"
   ]
  },
  {
   "type": "fix",
   "sec": "Apps & Regeln",
   "t": "Ich habe eine App dauerhaft blockiert und möchte das rückgängig machen",
-  "a": "Wechsle unter Einstellungen → Tools → Blockiert zum Reiter Blockierte Apps und tippe auf Freigeben.",
+  "a": "Wechsle unter Einstellungen → Tools → Blockierte Apps zum Reiter „Blockierte Apps“ und tippe auf „Entsperren“.",
   "q": [
-   "blockierte app wieder zulassen",
-   "app entblocken",
-   "gesperrte app freigeben",
-   "blockierung einer app entfernen"
+   "blockierte app wieder freigeben",
+   "app entsperren",
+   "blockierung aufheben",
+   "app aus blockierliste entfernen"
   ]
  },
  {
   "type": "fix",
   "sec": "Datenschutz & Sperre",
-  "t": "Die Option Fingerabdruck-Sperre wird nicht angezeigt oder funktioniert nicht",
-  "a": "Für die Sperre muss auf dem Telefon eine Bildschirmsperre (Fingerabdruck, PIN oder Muster) aktiv sein und es wird Android 9 oder höher benötigt. Nachdem du die Bildschirmsperre in den Telefoneinstellungen aktiviert hast, versuche es unter Einstellungen → Fingerabdruck-Sperre erneut.",
+  "t": "Fingerabdruck-Sperre wird nicht angezeigt oder funktioniert nicht",
+  "a": "Für die Sperre muss auf deinem Telefon eine Bildschirmsperre (Fingerabdruck, PIN oder Muster) eingerichtet sein und es ist mindestens Android 9 erforderlich. Sobald du eine Bildschirmsperre in den Telefoneinstellungen eingerichtet hast, versuche es unter Einstellungen → Datenschutz & Daten → Fingerabdruck-Sperre erneut.",
   "q": [
-   "fingerabdruck sperre fehlt",
-   "biometrie funktioniert nicht",
-   "app sperre lässt sich nicht aktivieren",
-   "fingerabdruck option grau"
+   "fingerabdruck sperre geht nicht",
+   "biometrie nicht verfügbar",
+   "fingerabdruck einrichten fehlgeschlagen",
+   "app sperre aktivieren"
   ]
  },
  {
   "type": "fix",
   "sec": "Datenschutz & Sperre",
-  "t": "Der Benachrichtigungsinhalt wird nicht angezeigt",
-  "a": "Inhalte werden standardmäßig nicht angezeigt. Aktiviere den Schalter Einstellungen → Inhalt & Ruhe → Benachrichtigungsinhalt anzeigen. Wenn du sie auch im Verlauf nachlesen möchtest, wähle unter Inhalte im Verlauf speichern zusätzlich 1 oder 7 Tage.",
+  "t": "Benachrichtigungsinhalt wird nicht angezeigt",
+  "a": "Die Anzeige von Inhalten ist standardmäßig aktiviert. Wird nichts angezeigt, prüfe unter Einstellungen → Inhalt & Ruhe, ob der Schalter „Benachrichtigungsinhalt anzeigen“ eingeschaltet ist. Wenn du Benachrichtigungsinhalte auch später im Tab „Verlauf“ nachlesen möchtest, prüfe die Einstellung „Aufbewahrungsdauer des Benachrichtigungsverlaufs“: Einträge, die älter als der gewählte Zeitraum sind, werden gelöscht; hast du keinen Zeitraum festgelegt, wird nichts automatisch gelöscht.",
   "q": [
+   "kein inhalt in nachricht",
    "nachrichtentext wird nicht angezeigt",
-   "sehe nur app name keinen inhalt",
-   "benachrichtigungsinhalte fehlen",
-   "nachrichtenvorschau bleibt leer"
+   "vorschau fehlt",
+   "inhalt der benachrichtigung leer"
   ]
  },
  {
   "type": "fix",
   "sec": "Datenschutz & Sperre",
-  "t": "Der Screenshot des Verlaufsbildschirms ist schwarz",
-  "a": "Das ist kein Fehler, sondern dient dem Schutz deiner Privatsphäre. Auf Bildschirmen, die Benachrichtigungsinhalte anzeigen können (Verlauf, Archiv, Leseansicht), und bei aktiver Sperre werden Screenshots verhindert, damit Inhalte nicht an andere Apps durchsickern.",
+  "t": "Der Screenshot vom Verlauf-Bildschirm ist komplett schwarz",
+  "a": "Das ist kein Fehler, sondern eine optionale Datenschutzeinstellung. Wenn Einstellungen → Datenschutz & Daten → Screenshots auf sensiblen Bildschirmen blockieren aktiviert ist, wird das Aufnehmen von Screenshots auf Bildschirmen mit Tresor, Fingerabdrucksperre und Nachrichteninhalten blockiert. Diese Einstellung ist standardmäßig deaktiviert; deaktiviere sie einfach, wenn du Screenshots anfertigen möchtest.",
   "q": [
    "screenshot ist schwarz",
    "warum kann ich keinen screenshot machen",
-   "bildschirmfoto bleibt dunkel",
-   "screenshot sperre app"
+   "schwarzer bildschirm bei screenshot",
+   "screenshot schutz ausschalten"
   ]
  },
  {
   "type": "fix",
   "sec": "Datenschutz & Sperre",
-  "t": "Warum verlangt ha!shh keine Internetberechtigung?",
-  "a": "Die App wurde ganz bewusst ohne Internetberechtigung entwickelt. Deine Benachrichtigungen, Regeln und das Archiv verlassen dein Telefon zu keinem Server. Wenn du eine Datei exportieren möchtest (Sicherung oder Archiv), erledigst du das selbst über das Teilen-Menü.",
+  "t": "Warum benötigt ha!shh keine Internetberechtigung?",
+  "a": "Die App wurde bewusst ohne Internetberechtigung entwickelt. Deine Benachrichtigungen, Regeln und dein Archiv verlassen dein Telefon niemals in Richtung irgendeines Servers. Wenn du eine Datei exportieren möchtest (z. B. ein Backup oder Archiv), geschieht dies ausschließlich manuell durch dich über das Android-Teilen-Menü.",
   "q": [
-   "warum kein internetzugriff",
-   "hat ha!shh zugriff auf internet",
-   "wohin werden daten gesendet",
-   "datenschutz internet verbindung"
+   "hat hashh internetzugriff",
+   "sendet die app daten",
+   "warum keine internetberechtigung",
+   "datenschutz bei hashh"
   ]
  },
  {
   "type": "fix",
   "sec": "Archiv",
   "t": "Wo ist das Archiv?",
-  "a": "Tippe oben im Tab Verlauf auf die Schaltfläche 📦 Archiv. Du kannst es auch über die Archiv-Karte im Feed öffnen.",
+  "a": "Du kannst oben im Tab „Verlauf“ auf die Schaltfläche „📦 Archiv“ tippen oder es über die Archiv-Karte auf dem Heute-Bildschirm öffnen. Das automatische Archivieren ist standardmäßig aktiviert; es speichert lediglich Bankzahlungen, Gutscheine, getätigte Ausgaben und Rechnungen/Fälligkeiten selbstständig in den entsprechenden Ordnern. Preise in Werbeanzeigen landen nicht im Archiv. Einträge, die du manuell hinzugefügt oder bearbeitet hast, werden niemals gelöscht und bleiben dauerhaft erhalten.",
   "q": [
-   "wo finde ich das archiv",
+   "wo finde ich mein archiv",
    "archiv öffnen",
-   "wie gelange ich ins archiv",
-   "archiv schaltfläche suchen"
+   "automatisch archivierte nachrichten",
+   "archiv karte heute"
   ]
  },
  {
   "type": "fix",
   "sec": "Archiv",
-  "t": "Ich möchte das Archiv in Google Drive speichern",
-  "a": "Tippe im Archiv auf Archiv exportieren und wähle ein Format; am sichersten ist 🔒 Verschlüsseltes Archiv (.hashh). Wähle im Teilen-Menü Drive aus. Das Archiv wird niemals von selbst in die Sicherung oder ins Internet übertragen; es gelangt nur in eine Datei, wenn du es exportierst.",
+  "t": "Ich möchte das Archiv auf Google Drive sichern",
+  "a": "Tippe im Archiv auf „Archiv exportieren“ und wähle ein Format; am sichersten ist „🔒 Verschlüsseltes Archiv (.hashh)“. Wähle im erscheinenden Teilen-Menü Google Drive aus. Das Archiv wird niemals automatisch gesichert oder ins Internet übertragen; es verlässt dein Gerät nur dann als Datei, wenn du selbst den Export startest.",
   "q": [
-   "archiv bei google drive hochladen",
-   "archiv online speichern",
-   "archiv datei in drive sichern",
-   "nachrichten in cloud übertragen"
+   "archiv auf google drive",
+   "drive backup archiv",
+   "archiv in die cloud",
+   "archivdatei speichern"
   ]
  },
  {
   "type": "fix",
   "sec": "Archiv",
-  "t": "Ich kann einem neuen Archivordner keine Apps hinzufügen",
-  "a": "Über ⚙ Apps bearbeiten im Archiv kannst du Apps zu einem Ordner hinzufügen oder daraus entfernen.",
+  "t": "Ich kann einer neuen Archiv-Kategorie keine App hinzufügen",
+  "a": "Im Archiv kannst du über „⚙ Apps verwalten“ Apps zu einem Ordner hinzufügen oder daraus entfernen.",
   "q": [
    "app zu archiv ordner hinzufügen",
-   "apps in ordner verwalten",
-   "archiv ordner apps bearbeiten",
-   "neue app im archiv zuordnen"
+   "apps verwalten im archiv",
+   "neue app in ordner",
+   "archiv ordner apps zuweisen"
   ]
  },
  {
   "type": "fix",
   "sec": "Archiv",
-  "t": "Im Archiv sind keine Gutscheine zu sehen",
-  "a": "Gutscheine werden aus Benachrichtigungen gesammelt, die im Ordner Gutscheine archiviert wurden. Füge die Benachrichtigung über Archivieren › zu Gutscheine hinzu oder erstelle unter ⚙ Regeln → + Regel hinzufügen eine automatische Archivierungsregel für deine Shopping-Apps.",
+  "t": "Im Archiv werden keine Gutscheine angezeigt",
+  "a": "Gutscheine werden aus Benachrichtigungen gesammelt, die im Ordner „Gutscheine“ archiviert wurden. Füge eine Benachrichtigung über „Archivieren ›“ zu „Gutscheine“ hinzu oder erstelle unter ⚙ Regeln → + Regel hinzufügen eine automatische Archivierungsregel für deine Shopping-Apps.",
   "q": [
    "keine gutscheine im archiv",
-   "gutscheine tauchen nicht auf",
-   "rabattcodes werden nicht angezeigt",
-   "wie kommen gutscheine ins archiv"
+   "rabattcode taucht nicht auf",
+   "gutschein nicht erkannt",
+   "gutschein hinzufügen"
   ]
  },
  {
   "type": "fix",
-  "sec": "Live-Benachrichtigungen",
-  "t": "Ich habe eine Bestellbenachrichtigung versehentlich geschlossen",
-  "a": "Im Tab Verlauf wird diese Benachrichtigung mit dem Kennzeichen \"Live-Benachrichtigung\" angezeigt. Ein Antippen der Zeile öffnet die App der Bestellung und du siehst dort den aktuellen Status.",
+  "sec": "Live-Benachrichtigungen & Karten-Aktionen",
+  "t": "Ich habe eine Bestellbenachrichtigung versehentlich weggewischt",
+  "a": "Im Tab „Verlauf“ wird diese Benachrichtigung mit dem Label „⚡ Live“ markiert. Wenn du auf die Zeile tippst, öffnet sich direkt die zugehörige App, und du kannst den aktuellen Bestellstatus dort einsehen.",
   "q": [
-   "bestellmeldung weggewischt",
-   "aus versehen lieferstatus gelöscht",
-   "live meldung wiederherstellen",
-   "bestellung benachrichtigung weg"
+   "lieferstatus weggewischt",
+   "bestellung versehentlich gelöscht",
+   "live status weg",
+   "essensbestellung wiederfinden"
   ]
  },
  {
   "type": "fix",
-  "sec": "Live-Benachrichtigungen",
-  "t": "Beim Antippen einer Benachrichtigung kehrt das Telefon zum Startbildschirm zurück",
-  "a": "In der Liste der wartenden Benachrichtigungen und im Verlauf öffnet das Antippen einer Benachrichtigung die App, von der sie stammt.",
+  "sec": "Live-Benachrichtigungen & Karten-Aktionen",
+  "t": "Beim Antippen einer Benachrichtigung kehrt die App zum Startbildschirm zurück",
+  "a": "In der Liste der wartenden Benachrichtigungen sowie im Verlauf öffnet das Antippen die App, von der die Benachrichtigung stammt. Das Problem, dass im Zifferblatt-Bereich zum Startbildschirm zurückgekehrt wird, ist bekannt und wird derzeit behoben.",
   "q": [
-   "tippen auf nachricht öffnet nur startbildschirm",
-   "app öffnet sich nicht beim klick",
-   "benachrichtigung leitet auf homescreen",
-   "klick auf mitteilung fehler"
+   "tippen öffnet nur startbildschirm",
+   "app öffnet sich nicht bei klick",
+   "zifferblatt klick fehler",
+   "benachrichtigung öffnet falsche seite"
   ]
  },
  {
   "type": "fix",
-  "sec": "Einladungen",
-  "t": "Der Einladungscode wurde nicht akzeptiert",
-  "a": "Du kannst den Code mit oder ohne Bindestrich eingeben; Groß- und Kleinschreibung spielt keine Rolle. Du kannst deinen eigenen Code nicht eingeben und ein Einladungscode kann nur einmal eingegeben werden. Wird der Code immer noch nicht akzeptiert, hast du vielleicht einen Buchstaben falsch eingegeben; ha!shh erkennt Fehler von einem einzelnen Buchstaben. Bitte deinen Freund, den Code erneut zu kopieren und zu senden.",
+  "sec": "Live-Benachrichtigungen & Karten-Aktionen",
+  "t": "Ich habe auf einer Karte versehentlich eine Aktion ausgeführt (gelesen oder verschoben)",
+  "a": "Wenn du im Kartenstapel auf dem Heute-Bildschirm eine Karte nach rechts oder links wischt, erscheint am unteren Bildschirmrand für 4 Sekunden die Leiste „Rückgängig“. Durch Antippen kannst du die Aktion sofort rückgängig machen.",
+  "q": [
+   "aus versehen weggewischt",
+   "karte versehentlich als gelesen",
+   "rückgängig machen karte",
+   "wischen rückgängig machen"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Erscheinungsbild & Widgets",
+  "t": "Wo kann ich die Sprache der App ändern?",
+  "a": "Du musst dazu nicht in die Systemeinstellungen deines Telefons gehen. Unter Einstellungen → Erscheinungsbild → App-Sprache kannst du ha!shh sofort in deiner gewünschten Sprache (10 Sprachen unterstützt) nutzen.",
+  "q": [
+   "sprache umstellen",
+   "wo app sprache ändern",
+   "auf andere sprache wechseln",
+   "deutsch einstellen"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Erscheinungsbild & Widgets",
+  "t": "Der Tischuhr-Modus öffnet sich nicht",
+  "a": "Stelle sicher, dass unter Einstellungen → Erscheinungsbild die Option „Tischuhr-Modus beim Querstellen“ aktiviert ist, damit sich die Ansicht beim Drehen des Telefons öffnet. Optionen wie dauerhaft eingeschalteter Bildschirm beim Laden und das Niedrigenergielayout kannst du auf demselben Bildschirm verwalten.",
+  "q": [
+   "tischuhr startet nicht",
+   "querformat reagiert nicht",
+   "uhr ansicht geht nicht an",
+   "schreibtischuhr aktivieren"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Erscheinungsbild & Widgets",
+  "t": "Wie füge ich ein Startbildschirm-Widget hinzu?",
+  "a": "Halte eine freie Stelle auf deinem Startbildschirm gedrückt und wähle aus dem Widget-Menü ha!shh aus. Du kannst zwischen vier verschiedenen Größen (2x2, 4x1, 4x2, 4x3) wählen, ganz nach deinem Bedarf.",
+  "q": [
+   "widget auf homescreen platzieren",
+   "wie widget hinzufügen",
+   "hashh widget einrichten",
+   "widget auf startbildschirm legen"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Erscheinungsbild & Widgets",
+  "t": "Wo finde ich Statistiken und den Benachrichtigungsbericht?",
+  "a": "Es gibt keinen separaten Menüpunkt „Statistiken“; sämtliche Nutzungsstatistiken und Verteilungsdiagramme sind unter Einstellungen → Tools → Benachrichtigungsbericht zusammengefasst. Hier siehst du tägliche und monatliche Benachrichtigungszahlen, die Fokus-Balance, die gewonnene Zeit sowie die Akkuersparnis.",
+  "q": [
+   "wo sind die statistiken",
+   "benachrichtigungsbericht finden",
+   "auswertung benachrichtigungen",
+   "gesparte zeit sehen"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Erscheinungsbild & Widgets",
+  "t": "Ich habe das App-Symbol geändert und es ist vom Startbildschirm verschwunden",
+  "a": "Bei manchen Telefonen (z. B. Samsung) wird das Symbol nach einer Änderung vom Startbildschirm entfernt und landet in der App-Übersicht. Ziehe ha!shh einfach aus der App-Übersicht erneut auf deinen Startbildschirm.",
+  "q": [
+   "app symbol verschwunden",
+   "icon weg nach änderung",
+   "hashh icon nicht mehr auf homescreen",
+   "app icon wiederherstellen"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Erscheinungsbild & Widgets",
+  "t": "Ich kann die Schnelleinstellungs-Kachel nicht finden",
+  "a": "Ziehe die Benachrichtigungsleiste zweimal nach unten. Falls die Kachel dort nicht sichtbar ist, wische nach rechts – möglicherweise befindet sie sich auf der nächsten Seite. Falls nicht, füge sie über Einstellungen → Tools → Schnelleinstellungs-Kachel erneut hinzu.",
+  "q": [
+   "kachel fehlt in statusleiste",
+   "schnelleinstellung nicht sichtbar",
+   "quick tile weg",
+   "kachel finden"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Freunde einladen",
+  "t": "Einladungscode wurde nicht akzeptiert",
+  "a": "Du kannst den Code mit oder ohne Bindestrich eingeben; Groß- und Kleinschreibung spielt keine Rolle. Du kannst deinen eigenen Code nicht eingeben, und ein Einladungscode kann nur einmal verwendet werden. Wird der Code weiterhin nicht akzeptiert, hast du möglicherweise einen Tippfehler gemacht; ha!shh erkennt Abweichungen einzelner Zeichen. Bitte deinen Freund, den Code noch einmal zu kopieren und zu senden.",
   "q": [
    "einladungscode ungültig",
-   "einladungscode funktioniert nicht",
-   "code wird nicht angenommen",
-   "fehler bei einladungscode"
+   "code geht nicht",
+   "einladungscode falsch",
+   "code wird nicht angenommen"
   ]
  },
  {
   "type": "fix",
-  "sec": "Einladungen",
-  "t": "Beim Dankeschön-Code steht \"Dieser Code gehört nicht zu dir oder ist fehlerhaft\"",
-  "a": "Ein Dankeschön-Code wird ausschließlich auf Basis des Codes der Person erstellt, die dich eingeladen hat; ein fremder Dankeschön-Code wird deinem Zähler nicht hinzugefügt. Bitte deinen Freund, dir den Code über Meinen Dankeschön-Code erneut senden nochmals zuzusenden. Steht dort \"Diese Einladung wurde bereits gezählt\", wurde diese Person deinem Zähler bereits gutgeschrieben.",
+  "sec": "Freunde einladen",
+  "t": "Dankeschön-Code meldet „Dieser Code gehört nicht zu dir oder ist fehlerhaft“",
+  "a": "Der Dankeschön-Code wird ausschließlich auf Basis des Codes der Person erstellt, die dich eingeladen hat; der Code eines Dritten kann deiner Zählung nicht gutgeschrieben werden. Bitte deinen Freund, den Code über „Dankeschön-Code erneut senden“ nochmals zu verschicken. Steht dort „Diese Einladung wurde bereits gezählt“, wurde die Person deiner Statistik bereits angerechnet.",
   "q": [
    "dankeschön code ungültig",
-   "dieser code gehört nicht zu dir",
+   "code gehört nicht zu dir",
    "dankeschön code fehler",
    "einladung bereits gezählt"
   ]
@@ -806,73 +950,49 @@
  {
   "type": "fix",
   "sec": "Backup & Gerätewechsel",
-  "t": "Wie stelle ich eine Sicherung wieder her?",
-  "a": "Wähle unter Einstellungen → Sicherung → Aus Datei importieren deine Sicherungsdatei aus. Zusammenführen behält deine bestehenden Regeln bei und aktualisiert sie, Ersetzen überschreibt alles mit den Daten aus der Sicherung. Wenn die Datei beschädigt oder zu groß ist (über 512 KB), warnt dich die App.",
+  "t": "Wie stelle ich ein Backup wieder her?",
+  "a": "Wähle unter Einstellungen → Backup → Aus Datei importieren deine Sicherungsdatei aus. „Zusammenführen“ behält deine bestehenden Regeln bei und aktualisiert sie; „Ersetzen“ tauscht alles gegen den Stand im Backup aus. Ist die Datei beschädigt oder zu groß (über 512 KB), warnt dich die App.",
   "q": [
-   "wie spiele ich ein backup ein",
-   "sicherung wiederherstellen anleitung",
-   "einstellungen importieren",
-   "backup datei öffnen"
+   "backup wiederherstellen",
+   "sicherung importieren",
+   "regeln aus backup laden",
+   "backup datei einspielen"
   ]
  },
  {
   "type": "fix",
   "sec": "Backup & Gerätewechsel",
   "t": "Ich wechsle das Telefon, was passiert mit meinen Einstellungen?",
-  "a": "Erstelle auf dem alten Telefon unter Einstellungen → Sicherung → In Datei exportieren eine Sicherung und übertrage die Datei auf das neue Telefon (z. B. über Drive oder per Kabel). Installiere ha!shh auf dem neuen Telefon und spiele die Datei über Aus Datei importieren ein. Um auch das Archiv zu übertragen, nutze auf dem alten Gerät Archiv exportieren → 🔒 Verschlüsseltes Archiv (.hashh). Den Benachrichtigungszugriff und die Akku-Berechtigungen musst du auf dem neuen Telefon erneut erteilen.",
+  "a": "Erstelle auf dem alten Telefon unter Einstellungen → Backup → In Datei exportieren ein Backup und übertrage die Datei auf dein neues Telefon (z. B. via Drive oder Kabel). Installiere ha!shh auf dem neuen Telefon und lade die Sicherung über „Aus Datei importieren“. Um auch das Archiv zu übertragen, nutze auf dem alten Gerät Archiv exportieren → 🔒 Verschlüsseltes Archiv (.hashh). Den Benachrichtigungszugriff und die Akku-Berechtigungen musst du auf dem neuen Telefon erneut erteilen.",
   "q": [
-   "daten auf neues handy übertragen",
-   "handywechsel mit ha!shh",
-   "neues smartphone backup laden",
-   "wie übertrage ich meine einstellungen"
+   "neues handy daten mitnehmen",
+   "auf neues telefon umziehen",
+   "handywechsel einstellungen übertragen",
+   "hashh übertragen"
   ]
  },
  {
   "type": "fix",
   "sec": "Backup & Gerätewechsel",
   "t": "Ich möchte alle meine Daten löschen",
-  "a": "Einstellungen → Sicherung → Alle lokalen Daten löschen. Regeln, Verlauf, wartende Einträge und Einstellungen werden gelöscht; dieser Vorgang kann nicht rückgängig gemacht werden. Wenn du zuvor eine Sicherung erstellen möchtest, nutze In Datei exportieren.",
+  "a": "Gehe zu Einstellungen → Datenschutz & Daten → Alle lokalen Daten löschen. Dadurch werden Regeln, Verlauf, wartende Einträge und Einstellungen unwiderruflich gelöscht. Wenn du vorher ein Backup erstellen möchtest, nutze im selben Menü „Meine Daten exportieren“. Auch Archiv-Einträge werden bei diesem Vorgang gelöscht.",
   "q": [
    "alle daten löschen",
-   "app zurücksetzen",
-   "ha!shh komplett leeren",
-   "alle einstellungen und regeln entfernen"
-  ]
- },
- {
-  "type": "fix",
-  "sec": "Sonstiges",
-  "t": "Ich habe das App-Symbol geändert und es ist vom Startbildschirm verschwunden",
-  "a": "Auf manchen Telefonen (z. B. Samsung) wird das Symbol nach einer Änderung vom Startbildschirm entfernt und kehrt in die App-Übersicht zurück. Ziehe ha!shh aus der App-Übersicht einfach wieder auf den Startbildschirm.",
-  "q": [
-   "app symbol weg",
-   "icon vom startbildschirm verschwunden nach änderung",
-   "wo ist das app icon",
-   "ha!shh nicht mehr auf homescreen"
-  ]
- },
- {
-  "type": "fix",
-  "sec": "Sonstiges",
-  "t": "Ich kann die Schnelleinstellungs-Kachel nicht finden",
-  "a": "Ziehe das Benachrichtigungsfeld zweimal nach unten. Wenn die Kachel nicht sichtbar ist, wische das Feld nach rechts; vielleicht befindet sie sich auf der nächsten Seite. Falls nicht, füge sie über Einstellungen → Tools → Kachel für Schnelleinstellungen wieder hinzu.",
-  "q": [
-   "schnelleinstellungs kachel nicht da",
-   "quick tile verschwunden",
-   "kachel nicht auffindbar",
-   "ha!shh toggle fehlt"
+   "app komplett zurücksetzen",
+   "daten bereinigen",
+   "reset durchführen"
   ]
  },
  {
   "type": "fix",
   "sec": "Sonstiges",
   "t": "Ich möchte ein Problem melden",
-  "a": "Einstellungen → Feedback senden öffnet deine E-Mail-App mit einer vorbereiteten Nachricht. Deine Benachrichtigungsinhalte und Regeln werden nicht angehängt.",
+  "a": "Unter Einstellungen → Feedback senden öffnet sich deine E-Mail-App mit einer vorbereiteten Nachricht. Deine Benachrichtigungsinhalte und Regeln werden nicht angehängt.",
   "q": [
-   "problem melden",
+   "fehler melden",
    "bug report senden",
-   "fehler in der app melden",
-   "entwickler kontaktieren"
+   "problem mit der app melden",
+   "support kontaktieren"
   ]
  }
 ]

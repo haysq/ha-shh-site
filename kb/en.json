@@ -3,7 +3,7 @@
   "type": "guide",
   "sec": "Getting Started",
   "t": "What does ha!shh do?",
-  "a": "It holds incoming notifications according to your rules and delivers them back in batches at the times you choose. To decide, the notification text is never read; only which app it came from and when it arrived are used. The app has no internet permission, so everything stays on your phone.",
+  "a": "It holds incoming notifications based on your rules and delivers them in batches at your chosen hours. The notification text is never read to decide whether to hold it; only the source app and arrival time are used. Notification content is read and displayed solely on your phone by default; the app has no internet permission, and no data ever leaves your device.",
   "q": [
    "what is ha!shh",
    "how does ha!shh work",
@@ -14,11 +14,11 @@
  {
   "type": "guide",
   "sec": "Getting Started",
-  "t": "How do I do the initial setup?",
-  "a": "When you first open the app, the Initial Setup Wizard begins. You read the privacy info, grant notification access and battery permissions, and then choose the daily routine that fits you (Student, Office Worker, Night Shift, Freelance / Flexible). If you leave the wizard unfinished, you can resume it from the card in Flow or via Settings → Tools → Initial Setup Wizard.",
+  "t": "How do I complete the initial setup?",
+  "a": "When you first open the app, the Initial Setup Wizard starts. You review the privacy information, grant notification access and battery permissions, then pick a lifestyle profile that fits you (Student, Office Worker, Night Shift, Freelance / Flexible). Setup also configures the nighttime Sleep schedule upon first launch, so the app is ready to use immediately once setup is complete. If you exit the wizard midway, you can resume it from the card on the Today screen or via Settings → Tools → Initial Setup Wizard.",
   "q": [
-   "initial setup",
    "how to set up ha!shh",
+   "initial setup wizard",
    "first time setup guide",
    "resume setup wizard"
   ]
@@ -27,287 +27,287 @@
   "type": "guide",
   "sec": "Getting Started",
   "t": "Which permissions are required?",
-  "a": "Two things are required: notification access (essential for holding notifications) and battery and background permission (to ensure delivery times aren't missed). You can see both under Settings → Device permissions; next to them it will say \"Permission granted\" or \"Permission required\".",
+  "a": "Two essential permissions are needed: notification access (required to hold and batch-deliver notifications) and battery/background permission (to ensure scheduled delivery times aren't delayed). You can view both under Settings → Device permissions, where each displays either \"Permission granted\" or \"Permission required\".",
   "q": [
    "what permissions are needed",
    "required permissions",
-   "why need notification access",
-   "permission setup"
+   "why does ha!shh need permissions",
+   "notification access permission"
   ]
  },
  {
   "type": "guide",
   "sec": "Daily Use",
-  "t": "What is on the Flow screen?",
-  "a": "In the center is the dial of the day: 12 at the top, 18 on the right, 00 at the bottom, 06 on the left. The app icons of pending notifications appear on the dial. At the bottom, you will find the Pending card, the next delivery time, the archive card, and the Time saved summary.",
+  "t": "What is on the Today screen?",
+  "a": "In the center is a 24-hour day dial: 12 at the top, 18 on the right, 00 at the bottom, and 06 on the left. The app icons of pending notifications appear on the dial, with nearby times spaced out to prevent overlap. Below it, you'll find the Pending card deck, the next delivery time, the archive card, and the Time Saved summary (which also estimates battery savings from prevented screen wake-ups).",
   "q": [
-   "flow screen overview",
+   "today screen overview",
    "what does the dial mean",
-   "understanding flow screen",
-   "what is on home screen"
+   "how to use today screen",
+   "clock dial on home screen"
   ]
  },
  {
   "type": "guide",
   "sec": "Daily Use",
-  "t": "How do I see pending notifications?",
-  "a": "In Flow, tap the Read all › link on the Pending card. If you want, tap Deliver all now to get all of them back immediately. Tapping a notification opens the app it came from.",
+  "t": "How do I view pending notifications?",
+  "a": "On the Today screen, tap the Read all › link on the Pending card. You can also tap Deliver all now to receive all held notifications right away. Tapping a notification opens the app it came from. In the card deck, swipe a card right to mark it as read, or swipe left to snooze it for 30 minutes. If you want to undo your action, simply tap the Undo button that appears at the bottom of the screen for 4 seconds.",
   "q": [
-   "view pending notifications",
-   "see held notifications",
-   "how to read pending notifications",
-   "deliver all notifications now"
+   "how to see pending notifications",
+   "view held notifications",
+   "snooze pending notification",
+   "undo swipe action"
   ]
  },
  {
   "type": "guide",
   "sec": "Daily Use",
-  "t": "Can I read notification content inside the app?",
-  "a": "Yes, but only if you allow it. Turn on the switch at Settings → Content and calm → Show notification content. When it's off, only the app name, time, and hold reason are shown.",
+  "t": "Can I read notification content in the app?",
+  "a": "Yes. Showing notification content is enabled by default; content is read and displayed safely only on your device. If you prefer not to see it, you can toggle it off under Settings → Content and calm → Show notification content. When disabled, only the app name, time, and hold reason are displayed.",
   "q": [
-   "read notification text",
-   "show notification preview",
-   "see notification body",
-   "notification content hidden"
+   "can i read notification messages",
+   "hide notification preview",
+   "show notification text",
+   "privacy of notification content"
   ]
  },
  {
   "type": "guide",
   "sec": "Daily Use",
-  "t": "How is time saved calculated?",
-  "a": "By default, 1 minute is counted for every notification held without interrupting you. You can adjust this duration between 0.5 and 5 minutes via Settings → Content and calm → Time per interruption. To disable the summary, turn off the Time saved summary switch in the same section.",
+  "t": "How is Time Saved calculated?",
+  "a": "By default, 1 minute is counted as saved for each notification held without interrupting you. You can adjust this duration between 0.5 and 5 minutes under Settings → Content and calm → Time per interruption. To disable the summary, turn off the Time saved summary switch in the same section. The card also displays estimated battery savings gained by preventing unnecessary screen wake-ups.",
   "q": [
    "how is time saved calculated",
+   "what does time saved mean",
    "change time per interruption",
-   "turn off time saved summary",
-   "saved time stats"
+   "battery savings estimate"
   ]
  },
  {
   "type": "guide",
   "sec": "Rules",
   "t": "How do I set up a rule for an app?",
-  "a": "Tap the app in the Rules tab. Four options appear: Immediate, Hold, At delivery time, Block. The behavior you choose applies to all notifications from that app.",
+  "a": "In the Rules tab, tap the app. Four options will appear: Immediate, Hold, At delivery time, Block. The behavior you choose will apply to all notifications from that app.",
   "q": [
-   "set rule for app",
-   "how to create a rule",
-   "manage app rules",
-   "change notification rule"
+   "how to make a rule for an app",
+   "set app rules",
+   "change rule for an app",
+   "customize app notifications"
   ]
  },
  {
   "type": "guide",
   "sec": "Rules",
   "t": "I want an app to never be held",
-  "a": "In Rules, tap the app, choose Immediate, and tap the Never hold (deliver in all modes) option that appears below. This way, notifications from that app will arrive immediately regardless of which mode is active.",
+  "a": "In Rules, tap the app, choose Immediate, and tap the Never hold (deliver in every mode) option that appears below. This ensures notifications from that app arrive immediately no matter which mode is active. For safety, Android system and SIM notifications (network, carrier, system alerts), as well as emergency calls and alarms, are never held under any circumstances.",
   "q": [
-   "never hold app",
    "whitelist an app",
-   "always allow notifications",
-   "immediate delivery for app"
+   "never delay notifications for an app",
+   "allow notifications through",
+   "make an app bypass all modes"
   ]
  },
  {
   "type": "guide",
   "sec": "Rules",
   "t": "I only want to see messages in apps like Instagram (type filter)",
-  "a": "In Rules, tap the app and open the Type Filter panel with Select type ›. Ready-made filters are available: Messages only, Likes only, Likes + comments, Reset. For each type, you can also select Default, Immediate, At delivery, or Block. Filtering is based on the app's notification category; content is not read.",
+  "a": "In Rules, tap the app and open the Type Filter panel with Select type ›. Presets are available: Messages only, Likes only, Likes + comments, Reset. For each type, you can individually choose Default, Immediate, At delivery, or Block. Filtering is based strictly on the app's notification channel/type; content is never read.",
   "q": [
-   "filter instagram messages",
-   "filter notification types",
-   "only see direct messages",
-   "block likes only show messages"
+   "filter notifications by type",
+   "only get direct messages on instagram",
+   "filter out likes and comments",
+   "notification channel filtering"
   ]
  },
  {
   "type": "guide",
   "sec": "Rules",
   "t": "Can I manage apps as a group?",
-  "a": "Yes. In the Rules screen, tap New Group to gather multiple apps into a single group and manage them with one rule. A group can contain up to 100 apps.",
+  "a": "Yes. On the Rules screen, tap New Group to bundle multiple apps into a single group and manage them with one rule. A group can contain up to 100 apps.",
   "q": [
    "group apps together",
+   "manage apps as a group",
    "create app group",
-   "batch manage apps",
-   "apply rule to multiple apps"
+   "batch rule for multiple apps"
   ]
  },
  {
   "type": "guide",
   "sec": "Rules",
   "t": "Where are the apps I permanently blocked?",
-  "a": "Settings → Tools → Blocked. Here you can see blocked apps and the log of notifications received from them (app, time); use Unblock to restore them.",
+  "a": "Go to Settings → Tools → Blocked. Here you can see your blocked apps along with a log of notifications received from them (app and timestamp); you can unblock any app by tapping Unblock.",
   "q": [
    "where are blocked apps",
-   "unblock an app",
-   "see blocked notification log",
-   "manage blocked apps"
+   "how to unblock an app",
+   "view blocked apps list",
+   "see blocked notifications"
   ]
  },
  {
   "type": "guide",
   "sec": "Modes and Schedule",
-  "t": "What are modes?",
-  "a": "There are four preset modes: Normal, Focus, Sleep, Sports. The hold duration and behavior of each mode are configured separately. You can edit them using Configure › on the mode card under Your Modes in the Schedule tab; you can also add your own mode with + Custom mode.",
+  "t": "What are the modes?",
+  "a": "There are four built-in modes: Normal, Focus, Sleep, and Sports. The hold duration and behavior of each mode are configured separately. When a mode expires, notifications held during that mode are delivered all together at the end of the mode rather than at scattered times. You can edit any mode via Adjust › on its card under Your Modes in the Schedule tab, or add your own mode with + Custom mode.",
   "q": [
-   "what are modes",
-   "available modes in ha!shh",
-   "create custom mode",
-   "how do modes work"
+   "what are the available modes",
+   "explain app modes",
+   "how do modes work",
+   "create custom mode"
   ]
  },
  {
   "type": "guide",
   "sec": "Modes and Schedule",
   "t": "How long does a manually selected mode last?",
-  "a": "If you manually select one of the quick modes, it stays active until you turn it off; the schedule will not change it. When you want to return to the schedule, tap the Return to schedule button.",
+  "a": "When you manually activate one of the quick modes, it stays active until you turn it off; scheduled transitions will not override your selection. When you are ready to return to your schedule, simply tap the Return to schedule button.",
   "q": [
-   "manual mode duration",
+   "how long does manual mode stay on",
    "turn off manual mode",
-   "switch back to schedule",
-   "why mode not changing automatically"
+   "override schedule manually",
+   "return to schedule"
   ]
  },
  {
   "type": "guide",
   "sec": "Modes and Schedule",
   "t": "How do I set up the weekly schedule?",
-  "a": "Days of the week and hour blocks appear in the Schedule tab. Tap a day and drag the block edges to adjust hours. Use the + Mode, + Custom for today, and + Delivery time buttons to add new blocks or delivery times.",
+  "a": "In the Schedule tab, you will see the days of the week and hour blocks. Tap a day and drag the block handles to adjust the times. Use the + Mode, + Custom for today, and + Delivery time buttons to add new blocks or delivery times.",
   "q": [
    "set up weekly schedule",
-   "create daily schedule",
-   "change schedule hours",
-   "add delivery time to schedule"
+   "change schedule times",
+   "add delivery time to schedule",
+   "customize daily routine"
   ]
  },
  {
   "type": "guide",
   "sec": "Modes and Schedule",
   "t": "Adding a mode interval from the dial",
-  "a": "Tap the + button next to the dial in Flow. Select an interval on the dial (e.g., 18:00–24:00 Focus, 00:00–06:00 Sleep); hours advance in 15-minute increments. A warning appears if an interval overlaps. You can edit or delete added intervals later.",
+  "a": "Tap the + button next to the dial on the Today screen. Select an interval on the dial (e.g., 18:00–24:00 Focus, 00:00–06:00 Sleep); hours advance in 15-minute increments. A warning will appear if an interval overlaps. You can edit or delete added intervals later.",
   "q": [
    "add mode from dial",
-   "set mode interval on dial",
-   "clock dial schedule",
-   "add time block on flow"
+   "set mode interval on clock",
+   "schedule mode on 24 hour dial",
+   "quick schedule from dial"
   ]
  },
  {
   "type": "guide",
   "sec": "Modes and Schedule",
   "t": "How do I change delivery times?",
-  "a": "In Schedule, tap the Edit delivery times & Daily rhythm › link in the Configure › panel on the mode card. Pending notifications will be delivered in their original form at the next available delivery time.",
+  "a": "In the Schedule tab, tap the Edit delivery times & Daily rhythm › link in the Adjust › panel on the mode card. Pending notifications will be delivered in their original state at the next scheduled batch delivery time.",
   "q": [
    "change delivery times",
-   "set notification batch times",
-   "when do notifications arrive",
-   "edit daily rhythm"
+   "edit batch delivery schedule",
+   "set notification delivery hours",
+   "reschedule deliveries"
   ]
  },
  {
   "type": "guide",
   "sec": "Modes and Schedule",
-  "t": "I work in shifts",
-  "a": "There is a Shift schedule in Schedule tools. Enter your cycle and shift hours once; ha!shh automatically calculates which shift you are on for each day. When enabled, Schedule shows \"Shift schedule · today …\".",
+  "t": "I work shifts",
+  "a": "You'll find Shift schedule under Schedule tools. Enter your cycle and shift hours once; ha!shh automatically calculates which shift you are on each day. When enabled, \"Shift schedule · today …\" is displayed in Schedule.",
   "q": [
-   "shift work setup",
-   "rotating shifts support",
-   "set up night shift schedule",
+   "shift worker schedule",
+   "how to set up rotating shifts",
+   "work shift support",
    "irregular work hours"
   ]
  },
  {
   "type": "guide",
   "sec": "Modes and Schedule",
-  "t": "How do I view past and upcoming days?",
-  "a": "Navigate between months using the Month view in Schedule tools. You can view stats from past days and set up a custom schedule for a future day.",
+  "t": "How do I view past and future days?",
+  "a": "You can navigate between months using Month view under Schedule tools. You can view stats for past days and set up custom schedules for future dates.",
   "q": [
    "view past days",
    "calendar view schedule",
-   "plan future days",
-   "check stats for previous days"
+   "plan future schedule",
+   "month view in schedule"
   ]
  },
  {
   "type": "guide",
   "sec": "Modes and Schedule",
   "t": "Sports mode and spoiler shield",
-  "a": "In Schedule, Configure › on the Sports card opens Sports Settings. Notifications from your selected sports apps are held until the match ends; other apps arrive normally. If Enable spoiler mode is on, selected shield apps will also be held until the match ends. You can also add keywords if you wish (e.g., goal, score); this only matches on-device and only if you have granted content permission.",
+  "a": "Under Schedule, tapping Adjust › on the Sports card opens Sports Settings. Notifications from your chosen sports apps are held until the match ends; other apps arrive normally. If Enable spoiler mode is on, your chosen shield apps are also held until the match ends. You can also add keywords (e.g., goal, score); this matching only runs when content permission is enabled and happens strictly on your phone.",
   "q": [
    "sports mode spoiler shield",
-   "avoid match spoilers",
-   "block sports scores",
-   "how spoiler shield works"
+   "block match spoilers",
+   "hide game scores",
+   "filter sports notifications"
   ]
  },
  {
   "type": "guide",
   "sec": "Archive",
-  "t": "What is Archive and where is it?",
-  "a": "It keeps notifications you want to save, such as coupons, bills, and receipts, in folders. It can be opened via the 📦 Archive button at the top of the History tab or from the archive card in Flow. The archive stays encrypted and strictly on this phone.",
+  "t": "What is the Archive, and where is it?",
+  "a": "It keeps notifications you want to save—such as coupons, bills, and spending—in organized folders. Open it from the 📦 Archive button at the top of the History tab or from the archive card on the Today screen. Archive data is stored strictly on this phone and in encrypted form.",
   "q": [
-   "what is archive",
-   "where to find archive",
-   "how archive works",
-   "find saved notifications"
+   "where is the archive",
+   "what is archive folder",
+   "access archived notifications",
+   "find saved receipts and coupons"
   ]
  },
  {
   "type": "guide",
   "sec": "Archive",
   "t": "How do I add a notification to the archive?",
-  "a": "While reading pending notifications or in History, tap the Archive › link next to a notification and select a folder. You can create your own folder using ➕ Create New Folder....",
+  "a": "While reading pending notifications or in History, tap the Archive › link next to a notification and select a folder. You can create your own folder using ➕ Create New Folder... Any archive records you add or edit manually are permanently preserved and never automatically deleted.",
   "q": [
-   "save notification to archive",
-   "how to archive notification",
+   "archive a notification",
+   "save notification to folder",
    "create archive folder",
-   "add bill to archive"
+   "manual archive"
   ]
  },
  {
   "type": "guide",
   "sec": "Archive",
   "t": "Automatic archiving (archive rules and groups)",
-  "a": "In Archive, ⚙ Rules opens Auto-Archive Rules. With + Add Rule, you can create rules based on app, sender, or keyword; notifications marked as read are sent automatically to the matching folder. ✨ Auto-Suggest recommends rules suited to you.",
+  "a": "Auto-archive is enabled by default. It automatically saves only important notifications into relevant folders: bank payments, coupons, completed purchases, and bills/due date reminders. Prices shown in ads are not archived. Manually added or edited entries are always kept. Amounts are displayed in your phone's local currency. You can disable auto-archive or select which types to include under Settings → Privacy and data → Auto-archive. In the Archive screen, tap ⚙ Rules to add custom rules based on app, sender, or keyword.",
   "q": [
-   "auto archive notifications",
-   "set up archive rules",
-   "automatically save coupons",
-   "auto suggest archive rules"
+   "automatic archiving rules",
+   "how does auto archive work",
+   "save bills automatically",
+   "auto save coupons"
   ]
  },
  {
   "type": "guide",
   "sec": "Archive",
   "t": "Coupon wallet",
-  "a": "When you switch to the Coupons folder in Archive, the Coupon & Campaign Wallet appears at the top. Active coupon codes are collected here, and reminders are sent as the expiration date approaches.",
+  "a": "When you switch to the Coupons folder in the Archive, the Coupon & Promo Wallet appears at the top. Active discount codes and campaign coupons are collected here, and you receive a reminder as their expiration date approaches.",
   "q": [
    "coupon wallet",
-   "find saved coupon codes",
-   "discount code reminders",
+   "find saved discount codes",
+   "coupon expiry reminder",
    "where are my coupons"
   ]
  },
  {
   "type": "guide",
   "sec": "Archive",
-  "t": "Browsing by app and searching in Archive",
-  "a": "In Archive, use 📱 By app to pick an app and view only its entries (e.g., only your email app). You can search by app name using the search box.",
+  "t": "Browsing by app and searching in the Archive",
+  "a": "In the Archive, tap the 📱 By app button to select a specific app and view only its records. Use the search bar to search by app name or notification content.",
   "q": [
-   "search archive by app",
-   "filter archive",
-   "find archived email",
-   "search saved notifications"
+   "search archive",
+   "filter archive by app",
+   "find archived notification",
+   "search saved bills"
   ]
  },
  {
   "type": "guide",
   "sec": "Archive",
-  "t": "Exporting archive and saving to Drive",
-  "a": "Under Export Archive in Archive, three options appear: 🔒 Encrypted Archive (.hashh), which is password-protected and the recommended format, Unencrypted JSON (.json), and Unencrypted CSV (.csv · Excel / Spreadsheet). You can save the generated file anywhere you like, such as Google Drive, via Android's share menu. ha!shh never sends the file anywhere on its own.",
+  "t": "Exporting the Archive and uploading to Drive",
+  "a": "In the Archive, tapping Export Archive presents three options: 🔒 Encrypted Archive (.hashh) (password-protected and the recommended secure format), Unencrypted JSON (.json), and Unencrypted CSV (.csv · Excel / Spreadsheet). You can save the resulting file anywhere you choose, such as Google Drive or local storage, via Android's share menu. Because ha!shh has no internet permission, it never uploads files to any server itself.",
   "q": [
-   "export archive to drive",
-   "backup archive to google drive",
-   "export as csv or json",
+   "export archive to google drive",
+   "backup archive",
+   "export notifications to csv or json",
    "save hashh file"
   ]
  },
@@ -315,564 +315,684 @@
   "type": "guide",
   "sec": "Privacy and Security",
   "t": "Fingerprint lock",
-  "a": "Settings → Fingerprint lock. There are three options: Off, Only archive and notification content, Entire app (on every launch). The lock can be unlocked using fingerprint, face, or phone PIN/password.",
+  "a": "Go to Settings → Privacy and data → Fingerprint lock. Three options are available: Off, Archive and notification content only, and Entire app (on every launch). The lock can be opened with your fingerprint, face recognition, or phone PIN/password.",
   "q": [
-   "enable fingerprint lock",
-   "lock ha!shh app",
-   "biometric lock setup",
-   "protect notification privacy"
+   "lock app with fingerprint",
+   "biometric lock for notifications",
+   "protect app with pin",
+   "app lock settings"
   ]
  },
  {
   "type": "guide",
   "sec": "Privacy and Security",
-  "t": "Keeping content in History",
-  "a": "With Settings → Content and calm → Keep content in history, you can store notification contents encrypted for 1 or 7 days. They are deleted when the duration expires or if permission is turned off. This setting only works when Show notification content is turned on.",
+  "t": "How long notification history is kept",
+  "a": "During setup, ha!shh asks how long you want to keep notification history: delete after 7, 30, 90, or 365 days, or Don't auto-delete, I'll clean manually. The recommended option is 30 days. You can change this later under Settings → Content and calm → Notification history retention period. If you haven't set a duration, no records are ever deleted automatically. If history starts taking up too much space, a \"Clean up old records?\" card appears on the Today screen. You can clean records older than 30 days if you wish; the number of records to be deleted is shown beforehand and requires your confirmation. If you choose \"Not now\", it won't ask again for 14 days. Archived records are never affected by this cleanup. Displaying notification content (title and body) in history requires Show notification content to be on; content is stored strictly on this phone and encrypted.",
   "q": [
-   "save notification content in history",
-   "keep notification history",
-   "encrypt notification body",
-   "delete history content"
+   "notification history retention",
+   "how long are notifications stored",
+   "auto delete old notifications",
+   "clean up notification history"
   ]
  },
  {
   "type": "guide",
-  "sec": "Notification Bar and Shortcuts",
-  "t": "What is silent digest?",
-  "a": "A single, silent line in the notification bar for held notifications: showing how many notifications from whom, and when the first delivery is. Under Settings → Silent digest, you can select Off, Selected apps…, or All pending notifications. If app icons in notification is enabled, expanding the line shows the icons of pending apps.",
+  "sec": "Privacy and Security",
+  "t": "Screenshot blocking",
+  "a": "Settings → Privacy and data → Block screenshots on sensitive screens is an optional security setting that is turned off by default. When enabled, it prevents taking screenshots in the vault, lock screen, and panels showing notification content, and hides content in the recent apps preview.",
   "q": [
-   "what is silent digest",
-   "notification bar summary line",
-   "see pending count in status bar",
-   "silent notification bar tracker"
+   "block screenshots",
+   "prevent screenshots in app",
+   "hide app preview in recents",
+   "screenshot protection"
   ]
  },
  {
   "type": "guide",
-  "sec": "Notification Bar and Shortcuts",
-  "t": "Live notifications like orders",
-  "a": "If you accidentally dismiss progressing notifications like \"order is being prepared\", you will see them in History with a \"live notification\" badge. Tapping the row opens the relevant app.",
+  "sec": "Notification Bar, Tools, and Widgets",
+  "t": "Home screen widgets",
+  "a": "You can add ha!shh to your home screen as a widget. Four sizes are available (2x2, 4x1, 4x2, 4x3). The widget displays the next delivery time, the active mode, the pending notification count, and the apps with the most pending notifications. Larger sizes (4x2 and 4x3) include a list of pending notifications and a one-tap \"Mark all as read\" button. It adapts to your selected theme; tapping the clock displays the current time.",
   "q": [
-   "dismissed order notification",
-   "live notification badge",
-   "tracking food delivery notification",
-   "recover order status notification"
+   "add home screen widget",
+   "widget sizes",
+   "ha!shh widget features",
+   "see pending notifications on home screen"
   ]
  },
  {
   "type": "guide",
-  "sec": "Notification Bar and Shortcuts",
+  "sec": "Notification Bar, Tools, and Widgets",
+  "t": "What is a quiet alert?",
+  "a": "It is a single silent, non-vibrating summary line in your phone's notification bar for held notifications: it shows who sent notifications, how many there are, and the next delivery time. You can choose Off, Selected apps…, or All pending notifications under Settings → Content and calm → Quiet alert. If app icons in notifications are enabled, expanding the summary line reveals the icons of pending apps.",
+  "q": [
+   "what is a quiet alert",
+   "status bar notification summary",
+   "silent summary notification",
+   "persistent notification settings"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Notification Bar, Tools, and Widgets",
+  "t": "Live notifications like deliveries",
+  "a": "If you accidentally dismiss notifications with progress tracking, such as package deliveries, food orders, or music players, you'll see them in History with a \"⚡ Live\" badge. Tapping the row immediately opens the corresponding app.",
+  "q": [
+   "track live delivery orders",
+   "accidentally dismissed delivery notification",
+   "live tracking notifications",
+   "active order badge"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Notification Bar, Tools, and Widgets",
   "t": "Quick settings tile",
-  "a": "Add a ha!shh tile to your notification panel via Settings → Tools → Quick settings tile. The tile shows the pending count and density; in the same place, you can choose what happens when you tap it (open pending, switch mode, deliver immediately).",
+  "a": "You can add a ha!shh tile to your phone's top notification pull-down via Settings → Tools → Quick settings tile. The tile shows the pending count and the delivery time; you can configure what tapping it does from the same menu.",
   "q": [
-   "quick settings tile setup",
-   "add tile to status bar",
-   "control ha!shh from quick settings",
-   "quick toggle button"
+   "add quick settings tile",
+   "ha!shh in notification panel",
+   "toggle tile in status bar",
+   "quick tile shortcut"
   ]
  },
  {
   "type": "guide",
-  "sec": "Notification Bar and Shortcuts",
+  "sec": "Notification Bar, Tools, and Widgets",
   "t": "Mode by Wi-Fi",
-  "a": "Settings → Tools → Mode by Wi-Fi gives step-by-step instructions on switching modes when connecting to a specific Wi-Fi network using your phone's routine app (e.g., Samsung Routines).",
+  "a": "The Settings → Tools → Mode by Wi-Fi option provides step-by-step instructions on automatically switching modes when connecting to home or work Wi-Fi using your phone's routines app (such as Samsung Modes and Routines). Location permission is not required.",
   "q": [
-   "switch mode on wifi",
-   "automate mode with wifi",
-   "samsung routines wifi mode",
-   "trigger focus mode on home wifi"
+   "change mode based on wifi",
+   "auto switch mode at home or work",
+   "wifi automation routines",
+   "samsung routines wifi mode"
   ]
  },
  {
   "type": "guide",
   "sec": "Appearance",
-  "t": "Changing theme",
-  "a": "Under Settings → Appearance, you'll find Paper, Light, Dark, System, as well as Night (Petrol Velvet) and Day (Cream Paper) themes. When the theme changes, you'll be asked if you want the home screen icon to match.",
+  "t": "Changing themes",
+  "a": "Under Settings → Appearance, you'll find Paper, Light, Dark, and System themes, along with Night (Petroleum Velvet) and Day (Cream Paper). You can also switch themes easily using the Sun/Moon button on the Today screen. You can choose to have the home screen icon match the theme's color whenever the theme changes.",
   "q": [
-   "change theme",
-   "dark mode setting",
-   "switch to night theme",
-   "custom app theme"
+   "change app theme",
+   "switch to dark mode",
+   "light or dark theme",
+   "cream paper theme"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Appearance",
+  "t": "App language",
+  "a": "Under Settings → Appearance → App language, you can choose directly from 10 languages (and the system language) inside the app without having to open your phone's system settings.",
+  "q": [
+   "change app language",
+   "switch language in ha!shh",
+   "set language",
+   "language options"
   ]
  },
  {
   "type": "guide",
   "sec": "Appearance",
   "t": "App icon",
-  "a": "Choose the color of the home screen icon via Settings → App icon. On some phones (e.g., Samsung), changing the icon removes it from the home screen and returns it to the app drawer; you will need to re-add it from there.",
+  "a": "Under Settings → Appearance → App icon, you can set the home screen app icon color to match your theme. On some phones, changing the icon may remove it from the home screen and place it back in the app drawer; simply drag it back to your home screen.",
   "q": [
    "change app icon color",
-   "icon disappeared from home screen",
    "customize home screen icon",
-   "app icon reset"
+   "themed icon",
+   "app icon disappeared from home screen"
   ]
  },
  {
   "type": "guide",
   "sec": "Appearance",
-  "t": "Simple view",
-  "a": "When Settings → Content and calm → Simple view is enabled, Flow only displays the dial, a single button, and pending items; the Rules and Schedule tabs are hidden. Your rules continue to work.",
+  "t": "Minimal view",
+  "a": "When Settings → Content and calm → Minimal view is enabled, the Today screen displays only the dial, a single mode button, and the pending list; the Rules and Schedule tabs are hidden. Your configured rules continue working in the background as usual.",
   "q": [
-   "enable simple view",
-   "minimalist interface",
-   "hide rules and schedule tabs",
-   "simplify home screen"
+   "turn on minimal view",
+   "hide tabs",
+   "simple view mode",
+   "clean interface"
   ]
  },
  {
   "type": "guide",
   "sec": "Appearance",
   "t": "Simple UI on low battery",
-  "a": "If Settings → Simple UI on low battery is enabled, ha!shh automatically switches to simple view when your phone enters power saving mode.",
+  "a": "If Settings → Appearance → Simple UI on low battery is enabled, ha!shh automatically switches to minimal view and pauses animations when your phone enters battery saver mode to reduce power consumption.",
   "q": [
-   "battery saver mode ui",
-   "simple ui on low battery",
-   "auto switch to minimal view",
-   "power saving interface"
+   "low battery mode interface",
+   "save battery in ha!shh",
+   "stop animations on low battery",
+   "power saving ui"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Appearance",
+  "t": "Desk view on landscape rotation",
+  "a": "When Settings → Appearance → Desk view on landscape is enabled, rotating your phone sideways turns the screen into a desk clock featuring a large clock, active mode, week strip, next delivery, and pending notifications. You can choose which sections to display and use your own photo as a frame or background. The screen can stay awake while charging, and its low-power layout conserves battery.",
+  "q": [
+   "desk clock mode",
+   "landscape nightstand view",
+   "standby mode when charging",
+   "horizontal clock display"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Tools and Reporting",
+  "t": "Notification Report and Statistics",
+  "a": "Under Settings → Tools → Notification Report, you can review your notification rhythm, daily and monthly distribution, focus/sleep balance, and time saved along with estimated battery savings from prevented interruptions all on a single screen. There is no separate \"Statistics\" item; all usage stats are consolidated into the Notification Report. You can also share the report as an image if you like.",
+  "q": [
+   "view notification report",
+   "notification statistics",
+   "how many notifications blocked",
+   "check time saved stats"
   ]
  },
  {
   "type": "guide",
   "sec": "Invite",
   "t": "How do I invite a friend?",
-  "a": "Settings → Invite and earn rewards. You will see your code under Your Invite Code; share it via any app using Invite, or tap Copy Code.",
+  "a": "Go to Settings → Invite and earn rewards. You'll see your code under Your Invite Code; tap Invite to share via any messaging app, or tap Copy Code.",
   "q": [
-   "invite a friend",
-   "find my referral code",
-   "share invite code",
-   "earn rewards by inviting"
+   "how to invite friends",
+   "share referral code",
+   "where is my invite code",
+   "invite a friend"
   ]
  },
  {
   "type": "guide",
   "sec": "Invite",
   "t": "How does my invite count increase?",
-  "a": "Your friend installs the app and enters your code into the I Have an Invite Code field. A thank-you code is generated on their phone, which they send to you (Send Thank-You Code). You enter this code into the Enter Thank-You Code field and tap Add. The same person cannot be counted twice.",
+  "a": "Your friend installs the app and enters your code in the I Have an Invite Code field. They then send you the thank-you code generated on their phone (Send Thank-You Code). You enter that code into the Enter Thank-You Code field and tap Add. The same person cannot be counted twice.",
   "q": [
-   "how do invite counts work",
+   "how do referral invites work",
    "enter thank you code",
-   "validate invite referral",
-   "invite count not increasing"
+   "referral count not increasing",
+   "redeem friend code"
   ]
  },
  {
   "type": "guide",
   "sec": "Invite",
   "t": "What are the rewards?",
-  "a": "First invite badge at 1 invite, Paper wallpaper at 3, Quiet circle badge at 5, Night wallpaper at 7, ha!shh ambassador badge at 10. A friend who joins through an invite also receives the \"Invited guest\" badge. Wallpapers unlock under Settings → Appearance → Flow Wallpaper as background for Flow; you can also export them as PNG using Save wallpaper as image.",
+  "a": "You earn the First invite badge at 1 invite, Paper wallpaper at 3, Silent circle badge at 5, Night wallpaper at 7, and ha!shh ambassador badge at 10. Your invited friend also receives the \"Joined via invite\" badge. Unlocked wallpapers become available as backgrounds for the Today screen under Settings → Appearance → Flow Wallpaper; you can also save them as PNGs via Save wallpaper as image.",
   "q": [
-   "referral rewards",
-   "what badges can i earn",
-   "unlock flow wallpapers",
-   "how to get ambassador badge"
+   "invite rewards",
+   "referral badges",
+   "how to unlock wallpapers",
+   "ambassador badge rewards"
   ]
  },
  {
   "type": "guide",
   "sec": "Backup",
   "t": "How do I back up my rules?",
-  "a": "Settings → Backup → Export to file. Your rules, modes, and schedule are saved to a file. There is no cloud backup, and notification contents are not backed up.",
+  "a": "Go to Settings → Backup → Export to file. Your rules, modes, and weekly schedule will be saved to a file on your phone. There is no cloud/internet backup, and notification contents are never included in this file.",
   "q": [
-   "backup rules",
-   "export my settings",
-   "how to save backup",
-   "where is backup saved"
+   "backup my rules",
+   "export settings and schedule",
+   "save backup file",
+   "how to backup ha!shh"
   ]
  },
  {
   "type": "guide",
   "sec": "Backup",
   "t": "How do I restore from a backup?",
-  "a": "Select your backup file via Settings → Backup → Import from file. The app shows what is inside; Merge keeps and updates your current rules, while Replace replaces everything with the backup.",
+  "a": "Go to Settings → Backup → Import from file and select your backup file. The app displays the file's contents; Merge adds new rules while keeping your existing ones, while Replace replaces all rules with those in the backup.",
   "q": [
    "restore backup",
    "import rules from file",
-   "merge or replace backup",
-   "load saved settings"
+   "merge backup rules",
+   "restore settings"
   ]
  },
  {
   "type": "guide",
   "sec": "Backup",
   "t": "Sharing a rule template",
-  "a": "You can share your rules with a friend via Settings → Backup → Share rule template. It does not contain any notification content.",
+  "a": "You can share your rules with a friend via Settings → Backup → Share rule template. Notification contents are strictly never shared.",
   "q": [
-   "share rules with friend",
+   "share rules with someone",
    "export rule template",
-   "send rules to someone",
-   "share notification setup"
+   "send rules to a friend",
+   "rule sharing"
   ]
  },
  {
   "type": "guide",
   "sec": "Other",
   "t": "Sending feedback",
-  "a": "Settings → Send feedback opens your email app with a pre-composed message. Your notification contents and rules are not included; you can review and edit the email before sending.",
+  "a": "Settings → Send feedback opens your email app with a pre-formatted template. Your notification content and custom rules are not attached; you can review and edit the email text before sending.",
   "q": [
    "send feedback",
-   "report a suggestion",
+   "report a bug by email",
    "contact support",
-   "email developers"
+   "give feedback"
   ]
  },
  {
   "type": "guide",
   "sec": "Other",
   "t": "Promo code",
-  "a": "Activate your Google Play promo code through the Play Store via Settings → Tools → Redeem promo code.",
+  "a": "Under Settings → Tools → Redeem promo code, you can activate a Google Play promo code directly through the Play Store.",
   "q": [
    "redeem promo code",
+   "enter google play code",
    "how to use promo code",
-   "enter discount code",
-   "google play code redemption"
+   "discount code redemption"
   ]
  },
  {
   "type": "fix",
   "sec": "Holding and Delivery",
-  "t": "Notifications are not being held, they arrive immediately",
-  "a": "The most common reason is that notification access was turned off. If the row at Settings → Device permissions → Manage notification access says \"Permission required\", tap it and turn on ha!shh. Also, Immediate or Never hold may be selected for that app; check by tapping the app in the Rules tab. Calls, alarms, and system notifications are never held for safety.",
+  "t": "Notifications are not held and arrive immediately",
+  "a": "The most common reason is that notification access was turned off. If the Settings → Device permissions → Manage notification access row says \"Permission required\", tap it and enable ha!shh. Also check if Immediate or Never hold is selected for that app; tap the app in the Rules tab to verify. For safety, phone calls, alarms, and Android system and SIM notifications (network and carrier alerts) are never held in any mode.",
   "q": [
    "notifications not holding",
-   "notifications coming through immediately",
-   "why is ha!shh not blocking notifications",
-   "notifications not batched"
+   "why are notifications coming through immediately",
+   "ha!shh not blocking notifications",
+   "notifications still buzzing"
   ]
  },
  {
   "type": "fix",
   "sec": "Holding and Delivery",
-  "t": "Notifications did not arrive at delivery time",
-  "a": "Usually, your phone's battery saver stopped ha!shh in the background. Tap the Settings → Device permissions → Battery and background row; use Turn Off Battery Optimization and, if your brand is detected, Open Device Settings buttons. The System health row shows connection status; if it says \"Disconnected\", tap Reconnect from there.",
+  "t": "Notifications did not arrive at the delivery time",
+  "a": "Most often, your phone's battery saver has stopped ha!shh in the background. Tap the Settings → Device permissions → Battery and background row; use the Turn Off Battery Optimization button and, if your device brand is recognized, the Open Device-Specific Settings button. The System health row shows connection status; if it says \"Disconnected\", tap Reconnect there. When a mode's duration ends, notifications held during that mode are delivered all together at the end of the mode, not at staggered intervals.",
   "q": [
-   "notifications missed delivery time",
-   "delivery not working on time",
+   "notifications late at delivery time",
+   "delivery missed scheduled time",
    "notifications delayed",
-   "battery optimization stopping delivery"
+   "battery optimization stopping app"
   ]
  },
  {
   "type": "fix",
   "sec": "Holding and Delivery",
   "t": "Deliveries are delayed on Samsung",
-  "a": "In your phone settings, go to Battery → Background usage limits and add ha!shh to the Never sleeping apps list. If it's in the Sleeping apps list, remove it. The Open Device Settings button inside ha!shh takes you straight to the Samsung battery screen.",
+  "a": "In your phone settings, go to Battery → Background usage limits and add ha!shh to the Never sleeping apps list. If it's in the Sleeping apps list, remove it from there. The Open Device-Specific Settings button in ha!shh takes you straight to the Samsung battery screen.",
   "q": [
    "samsung delivery delay",
-   "notifications late on samsung",
-   "fix samsung background restrictions",
-   "samsung never sleeping apps ha!shh"
+   "samsung background limits",
+   "notifications late samsung",
+   "never sleeping apps samsung"
   ]
  },
  {
   "type": "fix",
   "sec": "Holding and Delivery",
   "t": "Deliveries are delayed on Xiaomi, Redmi, or POCO",
-  "a": "In your phone settings, go to Apps → ha!shh, turn on Autostart, and set Battery saver to No restrictions. Locking ha!shh in the recent apps screen also helps. The Open Device Settings button in ha!shh opens the relevant Xiaomi screen.",
+  "a": "In your phone settings, go to Apps → ha!shh, turn on Autostart, and set Battery saver to No restrictions. Locking ha!shh in the recent apps screen also helps. The Open Device-Specific Settings button in ha!shh opens the corresponding Xiaomi screen.",
   "q": [
    "xiaomi notification delay",
-   "redmi notifications late",
-   "poco background fix",
-   "autostart ha!shh miui"
+   "redmi notifications not delivering on time",
+   "poco autostart permission",
+   "no restrictions battery xiaomi"
   ]
  },
  {
   "type": "fix",
   "sec": "Holding and Delivery",
   "t": "Deliveries are delayed on Huawei or Honor",
-  "a": "In your phone settings, go to Battery → App launch, turn off automatic management for ha!shh, and enable Autostart, Secondary launch, and Run in background. The Open Device Settings button in ha!shh attempts to open this screen.",
+  "a": "In your phone settings, go to Battery → App launch, turn off automatic management for ha!shh, and enable Auto-launch, Secondary launch, and Run in background. The Open Device-Specific Settings button in ha!shh attempts to open this screen.",
   "q": [
    "huawei delivery delayed",
-   "honor notifications late",
-   "huawei app launch settings",
-   "allow ha!shh background huawei"
+   "honor app launch settings",
+   "huawei run in background",
+   "honor notifications late"
   ]
  },
  {
   "type": "fix",
   "sec": "Holding and Delivery",
   "t": "Deliveries are delayed on Oppo, Realme, OnePlus, or Vivo",
-  "a": "In your phone settings, enable Autostart and Allow background activity for ha!shh, and turn off battery optimization. The Open Device Settings button in ha!shh attempts to open your brand's relevant screen.",
+  "a": "In your phone settings, enable Auto-launch and Allow background activity for ha!shh, and disable battery optimization. The Open Device-Specific Settings button in ha!shh attempts to open the relevant screen for your brand.",
   "q": [
-   "oppo delivery delay",
-   "oneplus late notifications",
-   "realme background restrictions",
-   "vivo notification fix"
+   "oneplus notification delay",
+   "oppo background settings",
+   "realme notifications late",
+   "vivo autostart"
   ]
  },
  {
   "type": "fix",
   "sec": "Holding and Delivery",
   "t": "I restarted my phone, what happened to pending notifications?",
-  "a": "ha!shh automatically checks and restores pending records after a restart. If any notification cannot be restored, a \"Check overdue notifications\" alert appears; simply open the relevant apps to check them.",
+  "a": "ha!shh automatically checks and restores pending records after a restart. If any notification could not be restored, a \"Check delayed notifications\" prompt will appear; when that happens, simply open the respective apps to check them.",
   "q": [
-   "reboot phone pending notifications",
-   "notifications lost after restart",
-   "phone restarted what happens to held notifications",
-   "check overdue notifications warning"
+   "what happens after restarting phone",
+   "pending notifications after reboot",
+   "check delayed notifications alert",
+   "notifications lost after restart"
   ]
  },
  {
   "type": "fix",
   "sec": "Holding and Delivery",
   "t": "Did my manually selected mode change on its own?",
-  "a": "A manually selected mode stays active until you turn it off; the schedule will not change it. To return to the schedule, use the Return to schedule button.",
+  "a": "A manually chosen mode remains active until you turn it off; scheduled changes do not override it. To return to the schedule, tap the Return to schedule button.",
   "q": [
-   "mode changed automatically",
-   "why did mode switch",
-   "manual mode override",
-   "go back to schedule"
+   "did mode change automatically",
+   "manual mode won't turn off",
+   "schedule not starting after manual mode",
+   "exit manual mode"
   ]
  },
  {
   "type": "fix",
   "sec": "Apps and Rules",
-  "t": "An app does not appear in the list",
-  "a": "Try typing the app's name into the search box. If the app is not installed on your phone or has never sent a notification, it might not be in the list; check again after its first notification. The app may also be inside a category: you can tap a category in Rules to see its apps.",
+  "t": "An app doesn't appear in the list",
+  "a": "Try typing the app's name into the search box. If the app is not installed on your phone or hasn't sent any notifications yet, it might not be listed; check back after its first notification arrives. The app might also be inside a category: tap a category in Rules to see its apps.",
   "q": [
-   "app missing from list",
-   "cannot find app in rules",
-   "app not showing up",
-   "search app in rules"
+   "app missing from rules list",
+   "can't find an app",
+   "why is app not showing up",
+   "app not in list"
   ]
  },
  {
   "type": "fix",
   "sec": "Apps and Rules",
-  "t": "No types appear in the type filter",
-  "a": "Types are learned as the app sends you notifications of that type. Wait until you receive a few notifications first, then check again via Rules → app → Select type ›. Filtering is based on the app's notification category; content is not read.",
+  "t": "No notification types show up in the type filter",
+  "a": "Types are learned dynamically as the app sends you notifications of that type. Wait until you receive a few notifications from the app, then check again under Rules → app → Select type ›. Categorization is based on the app's notification channels; content is never read.",
   "q": [
-   "no notification types listed",
-   "type filter empty",
-   "how type filter learns",
-   "notification category not showing"
+   "no types in type filter",
+   "type filter is empty",
+   "how does type filter detect categories",
+   "notification channel not appearing"
   ]
  },
  {
   "type": "fix",
   "sec": "Apps and Rules",
-  "t": "I permanently blocked an app, I want to undo it",
-  "a": "In Settings → Tools → Blocked, switch to the Blocked Apps tab and tap Unblock.",
+  "t": "I permanently blocked an app and want to undo it",
+  "a": "Go to Settings → Tools → Blocked, switch to the Blocked Apps tab, and tap Unblock.",
   "q": [
-   "unblock blocked app",
-   "undo app block",
-   "how to unblock",
-   "restore blocked notifications"
+   "unblock an app",
+   "accidentally blocked an app",
+   "remove app from block list",
+   "how to unblock"
   ]
  },
  {
   "type": "fix",
   "sec": "Privacy and Lock",
-  "t": "Fingerprint lock option does not appear or does not work",
-  "a": "For the lock to work, a screen lock (fingerprint, PIN, or pattern) must be set on the phone, and Android 9 or above is required. After setting up a screen lock in your phone settings, try again via Settings → Fingerprint lock.",
+  "t": "Fingerprint lock option doesn't appear or work",
+  "a": "A screen lock (fingerprint, PIN, or pattern) must be enabled on your phone, and Android 9 or higher is required. After enabling a screen lock in your phone settings, try again via Settings → Privacy and data → Fingerprint lock.",
   "q": [
    "fingerprint lock not working",
-   "cannot enable fingerprint lock",
-   "biometric lock missing",
-   "fingerprint lock error"
+   "can't enable fingerprint lock",
+   "biometrics option missing",
+   "pin lock not showing"
   ]
  },
  {
   "type": "fix",
   "sec": "Privacy and Lock",
-  "t": "Notification content is not visible",
-  "a": "Content is not shown by default. Turn on the switch at Settings → Content and calm → Show notification content. If you want to read it in History, also select 1 or 7 days under Keep content in history.",
+  "t": "Notification content is not showing",
+  "a": "Showing content is enabled by default. If it is not showing, verify that Settings → Content and calm → Show notification content is turned on. If you want to read notification contents in the History tab later on, check your Notification history retention period setting: records older than your chosen duration are deleted; if no period was selected, nothing is ever deleted automatically.",
   "q": [
-   "notification text not visible",
-   "why cant i see notification content",
-   "notification preview missing",
-   "enable notification content"
+   "notification text hidden",
+   "can't see notification preview",
+   "notification content missing",
+   "body text not showing in history"
   ]
  },
  {
   "type": "fix",
   "sec": "Privacy and Lock",
-  "t": "Screenshot of the History screen comes out black",
-  "a": "This is not a bug, but privacy protection. Screenshots are blocked on screens that can display notification content (History, archive, reading screen) and when the lock is active; this prevents contents from leaking to other apps.",
+  "t": "Screenshots of the History screen turn out black",
+  "a": "This is not a bug; it is an optional privacy setting. If Settings → Privacy and data → Block screenshots on sensitive screens is enabled, taking screenshots is blocked in the vault, fingerprint lock, and content-viewing screens. This setting is off by default; if you want to capture screenshots, simply disable this option.",
   "q": [
-   "black screenshot history",
-   "why screenshot is blank",
-   "screenshot blocked",
-   "cannot take screenshot of notifications"
+   "screenshots are black",
+   "why can't i screenshot history",
+   "black screen on screenshot",
+   "allow screenshots in app"
   ]
  },
  {
   "type": "fix",
   "sec": "Privacy and Lock",
-  "t": "Why does ha!shh not request internet permission?",
-  "a": "The app was deliberately built without internet permission. Your notifications, rules, and archive are never sent from your phone to any server. If you want to export a file (backup or archive), you do so manually via the share menu.",
+  "t": "Why doesn't ha!shh request internet permission?",
+  "a": "The app was intentionally built without internet permission. Your notifications, rules, and archive never leave your phone for any server. If you want to transfer a file out (like a backup or archive), you do so yourself via the system share menu.",
   "q": [
    "why no internet permission",
-   "does ha!shh use internet",
-   "is my notification data sent to servers",
-   "privacy and internet access"
+   "is ha!shh offline",
+   "does ha!shh send data to servers",
+   "app privacy and internet access"
   ]
  },
  {
   "type": "fix",
   "sec": "Archive",
-  "t": "Where is Archive?",
-  "a": "Tap the 📦 Archive button at the top of the History tab. You can also open it from the archive card in Flow.",
+  "t": "Where is the Archive?",
+  "a": "You can tap the 📦 Archive button at the top of the History tab or open it from the archive card on the Today screen. Auto-archive is enabled by default; it automatically saves only bank payments, coupons, completed expenses, and bills/due date reminders to their respective folders. Ad prices are never archived. Records you add or edit manually are never deleted and always remain.",
   "q": [
-   "where is archive",
-   "find my archive",
-   "open archive screen",
-   "how to access archive"
+   "where to find archive",
+   "how to access archive",
+   "open archived notifications",
+   "find my archive folder"
   ]
  },
  {
   "type": "fix",
   "sec": "Archive",
-  "t": "I want to save the archive to Google Drive",
-  "a": "Tap Export Archive in Archive and choose a format; the most secure is 🔒 Encrypted Archive (.hashh). Select Drive from the share menu that pops up. The archive is never backed up or sent to the internet automatically; it only exports to a file when you do so.",
+  "t": "I want to save my archive to Google Drive",
+  "a": "In the Archive, tap Export Archive and choose a format; 🔒 Encrypted Archive (.hashh) is the most secure. In the share menu that appears, select Drive. The archive is never uploaded to backups or the cloud automatically; it only exports to a file when you choose to do so.",
   "q": [
-   "save archive to drive",
-   "backup archive to google drive",
-   "upload hashh file to drive",
-   "export archive cloud"
+   "save archive to google drive",
+   "upload archive to cloud",
+   "export archive file to drive",
+   "cloud backup archive"
   ]
  },
  {
   "type": "fix",
   "sec": "Archive",
-  "t": "I cannot add an app to a new archive folder",
-  "a": "In Archive, you can add or remove apps from a folder via ⚙ Edit Apps.",
+  "t": "I can't add an app to a new archive folder",
+  "a": "In the Archive, you can add or remove apps from a folder using ⚙ Manage Apps.",
   "q": [
    "add app to archive folder",
-   "edit archive folder apps",
-   "organize archive apps",
-   "manage folder apps"
+   "can't add app to folder",
+   "manage archive folder apps",
+   "organize archive by app"
   ]
  },
  {
   "type": "fix",
   "sec": "Archive",
-  "t": "Coupons do not appear in Archive",
-  "a": "Coupons are collected from notifications archived into the Coupons folder. Add a notification to Coupons using Archive ›, or create an auto-archive rule for your shopping apps via ⚙ Rules → + Add Rule.",
+  "t": "No coupons are showing up in the archive",
+  "a": "Coupons are gathered from notifications archived into the Coupons folder. Add a notification to Coupons using Archive ›, or set up an auto-archive rule for your store apps under ⚙ Rules → + Add Rule.",
   "q": [
    "coupons not showing up",
-   "coupon wallet empty",
-   "how to collect coupons",
-   "missing coupons in archive"
+   "no coupons in wallet",
+   "how to add coupon to archive",
+   "auto save promo codes"
   ]
  },
  {
   "type": "fix",
-  "sec": "Live Notifications",
+  "sec": "Live Notifications and Card Actions",
   "t": "I accidentally dismissed an order notification",
-  "a": "In the History tab, that notification appears with a \"live notification\" badge. Tapping the row opens the app where the order was placed so you can see its current status.",
+  "a": "You can find that notification in the History tab marked with a \"⚡ Live\" badge. Tapping the row opens the app containing the order so you can view its latest status.",
   "q": [
-   "accidentally cleared delivery notification",
-   "find dismissed food order",
-   "restore order notification",
-   "see live order tracking"
+   "accidentally closed delivery notification",
+   "find dismissed order",
+   "track dismissed live notification",
+   "reopen order notification"
   ]
  },
  {
   "type": "fix",
-  "sec": "Live Notifications",
+  "sec": "Live Notifications and Card Actions",
   "t": "Tapping a notification returns to the home screen",
-  "a": "Notifications in the pending list and History open the app they originated from when tapped.",
+  "a": "Tapping notifications in the pending list and History opens the app they came from. Returning to the home screen when tapping on the dial panel is a known issue currently being resolved.",
   "q": [
    "tapping notification goes to home screen",
-   "notification opens wrong screen",
-   "what happens when tapping notification",
-   "open app from notification"
+   "app doesn't open when tapping notification",
+   "dial tap issue",
+   "notification click bug"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Live Notifications and Card Actions",
+  "t": "I accidentally acted on a pending card (marked read or snoozed)",
+  "a": "When you swipe a card left or right in the pending card deck on the Today screen, an Undo bar appears at the bottom of the screen for 4 seconds. Tap it to immediately reverse the action.",
+  "q": [
+   "accidentally swiped notification card",
+   "how to undo mark as read",
+   "undo snooze notification",
+   "restore dismissed pending card"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Appearance and Widgets",
+  "t": "Where can I change the app language?",
+  "a": "There is no need to visit your phone's system settings. You can instantly switch ha!shh to your preferred language (10 languages supported) under Settings → Appearance → App language.",
+  "q": [
+   "where to change language",
+   "change app language",
+   "switch ha!shh language",
+   "how to set english"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Appearance and Widgets",
+  "t": "Desk view doesn't open",
+  "a": "To have desk view open when rotating your phone sideways, make sure Settings → Appearance → Desk view on landscape is enabled. You can also manage options like keeping the screen on while charging and the low-battery layout from the same screen.",
+  "q": [
+   "desk view not turning on",
+   "landscape clock not working",
+   "phone rotated desk view won't open",
+   "enable nightstand mode"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Appearance and Widgets",
+  "t": "How do I add a home screen widget?",
+  "a": "Long-press an empty space on your phone's home screen and select ha!shh from the widgets menu. You can choose from four different sizes (2x2, 4x1, 4x2, 4x3) to suit your needs.",
+  "q": [
+   "how to add widget to home screen",
+   "place ha!shh widget",
+   "add clock widget",
+   "widget setup guide"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Appearance and Widgets",
+  "t": "Where can I find statistics and the notification report?",
+  "a": "There is no separate \"Statistics\" menu; all usage statistics and distribution charts are combined into Settings → Tools → Notification Report. Here you can see daily and monthly notification counts, focus balance, time saved, and battery savings.",
+  "q": [
+   "where are notification statistics",
+   "find notification report",
+   "view blocked notification counts",
+   "check daily stats"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Appearance and Widgets",
+  "t": "I changed the app icon and it disappeared from the home screen",
+  "a": "On some phones (e.g., Samsung), changing the icon removes it from the home screen and returns it to the app drawer. Simply drag ha!shh from your app drawer back to the home screen.",
+  "q": [
+   "icon disappeared from home screen",
+   "app icon vanished after changing theme",
+   "missing ha!shh icon",
+   "can't find app icon"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Appearance and Widgets",
+  "t": "I can't find the quick settings tile",
+  "a": "Swipe down twice from the top of your screen to open the notification panel. If the tile isn't visible, swipe right to check subsequent pages. If it's missing, add it again via Settings → Tools → Quick settings tile.",
+  "q": [
+   "can't find quick settings tile",
+   "missing ha!shh tile in status bar",
+   "how to add notification panel tile",
+   "quick tile not showing up"
   ]
  },
  {
   "type": "fix",
   "sec": "Invite",
-  "t": "Invite code was not accepted",
-  "a": "You can enter the code with or without hyphens; it is not case-sensitive. You cannot enter your own code, and an invite code can only be used once. If the code is still rejected, a character might be mistyped; ha!shh catches single-character typos, so ask your friend to copy and resend the code.",
+  "t": "Invite code not accepted",
+  "a": "You can enter the code with or without hyphens; capitalization does not matter. You cannot enter your own code, and an invite code can only be used once. If the code is still rejected, a character may be mistyped; ha!shh detects single-character typos, so ask your friend to copy and resend the code.",
   "q": [
    "invite code not working",
    "invalid invite code",
-   "referral code error",
-   "invite code rejected"
+   "can't enter referral code",
+   "referral code error"
   ]
  },
  {
   "type": "fix",
   "sec": "Invite",
   "t": "Thank-you code says \"This code does not belong to you or is invalid\"",
-  "a": "A thank-you code is generated specifically based on the code of the person who invited you; someone else's thank-you code will not be added to your count. Ask your friend to send the code again using Resend My Thank-You Code. If it says \"This invite has already been counted\", that person is already included in your count.",
+  "a": "A thank-you code is generated specifically for the code of the person who invited you; someone else's thank-you code cannot be added to your count. Ask your friend to resend the code using Resend My Thank-You Code. If it says \"This invite has already been counted\", that person has already been credited to your count.",
   "q": [
-   "thank you code invalid",
+   "thank you code error",
    "thank you code not working",
-   "referral thank you code error",
-   "code does not belong to you"
+   "invalid thank you code",
+   "this code does not belong to you"
   ]
  },
  {
   "type": "fix",
   "sec": "Backup and Switching Phones",
   "t": "How do I restore from a backup?",
-  "a": "Select your backup file via Settings → Backup → Import from file. Merge keeps and updates your current rules, while Replace replaces everything with the backup. If the file is corrupted or too large (over 512 KB), the app will warn you.",
+  "a": "Go to Settings → Backup → Import from file and select your backup file. Merge keeps and updates your current rules, while Replace overwrites everything with the backup file. The app warns you if the file is corrupted or too large (over 512 KB).",
   "q": [
-   "restore backup file",
+   "how to restore backup file",
    "import settings backup",
-   "corrupted backup file",
-   "merge or replace settings"
+   "restore rules from backup",
+   "file too large backup error"
   ]
  },
  {
   "type": "fix",
   "sec": "Backup and Switching Phones",
-  "t": "I am switching phones, what will happen to my settings?",
-  "a": "On your old phone, take a backup via Settings → Backup → Export to file and transfer the file to the new phone (e.g., via Drive or cable). On your new phone, install ha!shh and restore it using Import from file. To transfer the archive as well, use Export Archive → 🔒 Encrypted Archive (.hashh) on the old phone. You will need to grant notification access and battery permissions again on the new phone.",
+  "t": "I'm switching phones, what happens to my settings?",
+  "a": "On your old phone, create a backup via Settings → Backup → Export to file and transfer the file to your new phone (e.g., via Drive or a cable). Install ha!shh on the new phone and load it via Import from file. To transfer your archive as well, use Export Archive → 🔒 Encrypted Archive (.hashh) on your old phone. You will need to regrant notification access and battery permissions on the new phone.",
   "q": [
-   "transfer ha!shh to new phone",
-   "switch phones backup",
-   "move settings to new android",
-   "restore on new device"
+   "transfer settings to new phone",
+   "move ha!shh to another phone",
+   "restore data on new device",
+   "switching phones backup guide"
   ]
  },
  {
   "type": "fix",
   "sec": "Backup and Switching Phones",
   "t": "I want to delete all my data",
-  "a": "Settings → Backup → Delete all local data. Rules, history, pending records, and preferences will be deleted; this action cannot be undone. If you want to back up first, use Export to file.",
+  "a": "Go to Settings → Privacy and data → Delete all local data. Rules, history, pending records, and preferences will be permanently wiped; this action cannot be undone. If you wish to back up first, use Export my data in the same section. Archive records are also permanently erased by this action.",
   "q": [
    "delete all data",
-   "reset ha!shh app",
-   "clear all rules and history",
-   "wipe app data"
-  ]
- },
- {
-  "type": "fix",
-  "sec": "Other",
-  "t": "I changed the app icon and it disappeared from the home screen",
-  "a": "On some phones (e.g., Samsung), changing the icon removes it from the home screen and returns it to the app drawer. Simply drag ha!shh back onto your home screen from the app drawer.",
-  "q": [
-   "app icon disappeared",
-   "icon gone after changing color",
-   "find ha!shh in app drawer",
-   "restore app icon to home screen"
-  ]
- },
- {
-  "type": "fix",
-  "sec": "Other",
-  "t": "I cannot find the quick settings tile",
-  "a": "Pull down your notification panel twice. If the tile is not visible, swipe the panel to the right; it might be on the next page. If not, add it again via Settings → Tools → Quick settings tile.",
-  "q": [
-   "cannot find quick settings tile",
-   "add tile to notification panel",
-   "quick tile missing",
-   "where is ha!shh tile"
+   "reset app to factory settings",
+   "wipe ha!shh data",
+   "clear all rules and history"
   ]
  },
  {
   "type": "fix",
   "sec": "Other",
   "t": "I want to report an issue",
-  "a": "Settings → Send feedback opens your email app with a pre-composed message. Your notification contents and rules are not included.",
+  "a": "Settings → Send feedback opens your email app with a pre-written message. Your notification content and custom rules are not attached.",
   "q": [
    "report an issue",
    "report a bug",
-   "contact support",
-   "send feedback email"
+   "app not working feedback",
+   "contact support about a problem"
   ]
  }
 ]

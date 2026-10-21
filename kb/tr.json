@@ -3,7 +3,7 @@
   "type": "guide",
   "sec": "Başlangıç",
   "t": "ha!shh ne yapar?",
-  "a": "Gelen bildirimleri senin kurallarına göre bekletir ve seçtiğin saatlerde topluca geri getirir. Karar için bildirimin metni okunmaz; yalnız hangi uygulamadan ve ne zaman geldiği kullanılır. Uygulamanın internet izni yoktur, her şey telefonunda kalır.",
+  "a": "Gelen bildirimleri senin kurallarına göre bekletir ve seçtiğin saatlerde topluca geri getirir. Bekletme kararı için bildirimin metni okunmaz; yalnız hangi uygulamadan ve ne zaman geldiği kullanılır. Bildirim içeriği varsayılan olarak yalnız senin telefonunda okunur ve gösterilir; uygulamanın internet izni yoktur, hiçbir veri telefonundan dışarı çıkmaz.",
   "q": [
    "bu uygulama tam olarak ne yapıyor",
    "ha!shh ne işe yarar",
@@ -15,7 +15,7 @@
   "type": "guide",
   "sec": "Başlangıç",
   "t": "İlk kurulum nasıl yapılır?",
-  "a": "Uygulamayı ilk açtığında İlk Kurulum Sihirbazı başlar. Gizlilik bilgisini okursun, bildirim erişimini ve pil ayarını verirsin, sonra sana uyan günü seçersin (Öğrenci, Ofis Çalışanı, Gece Vardiyası, Serbest / Esnek). Sihirbazı yarıda bırakırsan Akış'taki karttan ya da Ayarlar → Araçlar → İlk Kurulum Sihirbazı ile sürdürebilirsin.",
+  "a": "Uygulamayı ilk açtığında İlk Kurulum Sihirbazı başlar. Gizlilik bilgisini okursun, bildirim erişimini ve pil ayarını verirsin, sonra sana uyan yaşam biçimini seçersin (Öğrenci, Ofis Çalışanı, Gece Vardiyası, Serbest / Esnek). Kurulum ilk açılışta gece Uyku planını da hazırlar; böylece kurulum biter bitmez uygulama kullanıma hazırdır. Sihirbazı yarıda bırakırsan Bugün ekranındaki karttan ya da Ayarlar → Araçlar → İlk Kurulum Sihirbazı ile sürdürebilirsin.",
   "q": [
    "ilk kurulumu nasıl yaparım",
    "kurulum sihirbazı nerede",
@@ -27,7 +27,7 @@
   "type": "guide",
   "sec": "Başlangıç",
   "t": "Hangi izinler gerekiyor?",
-  "a": "İki şey gerekir: bildirim erişimi (bekletme için şart) ve pil ve arka plan izni (teslim saatlerinin kaçmaması için). İkisini de Ayarlar → Cihaz izinleri altında görürsün; yanında \"İzin verildi\" ya da \"İzin gerekli\" yazar.",
+  "a": "İki temel izin gerekir: bildirim erişimi (bekletme ve toplu teslim için şart) ve pil ve arka plan izni (teslim saatlerinin gecikmemesi için). İkisini de Ayarlar → Cihaz izinleri altında görürsün; yanında \"İzin verildi\" ya da \"İzin gerekli\" yazar.",
   "q": [
    "uygulama hangi izinleri istiyor",
    "hangi izinleri açmam gerek",
@@ -38,20 +38,20 @@
  {
   "type": "guide",
   "sec": "Günlük kullanım",
-  "t": "Akış ekranında neler var?",
-  "a": "Ortada günün kadranı var: 12 üstte, 18 sağda, 00 altta, 06 solda. Kadranın üstünde bekleyen bildirimlerin uygulama simgeleri görünür. Altta Bekleyenler kartı, sıradaki teslim saati, arşiv kartı ve Kazandığın zaman özeti bulunur.",
+  "t": "Bugün ekranında neler var?",
+  "a": "Ortada 24 saatlik gün kadranı bulunur: 12 üstte, 18 sağda, 00 altta, 06 solda. Kadranın üstünde bekleyen bildirimlerin uygulama simgeleri görünür; yakın saatteki simgeler üst üste binmez. Altta Bekleyenler kart destesi, sıradaki teslim saati, arşiv kartı ve Kazandığın zaman özeti yer alır (önlenen ekran uyanmalarıyla sağlanan tahmini pil tasarrufu da bu kart içinde özetlenir).",
   "q": [
-   "akış ekranında neler var",
-   "ana ekrandaki saat kadranı nedir",
-   "kadran ne işe yarıyor",
-   "akışta ne görünüyor"
+   "bugün ekranında neler var",
+   "ana ekrandaki 24 saatlik kadran nedir",
+   "saat kadranındaki simgeler ne anlama geliyor",
+   "bugün sekmesinde neler görünüyor"
   ]
  },
  {
   "type": "guide",
   "sec": "Günlük kullanım",
   "t": "Bekleyen bildirimleri nasıl görürüm?",
-  "a": "Akış'ta Bekleyenler kartındaki Tümünü oku › bağlantısına dokun. İstersen Şimdi hepsini getir ile hepsini hemen geri alırsın. Bir bildirime dokununca geldiği uygulama açılır.",
+  "a": "Bugün ekranında Bekleyenler kartındaki Tümünü oku › bağlantısına dokunabilirsin. İstersen Şimdi hepsini getir ile bekleyen tüm bildirimleri hemen alabilirsin. Bir bildirime dokununca geldiği uygulama açılır. Kart destesinde kartı sağa kaydırarak okundu sayabilir, sola kaydırarak 30 dakika erteleyebilirsin. Yaptığın işlemi geri almak istersen ekranın altında 4 saniye boyunca görünen Geri al düğmesine dokunman yeterlidir.",
   "q": [
    "bekleyen bildirimleri nasıl görürüm",
    "biriken bildirimlere nereden bakılır",
@@ -63,7 +63,7 @@
   "type": "guide",
   "sec": "Günlük kullanım",
   "t": "Bildirim içeriğini uygulamada okuyabilir miyim?",
-  "a": "Evet, ama yalnız sen izin verirsen. Ayarlar → İçerik ve sakinlik → Bildirim içeriğini göster anahtarını aç. Kapalıyken yalnız uygulama adı, saat ve bekleme nedeni görünür.",
+  "a": "Evet. Bildirim içeriğini gösterme varsayılan olarak açıktır; içerik yalnız kendi cihazında güvenle okunur ve gösterilir. İstemezsen Ayarlar → İçerik ve sakinlik → Bildirim içeriğini göster anahtarından kapatabilirsin. Kapalıyken yalnız uygulama adı, saat ve bekleme nedeni görünür.",
   "q": [
    "bildirimlerin içeriğini nasıl okurum",
    "mesajın içeriğini göremiyorum",
@@ -75,7 +75,7 @@
   "type": "guide",
   "sec": "Günlük kullanım",
   "t": "Kazandığın zaman nasıl hesaplanıyor?",
-  "a": "Seni bölmeden bekletilen her bildirim için varsayılan olarak 1 dakika sayılır. Bu süreyi Ayarlar → İçerik ve sakinlik → Bölünme başına zaman ile 0,5 ile 5 dakika arasında değiştirebilirsin. Özeti kapatmak için aynı bölümde Kazandığın zaman özeti anahtarını kapat.",
+  "a": "Seni bölmeden bekletilen her bildirim için varsayılan olarak 1 dakika kazanılmış sayılır. Bu süreyi Ayarlar → İçerik ve sakinlik → Bölünme başına zaman ile 0,5 ile 5 dakika arasında değiştirebilirsin. Özeti kapatmak için aynı bölümde Kazandığın zaman özeti anahtarını kapatabilirsin. Gereksiz ekran uyanmalarının engellenmesiyle sağlanan tahmini pil tasarrufu da bu kartta gösterilir.",
   "q": [
    "kazandığım zaman nasıl hesaplanıyor",
    "kazanılan zaman ne demek",
@@ -99,7 +99,7 @@
   "type": "guide",
   "sec": "Kurallar",
   "t": "Bir uygulama hiç bekletilmesin istiyorum",
-  "a": "Kurallar'da uygulamaya dokun, Hemen'i seç, altta çıkan Hiç bekletme (her modda gelsin) seçeneğine dokun. Böylece hangi mod açık olursa olsun o uygulamanın bildirimleri hemen gelir.",
+  "a": "Kurallar'da uygulamaya dokun, Hemen'i seç, altta çıkan Hiç bekletme (her modda gelsin) seçeneğine dokun. Böylece hangi mod açık olursa olsun o uygulamanın bildirimleri anında gelir. Android sistem ve SIM bildirimleri (şebeke, operatör, sistem uyarıları) ile acil aramalar ve alarmlar güvenlik gereği zaten hiçbir zaman bekletilmez.",
   "q": [
    "bir uygulama hiç bekletilmesin",
    "bildirimleri anında almak istiyorum",
@@ -111,7 +111,7 @@
   "type": "guide",
   "sec": "Kurallar",
   "t": "Instagram gibi uygulamalarda yalnız mesajları görmek istiyorum (tür filtresi)",
-  "a": "Kurallar'da uygulamaya dokun ve Tür seç › ile Tür Filtresi panelini aç. Hazır filtreler var: Yalnız mesajlar, Yalnız beğeniler, Beğeni + yorumlar, Sıfırla. Her tür için ayrıca Varsayılan, Hemen, Teslimde ya da Engelle seçebilirsin. Ayırma, uygulamanın bildirim türüne göre yapılır; içerik okunmaz.",
+  "a": "Kurallar'da uygulamaya dokun ve Tür seç › ile Tür Filtresi panelini aç. Hazır filtreler vardır: Yalnız mesajlar, Yalnız beğeniler, Beğeni + yorumlar, Sıfırla. Her tür için ayrıca Varsayılan, Hemen, Teslimde ya da Engelle seçebilirsin. Ayırma uygulamanın bildirim kanalına/türüne göre yapılır; içerik okunmaz.",
   "q": [
    "instagramda sadece mesajlar gelsin",
    "sadece dm leri görmek istiyorum",
@@ -123,7 +123,7 @@
   "type": "guide",
   "sec": "Kurallar",
   "t": "Uygulamaları grup olarak yönetebilir miyim?",
-  "a": "Evet. Kurallar ekranında Yeni Grup ile birden fazla uygulamayı tek grupta toplayıp tek kuralla yönetebilirsin. Bir grupta en fazla 100 uygulama olabilir.",
+  "a": "Evet. Kurallar ekranında Yeni Grup ile birden fazla uygulamayı tek bir grupta toplayıp tek kuralla yönetebilirsin. Bir grupta en fazla 100 uygulama olabilir.",
   "q": [
    "uygulamaları gruplayabilir miyim",
    "toplu kural nasıl atanır",
@@ -135,7 +135,7 @@
   "type": "guide",
   "sec": "Kurallar",
   "t": "Kalıcı engellediğim uygulamalar nerede?",
-  "a": "Ayarlar → Araçlar → Engellenenler. Burada engellenen uygulamaları ve onlardan gelen bildirimlerin kaydını (uygulama, saat) görürsün; Engeli Kaldır ile geri alırsın.",
+  "a": "Ayarlar → Araçlar → Engellenenler. Burada engellenen uygulamaları ve onlardan gelen bildirimlerin kaydını (uygulama ve saat) görürsün; Engeli Kaldır ile engeli kaldırabilirsin.",
   "q": [
    "engellediğim uygulamalar nerede",
    "kalıcı engellenenleri görme",
@@ -147,7 +147,7 @@
   "type": "guide",
   "sec": "Modlar ve Plan",
   "t": "Modlar nelerdir?",
-  "a": "Dört hazır mod var: Normal, Odaklanma, Uyku, Spor. Her modun bekletme süresi ve davranışı ayrı ayarlanır. Plan sekmesindeki Modların bölümünde mod kartındaki Ayarla › ile düzenlersin; + Özel mod ile kendi modunu ekleyebilirsin.",
+  "a": "Dört hazır mod bulunur: Normal, Odaklanma, Uyku, Spor. Her modun bekletme süresi ve davranışı ayrı ayarlanır. Bir mod süresi bittiğinde, o modda bekletilen bildirimler dağınık saatlerde değil, mod bitiminde hep birlikte teslim edilir. Plan sekmesindeki Modların bölümünde mod kartındaki Ayarla › ile düzenleyebilir, + Özel mod ile kendi modunu ekleyebilirsin.",
   "q": [
    "hangi modlar var",
    "modlar ne işe yarıyor",
@@ -159,7 +159,7 @@
   "type": "guide",
   "sec": "Modlar ve Plan",
   "t": "Elle seçtiğim mod ne kadar sürer?",
-  "a": "Hızlı modlardan birini kendin seçersen, sen kapatana kadar açık kalır; plan onu değiştirmez. Plana dönmek istediğinde Plana dön düğmesine dokun.",
+  "a": "Hızlı modlardan birini kendin seçtiğinde, sen kapatana kadar açık kalır; plan geçişleri bu seçimi ezmez. Plana dönmek istediğinde Plana dön düğmesine dokunman yeterlidir.",
   "q": [
    "elle açtığım mod ne zaman biter",
    "manuel seçtiğim mod ne kadar sürer",
@@ -183,7 +183,7 @@
   "type": "guide",
   "sec": "Modlar ve Plan",
   "t": "Kadrandan mod aralığı ekleme",
-  "a": "Akış'taki kadranın yanındaki + düğmesine dokun. Kadranda bir aralık seç (ör. 18:00–24:00 Odaklanma, 00:00–06:00 Uyku); saatler 15 dakikalık adımlarla ilerler. Çakışan bir aralık varsa uyarı çıkar. Eklediğin aralıkları sonra düzenleyip silebilirsin.",
+  "a": "Bugün ekranındaki kadranın yanındaki + düğmesine dokun. Kadranda bir aralık seç (ör. 18:00–24:00 Odaklanma, 00:00–06:00 Uyku); saatler 15 dakikalık adımlarla ilerler. Çakışan bir aralık varsa uyarı çıkar. Eklediğin aralıkları sonra düzenleyip silebilirsin.",
   "q": [
    "kadrandan mod aralığı nasıl eklenir",
    "saat kadranına yeni aralık koyma",
@@ -195,7 +195,7 @@
   "type": "guide",
   "sec": "Modlar ve Plan",
   "t": "Teslim saatlerini nasıl değiştiririm?",
-  "a": "Plan'da mod kartındaki Ayarla › panelinden Teslim saatlerini & Günün ritmini düzenle › bağlantısına dokun. Bekleyen bildirimler bir sonraki uygun teslim saatinde özgün halleriyle geri gelir.",
+  "a": "Plan sekmesinde mod kartındaki Ayarla › panelinden Teslim saatlerini & Günün ritmini düzenle › bağlantısına dokun. Bekleyen bildirimler bir sonraki uygun toplu teslim saatinde özgün halleriyle geri gelir.",
   "q": [
    "teslim saatlerini nasıl değiştiririm",
    "bildirimlerin geleceği saatleri ayarlama",
@@ -207,7 +207,7 @@
   "type": "guide",
   "sec": "Modlar ve Plan",
   "t": "Vardiyalı çalışıyorum",
-  "a": "Plan araçlarında Vardiya düzeni var. Döngünü ve vardiya saatlerini bir kez girersin; ha!shh hangi gün hangi vardiyada olduğunu kendisi hesaplar. Açıkken Plan'da \"Vardiya düzeni · bugün …\" yazar.",
+  "a": "Plan araçlarında Vardiya düzeni bulunur. Döngünü ve vardiya saatlerini bir kez girersin; ha!shh hangi gün hangi vardiyada olduğunu kendisi hesaplar. Açıkken Plan'da \"Vardiya düzeni · bugün …\" bilgisi görünür.",
   "q": [
    "vardiyalı çalışıyorum nasıl ayarlarım",
    "vardiya düzeni nasıl kurulur",
@@ -219,7 +219,7 @@
   "type": "guide",
   "sec": "Modlar ve Plan",
   "t": "Geçmiş ve gelecek günlere nasıl bakarım?",
-  "a": "Plan araçlarındaki Ay görünümü ile aylar arasında gezersin. Geçmiş bir günün sayılarını görür, ileri bir güne özel plan kurabilirsin.",
+  "a": "Plan araçlarındaki Ay görünümü ile aylar arasında gezebilirsin. Geçmiş bir günün sayılarını görebilir, ileri bir güne özel plan kurabilirsin.",
   "q": [
    "geçmiş günlerin bildirimlerine bakma",
    "ay görünümü nerede",
@@ -231,7 +231,7 @@
   "type": "guide",
   "sec": "Modlar ve Plan",
   "t": "Spor modu ve spoiler kalkanı",
-  "a": "Plan'da Spor kartındaki Ayarla › ile Spor Ayarları açılır. Seçtiğin spor uygulamalarının bildirimleri maç bitene kadar bekletilir; diğer uygulamalar normal gelir. Spoiler modunu etkinleştir açıksa, seçtiğin kalkan uygulamaları da maç bitene kadar bekler. İstersen anahtar kelime de ekleyebilirsin (ör. gol, skor); bu yalnız içerik iznini verdiysen ve yalnız telefonda eşleştirilir.",
+  "a": "Plan'da Spor kartındaki Ayarla › ile Spor Ayarları açılır. Seçtiğin spor uygulamalarının bildirimleri maç bitene kadar bekletilir; diğer uygulamalar normal gelir. Spoiler modunu etkinleştir açıksa, seçtiğin kalkan uygulamaları da maç bitene kadar bekler. İstersen anahtar kelime de ekleyebilirsin (ör. gol, skor); bu eşleşme yalnız içerik izni açıkken ve yalnız telefonunda yapılır.",
   "q": [
    "spoiler kalkanı nasıl açılır",
    "maç sonucunu görmemek için ne yapmalıyım",
@@ -243,7 +243,7 @@
   "type": "guide",
   "sec": "Arşiv",
   "t": "Arşiv nedir, nerede?",
-  "a": "Kupon, fatura ve harcama gibi saklamak istediğin bildirimleri klasörlerde tutar. Geçmiş sekmesinin üstündeki 📦 Arşiv düğmesinden ya da Akış'taki arşiv kartından açılır. Arşiv yalnız bu telefonda, şifreli durur.",
+  "a": "Kupon, fatura ve harcama gibi saklamak istediğin bildirimleri düzenli klasörlerde tutar. Geçmiş sekmesinin üstündeki 📦 Arşiv düğmesinden ya da Bugün ekranındaki arşiv kartından açılır. Arşiv verileri yalnız bu telefonda ve şifreli olarak saklanır.",
   "q": [
    "arşiv nedir nerede bulunur",
    "arşive nasıl girerim",
@@ -255,7 +255,7 @@
   "type": "guide",
   "sec": "Arşiv",
   "t": "Bildirimi arşive nasıl eklerim?",
-  "a": "Bekleyenleri okurken ya da Geçmiş'te bir bildirimin yanındaki Arşivle › bağlantısına dokun ve klasör seç. ➕ Yeni Klasör Oluştur... ile kendi klasörünü açabilirsin.",
+  "a": "Bekleyenleri okurken ya da Geçmiş'te bir bildirimin yanındaki Arşivle › bağlantısına dokunup klasör seçebilirsin. ➕ Yeni Klasör Oluştur... ile kendi klasörünü açabilirsin. Elle eklediğin veya düzenlediğin tüm arşiv kayıtları her zaman korunur, kendiliğinden silinmez.",
   "q": [
    "bildirimi arşive nasıl eklerim",
    "bir bildirimi kaydetmek istiyorum",
@@ -267,7 +267,7 @@
   "type": "guide",
   "sec": "Arşiv",
   "t": "Arşive otomatik ekleme (arşiv kuralları ve grupları)",
-  "a": "Arşivde ⚙ Kurallar ile Otomatik Arşiv Kuralları açılır. + Kural Ekle ile uygulamaya, kişiye ya da anahtar kelimeye göre kural kurarsın; okundu sayılan bildirimler ilgili klasöre kendiliğinden gider. ✨ Otomatik Öner sana uygun kurallar önerir.",
+  "a": "Otomatik arşiv varsayılan olarak açıktır. Yalnızca önemli bildirimleri kendiliğinden ilgili klasörlere kaydeder: banka ödemesi, kupon, gerçekleşmiş harcama ve fatura/son ödeme bildirimleri. Reklamlardaki fiyatlar arşive girmez. Elle eklediğin ve düzenlediğin kayıtlar hep kalır. Tutarlar telefonunun yerel para birimiyle gösterilir. Otomatik arşivi kapatmak veya türlerini seçmek için Ayarlar → Gizlilik ve veri → Otomatik arşiv bölümünü kullanabilirsin. Arşiv ekranında ⚙ Kurallar ile uygulamaya, kişiye ya da anahtar kelimeye göre kendi kurallarını da ekleyebilirsin.",
   "q": [
    "otomatik arşivleme nasıl yapılır",
    "faturalar kendiliğinden arşive gitsin",
@@ -279,7 +279,7 @@
   "type": "guide",
   "sec": "Arşiv",
   "t": "Kupon cüzdanı",
-  "a": "Arşivde Kuponlar klasörüne geçince en üstte Kupon & Kampanya Cüzdanı görünür. Aktif kupon kodları burada toplanır; son güne yaklaşınca hatırlatılır.",
+  "a": "Arşivde Kuponlar klasörüne geçince en üstte Kupon & Kampanya Cüzdanı görünür. Aktif indirim ve kampanya kuponları burada toplanır; son kullanım tarihine yaklaşıldığında hatırlatılır.",
   "q": [
    "kupon cüzdanı nerede",
    "indirim kuponlarımı nasıl görürüm",
@@ -291,7 +291,7 @@
   "type": "guide",
   "sec": "Arşiv",
   "t": "Arşivde uygulamaya göre bakma ve arama",
-  "a": "Arşivde 📱 Uygulamaya göre ile bir uygulama seçip yalnız onun kayıtlarını görürsün (ör. yalnız mail uygulaman). Arama kutusuyla uygulama adına göre ararsın.",
+  "a": "Arşivde 📱 Uygulamaya göre düğmesiyle belirli bir uygulama seçip yalnız onun kayıtlarını inceleyebilirsin. Arama kutusuyla uygulama adına ya da içeriğe göre arama yapabilirsin.",
   "q": [
    "arşivde uygulamaya göre arama",
    "arşivdeki mailleri nasıl bulurum",
@@ -303,7 +303,7 @@
   "type": "guide",
   "sec": "Arşiv",
   "t": "Arşivi dışa aktarma ve Drive'a koyma",
-  "a": "Arşivde Arşivi Dışa Aktar ile üç seçenek çıkar: 🔒 Şifreli Arşiv (.hashh) parolalı ve önerilen biçim, Şifresiz JSON (.json) ve Şifresiz CSV (.csv · Excel / E-Tablo). Oluşan dosyayı Android'in paylaş menüsünden Google Drive gibi istediğin yere kaydedebilirsin. ha!shh dosyayı kendisi hiçbir yere göndermez.",
+  "a": "Arşivde Arşivi Dışa Aktar ile üç seçenek çıkar: 🔒 Şifreli Arşiv (.hashh) (parola korumalı ve önerilen güvenli biçim), Şifresiz JSON (.json) ve Şifresiz CSV (.csv · Excel / E-Tablo). Oluşan dosyayı Android'in paylaş menüsünden Google Drive veya yerel depolama gibi istediğin yere kaydedebilirsin. ha!shh internet iznine sahip olmadığı için dosyayı kendisi hiçbir sunucuya yüklemez.",
   "q": [
    "arşivi nasıl dışa aktarırım",
    "arşivi google drive a kaydetme",
@@ -315,7 +315,7 @@
   "type": "guide",
   "sec": "Gizlilik ve güvenlik",
   "t": "Parmak izi kilidi",
-  "a": "Ayarlar → Parmak izi kilidi. Üç seçenek var: Kapalı, Yalnız arşiv ve bildirim içerikleri, Tüm uygulama (her açılışta). Kilit parmak izi, yüz ya da telefon şifresiyle açılır.",
+  "a": "Ayarlar → Gizlilik ve veri → Parmak izi kilidi. Üç seçenek bulunur: Kapalı, Yalnız arşiv ve bildirim içerikleri, Tüm uygulama (her açılışta). Kilit parmak izi, yüz tanıma veya telefon PIN/şifresiyle açılır.",
   "q": [
    "parmak izi kilidi nasıl koyulur",
    "uygulamaya şifre koyma",
@@ -326,20 +326,44 @@
  {
   "type": "guide",
   "sec": "Gizlilik ve güvenlik",
-  "t": "Geçmişte içeriği saklama",
-  "a": "Ayarlar → İçerik ve sakinlik → Geçmişte içeriği sakla ile bildirim içeriklerini 1 ya da 7 gün şifreli saklayabilirsin. Süre dolunca ya da izni kapatınca silinir. Bu ayar yalnız Bildirim içeriğini göster açıkken çalışır.",
+  "t": "Bildirim geçmişini ne kadar saklayacağın",
+  "a": "Kurulumda ha!shh sana bildirim geçmişinin ne kadar saklanacağını sorar: 7, 30, 90 ya da 365 gün sonra sil veya Otomatik silme, kendim temizlerim. Önerilen 30 gündür. Bu seçimi sonra Ayarlar → İçerik ve sakinlik → Bildirim geçmişi saklama süresi'nden değiştirebilirsin. Bir süre seçmediysen hiçbir kayıt kendiliğinden silinmez. Geçmiş çok yer kaplamaya başlarsa Bugün ekranında \"Eski kayıtları temizleyelim mi?\" kartı çıkar. İstersen 30 günden eskileri temizlersin; kaç kaydın silineceği önce gösterilir ve onayın istenir. \"Şimdi değil\" dersen 14 gün sormaz. Arşivdeki kayıtlar bu temizlikten hiç etkilenmez. Bildirim içeriğinin (başlık ve metin) geçmişte görünmesi Bildirim içeriğini göster açıkken çalışır; içerik yalnız bu telefonda, şifreli saklanır.",
   "q": [
-   "geçmişte içeriği saklama ayarı",
-   "bildirim metinleri geçmişte kaç gün kalır",
-   "içerikleri şifreli saklama",
-   "geçmiş mesajları saklama süresi"
+   "bildirim geçmişi ne kadar süre saklanıyor",
+   "eski bildirimler ne zaman silinir",
+   "bildirim geçmişi saklama süresini nereden değiştiririm",
+   "eski kayıtları otomatik silme ayarı"
   ]
  },
  {
   "type": "guide",
-  "sec": "Bildirim çubuğu ve kısayollar",
+  "sec": "Gizlilik ve güvenlik",
+  "t": "Ekran görüntüsü engeli",
+  "a": "Ayarlar → Gizlilik ve veri → Hassas ekranlarda ekran görüntüsünü engelle seçeneği isteğe bağlı bir güvenlik ayarıdır ve varsayılan olarak kapalıdır. Açıldığında kasa, kilit ekranı ve bildirim içeriği gösteren panellerde ekran görüntüsü alınmasını ve son uygulamalar önizlemesinde içeriklerin görünmesini durdurur.",
+  "q": [
+   "ekran görüntüsü almayı nasıl engellerim",
+   "screenshot almayı kapatma",
+   "hassas ekranlarda ekran görüntüsü engeli nedir",
+   "son uygulamalarda içeriklerin görünmesini engelleme"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Bildirim çubuğu, araçlar ve widget'lar",
+  "t": "Ana ekran widget'ları",
+  "a": "ha!shh'ı ana ekranına widget olarak ekleyebilirsin. Dört farklı boyutu vardır (2x2, 4x1, 4x2, 4x3). Widget üzerinde sıradaki teslim saati, etkin mod, bekleyen bildirim sayısı ve en çok bildirim bekleyen uygulamalar gösterilir. Büyük boyutlarda (4x2 ve 4x3) bekleyen bildirimler listesi ve tek dokunuşla \"Hepsini okundu say\" düğmesi yer alır. Seçtiğin temaya uyum sağlar; saate dokununca anlık saati gösterir.",
+  "q": [
+   "ha!shh widget'ları neler",
+   "hangi widget boyutları var",
+   "widget üzerinde neler görünüyor",
+   "ana ekrana koyabileceğim widget çeşitleri"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Bildirim çubuğu, araçlar ve widget'lar",
   "t": "Sessiz haber nedir?",
-  "a": "Bekletilen bildirimler için bildirim çubuğunda tek, sessiz bir satır: kimden kaç bildirim var, ilk teslim ne zaman. Ayarlar → Sessiz haber ile Kapalı, Seçtiğim uygulamalar… ya da Bekleyen tüm bildirimler seçersin. Bildirimde uygulama simgeleri açıksa satırı büyütünce bekleyen uygulamaların simgeleri görünür.",
+  "a": "Bekletilen bildirimler için telefonun bildirim çubuğunda ses ve titreşim çıkarmayan tek bir özet satırıdır: kimden kaç bildirim olduğunu ve ilk teslim saatini gösterir. Ayarlar → İçerik ve sakinlik → Sessiz haber ile Kapalı, Seçtiğim uygulamalar… ya da Bekleyen tüm bildirimler seçeneklerini belirleyebilirsin. Bildirimde uygulama simgeleri açıksa özet satırı genişletildiğinde bekleyen uygulamaların simgeleri görünür.",
   "q": [
    "sessiz haber nedir",
    "bildirim panelindeki tek satırlık özet",
@@ -349,9 +373,9 @@
  },
  {
   "type": "guide",
-  "sec": "Bildirim çubuğu ve kısayollar",
+  "sec": "Bildirim çubuğu, araçlar ve widget'lar",
   "t": "Sipariş gibi canlı bildirimler",
-  "a": "Sipariş hazırlanıyor gibi ilerleyen bildirimleri yanlışlıkla kapatırsan Geçmiş'te \"canlı bildirim\" rozetiyle görürsün. Satıra dokununca ilgili uygulama açılır.",
+  "a": "Kargo, sipariş veya müzik gibi ilerleme durumu olan bildirimleri yanlışlıkla kapatırsan Geçmiş'te \"⚡ Canlı\" rozetiyle görürsün. Satıra dokununca ilgili uygulama hemen açılır.",
   "q": [
    "sipariş bildirimini kaybettim",
    "canlı bildirimler nerede görünür",
@@ -361,9 +385,9 @@
  },
  {
   "type": "guide",
-  "sec": "Bildirim çubuğu ve kısayollar",
+  "sec": "Bildirim çubuğu, araçlar ve widget'lar",
   "t": "Hızlı ayar kutucuğu",
-  "a": "Ayarlar → Araçlar → Hızlı ayarlar kutucuğu ile bildirim paneline ha!shh kutucuğu eklersin. Kutucuk bekleyen sayısını ve yoğunluğu gösterir; dokununca ne olacağını (bekleyenleri aç, mod değiştir, hemen teslim et) aynı yerden seçersin.",
+  "a": "Ayarlar → Araçlar → Hızlı ayarlar kutucuğu ile telefonun üst bildirim paneline ha!shh kutucuğu ekleyebilirsin. Kutucuk bekleyen sayısını ve teslim saatini gösterir; dokununca ne yapılacağını aynı menüden seçebilirsin.",
   "q": [
    "hızlı ayar kutucuğu nasıl eklenir",
    "üst bildirim paneline kısayol ekleme",
@@ -373,9 +397,9 @@
  },
  {
   "type": "guide",
-  "sec": "Bildirim çubuğu ve kısayollar",
+  "sec": "Bildirim çubuğu, araçlar ve widget'lar",
   "t": "Wi-Fi'ye göre mod",
-  "a": "Ayarlar → Araçlar → Wi-Fi'ye göre mod telefonunun rutin uygulamasıyla (ör. Samsung Rutinleri) belirli bir Wi-Fi'ye bağlanınca mod değiştirmeyi adım adım anlatır.",
+  "a": "Ayarlar → Araçlar → Wi-Fi'ye göre mod seçeneği telefonun rutin uygulamasıyla (örneğin Samsung Modlar ve Rutinler) ev veya iş Wi-Fi ağına bağlanınca modun kendiliğinden değişmesini adım adım açıklar. Konum izni gerekmez.",
   "q": [
    "wifiye bağlanınca mod değişsin",
    "evdeki wifiye göre otomatik mod",
@@ -387,7 +411,7 @@
   "type": "guide",
   "sec": "Görünüm",
   "t": "Tema değiştirme",
-  "a": "Ayarlar → Görünüm altında Kağıt, Açık, Koyu, Sistem ile Gece (Petrol Kadife) ve Gündüz (Krem Kâğıt) temaları var. Tema değişince ana ekran simgesinin de uymasını isteyip istemediğin sorulur.",
+  "a": "Ayarlar → Görünüm altında Kağıt, Açık, Koyu, Sistem ile Gece (Petrol Kadife) ve Gündüz (Krem Kâğıt) temaları yer alır. Bugün ekranındaki Güneş/Ay düğmesiyle de temalar arasında kolayca geçiş yapabilirsin. Tema değiştiğinde ana ekran simgesinin de uyumlu renge geçmesini seçebilirsin.",
   "q": [
    "tema nasıl değiştirilir",
    "koyu moda nasıl geçerim",
@@ -398,8 +422,20 @@
  {
   "type": "guide",
   "sec": "Görünüm",
+  "t": "Uygulama dili",
+  "a": "Ayarlar → Görünüm → Uygulama dili ile telefonun sistem ayarlarına girmene gerek kalmadan, uygulama içinde doğrudan 10 dil (ve sistem dili) arasından seçim yapabilirsin.",
+  "q": [
+   "uygulama dili nasıl değiştirilir",
+   "dili ingilizce yapma",
+   "uygulama içinde dil seçenekleri nerede",
+   "başka bir dile geçiş yapma"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Görünüm",
   "t": "Uygulama simgesi",
-  "a": "Ayarlar → Uygulama simgesi ile ana ekrandaki simgenin rengini seçersin. Bazı telefonlarda (ör. Samsung) simge değişince ana ekrandan kalkıp uygulama listesine döner; oradan yeniden eklemen gerekir.",
+  "a": "Ayarlar → Görünüm → Uygulama simgesi ile ana ekrandaki uygulama simgesinin rengini temana uygun olarak belirleyebilirsin. Bazı telefonlarda simge değiştiğinde simge ana ekrandan kalkıp uygulama çekmecesine dönebilir; tekrar ana ekrana sürüklemen yeterlidir.",
   "q": [
    "uygulama simgesini nasıl değiştiririm",
    "ana ekrandaki simge rengini seçme",
@@ -411,7 +447,7 @@
   "type": "guide",
   "sec": "Görünüm",
   "t": "Sade görünüm",
-  "a": "Ayarlar → İçerik ve sakinlik → Sade görünüm açıkken Akış'ta yalnız kadran, tek düğme ve bekleyenler kalır; Kurallar ve Plan sekmeleri gizlenir. Kuralların çalışmaya devam eder.",
+  "a": "Ayarlar → İçerik ve sakinlik → Sade görünüm açıkken Bugün ekranında yalnız kadran, tek bir mod düğmesi ve bekleyenler listesi kalır; Kurallar ve Plan sekmeleri gizlenir. Belirlediğin kurallar arka planda aynen işlemeye devam eder.",
   "q": [
    "sade görünüm nasıl açılır",
    "arayüzü basitleştirme",
@@ -423,7 +459,7 @@
   "type": "guide",
   "sec": "Görünüm",
   "t": "Düşük pilde sade arayüz",
-  "a": "Ayarlar → Düşük pilde sade arayüz açıksa telefon güç tasarrufuna geçince ha!shh kendiliğinden sade görünüme geçer.",
+  "a": "Ayarlar → Görünüm → Düşük pilde sade arayüz açıksa telefon pil tasarrufu moduna geçtiğinde ha!shh pil tüketimini düşürmek için kendiliğinden sade görünüme geçer ve animasyonları durdurur.",
   "q": [
    "düşük pilde sade arayüz ayarı",
    "şarj azaldığında sade moda geçsin",
@@ -433,9 +469,33 @@
  },
  {
   "type": "guide",
+  "sec": "Görünüm",
+  "t": "Yan çevirince masa görünümü",
+  "a": "Ayarlar → Görünüm → Yan çevirince masa görünümü açıkken telefonu yatay konuma getirdiğinde ekran büyük saat, aktif mod, hafta şeridi, sıradaki teslimat ve bekleyen bildirimlerden oluşan bir masa saatine dönüşür. Görünecek bölümleri seçebilir, kendi fotoğrafını çerçeve ya da arka plan yapabilirsin. Telefon şarjdayken ekran sürekli açık kalabilir; ayrıca düşük güç düzeniyle pil tasarrufu sağlar.",
+  "q": [
+   "yan çevirince masa saati modu nedir",
+   "telefonu yatay tutunca masa görünümü açma",
+   "masa saatinde kendi fotoğrafımı kullanabilir miyim",
+   "şarjdayken saatin sürekli açık kalması"
+  ]
+ },
+ {
+  "type": "guide",
+  "sec": "Araçlar ve Raporlama",
+  "t": "Bildirim Raporu ve İstatistikler",
+  "a": "Ayarlar → Araçlar → Bildirim Raporu ile bildirim ritmini, günlük ve aylık bildirim dağılımını, odak/uyku mod dengesini ve önlenen bölünmeler sayesinde kazanılan zaman ile tahmini pil tasarrufunu tek bir ekranda inceleyebilirsin. Ayrı bir \"İstatistik\" satırı bulunmaz; tüm kullanım istatistikleri Bildirim Raporu içine birleştirilmiştir. İstersen raporu görsel olarak paylaşabilirsin.",
+  "q": [
+   "bildirim raporu ve istatistikler nerede",
+   "ne kadar zaman kazandığımı nasıl görürüm",
+   "günlük ve aylık bildirim grafikleri nerede",
+   "bildirim raporunu nasıl paylaşırım"
+  ]
+ },
+ {
+  "type": "guide",
   "sec": "Davet",
   "t": "Arkadaşımı nasıl davet ederim?",
-  "a": "Ayarlar → Davet et ve ödül kazan. Senin Davet Kodun altında kodunu görürsün; Davet Et ile istediğin uygulamadan paylaşırsın ya da Kodu Kopyala dersin.",
+  "a": "Ayarlar → Davet et ve ödül kazan. Senin Davet Kodun altında kodunu görürsün; Davet Et ile istediğin mesajlaşma uygulamasından paylaşabilir ya da Kodu Kopyala diyebilirsin.",
   "q": [
    "arkadaşımı nasıl davet ederim",
    "davet kodu nereden alınır",
@@ -447,7 +507,7 @@
   "type": "guide",
   "sec": "Davet",
   "t": "Davet sayım nasıl artar?",
-  "a": "Arkadaşın uygulamayı kurup Davet Kodum Var alanına senin kodunu girer. Onun telefonunda bir teşekkür kodu oluşur, bunu sana gönderir (Teşekkür Kodunu Gönder). Sen bu kodu Teşekkür Kodu Gir alanına yazıp Ekle dersin. Aynı kişi iki kez sayılmaz.",
+  "a": "Arkadaşın uygulamayı kurup Davet Kodum Var alanına senin kodunu girer. Onun telefonunda oluşan teşekkür kodunu sana iletir (Teşekkür Kodunu Gönder). Sen bu kodu Teşekkür Kodu Gir alanına yazıp Ekle dersin. Aynı kişi iki kez sayılmaz.",
   "q": [
    "davet sayım neden artmadı",
    "teşekkür kodunu nereye yazmalıyım",
@@ -459,7 +519,7 @@
   "type": "guide",
   "sec": "Davet",
   "t": "Ödüller neler?",
-  "a": "1 davette İlk davet rozeti, 3'te Kâğıt duvar kâğıdı, 5'te Sessiz çember rozeti, 7'de Gece duvar kâğıdı, 10'da ha!shh elçisi rozeti. Davetle gelen arkadaşın da \"Davetle geldin\" rozeti alır. Duvar kâğıtları Akış'ın arka planı olarak Ayarlar → Görünüm → Akış Duvar Kâğıdı altında açılır; istersen Duvar kâğıdını görsel olarak kaydet ile PNG olarak kaydedebilirsin.",
+  "a": "1 davette İlk davet rozeti, 3'te Kâğıt duvar kâğıdı, 5'te Sessiz çember rozeti, 7'de Gece duvar kâğıdı, 10'da ha!shh elçisi rozeti kazanırsın. Davetle gelen arkadaşın da \"Davetle geldin\" rozeti alır. Duvar kâğıtları Bugün ekranının arka planı olarak Ayarlar → Görünüm → Akış Duvar Kâğıdı altında açılır; istersen Duvar kâğıdını görsel olarak kaydet ile PNG olarak kaydedebilirsin.",
   "q": [
    "davet ödülleri nelerdir",
    "kaç davete ne ödül var",
@@ -471,7 +531,7 @@
   "type": "guide",
   "sec": "Yedekleme",
   "t": "Kurallarımı nasıl yedeklerim?",
-  "a": "Ayarlar → Yedekleme → Dosyaya aktar. Kuralların, modların ve planın bir dosyaya kaydedilir. Bulut yedeği yoktur ve bildirim içerikleri yedeklenmez.",
+  "a": "Ayarlar → Yedekleme → Dosyaya aktar. Kuralların, modların ve haftalık planın telefonunda bir dosyaya kaydedilir. İnternet yedeği yoktur ve bildirim içerikleri bu dosyaya dahil edilmez.",
   "q": [
    "kurallarımı nasıl yedeklerim",
    "ayarların yedeğini alma",
@@ -483,19 +543,19 @@
   "type": "guide",
   "sec": "Yedekleme",
   "t": "Yedekten nasıl geri yüklerim?",
-  "a": "Ayarlar → Yedekleme → Dosyadan al ile yedek dosyasını seç. Uygulama içindekileri gösterir; Birleştir mevcut kurallarını korur ve günceller, Değiştir hepsini yedektekiyle değiştirir.",
+  "a": "Ayarlar → Yedekleme → Dosyadan al ile yedek dosyasını seçebilirsin. Uygulama dosya içeriğini gösterir; Birleştir mevcut kurallarını koruyarak yenilerini ekler, Değiştir tüm kuralları yedektekiyle yeniler.",
   "q": [
    "yedekten nasıl geri yüklerim",
-   "yedek dosyasını uygulamaya alma",
-   "dosyadan al nasıl çalışır",
-   "eski ayarları geri yükleme"
+   "yedek dosyasını uygulamaya yükleme",
+   "dosyadan al nasıl kullanılır",
+   "aldığım yedeği telefona yükleme"
   ]
  },
  {
   "type": "guide",
   "sec": "Yedekleme",
   "t": "Kural şablonu paylaşma",
-  "a": "Ayarlar → Yedekleme → Kural şablonunu paylaş ile kurallarını bir arkadaşınla paylaşabilirsin. İçinde bildirim içeriği yoktur.",
+  "a": "Ayarlar → Yedekleme → Kural şablonunu paylaş ile kurallarını bir arkadaşınla paylaşabilirsin. Bildirim içerikleri kesinlikle paylaşılmaz.",
   "q": [
    "kural şablonumu nasıl paylaşırım",
    "kurallarımı bir arkadaşıma gönderme",
@@ -507,7 +567,7 @@
   "type": "guide",
   "sec": "Diğer",
   "t": "Geri bildirim gönderme",
-  "a": "Ayarlar → Geri bildirim gönder e-posta uygulamanı hazır bir mesajla açar. Bildirim içeriklerin ve kuralların eklenmez; göndermeden önce e-postayı görüp değiştirebilirsin.",
+  "a": "Ayarlar → Geri bildirim gönder e-posta uygulamanı hazır bir şablonla açar. Bildirim içeriklerin ve özel kuralların eklenmez; göndermeden önce e-posta metnini görüp düzenleyebilirsin.",
   "q": [
    "geri bildirim nasıl gönderilir",
    "geliştiriciye nasıl ulaşırım",
@@ -519,7 +579,7 @@
   "type": "guide",
   "sec": "Diğer",
   "t": "Promosyon kodu",
-  "a": "Ayarlar → Araçlar → Promosyon kodu kullan ile Google Play promosyon kodunu Play Store üzerinden etkinleştirirsin.",
+  "a": "Ayarlar → Araçlar → Promosyon kodu kullan ile Google Play promosyon kodunu doğrudan Play Store üzerinden etkinleştirebilirsin.",
   "q": [
    "promosyon kodunu nereye gireceğim",
    "indirim kodu kullanma",
@@ -531,7 +591,7 @@
   "type": "fix",
   "sec": "Bekletme ve teslim",
   "t": "Bildirimler bekletilmiyor, hemen geliyor",
-  "a": "En sık neden, bildirim erişiminin kapanmış olmasıdır. Ayarlar → Cihaz izinleri → Bildirim erişimini yönet satırında \"İzin gerekli\" yazıyorsa dokun ve ha!shh'ı aç. Ayrıca o uygulama için Hemen ya da Hiç bekletme seçili olabilir; Kurallar sekmesinde uygulamaya dokunup kontrol et. Arama, alarm ve sistem bildirimleri güvenlik için hiç bekletilmez.",
+  "a": "En sık neden, bildirim erişiminin kapanmış olmasıdır. Ayarlar → Cihaz izinleri → Bildirim erişimini yönet satırında \"İzin gerekli\" yazıyorsa dokun ve ha!shh'ı aç. Ayrıca o uygulama için Hemen ya da Hiç bekletme seçili olabilir; Kurallar sekmesinde uygulamaya dokunup kontrol et. Telefon aramaları, alarmlar, Android sistem ve SIM bildirimleri (şebeke, operatör uyarıları) güvenlik için hiçbir modda bekletilmez.",
   "q": [
    "bildirimler bekletilmiyor hemen geliyor",
    "bildirimler neden anında düşüyor",
@@ -543,7 +603,7 @@
   "type": "fix",
   "sec": "Bekletme ve teslim",
   "t": "Bildirimler teslim saatinde gelmedi",
-  "a": "Genellikle telefonun pil tasarrufu ha!shh'ı arka planda durdurmuştur. Ayarlar → Cihaz izinleri → Pil ve arka plan satırına dokun; Pil Optimizasyonunu Kapat ve markan tanınırsa Cihazın Özel Ayarlarını Aç düğmelerini kullan. Sistem sağlığı satırı bağlantının durumunu gösterir; \"Bağlantı kesildi\" yazıyorsa oradan Yeniden bağlan'a dokun.",
+  "a": "Genellikle telefonun pil tasarrufu ha!shh'ı arka planda durdurmuştur. Ayarlar → Cihaz izinleri → Pil ve arka plan satırına dokun; Pil Optimizasyonunu Kapat ve markan tanınırsa Cihazın Özel Ayarlarını Aç düğmelerini kullan. Sistem sağlığı satırı bağlantının durumunu gösterir; \"Bağlantı kesildi\" yazıyorsa oradan Yeniden bağlan'a dokun. Bir modun süresi dolduğunda, o modda bekletilen bildirimler dağınık saatlerde değil, mod bitiminde hep birlikte teslim edilir.",
   "q": [
    "bildirimler teslim saatinde gelmedi",
    "bekleyen bildirimler saatinde gelmiyor",
@@ -603,7 +663,7 @@
   "type": "fix",
   "sec": "Bekletme ve teslim",
   "t": "Telefonu yeniden başlattım, bekleyenler ne oldu?",
-  "a": "ha!shh yeniden başlatmadan sonra bekleyen kayıtları kendisi kontrol eder ve geri yükler. Geri yüklenemeyen bildirim olursa \"Gecikmiş bildirimleri kontrol edin\" uyarısı gelir; o zaman ilgili uygulamaları açıp bakman yeterli.",
+  "a": "ha!shh yeniden başlatmadan sonra bekleyen kayıtları kendisi kontrol eder ve geri yükler. Geri yüklenemeyen bildirim olursa \"Gecikmiş bildirimleri kontrol edin\" uyarısı gelir; o zaman ilgili uygulamaları açıp bakman yeterlidir.",
   "q": [
    "telefonu kapatıp açınca bekleyen bildirimler ne olur",
    "yeniden başlatınca bildirimler silinir mi",
@@ -639,7 +699,7 @@
   "type": "fix",
   "sec": "Uygulamalar ve kurallar",
   "t": "Tür filtresinde hiç tür görünmüyor",
-  "a": "Türler, uygulama sana o türde bildirim gönderdikçe öğrenilir. Önce birkaç bildirim gelmesini bekle, sonra Kurallar → uygulama → Tür seç › ile tekrar bak. Ayırma uygulamanın bildirim türüne göre yapılır, içerik okunmaz.",
+  "a": "Türler, uygulama sana o türde bildirim gönderdikçe öğrenilir. Önce birkaç bildirim gelmesini bekle, sonra Kurallar → uygulama → Tür seç › ile tekrar bak. Ayırma uygulamanın bildirim kanalına göre yapılır, içerik okunmaz.",
   "q": [
    "tür filtresinde hiç tür görünmüyor",
    "tür filtresi neden boş",
@@ -663,7 +723,7 @@
   "type": "fix",
   "sec": "Gizlilik ve kilit",
   "t": "Parmak izi kilidi seçeneği görünmüyor ya da çalışmıyor",
-  "a": "Kilit için telefonda bir ekran kilidi (parmak izi, PIN ya da desen) açık olmalı ve Android 9 ya da üstü gerekir. Ekran kilidini telefon ayarlarından açtıktan sonra Ayarlar → Parmak izi kilidi ile yeniden dene.",
+  "a": "Kilit için telefonda bir ekran kilidi (parmak izi, PIN ya da desen) açık olmalı ve Android 9 ya da üstü gerekir. Ekran kilidini telefon ayarlarından açtıktan sonra Ayarlar → Gizlilik ve veri → Parmak izi kilidi ile yeniden dene.",
   "q": [
    "parmak izi kilidi görünmüyor ya da çalışmıyor",
    "parmak izi seçeneği neden yok",
@@ -675,7 +735,7 @@
   "type": "fix",
   "sec": "Gizlilik ve kilit",
   "t": "Bildirim içeriği görünmüyor",
-  "a": "İçerik varsayılan olarak gösterilmez. Ayarlar → İçerik ve sakinlik → Bildirim içeriğini göster anahtarını aç. Geçmişte okumak istiyorsan ayrıca Geçmişte içeriği sakla ile 1 ya da 7 gün seç.",
+  "a": "İçerik gösterme varsayılan olarak açıktır. Görünmüyorsa Ayarlar → İçerik ve sakinlik → Bildirim içeriğini göster anahtarının açık olduğunu kontrol et. Geçmiş sekmesinde bildirimlerin içeriğini daha sonra da okumak istiyorsan Bildirim geçmişi saklama süresi ayarına bak: seçtiğin süreden eski kayıtlar silinir; süre seçmediysen hiçbir şey kendiliğinden silinmez.",
   "q": [
    "bildirim içeriği görünmüyor",
    "bildirimdeki mesaj metni neden gizli",
@@ -687,12 +747,12 @@
   "type": "fix",
   "sec": "Gizlilik ve kilit",
   "t": "Geçmiş ekranının ekran görüntüsü siyah çıkıyor",
-  "a": "Bu bir hata değil, gizlilik korumasıdır. Bildirim içeriği gösterebilen ekranlarda (Geçmiş, arşiv, okuma ekranı) ve kilit açıkken ekran görüntüsü alınması engellenir; böylece içerikler başka uygulamalara sızmaz.",
+  "a": "Bu bir hata değil, isteğe bağlı bir gizlilik ayarıdır. Ayarlar → Gizlilik ve veri → Hassas ekranlarda ekran görüntüsünü engelle seçeneği açıksa, kasa, parmak izi kilidi ve içerik gösteren ekranlarda ekran görüntüsü alınması engellenir. Bu ayar varsayılan olarak kapalıdır; ekran görüntüsü almak istiyorsan bu ayarı kapatman yeterlidir.",
   "q": [
-   "geçmiş ekranının ekran görüntüsü siyah çıkıyor",
-   "ekran görüntüsü alınca neden siyah oluyor",
-   "screenshot neden simsiyah çıkıyor",
-   "ekran görüntüsü engeli nasıl kalkar"
+   "ekran görüntüsü alınca neden siyah çıkıyor",
+   "geçmiş ekranında ss aldığımda simsiyah oluyor",
+   "ekran görüntüsü siyah çıkıyor çözümü",
+   "screenshot alınca ekranın siyah görünmesi"
   ]
  },
  {
@@ -711,7 +771,7 @@
   "type": "fix",
   "sec": "Arşiv",
   "t": "Arşiv nerede?",
-  "a": "Geçmiş sekmesinin üstündeki 📦 Arşiv düğmesine dokun. Akış'taki arşiv kartından da açabilirsin.",
+  "a": "Geçmiş sekmesinin üstündeki 📦 Arşiv düğmesine dokunabilir ya da Bugün ekranındaki arşiv kartından açabilirsin. Otomatik arşiv varsayılan olarak açıktır; yalnız banka ödemesi, kupon, gerçekleşmiş harcama ve fatura/son ödeme bildirimlerini kendiliğinden ilgili klasörlere kaydeder. Reklamlardaki fiyatlar arşive girmez. Elle eklediğin veya düzenlediğin kayıtlar ise hiçbir zaman silinmez, hep kalır.",
   "q": [
    "arşiv nerede",
    "arşive nereden bakabilirim",
@@ -757,9 +817,9 @@
  },
  {
   "type": "fix",
-  "sec": "Canlı bildirimler",
+  "sec": "Canlı bildirimler ve kart işlemleri",
   "t": "Sipariş bildirimini yanlışlıkla kapattım",
-  "a": "Geçmiş sekmesinde o bildirim \"canlı bildirim\" rozetiyle görünür. Satıra dokununca siparişin olduğu uygulama açılır ve güncel durumu oradan görürsün.",
+  "a": "Geçmiş sekmesinde o bildirim \"⚡ Canlı\" rozetiyle görünür. Satıra dokununca siparişin olduğu uygulama açılır ve güncel durumu oradan görürsün.",
   "q": [
    "sipariş bildirimini yanlışlıkla kapattım",
    "yemek siparişi bildirimini sildim ne yapmalıyım",
@@ -769,14 +829,98 @@
  },
  {
   "type": "fix",
-  "sec": "Canlı bildirimler",
+  "sec": "Canlı bildirimler ve kart işlemleri",
   "t": "Bir bildirime dokununca ana ekrana dönüyor",
-  "a": "Bildirimler bekleyenler listesinde ve Geçmiş'te dokununca geldiği uygulamayı açar.",
+  "a": "Bildirimler bekleyenler listesinde ve Geçmiş'te dokununca geldiği uygulamayı açar. Kadran panelinde ana ekrana dönme sorunu biliniyor ve düzeltiliyor.",
   "q": [
    "bir bildirime dokununca ana ekrana dönüyor",
    "bildirime basınca uygulama açılmıyor",
    "bildirime tıklayınca neden ana sayfaya atıyor",
    "bildirime dokununca yönlendirmiyor"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Canlı bildirimler ve kart işlemleri",
+  "t": "Bekleyen kartında yanlışlıkla işlem yaptım (okundu saydım ya da erteledim)",
+  "a": "Bugün ekranındaki bekleyen kart destesinde bir kartı sağa veya sola kaydırdığında ekranın altında 4 saniye boyunca Geri al çubuğu çıkar. Dokunarak işlemi hemen geri alabilirsin.",
+  "q": [
+   "yanlışlıkla okundu saydığım kartı geri alma",
+   "kartı yanlış kaydırdım nasıl geri alırım",
+   "yanlış ertelediğim bildirimi geri getirme",
+   "kart işleminde geri al butonu nerede"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Görünüm ve Widget",
+  "t": "Uygulama dilini nereden değiştirebilirim?",
+  "a": "Telefonun sistem ayarlarına gitmene gerek yoktur. Ayarlar → Görünüm → Uygulama dili bölümünden ha!shh'ı istediğin dilde (10 dil desteği) anında kullanabilirsin.",
+  "q": [
+   "uygulama dilini nereden değiştirebilirim",
+   "dil ayarı nerede",
+   "türkçe yapmak istiyorum nereden değişir",
+   "uygulama dilini değiştiremiyorum"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Görünüm ve Widget",
+  "t": "Masa görünümü açılmıyor",
+  "a": "Telefonu yan çevirdiğinde masa görünümünün açılması için Ayarlar → Görünüm → Yan çevirince masa görünümü ayarının açık olduğundan emin ol. Şarjdayken ekranın açık kalması ve düşük pil düzeni gibi seçenekleri de aynı ekrandan yönetebilirsin.",
+  "q": [
+   "telefonu yan çevirince masa saati açılmıyor",
+   "masa görünümü neden çalışmıyor",
+   "yatay çevirince ekran dönmüyor",
+   "masa görünümünü nasıl aktif ederim"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Görünüm ve Widget",
+  "t": "Ana ekran widget'ı nasıl eklenir?",
+  "a": "Telefonunun ana ekranında boş bir alana basılı tut, widget menüsünden ha!shh'ı seç. Dört farklı boyut (2x2, 4x1, 4x2, 4x3) arasından ihtiyacına uygun olanı seçebilirsin.",
+  "q": [
+   "ana ekrana widget nasıl eklenir",
+   "widget'ı ekrana nasıl koyarım",
+   "ha!shh widget ekleme adımları",
+   "widget menüsünde uygulamayı nasıl bulurum"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Görünüm ve Widget",
+  "t": "İstatistikleri ve bildirim raporunu nerede bulabilirim?",
+  "a": "Ayrı bir \"İstatistik\" satırı yoktur; tüm kullanım istatistikleri ve dağılım grafikleri Ayarlar → Araçlar → Bildirim Raporu içine birleştirilmiştir. Buradan günlük ve aylık bildirim sayılarını, odak dengesini, kazanılan zamanı ve pil tasarrufunu görebilirsin.",
+  "q": [
+   "istatistikler sekmesi nerede",
+   "bildirim raporunu bulamıyorum",
+   "istatistik menüsü kalktı mı nerede",
+   "günlük bildirim sayısı nerede yazıyor"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Görünüm ve Widget",
+  "t": "Uygulama simgesini değiştirdim, ana ekrandan kayboldu",
+  "a": "Bazı telefonlarda (ör. Samsung) simge değişince ana ekrandan kalkıp uygulama listesine döner. Uygulama listesinden ha!shh'ı yeniden ana ekrana sürükle.",
+  "q": [
+   "uygulama simgesini değiştirdim ana ekrandan kayboldu",
+   "simge değişince ana ekrandan silindi",
+   "ikonu değiştirince uygulama nerede bulamıyorum",
+   "simge değiştikten sonra ana ekranda yok"
+  ]
+ },
+ {
+  "type": "fix",
+  "sec": "Görünüm ve Widget",
+  "t": "Hızlı ayar kutucuğunu bulamıyorum",
+  "a": "Bildirim panelini iki kez aşağı çek. Kutucuk görünmüyorsa paneli sağa kaydır, sonraki sayfada olabilir. Yoksa Ayarlar → Araçlar → Hızlı ayarlar kutucuğu ile yeniden ekle.",
+  "q": [
+   "hızlı ayar kutucuğunu bulamıyorum",
+   "üst panelde ha!shh butonu görünmüyor",
+   "hızlı ayarlar kısayolu nerede",
+   "bildirim çubuğundaki kutucuk kayboldu"
   ]
  },
  {
@@ -831,36 +975,12 @@
   "type": "fix",
   "sec": "Yedek ve telefon değiştirme",
   "t": "Tüm verilerimi silmek istiyorum",
-  "a": "Ayarlar → Yedekleme → Tüm yerel verileri sil. Kurallar, geçmiş, bekleyen kayıtlar ve tercihler silinir; bu işlem geri alınamaz. Önce yedek almak istersen Dosyaya aktar'ı kullan.",
+  "a": "Ayarlar → Gizlilik ve veri → Tüm yerel verilerimi sil. Kurallar, geçmiş, bekleyen kayıtlar ve tercihler silinir; bu işlem geri alınamaz. Önce yedek almak istersen aynı bölümdeki Verilerimi dışa aktar'ı kullan. Arşiv kayıtları da bu işlemle silinir.",
   "q": [
    "tüm verilerimi silmek istiyorum",
    "uygulamayı tamamen sıfırlama",
    "bütün ayarları ve geçmişi temizleme",
    "tüm yerel verileri sil nerede"
-  ]
- },
- {
-  "type": "fix",
-  "sec": "Diğer",
-  "t": "Uygulama simgesini değiştirdim, ana ekrandan kayboldu",
-  "a": "Bazı telefonlarda (ör. Samsung) simge değişince ana ekrandan kalkıp uygulama listesine döner. Uygulama listesinden ha!shh'ı yeniden ana ekrana sürükle.",
-  "q": [
-   "uygulama simgesini değiştirdim ana ekrandan kayboldu",
-   "simge değişince ana ekrandan silindi",
-   "ikonu değiştirince uygulama nerede bulamıyorum",
-   "simge değiştikten sonra ana ekranda yok"
-  ]
- },
- {
-  "type": "fix",
-  "sec": "Diğer",
-  "t": "Hızlı ayar kutucuğunu bulamıyorum",
-  "a": "Bildirim panelini iki kez aşağı çek. Kutucuk görünmüyorsa paneli sağa kaydır, sonraki sayfada olabilir. Yoksa Ayarlar → Araçlar → Hızlı ayarlar kutucuğu ile yeniden ekle.",
-  "q": [
-   "hızlı ayar kutucuğunu bulamıyorum",
-   "üst panelde ha!shh butonu görünmüyor",
-   "hızlı ayarlar kısayolu nerede",
-   "bildirim çubuğundaki kutucuk kayboldu"
   ]
  },
  {

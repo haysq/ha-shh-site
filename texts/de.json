@@ -208,14 +208,14 @@
       },
       {
         "b": "3",
-        "p": "Grundlagen für Entscheidungen: die App, der Benachrichtigungstyp und die Uhrzeit. Titel und Text werden nur mit deinen eigenen Wörtern verglichen (Spoiler- oder Archiv-Wörter), nur wenn du den Inhaltszugriff aktivierst, und nur auf dem Smartphone."
+        "p": "Was für die Entscheidung herangezogen wird, ob eine Benachrichtigung zurückgehalten wird: die App, der Benachrichtigungstyp und die Uhrzeit. Nur wenn du den Spoiler-Modus aktivierst, wird auf deinem Telefon innerhalb der Benachrichtigung nach den von dir gewählten Wörtern gesucht."
       },
       {
-        "b": "Opt-in",
-        "p": "Benachrichtigungsinhalte werden standardmäßig nicht gelesen. Wenn du sehen möchtest, was wartet, schaltest du das in den Einstellungen ein."
+        "b": "Deine Sache",
+        "p": "Wie lange Inhalte behalten werden, ist deine Entscheidung. Benachrichtigungsinhalte werden in der App angezeigt und bleiben verschlüsselt auf deinem Telefon; du wählst, wie lange sie behalten werden, oder schaltest es in den Einstellungen vollständig aus."
       }
     ],
-    "priv_more_p": "Einstellungen und Einträge werden verschlüsselt auf dem Telefon gespeichert. Das Archiv enthält nur die Benachrichtigungen, die du speicherst oder die deinen eigenen Archivgruppen entsprechen, ebenfalls verschlüsselt und auf dem Telefon; es verlässt das Telefon nur, wenn du es in eine Datei exportierst. Wenn du die App deinstallierst, werden ihre Daten gelöscht.",
+    "priv_more_p": "Einstellungen und Einträge werden verschlüsselt auf deinem Telefon aufbewahrt. Benachrichtigungsinhalte werden in der App angezeigt und so lange behalten, wie du möchtest, und Bankzahlungen, Gutscheine, Ausgaben und Rechnungen wandern ins automatische Archiv. All das lässt sich in den Einstellungen ausschalten und verlässt dein Telefon nur, wenn du es in eine Datei exportierst. Durch die Deinstallation der App werden ihre Daten gelöscht.",
     "priv_more": "Vollständige Datenschutzerklärung lesen →",
     "status_eyebrow": "Status",
     "status_h": "In Entwicklung, demnächst auf Google Play.",
@@ -451,7 +451,7 @@
         "items": [
           {
             "t": "Benachrichtigungsarchiv",
-            "p": "Speichere beliebige Benachrichtigungen in Ordnern wie Gutscheine, Rechnungen und Ausgaben oder in deinem eigenen Ordner. Die App schlägt den Betrag vor und du bestätigst ihn; eine monatliche Gesamtsumme wird angezeigt. Gib ein Fälligkeitsdatum an und du erhältst an diesem Morgen eine Erinnerung, und du kannst sie in den Kalender deines Smartphones eintragen (keine Kalenderberechtigung nötig). Du kannst eine Benachrichtigung auch direkt aus dem Verlauf archivieren, wenn ihr Inhalt dort gespeichert wurde. Nichts gelangt von selbst ins Archiv, es sei denn, du richtest Archivgruppen ein.",
+            "p": "Speichere beliebige Benachrichtigungen in Ordnern wie Gutscheine, Zu zahlende Rechnungen oder Ausgaben oder in einem eigenen Ordner. Die App schlägt den Betrag vor und du bestätigst ihn; eine Monatssumme wird angezeigt. Gib ein Fälligkeitsdatum an und du wirst an diesem Morgen erinnert; du kannst den Eintrag auch zum Kalender deines Telefons hinzufügen (keine Kalenderberechtigung erforderlich). Bankzahlungen, Gutscheine, Ausgaben und Rechnungen wandern automatisch ins Archiv, sobald sie eintreffen; du kannst dies oder jede dieser Kategorien in den Einstellungen ausschalten.",
             "new": "Neu"
           },
           {
@@ -460,8 +460,8 @@
             "new": "Neu"
           },
           {
-            "t": "Inhalte nur anzeigen, wenn du es erlaubst",
-            "p": "Benachrichtigungsinhalte werden standardmäßig nicht gelesen. Aktiviere die Inhaltsanzeige in den Einstellungen, um zu sehen, was wartet."
+            "t": "Inhalte bleiben auf deinem Telefon, unter deiner Kontrolle",
+            "p": "Der Inhalt wartender und vergangener Benachrichtigungen wird in der App angezeigt und verschlüsselt auf deinem Telefon behalten; du wählst, wie lange er behalten wird. Wenn du das lieber nicht möchtest, schalte die Inhaltsanzeige in den Einstellungen aus; dann werden nur der Name der App, die Uhrzeit und der Grund für das Warten angezeigt."
           },
           {
             "t": "Designs und App-Symbol",
@@ -540,10 +540,10 @@
   },
   "privacy": {
     "title": "Datenschutzerklärung · {brand}",
-    "desc": "Wie die Benachrichtigungs-App mit Daten umgeht: keine Internetberechtigung, alles bleibt verschlüsselt auf deinem Smartphone, Benachrichtigungsinhalte nur mit deiner Erlaubnis.",
+    "desc": "Wie die Benachrichtigungs-App mit Daten umgeht: keine Internetberechtigung, alles bleibt verschlüsselt auf deinem Telefon; Inhaltsanzeige, Aufbewahrungsdauer und das automatische Archiv stehen unter deiner Kontrolle.",
     "h1": "Datenschutzerklärung",
-    "updated": "Zuletzt aktualisiert: 14. Oktober 2026",
-    "intro": "Kurz gesagt: Die App hat keine Internetberechtigung und sendet nichts irgendwohin. Alles, was gespeichert wird, bleibt verschlüsselt auf deinem Smartphone. Benachrichtigungsinhalte werden nur gelesen, wenn du das einschaltest, und das Archiv speichert nur Benachrichtigungen, die du selbst auswählst.",
+    "updated": "Zuletzt aktualisiert: 21. Oktober 2026",
+    "intro": "Kurz gesagt: Die App hat keine Internetberechtigung und sendet nichts irgendwohin. Alles, was sie behält, bleibt verschlüsselt auf deinem Telefon und nur du siehst es. Benachrichtigungsinhalte werden in der App angezeigt und so lange behalten, wie du möchtest, und Bankzahlungen, Gutscheine, Ausgaben und Rechnungen wandern ins automatische Archiv. Du kannst all das in den Einstellungen ausschalten.",
     "sections": [
       {
         "h": "Wer wir sind",
@@ -551,15 +551,15 @@
       },
       {
         "h": "Zugriff auf Benachrichtigungen (erforderlich)",
-        "body": "<p>Die App benötigt Zugriff auf Benachrichtigungen, den du in den Android-Einstellungen erteilst. Um zu entscheiden, was mit einer Benachrichtigung geschieht, nutzt sie die App, die sie gesendet hat, den Benachrichtigungstyp (zum Beispiel Anruf, Wecker oder Nachrichtenkategorie) und die Uhrzeit. Titel und Nachrichtentext werden für diese Entscheidung nicht verwendet, mit einer Ausnahme: Wenn du den Inhaltszugriff aktivierst und Spoiler-Wörter oder Archiv-Wortgruppen hinzufügst, werden Titel und Text auf dem Smartphone mit deinen Wörtern abgeglichen. Nichts wird irgendwohin gesendet.</p>"
+        "body": "<p>Die App benötigt den Benachrichtigungszugriff, den du in den Android-Einstellungen gewährst. Um zu entscheiden, ob eine Benachrichtigung sofort durchkommt oder wartet, verwendet sie die App, die sie gesendet hat, den Benachrichtigungstyp (z. B. Anruf, Wecker oder Nachrichtenkategorie) und die Uhrzeit. Die einzige Ausnahme ist der Spoiler-Modus: Wenn du ihn aktivierst, wird auf deinem Telefon im Titel und Text der Benachrichtigung nach den von dir gewählten Wörtern (wie etwa einem Teamnamen) gesucht. Wo Inhalte sonst noch verwendet werden, ist in den folgenden Abschnitten beschrieben. Es wird nichts irgendwohin gesendet.</p>"
       },
       {
-        "h": "Benachrichtigungsinhalte (optional)",
-        "body": "<ul><li>Wenn du in den Einstellungen <b>Benachrichtigungsinhalt anzeigen</b> aktivierst, wird der Inhalt wartender Benachrichtigungen erst in dem Moment gelesen, in dem er dir angezeigt wird.</li><li>Wenn du zusätzlich aktivierst, dass Inhalte im Verlauf behalten werden, wird dieser Inhalt nach deiner Wahl für einen oder sieben Tage verschlüsselt auf dem Smartphone gespeichert. Er wird gelöscht, wenn der Zeitraum endet oder wenn der Benachrichtigungszugriff deaktiviert wird.</li><li>Bei aktiviertem Inhaltszugriff speichert der Filter für Benachrichtigungstypen einen Beispiel-Titel für jeden Benachrichtigungstyp einer App verschlüsselt auf dem Smartphone, damit du die Typen wiedererkennen kannst.</li></ul>"
+        "h": "Benachrichtigungsinhalte",
+        "body": "<ul><li><b>Anzeige (standardmäßig aktiviert):</b> Der Titel und der Text wartender und vergangener Benachrichtigungen werden dir in der App angezeigt. Wenn du <b>Benachrichtigungsinhalt anzeigen</b> in den Einstellungen ausschaltest, werden Inhalte weder gelesen noch behalten; nur der Name der App, die Uhrzeit und der Grund für das Warten werden angezeigt.</li><li><b>Wie lange es behalten wird (deine Wahl):</b> Verlauf und Inhalte werden verschlüsselt auf deinem Telefon aufbewahrt. Du wählst bei der Einrichtung, wie lange (7, 30, 90 oder 365 Tage oder kein automatisches Löschen), und kannst es später in den Einstellungen ändern. Wenn du nichts wählst, wird nichts automatisch gelöscht; wenn der Verlauf viel Platz belegt, wirst du gefragt, ob alte Einträge bereinigt werden sollen. Inhalte werden gelöscht, wenn du die Inhaltsanzeige ausschaltest. Das Archiv ist von dieser Bereinigung nicht betroffen.</li><li><b>Deine eigenen Wörter:</b> Wenn du Spoiler-Wörter oder Archiv-Wortgruppen hinzufügst, werden Titel und Text auf deinem Telefon mit diesen Wörtern verglichen.</li><li><b>Filter für Benachrichtigungstypen:</b> Damit du die Typen wiedererkennst, wird ein Beispiel-Titel pro Benachrichtigungstyp einer App verschlüsselt auf deinem Telefon behalten.</li><li><b>Verlaufsprotokoll:</b> Für jede Benachrichtigung, die dein Telefon empfängt, werden die App, die Uhrzeit und das, was geschah (durchgekommen, zurückgehalten, zugestellt, als gelesen markiert), im Verlauf auf deinem Telefon behalten.</li></ul>"
       },
       {
         "h": "Benachrichtigungsarchiv",
-        "body": "<ul><li>Das Archiv enthält die Benachrichtigungen, die du archivieren möchtest, und – falls du Archivgruppen einrichtest – die Benachrichtigungen, die du als gelesen markierst und die zu einer deiner Gruppen passen: den App-Namen, Titel, Text und das Datum sowie den Ordner, Betrag und das Fälligkeitsdatum, die du hinzufügst. Nichts anderes gelangt von selbst ins Archiv.</li><li>Archivierte Einträge bleiben verschlüsselt auf dem Smartphone, bis du sie löschst. Ausgabensummen und Gutscheinlisten werden auf dem Smartphone aus deinen archivierten Benachrichtigungen berechnet. Das Kopieren eines Gutscheincodes legt ihn in die Zwischenablage deines Smartphones.</li><li>Der vorgeschlagene Betrag wird auf dem Smartphone berechnet. Eine Fälligkeitserinnerung nutzt den Wecker des Smartphones.</li><li>Das Hinzufügen eines Archiveintrags zu deinem Kalender öffnet deine eigene Kalender-App mit einem vorausgefüllten Termin: der Benachrichtigungstitel (oder der App-Name, falls kein Titel vorhanden ist) als Terminname und das Fälligkeitsdatum als ganztägiger Termin. Du siehst ihn dort, kannst ihn ändern und entscheiden, ob du ihn speichern möchtest. Die App benötigt hierfür keine Kalenderberechtigung. Wenn dein Kalender mit einem Konto synchronisiert wird (zum Beispiel Google), geht der gespeicherte Termin an dieses Konto; das wird von deiner Kalender-App erledigt, und ha!shh sendet nichts.</li><li>Du kannst das Archiv über die Dateiauswahl deines Smartphones an einen Ort deiner Wahl exportieren (zum Beispiel Google Drive, Dropbox oder einen Ordner auf deinem Smartphone): entweder als mit einem starken Passwort geschützte Datei oder als unverschlüsselte Datei, die jeder lesen kann, der die Datei hat. Wenn der Inhaltszugriff deaktiviert ist, bleiben Titel und Text in der Datei leer. Wohin die Datei gelangt und wer sie öffnen kann, liegt dann bei dir und dem von dir gewählten Dienst; ha!shh selbst sendet nichts.</li></ul>"
+        "body": "<ul><li><b>Automatisches Archiv (standardmäßig aktiviert):</b> Bankzahlungen, Gutscheine, Ausgaben und Rechnungen werden im Archiv gespeichert, sobald sie eintreffen. Um sie zu erkennen, werden Titel und Text auf deinem Telefon mit bestimmten Begriffen verglichen (z. B. „Zahlung getätigt“, „Fälligkeitsdatum“, ein Gutscheincode); hierfür verlässt nichts dein Telefon. Du kannst das automatische Archiv oder jeden seiner Typen in den Einstellungen ausschalten. Automatische Einträge werden standardmäßig 365 Tage lang behalten; du kannst den Zeitraum wählen, und Einträge, die du bearbeitest oder mit einer Notiz versiehst, werden nicht gelöscht. Wenn du die Inhaltsanzeige ausschaltest, stoppt auch das automatische Archiv.</li><li>Abgesehen davon enthält das Archiv die Benachrichtigungen, die du selbst archivierst, und, falls du Archivgruppen eingerichtet hast, Benachrichtigungen, die du als gelesen markiert hast und die zu einer deiner Gruppen passen: App-Name, Titel, Text und Datum, plus den Ordner, den Betrag und das Fälligkeitsdatum, die du hinzugefügt hast. Diese bleiben verschlüsselt auf deinem Telefon, bis du sie löschst.</li><li>Ausgabensummen und Gutscheinlisten werden auf deinem Telefon anhand deiner archivierten Benachrichtigungen berechnet. Das Kopieren eines Gutscheincodes legt ihn in die Zwischenablage deines Telefons.</li><li>Der vorgeschlagene Betrag wird auf deinem Telefon berechnet. Erinnerungen an Fälligkeitsdaten werden mit dem eigenen Wecker deines Telefons eingerichtet.</li><li>Das Hinzufügen eines Archiveintrags zu deinem Kalender öffnet deine eigene Kalender-App mit einem vorausgefüllten Termin: Der Titel der Benachrichtigung (oder der Name der App, falls es keinen Titel gibt) wird als Terminname und das Fälligkeitsdatum (ganztägig) als Datum vorgeschlagen. Du siehst den Termin dort, kannst ihn ändern und entscheiden, ob du ihn speichern möchtest. Die App fragt hierfür nicht nach einer Kalenderberechtigung. Wenn dein Kalender mit einem Konto synchronisiert wird (wie etwa Google), gelangt der von dir gespeicherte Termin auch in dieses Konto; das erledigt deine Kalender-App, ha!shh sendet nichts.</li><li>Du kannst das Archiv mit der eigenen Dateiauswahl deines Telefons an einen Ort deiner Wahl exportieren (wie etwa Google Drive, Dropbox oder einen Ordner auf deinem Telefon): entweder als Datei, die mit einem starken Passwort geschützt ist, oder als unverschlüsselte Datei, die jeder lesen kann, der sie hat. Wenn du die Inhaltsanzeige ausgeschaltet hast, bleiben Titel und Text in der Datei leer. Wohin die Datei gelangt und wer sie öffnen kann, hängt dann von dir und dem von dir gewählten Dienst ab; ha!shh selbst sendet nichts.</li></ul>"
       },
       {
         "h": "Fingerabdruck-Sperre",
@@ -567,7 +567,7 @@
       },
       {
         "h": "Weitere Berechtigungen",
-        "body": "<ul><li><b>Benachrichtigungen senden:</b> um zurückgehaltene Benachrichtigungen und Erinnerungen zuzustellen.</li><li><b>Nach dem Neustart ausführen:</b> um deine Regeln und Erinnerungen nach einem Neustart des Smartphones wiederherzustellen.</li><li><b>Kalender (optional):</b> Es werden nur Start- und Endzeit sowie der Verfügbarkeitsstatus von Terminen gelesen, um während Besprechungen den Modus zu wechseln. Termintitel werden nicht gelesen.</li><li><b>Bluetooth (optional):</b> um den Modus zu wechseln, wenn sich das Telefon mit deinem Auto verbindet. Die eigentliche Geräteadresse wird nicht gespeichert; lediglich ein Einweg-Fingerabdruck und der sichtbare Gerätename werden verschlüsselt abgelegt.</li></ul>"
+        "body": "<ul><li><b>Benachrichtigungen senden:</b> um dir zurückgehaltene Benachrichtigungen und Erinnerungen zuzustellen.</li><li><b>Beim Hochfahren starten:</b> um deine Regeln und Erinnerungen nach einem Neustart deines Telefons wieder einzurichten.</li><li><b>Vibration:</b> Damit zurückgehaltene Benachrichtigungen keinen Ton von sich geben, verwaltet ha!shh Benachrichtigungstöne und spielt Ton und Vibration von Benachrichtigungen, die sofort durchkommen, selbst ab. Anrufe und Wecker sind nicht betroffen; dies kann in den Einstellungen ausgeschaltet werden.</li><li><b>Ruhezustand verhindern:</b> Damit sich die Entscheidung über eine Benachrichtigung, die bei ausgeschaltetem Bildschirm eintrifft, nicht verzögert, wird das Telefon höchstens 3 Sekunden lang wach gehalten.</li><li><b>Kalender (optional):</b> Um den Modus während Terminen zu wechseln, werden lediglich Start- und Endzeit sowie der Verfügbarkeitsstatus von Terminen gelesen. Termintitel werden nicht gelesen.</li><li><b>Bluetooth (optional):</b> Um den Modus zu wechseln, wenn sich dein Telefon mit deinem Auto verbindet. Die unformatierte Adresse des Geräts wird nicht gespeichert; nur ein unumkehrbarer Fingerabdruck und der von dir gesehene Gerätename werden verschlüsselt aufbewahrt.</li></ul>"
       },
       {
         "h": "Deine installierten Apps",
@@ -623,7 +623,7 @@
       },
       {
         "q": "Liest die App meine Benachrichtigungen?",
-        "a": "Standardmäßig nicht. Für Entscheidungen werden lediglich die App, der Benachrichtigungstyp und die Uhrzeit herangezogen. Inhalte werden nur gelesen, wenn du die Inhaltsanzeige aktivierst, und nur in dem Moment, in dem sie dir angezeigt werden."
+        "a": "Tun wir nicht: Die App hat keine Internetberechtigung und nichts verlässt dein Telefon. Die App entscheidet anhand der App, des Benachrichtigungstyps und der Uhrzeit, ob eine Benachrichtigung zurückgehalten wird (wenn du den Spoiler-Modus aktivierst, wird auch nach den von dir gewählten Wörtern gesucht). Inhalte werden auf deinem Telefon gelesen, um sie dir anzuzeigen, sie so lange zu behalten, wie du möchtest, und Bankzahlungen, Gutscheine, Ausgaben und Rechnungen automatisch zu archivieren. Wenn du das lieber nicht möchtest, schalte <b>Benachrichtigungsinhalt anzeigen</b> in den Einstellungen aus."
       },
       {
         "q": "Könnte ich einen wichtigen Anruf oder eine wichtige Nachricht verpassen?",
@@ -643,7 +643,7 @@
       },
       {
         "q": "Landen Benachrichtigungen von selbst im Archiv?",
-        "a": "Nur wenn du es möchtest. Standardmäßig werden nur Benachrichtigungen gespeichert, die du selbst archivierst. Wenn du Archivgruppen einrichtest (nach App, Person oder einem festgelegten Begriff), werden dort auch Benachrichtigungen gespeichert, die du als gelesen markierst und die zu einer Gruppe passen. Das Archiv bleibt verschlüsselt auf deinem Telefon und verlässt es nur, wenn du es in eine Datei exportierst. Du kannst jederzeit einen Ordner, einen Betrag und ein Fälligkeitsdatum hinzufügen sowie Einträge löschen."
+        "a": "Bankzahlungen, Gutscheine, Ausgaben und Rechnungen, ja: Das automatische Archiv ist standardmäßig aktiviert und speichert sie, sobald sie eintreffen. Andere Benachrichtigungen werden nur gespeichert, wenn du sie archivierst oder sie zu einer von dir eingerichteten Archivgruppe passen. Du kannst das automatische Archiv oder jeden seiner Typen in den Einstellungen ausschalten. Das Archiv bleibt verschlüsselt auf deinem Telefon und verlässt es nur, wenn du es in eine Datei exportierst. Du kannst einen Ordner, Betrag und ein Fälligkeitsdatum hinzufügen und Einträge jederzeit löschen."
       },
       {
         "q": "Was passiert, wenn ich die App deinstalliere?",
@@ -668,6 +668,21 @@
     "lead": "Was es Neues in ha!shh gibt. Die App ist noch in der Entwicklung: Alles hier ist in der Entwicklungsversion enthalten und kommt zum Start zu Google Play."
   },
   "news": [
+    {
+      "date": "2026-10-21",
+      "h": "10 Sprachen, Widgets und Schreibtischansicht",
+      "items": [
+        "<b>Die App in 10 Sprachen:</b> Jeder Bildschirm ist auf Englisch, Türkisch, Arabisch, Deutsch, Spanisch, Französisch, Hindi, Indonesisch, Portugiesisch und Russisch verfügbar. Du kannst die Sprache auch innerhalb der App unter Einstellungen → Erscheinungsbild auswählen.",
+        "<b>Startbildschirm-Widgets:</b> In vier Größen, die die nächste Zustellung, den aktiven Modus, wie viele Benachrichtigungen warten und die Apps mit den meisten wartenden anzeigen. Die große Größe listet wartende Benachrichtigungen auf, und ein Fingertipp markiert sie als gelesen. Widgets richten sich nach deinem Design; tippe auf die Uhrzeit, um die aktuelle Uhrzeit zu sehen.",
+        "<b>Schreibtischansicht:</b> Drehe dein Telefon ins Querformat für eine große Uhr, den aktiven Modus, eine Wochenleiste, die nächste Zustellung und was gerade wartet. Wähle aus, was angezeigt werden soll, und verwende dein eigenes Foto als Rahmen oder Hintergrund. Der Bildschirm bleibt während des Ladens eingeschaltet; im Energiespar-Layout wird er abgedunkelt und einmal pro Minute aktualisiert.",
+        "<b>Jede Benachrichtigung im Verlauf:</b> Benachrichtigungen, die sofort durchgekommen sind, wandern jetzt auch in den Verlauf, damit du eine wiederfindest, die du versehentlich verworfen hast. Du wählst bei der Einrichtung, wie lange der Verlauf behalten wird; wenn du nichts wählst, wird nichts automatisch gelöscht, und wenn er Platz belegt, wirst du gefragt, bevor etwas bereinigt wird.",
+        "<b>Automatisches Archiv:</b> Bankzahlungen, Gutscheine, getätigte Ausgaben und Rechnungen wandern ins Archiv, sobald sie eintreffen; Preise in Werbung nicht. Einträge, die du selbst hinzugefügt oder bearbeitet hast, bleiben immer erhalten. Es kann ausgeschaltet werden; Beträge werden in der Währung deines Telefons angezeigt.",
+        "<b>Lautloses Warten:</b> Zurückgehaltene Benachrichtigungen geben keinerlei Ton von sich; ha!shh spielt den Ton derjenigen ab, die sofort durchkommen. Anrufe und Wecker sind nicht betroffen.",
+        "<b>Rückgängig:</b> Wenn du über eine wartende Karte wischst, um sie als gelesen zu markieren oder auf Schlummern zu setzen, kannst du dies innerhalb von 4 Sekunden rückgängig machen.",
+        "<b>Einfachere Bildschirme:</b> Regeln, Plan und Verlauf wurden neu organisiert; Benachrichtigungsbericht und Statistiken befinden sich auf einem Bildschirm. Bei der Ersteinrichtung wird auch ein nächtlicher Schlaf-Plan eingerichtet. Screenshots auf sensiblen Bildschirmen blockieren ist jetzt eine Option, die du in den Einstellungen aktivierst.",
+        "<b>Fehlerbehebungen:</b> Die Verzögerung beim Zurückhalten von Benachrichtigungen bei ausgeschaltetem Bildschirm wurde behoben; lautlos eintreffende Benachrichtigungen folgen ebenfalls deinen Regeln; Android-System- und SIM-Benachrichtigungen werden niemals zurückgehalten; wenn ein Modus endet, kommt alles zusammen an, was er zurückgehalten hat; in Nächten mit Zeitumstellung enden Modi zur richtigen Zeit; Shopping-Apps landen in der richtigen Gruppe; andere Apps können die Bildschirme und das Design von ha!shh weder öffnen noch ändern."
+      ]
+    },
     {
       "date": "2026-10-14",
       "h": "Freunde einladen, Belohnungen erhalten",
