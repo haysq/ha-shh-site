@@ -208,7 +208,7 @@
       },
       {
         "b": "3",
-        "p": "Éléments utilisés pour décider de mettre en attente une notification : l'application, le type de notification et l'heure. Ce n'est que si vous activez le mode spoiler que les mots que vous avez choisis sont recherchés dans la notification, sur votre téléphone."
+        "p": "Pour décider de mettre une notification en attente, l'application utilise l'application qui l'a envoyée, son type et l'heure. Si l'option Afficher le contenu des notifications est activée, le texte est aussi analysé sur votre téléphone pour reconnaître les notifications importantes, comme l'état d'une commande ou une opération bancaire. Si vous la désactivez, le contenu n'est pas lu. Les mots du mode spoiler ne sont recherchés sur votre téléphone que si vous activez ce mode."
       },
       {
         "b": "À vous",
@@ -551,7 +551,7 @@
       },
       {
         "h": "Accès aux notifications (requis)",
-        "body": "<p>L'application a besoin de l'accès aux notifications que vous accordez dans les paramètres d'Android. Pour décider si une notification arrive immédiatement ou est mise en attente, elle utilise l'application qui l'a envoyée, le type de notification (par exemple appel, alarme ou catégorie de message) et l'heure. La seule exception est le mode spoiler : si vous l'activez, les mots que vous avez choisis (comme le nom d'une équipe) sont recherchés dans le titre et le texte de la notification, sur votre téléphone. Les autres cas d'utilisation du contenu sont décrits dans les sections ci-dessous. Rien n'est envoyé nulle part.</p>"
+        "body": "<p>L'application a besoin de l'accès aux notifications que vous accordez dans les paramètres d'Android. Pour décider si une notification arrive immédiatement ou est mise en attente, elle utilise l'application qui l'a envoyée, le type de notification (par exemple appel, alarme ou catégorie de message) et l'heure. Si l'option <b>Afficher le contenu des notifications</b> est activée, elle analyse aussi le texte sur votre téléphone pour reconnaître les notifications importantes, comme l'état d'une commande ou une opération bancaire. Si vous la désactivez, le contenu n'est pas lu. Si vous activez le mode spoiler, les mots que vous avez choisis (comme le nom d'une équipe) sont également recherchés dans le titre et le texte de la notification, sur votre téléphone. Les autres cas d'utilisation du contenu sont décrits dans les sections ci-dessous. Rien n'est envoyé nulle part.</p>"
       },
       {
         "h": "Contenu des notifications",

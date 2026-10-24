@@ -208,7 +208,7 @@
       },
       {
         "b": "3",
-        "p": "Was für die Entscheidung herangezogen wird, ob eine Benachrichtigung zurückgehalten wird: die App, der Benachrichtigungstyp und die Uhrzeit. Nur wenn du den Spoiler-Modus aktivierst, wird auf deinem Telefon innerhalb der Benachrichtigung nach den von dir gewählten Wörtern gesucht."
+        "p": "Ob eine Benachrichtigung zurückgehalten wird, richtet sich nach der App, dem Benachrichtigungstyp und der Uhrzeit. Wenn Benachrichtigungsinhalte anzeigen aktiviert ist, wird der Text außerdem auf deinem Telefon geprüft, um wichtige Benachrichtigungen wie den Bestellstatus oder Banktransaktionen zu erkennen. Wenn du die Option ausschaltest, werden Inhalte nicht gelesen. Spoiler-Wörter werden nur auf deinem Telefon gesucht, wenn du den Spoiler-Modus aktivierst."
       },
       {
         "b": "Deine Sache",
@@ -551,7 +551,7 @@
       },
       {
         "h": "Zugriff auf Benachrichtigungen (erforderlich)",
-        "body": "<p>Die App benötigt den Benachrichtigungszugriff, den du in den Android-Einstellungen gewährst. Um zu entscheiden, ob eine Benachrichtigung sofort durchkommt oder wartet, verwendet sie die App, die sie gesendet hat, den Benachrichtigungstyp (z. B. Anruf, Wecker oder Nachrichtenkategorie) und die Uhrzeit. Die einzige Ausnahme ist der Spoiler-Modus: Wenn du ihn aktivierst, wird auf deinem Telefon im Titel und Text der Benachrichtigung nach den von dir gewählten Wörtern (wie etwa einem Teamnamen) gesucht. Wo Inhalte sonst noch verwendet werden, ist in den folgenden Abschnitten beschrieben. Es wird nichts irgendwohin gesendet.</p>"
+        "body": "<p>Die App benötigt den Benachrichtigungszugriff, den du in den Android-Einstellungen gewährst. Um zu entscheiden, ob eine Benachrichtigung sofort durchkommt oder wartet, verwendet sie die App, die sie gesendet hat, den Benachrichtigungstyp (z. B. Anruf, Wecker oder Nachrichtenkategorie) und die Uhrzeit. Wenn <b>Benachrichtigungsinhalte anzeigen</b> aktiviert ist, prüft sie außerdem den Text auf deinem Telefon, um wichtige Benachrichtigungen wie den Bestellstatus oder Banktransaktionen zu erkennen. Wenn du die Option ausschaltest, werden Inhalte nicht gelesen. Wenn du den Spoiler-Modus aktivierst, wird auf deinem Telefon außerdem im Titel und Text der Benachrichtigung nach den von dir gewählten Wörtern (wie etwa einem Teamnamen) gesucht. Wo Inhalte sonst noch verwendet werden, ist in den folgenden Abschnitten beschrieben. Es wird nichts irgendwohin gesendet.</p>"
       },
       {
         "h": "Benachrichtigungsinhalte",

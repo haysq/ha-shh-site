@@ -208,7 +208,7 @@
       },
       {
         "b": "3",
-        "p": "O que é usado para decidir se uma notificação deve ser retida: o app, o tipo de notificação e o horário. Somente se você ativar o modo spoiler as palavras que você escolheu são buscadas dentro da notificação, no seu celular."
+        "p": "Para decidir se uma notificação deve ser retida, o app usa o app que a enviou, o tipo de notificação e o horário. Se Mostrar conteúdo das notificações estiver ativado, o texto também é analisado no seu celular para reconhecer notificações importantes, como o status de um pedido ou uma transação bancária. Se você desativar essa opção, o conteúdo não será lido. As palavras de spoiler só são buscadas no seu celular se você ativar esse modo."
       },
       {
         "b": "Seu",
@@ -551,7 +551,7 @@
       },
       {
         "h": "Acesso às notificações (obrigatório)",
-        "body": "<p>O app precisa do acesso às notificações que você concede nas configurações do Android. Para decidir se uma notificação passa direto ou fica em espera, ele usa o app que a enviou, o tipo de notificação (por exemplo, chamada, alarme ou categoria de mensagem) e o horário. A única exceção é o modo spoiler: se você ativá-lo, as palavras que você escolheu (como o nome de um time) são buscadas no título e no texto da notificação, no seu celular. Os demais casos em que o conteúdo é usado estão descritos nas seções abaixo. Nada é enviado para lugar nenhum.</p>"
+        "body": "<p>O app precisa do acesso às notificações que você concede nas configurações do Android. Para decidir se uma notificação passa direto ou fica em espera, ele usa o app que a enviou, o tipo de notificação (por exemplo, chamada, alarme ou categoria de mensagem) e o horário. Se <b>Mostrar conteúdo das notificações</b> estiver ativado, o texto também é analisado no seu celular para reconhecer notificações importantes, como o status de um pedido ou uma transação bancária. Se você desativar essa opção, o conteúdo não será lido. Se você ativar o modo spoiler, as palavras que escolheu (como o nome de um time) também serão buscadas no título e no texto da notificação, no seu celular. Os demais casos em que o conteúdo é usado estão descritos nas seções abaixo. Nada é enviado para lugar nenhum.</p>"
       },
       {
         "h": "Conteúdo das notificações",

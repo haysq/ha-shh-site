@@ -208,7 +208,7 @@
       },
       {
         "b": "3",
-        "p": "Hal-hal yang digunakan untuk memutuskan apakah akan menahan notifikasi: aplikasi, jenis notifikasi, dan waktu. Hanya jika Anda mengaktifkan mode spoiler, kata-kata yang Anda pilih akan dicari di dalam notifikasi, di ponsel Anda."
+        "p": "Keputusan untuk menahan notifikasi menggunakan aplikasi, jenis notifikasi, dan waktu. Jika Tampilkan isi notifikasi aktif, teks juga diperiksa di ponsel Anda untuk mengenali notifikasi penting seperti status pesanan dan transaksi bank. Jika dinonaktifkan, isi tidak dibaca. Kata spoiler hanya dicari di ponsel Anda jika Anda mengaktifkan mode spoiler."
       },
       {
         "b": "Milik Anda",
@@ -551,7 +551,7 @@
       },
       {
         "h": "Akses notifikasi (diperlukan)",
-        "body": "<p>Aplikasi memerlukan akses notifikasi yang Anda berikan di pengaturan Android. Untuk memutuskan apakah notifikasi langsung masuk atau menunggu, aplikasi menggunakan aplikasi yang mengirimkannya, jenis notifikasi (misalnya kategori panggilan, alarm, atau pesan), dan waktu. Satu-satunya pengecualian adalah mode spoiler: jika Anda mengaktifkannya, kata-kata yang Anda pilih (seperti nama tim) dicari di judul dan teks notifikasi, di ponsel Anda. Penggunaan isi lainnya dijelaskan pada bagian-bagian di bawah ini. Tidak ada yang dikirim ke mana pun.</p>"
+        "body": "<p>Aplikasi memerlukan akses notifikasi yang Anda berikan di pengaturan Android. Untuk memutuskan apakah notifikasi langsung masuk atau menunggu, aplikasi menggunakan aplikasi yang mengirimkannya, jenis notifikasi (misalnya kategori panggilan, alarm, atau pesan), dan waktu. Jika <b>Tampilkan isi notifikasi</b> aktif, teks juga diperiksa di ponsel Anda untuk mengenali notifikasi penting seperti status pesanan dan transaksi bank. Jika dinonaktifkan, isi tidak dibaca. Jika Anda mengaktifkan mode spoiler, kata-kata yang Anda pilih (seperti nama tim) juga dicari di judul dan teks notifikasi, di ponsel Anda. Penggunaan isi lainnya dijelaskan pada bagian-bagian di bawah ini. Tidak ada yang dikirim ke mana pun.</p>"
       },
       {
         "h": "Konten notifikasi",

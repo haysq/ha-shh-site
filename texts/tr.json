@@ -208,7 +208,7 @@
       },
       {
         "b": "3",
-        "p": "Bekletme kararı için kullanılan bilgi: uygulama, bildirim türü ve saat. Yalnız Spoiler modunu açarsan seçtiğin kelimeler bildirimin içinde, telefonunda aranır."
+        "p": "Bekletme kararı için kullanılan bilgi: uygulama, bildirim türü ve saat. Bildirim içeriğini göster açıksa sipariş durumu ve banka işlemi gibi önemli bildirimleri tanımak için metne de cihaz içinde bakılır; kapatırsan içerik hiç okunmaz. Spoiler kelimeleri de yalnız Spoiler modunu açarsan telefonunda aranır."
       },
       {
         "b": "Sende",
@@ -551,7 +551,7 @@
       },
       {
         "h": "Bildirim erişimi (zorunlu)",
-        "body": "<p>Uygulama, Android ayarlarından senin verdiğin bildirim erişimine ihtiyaç duyar. Bir bildirimin hemen mi geleceğine yoksa bekleyeceğine karar verirken bildirimi gönderen uygulamayı, bildirim türünü (ör. arama, alarm ya da mesaj kategorisi) ve saati kullanır. Tek istisna Spoiler modu: onu açarsan seçtiğin kelimeler (ör. takım adı) bildirimin başlığında ve metninde, telefonunda aranır. İçeriğin başka nerede kullanıldığı aşağıdaki bölümlerde yazıyor. Hiçbir şey bir yere gönderilmez.</p>"
+        "body": "<p>Uygulama, Android ayarlarından senin verdiğin bildirim erişimine ihtiyaç duyar. Bir bildirimin hemen mi geleceğine yoksa bekleyeceğine karar verirken bildirimi gönderen uygulamayı, bildirim türünü (ör. arama, alarm ya da mesaj kategorisi) ve saati kullanır. <b>Bildirim içeriğini göster</b> açıksa sipariş durumu ve banka işlemi gibi önemli bildirimleri tanımak için metne de cihaz içinde bakar; kapatırsan içerik hiç okunmaz. Spoiler modunu açarsan seçtiğin kelimeler (ör. takım adı) bildirimin başlığında ve metninde, telefonunda aranır. İçeriğin başka nerede kullanıldığı aşağıdaki bölümlerde yazıyor. Hiçbir şey bir yere gönderilmez.</p>"
       },
       {
         "h": "Bildirim içeriği",

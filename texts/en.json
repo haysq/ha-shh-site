@@ -208,7 +208,7 @@
       },
       {
         "b": "3",
-        "p": "Things used to decide whether to hold a notification: the app, the notification type and the time. Only if you turn on spoiler mode are the words you chose looked for inside the notification, on your phone."
+        "p": "Things used to decide whether to hold a notification: the app, the notification type and the time. If Show notification content is on, the text is also checked on your phone to recognise important notifications such as order updates and bank transactions. When it is off, content is not read. Spoiler words are also checked on your phone only when you turn on spoiler mode."
       },
       {
         "b": "Yours",
@@ -551,7 +551,7 @@
       },
       {
         "h": "Notification access (required)",
-        "body": "<p>The app needs the notification access you grant in Android settings. To decide whether a notification comes through right away or waits, it uses the app that sent it, the notification type (e.g. call, alarm or message category) and the time. The only exception is spoiler mode: if you turn it on, the words you chose (such as a team name) are looked for in the notification's title and text, on your phone. Where else content is used is described in the sections below. Nothing is sent anywhere.</p>"
+        "body": "<p>The app needs the notification access you grant in Android settings. To decide whether a notification comes through right away or waits, it uses the app that sent it, the notification type (e.g. call, alarm or message category) and the time. If <b>Show notification content</b> is on, it also checks the text on your phone to recognise important notifications such as order updates and bank transactions. When it is off, content is not read. If you turn on spoiler mode, the words you chose (such as a team name) are also looked for in the notification's title and text, on your phone. Where else content is used is described in the sections below. Nothing is sent anywhere.</p>"
       },
       {
         "h": "Notification content",

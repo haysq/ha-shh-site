@@ -208,7 +208,7 @@
       },
       {
         "b": "3",
-        "p": "Lo que se usa para decidir si pausar una notificación: la app, el tipo de notificación y la hora. Solo si activas el modo spoiler se buscan las palabras que elegiste dentro de la notificación, en tu teléfono."
+        "p": "Para decidir si una notificación espera, se usan la app, el tipo de notificación y la hora. Si está activado Mostrar contenido de notificaciones, también se analiza el texto en tu teléfono para reconocer avisos importantes, como el estado de un pedido o una operación bancaria. Si lo desactivas, el contenido no se lee. Las palabras spoiler solo se buscan en tu teléfono si activas ese modo."
       },
       {
         "b": "Tuyo",
@@ -551,7 +551,7 @@
       },
       {
         "h": "Acceso a las notificaciones (obligatorio)",
-        "body": "<p>La app necesita el acceso a las notificaciones que le concedes en los ajustes de Android. Para decidir si una notificación llega de inmediato o espera, utiliza la app que la envió, el tipo de notificación (por ejemplo, categoría de llamada, alarma o mensaje) y la hora. La única excepción es el modo spoiler: si lo activas, se buscan las palabras que elegiste (como el nombre de un equipo) en el título y el texto de la notificación, en tu teléfono. En qué otros lugares se utiliza el contenido se describe en las secciones siguientes. No se envía nada a ninguna parte.</p>"
+        "body": "<p>La app necesita el acceso a las notificaciones que le concedes en los ajustes de Android. Para decidir si una notificación llega de inmediato o espera, utiliza la app que la envió, el tipo de notificación (por ejemplo, categoría de llamada, alarma o mensaje) y la hora. Si está activado <b>Mostrar contenido de notificaciones</b>, también analiza el texto en tu teléfono para reconocer avisos importantes, como el estado de un pedido o una operación bancaria. Si lo desactivas, el contenido no se lee. Si activas el modo spoiler, también se buscan en tu teléfono las palabras que elegiste (como el nombre de un equipo) en el título y el texto de la notificación. En qué otros lugares se utiliza el contenido se describe en las secciones siguientes. No se envía nada a ninguna parte.</p>"
       },
       {
         "h": "Contenido de las notificaciones",
