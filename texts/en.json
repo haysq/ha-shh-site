@@ -543,7 +543,7 @@
     "title": "Privacy policy · {brand}",
     "desc": "How the notification app handles data: no internet permission, everything stays encrypted on your phone; content display, retention and the automatic archive are under your control.",
     "h1": "Privacy policy",
-    "updated": "Last updated: 21 October 2026",
+    "updated": "Last updated: 28 October 2026",
     "intro": "In short: the app has no internet permission and sends nothing anywhere. Everything it keeps stays encrypted on your phone, and only you see it. Notification content is shown in the app and kept for as long as you choose, and bank payments, coupons, spending and bills go into the automatic archive. You can turn all of this off in Settings.",
     "sections": [
       {
@@ -556,7 +556,7 @@
       },
       {
         "h": "Notification content",
-        "body": "<ul><li><b>Display (on by default):</b> The title and text of waiting and past notifications are shown to you in the app. If you turn off <b>Show notification content</b> in Settings, content is neither read nor kept; only the app name, time and reason for waiting are shown.</li><li><b>How long it's kept (your choice):</b> History and content are kept encrypted on your phone. You choose how long during setup (7, 30, 90 or 365 days, or no automatic deletion) and can change it later in Settings. If you don't choose, nothing is deleted automatically; if History takes up a lot of space, you're asked whether to clear old records. Content is deleted when you turn off content display. The archive is not affected by this clean-up.</li><li><b>Your own words:</b> If you add spoiler words or archive word groups, the title and text are compared with those words on your phone.</li><li><b>Notification type filter:</b> So you can recognise the types, one sample title per notification type of an app is kept encrypted on your phone.</li><li><b>History log:</b> For every notification your phone receives, the app, the time and what happened (came through, held, delivered, marked as read) are kept in History on your phone.</li></ul>"
+        "body": "<ul><li><b>Display (on by default):</b> The title and text of waiting and past notifications are shown to you in the app. If you turn off <b>Show notification content</b> in Settings, content is neither read nor kept; only the app name, time and reason for waiting are shown.</li><li><b>How long it's kept (30 days by default):</b> History and content are kept encrypted on your phone for 30 days. In Settings you can choose 7, 90 or 365 days, or turn automatic deletion off. If you turn off showing content, stored content is deleted. The archive is not affected by this cleanup.</li><li><b>Your own words:</b> If you add spoiler words or archive word groups, the title and text are compared with those words on your phone.</li><li><b>Notification type filter:</b> So you can recognise the types, one sample title per notification type of an app is kept encrypted on your phone.</li><li><b>History log:</b> For every notification your phone receives, the app, the time and what happened (came through, held, delivered, marked as read) are kept in History on your phone.</li></ul>"
       },
       {
         "h": "Notification archive",
@@ -669,6 +669,22 @@
     "lead": "What's new in ha!shh. The app is still in development: everything here is in the development build and comes to Google Play at launch."
   },
   "news": [
+    {
+      "date": "2026-10-28",
+      "h": "Four-question setup, Just arrived and simpler screens",
+      "items": [
+        "<b>Four-question setup:</b> When you don't want to be disturbed, who should always reach you, how you want to see the rest, and what may wake you at night. Your answers set up modes, delivery, important notifications and sleep exceptions together.",
+        "<b>All-day focus:</b> During setup you can pick a focus profile with no end time: only calls and the important notifications you choose come through right away; the rest waits in the home screen widget. On the Today screen you can also keep Focus on “Until I turn it off”.",
+        "<b>Just arrived on the desk calendar:</b> With the phone sideways, notifications that came through without being held (e.g. messages) show as small icons for the last hour; tap one to go to the notification. Notification content isn't shown.",
+        "<b>Preview card on the desk calendar:</b> Tap the icon of an app with waiting notifications and a small card opens listing what's waiting from that app; a second tap opens the notification. The card doesn't cover the clock, and no text is shown if content access is off.",
+        "<b>App breakdown in the delivery summary:</b> In History → Delivery summary, tap a category to see how many notifications came from which app.",
+        "<b>Order status recognition:</b> If content access is on, statuses like “out for delivery”, “courier on the way” and “delivered” are recognised in 14 languages in shopping and food apps; ads are not. With access off, the text isn't read.",
+        "<b>Worldwide:</b> Common banking, shopping and delivery apps in the US, Canada, the UK, Germany, Spain, the Netherlands, Scandinavia, Japan, South Korea and Australia go into the right group. All times follow your phone's 12/24-hour setting.",
+        "<b>Simpler screens:</b> Rules has a single “Add rule” button and a three-step rule wizard. Settings shows seven essentials first, with the rest under “More”. The Work, School, Meeting, Holiday and Driving modes are hidden for now; plans you made with them keep working.",
+        "<b>Permanent block always wins:</b> An app or type you've permanently silenced stays silent even if it's on the “always deliver” list.",
+        "<b>Fixes:</b> Opening a notification from History works again on Android 14 and later (e.g. Gmail); a new WhatsApp message in the same chat now plays a sound; no empty group row is left in the notification shade; scrolling in the Feed no longer makes the screen jump; panels don't cover the clock in landscape; on the desk calendar, brightness is only dimmed if “Low-power desk view” is selected; delivery times you deleted don't come back."
+      ]
+    },
     {
       "date": "2026-10-21",
       "h": "10 languages, widgets and desk view",

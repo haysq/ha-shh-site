@@ -543,7 +543,7 @@
     "title": "Politique de confidentialité · {brand}",
     "desc": "Comment l'application de notification traite les données : aucune autorisation internet, tout reste chiffré sur votre téléphone ; l'affichage du contenu, sa conservation et l'archive automatique sont sous votre contrôle.",
     "h1": "Politique de confidentialité",
-    "updated": "Dernière mise à jour : 21 octobre 2026",
+    "updated": "Dernière mise à jour : 28 octobre 2026",
     "intro": "En résumé : l'application n'a aucune autorisation internet et n'envoie rien nulle part. Tout ce qu'elle conserve reste chiffré sur votre téléphone, et vous seul le voyez. Le contenu des notifications est affiché dans l'application et conservé aussi longtemps que vous le choisissez, et les paiements bancaires, coupons, dépenses et factures vont dans l'archive automatique. Vous pouvez désactiver tout cela dans Paramètres.",
     "sections": [
       {
@@ -556,7 +556,7 @@
       },
       {
         "h": "Contenu des notifications",
-        "body": "<ul><li><b>Affichage (activé par défaut) :</b> Le titre et le texte des notifications en attente et passées vous sont présentés dans l'application. Si vous désactivez <b>Afficher le contenu des notifications</b> dans Paramètres, le contenu n'est ni lu ni conservé ; seuls le nom de l'application, l'heure et la raison de la mise en attente sont affichés.</li><li><b>Durée de conservation (votre choix) :</b> L'historique et le contenu sont conservés chiffrés sur votre téléphone. Vous choisissez la durée lors de la configuration (7, 30, 90 ou 365 jours, ou aucune suppression automatique) et pouvez la modifier plus tard dans Paramètres. Si vous ne choisissez pas, rien n'est supprimé automatiquement ; si l'historique prend beaucoup d'espace, il vous est demandé si vous souhaitez effacer les anciens enregistrements. Le contenu est supprimé lorsque vous désactivez l'affichage du contenu. L'archive n'est pas affectée par ce nettoyage.</li><li><b>Vos propres mots :</b> Si vous ajoutez des mots spoiler ou des groupes de mots d'archivage, le titre et le texte sont comparés à ces mots sur votre téléphone.</li><li><b>Filtre de type de notification :</b> Afin que vous puissiez reconnaître les types, un exemple de titre par type de notification d'une application est conservé chiffré sur votre téléphone.</li><li><b>Journal de l'historique :</b> Pour chaque notification reçue par votre téléphone, l'application, l'heure et ce qui s'est passé (arrivée immédiatement, mise en attente, remise, marquée comme lue) sont conservés dans l'historique sur votre téléphone.</li></ul>"
+        "body": "<ul><li><b>Affichage (activé par défaut) :</b> Le titre et le texte des notifications en attente et passées vous sont présentés dans l'application. Si vous désactivez <b>Afficher le contenu des notifications</b> dans Paramètres, le contenu n'est ni lu ni conservé ; seuls le nom de l'application, l'heure et la raison de la mise en attente sont affichés.</li><li><b>Durée de conservation (30 jours par défaut) :</b> L'historique et le contenu sont conservés chiffrés sur votre téléphone pendant 30 jours. Dans Paramètres, vous pouvez choisir 7, 90 ou 365 jours, ou désactiver la suppression automatique. Si vous désactivez l'affichage du contenu, le contenu stocké est supprimé. L'archive n'est pas affectée par ce nettoyage.</li><li><b>Vos propres mots :</b> Si vous ajoutez des mots spoiler ou des groupes de mots d'archivage, le titre et le texte sont comparés à ces mots sur votre téléphone.</li><li><b>Filtre de type de notification :</b> Afin que vous puissiez reconnaître les types, un exemple de titre par type de notification d'une application est conservé chiffré sur votre téléphone.</li><li><b>Journal de l'historique :</b> Pour chaque notification reçue par votre téléphone, l'application, l'heure et ce qui s'est passé (arrivée immédiatement, mise en attente, remise, marquée comme lue) sont conservés dans l'historique sur votre téléphone.</li></ul>"
       },
       {
         "h": "Archive de notifications",
@@ -669,6 +669,22 @@
     "lead": "Les nouveautés de ha!shh. L'application est encore en développement : tout ce qui figure ici fait partie de la version de développement et sera disponible sur Google Play lors du lancement."
   },
   "news": [
+    {
+      "date": "2026-10-28",
+      "h": "Configuration en quatre questions, Tout juste arrivées et écrans simplifiés",
+      "items": [
+        "<b>Configuration en quatre questions :</b> Quand vous ne souhaitez pas être dérangé, qui doit toujours pouvoir vous joindre, comment vous voulez voir le reste et ce qui peut vous réveiller la nuit. Vos réponses configurent ensemble les modes, la remise, les notifications importantes et les exceptions de sommeil.",
+        "<b>Concentration toute la journée :</b> Lors de la configuration, vous pouvez choisir un profil de concentration sans heure de fin : seuls les appels et les notifications importantes que vous choisissez arrivent immédiatement ; le reste attend dans le widget de l'écran d'accueil. Sur l'écran Aujourd'hui, vous pouvez également laisser Concentration sur « Jusqu'à ce que je le désactive ».",
+        "<b>Tout juste arrivées sur le calendrier de bureau :</b> Avec le téléphone à l'horizontale, les notifications arrivées sans avoir été retenues (par ex. les messages) s'affichent sous forme de petites icônes pour la dernière heure écoulée ; appuyez sur l'une d'elles pour ouvrir la notification. Le contenu de la notification n'est pas affiché.",
+        "<b>Carte d'aperçu sur le calendrier de bureau :</b> Appuyez sur l'icône d'une application ayant des notifications en attente et une petite carte s'ouvre pour lister ce qui est en attente pour cette application ; un second appui ouvre la notification. La carte ne masque pas l'horloge, et aucun texte n'est affiché si l'accès au contenu est désactivé.",
+        "<b>Détail par application dans le récapitulatif de remise :</b> Dans Historique → Récapitulatif de remise, appuyez sur une catégorie pour voir combien de notifications proviennent de quelle application.",
+        "<b>Reconnaissance de l'état des commandes :</b> Si l'accès au contenu est activé, les statuts tels que « en cours de livraison », « coursier en route » et « livré » sont reconnus dans 14 langues dans les applications d'achats et de repas ; les publicités ne le sont pas. Lorsque l'accès est désactivé, le texte n'est pas lu.",
+        "<b>Dans le monde entier :</b> Les applications bancaires, d'achats et de livraison courantes aux États-Unis, au Canada, au Royaume-Uni, en Allemagne, en Espagne, aux Pays-Bas, en Scandinavie, au Japon, en Corée du Sud et en Australie arrivent dans le bon groupe. Toutes les heures respectent le réglage 12/24 heures de votre téléphone.",
+        "<b>Écrans simplifiés :</b> La section Règles dispose d'un bouton unique « Ajouter une règle » et d'un assistant de règle en trois étapes. Paramètres affiche d'abord sept éléments essentiels, le reste se trouvant sous « Plus ». Les modes Travail, École, Réunion, Vacances et Conduite sont masqués pour l'instant ; les programmes créés avec ceux-ci continuent de fonctionner.",
+        "<b>Le blocage permanent l'emporte toujours :</b> Une application ou un type que vous avez définitivement mis en sourdine reste silencieux même s'il figure sur la liste « Toujours distribuer ».",
+        "<b>Corrections :</b> Ouvrir une notification depuis l'Historique fonctionne à nouveau sur Android 14 et versions ultérieures (par ex. Gmail) ; un nouveau message WhatsApp dans la même conversation émet désormais un son ; aucune ligne de groupe vide ne subsiste dans le volet des notifications ; faire défiler le Flux ne fait plus sautiller l'écran ; les panneaux ne masquent pas l'horloge en mode paysage ; sur le calendrier de bureau, la luminosité n'est réduite que si « Vue bureau basse consommation » est sélectionnée ; les heures de remise que vous avez supprimées ne réapparaissent pas."
+      ]
+    },
     {
       "date": "2026-10-21",
       "h": "10 langues, widgets et vue bureau",

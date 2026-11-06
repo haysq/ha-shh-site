@@ -543,7 +543,7 @@
     "title": "Gizlilik politikası · {brand}",
     "desc": "Bildirim uygulamasının verileri nasıl ele aldığı: internet izni yok, her şey telefonda şifreli kalır; içerik gösterme, saklama ve otomatik arşiv senin kontrolünde.",
     "h1": "Gizlilik politikası",
-    "updated": "Son güncelleme: 21 Ekim 2026",
+    "updated": "Son güncelleme: 28 Ekim 2026",
     "intro": "Kısaca: Uygulamanın internet izni yoktur ve hiçbir yere bir şey göndermez. Sakladığı her şey telefonunda şifreli durur ve onu yalnız sen görürsün. Bildirim içeriği uygulamada gösterilir ve senin seçtiğin süre boyunca saklanır; banka ödemeleri, kuponlar, harcamalar ve faturalar otomatik arşive girer. Bunların hepsini Ayarlar'dan kapatabilirsin.",
     "sections": [
       {
@@ -556,7 +556,7 @@
       },
       {
         "h": "Bildirim içeriği",
-        "body": "<ul><li><b>Gösterme (varsayılan açık):</b> Bekleyen ve geçmişteki bildirimlerin başlığı ve metni uygulamada sana gösterilir. Ayarlar'da <b>Bildirim içeriğini göster</b> seçeneğini kapatırsan içerik okunmaz ve saklanmaz; yalnız uygulama adı, saat ve bekleme nedeni görünür.</li><li><b>Saklama süresi (senin seçimin):</b> Geçmiş ve içerik telefonda şifreli tutulur. Ne kadar saklanacağını kurulumda seçersin (7, 30, 90 ya da 365 gün ya da otomatik silme yok) ve sonra Ayarlar'dan değiştirebilirsin. Süre seçmezsen hiçbir kayıt kendiliğinden silinmez; geçmiş çok yer kaplarsa eski kayıtları temizlemek isteyip istemediğin sorulur. İçerik göstermeyi kapatınca içerik silinir. Arşiv bu temizlikten etkilenmez.</li><li><b>Senin kelimelerin:</b> Spoiler kelimeleri ya da arşiv kelime grupları eklersen başlık ve metin telefonda bu kelimelerle karşılaştırılır.</li><li><b>Bildirim türü filtresi:</b> Türleri tanıyabilmen için bir uygulamanın her bildirim türünden bir örnek başlık telefonda şifreli olarak saklanır.</li><li><b>Geçmiş kaydı:</b> Telefona gelen her bildirim için uygulama, saat ve ne olduğu (hemen geldi, bekletildi, teslim edildi, okundu sayıldı) Geçmiş'te telefonda tutulur.</li></ul>"
+        "body": "<ul><li><b>Gösterme (varsayılan açık):</b> Bekleyen ve geçmişteki bildirimlerin başlığı ve metni uygulamada sana gösterilir. Ayarlar'da <b>Bildirim içeriğini göster</b> seçeneğini kapatırsan içerik okunmaz ve saklanmaz; yalnız uygulama adı, saat ve bekleme nedeni görünür.</li><li><b>Saklama süresi (varsayılan 30 gün):</b> Geçmiş ve içerik telefonda şifreli tutulur ve 30 gün saklanır. Ayarlar'dan 7, 90 ya da 365 gün seçebilir ya da otomatik silmeyi kapatabilirsin. İçerik göstermeyi kapatınca saklanan içerik silinir. Arşiv bu temizlikten etkilenmez.</li><li><b>Senin kelimelerin:</b> Spoiler kelimeleri ya da arşiv kelime grupları eklersen başlık ve metin telefonda bu kelimelerle karşılaştırılır.</li><li><b>Bildirim türü filtresi:</b> Türleri tanıyabilmen için bir uygulamanın her bildirim türünden bir örnek başlık telefonda şifreli olarak saklanır.</li><li><b>Geçmiş kaydı:</b> Telefona gelen her bildirim için uygulama, saat ve ne olduğu (hemen geldi, bekletildi, teslim edildi, okundu sayıldı) Geçmiş'te telefonda tutulur.</li></ul>"
       },
       {
         "h": "Bildirim arşivi",
@@ -669,6 +669,22 @@
     "lead": "ha!shh'ta neler yeni. Uygulama hâlâ geliştiriliyor: burada yazanların hepsi geliştirme sürümünde ve lansmanla birlikte Google Play'e gelecek."
   },
   "news": [
+    {
+      "date": "2026-10-28",
+      "h": "Dört soruluk kurulum, Az önce gelenler ve sade ekranlar",
+      "items": [
+        "<b>Dört soruluk kurulum:</b> Ne zaman rahatsız edilmek istemediğin, kimin her zaman ulaşacağı, kalanları nasıl görmek istediğin ve gece seni neyin uyandırabileceği. Cevaplarınla modlar, teslim şekli, önemli bildirimler ve uyku izinleri birlikte kurulur.",
+        "<b>Gün boyu odak:</b> Kurulumda bitişi olmayan bir odak profili seçebilirsin: yalnız aramalar ve seçtiğin önemli bildirimler hemen gelir, gerisi ana ekran widget'ında bekler. Bugün ekranında Odaklanma'yı “Ben kapatana kadar” açık da tutabilirsin.",
+        "<b>Masa takviminde Az önce gelenler:</b> Telefon yatayken, bekletilmeden gelen bildirimler (ör. mesajlar) son bir saat boyunca küçük simgeler olarak görünür; dokununca bildirime gidersin. Bildirim içeriği gösterilmez.",
+        "<b>Masa takviminde önizleme kartı:</b> Bekleyen bir uygulamanın simgesine dokununca küçük bir kart açılır ve o uygulamanın bekleyenleri listelenir; ikinci dokunuş bildirimi açar. Kart saati örtmez; içerik izni kapalıysa metin gösterilmez.",
+        "<b>Teslim özetinde uygulama dökümü:</b> Geçmiş → Teslim özeti'nde bir kategoriye basınca hangi uygulamadan kaç bildirim geldiğini görürsün.",
+        "<b>Sipariş durumu tanıma:</b> İçerik izni açıksa sipariş ve yemek uygulamalarında “yola çıktı”, “kurye yolda”, “teslim edildi” gibi durumlar 14 dilde tanınır; reklamlar tanınmaz. İzin kapalıyken metin okunmaz.",
+        "<b>Dünya çapında:</b> ABD, Kanada, Birleşik Krallık, Almanya, İspanya, Hollanda, İskandinavya, Japonya, Güney Kore ve Avustralya'da yaygın banka, alışveriş ve kargo uygulamaları doğru gruba girer. Bütün saatler telefonunun 12/24 saat ayarına uyar.",
+        "<b>Daha sade ekranlar:</b> Kurallar ekranında tek “Kural ekle” düğmesi ve üç adımlı kural sihirbazı var. Ayarlar ilk açılışta yedi temel ayar gösterir, gerisi “Daha fazla” altında. İş, Okul, Toplantı, Tatil ve Sürüş modları şimdilik listede görünmüyor; bunlarla kurduğun planlar çalışmaya devam eder.",
+        "<b>Kalıcı engel her zaman kazanır:</b> Kalıcı olarak susturduğun bir uygulama ya da tür, “her zaman gelsin” listesinde olsa bile gelmez.",
+        "<b>Düzeltmeler:</b> Geçmiş'ten bildirim açmak Android 14 ve sonrasında (ör. Gmail) yeniden çalışıyor; aynı sohbetteki yeni WhatsApp mesajı sesle uyarır; bildirim panelinde boş grup satırı kalmıyor; Akış'ta kaydırınca ekran sıçramıyor; yatay ekranda paneller saati örtmüyor; masa takviminde parlaklık yalnız “Düşük güç masa görünümü” seçiliyse kısılır; sildiğin teslim saatleri geri gelmiyor."
+      ]
+    },
     {
       "date": "2026-10-21",
       "h": "10 dil, widget'lar ve masa görünümü",

@@ -543,7 +543,7 @@
     "title": "Política de privacidade · {brand}",
     "desc": "Como o app de notificações lida com os dados: sem permissão de internet, tudo permanece criptografado no seu celular; a exibição de conteúdo, a retenção e o arquivo automático estão sob seu controle.",
     "h1": "Política de privacidade",
-    "updated": "Última atualização: 21 de outubro de 2026",
+    "updated": "Última atualização: 28 de outubro de 2026",
     "intro": "Em resumo: o app não tem permissão de internet e não envia nada para lugar nenhum. Tudo o que ele guarda permanece criptografado no seu celular, e só você vê. O conteúdo das notificações é mostrado no app e guardado pelo tempo que você escolher, e pagamentos bancários, cupons, gastos e contas vão para o arquivo automático. Você pode desativar tudo isso nas Configurações.",
     "sections": [
       {
@@ -556,7 +556,7 @@
       },
       {
         "h": "Conteúdo das notificações",
-        "body": "<ul><li><b>Exibição (ativada por padrão):</b> O título e o texto das notificações em espera e anteriores são mostrados a você no app. Se você desativar <b>Mostrar conteúdo das notificações</b> nas Configurações, o conteúdo não é lido nem guardado; apenas o nome do app, o horário e o motivo da retenção são mostrados.</li><li><b>Por quanto tempo é mantido (sua escolha):</b> O Histórico e o conteúdo são mantidos criptografados no seu celular. Você escolhe por quanto tempo durante a configuração (7, 30, 90 ou 365 dias, ou sem exclusão automática) e pode alterar mais tarde nas Configurações. Se você não escolher, nada é excluído automaticamente; se o Histórico ocupar muito espaço, é perguntado a você se deseja limpar registros antigos. O conteúdo é excluído quando você desativa a exibição de conteúdo. O arquivo não é afetado por essa limpeza.</li><li><b>Suas próprias palavras:</b> Se você adicionar palavras de spoiler ou grupos de palavras de arquivamento, o título e o texto são comparados com essas palavras no seu celular.</li><li><b>Filtro por tipo de notificação:</b> Para que você possa reconhecer os tipos, um título de exemplo por tipo de notificação de um app é mantido criptografado no seu celular.</li><li><b>Registro do Histórico:</b> Para cada notificação que seu celular recebe, o app, o horário e o que aconteceu (passou direto, retida, entregue, marcada como lida) são guardados no Histórico no seu celular.</li></ul>"
+        "body": "<ul><li><b>Exibição (ativada por padrão):</b> O título e o texto das notificações em espera e anteriores são mostrados a você no app. Se você desativar <b>Mostrar conteúdo das notificações</b> nas Configurações, o conteúdo não é lido nem guardado; apenas o nome do app, o horário e o motivo da retenção são mostrados.</li><li><b>Por quanto tempo é mantido (30 dias por padrão):</b> O Histórico e o conteúdo são mantidos criptografados no seu celular por 30 dias. Nas Configurações, você pode escolher 7, 90 ou 365 dias, ou desativar a exclusão automática. Se você desativar a exibição de conteúdo, o conteúdo armazenado é excluído. O arquivo não é afetado por essa limpeza.</li><li><b>Suas próprias palavras:</b> Se você adicionar palavras de spoiler ou grupos de palavras de arquivamento, o título e o texto são comparados com essas palavras no seu celular.</li><li><b>Filtro por tipo de notificação:</b> Para que você possa reconhecer os tipos, um título de exemplo por tipo de notificação de um app é mantido criptografado no seu celular.</li><li><b>Registro do Histórico:</b> Para cada notificação que seu celular recebe, o app, o horário e o que aconteceu (passou direto, retida, entregue, marcada como lida) são guardados no Histórico no seu celular.</li></ul>"
       },
       {
         "h": "Arquivo de notificações",
@@ -669,6 +669,22 @@
     "lead": "Novidades no ha!shh. O app ainda está em desenvolvimento: tudo o que está aqui faz parte da versão de desenvolvimento e chega ao Google Play no lançamento."
   },
   "news": [
+    {
+      "date": "2026-10-28",
+      "h": "Configuração de quatro perguntas, Recém-chegadas e telas mais simples",
+      "items": [
+        "<b>Configuração de quatro perguntas:</b> Quando você não quer ser incomodado, quem deve sempre conseguir falar com você, como quer ver o restante e o que pode te acordar à noite. Suas respostas configuram modos, entrega, notificações importantes e exceções de sono em conjunto.",
+        "<b>Foco o dia todo:</b> Durante a configuração, você pode escolher um perfil de foco sem horário de término: apenas chamadas e as notificações importantes que você escolher passam direto; o restante espera no widget da tela inicial. Na tela Hoje, você também pode manter o Foco em “Até eu desativar”.",
+        "<b>Recém-chegadas no calendário de mesa:</b> Com o celular de lado, as notificações que passaram direto sem serem retidas (ex.: mensagens) aparecem como ícones pequenos durante a última hora; toque em uma para abrir a notificação. O conteúdo da notificação não é exibido.",
+        "<b>Cartão de prévia no calendário de mesa:</b> Toque no ícone de um app com notificações em espera e um pequeno cartão se abrirá listando o que está aguardando daquele app; um segundo toque abre a notificação. O cartão não cobre o relógio e nenhum texto é exibido se o acesso ao conteúdo estiver desativado.",
+        "<b>Detalhamento por app no resumo de entrega:</b> Em Histórico → Resumo de entrega, toque em uma categoria para ver quantas notificações vieram de qual app.",
+        "<b>Reconhecimento de status de pedidos:</b> Se o acesso ao conteúdo estiver ativado, status como “saiu para entrega”, “entregador a caminho” e “entregue” são reconhecidos em 14 idiomas em apps de compras e comida; anúncios não. Com o acesso desativado, o texto não é lido.",
+        "<b>No mundo todo:</b> Apps populares de banco, compras e entregas nos EUA, Canadá, Reino Unido, Alemanha, Espanha, Países Baixos, Escandinávia, Japão, Coreia do Sul e Austrália vão para o grupo correto. Todos os horários seguem a configuração de 12/24 horas do seu celular.",
+        "<b>Telas mais simples:</b> Regras tem um único botão “Adicionar regra” e um assistente de regras de três etapas. Configurações mostra sete itens essenciais primeiro, com o restante sob “Mais”. Os modos Trabalho, Escola, Reunião, Férias e Direção estão ocultos por enquanto; planos que você criou com eles continuam funcionando.",
+        "<b>O bloqueio permanente sempre vence:</b> Um app ou tipo que você silenciou permanentemente continua em silêncio mesmo se estiver na lista “sempre entregar”.",
+        "<b>Correções:</b> Abrir uma notificação do Histórico voltou a funcionar no Android 14 e posteriores (ex.: Gmail); uma nova mensagem do WhatsApp na mesma conversa agora reproduz um som; nenhuma linha de grupo vazia é deixada no painel de notificações; rolar pelo Feed não faz mais a tela pular; painéis não cobrem o relógio no modo paisagem; no calendário de mesa, o brilho só é reduzido se o “Modo mesa de baixo consumo” estiver selecionado; horários de entrega excluídos não voltam."
+      ]
+    },
     {
       "date": "2026-10-21",
       "h": "10 idiomas, widgets e modo mesa",

@@ -543,7 +543,7 @@
     "title": "Kebijakan privasi · {brand}",
     "desc": "Cara aplikasi notifikasi menangani data: tanpa izin internet, semuanya tetap terenkripsi di ponsel Anda; tampilan isi, penyimpanan, dan arsip otomatis berada di bawah kendali Anda.",
     "h1": "Kebijakan privasi",
-    "updated": "Terakhir diperbarui: 21 Oktober 2026",
+    "updated": "Terakhir diperbarui: 28 Oktober 2026",
     "intro": "Singkatnya: aplikasi ini tidak memiliki izin internet dan tidak mengirim apa pun ke mana pun. Semua yang disimpannya tetap terenkripsi di ponsel Anda, dan hanya Anda yang melihatnya. Isi notifikasi ditampilkan di dalam aplikasi dan disimpan selama yang Anda pilih, dan pembayaran bank, kupon, pengeluaran, serta tagihan masuk ke arsip otomatis. Anda dapat menonaktifkan semua ini di Pengaturan.",
     "sections": [
       {
@@ -556,7 +556,7 @@
       },
       {
         "h": "Konten notifikasi",
-        "body": "<ul><li><b>Tampilan (aktif secara default):</b> Judul dan teks notifikasi yang menunggu dan yang lalu ditampilkan kepada Anda di dalam aplikasi. Jika Anda menonaktifkan <b>Tampilkan isi notifikasi</b> di Pengaturan, isi tidak dibaca maupun disimpan; hanya nama aplikasi, waktu, dan alasan penundaan yang ditampilkan.</li><li><b>Berapa lama disimpan (pilihan Anda):</b> Riwayat dan isi disimpan terenkripsi di ponsel Anda. Anda memilih berapa lama saat penyiapan (7, 30, 90 atau 365 hari, atau tanpa penghapusan otomatis) dan dapat mengubahnya nanti di Pengaturan. Jika Anda tidak memilih, tidak ada yang dihapus secara otomatis; jika Riwayat memakan banyak ruang, Anda akan ditanya apakah ingin membersihkan catatan lama. Isi dihapus saat Anda menonaktifkan tampilan isi. Arsip tidak terpengaruh oleh pembersihan ini.</li><li><b>Kata-kata Anda sendiri:</b> Jika Anda menambahkan kata-kata spoiler atau grup kata arsip, judul dan teks akan dibandingkan dengan kata-kata tersebut di ponsel Anda.</li><li><b>Filter jenis notifikasi:</b> Agar Anda dapat mengenali jenis-jenisnya, satu contoh judul per jenis notifikasi dari suatu aplikasi disimpan terenkripsi di ponsel Anda.</li><li><b>Log riwayat:</b> Untuk setiap notifikasi yang diterima ponsel Anda, aplikasi, waktu, dan apa yang terjadi (langsung masuk, ditahan, dikirimkan, ditandai sebagai telah dibaca) disimpan di Riwayat di ponsel Anda.</li></ul>"
+        "body": "<ul><li><b>Tampilan (aktif secara default):</b> Judul dan teks notifikasi yang menunggu dan yang lalu ditampilkan kepada Anda di dalam aplikasi. Jika Anda menonaktifkan <b>Tampilkan isi notifikasi</b> di Pengaturan, isi tidak dibaca maupun disimpan; hanya nama aplikasi, waktu, dan alasan penundaan yang ditampilkan.</li><li><b>Berapa lama disimpan (default 30 hari):</b> Riwayat dan isi disimpan terenkripsi di ponsel Anda selama 30 hari. Di Pengaturan, Anda dapat memilih 7, 90, atau 365 hari, atau menonaktifkan penghapusan otomatis. Jika Anda menonaktifkan tampilan isi, isi yang tersimpan akan dihapus. Arsip tidak terpengaruh oleh pembersihan ini.</li><li><b>Kata-kata Anda sendiri:</b> Jika Anda menambahkan kata-kata spoiler atau grup kata arsip, judul dan teks akan dibandingkan dengan kata-kata tersebut di ponsel Anda.</li><li><b>Filter jenis notifikasi:</b> Agar Anda dapat mengenali jenis-jenisnya, satu contoh judul per jenis notifikasi dari suatu aplikasi disimpan terenkripsi di ponsel Anda.</li><li><b>Log riwayat:</b> Untuk setiap notifikasi yang diterima ponsel Anda, aplikasi, waktu, dan apa yang terjadi (langsung masuk, ditahan, dikirimkan, ditandai sebagai telah dibaca) disimpan di Riwayat di ponsel Anda.</li></ul>"
       },
       {
         "h": "Arsip notifikasi",
@@ -669,6 +669,22 @@
     "lead": "Yang baru di ha!shh. Aplikasi ini masih dalam tahap pengembangan: semua yang ada di sini berada dalam versi pengembangan dan akan hadir di Google Play saat peluncuran."
   },
   "news": [
+    {
+      "date": "2026-10-28",
+      "h": "Penyiapan empat pertanyaan, Baru tiba dan layar yang lebih sederhana",
+      "items": [
+        "<b>Penyiapan empat pertanyaan:</b> Kapan Anda tidak ingin diganggu, siapa yang harus selalu dapat menghubungi Anda, bagaimana Anda ingin melihat sisanya, dan apa yang boleh membangunkan Anda di malam hari. Jawaban Anda mengatur mode, pengiriman, notifikasi penting, dan pengecualian tidur secara bersamaan.",
+        "<b>Fokus sepanjang hari:</b> Selama penyiapan, Anda dapat memilih profil fokus tanpa waktu berakhir: hanya panggilan dan notifikasi penting yang Anda pilih yang langsung masuk; sisanya menunggu di widget layar utama. Di layar Hari Ini, Anda juga dapat mempertahankan Fokus pada “Sampai saya matikan”.",
+        "<b>Baru tiba di kalender meja:</b> Dengan ponsel dimiringkan ke samping, notifikasi yang langsung masuk tanpa ditahan (mis. pesan) akan muncul sebagai ikon kecil selama satu jam terakhir; ketuk salah satunya untuk membuka notifikasi. Konten notifikasi tidak ditampilkan.",
+        "<b>Kartu pratinjau di kalender meja:</b> Ketuk ikon aplikasi yang memiliki notifikasi menunggu dan sebuah kartu kecil akan terbuka mencantumkan apa yang sedang menunggu dari aplikasi tersebut; ketukan kedua membuka notifikasi. Kartu tidak menutupi jam, dan tidak ada teks yang ditampilkan jika akses konten dimatikan.",
+        "<b>Rincian aplikasi dalam ringkasan pengiriman:</b> Di Riwayat → Ringkasan pengiriman, ketuk suatu kategori untuk melihat berapa banyak notifikasi yang datang dari aplikasi mana.",
+        "<b>Pengenalan status pesanan:</b> Jika akses konten aktif, status seperti “sedang dikirim”, “kurir dalam perjalanan”, dan “terkirim” dikenali dalam 14 bahasa di aplikasi belanja dan makanan; iklan tidak. Dengan akses nonaktif, teks tidak dibaca.",
+        "<b>Di seluruh dunia:</b> Aplikasi perbankan, belanja, dan pengiriman yang umum di AS, Kanada, Inggris Raya, Jerman, Spanyol, Belanda, Skandinavia, Jepang, Korea Selatan, dan Australia masuk ke grup yang tepat. Semua waktu mengikuti pengaturan 12/24 jam ponsel Anda.",
+        "<b>Layar yang lebih sederhana:</b> Aturan memiliki satu tombol “Tambah aturan” dan wizard aturan tiga langkah. Pengaturan menampilkan tujuh hal penting terlebih dahulu, sisanya di bawah “Lainnya”. Mode Kerja, Sekolah, Rapat, Liburan, dan Mengemudi disembunyikan untuk saat ini; rencana yang Anda buat dengannya tetap berfungsi.",
+        "<b>Pemblokiran permanen selalu menang:</b> Aplikasi atau jenis yang telah Anda senyapkan secara permanen akan tetap senyap meskipun berada di daftar “selalu kirim”.",
+        "<b>Perbaikan:</b> Membuka notifikasi dari Riwayat berfungsi kembali di Android 14 dan yang lebih baru (mis. Gmail); pesan WhatsApp baru di obrolan yang sama kini mengeluarkan suara; tidak ada baris grup kosong yang tersisa di panel notifikasi; menggulir di Feed tidak lagi membuat layar melompat; panel tidak menutupi jam dalam mode lanskap; di kalender meja, kecerahan hanya diredupkan jika “Tampilan meja daya rendah” dipilih; waktu pengiriman yang Anda hapus tidak kembali lagi."
+      ]
+    },
     {
       "date": "2026-10-21",
       "h": "10 bahasa, widget, dan tampilan meja",

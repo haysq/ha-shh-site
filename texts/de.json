@@ -543,7 +543,7 @@
     "title": "Datenschutzerklärung · {brand}",
     "desc": "Wie die Benachrichtigungs-App mit Daten umgeht: keine Internetberechtigung, alles bleibt verschlüsselt auf deinem Telefon; Inhaltsanzeige, Aufbewahrungsdauer und das automatische Archiv stehen unter deiner Kontrolle.",
     "h1": "Datenschutzerklärung",
-    "updated": "Zuletzt aktualisiert: 21. Oktober 2026",
+    "updated": "Zuletzt aktualisiert: 28. Oktober 2026",
     "intro": "Kurz gesagt: Die App hat keine Internetberechtigung und sendet nichts irgendwohin. Alles, was sie behält, bleibt verschlüsselt auf deinem Telefon und nur du siehst es. Benachrichtigungsinhalte werden in der App angezeigt und so lange behalten, wie du möchtest, und Bankzahlungen, Gutscheine, Ausgaben und Rechnungen wandern ins automatische Archiv. Du kannst all das in den Einstellungen ausschalten.",
     "sections": [
       {
@@ -556,7 +556,7 @@
       },
       {
         "h": "Benachrichtigungsinhalte",
-        "body": "<ul><li><b>Anzeige (standardmäßig aktiviert):</b> Der Titel und der Text wartender und vergangener Benachrichtigungen werden dir in der App angezeigt. Wenn du <b>Benachrichtigungsinhalt anzeigen</b> in den Einstellungen ausschaltest, werden Inhalte weder gelesen noch behalten; nur der Name der App, die Uhrzeit und der Grund für das Warten werden angezeigt.</li><li><b>Wie lange es behalten wird (deine Wahl):</b> Verlauf und Inhalte werden verschlüsselt auf deinem Telefon aufbewahrt. Du wählst bei der Einrichtung, wie lange (7, 30, 90 oder 365 Tage oder kein automatisches Löschen), und kannst es später in den Einstellungen ändern. Wenn du nichts wählst, wird nichts automatisch gelöscht; wenn der Verlauf viel Platz belegt, wirst du gefragt, ob alte Einträge bereinigt werden sollen. Inhalte werden gelöscht, wenn du die Inhaltsanzeige ausschaltest. Das Archiv ist von dieser Bereinigung nicht betroffen.</li><li><b>Deine eigenen Wörter:</b> Wenn du Spoiler-Wörter oder Archiv-Wortgruppen hinzufügst, werden Titel und Text auf deinem Telefon mit diesen Wörtern verglichen.</li><li><b>Filter für Benachrichtigungstypen:</b> Damit du die Typen wiedererkennst, wird ein Beispiel-Titel pro Benachrichtigungstyp einer App verschlüsselt auf deinem Telefon behalten.</li><li><b>Verlaufsprotokoll:</b> Für jede Benachrichtigung, die dein Telefon empfängt, werden die App, die Uhrzeit und das, was geschah (durchgekommen, zurückgehalten, zugestellt, als gelesen markiert), im Verlauf auf deinem Telefon behalten.</li></ul>"
+        "body": "<ul><li><b>Anzeige (standardmäßig aktiviert):</b> Der Titel und der Text wartender und vergangener Benachrichtigungen werden dir in der App angezeigt. Wenn du <b>Benachrichtigungsinhalt anzeigen</b> in den Einstellungen ausschaltest, werden Inhalte weder gelesen noch behalten; nur der Name der App, die Uhrzeit und der Grund für das Warten werden angezeigt.</li><li><b>Wie lange es behalten wird (standardmäßig 30 Tage):</b> Verlauf und Inhalte werden 30 Tage lang verschlüsselt auf deinem Telefon aufbewahrt. In den Einstellungen kannst du 7, 90 oder 365 Tage wählen oder das automatische Löschen ausschalten. Wenn du die Inhaltsanzeige ausschaltest, werden gespeicherte Inhalte gelöscht. Das Archiv ist von dieser Bereinigung nicht betroffen.</li><li><b>Deine eigenen Wörter:</b> Wenn du Spoiler-Wörter oder Archiv-Wortgruppen hinzufügst, werden Titel und Text auf deinem Telefon mit diesen Wörtern verglichen.</li><li><b>Filter für Benachrichtigungstypen:</b> Damit du die Typen wiedererkennst, wird ein Beispiel-Titel pro Benachrichtigungstyp einer App verschlüsselt auf deinem Telefon behalten.</li><li><b>Verlaufsprotokoll:</b> Für jede Benachrichtigung, die dein Telefon empfängt, werden die App, die Uhrzeit und das, was geschah (durchgekommen, zurückgehalten, zugestellt, als gelesen markiert), im Verlauf auf deinem Telefon behalten.</li></ul>"
       },
       {
         "h": "Benachrichtigungsarchiv",
@@ -669,6 +669,22 @@
     "lead": "Was es Neues in ha!shh gibt. Die App ist noch in der Entwicklung: Alles hier ist in der Entwicklungsversion enthalten und kommt zum Start zu Google Play."
   },
   "news": [
+    {
+      "date": "2026-10-28",
+      "h": "Einrichtung in vier Fragen, Gerade angekommen und einfachere Bildschirme",
+      "items": [
+        "<b>Einrichtung in vier Fragen:</b> Wann du nicht gestört werden möchtest, wer dich immer erreichen darf, wie du den Rest sehen möchtest und was dich nachts wecken darf. Deine Antworten richten Modi, Zustellung, wichtige Benachrichtigungen und Schlafausnahmen gemeinsam ein.",
+        "<b>Ganztägiger Fokus:</b> Bei der Einrichtung kannst du ein Fokus-Profil ohne Endzeit wählen: Nur Anrufe und die von dir ausgewählten wichtigen Benachrichtigungen kommen sofort durch; der Rest wartet im Startbildschirm-Widget. Auf dem Heute-Bildschirm kannst du den Fokus auch auf „Bis ich ihn ausschalte“ lassen.",
+        "<b>Gerade angekommen auf dem Schreibtischkalender:</b> Wenn das Telefon im Querformat ist, werden Benachrichtigungen, die ohne Zurückhalten durchgekommen sind (z. B. Nachrichten), für die letzte Stunde als kleine Symbole angezeigt; tippe auf eines, um zur Benachrichtigung zu gelangen. Der Inhalt der Benachrichtigung wird nicht angezeigt.",
+        "<b>Vorschaukarte auf dem Schreibtischkalender:</b> Tippe auf das Symbol einer App mit wartenden Benachrichtigungen, und eine kleine Karte öffnet sich, die auflistet, was von dieser App wartet; ein zweiter Fingertipp öffnet die Benachrichtigung. Die Karte verdeckt die Uhr nicht, und es wird kein Text angezeigt, wenn der Inhaltszugriff deaktiviert ist.",
+        "<b>App-Aufschlüsselung in der Zustellungsübersicht:</b> Tippe unter Verlauf → Zustellungsübersicht auf eine Kategorie, um zu sehen, wie viele Benachrichtigungen von welcher App kamen.",
+        "<b>Erkennung des Bestellstatus:</b> Wenn der Inhaltszugriff aktiviert ist, werden Status wie „in Zustellung“, „Kurier unterwegs“ und „zugestellt“ in Einkaufs- und Essens-Apps in 14 Sprachen erkannt; Werbung nicht. Bei deaktiviertem Zugriff wird der Text nicht gelesen.",
+        "<b>Weltweit:</b> Gängige Banking-, Shopping- und Liefer-Apps in den USA, Kanada, Großbritannien, Deutschland, Spanien, den Niederlanden, Skandinavien, Japan, Südkorea und Australien landen in der richtigen Gruppe. Alle Uhrzeiten richten sich nach der 12/24-Stunden-Einstellung deines Telefons.",
+        "<b>Einfachere Bildschirme:</b> Regeln hat eine einzelne Schaltfläche „Regel hinzufügen“ und einen dreistufigen Regel-Assistenten. Einstellungen zeigt zuerst sieben Grundlagen, der Rest befindet sich unter „Mehr“. Die Modi Arbeit, Schule, Meeting, Urlaub und Fahren sind vorerst ausgeblendet; Pläne, die du damit erstellt hast, funktionieren weiterhin.",
+        "<b>Dauerhafte Blockierung gewinnt immer:</b> Eine App oder ein Typ, den du dauerhaft stummgeschaltet hast, bleibt stumm, selbst wenn er auf der Liste „Immer zustellen“ steht.",
+        "<b>Fehlerbehebungen:</b> Das Öffnen einer Benachrichtigung aus dem Verlauf funktioniert unter Android 14 und neuer wieder (z. B. Gmail); eine neue WhatsApp-Nachricht im selben Chat gibt jetzt einen Ton wieder; in der Benachrichtigungsleiste bleibt keine leere Zeile für Gruppen mehr zurück; das Scrollen im Feed lässt den Bildschirm nicht mehr springen; Bedienfelder verdecken im Querformat nicht die Uhr; auf dem Schreibtischkalender wird die Helligkeit nur gedimmt, wenn „Energiespar-Schreibtischansicht“ ausgewählt ist; gelöschte Zustellzeiten kehren nicht zurück."
+      ]
+    },
     {
       "date": "2026-10-21",
       "h": "10 Sprachen, Widgets und Schreibtischansicht",
