@@ -543,7 +543,7 @@
     "title": "Kebijakan privasi · {brand}",
     "desc": "Cara aplikasi notifikasi menangani data: tanpa izin internet, semuanya tetap terenkripsi di ponsel Anda; tampilan isi, penyimpanan, dan arsip otomatis berada di bawah kendali Anda.",
     "h1": "Kebijakan privasi",
-    "updated": "Terakhir diperbarui: 28 Oktober 2026",
+    "updated": "Terakhir diperbarui: 6 November 2026",
     "intro": "Singkatnya: aplikasi ini tidak memiliki izin internet dan tidak mengirim apa pun ke mana pun. Semua yang disimpannya tetap terenkripsi di ponsel Anda, dan hanya Anda yang melihatnya. Isi notifikasi ditampilkan di dalam aplikasi dan disimpan selama yang Anda pilih, dan pembayaran bank, kupon, pengeluaran, serta tagihan masuk ke arsip otomatis. Anda dapat menonaktifkan semua ini di Pengaturan.",
     "sections": [
       {
@@ -556,7 +556,7 @@
       },
       {
         "h": "Konten notifikasi",
-        "body": "<ul><li><b>Tampilan (aktif secara default):</b> Judul dan teks notifikasi yang menunggu dan yang lalu ditampilkan kepada Anda di dalam aplikasi. Jika Anda menonaktifkan <b>Tampilkan isi notifikasi</b> di Pengaturan, isi tidak dibaca maupun disimpan; hanya nama aplikasi, waktu, dan alasan penundaan yang ditampilkan.</li><li><b>Berapa lama disimpan (default 30 hari):</b> Riwayat dan isi disimpan terenkripsi di ponsel Anda selama 30 hari. Di Pengaturan, Anda dapat memilih 7, 90, atau 365 hari, atau menonaktifkan penghapusan otomatis. Jika Anda menonaktifkan tampilan isi, isi yang tersimpan akan dihapus. Arsip tidak terpengaruh oleh pembersihan ini.</li><li><b>Kata-kata Anda sendiri:</b> Jika Anda menambahkan kata-kata spoiler atau grup kata arsip, judul dan teks akan dibandingkan dengan kata-kata tersebut di ponsel Anda.</li><li><b>Filter jenis notifikasi:</b> Agar Anda dapat mengenali jenis-jenisnya, satu contoh judul per jenis notifikasi dari suatu aplikasi disimpan terenkripsi di ponsel Anda.</li><li><b>Log riwayat:</b> Untuk setiap notifikasi yang diterima ponsel Anda, aplikasi, waktu, dan apa yang terjadi (langsung masuk, ditahan, dikirimkan, ditandai sebagai telah dibaca) disimpan di Riwayat di ponsel Anda.</li></ul>"
+        "body": "<ul><li><b>Tampilan (dengan persetujuan Anda):</b> Jika Anda mengetuk “Terima dan lanjutkan” selama penyiapan, judul dan teks notifikasi yang menunggu dan yang lalu ditampilkan kepada Anda di aplikasi dan widget. Jika Anda tidak menyetujuinya, atau Anda mematikan <b>Tampilkan isi notifikasi</b> di Pengaturan, isi tidak dibaca maupun disimpan; hanya nama aplikasi, waktu, dan alasan menunggu yang ditampilkan. Saat kunci aplikasi aktif, widget tidak menampilkan teks.</li><li><b>Berapa lama disimpan (default 30 hari):</b> Riwayat dan isi disimpan terenkripsi di ponsel Anda selama 30 hari. Di Pengaturan, Anda dapat memilih 7, 90, atau 365 hari, atau menonaktifkan penghapusan otomatis. Pembersihan berbasis waktu ini tidak memengaruhi arsip. Jika Anda menonaktifkan tampilan isi, isi yang tersimpan akan dihapus, termasuk teks notifikasi di arsip.</li><li><b>Kata-kata Anda sendiri:</b> Jika Anda menambahkan kata-kata spoiler atau grup kata arsip, judul dan teks akan dibandingkan dengan kata-kata tersebut di ponsel Anda.</li><li><b>Filter jenis notifikasi:</b> Agar Anda dapat mengenali jenis-jenisnya, satu contoh judul per jenis notifikasi dari suatu aplikasi disimpan terenkripsi di ponsel Anda.</li><li><b>Log riwayat:</b> Untuk setiap notifikasi yang diterima ponsel Anda, aplikasi, waktu, dan apa yang terjadi (langsung masuk, ditahan, dikirimkan, ditandai sebagai telah dibaca) disimpan di Riwayat di ponsel Anda.</li></ul>"
       },
       {
         "h": "Arsip notifikasi",
@@ -568,7 +568,7 @@
       },
       {
         "h": "Izin lainnya",
-        "body": "<ul><li><b>Mengirim notifikasi:</b> untuk mengirimkan notifikasi yang ditahan dan pengingat kepada Anda.</li><li><b>Memulai saat booting:</b> untuk mengatur kembali aturan dan pengingat Anda setelah ponsel Anda dimulai ulang.</li><li><b>Getaran:</b> Agar notifikasi yang ditahan tidak bersuara, ha!shh mengelola suara notifikasi dan memutar sendiri suara serta getaran dari notifikasi yang langsung masuk. Panggilan dan alarm tidak terpengaruh; hal ini dapat dinonaktifkan di Pengaturan.</li><li><b>Menjaga tetap terjaga:</b> Agar keputusan tentang notifikasi yang tiba saat layar mati tidak tertunda, ponsel dijaga tetap terjaga selama maksimal 3 detik.</li><li><b>Kalender (opsional):</b> untuk mengubah mode selama rapat, hanya waktu mulai dan selesai serta status sibuk acara yang dibaca. Judul acara tidak dibaca.</li><li><b>Bluetooth (opsional):</b> untuk mengubah mode saat ponsel Anda terhubung ke mobil Anda. Alamat mentah perangkat tidak disimpan; hanya sidik jari yang tidak dapat diubah kembali dan nama perangkat yang Anda lihat yang disimpan, secara terenkripsi.</li></ul>"
+        "body": "<ul><li><b>Mengirim notifikasi:</b> untuk mengirimkan notifikasi yang ditahan dan pengingat kepada Anda.</li><li><b>Memulai saat booting:</b> untuk mengatur kembali aturan dan pengingat Anda setelah ponsel Anda dimulai ulang.</li><li><b>Getaran:</b> Agar notifikasi yang ditahan tidak bersuara, ha!shh mengelola suara notifikasi dan memutar sendiri suara serta getaran dari notifikasi yang langsung masuk. Panggilan dan alarm tidak terpengaruh; hal ini dapat dinonaktifkan di Pengaturan.</li><li><b>Menjaga tetap terjaga:</b> Agar keputusan tentang notifikasi yang tiba saat layar mati tidak tertunda, ponsel dijaga tetap terjaga selama maksimal 3 detik.</li><li><b>Kalender (opsional):</b> untuk mengubah mode selama rapat, hanya waktu mulai dan selesai serta status sibuk acara yang dibaca. Judul acara tidak dibaca.</li><li><b>Bluetooth (opsional):</b> untuk mengubah mode saat ponsel Anda terhubung ke mobil Anda. Alamat mentah perangkat tidak disimpan; hanya sidik jari yang tidak dapat diubah kembali dan nama perangkat yang Anda lihat yang disimpan, secara terenkripsi.</li><li><b>Alarm tepat waktu:</b> agar mode dimulai dan berakhir tepat waktu. Jika ini nonaktif, perubahan mungkin berjalan sedikit terlambat.</li></ul>"
       },
       {
         "h": "Aplikasi terinstal Anda",
@@ -596,7 +596,7 @@
       },
       {
         "h": "Ekspor dan pencadangan",
-        "body": "<p>Anda dapat menyimpan cadangan aturan dan mode Anda sebagai file. Ini mencakup nama-nama mode, mode bawaan yang tersembunyi, dan, untuk setiap mode, aplikasi, grup, serta kategori yang langsung masuk. Anda juga dapat mengekspor catatan notifikasi Anda (aplikasi, waktu, dan tindakan yang dilakukan). Tidak satu pun dari file-file ini berisi konten notifikasi. Arsip memiliki ekspornya sendiri, seperti yang dijelaskan di atas. File hanya masuk ke aplikasi atau folder yang Anda pilih. Pencadangan cloud Android dinonaktifkan untuk aplikasi ini.</p>"
+        "body": "<p>Anda dapat menyimpan cadangan aturan dan mode Anda sebagai file. Ini mencakup nama-nama mode, mode bawaan yang tersembunyi, dan, untuk setiap mode, aplikasi, grup, serta kategori yang langsung masuk. Anda juga dapat mengekspor catatan notifikasi Anda (aplikasi, waktu, dan tindakan yang dilakukan). Tidak satu pun dari file-file ini berisi konten notifikasi. Arsip memiliki ekspornya sendiri, seperti yang dijelaskan di atas. File hanya masuk ke aplikasi atau folder yang Anda pilih. Pencadangan cloud Android dinonaktifkan untuk aplikasi ini. Jika Anda membagikan notifikasi, judul dan teksnya akan dikirim ke aplikasi yang Anda pilih di lembar berbagi Android.</p>"
       },
       {
         "h": "Menghapus data Anda",
@@ -669,6 +669,19 @@
     "lead": "Yang baru di ha!shh. Aplikasi ini masih dalam tahap pengembangan: semua yang ada di sini berada dalam versi pengembangan dan akan hadir di Google Play saat peluncuran."
   },
   "news": [
+    {
+      "date": "2026-11-06",
+      "h": "Gaya widget baru dan Jadwal Kerja",
+      "items": [
+        "<b>Empat gaya widget:</b> Klasik, Dial, Tumpukan, dan Kolam. Pilih salah satu di Pengaturan; apa yang dapat Anda lakukan tetap sama. Ukuran kecil (2x2, 4x1) juga tampak pas.",
+        "<b>Widget sesuai keinginan Anda:</b> Notifikasi terbaru berada di posisi teratas, atau tempatkan yang paling lama terlebih dahulu jika Anda mau; tajuk Kemarin dan tanggal untuk hari-hari sebelumnya akan muncul. Anda dapat menyembunyikan konten suatu aplikasi di widget: baris tetap ada, teks tidak ditampilkan. Saat tidak ada yang menunggu, widget dapat menampilkan emoji atau foto Anda sendiri.",
+        "<b>Jadwal Kerja:</b> Atur jadwal tetap atau kerja giliran Anda di satu kartu; penyiapan menggunakan jadwal yang sama.",
+        "<b>Penundaan di setiap mode:</b> Anda dapat menunda notifikasi aplikasi selama menit yang Anda pilih di setiap mode (mis. skor langsung). Saat pengiriman, ha!shh dapat menampilkan peringatannya sendiri dengan suara. Panggilan, alarm, dan pemblokiran permanen tidak terpengaruh.",
+        "<b>Membagikan notifikasi:</b> Jika akses konten aktif, Anda dapat membagikan judul dan teks notifikasi ke aplikasi yang Anda pilih.",
+        "<b>Persetujuan yang jelas:</b> Konten notifikasi hanya dibaca dan ditampilkan jika Anda mengetuk “Terima dan lanjutkan” selama penyiapan. Ketuk “Nanti saja” dan aplikasi hanya akan berfungsi dengan nama aplikasi, jenis notifikasi, dan waktu.",
+        "<b>Perbaikan:</b> Penundaan penahanan berkurang saat notifikasi datang bertubi-tubi; menandai banyak notifikasi sebagai telah dibaca tidak lagi membuat aplikasi macet; jika akses notifikasi terputus, aplikasi mencoba terhubung kembali; menggulir di Feed tidak lagi menyegarkan halaman atau menghilangkan Urungkan; Urungkan berfungsi pada kartu terakhir; menjaga layar tetap menyala dalam tampilan meja, termasuk saat menggunakan baterai, dapat diatur di Pengaturan."
+      ]
+    },
     {
       "date": "2026-10-28",
       "h": "Penyiapan empat pertanyaan, Baru tiba dan layar yang lebih sederhana",

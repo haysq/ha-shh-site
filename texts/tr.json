@@ -543,7 +543,7 @@
     "title": "Gizlilik politikası · {brand}",
     "desc": "Bildirim uygulamasının verileri nasıl ele aldığı: internet izni yok, her şey telefonda şifreli kalır; içerik gösterme, saklama ve otomatik arşiv senin kontrolünde.",
     "h1": "Gizlilik politikası",
-    "updated": "Son güncelleme: 28 Ekim 2026",
+    "updated": "Son güncelleme: 6 Kasım 2026",
     "intro": "Kısaca: Uygulamanın internet izni yoktur ve hiçbir yere bir şey göndermez. Sakladığı her şey telefonunda şifreli durur ve onu yalnız sen görürsün. Bildirim içeriği uygulamada gösterilir ve senin seçtiğin süre boyunca saklanır; banka ödemeleri, kuponlar, harcamalar ve faturalar otomatik arşive girer. Bunların hepsini Ayarlar'dan kapatabilirsin.",
     "sections": [
       {
@@ -556,7 +556,7 @@
       },
       {
         "h": "Bildirim içeriği",
-        "body": "<ul><li><b>Gösterme (varsayılan açık):</b> Bekleyen ve geçmişteki bildirimlerin başlığı ve metni uygulamada sana gösterilir. Ayarlar'da <b>Bildirim içeriğini göster</b> seçeneğini kapatırsan içerik okunmaz ve saklanmaz; yalnız uygulama adı, saat ve bekleme nedeni görünür.</li><li><b>Saklama süresi (varsayılan 30 gün):</b> Geçmiş ve içerik telefonda şifreli tutulur ve 30 gün saklanır. Ayarlar'dan 7, 90 ya da 365 gün seçebilir ya da otomatik silmeyi kapatabilirsin. İçerik göstermeyi kapatınca saklanan içerik silinir. Arşiv bu temizlikten etkilenmez.</li><li><b>Senin kelimelerin:</b> Spoiler kelimeleri ya da arşiv kelime grupları eklersen başlık ve metin telefonda bu kelimelerle karşılaştırılır.</li><li><b>Bildirim türü filtresi:</b> Türleri tanıyabilmen için bir uygulamanın her bildirim türünden bir örnek başlık telefonda şifreli olarak saklanır.</li><li><b>Geçmiş kaydı:</b> Telefona gelen her bildirim için uygulama, saat ve ne olduğu (hemen geldi, bekletildi, teslim edildi, okundu sayıldı) Geçmiş'te telefonda tutulur.</li></ul>"
+        "body": "<ul><li><b>Gösterme (senin onayınla):</b> Kurulumda “Kabul et ve devam” dersen bekleyen ve geçmişteki bildirimlerin başlığı ve metni uygulamada ve widget'ta sana gösterilir. Onay vermezsen ya da Ayarlar'da <b>Bildirim içeriğini göster</b> seçeneğini kapatırsan içerik okunmaz ve saklanmaz; yalnız uygulama adı, saat ve bekleme nedeni görünür. Uygulama kilidi açıkken widget'ta metin gösterilmez.</li><li><b>Saklama süresi (varsayılan 30 gün):</b> Geçmiş ve içerik telefonda şifreli tutulur ve 30 gün saklanır. Ayarlar'dan 7, 90 ya da 365 gün seçebilir ya da otomatik silmeyi kapatabilirsin. Süre dolunca yapılan temizlik arşivi etkilemez. İçerik göstermeyi kapatınca saklanan içerik silinir; arşivdeki bildirim metinleri de buna dahildir.</li><li><b>Senin kelimelerin:</b> Spoiler kelimeleri ya da arşiv kelime grupları eklersen başlık ve metin telefonda bu kelimelerle karşılaştırılır.</li><li><b>Bildirim türü filtresi:</b> Türleri tanıyabilmen için bir uygulamanın her bildirim türünden bir örnek başlık telefonda şifreli olarak saklanır.</li><li><b>Geçmiş kaydı:</b> Telefona gelen her bildirim için uygulama, saat ve ne olduğu (hemen geldi, bekletildi, teslim edildi, okundu sayıldı) Geçmiş'te telefonda tutulur.</li></ul>"
       },
       {
         "h": "Bildirim arşivi",
@@ -568,7 +568,7 @@
       },
       {
         "h": "Diğer izinler",
-        "body": "<ul><li><b>Bildirim gönderme:</b> bekletilen bildirimleri ve hatırlatmaları sana ulaştırmak için.</li><li><b>Açılışta başlama:</b> telefon yeniden başlayınca kurallarını ve hatırlatmalarını geri kurmak için.</li><li><b>Titreşim:</b> Bekletilen bildirimler ses çıkarmasın diye ha!shh bildirim seslerini yönetir ve hemen gelen bildirimlerin sesini ve titreşimini kendisi çalar. Aramalar ve alarmlar etkilenmez; Ayarlar'dan kapatılabilir.</li><li><b>Uyanık tutma:</b> Ekran kapalıyken gelen bir bildirimin kararı gecikmesin diye telefon en fazla 3 saniye uyanık tutulur.</li><li><b>Takvim (isteğe bağlı):</b> toplantılar sırasında modu değiştirmek için yalnız etkinliklerin başlangıç ve bitiş saati ile meşgul bilgisi okunur. Etkinlik başlıkları okunmaz.</li><li><b>Bluetooth (isteğe bağlı):</b> telefon arabana bağlanınca modu değiştirmek için. Cihazın ham adresi saklanmaz; yalnız geri çözülemeyen bir parmak izi ve senin gördüğün cihaz adı şifreli tutulur.</li></ul>"
+        "body": "<ul><li><b>Bildirim gönderme:</b> bekletilen bildirimleri ve hatırlatmaları sana ulaştırmak için.</li><li><b>Açılışta başlama:</b> telefon yeniden başlayınca kurallarını ve hatırlatmalarını geri kurmak için.</li><li><b>Titreşim:</b> Bekletilen bildirimler ses çıkarmasın diye ha!shh bildirim seslerini yönetir ve hemen gelen bildirimlerin sesini ve titreşimini kendisi çalar. Aramalar ve alarmlar etkilenmez; Ayarlar'dan kapatılabilir.</li><li><b>Uyanık tutma:</b> Ekran kapalıyken gelen bir bildirimin kararı gecikmesin diye telefon en fazla 3 saniye uyanık tutulur.</li><li><b>Takvim (isteğe bağlı):</b> toplantılar sırasında modu değiştirmek için yalnız etkinliklerin başlangıç ve bitiş saati ile meşgul bilgisi okunur. Etkinlik başlıkları okunmaz.</li><li><b>Bluetooth (isteğe bağlı):</b> telefon arabana bağlanınca modu değiştirmek için. Cihazın ham adresi saklanmaz; yalnız geri çözülemeyen bir parmak izi ve senin gördüğün cihaz adı şifreli tutulur.</li><li><b>Kesin alarm:</b> Modların tam saatinde başlayıp bitmesi için. Bu izin kapalıysa geçişler biraz gecikebilir.</li></ul>"
       },
       {
         "h": "Yüklü uygulamaların",
@@ -596,7 +596,7 @@
       },
       {
         "h": "Dışa aktarma ve yedek",
-        "body": "<p>Kurallarının ve modlarının yedeğini dosya olarak kaydedebilirsin. Yedekte mod adları, gizlenen hazır modlar ve her mod için hemen gelen uygulamalar, gruplar ve kategoriler bulunur. Bildirim kayıtlarını da (uygulama, saat ve yapılan işlem) dışa aktarabilirsin. Bu dosyaların hiçbirinde bildirim içeriği yoktur. Arşivin kendi dışa aktarması yukarıda anlatıldı. Dosyalar yalnız senin seçtiğin uygulamaya ya da klasöre gider. Bu uygulama için Android bulut yedeği kapalıdır.</p>"
+        "body": "<p>Kurallarının ve modlarının yedeğini dosya olarak kaydedebilirsin. Yedekte mod adları, gizlenen hazır modlar ve her mod için hemen gelen uygulamalar, gruplar ve kategoriler bulunur. Bildirim kayıtlarını da (uygulama, saat ve yapılan işlem) dışa aktarabilirsin. Bu dosyaların hiçbirinde bildirim içeriği yoktur. Arşivin kendi dışa aktarması yukarıda anlatıldı. Dosyalar yalnız senin seçtiğin uygulamaya ya da klasöre gider. Bu uygulama için Android bulut yedeği kapalıdır. Bir bildirimi paylaşırsan başlığı ve metni, Android'in paylaşım penceresinde senin seçtiğin uygulamaya gider.</p>"
       },
       {
         "h": "Verilerini silmek",
@@ -669,6 +669,19 @@
     "lead": "ha!shh'ta neler yeni. Uygulama hâlâ geliştiriliyor: burada yazanların hepsi geliştirme sürümünde ve lansmanla birlikte Google Play'e gelecek."
   },
   "news": [
+    {
+      "date": "2026-11-06",
+      "h": "Yeni widget stilleri ve Çalışma Programı",
+      "items": [
+        "<b>Dört widget stili:</b> Klasik, Kadran, Deste ve Havuz. Stili Ayarlar'dan seçersin; mevcut işlemler aynı kalır. Küçük boyutlar da (2x2, 4x1) düzgün görünür.",
+        "<b>Widget senin düzeninde:</b> En yeni bildirim üstte durur, istersen en eskiyi üste alırsın; Dün başlığı ve eski günlerin tarihi görünür. Bir uygulamanın içeriğini widget'ta gizleyebilirsin; satır kalır, metin görünmez. Bekleyen bildirim yokken emoji ya da kendi fotoğrafın görünebilir.",
+        "<b>Çalışma Programı:</b> Sabit ya da vardiyalı programını tek kartta kurarsın; kurulum da aynı programı kullanır.",
+        "<b>Her modda geciktirme:</b> Bir uygulamanın bildirimlerini her modda seçtiğin dakika kadar geciktirebilirsin (ör. canlı skor). Teslim anında ha!shh kendi sesli uyarısını gösterebilir. Aramalar, alarmlar ve kalıcı engeller etkilenmez.",
+        "<b>Bildirim paylaşma:</b> İçerik izni açıksa bir bildirimin başlığını ve metnini, seçtiğin uygulamayla paylaşabilirsin.",
+        "<b>Açık onay:</b> Bildirim içeriği yalnız kurulumda “Kabul et ve devam” dersen okunur ve gösterilir. “Şimdi değil” dersen uygulama yalnız uygulama adı, bildirim türü ve saatle çalışır.",
+        "<b>Düzeltmeler:</b> Art arda gelen bildirimlerde bekletme gecikmesi azaldı; çok bildirimi birden okundu saymak donmaya yol açmıyor; bildirim erişimi kopunca uygulama yeniden bağlanmayı dener; Akış'ta kaydırırken sayfa yenilenmiyor ve Geri al kaybolmuyor; son kartta Geri al çalışıyor; masa görünümünde ekranın açık kalması ve pildeyken de çalışması Ayarlar'dan seçilebiliyor."
+      ]
+    },
     {
       "date": "2026-10-28",
       "h": "Dört soruluk kurulum, Az önce gelenler ve sade ekranlar",

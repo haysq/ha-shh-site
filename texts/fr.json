@@ -543,7 +543,7 @@
     "title": "Politique de confidentialité · {brand}",
     "desc": "Comment l'application de notification traite les données : aucune autorisation internet, tout reste chiffré sur votre téléphone ; l'affichage du contenu, sa conservation et l'archive automatique sont sous votre contrôle.",
     "h1": "Politique de confidentialité",
-    "updated": "Dernière mise à jour : 28 octobre 2026",
+    "updated": "Dernière mise à jour : 6 novembre 2026",
     "intro": "En résumé : l'application n'a aucune autorisation internet et n'envoie rien nulle part. Tout ce qu'elle conserve reste chiffré sur votre téléphone, et vous seul le voyez. Le contenu des notifications est affiché dans l'application et conservé aussi longtemps que vous le choisissez, et les paiements bancaires, coupons, dépenses et factures vont dans l'archive automatique. Vous pouvez désactiver tout cela dans Paramètres.",
     "sections": [
       {
@@ -556,7 +556,7 @@
       },
       {
         "h": "Contenu des notifications",
-        "body": "<ul><li><b>Affichage (activé par défaut) :</b> Le titre et le texte des notifications en attente et passées vous sont présentés dans l'application. Si vous désactivez <b>Afficher le contenu des notifications</b> dans Paramètres, le contenu n'est ni lu ni conservé ; seuls le nom de l'application, l'heure et la raison de la mise en attente sont affichés.</li><li><b>Durée de conservation (30 jours par défaut) :</b> L'historique et le contenu sont conservés chiffrés sur votre téléphone pendant 30 jours. Dans Paramètres, vous pouvez choisir 7, 90 ou 365 jours, ou désactiver la suppression automatique. Si vous désactivez l'affichage du contenu, le contenu stocké est supprimé. L'archive n'est pas affectée par ce nettoyage.</li><li><b>Vos propres mots :</b> Si vous ajoutez des mots spoiler ou des groupes de mots d'archivage, le titre et le texte sont comparés à ces mots sur votre téléphone.</li><li><b>Filtre de type de notification :</b> Afin que vous puissiez reconnaître les types, un exemple de titre par type de notification d'une application est conservé chiffré sur votre téléphone.</li><li><b>Journal de l'historique :</b> Pour chaque notification reçue par votre téléphone, l'application, l'heure et ce qui s'est passé (arrivée immédiatement, mise en attente, remise, marquée comme lue) sont conservés dans l'historique sur votre téléphone.</li></ul>"
+        "body": "<ul><li><b>Affichage (avec votre accord) :</b> Si vous appuyez sur « Accepter et continuer » lors de la configuration, le titre et le texte des notifications en attente et passées vous sont présentés dans l'application et le widget. Si vous ne donnez pas votre accord ou si vous désactivez <b>Afficher le contenu des notifications</b> dans Paramètres, le contenu n'est ni lu ni conservé ; seuls le nom de l'application, l'heure et la raison de l'attente sont affichés. Lorsque le verrouillage de l'application est activé, le widget n'affiche aucun texte.</li><li><b>Durée de conservation (30 jours par défaut) :</b> L'historique et le contenu sont conservés chiffrés sur votre téléphone pendant 30 jours. Dans Paramètres, vous pouvez choisir 7, 90 ou 365 jours, ou désactiver la suppression automatique. Ce nettoyage basé sur la durée n'affecte pas l'archive. Si vous désactivez l'affichage du contenu, le contenu stocké est supprimé, y compris le texte des notifications dans l'archive.</li><li><b>Vos propres mots :</b> Si vous ajoutez des mots spoiler ou des groupes de mots d'archivage, le titre et le texte sont comparés à ces mots sur votre téléphone.</li><li><b>Filtre de type de notification :</b> Afin que vous puissiez reconnaître les types, un exemple de titre par type de notification d'une application est conservé chiffré sur votre téléphone.</li><li><b>Journal de l'historique :</b> Pour chaque notification reçue par votre téléphone, l'application, l'heure et ce qui s'est passé (arrivée immédiatement, mise en attente, remise, marquée comme lue) sont conservés dans l'historique sur votre téléphone.</li></ul>"
       },
       {
         "h": "Archive de notifications",
@@ -568,7 +568,7 @@
       },
       {
         "h": "Autres autorisations",
-        "body": "<ul><li><b>Publication de notifications :</b> pour vous remettre les notifications mises en attente et les rappels.</li><li><b>Lancement au démarrage :</b> pour rétablir vos règles et vos rappels après le redémarrage de votre téléphone.</li><li><b>Vibration :</b> Pour que les notifications mises en attente n'émettent aucun son, ha!shh gère les sons de notification et diffuse elle-même le son et la vibration des notifications qui arrivent immédiatement. Les appels et les alarmes ne sont pas affectés ; cela peut être désactivé dans Paramètres.</li><li><b>Maintien de l'appareil éveillé :</b> Pour que la décision concernant une notification qui arrive lorsque l'écran est éteint ne soit pas retardée, le téléphone est maintenu éveillé pendant au plus 3 secondes.</li><li><b>Calendrier (facultatif) :</b> pour changer de mode pendant les réunions, seules l'heure de début, l'heure de fin et la disponibilité des événements sont lues. Les titres des événements ne sont pas lus.</li><li><b>Bluetooth (facultatif) :</b> pour changer de mode lorsque votre téléphone se connecte à votre voiture. L'adresse brute de l'appareil n'est pas stockée ; seules une empreinte irréversible et le nom de l'appareil que vous voyez sont conservés, de manière chiffrée.</li></ul>"
+        "body": "<ul><li><b>Publication de notifications :</b> pour vous remettre les notifications mises en attente et les rappels.</li><li><b>Lancement au démarrage :</b> pour rétablir vos règles et vos rappels après le redémarrage de votre téléphone.</li><li><b>Vibration :</b> Pour que les notifications mises en attente n'émettent aucun son, ha!shh gère les sons de notification et diffuse elle-même le son et la vibration des notifications qui arrivent immédiatement. Les appels et les alarmes ne sont pas affectés ; cela peut être désactivé dans Paramètres.</li><li><b>Maintien de l'appareil éveillé :</b> Pour que la décision concernant une notification qui arrive lorsque l'écran est éteint ne soit pas retardée, le téléphone est maintenu éveillé pendant au plus 3 secondes.</li><li><b>Calendrier (facultatif) :</b> pour changer de mode pendant les réunions, seules l'heure de début, l'heure de fin et la disponibilité des événements sont lues. Les titres des événements ne sont pas lus.</li><li><b>Bluetooth (facultatif) :</b> pour changer de mode lorsque votre téléphone se connecte à votre voiture. L'adresse brute de l'appareil n'est pas stockée ; seules une empreinte irréversible et le nom de l'appareil que vous voyez sont conservés, de manière chiffrée.</li><li><b>Alarmes exactes :</b> pour que les modes démarrent et se terminent précisément à l'heure. Si cette autorisation est désactivée, les changements peuvent prendre un léger retard.</li></ul>"
       },
       {
         "h": "Vos applications installées",
@@ -596,7 +596,7 @@
       },
       {
         "h": "Exportation et sauvegarde",
-        "body": "<p>Vous pouvez enregistrer une sauvegarde de vos règles et de vos modes sous forme de fichier. Elle comprend les noms des modes, les modes intégrés masqués et, pour chaque mode, les applications, groupes et catégories qui passent immédiatement. Vous pouvez également exporter vos historiques de notifications (application, heure et action effectuée). Aucun de ces fichiers ne contient le contenu des notifications. L'archive dispose de son propre export, décrit ci-dessus. Les fichiers vont uniquement vers l'application ou le dossier que vous sélectionnez. La sauvegarde cloud d'Android est désactivée pour cette application.</p>"
+        "body": "<p>Vous pouvez enregistrer une sauvegarde de vos règles et de vos modes sous forme de fichier. Elle comprend les noms des modes, les modes intégrés masqués et, pour chaque mode, les applications, groupes et catégories qui passent immédiatement. Vous pouvez également exporter vos historiques de notifications (application, heure et action effectuée). Aucun de ces fichiers ne contient le contenu des notifications. L'archive dispose de son propre export, décrit ci-dessus. Les fichiers vont uniquement vers l'application ou le dossier que vous sélectionnez. La sauvegarde cloud d'Android est désactivée pour cette application. Si vous partagez une notification, son titre et son texte sont envoyés à l'application que vous choisissez dans la feuille de partage d'Android.</p>"
       },
       {
         "h": "Suppression de vos données",
@@ -669,6 +669,19 @@
     "lead": "Les nouveautés de ha!shh. L'application est encore en développement : tout ce qui figure ici fait partie de la version de développement et sera disponible sur Google Play lors du lancement."
   },
   "news": [
+    {
+      "date": "2026-11-06",
+      "h": "Nouveaux styles de widget et Horaires de travail",
+      "items": [
+        "<b>Quatre styles de widget :</b> Classique, Cadran, Paquet et Bassin. Choisissez-en un dans Paramètres ; ce que vous pouvez faire reste inchangé. Les petits formats (2x2, 4x1) s'affichent également parfaitement.",
+        "<b>Le widget à votre façon :</b> La notification la plus récente s'affiche en haut, ou placez la plus ancienne en premier si vous préférez ; un en-tête Hier et les dates des jours précédents apparaissent. Vous pouvez masquer le contenu d'une application dans le widget : la ligne reste, le texte ne s'affiche pas. Quand rien n'est en attente, il peut afficher un emoji ou votre propre photo.",
+        "<b>Horaires de travail :</b> Configurez votre planning fixe ou en rotation sur une seule carte ; la configuration utilise les mêmes horaires.",
+        "<b>Délai dans chaque mode :</b> Vous pouvez différer les notifications d'une application du nombre de minutes de votre choix dans chaque mode (par ex. les scores en direct). À la remise, ha!shh peut afficher sa propre alerte sonore. Les appels, les alarmes et les blocages permanents ne sont pas affectés.",
+        "<b>Partager une notification :</b> Si l'accès au contenu est activé, vous pouvez partager le titre et le texte d'une notification avec l'application de votre choix.",
+        "<b>Consentement explicite :</b> Le contenu des notifications n'est lu et affiché que si vous appuyez sur « Accepter et continuer » lors de la configuration. Appuyez sur « Pas maintenant » et l'application fonctionnera uniquement avec le nom de l'application, le type de notification et l'heure.",
+        "<b>Corrections :</b> Moins de délai de retenue lorsque les notifications arrivent en rafale ; marquer plusieurs notifications comme lues ne fige plus l'application ; si l'accès aux notifications est interrompu, l'application tente de se reconnecter ; faire défiler le Flux n'actualise plus la page et ne fait plus perdre Annuler ; Annuler fonctionne sur la dernière carte ; le maintien de l'écran allumé en vue bureau, y compris sur batterie, peut être défini dans Paramètres."
+      ]
+    },
     {
       "date": "2026-10-28",
       "h": "Configuration en quatre questions, Tout juste arrivées et écrans simplifiés",

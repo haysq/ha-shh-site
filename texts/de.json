@@ -543,7 +543,7 @@
     "title": "Datenschutzerklärung · {brand}",
     "desc": "Wie die Benachrichtigungs-App mit Daten umgeht: keine Internetberechtigung, alles bleibt verschlüsselt auf deinem Telefon; Inhaltsanzeige, Aufbewahrungsdauer und das automatische Archiv stehen unter deiner Kontrolle.",
     "h1": "Datenschutzerklärung",
-    "updated": "Zuletzt aktualisiert: 28. Oktober 2026",
+    "updated": "Zuletzt aktualisiert: 6. November 2026",
     "intro": "Kurz gesagt: Die App hat keine Internetberechtigung und sendet nichts irgendwohin. Alles, was sie behält, bleibt verschlüsselt auf deinem Telefon und nur du siehst es. Benachrichtigungsinhalte werden in der App angezeigt und so lange behalten, wie du möchtest, und Bankzahlungen, Gutscheine, Ausgaben und Rechnungen wandern ins automatische Archiv. Du kannst all das in den Einstellungen ausschalten.",
     "sections": [
       {
@@ -556,7 +556,7 @@
       },
       {
         "h": "Benachrichtigungsinhalte",
-        "body": "<ul><li><b>Anzeige (standardmäßig aktiviert):</b> Der Titel und der Text wartender und vergangener Benachrichtigungen werden dir in der App angezeigt. Wenn du <b>Benachrichtigungsinhalt anzeigen</b> in den Einstellungen ausschaltest, werden Inhalte weder gelesen noch behalten; nur der Name der App, die Uhrzeit und der Grund für das Warten werden angezeigt.</li><li><b>Wie lange es behalten wird (standardmäßig 30 Tage):</b> Verlauf und Inhalte werden 30 Tage lang verschlüsselt auf deinem Telefon aufbewahrt. In den Einstellungen kannst du 7, 90 oder 365 Tage wählen oder das automatische Löschen ausschalten. Wenn du die Inhaltsanzeige ausschaltest, werden gespeicherte Inhalte gelöscht. Das Archiv ist von dieser Bereinigung nicht betroffen.</li><li><b>Deine eigenen Wörter:</b> Wenn du Spoiler-Wörter oder Archiv-Wortgruppen hinzufügst, werden Titel und Text auf deinem Telefon mit diesen Wörtern verglichen.</li><li><b>Filter für Benachrichtigungstypen:</b> Damit du die Typen wiedererkennst, wird ein Beispiel-Titel pro Benachrichtigungstyp einer App verschlüsselt auf deinem Telefon behalten.</li><li><b>Verlaufsprotokoll:</b> Für jede Benachrichtigung, die dein Telefon empfängt, werden die App, die Uhrzeit und das, was geschah (durchgekommen, zurückgehalten, zugestellt, als gelesen markiert), im Verlauf auf deinem Telefon behalten.</li></ul>"
+        "body": "<ul><li><b>Anzeige (mit deiner Zustimmung):</b> Wenn du bei der Einrichtung auf „Akzeptieren und weiter“ tippst, werden dir der Titel und der Text wartender und vergangener Benachrichtigungen in der App und im Widget angezeigt. Wenn du nicht zustimmst oder <b>Benachrichtigungsinhalt anzeigen</b> in den Einstellungen ausschaltest, werden Inhalte weder gelesen noch behalten; nur der Name der App, die Uhrzeit und der Grund für das Warten werden angezeigt. Während die App-Sperre aktiv ist, zeigt das Widget keinen Text an.</li><li><b>Wie lange es behalten wird (standardmäßig 30 Tage):</b> Verlauf und Inhalte werden 30 Tage lang verschlüsselt auf deinem Telefon aufbewahrt. In den Einstellungen kannst du 7, 90 oder 365 Tage wählen oder das automatische Löschen ausschalten. Diese zeitbasierte Bereinigung betrifft das Archiv nicht. Wenn du die Inhaltsanzeige ausschaltest, werden gespeicherte Inhalte gelöscht, einschließlich Benachrichtigungstexten im Archiv.</li><li><b>Deine eigenen Wörter:</b> Wenn du Spoiler-Wörter oder Archiv-Wortgruppen hinzufügst, werden Titel und Text auf deinem Telefon mit diesen Wörtern verglichen.</li><li><b>Filter für Benachrichtigungstypen:</b> Damit du die Typen wiedererkennst, wird ein Beispiel-Titel pro Benachrichtigungstyp einer App verschlüsselt auf deinem Telefon behalten.</li><li><b>Verlaufsprotokoll:</b> Für jede Benachrichtigung, die dein Telefon empfängt, werden die App, die Uhrzeit und das, was geschah (durchgekommen, zurückgehalten, zugestellt, als gelesen markiert), im Verlauf auf deinem Telefon behalten.</li></ul>"
       },
       {
         "h": "Benachrichtigungsarchiv",
@@ -568,7 +568,7 @@
       },
       {
         "h": "Weitere Berechtigungen",
-        "body": "<ul><li><b>Benachrichtigungen senden:</b> um dir zurückgehaltene Benachrichtigungen und Erinnerungen zuzustellen.</li><li><b>Beim Hochfahren starten:</b> um deine Regeln und Erinnerungen nach einem Neustart deines Telefons wieder einzurichten.</li><li><b>Vibration:</b> Damit zurückgehaltene Benachrichtigungen keinen Ton von sich geben, verwaltet ha!shh Benachrichtigungstöne und spielt Ton und Vibration von Benachrichtigungen, die sofort durchkommen, selbst ab. Anrufe und Wecker sind nicht betroffen; dies kann in den Einstellungen ausgeschaltet werden.</li><li><b>Ruhezustand verhindern:</b> Damit sich die Entscheidung über eine Benachrichtigung, die bei ausgeschaltetem Bildschirm eintrifft, nicht verzögert, wird das Telefon höchstens 3 Sekunden lang wach gehalten.</li><li><b>Kalender (optional):</b> Um den Modus während Terminen zu wechseln, werden lediglich Start- und Endzeit sowie der Verfügbarkeitsstatus von Terminen gelesen. Termintitel werden nicht gelesen.</li><li><b>Bluetooth (optional):</b> Um den Modus zu wechseln, wenn sich dein Telefon mit deinem Auto verbindet. Die unformatierte Adresse des Geräts wird nicht gespeichert; nur ein unumkehrbarer Fingerabdruck und der von dir gesehene Gerätename werden verschlüsselt aufbewahrt.</li></ul>"
+        "body": "<ul><li><b>Benachrichtigungen senden:</b> um dir zurückgehaltene Benachrichtigungen und Erinnerungen zuzustellen.</li><li><b>Beim Hochfahren starten:</b> um deine Regeln und Erinnerungen nach einem Neustart deines Telefons wieder einzurichten.</li><li><b>Vibration:</b> Damit zurückgehaltene Benachrichtigungen keinen Ton von sich geben, verwaltet ha!shh Benachrichtigungstöne und spielt Ton und Vibration von Benachrichtigungen, die sofort durchkommen, selbst ab. Anrufe und Wecker sind nicht betroffen; dies kann in den Einstellungen ausgeschaltet werden.</li><li><b>Ruhezustand verhindern:</b> Damit sich die Entscheidung über eine Benachrichtigung, die bei ausgeschaltetem Bildschirm eintrifft, nicht verzögert, wird das Telefon höchstens 3 Sekunden lang wach gehalten.</li><li><b>Kalender (optional):</b> Um den Modus während Terminen zu wechseln, werden lediglich Start- und Endzeit sowie der Verfügbarkeitsstatus von Terminen gelesen. Termintitel werden nicht gelesen.</li><li><b>Bluetooth (optional):</b> Um den Modus zu wechseln, wenn sich dein Telefon mit deinem Auto verbindet. Die unformatierte Adresse des Geräts wird nicht gespeichert; nur ein unumkehrbarer Fingerabdruck und der von dir gesehene Gerätename werden verschlüsselt aufbewahrt.</li><li><b>Genaue Wecker:</b> damit Modi genau pünktlich starten und enden. Wenn dies ausgeschaltet ist, können Änderungen etwas verspätet erfolgen.</li></ul>"
       },
       {
         "h": "Deine installierten Apps",
@@ -596,7 +596,7 @@
       },
       {
         "h": "Export und Sicherung",
-        "body": "<p>Du kannst ein Backup deiner Regeln und Modi als Datei speichern. Es enthält Modusnamen, versteckte integrierte Modi und für jeden Modus die Apps, Gruppen und Kategorien, die sofort durchkommen. Du kannst auch deine Benachrichtigungsprotokolle exportieren (App, Uhrzeit und was getan wurde). Keine dieser Dateien enthält Benachrichtigungsinhalte. Das Archiv hat einen eigenen Export, wie oben beschrieben. Dateien gelangen nur in die von dir ausgewählte App oder den ausgewählten Ordner. Das Android-Cloud-Backup ist für diese App deaktiviert.</p>"
+        "body": "<p>Du kannst ein Backup deiner Regeln und Modi als Datei speichern. Es enthält Modusnamen, versteckte integrierte Modi und für jeden Modus die Apps, Gruppen und Kategorien, die sofort durchkommen. Du kannst auch deine Benachrichtigungsprotokolle exportieren (App, Uhrzeit und was getan wurde). Keine dieser Dateien enthält Benachrichtigungsinhalte. Das Archiv hat einen eigenen Export, wie oben beschrieben. Dateien gelangen nur in die von dir ausgewählte App oder den ausgewählten Ordner. Das Android-Cloud-Backup ist für diese App deaktiviert. Wenn du eine Benachrichtigung teilst, gehen deren Titel und Text an die App, die du im Freigabemenü von Android auswählst.</p>"
       },
       {
         "h": "Löschen deiner Daten",
@@ -669,6 +669,19 @@
     "lead": "Was es Neues in ha!shh gibt. Die App ist noch in der Entwicklung: Alles hier ist in der Entwicklungsversion enthalten und kommt zum Start zu Google Play."
   },
   "news": [
+    {
+      "date": "2026-11-06",
+      "h": "Neue Widget-Stile und Arbeitszeitplan",
+      "items": [
+        "<b>Vier Widget-Stile:</b> Klassisch, Zifferblatt, Stapel und Pool. Wähle einen in den Einstellungen; was du tun kannst, bleibt gleich. Auch kleine Größen (2x2, 4x1) sehen passend aus.",
+        "<b>Das Widget nach deinen Wünschen:</b> Die neueste Benachrichtigung steht oben, oder setze die älteste nach oben, wenn du möchtest; eine Gestern-Überschrift und Daten für ältere Tage werden angezeigt. Du kannst den Inhalt einer App im Widget ausblenden: Die Zeile bleibt, der Text wird nicht angezeigt. Wenn nichts wartet, kann ein Emoji oder dein eigenes Foto angezeigt werden.",
+        "<b>Arbeitszeitplan:</b> Richte deinen festen Zeitplan oder Schichtplan auf einer Karte ein; die Einrichtung verwendet denselben Zeitplan.",
+        "<b>Verzögerung in jedem Modus:</b> Du kannst Benachrichtigungen einer App in jedem Modus um die von dir gewählten Minuten verzögern (z. B. Live-Spielstände). Bei der Zustellung kann ha!shh einen eigenen Hinweis mit Ton anzeigen. Anrufe, Wecker und dauerhafte Blockierungen sind nicht betroffen.",
+        "<b>Eine Benachrichtigung teilen:</b> Wenn der Inhaltszugriff aktiviert ist, kannst du den Titel und den Text einer Benachrichtigung mit einer App deiner Wahl teilen.",
+        "<b>Eindeutige Zustimmung:</b> Benachrichtigungsinhalte werden nur gelesen und angezeigt, wenn du bei der Einrichtung auf „Akzeptieren und weiter“ tippst. Tippe auf „Nicht jetzt“, und die App funktioniert nur mit App-Name, Benachrichtigungstyp und Uhrzeit.",
+        "<b>Fehlerbehebungen:</b> Kürzere Halteverzögerung, wenn Benachrichtigungen geballt eintreffen; das Markieren vieler Benachrichtigungen als gelesen friert die App nicht mehr ein; bricht der Benachrichtigungszugriff ab, versucht die App sich neu zu verbinden; das Scrollen im Feed lädt die Seite nicht mehr neu und lässt Rückgängig nicht mehr verschwinden; Rückgängig funktioniert auf der letzten Karte; das Eingeschaltetlassen des Bildschirms in der Schreibtischansicht, auch im Akkubetrieb, kann in den Einstellungen festgelegt werden."
+      ]
+    },
     {
       "date": "2026-10-28",
       "h": "Einrichtung in vier Fragen, Gerade angekommen und einfachere Bildschirme",

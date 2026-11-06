@@ -543,7 +543,7 @@
     "title": "Privacy policy · {brand}",
     "desc": "How the notification app handles data: no internet permission, everything stays encrypted on your phone; content display, retention and the automatic archive are under your control.",
     "h1": "Privacy policy",
-    "updated": "Last updated: 28 October 2026",
+    "updated": "Last updated: 6 November 2026",
     "intro": "In short: the app has no internet permission and sends nothing anywhere. Everything it keeps stays encrypted on your phone, and only you see it. Notification content is shown in the app and kept for as long as you choose, and bank payments, coupons, spending and bills go into the automatic archive. You can turn all of this off in Settings.",
     "sections": [
       {
@@ -556,7 +556,7 @@
       },
       {
         "h": "Notification content",
-        "body": "<ul><li><b>Display (on by default):</b> The title and text of waiting and past notifications are shown to you in the app. If you turn off <b>Show notification content</b> in Settings, content is neither read nor kept; only the app name, time and reason for waiting are shown.</li><li><b>How long it's kept (30 days by default):</b> History and content are kept encrypted on your phone for 30 days. In Settings you can choose 7, 90 or 365 days, or turn automatic deletion off. If you turn off showing content, stored content is deleted. The archive is not affected by this cleanup.</li><li><b>Your own words:</b> If you add spoiler words or archive word groups, the title and text are compared with those words on your phone.</li><li><b>Notification type filter:</b> So you can recognise the types, one sample title per notification type of an app is kept encrypted on your phone.</li><li><b>History log:</b> For every notification your phone receives, the app, the time and what happened (came through, held, delivered, marked as read) are kept in History on your phone.</li></ul>"
+        "body": "<ul><li><b>Showing it (with your consent):</b> If you tap “Accept and continue” during setup, the title and text of waiting and past notifications are shown to you in the app and the widget. If you don't consent, or you turn off <b>Show notification content</b> in Settings, content isn't read or kept; only the app name, time and reason for waiting are shown. While the app lock is on, the widget shows no text.</li><li><b>How long it's kept (30 days by default):</b> History and content are kept encrypted on your phone for 30 days. In Settings you can choose 7, 90 or 365 days, or turn automatic deletion off. This time-based cleanup doesn't affect the archive. If you turn off showing content, stored content is deleted, including notification text in the archive.</li><li><b>Your own words:</b> If you add spoiler words or archive word groups, the title and text are compared with those words on your phone.</li><li><b>Notification type filter:</b> So you can recognise the types, one sample title per notification type of an app is kept encrypted on your phone.</li><li><b>History log:</b> For every notification your phone receives, the app, the time and what happened (came through, held, delivered, marked as read) are kept in History on your phone.</li></ul>"
       },
       {
         "h": "Notification archive",
@@ -568,7 +568,7 @@
       },
       {
         "h": "Other permissions",
-        "body": "<ul><li><b>Posting notifications:</b> to deliver held notifications and reminders to you.</li><li><b>Starting at boot:</b> to set your rules and reminders up again after your phone restarts.</li><li><b>Vibration:</b> So held notifications make no sound, ha!shh manages notification sounds and plays the sound and vibration of notifications that come through right away itself. Calls and alarms are not affected; this can be turned off in Settings.</li><li><b>Keeping awake:</b> So the decision about a notification that arrives while the screen is off isn't delayed, the phone is kept awake for at most 3 seconds.</li><li><b>Calendar (optional):</b> to change mode during meetings, only the start and end times and busy status of events are read. Event titles are not read.</li><li><b>Bluetooth (optional):</b> to change mode when your phone connects to your car. The device's raw address is not stored; only an irreversible fingerprint and the device name you see are kept, encrypted.</li></ul>"
+        "body": "<ul><li><b>Posting notifications:</b> to deliver held notifications and reminders to you.</li><li><b>Starting at boot:</b> to set your rules and reminders up again after your phone restarts.</li><li><b>Vibration:</b> So held notifications make no sound, ha!shh manages notification sounds and plays the sound and vibration of notifications that come through right away itself. Calls and alarms are not affected; this can be turned off in Settings.</li><li><b>Keeping awake:</b> So the decision about a notification that arrives while the screen is off isn't delayed, the phone is kept awake for at most 3 seconds.</li><li><b>Calendar (optional):</b> to change mode during meetings, only the start and end times and busy status of events are read. Event titles are not read.</li><li><b>Bluetooth (optional):</b> to change mode when your phone connects to your car. The device's raw address is not stored; only an irreversible fingerprint and the device name you see are kept, encrypted.</li><li><b>Exact alarms:</b> so modes start and end right on time. If this is off, changes may run slightly late.</li></ul>"
       },
       {
         "h": "Your installed apps",
@@ -596,7 +596,7 @@
       },
       {
         "h": "Export and backup",
-        "body": "<p>You can save a backup of your rules and modes as a file. It includes mode names, hidden built-in modes and, for each mode, the apps, groups and categories that come through right away. You can also export your notification records (app, time and what was done). Neither of these files contains notification content. The archive has its own export, described above. Files go only to the app or folder you select. Android cloud backup is turned off for this app.</p>"
+        "body": "<p>You can save a backup of your rules and modes as a file. It includes mode names, hidden built-in modes and, for each mode, the apps, groups and categories that come through right away. You can also export your notification records (app, time and what was done). Neither of these files contains notification content. The archive has its own export, described above. Files go only to the app or folder you select. Android cloud backup is turned off for this app. If you share a notification, its title and text go to the app you choose in Android's share sheet.</p>"
       },
       {
         "h": "Deleting your data",
@@ -669,6 +669,19 @@
     "lead": "What's new in ha!shh. The app is still in development: everything here is in the development build and comes to Google Play at launch."
   },
   "news": [
+    {
+      "date": "2026-11-06",
+      "h": "New widget styles and Work Schedule",
+      "items": [
+        "<b>Four widget styles:</b> Classic, Dial, Deck and Pool. Pick one in Settings; what you can do stays the same. Small sizes (2x2, 4x1) look right too.",
+        "<b>The widget, your way:</b> The newest notification sits on top, or put the oldest first if you prefer; a Yesterday heading and dates for older days appear. You can hide one app's content in the widget: the row stays, the text doesn't show. With nothing waiting, it can show an emoji or your own photo.",
+        "<b>Work Schedule:</b> Set up your fixed or shift schedule on one card; setup uses the same schedule.",
+        "<b>Delay in every mode:</b> You can delay an app's notifications by the minutes you choose in every mode (e.g. live scores). At delivery, ha!shh can show its own alert with sound. Calls, alarms and permanent blocks aren't affected.",
+        "<b>Share a notification:</b> If content access is on, you can share a notification's title and text with an app you choose.",
+        "<b>Clear consent:</b> Notification content is only read and shown if you tap “Accept and continue” during setup. Tap “Not now” and the app works with just the app name, notification type and time.",
+        "<b>Fixes:</b> Less hold delay when notifications arrive in a burst; marking many as read no longer freezes the app; if notification access drops, the app tries to reconnect; scrolling the Feed no longer refreshes the page or loses Undo; Undo works on the last card; keeping the screen on in desk view, including on battery, can be set in Settings."
+      ]
+    },
     {
       "date": "2026-10-28",
       "h": "Four-question setup, Just arrived and simpler screens",

@@ -543,7 +543,7 @@
     "title": "Política de privacidad · {brand}",
     "desc": "Cómo gestiona los datos la app de notificaciones: sin permiso de internet, todo permanece cifrado en tu teléfono; la visualización de contenido, la conservación y el archivo automático están bajo tu control.",
     "h1": "Política de privacidad",
-    "updated": "Última actualización: 28 de octubre de 2026",
+    "updated": "Última actualización: 6 de noviembre de 2026",
     "intro": "En resumen: la app no tiene permiso de internet y no envía nada a ninguna parte. Todo lo que guarda permanece cifrado en tu teléfono y solo tú lo ves. El contenido de las notificaciones se muestra en la app y se conserva durante el tiempo que elijas, y los pagos bancarios, cupones, gastos y facturas van al archivo automático. Puedes desactivar todo esto en Ajustes.",
     "sections": [
       {
@@ -556,7 +556,7 @@
       },
       {
         "h": "Contenido de las notificaciones",
-        "body": "<ul><li><b>Visualización (activada de forma predeterminada):</b> Se te muestran en la app el título y el texto de las notificaciones pendientes y pasadas. Si desactivas <b>Mostrar contenido de notificaciones</b> en Ajustes, el contenido no se lee ni se guarda; solo se muestran el nombre de la app, la hora y el motivo por el que se pausó.</li><li><b>Cuánto tiempo se guarda (30 días por defecto):</b> El Historial y el contenido se guardan cifrados en tu teléfono durante 30 días. En Ajustes puedes elegir 7, 90 o 365 días, o desactivar la eliminación automática. Si desactivas la visualización de contenido, se elimina el contenido guardado. El archivo no se ve afectado por esta limpieza.</li><li><b>Tus propias palabras:</b> Si añades palabras de spoiler o grupos de palabras de archivo, el título y el texto se comparan con esas palabras en tu teléfono.</li><li><b>Filtro de tipo de notificación:</b> Para que puedas reconocer los tipos, se guarda un título de muestra por tipo de notificación de una app cifrado en tu teléfono.</li><li><b>Registro del historial:</b> Por cada notificación que recibe tu teléfono, la app, la hora y lo que ocurrió (llegó de inmediato, pausada, entregada, marcada como leída) se guardan en el Historial en tu teléfono.</li></ul>"
+        "body": "<ul><li><b>Visualización (con tu consentimiento):</b> Si tocas «Aceptar y continuar» durante la configuración, se te muestran en la app y en el widget el título y el texto de las notificaciones pendientes y pasadas. Si no das tu consentimiento o desactivas <b>Mostrar contenido de notificaciones</b> en Ajustes, el contenido no se lee ni se guarda; solo se muestran el nombre de la app, la hora y el motivo de la espera. Con el bloqueo de la app activado, el widget no muestra texto.</li><li><b>Cuánto tiempo se guarda (30 días por defecto):</b> El Historial y el contenido se guardan cifrados en tu teléfono durante 30 días. En Ajustes puedes elegir 7, 90 o 365 días, o desactivar la eliminación automática. Esta limpieza periódica no afecta al archivo. Si desactivas la visualización de contenido, se elimina el contenido guardado, incluido el texto de las notificaciones en el archivo.</li><li><b>Tus propias palabras:</b> Si añades palabras de spoiler o grupos de palabras de archivo, el título y el texto se comparan con esas palabras en tu teléfono.</li><li><b>Filtro de tipo de notificación:</b> Para que puedas reconocer los tipos, se guarda un título de muestra por tipo de notificación de una app cifrado en tu teléfono.</li><li><b>Registro del historial:</b> Por cada notificación que recibe tu teléfono, la app, la hora y lo que ocurrió (llegó de inmediato, pausada, entregada, marcada como leída) se guardan en el Historial en tu teléfono.</li></ul>"
       },
       {
         "h": "Archivo de notificaciones",
@@ -568,7 +568,7 @@
       },
       {
         "h": "Otros permisos",
-        "body": "<ul><li><b>Publicar notificaciones:</b> para entregarte las notificaciones retenidas y recordatorios.</li><li><b>Iniciar al encender:</b> para volver a configurar tus reglas y recordatorios después de que se reinicie tu teléfono.</li><li><b>Vibración:</b> Para que las notificaciones pausadas no emitan sonido, ha!shh gestiona los sonidos de las notificaciones y reproduce ella misma el sonido y la vibración de las notificaciones que llegan de inmediato. Las llamadas y las alarmas no se ven afectadas; esto se puede desactivar en Ajustes.</li><li><b>Mantener activo:</b> Para que la decisión sobre una notificación que llega con la pantalla apagada no se demore, el teléfono se mantiene activo durante un máximo de 3 segundos.</li><li><b>Calendario (opcional):</b> para cambiar de modo durante reuniones, solo se leen las horas de inicio y fin y el estado de ocupado de los eventos. Los títulos de los eventos no se leen.</li><li><b>Bluetooth (opcional):</b> para cambiar de modo cuando tu teléfono se conecta a tu coche. No se almacena la dirección física del dispositivo; solo se conservan, cifrados, una huella digital irreversible y el nombre del dispositivo que ves.</li></ul>"
+        "body": "<ul><li><b>Publicar notificaciones:</b> para entregarte las notificaciones retenidas y recordatorios.</li><li><b>Iniciar al encender:</b> para volver a configurar tus reglas y recordatorios después de que se reinicie tu teléfono.</li><li><b>Vibración:</b> Para que las notificaciones pausadas no emitan sonido, ha!shh gestiona los sonidos de las notificaciones y reproduce ella misma el sonido y la vibración de las notificaciones que llegan de inmediato. Las llamadas y las alarmas no se ven afectadas; esto se puede desactivar en Ajustes.</li><li><b>Mantener activo:</b> Para que la decisión sobre una notificación que llega con la pantalla apagada no se demore, el teléfono se mantiene activo durante un máximo de 3 segundos.</li><li><b>Calendario (opcional):</b> para cambiar de modo durante reuniones, solo se leen las horas de inicio y fin y el estado de ocupado de los eventos. Los títulos de los eventos no se leen.</li><li><b>Bluetooth (opcional):</b> para cambiar de modo cuando tu teléfono se conecta a tu coche. No se almacena la dirección física del dispositivo; solo se conservan, cifrados, una huella digital irreversible y el nombre del dispositivo que ves.</li><li><b>Alarmas exactas:</b> para que los modos se inicien y terminen justo a tiempo. Si esto está desactivado, los cambios pueden sufrir un ligero retraso.</li></ul>"
       },
       {
         "h": "Tus apps instaladas",
@@ -596,7 +596,7 @@
       },
       {
         "h": "Exportación y copia de seguridad",
-        "body": "<p>Puedes guardar una copia de seguridad de tus reglas y modos en un archivo. Incluye los nombres de los modos, los modos integrados ocultos y, para cada modo, las apps, grupos y categorías que pasan de inmediato. También puedes exportar tus registros de notificaciones (app, hora y qué se hizo). Ninguno de estos archivos contiene el contenido de las notificaciones. El archivo tiene su propia exportación, descrita anteriormente. Los archivos solo van a la app o carpeta que selecciones. La copia de seguridad en la nube de Android está desactivada para esta app.</p>"
+        "body": "<p>Puedes guardar una copia de seguridad de tus reglas y modos en un archivo. Incluye los nombres de los modos, los modos integrados ocultos y, para cada modo, las apps, grupos y categorías que pasan de inmediato. También puedes exportar tus registros de notificaciones (app, hora y qué se hizo). Ninguno de estos archivos contiene el contenido de las notificaciones. El archivo tiene su propia exportación, descrita anteriormente. Los archivos solo van a la app o carpeta que selecciones. La copia de seguridad en la nube de Android está desactivada para esta app. Si compartes una notificación, su título y texto van a la app que elijas en la hoja para compartir de Android.</p>"
       },
       {
         "h": "Eliminación de tus datos",
@@ -669,6 +669,19 @@
     "lead": "Novedades en ha!shh. La app todavía está en desarrollo: todo lo que ves aquí está en la versión de desarrollo y llegará a Google Play en el lanzamiento."
   },
   "news": [
+    {
+      "date": "2026-11-06",
+      "h": "Nuevos estilos de widget y Horario de trabajo",
+      "items": [
+        "<b>Cuatro estilos de widget:</b> Clásico, Esfera, Baraja y Cuenca. Elige uno en Ajustes; lo que puedes hacer sigue siendo lo mismo. Los tamaños pequeños (2x2, 4x1) también se ven bien.",
+        "<b>El widget a tu manera:</b> La notificación más reciente se muestra arriba, o pon la más antigua primero si lo prefieres; aparece un encabezado de Ayer y las fechas de los días anteriores. Puedes ocultar el contenido de una app en el widget: la fila se mantiene, el texto no se muestra. Cuando no hay nada esperando, puede mostrar un emoji o tu propia foto.",
+        "<b>Horario de trabajo:</b> Configura tu horario fijo o por turnos en una sola tarjeta; la configuración utiliza el mismo horario.",
+        "<b>Retraso en todos los modos:</b> Puedes retrasar las notificaciones de una app los minutos que elijas en cada modo (p. ej., marcadores en directo). En el momento de la entrega, ha!shh puede mostrar su propia alerta con sonido. Las llamadas, las alarmas y los bloqueos permanentes no se ven afectados.",
+        "<b>Compartir una notificación:</b> Si el acceso al contenido está activado, puedes compartir el título y el texto de una notificación con la app que elijas.",
+        "<b>Consentimiento explícito:</b> El contenido de las notificaciones solo se lee y se muestra si tocas «Aceptar y continuar» durante la configuración. Toca «Ahora no» y la app funcionará solo con el nombre de la app, el tipo de notificación y la hora.",
+        "<b>Correcciones:</b> Menos retraso de retención cuando las notificaciones llegan en ráfaga; marcar muchas como leídas ya no congela la app; si se pierde el acceso a las notificaciones, la app intenta reconectarse; desplazarse por el Feed ya no recarga la página ni pierde Deshacer; Deshacer funciona en la última tarjeta; mantener la pantalla encendida en la vista de escritorio, incluso con batería, se puede configurar en Ajustes."
+      ]
+    },
     {
       "date": "2026-10-28",
       "h": "Configuración de cuatro preguntas, Recién llegadas y pantallas más simples",

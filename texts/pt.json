@@ -543,7 +543,7 @@
     "title": "Política de privacidade · {brand}",
     "desc": "Como o app de notificações lida com os dados: sem permissão de internet, tudo permanece criptografado no seu celular; a exibição de conteúdo, a retenção e o arquivo automático estão sob seu controle.",
     "h1": "Política de privacidade",
-    "updated": "Última atualização: 28 de outubro de 2026",
+    "updated": "Última atualização: 6 de novembro de 2026",
     "intro": "Em resumo: o app não tem permissão de internet e não envia nada para lugar nenhum. Tudo o que ele guarda permanece criptografado no seu celular, e só você vê. O conteúdo das notificações é mostrado no app e guardado pelo tempo que você escolher, e pagamentos bancários, cupons, gastos e contas vão para o arquivo automático. Você pode desativar tudo isso nas Configurações.",
     "sections": [
       {
@@ -556,7 +556,7 @@
       },
       {
         "h": "Conteúdo das notificações",
-        "body": "<ul><li><b>Exibição (ativada por padrão):</b> O título e o texto das notificações em espera e anteriores são mostrados a você no app. Se você desativar <b>Mostrar conteúdo das notificações</b> nas Configurações, o conteúdo não é lido nem guardado; apenas o nome do app, o horário e o motivo da retenção são mostrados.</li><li><b>Por quanto tempo é mantido (30 dias por padrão):</b> O Histórico e o conteúdo são mantidos criptografados no seu celular por 30 dias. Nas Configurações, você pode escolher 7, 90 ou 365 dias, ou desativar a exclusão automática. Se você desativar a exibição de conteúdo, o conteúdo armazenado é excluído. O arquivo não é afetado por essa limpeza.</li><li><b>Suas próprias palavras:</b> Se você adicionar palavras de spoiler ou grupos de palavras de arquivamento, o título e o texto são comparados com essas palavras no seu celular.</li><li><b>Filtro por tipo de notificação:</b> Para que você possa reconhecer os tipos, um título de exemplo por tipo de notificação de um app é mantido criptografado no seu celular.</li><li><b>Registro do Histórico:</b> Para cada notificação que seu celular recebe, o app, o horário e o que aconteceu (passou direto, retida, entregue, marcada como lida) são guardados no Histórico no seu celular.</li></ul>"
+        "body": "<ul><li><b>Exibição (com seu consentimento):</b> Se você tocar em “Aceitar e continuar” durante a configuração, o título e o texto das notificações em espera e anteriores serão mostrados a você no app e no widget. Se você não der o consentimento ou desativar <b>Mostrar conteúdo das notificações</b> nas Configurações, o conteúdo não é lido nem guardado; apenas o nome do app, o horário e o motivo da espera são mostrados. Com o bloqueio do app ativado, o widget não mostra texto.</li><li><b>Por quanto tempo é mantido (30 dias por padrão):</b> O Histórico e o conteúdo são mantidos criptografados no seu celular por 30 dias. Nas Configurações, você pode escolher 7, 90 ou 365 dias, ou desativar a exclusão automática. Essa limpeza periódica não afeta o arquivo. Se você desativar a exibição de conteúdo, o conteúdo armazenado é excluído, incluindo o texto das notificações no arquivo.</li><li><b>Suas próprias palavras:</b> Se você adicionar palavras de spoiler ou grupos de palavras de arquivamento, o título e o texto são comparados com essas palavras no seu celular.</li><li><b>Filtro por tipo de notificação:</b> Para que você possa reconhecer os tipos, um título de exemplo por tipo de notificação de um app é mantido criptografado no seu celular.</li><li><b>Registro do Histórico:</b> Para cada notificação que seu celular recebe, o app, o horário e o que aconteceu (passou direto, retida, entregue, marcada como lida) são guardados no Histórico no seu celular.</li></ul>"
       },
       {
         "h": "Arquivo de notificações",
@@ -568,7 +568,7 @@
       },
       {
         "h": "Outras permissões",
-        "body": "<ul><li><b>Enviar notificações:</b> para entregar notificações retidas e lembretes a você.</li><li><b>Iniciar na inicialização:</b> para configurar suas regras e lembretes novamente após o celular reiniciar.</li><li><b>Vibração:</b> Para que notificações retidas não emitam nenhum som, o ha!shh gerencia os sons das notificações e reproduz ele mesmo o som e a vibração das notificações que passam direto. Chamadas e alarmes não são afetados; isso pode ser desativado nas Configurações.</li><li><b>Manter ativo:</b> Para que a decisão sobre uma notificação que chega enquanto a tela está desligada não sofra atraso, o celular é mantido acordado por no máximo 3 segundos.</li><li><b>Calendário (opcional):</b> para alterar o modo durante reuniões, apenas os horários de início e término e o status de ocupado dos eventos são lidos. Os títulos dos eventos não são lidos.</li><li><b>Bluetooth (opcional):</b> para alterar o modo quando o celular se conecta ao seu carro. O endereço bruto do dispositivo não é armazenado; apenas uma impressão digital irreversível e o nome do dispositivo que você vê são guardados, de forma criptografada.</li></ul>"
+        "body": "<ul><li><b>Enviar notificações:</b> para entregar notificações retidas e lembretes a você.</li><li><b>Iniciar na inicialização:</b> para configurar suas regras e lembretes novamente após o celular reiniciar.</li><li><b>Vibração:</b> Para que notificações retidas não emitam nenhum som, o ha!shh gerencia os sons das notificações e reproduz ele mesmo o som e a vibração das notificações que passam direto. Chamadas e alarmes não são afetados; isso pode ser desativado nas Configurações.</li><li><b>Manter ativo:</b> Para que a decisão sobre uma notificação que chega enquanto a tela está desligada não sofra atraso, o celular é mantido acordado por no máximo 3 segundos.</li><li><b>Calendário (opcional):</b> para alterar o modo durante reuniões, apenas os horários de início e término e o status de ocupado dos eventos são lidos. Os títulos dos eventos não são lidos.</li><li><b>Bluetooth (opcional):</b> para alterar o modo quando o celular se conecta ao seu carro. O endereço bruto do dispositivo não é armazenado; apenas uma impressão digital irreversível e o nome do dispositivo que você vê são guardados, de forma criptografada.</li><li><b>Alarmes exatos:</b> para que os modos comecem e terminem exatamente no horário. Se isso estiver desativado, as mudanças podem sofrer um pequeno atraso.</li></ul>"
       },
       {
         "h": "Seus apps instalados",
@@ -596,7 +596,7 @@
       },
       {
         "h": "Exportação e backup",
-        "body": "<p>Você pode salvar um backup das suas regras e modos como um arquivo. Ele inclui os nomes dos modos, modos integrados ocultos e, para cada modo, os apps, grupos e categorias que passam na hora. Você também pode exportar os registros das suas notificações (app, horário e o que foi feito). Nenhum desses arquivos contém o conteúdo das notificações. O arquivo tem a sua própria exportação, descrita acima. Os arquivos vão apenas para o app ou pasta que você selecionar. O backup na nuvem do Android está desativado para este app.</p>"
+        "body": "<p>Você pode salvar um backup das suas regras e modos como um arquivo. Ele inclui os nomes dos modos, modos integrados ocultos e, para cada modo, os apps, grupos e categorias que passam na hora. Você também pode exportar os registros das suas notificações (app, horário e o que foi feito). Nenhum desses arquivos contém o conteúdo das notificações. O arquivo tem a sua própria exportação, descrita acima. Os arquivos vão apenas para o app ou pasta que você selecionar. O backup na nuvem do Android está desativado para este app. Se você compartilhar uma notificação, o título e o texto dela vão para o app que você escolher na folha de compartilhamento do Android.</p>"
       },
       {
         "h": "Exclusão dos seus dados",
@@ -669,6 +669,19 @@
     "lead": "Novidades no ha!shh. O app ainda está em desenvolvimento: tudo o que está aqui faz parte da versão de desenvolvimento e chega ao Google Play no lançamento."
   },
   "news": [
+    {
+      "date": "2026-11-06",
+      "h": "Novos estilos de widget e Programação de trabalho",
+      "items": [
+        "<b>Quatro estilos de widget:</b> Clássico, Mostrador, Baralho e Piscina. Escolha um nas Configurações; o que você pode fazer continua o mesmo. Tamanhos pequenos (2x2, 4x1) também ficam ótimos.",
+        "<b>O widget do seu jeito:</b> A notificação mais recente fica no topo, ou coloque a mais antiga primeiro, se preferir; um cabeçalho Ontem e as datas de dias anteriores aparecem. Você pode ocultar o conteúdo de um app no widget: a linha permanece, o texto não aparece. Quando não houver nada aguardando, ele pode exibir um emoji ou sua própria foto.",
+        "<b>Programação de trabalho:</b> Configure seu horário fixo ou por turnos em um único cartão; a configuração usa o mesmo cronograma.",
+        "<b>Atraso em todos os modos:</b> Você pode atrasar as notificações de um app pelos minutos que escolher em cada modo (ex.: placares ao vivo). No momento da entrega, o ha!shh pode exibir seu próprio alerta com som. Chamadas, alarmes e bloqueios permanentes não são afetados.",
+        "<b>Compartilhar uma notificação:</b> Se o acesso ao conteúdo estiver ativado, você pode compartilhar o título e o texto de uma notificação com o app que escolher.",
+        "<b>Consentimento explícito:</b> O conteúdo das notificações só é lido e exibido se você tocar em “Aceitar e continuar” durante a configuração. Toque em “Agora não” e o app funcionará apenas com o nome do app, o tipo de notificação e o horário.",
+        "<b>Correções:</b> Menor atraso de retenção quando notificações chegam em sequência rápida; marcar várias como lidas não trava mais o app; se o acesso às notificações cair, o app tenta se reconectar; rolar pelo Feed não recarrega mais a página nem perde o Desfazer; o Desfazer funciona no último cartão; manter a tela ligada no modo mesa, inclusive na bateria, pode ser definido nas Configurações."
+      ]
+    },
     {
       "date": "2026-10-28",
       "h": "Configuração de quatro perguntas, Recém-chegadas e telas mais simples",
