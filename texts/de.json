@@ -80,7 +80,8 @@
         "n": "Tag"
       }
     ],
-    "footer_guide": "Anleitung"
+    "footer_guide": "Anleitung",
+    "footer_terms": "Nutzungsbedingungen"
   },
   "home": {
     "title": "{brand} · Benachrichtigungen, die zu deinem Tag passen",
@@ -899,5 +900,58 @@
     "lead": "Schritt für Schritt, mit den Bezeichnungen der Bildschirme und Tasten in der App. Darunter: häufige Probleme und wie man sie behebt. Die App befindet sich noch in der Entwicklung, daher können sich einige Bezeichnungen ändern.",
     "h_guide": "Benutzeranleitung",
     "h_fix": "Häufige Probleme"
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen · {brand}",
+    "desc": "Nutzungs- und Abonnementbedingungen für die Android-App ha!shh: Google Play-Abo, Testphase, Kündigung, Testzeitraum und Haftung.",
+    "h1": "Nutzungsbedingungen",
+    "updated": "Zuletzt aktualisiert: 13. November 2026",
+    "intro": "Kurz gesagt: Du nutzt ha!shh auf deinem eigenen Telefon mit deinen eigenen Regeln. Abonnement und Bezahlung laufen über Google Play, und dort kündigst du auch. Die App hält Benachrichtigungen nach deinen Einstellungen zurück; du bestimmst, was sofort durchkommt, damit du nichts Wichtiges verpasst.",
+    "sections": [
+      {
+        "h": "Wer wir sind",
+        "body": "<p>Diese Bedingungen gelten für deine Nutzung der Android-App ha!shh (Paketname com.hashh.app) und der Website ha-shh.com. Die App wird von Seçkin Çelik in Karabük, Türkei entwickelt. Kontakt: <a href=\"mailto:{email}\">{email}</a>. Indem du die App installierst und nutzt, akzeptierst du diese Bedingungen.</p>"
+      },
+      {
+        "h": "Was die App tut",
+        "body": "<p>ha!shh hält die Benachrichtigungen, die auf deinem Telefon eingehen, nach deinen Regeln und Uhrzeiten zurück und zeigt sie gesammelt an, wann du möchtest. Dafür benötigt sie Androids Berechtigung für den Benachrichtigungszugriff. Wie mit deinen Daten umgegangen wird, ist auf der Seite <b>Datenschutzerklärung</b> beschrieben.</p>"
+      },
+      {
+        "h": "Abonnement und Bezahlung",
+        "body": "<ul><li>ha!shh wird mit einem Jahresabonnement genutzt. Google Play übernimmt Kauf, Bezahlung und Abrechnung; der Preis für dein Land wird in Google Play angezeigt.</li><li>Wenn Google Play dir einen kostenlosen Testzeitraum anbietet, werden die Dauer der Testphase und der danach fällige Betrag vor dem Kauf angezeigt. Wenn du nicht vor Ablauf der Testphase kündigst, beginnt das kostenpflichtige Abonnement.</li><li>Das Abonnement verlängert sich jedes Jahr automatisch, bis du kündigst. Du kannst jederzeit unter Google Play → Zahlungen und Abos kündigen; du behältst den Zugriff bis zum Ende des bereits bezahlten Zeitraums.</li><li>Gutscheincodes werden in Google Play eingelöst.</li></ul>"
+      },
+      {
+        "h": "Erstattungen",
+        "body": "<p>Erstattungsanträge werden über Google Play nach den Erstattungsrichtlinien von Google Play gestellt. Deine gesetzlichen Rechte nach dem Verbraucherrecht deines Wohnsitzlandes bleiben davon unberührt.</p>"
+      },
+      {
+        "h": "Ohne Abonnement",
+        "body": "<p>Wenn kein Abonnement aktiv ist, läuft die App im passiven Modus: Sie hält keine Benachrichtigungen zurück und diese kommen sofort an. Deine Regeln bleiben auf deinem Telefon gespeichert; wenn du wieder abonnierst, machst du genau dort weiter, wo du aufgehört hast.</p>"
+      },
+      {
+        "h": "Geschlossene Testphase",
+        "body": "<p>Die App befindet sich derzeit im geschlossenen Test auf Google Play. Während des Tests (bis zum 31. Januar 2027) sind alle Funktionen kostenlos freigeschaltet und es ist kein Abonnement erforderlich. Testversionen können Fehler enthalten; wenn du welche findest, schreibe an {email} und wir beheben sie. Nach der Testphase ist ein Abonnement erforderlich, um die App weiterzunutzen; dies wird dir vorab in der App und auf dieser Website mitgeteilt.</p>"
+      },
+      {
+        "h": "Deine Pflichten",
+        "body": "<ul><li>Du entscheidest, welche Benachrichtigungen sofort durchkommen und welche warten. Anrufe und Wecker werden niemals zurückgehalten; dennoch liegt es in deiner Verantwortung, Benachrichtigungen, die für Arbeit, Gesundheit oder Sicherheit wichtig sind, zur Liste „Immer zustellen“ hinzuzufügen.</li><li>Nutze ha!shh nicht als einzige Quelle für Notfall-, Gesundheits- oder Sicherheitswarnungen.</li><li>Nutze die App rechtmäßig und nur auf deinem eigenen Gerät; nimm kein Reverse Engineering vor, kopiere sie nicht und verbreite sie nicht weiter.</li></ul>"
+      },
+      {
+        "h": "Gewährleistung und Haftung",
+        "body": "<p>Wir entwickeln und testen die App sorgfältig, können jedoch keinen ununterbrochenen oder fehlerfreien Betrieb garantieren. Deine Android-Version, die Energiespareinstellungen deines Telefonherstellers oder das Deaktivieren von Berechtigungen können Benachrichtigungen verzögern oder dazu führen, dass sie sich anders als erwartet verhalten. Soweit nach geltendem Recht zulässig, haften wir nicht für mittelbare Schäden, die durch eine verpasste oder verspätete Benachrichtigung entstehen. Diese Einschränkung berührt nicht die Haftung für Vorsatz oder grobe Fahrlässigkeit sowie deine gesetzlichen Verbraucherrechte.</p>"
+      },
+      {
+        "h": "Geistiges Eigentum",
+        "body": "<p>Die App, ihr Name, ihr Symbol und die Inhalte dieser Website gehören dem Entwickler. Ein Abonnement gibt dir das Recht, die App persönlich zu nutzen; es überträgt nicht die App selbst.</p>"
+      },
+      {
+        "h": "Änderungen und Beendigung",
+        "body": "<p>Wenn sich diese Bedingungen ändern, wird diese Seite aktualisiert und das Datum oben ändert sich; wichtige Änderungen kündigen wir auch in der App an. Du kannst die Nutzung der App jederzeit beenden, indem du sie deinstallierst; dein Abonnement musst du separat in Google Play kündigen.</p>"
+      },
+      {
+        "h": "Anwendbares Recht",
+        "body": "<p>Diese Bedingungen unterliegen dem Recht der Republik Türkei. Zwingende Verbraucherschutzvorschriften deines Wohnsitzlandes bleiben anwendbar. Wenn es ein Problem gibt, schreibe bitte zuerst an {email} und wir versuchen, es gemeinsam zu lösen.</p>"
+      }
+    ]
   }
 }

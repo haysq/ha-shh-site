@@ -80,7 +80,8 @@
         "n": "Jour"
       }
     ],
-    "footer_guide": "Guide"
+    "footer_guide": "Guide",
+    "footer_terms": "Conditions d'utilisation"
   },
   "home": {
     "title": "{brand} · Des notifications adaptées à votre journée",
@@ -899,5 +900,58 @@
     "lead": "Étape par étape, avec les noms des écrans et des boutons de l'application. En dessous : les problèmes courants et comment les résoudre. L'application est encore en cours de développement, certains noms peuvent donc changer.",
     "h_guide": "Guide d'utilisation",
     "h_fix": "Problèmes courants"
+  },
+  "terms": {
+    "title": "Conditions d'utilisation · {brand}",
+    "desc": "Conditions d'utilisation et d'abonnement pour l'application Android ha!shh : abonnement Google Play, essai, résiliation, période de test et responsabilité.",
+    "h1": "Conditions d'utilisation",
+    "updated": "Dernière mise à jour : 13 novembre 2026",
+    "intro": "En résumé : vous utilisez ha!shh sur votre propre téléphone, avec vos propres règles. L'abonnement et le paiement s'effectuent via Google Play, et vous résiliez également là-bas. L'application retient les notifications selon vos réglages ; vous décidez de ce qui passe immédiatement pour ne rien manquer d'important.",
+    "sections": [
+      {
+        "h": "Qui nous sommes",
+        "body": "<p>Ces conditions s'appliquent à votre utilisation de l'application Android ha!shh (nom de package com.hashh.app) et du site web ha-shh.com. L'application est développée par Seçkin Çelik à Karabük, Türkiye. Contact : <a href=\"mailto:{email}\">{email}</a>. En installant et en utilisant l'application, vous acceptez ces conditions.</p>"
+      },
+      {
+        "h": "Ce que fait l'application",
+        "body": "<p>ha!shh retient les notifications qui arrivent sur votre téléphone selon vos règles et vos horaires, et vous les présente regroupées quand vous le choisissez. Pour cela, elle a besoin de l'autorisation d'accès aux notifications d'Android. La manière dont vos données sont traitées est décrite sur la page <b>Politique de confidentialité</b>.</p>"
+      },
+      {
+        "h": "Abonnement et paiement",
+        "body": "<ul><li>ha!shh s'utilise avec un abonnement annuel. Google Play gère l'achat, le paiement et la facturation ; le prix pour votre pays est affiché dans Google Play.</li><li>Si Google Play vous propose un essai gratuit, la durée de l'essai et le montant dû par la suite sont affichés avant votre achat. Si vous ne résiliez pas avant la fin de l'essai, l'abonnement payant commence.</li><li>L'abonnement se renouvelle automatiquement chaque année jusqu'à ce que vous le résiliiez. Vous pouvez résilier à tout moment dans Google Play → Paiements et abonnements ; vous conservez l'accès jusqu'à la fin de la période déjà payée.</li><li>Les codes promotionnels s'utilisent dans Google Play.</li></ul>"
+      },
+      {
+        "h": "Remboursements",
+        "body": "<p>Les demandes de remboursement s'effectuent via Google Play conformément aux règles de remboursement de Google Play. Vos droits au titre du droit de la consommation de votre pays de résidence ne sont pas affectés.</p>"
+      },
+      {
+        "h": "Sans abonnement",
+        "body": "<p>Si aucun abonnement n'est actif, l'application fonctionne en mode passif : elle ne retient aucune notification et celles-ci arrivent immédiatement. Vos règles restent sur votre téléphone ; lorsque vous vous réabonnez, vous reprenez là où vous vous étiez arrêté.</p>"
+      },
+      {
+        "h": "Période de test fermé",
+        "body": "<p>L'application est actuellement en phase de test fermé sur Google Play. Pendant le test (jusqu'au 31 janvier 2027), toutes les fonctionnalités sont gratuites et aucun abonnement n'est requis. Les versions de test peuvent comporter des bugs ; si vous en trouvez, écrivez à {email} et nous les corrigerons. À la fin de la période de test, un abonnement sera nécessaire pour continuer ; vous en serez informé à l'avance dans l'application et sur ce site.</p>"
+      },
+      {
+        "h": "Vos responsabilités",
+        "body": "<ul><li>Vous décidez quelles notifications passent immédiatement et lesquelles attendent. Les appels et alarmes ne sont jamais retenus ; néanmoins, il vous appartient d'ajouter à la liste « toujours distribuer » les notifications importantes pour le travail, la santé ou la sécurité.</li><li>N'utilisez pas ha!shh comme votre unique source d'alertes d'urgence, de santé ou de sécurité.</li><li>Utilisez l'application en toute légalité et uniquement sur votre propre appareil ; ne procédez à aucune ingénierie inverse, ne la copiez pas et ne la redistribuez pas.</li></ul>"
+      },
+      {
+        "h": "Garantie et responsabilité",
+        "body": "<p>Nous développons et testons l'application avec soin, mais nous ne pouvons garantir qu'elle fonctionnera sans interruption ni erreur. Votre version d'Android, les réglages d'économie de batterie du fabricant de votre téléphone ou la désactivation des autorisations peuvent retarder les notifications ou modifier leur comportement attendu. Dans la mesure permise par la loi applicable, nous ne sommes pas responsables des dommages indirects résultant d'une notification manquée ou retardée. Cette limitation n'affecte pas la responsabilité en cas de faute intentionnelle ou de négligence grave, ni vos droits légaux en tant que consommateur.</p>"
+      },
+      {
+        "h": "Propriété intellectuelle",
+        "body": "<p>L'application, son nom, son icône et le contenu de ce site appartiennent au développeur. L'abonnement vous accorde le droit d'utiliser l'application à titre personnel ; il ne transfère pas l'application elle-même.</p>"
+      },
+      {
+        "h": "Modifications et résiliation",
+        "body": "<p>Si ces conditions sont modifiées, cette page est mise à jour et la date en haut change ; nous annonçons également les modifications importantes dans l'application. Vous pouvez cesser d'utiliser l'application à tout moment en la désinstallant ; vous devez résilier votre abonnement séparément dans Google Play.</p>"
+      },
+      {
+        "h": "Droit applicable",
+        "body": "<p>Ces conditions sont régies par les lois de la République de Türkiye. Les règles obligatoires de protection des consommateurs de votre pays de résidence restent applicables. En cas de problème, écrivez d'abord à {email} et nous essaierons de le résoudre ensemble.</p>"
+      }
+    ]
   }
 }

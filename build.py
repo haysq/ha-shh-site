@@ -18,7 +18,7 @@ BASE = "https://ha-shh.com/"
 ALL_LANGS = ["en", "tr", "ar", "de", "es", "fr", "hi", "id", "pt", "ru"]
 # Only languages whose text file exists are built (and linked).
 LANGS = [c for c in ALL_LANGS if os.path.exists(os.path.join(HERE, "texts", c + ".json"))]
-PAGES = {"home": "", "features": "features/", "privacy": "privacy/", "faq": "faq/", "updates": "updates/", "guide": "guide/"}
+PAGES = {"home": "", "features": "features/", "privacy": "privacy/", "faq": "faq/", "updates": "updates/", "guide": "guide/", "terms": "terms/"}
 EMAIL = "hey@ha-shh.com"
 
 ICONS = {
@@ -255,6 +255,8 @@ def build_kb(t, code):
         kb.append({"id": "a-%d" % len(kb), "type": "action", "t": plain(i["t"]), "a": plain(i["p"]), "url": "#how"})
     for sec in t["privacy"]["sections"]:
         kb.append({"id": "p-%d" % len(kb), "type": "privacy", "t": plain(sec["h"]), "a": plain(sec["body"]), "url": "privacy/"})
+    for sec in t["terms"]["sections"]:
+        kb.append({"id": "t-%d" % len(kb), "type": "privacy", "t": plain(sec["h"]), "a": plain(sec["body"]), "url": "terms/"})
     for n in t["news"]:
         for item in n["items"]:
             m = re.match(r"<b>(.*?)</b>\s*(.*)", item, re.S)

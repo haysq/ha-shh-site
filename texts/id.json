@@ -80,7 +80,8 @@
         "n": "Siang"
       }
     ],
-    "footer_guide": "Panduan"
+    "footer_guide": "Panduan",
+    "footer_terms": "Ketentuan penggunaan"
   },
   "home": {
     "title": "{brand} · Notifikasi yang sesuai dengan hari Anda",
@@ -899,5 +900,58 @@
     "lead": "Langkah demi langkah, dengan nama layar dan tombol di aplikasi. Di bawahnya: masalah umum dan cara memperbaikinya. Aplikasi ini masih dalam pengembangan, jadi beberapa nama mungkin berubah.",
     "h_guide": "Panduan pengguna",
     "h_fix": "Masalah umum"
+  },
+  "terms": {
+    "title": "Ketentuan penggunaan · {brand}",
+    "desc": "Ketentuan penggunaan dan langganan untuk aplikasi Android ha!shh: langganan Google Play, masa uji coba, pembatalan, periode pengujian, dan kewajiban.",
+    "h1": "Ketentuan penggunaan",
+    "updated": "Terakhir diperbarui: 13 November 2026",
+    "intro": "Singkatnya: Anda menggunakan ha!shh di ponsel Anda sendiri, dengan aturan Anda sendiri. Langganan dan pembayaran dilakukan melalui Google Play, dan Anda juga membatalkannya di sana. Aplikasi ini menahan notifikasi sesuai dengan pengaturan Anda; Anda menentukan siapa yang masuk segera agar Anda tidak melewatkan hal penting.",
+    "sections": [
+      {
+        "h": "Tentang kami",
+        "body": "<p>Ketentuan ini berlaku untuk penggunaan Anda atas aplikasi Android ha!shh (nama paket com.hashh.app) dan situs web ha-shh.com. Aplikasi ini dikembangkan oleh Seçkin Çelik di Karabük, Türkiye. Kontak: <a href=\"mailto:{email}\">{email}</a>. Dengan memasang dan menggunakan aplikasi ini, Anda menyetujui ketentuan ini.</p>"
+      },
+      {
+        "h": "Apa yang dilakukan aplikasi",
+        "body": "<p>ha!shh menahan notifikasi yang masuk ke ponsel Anda sesuai dengan aturan dan waktu yang Anda tentukan, serta menampilkannya bersamaan saat Anda pilih. Untuk melakukan ini, aplikasi memerlukan izin akses notifikasi Android. Cara data Anda dikelola dijelaskan di halaman <b>Kebijakan privasi</b>.</p>"
+      },
+      {
+        "h": "Langganan dan pembayaran",
+        "body": "<ul><li>ha!shh digunakan dengan langganan tahunan. Google Play menangani pembelian, pembayaran, dan penagihan; harga untuk negara Anda ditampilkan di Google Play.</li><li>Jika Google Play menawarkan uji coba gratis, durasi uji coba dan jumlah tagihan setelahnya akan ditampilkan sebelum Anda membeli. Jika Anda tidak membatalkannya sebelum masa uji coba berakhir, langganan berbayar akan dimulai.</li><li>Langganan diperpanjang secara otomatis setiap tahun hingga Anda membatalkannya. Anda dapat membatalkannya kapan saja di Google Play → Pembayaran & langganan; Anda tetap memiliki akses hingga akhir periode yang telah dibayar.</li><li>Kode promo ditukarkan di Google Play.</li></ul>"
+      },
+      {
+        "h": "Pengembalian dana",
+        "body": "<p>Permintaan pengembalian dana dilakukan melalui Google Play berdasarkan aturan pengembalian dana Google Play. Hak-hak Anda berdasarkan hukum konsumen di negara tempat tinggal Anda tidak terpengaruh.</p>"
+      },
+      {
+        "h": "Tanpa langganan",
+        "body": "<p>Jika tidak ada langganan yang aktif, aplikasi berjalan dalam mode pasif: aplikasi tidak menahan notifikasi apa pun dan notifikasi langsung tiba. Aturan Anda tetap tersimpan di ponsel Anda; saat Anda berlangganan lagi, Anda melanjutkan dari bagian terakhir yang ditinggalkan.</p>"
+      },
+      {
+        "h": "Periode uji coba tertutup",
+        "body": "<p>Aplikasi ini saat ini sedang dalam uji coba tertutup di Google Play. Selama pengujian (hingga 31 Januari 2027), semua fitur gratis dan tidak memerlukan langganan. Versi uji coba mungkin memiliki bug; jika Anda menemukannya, kirim email ke {email} dan kami akan memperbaikinya. Setelah periode pengujian berakhir, langganan diperlukan untuk melanjutkan; Anda akan diberi tahu sebelumnya di aplikasi dan di situs ini.</p>"
+      },
+      {
+        "h": "Tanggung jawab Anda",
+        "body": "<ul><li>Anda menentukan notifikasi mana yang langsung masuk dan mana yang menunggu. Panggilan dan alarm tidak pernah ditahan; meskipun demikian, Anda bertanggung jawab untuk menambahkan notifikasi penting untuk pekerjaan, kesehatan, atau keselamatan ke daftar “selalu kirimkan”.</li><li>Jangan gunakan ha!shh sebagai satu-satunya sumber peringatan darurat, kesehatan, atau keselamatan Anda.</li><li>Gunakan aplikasi secara sah dan hanya di perangkat Anda sendiri; jangan merekayasa balik, menyalin, atau mendistribusikan ulang aplikasi.</li></ul>"
+      },
+      {
+        "h": "Garansi dan kewajiban",
+        "body": "<p>Kami mengembangkan dan menguji aplikasi dengan cermat, tetapi kami tidak dapat menjamin bahwa aplikasi akan berfungsi tanpa gangguan atau kesalahan. Versi Android Anda, pengaturan penghemat baterai dari produsen ponsel Anda, atau penonaktifan izin dapat menunda notifikasi atau membuatnya bekerja tidak seperti yang diharapkan. Sejauh diizinkan oleh hukum yang berlaku, kami tidak bertanggung jawab atas kerugian tidak langsung yang disebabkan oleh notifikasi yang terlewat atau tertunda. Pembatasan ini tidak memengaruhi tanggung jawab atas kesengajaan atau kelalaian berat, atau hak hukum Anda sebagai konsumen.</p>"
+      },
+      {
+        "h": "Kekayaan intelektual",
+        "body": "<p>Aplikasi, nama, ikon, dan konten situs ini adalah milik pengembang. Langganan memberi Anda hak untuk menggunakan aplikasi secara pribadi; langganan tidak mengalihkan kepemilikan aplikasi itu sendiri.</p>"
+      },
+      {
+        "h": "Perubahan dan pengakhiran",
+        "body": "<p>Jika ketentuan ini berubah, halaman ini akan diperbarui dan tanggal di bagian atas akan berubah; kami juga mengumumkan perubahan penting di dalam aplikasi. Anda dapat berhenti menggunakan aplikasi kapan saja dengan mencopot pemasangannya; Anda perlu membatalkan langganan Anda secara terpisah di Google Play.</p>"
+      },
+      {
+        "h": "Hukum yang berlaku",
+        "body": "<p>Ketentuan ini diatur oleh hukum Republik Türkiye. Aturan perlindungan konsumen wajib di negara tempat tinggal Anda tetap berlaku. Jika ada masalah, silakan hubungi {email} terlebih dahulu dan kami akan mencoba menyelesaikannya bersama.</p>"
+      }
+    ]
   }
 }

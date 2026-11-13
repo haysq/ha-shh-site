@@ -80,7 +80,8 @@
         "n": "Day"
       }
     ],
-    "footer_guide": "Guide"
+    "footer_guide": "Guide",
+    "footer_terms": "Terms of use"
   },
   "home": {
     "title": "{brand} · Notifications that fit your day",
@@ -899,5 +900,58 @@
     "lead": "Step by step, with the names of the screens and buttons in the app. Below that: common problems and how to fix them. The app is still in development, so some names may change.",
     "h_guide": "User guide",
     "h_fix": "Common problems"
+  },
+  "terms": {
+    "title": "Terms of use · {brand}",
+    "desc": "Terms of use and subscription for the ha!shh Android app: Google Play subscription, trial, cancellation, test period and liability.",
+    "h1": "Terms of use",
+    "updated": "Last updated: 13 November 2026",
+    "intro": "In short: you use ha!shh on your own phone, with your own rules. Subscription and payment go through Google Play, and you cancel there too. The app holds notifications according to your settings; you decide who comes through right away so you don't miss anything important.",
+    "sections": [
+      {
+        "h": "Who we are",
+        "body": "<p>These terms apply to your use of the ha!shh Android app (package name com.hashh.app) and the ha-shh.com website. The app is developed by Seçkin Çelik in Karabük, Türkiye. Contact: <a href=\"mailto:{email}\">{email}</a>. By installing and using the app, you accept these terms.</p>"
+      },
+      {
+        "h": "What the app does",
+        "body": "<p>ha!shh holds the notifications that arrive on your phone according to your rules and times, and shows them together when you choose. To do this it needs Android's notification access permission. How your data is handled is described on the <b>Privacy policy</b> page.</p>"
+      },
+      {
+        "h": "Subscription and payment",
+        "body": "<ul><li>ha!shh is used with a yearly subscription. Google Play handles purchase, payment and billing; the price for your country is shown in Google Play.</li><li>If Google Play offers you a free trial, the trial length and the amount due afterwards are shown before you buy. If you don't cancel before the trial ends, the paid subscription starts.</li><li>The subscription renews automatically every year until you cancel. You can cancel at any time in Google Play → Payments & subscriptions; you keep access until the end of the period you've paid for.</li><li>Promo codes are redeemed in Google Play.</li></ul>"
+      },
+      {
+        "h": "Refunds",
+        "body": "<p>Refund requests are made through Google Play under Google Play's refund rules. Your rights under the consumer law of the country you live in are not affected.</p>"
+      },
+      {
+        "h": "Without a subscription",
+        "body": "<p>If no subscription is active, the app runs in passive mode: it holds no notifications and they arrive right away. Your rules stay on your phone; when you subscribe again, you carry on where you left off.</p>"
+      },
+      {
+        "h": "Closed testing period",
+        "body": "<p>The app is currently in closed testing on Google Play. During the test (until 31 January 2027) every feature is free and no subscription is required. Test versions may have bugs; if you find any, write to {email} and we'll fix them. After the test period a subscription is needed to continue; you'll be told in advance in the app and on this site.</p>"
+      },
+      {
+        "h": "Your responsibilities",
+        "body": "<ul><li>You decide which notifications come through right away and which wait. Calls and alarms are never held; even so, it's up to you to add notifications that matter for work, health or safety to the “always deliver” list.</li><li>Don't use ha!shh as your only source of emergency, health or safety alerts.</li><li>Use the app lawfully and only on your own device; don't reverse-engineer, copy or redistribute it.</li></ul>"
+      },
+      {
+        "h": "Warranty and liability",
+        "body": "<p>We develop and test the app carefully, but we can't guarantee it will work without interruptions or errors. Your Android version, your phone maker's battery-saving settings or turning off permissions can delay notifications or make them behave differently than expected. To the extent permitted by applicable law, we are not liable for indirect damage caused by a missed or delayed notification. This limitation does not affect liability for intent or gross negligence, or your statutory rights as a consumer.</p>"
+      },
+      {
+        "h": "Intellectual property",
+        "body": "<p>The app, its name, its icon and the content of this site belong to the developer. A subscription gives you the right to use the app personally; it does not transfer the app itself.</p>"
+      },
+      {
+        "h": "Changes and ending",
+        "body": "<p>If these terms change, this page is updated and the date at the top changes; we also announce important changes in the app. You can stop using the app at any time by uninstalling it; you need to cancel your subscription separately in Google Play.</p>"
+      },
+      {
+        "h": "Governing law",
+        "body": "<p>These terms are governed by the laws of the Republic of Türkiye. Mandatory consumer-protection rules of the country you live in still apply. If there's a problem, please write to {email} first and we'll try to sort it out together.</p>"
+      }
+    ]
   }
 }

@@ -80,7 +80,8 @@
         "n": "Gündüz"
       }
     ],
-    "footer_guide": "Kılavuz"
+    "footer_guide": "Kılavuz",
+    "footer_terms": "Kullanım koşulları"
   },
   "home": {
     "title": "{brand} · Bildirimler sana göre gelsin",
@@ -899,5 +900,58 @@
     "lead": "Uygulamadaki ekran ve düğme adlarıyla adım adım. Altında sık sorunlar ve çözümleri var. Uygulama hâlâ geliştirildiği için bazı adlar değişebilir.",
     "h_guide": "Kullanım kılavuzu",
     "h_fix": "Sık sorunlar"
+  },
+  "terms": {
+    "title": "Kullanım koşulları · {brand}",
+    "desc": "ha!shh Android uygulamasının kullanım ve abonelik koşulları: Google Play aboneliği, deneme, iptal, test dönemi ve sorumluluk.",
+    "h1": "Kullanım koşulları",
+    "updated": "Son güncelleme: 13 Kasım 2026",
+    "intro": "Kısaca: ha!shh'ı kendi telefonunda, kendi kurallarınla kullanırsın. Abonelik ve ödeme Google Play üzerinden yürür; iptali de oradan yaparsın. Uygulama bildirimlerini senin ayarlarına göre bekletir; önemli bir bildirimi kaçırmamak için kimin hemen geleceğini sen belirlersin.",
+    "sections": [
+      {
+        "h": "Taraflar",
+        "body": "<p>Bu koşullar, ha!shh Android uygulamasını (paket adı com.hashh.app) ve ha-shh.com web sitesini kullanman için geçerlidir. Uygulamayı Türkiye'de, Karabük'te Seçkin Çelik geliştiriyor. İletişim: <a href=\"mailto:{email}\">{email}</a>. Uygulamayı kurup kullanarak bu koşulları kabul etmiş olursun.</p>"
+      },
+      {
+        "h": "Uygulama ne yapar",
+        "body": "<p>ha!shh, telefonuna gelen bildirimleri senin kurallarına ve saatlerine göre bekletir ve belirlediğin zamanlarda topluca gösterir. Bunun için Android'in bildirim erişimi iznine ihtiyaç duyar. Verilerin nasıl işlendiği <b>Gizlilik politikası</b> sayfasında anlatılır.</p>"
+      },
+      {
+        "h": "Abonelik ve ödeme",
+        "body": "<ul><li>ha!shh yıllık abonelikle kullanılır. Satın alma, ödeme ve faturalandırmayı Google Play yürütür; fiyat ülkene göre Google Play'de gösterilir.</li><li>Google Play sana ücretsiz deneme sunuyorsa deneme süresi ve sonrasında ödenecek tutar satın almadan önce gösterilir. Deneme bitmeden iptal etmezsen abonelik ücretli olarak başlar.</li><li>Abonelik, sen iptal edene kadar her yıl kendiliğinden yenilenir. İptali Google Play → Ödemeler ve abonelikler bölümünden istediğin zaman yaparsın; erişimin ödenmiş dönemin sonuna kadar sürer.</li><li>Promosyon kodları Google Play'de kullanılır.</li></ul>"
+      },
+      {
+        "h": "İade",
+        "body": "<p>İade talepleri Google Play'in iade kurallarına göre Google Play üzerinden yapılır. Yaşadığın ülkenin tüketici hukukundan doğan hakların saklıdır.</p>"
+      },
+      {
+        "h": "Abonelik olmadan",
+        "body": "<p>Abonelik etkin değilse uygulama pasif modda çalışır: hiçbir bildirimi bekletmez, bildirimlerin hemen gelir. Kuralların telefonda korunur; aboneliği yeniden başlatınca kaldığın yerden devam edersin.</p>"
+      },
+      {
+        "h": "Kapalı test dönemi",
+        "body": "<p>Uygulama şu an Google Play'de kapalı testte. Test süresince (31 Ocak 2027'ye kadar) bütün özellikler ücretsiz açık ve abonelik istenmez. Test sürümlerinde hata olabilir; bulduklarını {email} adresine yazarsan düzeltiriz. Test dönemi bitince devam etmek için abonelik gerekir; bu sana önceden uygulamada ve bu sitede bildirilir.</p>"
+      },
+      {
+        "h": "Senin sorumlulukların",
+        "body": "<ul><li>Hangi bildirimlerin hemen geleceğini ve hangilerinin bekleyeceğini sen belirlersin. Aramalar ve alarmlar bekletilmez; yine de iş, sağlık ya da güvenlik için önemli bildirimleri “her zaman gelsin” listesine eklemek senin sorumluluğundadır.</li><li>ha!shh'ı acil durum, sağlık ya da güvenlik uyarılarının tek kaynağı olarak kullanma.</li><li>Uygulamayı yasalara uygun biçimde ve yalnız kendi cihazında kullan; tersine mühendislik yapma, kopyalayıp dağıtma.</li></ul>"
+      },
+      {
+        "h": "Garanti ve sorumluluk",
+        "body": "<p>Uygulamayı özenle geliştiriyor ve test ediyoruz, ama kesintisiz ve hatasız çalışacağını garanti edemeyiz. Android sürümü, telefon üreticisinin pil tasarrufu ayarları ya da izinlerin kapatılması bildirimlerin gecikmesine veya beklenenden farklı davranmasına yol açabilir. Yürürlükteki hukukun izin verdiği ölçüde, kaçırılan ya da geciken bir bildirimden doğan dolaylı zararlardan sorumlu değiliz. Bu sınırlama, kasıt ya da ağır ihmalden doğan sorumluluğu ve tüketici olarak yasadan doğan haklarını etkilemez.</p>"
+      },
+      {
+        "h": "Fikri haklar",
+        "body": "<p>Uygulama, adı, simgesi ve bu sitedeki içerik geliştiriciye aittir. Abonelik sana uygulamayı kişisel olarak kullanma hakkı verir; uygulamanın kendisini devretmez.</p>"
+      },
+      {
+        "h": "Değişiklikler ve sona erme",
+        "body": "<p>Bu koşullar değişirse bu sayfa güncellenir ve üstteki tarih değişir; önemli değişiklikleri uygulamada da duyururuz. Uygulamayı istediğin zaman silerek kullanmayı bırakabilirsin; aboneliğini ayrıca Google Play'den iptal etmen gerekir.</p>"
+      },
+      {
+        "h": "Uygulanacak hukuk",
+        "body": "<p>Bu koşullara Türkiye Cumhuriyeti hukuku uygulanır. Yaşadığın ülkenin tüketiciyi koruyan zorunlu kuralları saklıdır. Bir sorun olursa önce {email} adresine yaz; birlikte çözmeye çalışalım.</p>"
+      }
+    ]
   }
 }

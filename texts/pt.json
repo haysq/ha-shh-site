@@ -80,7 +80,8 @@
         "n": "Dia"
       }
     ],
-    "footer_guide": "Guia"
+    "footer_guide": "Guia",
+    "footer_terms": "Termos de uso"
   },
   "home": {
     "title": "{brand} · Notificações que se adaptam ao seu dia",
@@ -899,5 +900,58 @@
     "lead": "Passo a passo, com os nomes das telas e botões no aplicativo. Abaixo: problemas comuns e como corrigi-los. O aplicativo ainda está em desenvolvimento, então alguns nomes podem mudar.",
     "h_guide": "Guia do usuário",
     "h_fix": "Problemas comuns"
+  },
+  "terms": {
+    "title": "Termos de uso · {brand}",
+    "desc": "Termos de uso e assinatura do app ha!shh para Android: assinatura pelo Google Play, teste, cancelamento, período de testes e responsabilidade.",
+    "h1": "Termos de uso",
+    "updated": "Última atualização: 13 de novembro de 2026",
+    "intro": "Em resumo: você usa o ha!shh no seu próprio celular, com suas próprias regras. A assinatura e o pagamento ocorrem pelo Google Play, e você cancela por lá também. O app retém as notificações de acordo com as suas configurações; você decide quem passa direto para não perder nada importante.",
+    "sections": [
+      {
+        "h": "Quem somos",
+        "body": "<p>Estes termos se aplicam ao uso do app ha!shh para Android (nome do pacote com.hashh.app) e do site ha-shh.com. O app é desenvolvido por Seçkin Çelik em Karabük, Turquia. Contato: <a href=\"mailto:{email}\">{email}</a>. Ao instalar e usar o app, você aceita estes termos.</p>"
+      },
+      {
+        "h": "O que o app faz",
+        "body": "<p>O ha!shh retém as notificações que chegam ao seu celular de acordo com as suas regras e horários, e as exibe juntas quando você escolher. Para isso, ele precisa da permissão de acesso a notificações do Android. Como seus dados são tratados está descrito na página da <b>Política de privacidade</b>.</p>"
+      },
+      {
+        "h": "Assinatura e pagamento",
+        "body": "<ul><li>O ha!shh é usado com uma assinatura anual. O Google Play gerencia a compra, o pagamento e o faturamento; o preço para o seu país é exibido no Google Play.</li><li>Se o Google Play oferecer um teste gratuito, a duração do teste e o valor cobrado em seguida serão exibidos antes da compra. Se você não cancelar antes do fim do teste, a assinatura paga será iniciada.</li><li>A assinatura é renovada automaticamente a cada ano até que você a cancele. Você pode cancelar a qualquer momento em Google Play → Pagamentos e assinaturas; você mantém o acesso até o fim do período já pago.</li><li>Códigos promocionais são resgatados no Google Play.</li></ul>"
+      },
+      {
+        "h": "Reembolsos",
+        "body": "<p>Pedidos de reembolso são feitos pelo Google Play de acordo com as regras de reembolso do Google Play. Seus direitos sob a legislação do consumidor do país onde você mora não são afetados.</p>"
+      },
+      {
+        "h": "Sem assinatura",
+        "body": "<p>Se não houver assinatura ativa, o app funciona no modo passivo: ele não retém nenhuma notificação e elas chegam imediatamente. Suas regras continuam no seu celular; quando você assinar novamente, continuará de onde parou.</p>"
+      },
+      {
+        "h": "Período de testes fechados",
+        "body": "<p>O app está atualmente em teste fechado no Google Play. Durante o teste (até 31 de janeiro de 2027), todos os recursos são gratuitos e nenhuma assinatura é necessária. Versões de teste podem conter erros; se você encontrar algum, escreva para {email} e nós corrigiremos. Após o período de teste, será necessária uma assinatura para continuar; você será avisado com antecedência no app e neste site.</p>"
+      },
+      {
+        "h": "Suas responsabilidades",
+        "body": "<ul><li>Você decide quais notificações chegam na hora e quais aguardam. Chamadas e alarmes nunca são retidos; ainda assim, cabe a você adicionar notificações importantes de trabalho, saúde ou segurança à lista “entregar sempre”.</li><li>Não use o ha!shh como sua única fonte de alertas de emergência, saúde ou segurança.</li><li>Use o app legalmente e apenas no seu próprio dispositivo; não faça engenharia reversa, não copie nem redistribua o aplicativo.</li></ul>"
+      },
+      {
+        "h": "Garantia e responsabilidade",
+        "body": "<p>Desenvolvemos e testamos o app com cuidado, mas não podemos garantir que ele funcione sem interrupções ou erros. A versão do seu Android, as configurações de economia de bateria da fabricante do celular ou a desativação de permissões podem atrasar notificações ou fazer com que se comportem de forma diferente do esperado. Na medida permitida pela lei aplicável, não nos responsabilizamos por danos indiretos causados por uma notificação perdida ou atrasada. Esta limitação não afeta a responsabilidade por dolo ou negligência grave, nem seus direitos legais como consumidor.</p>"
+      },
+      {
+        "h": "Propriedade intelectual",
+        "body": "<p>O app, seu nome, seu ícone e o conteúdo deste site pertencem ao desenvolvedor. A assinatura dá a você o direito de usar o app pessoalmente; ela não transfere o app em si.</p>"
+      },
+      {
+        "h": "Alterações e rescisão",
+        "body": "<p>Se estes termos mudarem, esta página será atualizada e a data no topo será alterada; também anunciaremos alterações importantes no app. Você pode deixar de usar o app a qualquer momento desinstalando-o; você deve cancelar sua assinatura separadamente no Google Play.</p>"
+      },
+      {
+        "h": "Legislação aplicável",
+        "body": "<p>Estes termos são regidos pelas leis da República da Turquia. As normas obrigatórias de proteção ao consumidor do país onde você mora continuam aplicáveis. Se houver algum problema, escreva primeiro para {email} e tentaremos resolver juntos.</p>"
+      }
+    ]
   }
 }

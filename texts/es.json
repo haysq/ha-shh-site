@@ -80,7 +80,8 @@
         "n": "Día"
       }
     ],
-    "footer_guide": "Guía"
+    "footer_guide": "Guía",
+    "footer_terms": "Condiciones de uso"
   },
   "home": {
     "title": "{brand} · Notificaciones que se adaptan a tu día",
@@ -899,5 +900,58 @@
     "lead": "Paso a paso, con los nombres de las pantallas y botones de la aplicación. Más abajo: problemas comunes y cómo solucionarlos. La aplicación aún está en desarrollo, por lo que algunos nombres podrían cambiar.",
     "h_guide": "Guía del usuario",
     "h_fix": "Problemas comunes"
+  },
+  "terms": {
+    "title": "Condiciones de uso · {brand}",
+    "desc": "Condiciones de uso y suscripción de la app para Android ha!shh: suscripción a Google Play, prueba, cancelación, periodo de prueba y responsabilidad.",
+    "h1": "Condiciones de uso",
+    "updated": "Última actualización: 13 de noviembre de 2026",
+    "intro": "En resumen: usas ha!shh en tu propio teléfono, con tus propias reglas. La suscripción y el pago se realizan a través de Google Play, y también cancelas allí. La app retiene las notificaciones según tus ajustes; tú decides qué llega de inmediato para no perderte nada importante.",
+    "sections": [
+      {
+        "h": "Quiénes somos",
+        "body": "<p>Estas condiciones se aplican al uso de la app para Android ha!shh (nombre de paquete com.hashh.app) y del sitio web ha-shh.com. La app ha sido desarrollada por Seçkin Çelik en Karabük, Türkiye. Contacto: <a href=\"mailto:{email}\">{email}</a>. Al instalar y usar la app, aceptas estas condiciones.</p>"
+      },
+      {
+        "h": "Qué hace la app",
+        "body": "<p>ha!shh retiene las notificaciones que llegan a tu teléfono según tus reglas y horarios, y te las muestra agrupadas cuando tú elijas. Para ello, necesita el permiso de acceso a notificaciones de Android. Cómo se tratan tus datos se describe en la página de la <b>Política de privacidad</b>.</p>"
+      },
+      {
+        "h": "Suscripción y pago",
+        "body": "<ul><li>ha!shh se utiliza con una suscripción anual. Google Play gestiona la compra, el pago y la facturación; el precio para tu país se muestra en Google Play.</li><li>Si Google Play te ofrece una prueba gratuita, la duración de la prueba y el importe a pagar después se muestran antes de comprar. Si no cancelas antes de que termine la prueba, comenzará la suscripción de pago.</li><li>La suscripción se renueva automáticamente cada año hasta que la canceles. Puedes cancelarla en cualquier momento en Google Play → Pagos y suscripciones; mantendrás el acceso hasta el final del periodo pagado.</li><li>Los códigos promocionales se canjean en Google Play.</li></ul>"
+      },
+      {
+        "h": "Reembolsos",
+        "body": "<p>Las solicitudes de reembolso se realizan a través de Google Play según las normas de reembolso de Google Play. Tus derechos conforme a la legislación de consumo del país en el que vives no se ven afectados.</p>"
+      },
+      {
+        "h": "Sin suscripción",
+        "body": "<p>Si no hay ninguna suscripción activa, la app funciona en modo pasivo: no retiene ninguna notificación y llegan de inmediato. Tus reglas permanecen en tu teléfono; cuando vuelvas a suscribirte, continuarás donde lo dejaste.</p>"
+      },
+      {
+        "h": "Periodo de pruebas cerradas",
+        "body": "<p>La app se encuentra actualmente en fase de pruebas cerradas en Google Play. Durante la prueba (hasta el 31 de enero de 2027), todas las funciones son gratuitas y no se requiere suscripción. Las versiones de prueba pueden contener errores; si encuentras alguno, escribe a {email} y lo solucionaremos. Finalizado el periodo de prueba, se necesitará una suscripción para continuar; se te informará con antelación en la app y en este sitio.</p>"
+      },
+      {
+        "h": "Tus responsabilidades",
+        "body": "<ul><li>Tú decides qué notificaciones llegan de inmediato y cuáles esperan. Las llamadas y alarmas nunca se retienen; aun así, es tu responsabilidad añadir a la lista de “entregar siempre” las notificaciones importantes para el trabajo, la salud o la seguridad.</li><li>No utilices ha!shh como tu única fuente de alertas de emergencia, salud o seguridad.</li><li>Usa la app de forma legal y únicamente en tu propio dispositivo; no apliques ingeniería inversa, no la copies ni la redistribuyas.</li></ul>"
+      },
+      {
+        "h": "Garantía y responsabilidad",
+        "body": "<p>Desarrollamos y probamos la app con cuidado, pero no podemos garantizar que funcione sin interrupciones ni errores. Tu versión de Android, los ajustes de ahorro de batería del fabricante de tu teléfono o la desactivación de permisos pueden retrasar las notificaciones o hacer que se comporten de forma distinta a la esperada. En la medida en que lo permita la ley aplicable, no nos hacemos responsables de los daños indirectos causados por una notificación perdida o retrasada. Esta limitación no afecta a la responsabilidad por dolo o negligencia grave, ni a tus derechos legales como consumidor.</p>"
+      },
+      {
+        "h": "Propiedad intelectual",
+        "body": "<p>La app, su nombre, su icono y el contenido de este sitio pertenecen al desarrollador. La suscripción te otorga el derecho a usar la app de forma personal; no transfiere la app en sí.</p>"
+      },
+      {
+        "h": "Modificaciones y rescisión",
+        "body": "<p>Si estas condiciones cambian, esta página se actualizará y cambiará la fecha en la parte superior; también anunciaremos los cambios importantes dentro de la app. Puedes dejar de usar la app en cualquier momento desinstalándola; debes cancelar tu suscripción por separado en Google Play.</p>"
+      },
+      {
+        "h": "Ley aplicable",
+        "body": "<p>Estas condiciones se rigen por las leyes de la República de Türkiye. Las normas obligatorias de protección al consumidor del país en el que vives siguen aplicándose. Si surge algún problema, escribe primero a {email} e intentaremos solucionarlo juntos.</p>"
+      }
+    ]
   }
 }
