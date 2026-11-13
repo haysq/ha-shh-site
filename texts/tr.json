@@ -32,9 +32,9 @@
     "theme_light": "Tema: açık",
     "theme_dark": "Tema: koyu",
     "menu": "Menü",
-    "soon_small": "Yakında",
+    "soon_small": "Kapalı test",
     "soon_big": "Google Play'de",
-    "soon_aria": "Google Play'de yakında",
+    "soon_aria": "Google Play'de kapalı testte",
     "chips": [
       {
         "t": "İnternet izni yok"
@@ -84,8 +84,8 @@
   },
   "home": {
     "title": "{brand} · Bildirimler sana göre gelsin",
-    "desc": "Seçtiğin bildirimleri bekletip belirlediğin saatlerde topluca getiren Android uygulaması. İnternet izni yok, her şey telefonda kalır. Geliştiriliyor, Google Play'de yakında.",
-    "eyebrow": "Android · geliştiriliyor",
+    "desc": "Seçtiğin bildirimleri bekletip belirlediğin saatlerde topluca getiren Android uygulaması. İnternet izni yok, her şey telefonda kalır. Google Play'de kapalı testte.",
+    "eyebrow": "Android · kapalı test",
     "h1a": "Bildirimler",
     "h1b": "sana göre gelsin.",
     "lead": "Seçtiğin bildirimleri bekletir; 12:30, 18:00, 21:00 gibi senin belirlediğin saatlerde topluca getirir. Aramalar, alarmlar ve önemli dediğin uygulamalar her zaman hemen gelir.",
@@ -219,8 +219,8 @@
     "priv_more_p": "Ayarlar ve kayıtlar telefonda şifreli tutulur. Bildirim içeriği uygulamada gösterilir ve senin seçtiğin süre boyunca saklanır; banka ödemeleri, kuponlar, harcamalar ve faturalar otomatik arşive girer. Hepsi Ayarlar'dan kapatılabilir ve yalnız sen dosyaya aktarırsan telefondan çıkar. Uygulamayı kaldırınca verileri silinir.",
     "priv_more": "Gizlilik politikasının tamamı →",
     "status_eyebrow": "Durum",
-    "status_h": "Geliştiriliyor, Google Play'de yakında.",
-    "status_p": "Uygulama Android 8 ve üstünde çalışıyor. Adı henüz kesin değil; şimdilik “ha!shh” çalışma adını kullanıyoruz. Google Play'de yayınlanınca bu sayfa güncellenecek.",
+    "status_h": "Google Play'de kapalı testte.",
+    "status_p": "Uygulama Android 8 ve üstünde çalışıyor. Kapalı test süresince (31 Ocak 2027'ye kadar) bütün özellikler ücretsiz açık. Teste katılmak istersen Google hesabının e-posta adresini {email} adresine yaz; seni test listesine ekleyip katılım bağlantısını gönderelim.",
     "news_h": "Son duyurular",
     "news_all": "Tüm duyurular →"
   },
@@ -466,7 +466,7 @@
           },
           {
             "t": "Temalar ve uygulama simgesi",
-            "p": "Kağıt (sıcak krem, varsayılan), Açık (beyaz zemin), Koyu ya da Sistem temasını seç; Sistem, telefon açık moddaysa Kağıt'ı, koyu moddaysa Koyu'yu kullanır. Tema değiştirince ana ekran simgesini de uydurmak isteyip istemediğin sorulur. Android 13 ve üstünde temalı simgeler duvar kağıdının rengini alır. Yeni Gece ve Gündüz temaları yakında.",
+            "p": "Kağıt (sıcak krem, varsayılan), Açık (beyaz zemin), Koyu ya da Sistem temasını seç; Sistem, telefon açık moddaysa Kağıt'ı, koyu moddaysa Koyu'yu kullanır. Tema değiştirince ana ekran simgesini de uydurmak isteyip istemediğin sorulur. Android 13 ve üstünde temalı simgeler duvar kağıdının rengini alır. Gece ve Gündüz temaları da var.",
             "new": "Yeni"
           },
           {
@@ -531,7 +531,7 @@
       },
       {
         "k": "Durum",
-        "v": "Samsung Galaxy S24 ve Android 15 emülatöründe denendi; henüz Google Play'de değil"
+        "v": "Samsung Galaxy S24 ve Android 15 emülatöründe denendi; Google Play'de kapalı testte"
       },
       {
         "k": "Geliştirme",
@@ -543,7 +543,7 @@
     "title": "Gizlilik politikası · {brand}",
     "desc": "Bildirim uygulamasının verileri nasıl ele aldığı: internet izni yok, her şey telefonda şifreli kalır; içerik gösterme, saklama ve otomatik arşiv senin kontrolünde.",
     "h1": "Gizlilik politikası",
-    "updated": "Son güncelleme: 6 Kasım 2026",
+    "updated": "Son güncelleme: 13 Kasım 2026",
     "intro": "Kısaca: Uygulamanın internet izni yoktur ve hiçbir yere bir şey göndermez. Sakladığı her şey telefonunda şifreli durur ve onu yalnız sen görürsün. Bildirim içeriği uygulamada gösterilir ve senin seçtiğin süre boyunca saklanır; banka ödemeleri, kuponlar, harcamalar ve faturalar otomatik arşive girer. Bunların hepsini Ayarlar'dan kapatabilirsin.",
     "sections": [
       {
@@ -600,7 +600,7 @@
       },
       {
         "h": "Verilerini silmek",
-        "body": "<p>Uygulamayı kaldırmak, bütün verilerini telefondan siler. Arşivdeki kayıtları ve geçmişi uygulamanın içinden de silebilirsin.</p>"
+        "body": "<p>Ayarlar → Gizlilik ve veri → Tüm yerel verilerimi sil, uygulamanın telefondaki bütün verilerini (fotoğraflar dahil) geri alınamaz şekilde siler. Uygulamayı kaldırmak da aynısını yapar. Arşivdeki kayıtları ve geçmişi tek tek de silebilirsin.</p>"
       },
       {
         "h": "Bu politikadaki değişiklikler",
@@ -616,7 +616,7 @@
     "items": [
       {
         "q": "Uygulama ne zaman çıkacak?",
-        "a": "Geliştiriliyor. Google Play'de önce kapalı testle yayınlanacak. Henüz tarih yok; bu site güncellenecek."
+        "a": "Google Play'de kapalı testte. Test süresince (31 Ocak 2027'ye kadar) bütün özellikler ücretsiz açık. Katılmak istersen Google hesabının e-posta adresini {email} adresine yaz; seni listeye ekleyip katılım bağlantısını gönderelim. Herkese açık yayın tarihi kapalı test bitince belli olacak."
       },
       {
         "q": "Ne kadar tutacak?",
@@ -664,11 +664,24 @@
   },
   "updates": {
     "title": "Duyurular · {brand}",
-    "desc": "ha!shh'ta neler yeni: Google Play'deki lansmandan önce geliştirme sürümüne gelen yeni özellikler ve düzeltmeler.",
+    "desc": "ha!shh'ta neler yeni: Google Play kapalı test sürümüne gelen yeni özellikler ve düzeltmeler.",
     "h1": "Duyurular",
-    "lead": "ha!shh'ta neler yeni. Uygulama hâlâ geliştiriliyor: burada yazanların hepsi geliştirme sürümünde ve lansmanla birlikte Google Play'e gelecek."
+    "lead": "ha!shh'ta neler yeni. Uygulama Google Play'de kapalı testte; burada yazanlar test sürümünde ve herkese açık yayında da olacak."
   },
   "news": [
+    {
+      "date": "2026-11-13",
+      "h": "Kapalı test başladı: sürüm 1.0.1",
+      "items": [
+        "<b>Kapalı test:</b> ha!shh Google Play'de kapalı testte. Test süresince (31 Ocak 2027'ye kadar) bütün özellikler açık, abonelik sorulmaz. Katılmak istersen Google hesabının e-posta adresini {email} adresine yaz.",
+        "<b>Widget'a dokun:</b> Kadran ve Havuz'da bekleyenler açılır: geniş boyutta liste, küçük boyutta kart; 10 saniye sonra ya da bir dokunuşla widget eski haline döner. Deste'de kartın herhangi bir yerine dokununca bildirim paneli açılır.",
+        "<b>Widget'tan paylaş:</b> Bir bildirimin menüsünden içeriğini seçtiğin uygulamaya iletebilirsin.",
+        "<b>Şimdi göster daha güvenilir:</b> Uygulaması bildirimi silmişse ha!shh kopyasını gösterir; bildirim iki kez gelmez, okundu saydığın geri gelmez. ha!shh'ın kendi bildirimleri kapalıysa kısa bir uyarı çıkar.",
+        "<b>Daha düzgün ekranlar:</b> Bekleyen listeleri geliş saatini gösterir, en yeni üstte. Küçük widget'larda yerleşim düzeldi, Klasik büyük boyutta daha çok satır gösterir. Masa görünümünde ekran açık kalır. Hızlı ayar kutucuğu modu gerçekten değiştirir.",
+        "<b>Gizlilik:</b> İçerik izni kapatılınca bekleyen bildirimlerin başlık kayıtları da hemen silinir.",
+        "<b>Düzeltmeler:</b> Temayla birlikte simgeyi de değiştirince uygulamanın kapanması giderildi; çok bildirim aynı anda gelince donmuyor; uygulama içinden seçilen dil internetsiz ve eski Android sürümlerinde de hemen gelir; bütün metinler 10 dilde."
+      ]
+    },
     {
       "date": "2026-11-06",
       "h": "Yeni widget stilleri ve Çalışma Programı",
@@ -866,7 +879,7 @@
       },
       "setup": {
         "t": "Nasıl kurulur?",
-        "a": "ha!shh henüz Google Play'de değil; çıkınca Play Store'dan kurulacak. İlk açılışta bildirimleri bekletebilmesi için bildirim erişimi izni istenir. Ardından “Telefonunu tanıyalım” adımı uygulamalarını gruplara ayırır, sen düzeltirsin; sonunda kimin hemen geleceğini, kimin bekleyeceğini görürsün. Teslim saatlerini istediğin zaman değiştirebilirsin.",
+        "a": "ha!shh Google Play'de kapalı testte; teste katılınca Play Store'dan kurarsın (katılmak için {email} adresine yaz). İlk açılışta bildirim erişimi istenir ve bildirim içeriğinin gösterilmesi için onayın sorulur. Ardından dört soru gelir: ne zaman rahatsız edilmek istemediğin, kimin her zaman ulaşacağı, kalanları nasıl görmek istediğin ve gece seni neyin uyandırabileceği. Teslim saatlerini istediğin zaman değiştirebilirsin.",
         "url": "features/",
         "q": "nasıl kurulur|kurulum|nasıl indiririm|indir|yükle|nereden bulurum|nasıl başlarım|ilk açılış"
       },

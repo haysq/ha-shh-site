@@ -32,9 +32,9 @@
     "theme_light": "Tema: claro",
     "theme_dark": "Tema: escuro",
     "menu": "Menu",
-    "soon_small": "Em breve",
+    "soon_small": "Teste fechado",
     "soon_big": "no Google Play",
-    "soon_aria": "Em breve no Google Play",
+    "soon_aria": "Em teste fechado no Google Play",
     "chips": [
       {
         "t": "Sem permissão de internet"
@@ -84,8 +84,8 @@
   },
   "home": {
     "title": "{brand} · Notificações que se adaptam ao seu dia",
-    "desc": "Um app para Android que guarda as notificações escolhidas e as entrega juntas nos horários que você definir. Sem permissão de internet; tudo fica no seu celular. Em desenvolvimento, em breve no Google Play.",
-    "eyebrow": "Android · em desenvolvimento",
+    "desc": "Um app para Android que guarda as notificações escolhidas e as entrega juntas nos horários que você definir. Sem permissão de internet; tudo fica no seu celular. Em teste fechado no Google Play.",
+    "eyebrow": "Android · teste fechado",
     "h1a": "Notificações que",
     "h1b": "se adaptam ao seu dia.",
     "lead": "Ele guarda as notificações que você escolher e as entrega juntas nos horários que você definir, como 12:30, 18:00 e 21:00. Ligações, alarmes e os apps marcados como importantes sempre chegam na hora.",
@@ -219,8 +219,8 @@
     "priv_more_p": "Configurações e registros são mantidos criptografados no seu celular. O conteúdo das notificações é mostrado no app e guardado pelo tempo que você escolher, e pagamentos bancários, cupons, gastos e contas vão para o arquivo automático. Tudo isso pode ser desativado nas Configurações, e só sai do seu celular se você exportar para um arquivo. Desinstalar o app apaga seus dados.",
     "priv_more": "Leia a política de privacidade completa →",
     "status_eyebrow": "Status",
-    "status_h": "Em desenvolvimento, em breve no Google Play.",
-    "status_p": "O app funciona no Android 8 ou superior. O nome ainda não é definitivo; por enquanto usamos o nome de trabalho “ha!shh”. Esta página será atualizada quando o app estiver no Google Play.",
+    "status_h": "Em teste fechado no Google Play.",
+    "status_p": "O app funciona no Android 8 ou superior. Durante o teste fechado (até 31 de janeiro de 2027), todos os recursos são gratuitos. Para participar do teste, envie o endereço de e-mail da sua conta Google para {email}; adicionaremos você à lista de testadores e enviaremos o link de participação.",
     "news_h": "Últimas atualizações",
     "news_all": "Todas as atualizações →"
   },
@@ -466,7 +466,7 @@
           },
           {
             "t": "Temas e ícone do app",
-            "p": "Escolha Papel (creme quente, o padrão), Claro (branco), Escuro ou Sistema, que usa Papel no modo claro e Escuro no modo escuro. Quando você altera o tema, o app pergunta se deseja aplicar a alteração ao ícone da tela inicial também. No Android 13 e versões posteriores, os ícones com tema adotam a cor do seu papel de parede. Novos temas Noite e Dia chegam em breve.",
+            "p": "Escolha Papel (creme quente, o padrão), Claro (branco), Escuro ou Sistema, que usa Papel no modo claro e Escuro no modo escuro. Quando você altera o tema, o app pergunta se deseja aplicar a alteração ao ícone da tela inicial também. No Android 13 e versões posteriores, os ícones com tema adotam a cor do seu papel de parede. Os temas Noite e Dia também estão disponíveis.",
             "new": "Novo"
           },
           {
@@ -531,7 +531,7 @@
       },
       {
         "k": "Status",
-        "v": "Testado em um Samsung Galaxy S24 e em um emulador do Android 15; ainda não disponível no Google Play"
+        "v": "Testado em um Samsung Galaxy S24 e em um emulador do Android 15; em teste fechado no Google Play"
       },
       {
         "k": "Desenvolvimento",
@@ -543,7 +543,7 @@
     "title": "Política de privacidade · {brand}",
     "desc": "Como o app de notificações lida com os dados: sem permissão de internet, tudo permanece criptografado no seu celular; a exibição de conteúdo, a retenção e o arquivo automático estão sob seu controle.",
     "h1": "Política de privacidade",
-    "updated": "Última atualização: 6 de novembro de 2026",
+    "updated": "Última atualização: 13 de novembro de 2026",
     "intro": "Em resumo: o app não tem permissão de internet e não envia nada para lugar nenhum. Tudo o que ele guarda permanece criptografado no seu celular, e só você vê. O conteúdo das notificações é mostrado no app e guardado pelo tempo que você escolher, e pagamentos bancários, cupons, gastos e contas vão para o arquivo automático. Você pode desativar tudo isso nas Configurações.",
     "sections": [
       {
@@ -600,7 +600,7 @@
       },
       {
         "h": "Exclusão dos seus dados",
-        "body": "<p>Desinstalar o app apaga todos os seus dados do celular. Você também pode apagar itens do arquivo e limpar o histórico dentro do próprio app.</p>"
+        "body": "<p>Configurações → Privacidade e dados → Excluir todos os dados locais apaga permanentemente todos os dados do app no seu celular, fotos incluídas. Desinstalar o app faz o mesmo. Você também pode apagar itens do arquivo e limpar o histórico um por um.</p>"
       },
       {
         "h": "Alterações nesta política",
@@ -616,7 +616,7 @@
     "items": [
       {
         "q": "Quando o app estará disponível?",
-        "a": "Ele está em desenvolvimento. Será lançado no Google Play, começando com um teste fechado. Ainda não há uma data definida; este site será atualizado."
+        "a": "Ele está em teste fechado no Google Play. Durante o teste (até 31 de janeiro de 2027), todos os recursos são gratuitos. Para participar, envie o endereço de e-mail da sua conta Google para {email}; adicionaremos você à lista e enviaremos o link de participação. A data de lançamento público será definida quando o teste fechado terminar."
       },
       {
         "q": "Quanto vai custar?",
@@ -664,11 +664,24 @@
   },
   "updates": {
     "title": "Atualizações · {brand}",
-    "desc": "Novidades no ha!shh: novos recursos e correções na versão de desenvolvimento, antes do lançamento no Google Play.",
+    "desc": "Novidades no ha!shh: novos recursos e correções na versão de teste fechado do Google Play.",
     "h1": "Atualizações",
-    "lead": "Novidades no ha!shh. O app ainda está em desenvolvimento: tudo o que está aqui faz parte da versão de desenvolvimento e chega ao Google Play no lançamento."
+    "lead": "Novidades no ha!shh. O app está em teste fechado no Google Play; tudo o que está aqui faz parte da versão de teste e estará no lançamento público também."
   },
   "news": [
+    {
+      "date": "2026-11-13",
+      "h": "O teste fechado começou: versão 1.0.1",
+      "items": [
+        "<b>Teste fechado:</b> o ha!shh está em teste fechado no Google Play. Durante o teste (até 31 de janeiro de 2027), todos os recursos estão desbloqueados e nenhuma assinatura é solicitada. Para participar, envie o endereço de e-mail da sua conta Google para {email}.",
+        "<b>Toque no widget:</b> No Mostrador e na Piscina, o que está aguardando se abre: uma lista nos tamanhos largos, um cartão nos tamanhos pequenos; após 10 segundos ou com um toque, o widget volta ao normal. No Baralho, tocar em qualquer lugar do cartão abre o painel de notificações.",
+        "<b>Compartilhar pelo widget:</b> No menu de uma notificação, você pode enviar o conteúdo dela para o app que escolher.",
+        "<b>Mostrar agora está mais confiável:</b> Se o app removeu a notificação, o ha!shh exibe uma cópia; uma notificação não chega duas vezes e a que você marcou como lida não volta. Se as notificações do próprio ha!shh estiverem desativadas, um aviso breve é exibido.",
+        "<b>Telas mais organizadas:</b> As listas de espera mostram o horário de chegada, a mais recente no topo. O layout nos widgets pequenos foi corrigido, e o Clássico mostra mais linhas no tamanho grande. A tela permanece ligada no modo mesa. O bloco de configurações rápidas agora realmente muda o modo.",
+        "<b>Privacidade:</b> Ao desativar o acesso ao conteúdo, os títulos salvos das notificações em espera também são excluídos imediatamente.",
+        "<b>Correções:</b> O app não fecha mais ao mudar o ícone junto com o tema; não trava quando muitas notificações chegam ao mesmo tempo; o idioma escolhido no app é aplicado na hora, mesmo offline e em versões mais antigas do Android; todos os textos estão disponíveis em 10 idiomas."
+      ]
+    },
     {
       "date": "2026-11-06",
       "h": "Novos estilos de widget e Programação de trabalho",
@@ -866,7 +879,7 @@
       },
       "setup": {
         "t": "Como faço para configurar?",
-        "a": "O ha!shh ainda não está no Google Play; assim que for lançado, você poderá instalá-lo pela Play Store. Na primeira inicialização, ele pede acesso às notificações, necessário para que possa retê-las. Depois, a configuração reconhece o seu celular: ele organiza seus apps em grupos para você revisar, e no final você vê quem passa direto e quem espera. Você pode alterar os horários de entrega quando quiser.",
+        "a": "O ha!shh está em teste fechado no Google Play; assim que você entrar no teste, você o instala pela Play Store (para participar, escreva para {email}). Na primeira inicialização, ele pede acesso às notificações e seu consentimento para exibir o conteúdo das notificações. Depois, vêm quatro perguntas: quando você não quer ser incomodado, quem sempre pode entrar em contato, como você quer ver o restante e o que pode acordar você à noite. Você pode alterar os horários de entrega quando quiser.",
         "url": "features/",
         "q": "como configurar|configuração|instalar|baixar|onde baixar|como começar|primeiro uso|começar"
       },

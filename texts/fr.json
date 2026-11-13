@@ -32,9 +32,9 @@
     "theme_light": "Thème : clair",
     "theme_dark": "Thème : sombre",
     "menu": "Menu",
-    "soon_small": "Bientôt disponible",
+    "soon_small": "Test fermé",
     "soon_big": "sur Google Play",
-    "soon_aria": "Bientôt disponible sur Google Play",
+    "soon_aria": "En test fermé sur Google Play",
     "chips": [
       {
         "t": "Aucune autorisation Internet"
@@ -84,8 +84,8 @@
   },
   "home": {
     "title": "{brand} · Des notifications adaptées à votre journée",
-    "desc": "Une application Android qui met de côté les notifications de votre choix et vous les transmet groupées aux heures que vous fixez. Aucune autorisation Internet ; tout reste sur votre téléphone. En développement, bientôt disponible sur Google Play.",
-    "eyebrow": "Android · en cours de développement",
+    "desc": "Une application Android qui met de côté les notifications de votre choix et vous les transmet groupées aux heures que vous fixez. Aucune autorisation Internet ; tout reste sur votre téléphone. En test fermé sur Google Play.",
+    "eyebrow": "Android · test fermé",
     "h1a": "Des notifications qui",
     "h1b": "s'adaptent à votre journée.",
     "lead": "Elle retient les notifications de votre choix et vous les livre groupées aux heures que vous définissez, comme 12:30, 18:00 et 21:00. Les appels, alarmes et applications importantes arrivent toujours immédiatement.",
@@ -219,8 +219,8 @@
     "priv_more_p": "Les paramètres et les enregistrements sont conservés chiffrés sur votre téléphone. Le contenu des notifications est affiché dans l'application et conservé aussi longtemps que vous le choisissez, et les paiements bancaires, coupons, dépenses et factures vont dans l'archive automatique. Tout cela peut être désactivé dans Paramètres, et cela ne quitte votre téléphone que si vous l'exportez vers un fichier. La désinstallation de l'application supprime ses données.",
     "priv_more": "Lire toute la politique de confidentialité →",
     "status_eyebrow": "État du projet",
-    "status_h": "En développement, bientôt disponible sur Google Play.",
-    "status_p": "L'application fonctionne sur Android 8 et versions ultérieures. Son nom définitif n'est pas encore fixé ; nous utilisons pour l'instant le titre de travail « ha!shh ». Cette page sera mise à jour dès son arrivée sur Google Play.",
+    "status_h": "En test fermé sur Google Play.",
+    "status_p": "L'application fonctionne sur Android 8 et versions ultérieures. Pendant le test fermé (jusqu'au 31 janvier 2027), toutes les fonctionnalités sont gratuites. Pour rejoindre le test, envoyez l'adresse e-mail de votre compte Google à {email} ; nous vous ajouterons à la liste des testeurs et vous enverrons le lien pour participer.",
     "news_h": "Dernières nouveautés",
     "news_all": "Toutes les nouveautés →"
   },
@@ -466,7 +466,7 @@
           },
           {
             "t": "Thèmes et icône de l'application",
-            "p": "Choisissez Papier (crème chaud, par défaut), Clair (blanc), Sombre ou Système, qui utilise Papier en mode clair et Sombre en mode sombre. Lorsque vous changez de thème, l'application vous demande si vous souhaitez également adapter l'icône de l'écran d'accueil. Sous Android 13 et versions ultérieures, les icônes thématiques adoptent la couleur de votre fond d'écran. De nouveaux thèmes Nuit et Jour arrivent bientôt.",
+            "p": "Choisissez Papier (crème chaud, par défaut), Clair (blanc), Sombre ou Système, qui utilise Papier en mode clair et Sombre en mode sombre. Lorsque vous changez de thème, l'application vous demande si vous souhaitez également adapter l'icône de l'écran d'accueil. Sous Android 13 et versions ultérieures, les icônes thématiques adoptent la couleur de votre fond d'écran. Les thèmes Nuit et Jour sont également disponibles.",
             "new": "Nouveau"
           },
           {
@@ -531,7 +531,7 @@
       },
       {
         "k": "Statut",
-        "v": "Testé sur un Samsung Galaxy S24 et un émulateur Android 15 ; pas encore sur Google Play"
+        "v": "Testé sur un Samsung Galaxy S24 et un émulateur Android 15 ; en test fermé sur Google Play"
       },
       {
         "k": "Développement",
@@ -543,7 +543,7 @@
     "title": "Politique de confidentialité · {brand}",
     "desc": "Comment l'application de notification traite les données : aucune autorisation internet, tout reste chiffré sur votre téléphone ; l'affichage du contenu, sa conservation et l'archive automatique sont sous votre contrôle.",
     "h1": "Politique de confidentialité",
-    "updated": "Dernière mise à jour : 6 novembre 2026",
+    "updated": "Dernière mise à jour : 13 novembre 2026",
     "intro": "En résumé : l'application n'a aucune autorisation internet et n'envoie rien nulle part. Tout ce qu'elle conserve reste chiffré sur votre téléphone, et vous seul le voyez. Le contenu des notifications est affiché dans l'application et conservé aussi longtemps que vous le choisissez, et les paiements bancaires, coupons, dépenses et factures vont dans l'archive automatique. Vous pouvez désactiver tout cela dans Paramètres.",
     "sections": [
       {
@@ -600,7 +600,7 @@
       },
       {
         "h": "Suppression de vos données",
-        "body": "<p>La désinstallation de l'application supprime l'intégralité de ses données du téléphone. Vous pouvez également supprimer des éléments de l'archive et effacer l'historique directement dans l'application.</p>"
+        "body": "<p>Paramètres → Confidentialité et données → Supprimer toutes mes données locales supprime définitivement toutes les données de l'application sur votre téléphone, photos comprises. Désinstaller l'application produit le même effet. Vous pouvez également supprimer des éléments de l'archive et l'historique un par un.</p>"
       },
       {
         "h": "Modifications de cette politique",
@@ -616,7 +616,7 @@
     "items": [
       {
         "q": "Quand l'application sera-t-elle disponible ?",
-        "a": "Elle est en cours de développement. Elle sortira sur Google Play, en commençant par un test fermé. Il n'y a pas encore de date fixée ; ce site sera mis à jour."
+        "a": "Elle est en test fermé sur Google Play. Pendant le test (jusqu'au 31 janvier 2027), toutes les fonctionnalités sont gratuites. Pour participer, envoyez l'adresse e-mail de votre compte Google à {email} ; nous vous ajouterons à la liste et vous enverrons le lien pour rejoindre. La date de sortie publique sera fixée à la fin du test fermé."
       },
       {
         "q": "Combien cela coûtera-t-il ?",
@@ -664,11 +664,24 @@
   },
   "updates": {
     "title": "Mises à jour · {brand}",
-    "desc": "Les nouveautés de ha!shh : nouvelles fonctionnalités et correctifs de la version de développement, avant le lancement sur Google Play.",
+    "desc": "Les nouveautés de ha!shh : nouvelles fonctionnalités et correctifs de la version de test fermé sur Google Play.",
     "h1": "Mises à jour",
-    "lead": "Les nouveautés de ha!shh. L'application est encore en développement : tout ce qui figure ici fait partie de la version de développement et sera disponible sur Google Play lors du lancement."
+    "lead": "Les nouveautés de ha!shh. L'application est en test fermé sur Google Play ; tout ce qui figure ici fait partie de la version de test et sera également disponible lors du lancement public."
   },
   "news": [
+    {
+      "date": "2026-11-13",
+      "h": "Le test fermé a commencé : version 1.0.1",
+      "items": [
+        "<b>Test fermé :</b> ha!shh est en test fermé sur Google Play. Pendant le test (jusqu'au 31 janvier 2027), toutes les fonctionnalités sont débloquées et aucun abonnement n'est demandé. Pour participer, envoyez l'adresse e-mail de votre compte Google à {email}.",
+        "<b>Appuyez sur le widget :</b> Dans Cadran et Bassin, les éléments en attente s'ouvrent : une liste aux formats larges, une carte aux petits formats ; après 10 secondes ou un simple toucher, le widget revient à la normale. Dans Paquet, toucher n'importe où sur la carte ouvre le panneau de notifications.",
+        "<b>Partager depuis le widget :</b> Depuis le menu d'une notification, vous pouvez envoyer son contenu vers l'application de votre choix.",
+        "<b>« Afficher maintenant » est plus fiable :</b> Si l'application a supprimé sa notification, ha!shh en affiche une copie ; une notification n'arrive pas deux fois et celle marquée comme lue ne réapparaît pas. Si les propres notifications de ha!shh sont désactivées, un bref avertissement s'affiche.",
+        "<b>Des écrans plus nets :</b> Les listes d'attente affichent l'heure d'arrivée, la plus récente en haut. La disposition sur les petits widgets a été corrigée, et Classique affiche davantage de lignes au grand format. L'écran reste allumé en vue bureau. La tuile des paramètres rapides change véritablement de mode.",
+        "<b>Confidentialité :</b> Lorsque vous désactivez l'accès au contenu, les titres enregistrés des notifications en attente sont également supprimés sur-le-champ.",
+        "<b>Correctifs :</b> L'application ne se ferme plus lorsque vous changez l'icône en même temps que le thème ; elle ne se fige plus lors de l'arrivée simultanée de nombreuses notifications ; une langue choisie dans l'application s'applique immédiatement, hors ligne et sur les anciennes versions d'Android ; l'ensemble des textes est disponible en 10 langues."
+      ]
+    },
     {
       "date": "2026-11-06",
       "h": "Nouveaux styles de widget et Horaires de travail",
@@ -866,7 +879,7 @@
       },
       "setup": {
         "t": "Comment le configurer ?",
-        "a": "ha!shh n'est pas encore sur Google Play ; dès sa disponibilité, vous pourrez l'installer depuis le Play Store. Au premier lancement, l'application demande l'accès aux notifications, indispensable pour les mettre en attente. Ensuite, la configuration apprend à connaître votre téléphone : elle organise vos applications en groupes que vous pouvez ajuster, et vous voyez à la fin lesquelles passent directement et lesquelles attendent. Vous pouvez modifier les heures de distribution quand vous le souhaitez.",
+        "a": "ha!shh est en test fermé sur Google Play ; dès que vous rejoignez le test, vous l'installez depuis le Play Store (pour participer, écrivez à {email}). Au premier lancement, l'application demande l'accès aux notifications et votre consentement pour afficher le contenu des notifications. Viennent ensuite quatre questions : quand vous ne souhaitez pas être dérangé, qui peut toujours vous joindre, comment vous voulez voir le reste et ce qui peut vous réveiller la nuit. Vous pouvez modifier les heures de distribution quand vous le souhaitez.",
         "url": "features/",
         "q": "comment configurer|configuration|installer|télécharger|où la trouver|comment commencer|premier lancement|démarrer"
       },

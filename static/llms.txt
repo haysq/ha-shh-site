@@ -1,6 +1,6 @@
 # ha!shh (working name; final name not chosen yet)
 
-> Offline Android app in development that holds the notifications the user chooses and delivers them together at times the user sets. Calls, alarms, reminders and apps the user marks as important always come through. No internet permission. Developed by Seçkin Çelik, Karabük, Türkiye. Contact: hey@ha-shh.com
+> Offline Android app (in closed testing on Google Play) that holds the notifications the user chooses and delivers them together at times the user sets. Calls, alarms, reminders and apps the user marks as important always come through. No internet permission. Developed by Seçkin Çelik, Karabük, Türkiye. Contact: hey@ha-shh.com
 
 ## Pages (10 languages: en, tr, ar, de, es, fr, hi, id, pt, ru)
 - Home: https://ha-shh.com/en/
@@ -10,7 +10,7 @@
 - Other languages: replace /en/ with /tr/, /ar/, /de/, /es/, /fr/, /hi/, /id/, /pt/ or /ru/.
 
 ## Status
-- Development build 0.89; not yet published on Google Play.
+- Version 1.0.1 (package com.hashh.app) in closed testing on Google Play; all features unlocked during the test (until 31 January 2027). To join, email hey@ha-shh.com with your Google account address.
 - Tested on a Samsung Galaxy S24 and an Android 15 emulator.
 
 ## Product

@@ -32,9 +32,9 @@
     "theme_light": "Tema: terang",
     "theme_dark": "Tema: gelap",
     "menu": "Menu",
-    "soon_small": "Segera hadir",
+    "soon_small": "Pengujian tertutup",
     "soon_big": "di Google Play",
-    "soon_aria": "Segera hadir di Google Play",
+    "soon_aria": "Dalam pengujian tertutup di Google Play",
     "chips": [
       {
         "t": "Tanpa izin internet"
@@ -84,8 +84,8 @@
   },
   "home": {
     "title": "{brand} · Notifikasi yang sesuai dengan hari Anda",
-    "desc": "Aplikasi Android yang menahan notifikasi pilihan Anda dan mengirimkannya bersamaan pada waktu yang ditentukan. Tanpa izin internet; semua tetap berada di ponsel Anda. Sedang dikembangkan, segera hadir di Google Play.",
-    "eyebrow": "Android · dalam pengembangan",
+    "desc": "Aplikasi Android yang menahan notifikasi pilihan Anda dan mengirimkannya bersamaan pada waktu yang ditentukan. Tanpa izin internet; semua tetap berada di ponsel Anda. Dalam pengujian tertutup di Google Play.",
+    "eyebrow": "Android · pengujian tertutup",
     "h1a": "Notifikasi yang",
     "h1b": "sesuai dengan hari Anda.",
     "lead": "Aplikasi ini menahan notifikasi pilihan Anda dan mengirimkannya bersamaan pada waktu yang Anda atur, seperti 12:30, 18:00, dan 21:00. Panggilan, alarm, serta aplikasi yang Anda tandai penting akan selalu masuk langsung.",
@@ -219,8 +219,8 @@
     "priv_more_p": "Pengaturan dan catatan disimpan terenkripsi di ponsel Anda. Isi notifikasi ditampilkan di dalam aplikasi dan disimpan selama yang Anda pilih, dan pembayaran bank, kupon, pengeluaran, serta tagihan masuk ke arsip otomatis. Semua ini dapat dinonaktifkan di Pengaturan, dan hanya keluar dari ponsel Anda jika Anda mengekspornya ke file. Mencopot pemasangan aplikasi akan menghapus datanya.",
     "priv_more": "Baca kebijakan privasi selengkapnya →",
     "status_eyebrow": "Status",
-    "status_h": "Sedang dikembangkan, segera hadir di Google Play.",
-    "status_p": "Aplikasi ini berjalan di Android 8 ke atas. Namanya belum final; untuk saat ini kami menggunakan nama kerja “ha!shh”. Halaman ini akan diperbarui ketika aplikasi sudah tersedia di Google Play.",
+    "status_h": "Dalam pengujian tertutup di Google Play.",
+    "status_p": "Aplikasi ini berjalan di Android 8 ke atas. Selama pengujian tertutup (hingga 31 Januari 2027), semua fitur gratis. Untuk bergabung dalam pengujian, kirimkan alamat email akun Google Anda ke {email}; kami akan menambahkan Anda ke daftar penguji dan mengirimkan tautan untuk bergabung.",
     "news_h": "Pembaruan terbaru",
     "news_all": "Semua pembaruan →"
   },
@@ -466,7 +466,7 @@
           },
           {
             "t": "Tema dan ikon aplikasi",
-            "p": "Pilih Kertas (krem hangat, default), Terang (putih), Gelap, atau Sistem, yang menggunakan Kertas dalam mode terang dan Gelap dalam mode gelap. Saat Anda mengubah tema, aplikasi akan menanyakan apakah ingin menyesuaikan ikon layar utama juga. Di Android 13 dan versi lebih baru, ikon bertema akan mengikuti warna wallpaper Anda. Tema Malam dan Siang baru akan segera hadir.",
+            "p": "Pilih Kertas (krem hangat, default), Terang (putih), Gelap, atau Sistem, yang menggunakan Kertas dalam mode terang dan Gelap dalam mode gelap. Saat Anda mengubah tema, aplikasi akan menanyakan apakah ingin menyesuaikan ikon layar utama juga. Di Android 13 dan versi lebih baru, ikon bertema akan mengikuti warna wallpaper Anda. Tema Malam dan Siang juga tersedia.",
             "new": "Baru"
           },
           {
@@ -531,7 +531,7 @@
       },
       {
         "k": "Status",
-        "v": "Diuji pada Samsung Galaxy S24 dan emulator Android 15; belum ada di Google Play"
+        "v": "Diuji pada Samsung Galaxy S24 dan emulator Android 15; dalam pengujian tertutup di Google Play"
       },
       {
         "k": "Pengembangan",
@@ -543,7 +543,7 @@
     "title": "Kebijakan privasi · {brand}",
     "desc": "Cara aplikasi notifikasi menangani data: tanpa izin internet, semuanya tetap terenkripsi di ponsel Anda; tampilan isi, penyimpanan, dan arsip otomatis berada di bawah kendali Anda.",
     "h1": "Kebijakan privasi",
-    "updated": "Terakhir diperbarui: 6 November 2026",
+    "updated": "Terakhir diperbarui: 13 November 2026",
     "intro": "Singkatnya: aplikasi ini tidak memiliki izin internet dan tidak mengirim apa pun ke mana pun. Semua yang disimpannya tetap terenkripsi di ponsel Anda, dan hanya Anda yang melihatnya. Isi notifikasi ditampilkan di dalam aplikasi dan disimpan selama yang Anda pilih, dan pembayaran bank, kupon, pengeluaran, serta tagihan masuk ke arsip otomatis. Anda dapat menonaktifkan semua ini di Pengaturan.",
     "sections": [
       {
@@ -600,7 +600,7 @@
       },
       {
         "h": "Menghapus data Anda",
-        "body": "<p>Menghapus instalan aplikasi akan menghapus semua datanya dari ponsel. Anda juga dapat menghapus item arsip dan membersihkan riwayat di dalam aplikasi.</p>"
+        "body": "<p>Pengaturan → Privasi dan data → Hapus semua data lokal saya menghapus secara permanen semua data aplikasi di ponsel Anda, termasuk foto. Menghapus instalan aplikasi melakukan hal yang sama. Anda juga dapat menghapus item arsip dan membersihkan riwayat satu per satu.</p>"
       },
       {
         "h": "Perubahan pada kebijakan ini",
@@ -616,7 +616,7 @@
     "items": [
       {
         "q": "Kapan aplikasi ini akan tersedia?",
-        "a": "Aplikasi sedang dalam pengembangan. Aplikasi akan dirilis di Google Play, dimulai dengan pengujian tertutup. Belum ada tanggal pasti; situs ini akan diperbarui."
+        "a": "Aplikasi berada dalam pengujian tertutup di Google Play. Selama pengujian (hingga 31 Januari 2027), semua fitur gratis. Untuk bergabung, kirimkan alamat email akun Google Anda ke {email}; kami akan menambahkan Anda ke daftar dan mengirimkan tautan untuk bergabung. Tanggal rilis publik akan ditentukan setelah pengujian tertutup selesai."
       },
       {
         "q": "Berapa biayanya?",
@@ -664,11 +664,24 @@
   },
   "updates": {
     "title": "Pembaruan · {brand}",
-    "desc": "Yang baru di ha!shh: fitur baru dan perbaikan dalam versi pengembangan, sebelum peluncuran di Google Play.",
+    "desc": "Yang baru di ha!shh: fitur baru dan perbaikan dalam versi pengujian tertutup Google Play.",
     "h1": "Pembaruan",
-    "lead": "Yang baru di ha!shh. Aplikasi ini masih dalam tahap pengembangan: semua yang ada di sini berada dalam versi pengembangan dan akan hadir di Google Play saat peluncuran."
+    "lead": "Yang baru di ha!shh. Aplikasi ini berada dalam pengujian tertutup di Google Play; semua yang ada di sini berada dalam versi pengujian dan juga akan hadir dalam rilis publik."
   },
   "news": [
+    {
+      "date": "2026-11-13",
+      "h": "Pengujian tertutup telah dimulai: versi 1.0.1",
+      "items": [
+        "<b>Pengujian tertutup:</b> ha!shh sedang dalam pengujian tertutup di Google Play. Selama pengujian (hingga 31 Januari 2027), semua fitur terbuka dan tidak memerlukan langganan. Untuk bergabung, kirimkan alamat email akun Google Anda ke {email}.",
+        "<b>Ketuk widget:</b> Di Dial dan Kolam, apa yang menunggu akan terbuka: daftar dalam ukuran lebar, kartu dalam ukuran kecil; setelah 10 detik atau sekali ketuk, widget kembali normal. Di Tumpukan, mengetuk di bagian mana saja pada kartu akan membuka panel notifikasi.",
+        "<b>Membagikan dari widget:</b> Dari menu notifikasi, Anda dapat mengirimkan kontennya ke aplikasi pilihan Anda.",
+        "<b>Tampilkan sekarang lebih andal:</b> Jika aplikasi menghapus notifikasinya, ha!shh menampilkan salinannya; notifikasi tidak akan masuk dua kali, dan notifikasi yang telah Anda tandai sebagai telah dibaca tidak akan muncul kembali. Jika notifikasi ha!shh sendiri nonaktif, peringatan singkat akan muncul.",
+        "<b>Layar lebih rapi:</b> Daftar tunggu menampilkan waktu kedatangan, yang terbaru di atas. Tata letak pada widget kecil telah diperbaiki, dan Klasik menampilkan lebih banyak baris pada ukuran besar. Layar tetap menyala dalam tampilan meja. Kartu setelan cepat benar-benar mengubah mode.",
+        "<b>Privasi:</b> Saat Anda mematikan akses konten, judul notifikasi menunggu yang tersimpan juga akan langsung dihapus.",
+        "<b>Perbaikan:</b> Aplikasi tidak lagi tertutup saat Anda mengubah ikon bersamaan dengan tema; tidak macet saat banyak notifikasi datang bersamaan; bahasa yang dipilih dalam aplikasi langsung diterapkan, secara offline dan pada versi Android lama; semua teks tersedia dalam 10 bahasa."
+      ]
+    },
     {
       "date": "2026-11-06",
       "h": "Gaya widget baru dan Jadwal Kerja",
@@ -866,7 +879,7 @@
       },
       "setup": {
         "t": "Bagaimana cara mengaturnya?",
-        "a": "ha!shh belum tersedia di Google Play; setelah hadir nanti, Anda dapat memasangnya dari Play Store. Saat pertama kali dibuka, aplikasi akan meminta izin akses notifikasi yang dibutuhkan untuk menahan notifikasi. Selanjutnya, proses penyiapan akan mengenali ponsel Anda: aplikasi Anda akan dikelompokkan agar bisa Anda sesuaikan, dan di akhir Anda dapat melihat siapa saja yang langsung masuk dan siapa yang ditahan. Anda dapat mengubah jadwal pengiriman kapan saja.",
+        "a": "ha!shh sedang dalam pengujian tertutup di Google Play; setelah Anda bergabung dalam pengujian, Anda memasangnya dari Play Store (untuk bergabung, kirim email ke {email}). Saat pertama kali dibuka, aplikasi akan meminta izin akses notifikasi dan persetujuan Anda untuk menampilkan konten notifikasi. Selanjutnya ada empat pertanyaan: kapan Anda tidak ingin diganggu, siapa yang selalu dapat menghubungi Anda, bagaimana Anda ingin melihat sisanya, dan apa yang boleh membangunkan Anda di malam hari. Anda dapat mengubah jadwal pengiriman kapan saja.",
         "url": "features/",
         "q": "cara mengatur|pengaturan|pasang|unduh|download|di mana dapatnya|cara mulai|mulai"
       },

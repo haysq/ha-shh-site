@@ -32,9 +32,9 @@
     "theme_light": "Design: Hell",
     "theme_dark": "Design: Dunkel",
     "menu": "Menü",
-    "soon_small": "Demnächst",
+    "soon_small": "Geschlossener Test",
     "soon_big": "auf Google Play",
-    "soon_aria": "Demnächst auf Google Play",
+    "soon_aria": "Im geschlossenen Test auf Google Play",
     "chips": [
       {
         "t": "Keine Internetberechtigung"
@@ -84,8 +84,8 @@
   },
   "home": {
     "title": "{brand} · Benachrichtigungen, die zu deinem Tag passen",
-    "desc": "Eine Android-App, die ausgewählte Benachrichtigungen sammelt und gebündelt zu deinen Wunschzeiten zustellt. Keine Internetberechtigung – alles bleibt auf deinem Smartphone. In Entwicklung, demnächst auf Google Play.",
-    "eyebrow": "Android · in Entwicklung",
+    "desc": "Eine Android-App, die ausgewählte Benachrichtigungen sammelt und gebündelt zu deinen Wunschzeiten zustellt. Keine Internetberechtigung – alles bleibt auf deinem Smartphone. Im geschlossenen Test auf Google Play.",
+    "eyebrow": "Android · geschlossener Test",
     "h1a": "Benachrichtigungen, die zu",
     "h1b": "deinem Tag passen.",
     "lead": "Sie hält ausgewählte Benachrichtigungen zurück und stellt sie gebündelt zu Zeiten zu, die du festlegst – etwa um 12:30, 18:00 und 21:00 Uhr. Anrufe, Wecker und Apps, die du als wichtig markierst, kommen immer sofort durch.",
@@ -219,8 +219,8 @@
     "priv_more_p": "Einstellungen und Einträge werden verschlüsselt auf deinem Telefon aufbewahrt. Benachrichtigungsinhalte werden in der App angezeigt und so lange behalten, wie du möchtest, und Bankzahlungen, Gutscheine, Ausgaben und Rechnungen wandern ins automatische Archiv. All das lässt sich in den Einstellungen ausschalten und verlässt dein Telefon nur, wenn du es in eine Datei exportierst. Durch die Deinstallation der App werden ihre Daten gelöscht.",
     "priv_more": "Vollständige Datenschutzerklärung lesen →",
     "status_eyebrow": "Status",
-    "status_h": "In Entwicklung, demnächst auf Google Play.",
-    "status_p": "Die App läuft auf Android 8 und neuer. Ihr endgültiger Name steht noch nicht fest; vorerst nutzen wir den Arbeitstitel „ha!shh“. Diese Seite wird aktualisiert, sobald die App auf Google Play verfügbar ist.",
+    "status_h": "Im geschlossenen Test auf Google Play.",
+    "status_p": "Die App läuft auf Android 8 und neuer. Während des geschlossenen Tests (bis 31. Januar 2027) sind alle Funktionen kostenlos freigeschaltet. Wenn du am Test teilnehmen möchtest, sende die E-Mail-Adresse deines Google-Kontos an {email}; wir tragen dich in die Testerliste ein und senden dir den Zugangslink.",
     "news_h": "Neueste Updates",
     "news_all": "Alle Updates →"
   },
@@ -466,7 +466,7 @@
           },
           {
             "t": "Designs und App-Symbol",
-            "p": "Wähle Papier (warmes Creme, die Standardeinstellung), Hell (Weiß), Dunkel oder System, das im hellen Modus Papier und im dunklen Modus Dunkel verwendet. Wenn du das Design änderst, fragt die App, ob auch das Startbildschirmsymbol angepasst werden soll. Ab Android 13 übernehmen themenbezogene Symbole die Farbe deines Hintergrundbilds. Neue Nacht- und Tag-Designs kommen bald.",
+            "p": "Wähle Papier (warmes Creme, die Standardeinstellung), Hell (Weiß), Dunkel oder System, das im hellen Modus Papier und im dunklen Modus Dunkel verwendet. Wenn du das Design änderst, fragt die App, ob auch das Startbildschirmsymbol angepasst werden soll. Ab Android 13 übernehmen themenbezogene Symbole die Farbe deines Hintergrundbilds. Nacht- und Tag-Designs sind ebenfalls verfügbar.",
             "new": "Neu"
           },
           {
@@ -531,7 +531,7 @@
       },
       {
         "k": "Status",
-        "v": "Getestet auf einem Samsung Galaxy S24 und einem Android 15-Emulator; noch nicht auf Google Play"
+        "v": "Getestet auf einem Samsung Galaxy S24 und einem Android 15-Emulator; im geschlossenen Test auf Google Play"
       },
       {
         "k": "Entwicklung",
@@ -543,7 +543,7 @@
     "title": "Datenschutzerklärung · {brand}",
     "desc": "Wie die Benachrichtigungs-App mit Daten umgeht: keine Internetberechtigung, alles bleibt verschlüsselt auf deinem Telefon; Inhaltsanzeige, Aufbewahrungsdauer und das automatische Archiv stehen unter deiner Kontrolle.",
     "h1": "Datenschutzerklärung",
-    "updated": "Zuletzt aktualisiert: 6. November 2026",
+    "updated": "Zuletzt aktualisiert: 13. November 2026",
     "intro": "Kurz gesagt: Die App hat keine Internetberechtigung und sendet nichts irgendwohin. Alles, was sie behält, bleibt verschlüsselt auf deinem Telefon und nur du siehst es. Benachrichtigungsinhalte werden in der App angezeigt und so lange behalten, wie du möchtest, und Bankzahlungen, Gutscheine, Ausgaben und Rechnungen wandern ins automatische Archiv. Du kannst all das in den Einstellungen ausschalten.",
     "sections": [
       {
@@ -600,7 +600,7 @@
       },
       {
         "h": "Löschen deiner Daten",
-        "body": "<p>Durch die Deinstallation der App werden alle zugehörigen Daten restlos vom Telefon gelöscht. Du kannst Archiveinträge und den Verlauf auch direkt in der App löschen.</p>"
+        "body": "<p>Einstellungen → Datenschutz und Daten → Alle lokalen Daten löschen löscht alle Daten der App auf deinem Telefon unwiderruflich, einschließlich Fotos. Durch die Deinstallation der App erreichst du dasselbe. Du kannst Archiveinträge und den Verlauf auch einzeln löschen.</p>"
       },
       {
         "h": "Änderungen dieser Erklärung",
@@ -616,7 +616,7 @@
     "items": [
       {
         "q": "Wann wird die App verfügbar sein?",
-        "a": "Sie befindet sich in Entwicklung. Die Veröffentlichung erfolgt auf Google Play, beginnend mit einem geschlossenen Test. Es gibt noch kein festes Datum; diese Seite wird aktualisiert."
+        "a": "Die App befindet sich im geschlossenen Test auf Google Play. Während des Tests (bis 31. Januar 2027) sind alle Funktionen kostenlos freigeschaltet. Wenn du teilnehmen möchtest, sende die E-Mail-Adresse deines Google-Kontos an {email}; wir tragen dich in die Liste ein und senden dir den Zugangslink. Das Datum der öffentlichen Veröffentlichung wird festgelegt, sobald der geschlossene Test endet."
       },
       {
         "q": "Wie viel wird es kosten?",
@@ -664,11 +664,24 @@
   },
   "updates": {
     "title": "Updates · {brand}",
-    "desc": "Was es Neues in ha!shh gibt: neue Funktionen und Fehlerbehebungen in der Entwicklungsversion vor dem Start auf Google Play.",
+    "desc": "Was es Neues in ha!shh gibt: neue Funktionen und Fehlerbehebungen in der Version des geschlossenen Tests auf Google Play.",
     "h1": "Updates",
-    "lead": "Was es Neues in ha!shh gibt. Die App ist noch in der Entwicklung: Alles hier ist in der Entwicklungsversion enthalten und kommt zum Start zu Google Play."
+    "lead": "Was es Neues in ha!shh gibt. Die App befindet sich im geschlossenen Test auf Google Play; alles hier ist in der Testversion enthalten und wird auch in der öffentlichen Veröffentlichung sein."
   },
   "news": [
+    {
+      "date": "2026-11-13",
+      "h": "Geschlossener Test gestartet: Version 1.0.1",
+      "items": [
+        "<b>Geschlossener Test:</b> ha!shh befindet sich im geschlossenen Test auf Google Play. Während des Tests (bis 31. Januar 2027) sind alle Funktionen freigeschaltet und es wird kein Abonnement verlangt. Um teilzunehmen, sende die E-Mail-Adresse deines Google-Kontos an {email}.",
+        "<b>Tippe auf das Widget:</b> In Zifferblatt und Pool öffnet sich, was wartet: eine Liste bei breiten Größen, eine Karte bei kleinen Größen; nach 10 Sekunden oder einem Tippen kehrt das Widget zum Ausgangszustand zurück. In Stapel öffnet ein Tippen auf eine beliebige Stelle der Karte das Benachrichtigungsfeld.",
+        "<b>Aus dem Widget teilen:</b> Über das Menü einer Benachrichtigung kannst du deren Inhalt an eine App deiner Wahl senden.",
+        "<b>„Jetzt anzeigen“ ist zuverlässiger:</b> Hat die App ihre Benachrichtigung entfernt, zeigt ha!shh eine Kopie; eine Benachrichtigung kommt nicht doppelt an, und eine als gelesen markierte kehrt nicht zurück. Sind die eigenen Benachrichtigungen von ha!shh deaktiviert, erscheint ein kurzer Hinweis.",
+        "<b>Aufgeräumtere Bildschirme:</b> Wartelisten zeigen die Ankunftszeit, die neueste oben. Das Layout bei kleinen Widgets wurde korrigiert, und Klassisch zeigt bei großer Größe mehr Zeilen. Der Bildschirm bleibt in der Schreibtischansicht an. Das Schnelleinstellungs-Feld ändert den Modus nun wirklich.",
+        "<b>Datenschutz:</b> Wenn du den Inhaltszugriff deaktivierst, werden auch die gespeicherten Titel wartender Benachrichtigungen sofort gelöscht.",
+        "<b>Fehlerbehebungen:</b> Die App schließt sich nicht mehr, wenn du das Symbol zusammen mit dem Design änderst; sie friert nicht ein, wenn viele Benachrichtigungen gleichzeitig eintreffen; eine in der App ausgewählte Sprache wird sofort angewendet, auch offline und auf älteren Android-Versionen; alle Texte liegen in 10 Sprachen vor."
+      ]
+    },
     {
       "date": "2026-11-06",
       "h": "Neue Widget-Stile und Arbeitszeitplan",
@@ -866,7 +879,7 @@
       },
       "setup": {
         "t": "Wie richte ich es ein?",
-        "a": "ha!shh gibt es noch nicht bei Google Play; sobald es da ist, installierst du es aus dem Play Store. Beim ersten Start bittet die App um Zugriff auf Benachrichtigungen, um diese zurückhalten zu können. Dann lernt die Einrichtung dein Handy kennen: Sie teilt deine Apps in Gruppen ein, die du anpassen kannst, und am Ende siehst du, wer sofort durchkommt und wer wartet. Du kannst die Zustellzeiten jederzeit ändern.",
+        "a": "ha!shh befindet sich im geschlossenen Test auf Google Play; sobald du dem Test beigetreten bist, installierst du die App aus dem Play Store (schreibe an {email}, um beizutreten). Beim ersten Start bittet die App um Zugriff auf Benachrichtigungen und deine Zustimmung zur Anzeige von Benachrichtigungsinhalten. Danach folgen vier Fragen: wann du nicht gestört werden möchtest, wer dich immer erreichen darf, wie du die übrigen sehen möchtest und was dich nachts wecken darf. Du kannst die Zustellzeiten jederzeit ändern.",
         "url": "features/",
         "q": "wie einrichten|einrichtung|installieren|herunterladen|wo herunterladen|wie starten|erster start|loslegen"
       },

@@ -32,9 +32,9 @@
     "theme_light": "Theme: light",
     "theme_dark": "Theme: dark",
     "menu": "Menu",
-    "soon_small": "Coming soon",
+    "soon_small": "Closed testing",
     "soon_big": "on Google Play",
-    "soon_aria": "Coming soon on Google Play",
+    "soon_aria": "In closed testing on Google Play",
     "chips": [
       {
         "t": "No internet permission"
@@ -84,8 +84,8 @@
   },
   "home": {
     "title": "{brand} · Notifications that fit your day",
-    "desc": "An Android app that holds the notifications you choose and delivers them together at the times you set. No internet permission; everything stays on your phone. In development, coming soon on Google Play.",
-    "eyebrow": "Android · in development",
+    "desc": "An Android app that holds the notifications you choose and delivers them together at the times you set. No internet permission; everything stays on your phone. In closed testing on Google Play.",
+    "eyebrow": "Android · closed testing",
     "h1a": "Notifications that",
     "h1b": "fit your day.",
     "lead": "It holds the notifications you choose and delivers them together at times you set, such as 12:30, 18:00 and 21:00. Calls, alarms and the apps you mark as important always come through right away.",
@@ -219,8 +219,8 @@
     "priv_more_p": "Settings and records are kept encrypted on your phone. Notification content is shown in the app and kept for as long as you choose, and bank payments, coupons, spending and bills go into the automatic archive. All of this can be turned off in Settings, and it only leaves your phone if you export it to a file. Uninstalling the app deletes its data.",
     "priv_more": "Read the full privacy policy →",
     "status_eyebrow": "Status",
-    "status_h": "In development, coming soon on Google Play.",
-    "status_p": "The app runs on Android 8 and later. Its name is not final yet; for now we use the working title “ha!shh”. This page will be updated when the app is on Google Play.",
+    "status_h": "In closed testing on Google Play.",
+    "status_p": "The app runs on Android 8 and later. During closed testing (until 31 January 2027) every feature is free. To join the test, send the email address of your Google account to {email}; we'll add you to the tester list and send you the link to join.",
     "news_h": "Latest updates",
     "news_all": "All updates →"
   },
@@ -466,7 +466,7 @@
           },
           {
             "t": "Themes and app icon",
-            "p": "Choose Paper (warm cream, the default), Light (white), Dark or System, which uses Paper in light mode and Dark in dark mode. When you change the theme, the app asks whether to match the home screen icon too. On Android 13 and later, themed icons take your wallpaper color. New Night and Day themes are coming soon.",
+            "p": "Choose Paper (warm cream, the default), Light (white), Dark or System, which uses Paper in light mode and Dark in dark mode. When you change the theme, the app asks whether to match the home screen icon too. On Android 13 and later, themed icons take your wallpaper color. Night and Day themes are available too.",
             "new": "New"
           },
           {
@@ -531,7 +531,7 @@
       },
       {
         "k": "Status",
-        "v": "Tested on a Samsung Galaxy S24 and an Android 15 emulator; not yet on Google Play"
+        "v": "Tested on a Samsung Galaxy S24 and an Android 15 emulator; in closed testing on Google Play"
       },
       {
         "k": "Development",
@@ -543,7 +543,7 @@
     "title": "Privacy policy · {brand}",
     "desc": "How the notification app handles data: no internet permission, everything stays encrypted on your phone; content display, retention and the automatic archive are under your control.",
     "h1": "Privacy policy",
-    "updated": "Last updated: 6 November 2026",
+    "updated": "Last updated: 13 November 2026",
     "intro": "In short: the app has no internet permission and sends nothing anywhere. Everything it keeps stays encrypted on your phone, and only you see it. Notification content is shown in the app and kept for as long as you choose, and bank payments, coupons, spending and bills go into the automatic archive. You can turn all of this off in Settings.",
     "sections": [
       {
@@ -600,7 +600,7 @@
       },
       {
         "h": "Deleting your data",
-        "body": "<p>Uninstalling the app deletes all of its data from the phone. You can also delete archive items and clear history inside the app.</p>"
+        "body": "<p>Settings → Privacy and data → Delete all my local data permanently deletes all of the app's data on your phone, photos included. Uninstalling the app does the same. You can also delete archive entries and history one by one.</p>"
       },
       {
         "h": "Changes to this policy",
@@ -616,7 +616,7 @@
     "items": [
       {
         "q": "When will the app be available?",
-        "a": "It is in development. It will be released on Google Play, starting with a closed test. There is no date yet; this site will be updated."
+        "a": "It's in closed testing on Google Play. During the test (until 31 January 2027) every feature is free. To join, send the email address of your Google account to {email}; we'll add you to the list and send you the link to join. The public release date will be set when closed testing ends."
       },
       {
         "q": "How much will it cost?",
@@ -664,11 +664,24 @@
   },
   "updates": {
     "title": "Updates · {brand}",
-    "desc": "What's new in ha!shh: new features and fixes in the development build, before the launch on Google Play.",
+    "desc": "What's new in ha!shh: new features and fixes in the Google Play closed-testing version.",
     "h1": "Updates",
-    "lead": "What's new in ha!shh. The app is still in development: everything here is in the development build and comes to Google Play at launch."
+    "lead": "What's new in ha!shh. The app is in closed testing on Google Play; everything here is in the test version and will be in the public release too."
   },
   "news": [
+    {
+      "date": "2026-11-13",
+      "h": "Closed testing has started: version 1.0.1",
+      "items": [
+        "<b>Closed testing:</b> ha!shh is in closed testing on Google Play. During the test (until 31 January 2027) every feature is unlocked and no subscription is asked for. To join, send the email address of your Google account to {email}.",
+        "<b>Tap the widget:</b> In Dial and Pool, what's waiting opens: a list at wide sizes, a card at small sizes; after 10 seconds or one tap the widget returns to normal. In Deck, tapping anywhere on the card opens the notification panel.",
+        "<b>Share from the widget:</b> From a notification's menu you can send its content to an app you choose.",
+        "<b>Show now is more reliable:</b> If the app removed its notification, ha!shh shows a copy; a notification doesn't arrive twice, and one you marked as read doesn't come back. If ha!shh's own notifications are off, a short warning appears.",
+        "<b>Tidier screens:</b> Waiting lists show the arrival time, newest on top. Layout on small widgets is fixed, and Classic shows more rows at the large size. The screen stays on in desk view. The quick settings tile really changes the mode.",
+        "<b>Privacy:</b> When you turn off content access, stored titles of waiting notifications are deleted right away too.",
+        "<b>Fixes:</b> The app no longer closes when you change the icon along with the theme; it doesn't freeze when many notifications arrive at once; a language chosen in the app applies right away, offline and on older Android versions; all text is in 10 languages."
+      ]
+    },
     {
       "date": "2026-11-06",
       "h": "New widget styles and Work Schedule",
@@ -866,7 +879,7 @@
       },
       "setup": {
         "t": "How do I set it up?",
-        "a": "ha!shh is not on Google Play yet; once it is, you install it from the Play Store. On first launch it asks for notification access, which it needs to hold notifications. Then setup gets to know your phone: it sorts your apps into groups for you to correct, and at the end you see who comes through and who waits. You can change delivery times whenever you like.",
+        "a": "ha!shh is in closed testing on Google Play; once you join the test you install it from the Play Store (to join, write to {email}). On first launch it asks for notification access and for your consent to show notification content. Then come four questions: when you don't want to be disturbed, who should always reach you, how you want to see the rest, and what may wake you at night. You can change delivery times whenever you like.",
         "url": "features/",
         "q": "how to set up|setup|install|download|where to get it|how to start|first launch|get started"
       },
